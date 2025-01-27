@@ -11,7 +11,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const title = "Visualisation des législatures françaises";
 const description =
-  "Historique des compositions de l'assemblée nationale depuis 1791";
+  "Historique des compositions de l'Assemblée nationale depuis 1791";
 
 export const metadata: Metadata = {
   title: title,

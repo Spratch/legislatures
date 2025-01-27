@@ -80,7 +80,7 @@ export default function InfosModal({ setInfosVisibility }: Props) {
             <span className="opacity-40">Entre crises et revendications</span>
             <br />
             Les évolutions des courants politiques au sein de l&rsquo;Assemblée
-            Nationale*
+            nationale*
           </h1>
           <div className="col-span-12 md:col-span-5 flex flex-col items-start text-xl md:text-2xl">
             <p className="opacity-75">
@@ -130,7 +130,7 @@ export default function InfosModal({ setInfosVisibility }: Props) {
           </article>
           <article className="col-span-12 sm:col-span-5 py-8 border-b border-black max-w-prose flex flex-col gap-4">
             <p>
-              * Les assemblées ont prit différentes formes et différents noms,
+              * Les assemblées ont pris différentes formes et différents noms,
               les modes de scrutin ont évolué et l&rsquo;Histoire a avancé en
               rendant chaque élection unique par les enjeux politiques et
               sociaux de l&rsquo;époque. Ce site propose une vision synthétique,
@@ -138,7 +138,7 @@ export default function InfosModal({ setInfosVisibility }: Props) {
             </p>
             <p>
               Cependant, des événements marquants sont placés en marge du
-              graphique principal pour contextualiser davantage les résultats.
+              graphique principal pour contextualiser d'avantage les résultats.
               Ces choix ne prétendent pas à l&rsquo;exhaustivité et peuvent
               gagner en pertinence. Vos retours sont les bienvenus.
             </p>
