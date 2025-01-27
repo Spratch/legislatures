@@ -6,7 +6,6 @@ import Chart from "../chart/chart";
 import { CurrentType } from "../../types/current";
 import { EventType } from "../../types/event";
 import { RepublicType } from "../../types/republic";
-import { TooltipProvider } from "../utils/contexts/tooltipContext";
 import { useDetailsContext } from "../utils/contexts/detailsContext";
 import { useEffect, useRef, useState } from "react";
 
@@ -49,15 +48,13 @@ export default function Main({
       >
         {/* Chart */}
         {republics && currents && events && (
-          <TooltipProvider>
-            <Chart
-              republics={republics}
-              currents={currents}
-              events={events}
-              eventsVisibility={eventsVisibility}
-              referenceSize={referenceSize}
-            />
-          </TooltipProvider>
+          <Chart
+            republics={republics}
+            currents={currents}
+            events={events}
+            eventsVisibility={eventsVisibility}
+            referenceSize={referenceSize}
+          />
         )}
 
         {selectedEntity && <EntityDetails />}

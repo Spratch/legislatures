@@ -3,7 +3,6 @@
 import PartyBar from "./partyBar";
 import { LegislatureType } from "../../types/legislature";
 import { ChartDimensions } from "../utils/hooks/useChartDimensions";
-import { useTooltipContext } from "../utils/contexts/tooltipContext";
 import { useVisibleCurrentsContext } from "../utils/contexts/currentsContext";
 import { CurrentType } from "../../types/current";
 import { motion } from "framer-motion";
@@ -11,6 +10,8 @@ import { useTransitionsContext } from "../utils/contexts/transitionsContext";
 import getDate from "../utils/getDate";
 import { useCoalitionsContext } from "../utils/contexts/coalitionsContext";
 import getYear from "../utils/getYear";
+import { useSetAtom } from "jotai";
+import { tooltipContentAtom } from "../utils/contexts/tooltipContext";
 
 type LegislatureProps = {
   leg: LegislatureType;
@@ -80,7 +81,7 @@ export default function Legislature({
     : null;
 
   // Set the hovered party
-  const { setTooltipContent } = useTooltipContext();
+  const setTooltipContent = useSetAtom(tooltipContentAtom);
 
   // Set the motion transition duration
   const transitionDuration = 0.5;

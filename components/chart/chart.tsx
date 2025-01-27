@@ -3,7 +3,7 @@ import { EventType } from "../../types/event";
 import { RepublicType } from "../../types/republic";
 import Tooltip from "../appUi/tooltip";
 import { useDetailsContext } from "../utils/contexts/detailsContext";
-import { useTooltipContext } from "../utils/contexts/tooltipContext";
+import { tooltipContentAtom } from "../utils/contexts/tooltipContext";
 import { useTransitionsContext } from "../utils/contexts/transitionsContext";
 import useChartDimensions from "../utils/hooks/useChartDimensions";
 import Event from "./event";
@@ -11,6 +11,7 @@ import Republic from "./republic";
 import XAxis from "./xAxis";
 import YAxis from "./yAxis";
 import getDate from "../utils/getDate";
+import { useSetAtom } from "jotai";
 
 type Props = {
   republics: RepublicType[];
@@ -67,7 +68,7 @@ export default function Chart({
     : 400;
 
   // Get the tooltip party
-  const { tooltipContent, setTooltipContent } = useTooltipContext();
+  const setTooltipContent = useSetAtom(tooltipContentAtom);
 
   // Set the details content for events
   const { setDetailsContent } = useDetailsContext();
@@ -222,13 +223,10 @@ export default function Chart({
       </div>
 
       {/* Tooltip */}
-      {tooltipContent && (
-        <Tooltip
-          chartWidth={dimensions.width}
-          tooltipContent={tooltipContent}
-          axisLeftPosition={axisLeftPosition}
-        />
-      )}
+      <Tooltip
+        chartWidth={dimensions.width}
+        axisLeftPosition={axisLeftPosition}
+      />
     </div>
   );
 }

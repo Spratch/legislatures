@@ -20,6 +20,7 @@
     "@vercel/speed-insights": "^1.1.0",
     "d3": "^7.9.0",
     "framer-motion": "^11.11.9",
+    "jotai": "^2.11.1",
     "next": "^14.2.6",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
