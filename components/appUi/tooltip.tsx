@@ -2,11 +2,12 @@
 
 import { useEffect, useRef, useState } from "react";
 import { TooltipContentType } from "../../types/tooltipContent";
-import { useTooltipContext } from "../utils/contexts/tooltipContext";
+import { tooltipContentAtom } from "../utils/contexts/tooltipContext";
 import EntityButton from "./entityButton";
 import Badge from "./badge";
 import PercentageButton from "./percentageButton";
 import { useDetailsContext } from "../utils/contexts/detailsContext";
+import { useAtomValue, useSetAtom } from "jotai";
 
 type Props = {
   chartWidth: number;
@@ -14,12 +15,24 @@ type Props = {
   tooltipContent: TooltipContentType;
 };
 
-export default function Tooltip({
+export default function Tooltip(props: Omit<Props, "tooltipContent">) {
+  const tooltipContent = useAtomValue(tooltipContentAtom);
+  if (!tooltipContent) return null;
+
+  return (
+    <TooltipContent
+      {...props}
+      tooltipContent={tooltipContent}
+    />
+  );
+}
+
+export function TooltipContent({
   chartWidth,
   axisLeftPosition,
   tooltipContent
 }: Props) {
-  const { setTooltipContent } = useTooltipContext();
+  const setTooltipContent = useSetAtom(tooltipContentAtom);
   const { setDetailsContent } = useDetailsContext();
   const { y, xStart, xEnd, legislature, party, coalitionDatas } =
     tooltipContent;

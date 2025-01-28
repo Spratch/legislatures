@@ -2,7 +2,17 @@
 
 import { createContext, useContext, useState } from "react";
 import { CurrentType } from "../../../types/current";
+import republicsData from "../../../public/data/republics.json";
+import familiesData from "../../../public/data/currents.json";
+import eventsData from "../../../public/data/events.json";
+import { FamilyType } from "../../../types/family";
 
+export const republics = republicsData.republics;
+export const currents = familiesData.families.flatMap(
+  (family: FamilyType) => family.currents
+);
+export const families = familiesData.families;
+export const events = eventsData.events;
 interface VisibleCurrentsContextType {
   visibleCurrents: CurrentType[] | null;
   setVisibleCurrents: (visibleCurrents: CurrentType[]) => void;
@@ -30,7 +40,7 @@ export const VisibleCurrentsProvider = ({
 }: {
   children: React.ReactNode;
 }) => {
-  const [visibleCurrents, setVisibleCurrents] = useState(null);
+  const [visibleCurrents, setVisibleCurrents] = useState(currents);
 
   return (
     <VisibleCurrentsContext.Provider
