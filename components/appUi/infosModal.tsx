@@ -138,9 +138,9 @@ export default function InfosModal({ setInfosVisibility }: Props) {
             </p>
             <p>
               Cependant, des événements marquants sont placés en marge du
-              graphique principal pour contextualiser d'avantage les résultats.
-              Ces choix ne prétendent pas à l&rsquo;exhaustivité et peuvent
-              gagner en pertinence. Vos retours sont les bienvenus.
+              graphique principal pour contextualiser d&rsquo;avantage les
+              résultats. Ces choix ne prétendent pas à l&rsquo;exhaustivité et
+              peuvent gagner en pertinence. Vos retours sont les bienvenus.
             </p>
           </article>
           <article className="col-span-12 sm:col-span-7 py-8 sm:pb-0  max-w-prose flex flex-col gap-4 border-b border-black sm:border-none">
