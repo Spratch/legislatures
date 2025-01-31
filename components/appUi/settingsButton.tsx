@@ -12,6 +12,7 @@ type SettingsButtonProps = {
   isVisible?: boolean;
   position?: { x: "left" | "right"; y: "top" | "bottom" };
   kbd?: string | string[];
+  straightSide?: "left" | "right" | null;
 };
 
 export default function SettingsButton({
@@ -25,7 +26,8 @@ export default function SettingsButton({
   label,
   isVisible = true,
   position,
-  kbd
+  kbd,
+  straightSide
 }: SettingsButtonProps) {
   useKeyPress(kbd, onClick);
   return (
@@ -43,13 +45,20 @@ export default function SettingsButton({
                     ${Icon && !name ? "size-9 flex-shrink-0" : "h-9 px-3"}
                     ${(number || number === 0) && name ? "pl-1.5 pr-3" : ""}
                     ${!isVisible ? "translate-y-10" : "translate-y-0"}
+                    ${
+                      straightSide === "left"
+                        ? "rounded-l-none pr-0.5"
+                        : straightSide === "right"
+                        ? "rounded-r-none pr-2"
+                        : ""
+                    }
                 `}
         onClick={onClick}
         aria-keyshortcuts={Array.isArray(kbd) ? kbd.join(" ou ") : kbd || ""}
       >
         {(number || number === 0) && (
           <span
-            className={`flex items-center justify-center  group-hover:bg-[var(--family-color)] transition rounded-full text-xs group-hover:text-white size-6
+            className={`flex items-center justify-center group-hover:bg-[var(--family-color)] transition rounded-full text-xs group-hover:text-white size-6
                             ${
                               isActive
                                 ? "bg-[var(--family-color)] text-white group-hover:bg-black/75"

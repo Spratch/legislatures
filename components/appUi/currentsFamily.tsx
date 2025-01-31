@@ -95,6 +95,7 @@ export default function CurrentsFamily({ family, onCurrentClick }: Props) {
           label={`${
             isActive ? "Masquer" : "Afficher"
           } la liste des courants : ${family.name}`}
+          straightSide="right"
         />
         <SettingsButton
           Icon={isFamilyVisible ? EyeOpenIcon : EyeClosedIcon}
@@ -102,6 +103,7 @@ export default function CurrentsFamily({ family, onCurrentClick }: Props) {
           label={`${
             isFamilyVisible ? "Masquer" : "Afficher"
           } tous les courants : ${family.name}`}
+          straightSide="left"
         />
       </div>
       {isActive && (
