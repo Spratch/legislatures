@@ -35,6 +35,11 @@ export default function RootLayout({
           src="https://unpkg.com/react-scan/dist/install-hook.global.js"
           strategy="beforeInteractive"
         />
+        <Script
+          defer
+          src="https://cloud.umami.is/script.js"
+          data-website-id="cc67e312-aaf6-4e72-bf1d-fca4ba4258de"
+        />
       </head>
       <body className="overscroll-none">
         <Monitoring
