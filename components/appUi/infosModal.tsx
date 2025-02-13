@@ -53,7 +53,7 @@ export default function InfosModal({ setInfosVisibility }: Props) {
     <div className="fixed top-0 left-0 w-full h-full p-4 sm:p-8 z-50 bg-black/25 backdrop-blur-sm">
       <div
         ref={infoModalRef}
-        className="bg-white h-full w-full rounded-2xl shadow-lg max-w-screen-xl mx-auto relative overflow-x-scroll"
+        className="bg-white h-full w-full rounded-2xl shadow-lg max-w-screen-xl mx-auto relative overflow-y-scroll"
         role="popover"
       >
         <div className="sticky top-0 flex justify-end w-full p-4 gap-3 bg-gradient-to-b from-white z-50">
