@@ -1066,11 +1066,13 @@
             },
             {
               "name": "ULR",
-              "deputes": 49
+              "deputes": 49,
+              "coalition": "Union des gauches"
             },
             {
               "name": "ANR",
-              "deputes": 179
+              "deputes": 179,
+              "coalition": "Union des gauches"
             },
             {
               "name": "MR",
@@ -1096,6 +1098,10 @@
               "name": "NAT",
               "deputes": 0
             }
+          ],
+          "source": [
+            "https://x.com/lematth88/with_replies",
+            "https://fr.wikipedia.org/wiki/Ve_l%C3%A9gislature_de_la_Troisi%C3%A8me_R%C3%A9publique_fran%C3%A7aise"
           ]
         },
         {
@@ -1131,15 +1137,18 @@
             },
             {
               "name": "RR",
-              "deputes": 92
+              "deputes": 92,
+              "coalition": "Républicains opportunistes"
             },
             {
               "name": "ULR",
-              "deputes": 27
+              "deputes": 27,
+              "coalition": "Républicains opportunistes"
             },
             {
               "name": "ANR",
-              "deputes": 284
+              "deputes": 284,
+              "coalition": "Républicains opportunistes"
             },
             {
               "name": "MR",
@@ -1165,6 +1174,11 @@
               "name": "NA",
               "deputes": 0
             }
+          ],
+          "source": [
+            "https://x.com/lematth88/with_replies",
+            "https://fr.wikipedia.org/wiki/VIe_l%C3%A9gislature_de_la_Troisi%C3%A8me_R%C3%A9publique_fran%C3%A7aise",
+            "https://fr.wikipedia.org/wiki/Groupe_des_r%C3%A9publicains_de_gouvernement"
           ]
         },
         {
@@ -1176,39 +1190,48 @@
           "parties": [
             {
               "name": "PSR",
-              "deputes": 12
+              "deputes": 12,
+              "coalition": "Union socialiste"
             },
             {
               "name": "POSR",
-              "deputes": 0
+              "deputes": 0,
+              "coalition": "Union socialiste"
             },
             {
               "name": "POF",
-              "deputes": 12
+              "deputes": 12,
+              "coalition": "Union socialiste"
             },
             {
               "name": "SI",
-              "deputes": 13
+              "deputes": 13,
+              "coalition": "Union socialiste"
             },
             {
               "name": "RS ",
-              "deputes": 104
+              "deputes": 104,
+              "coalition": "Concentration républicaine"
             },
             {
               "name": "RR",
-              "deputes": 45
+              "deputes": 45,
+              "coalition": "Concentration républicaine"
             },
             {
               "name": "UP ",
-              "deputes": 95
+              "deputes": 95,
+              "coalition": "Concentration républicaine"
             },
             {
               "name": "RP",
-              "deputes": 238
+              "deputes": 238,
+              "coalition": "Droite républicaine"
             },
             {
               "name": "MR",
-              "deputes": 58
+              "deputes": 58,
+              "coalition": "Droite républicaine"
             },
             {
               "name": "M&C",
@@ -1226,6 +1249,11 @@
               "name": "NA",
               "deputes": 23
             }
+          ],
+          "source": [
+            "https://x.com/lematth88/with_replies",
+            "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_fran%C3%A7aises_de_1898#R%C3%A9sultats_d%C3%A9taill%C3%A9s",
+            "https://fr.wikipedia.org/wiki/Groupe_ouvrier_(France)#Composition"
           ]
         },
         {
@@ -1245,19 +1273,23 @@
             },
             {
               "name": "PSF",
-              "deputes": 29
+              "deputes": 29,
+              "coalition": "Bloc des gauches"
             },
             {
               "name": "PRRS",
-              "deputes": 104
+              "deputes": 104,
+              "coalition": "Bloc des gauches"
             },
             {
               "name": "RI ",
-              "deputes": 129
+              "deputes": 129,
+              "coalition": "Bloc des gauches"
             },
             {
               "name": "ARD",
-              "deputes": 62
+              "deputes": 62,
+              "coalition": "Bloc des gauches"
             },
             {
               "name": "RP",
@@ -1279,6 +1311,10 @@
               "name": "NA",
               "deputes": 0
             }
+          ],
+          "source": [
+            "https://x.com/lematth88/with_replies",
+            "https://fr.wikipedia.org/wiki/Bloc_des_gauches"
           ]
         },
         {
@@ -1388,27 +1424,33 @@
             },
             {
               "name": "PRS ",
-              "deputes": 27
+              "deputes": 27,
+              "coalition": "Fédération des gauches"
             },
             {
               "name": "PRRS",
-              "deputes": 192
+              "deputes": 192,
+              "coalition": "Fédération des gauches"
             },
             {
               "name": "Autres",
-              "deputes": 0
+              "deputes": 0,
+              "coalition": "Fédération des gauches"
             },
             {
               "name": "LJR",
-              "deputes": 0
+              "deputes": 0,
+              "coalition": "Fédération des gauches"
             },
             {
               "name": "RI ",
-              "deputes": 66
+              "deputes": 66,
+              "coalition": "Fédération des gauches"
             },
             {
               "name": "PRD",
-              "deputes": 77
+              "deputes": 77,
+              "coalition": "Fédération des gauches"
             },
             {
               "name": "FR",
@@ -1422,6 +1464,10 @@
               "name": "PN",
               "deputes": 0
             }
+          ],
+          "source": [
+            "https://x.com/lematth88/with_replies",
+            "https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_des_gauches"
           ]
         },
         {
