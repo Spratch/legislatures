@@ -1,1 +1,39 @@
-{}
+{
+  "settingsLine": {
+    "hideEvents": "Hide events",
+    "showEvents": "Show events",
+    "hideTransitions": "Hide transitions",
+    "showTransitions": "Show transitions",
+    "hideCoalitions": "Hide coalitions",
+    "showCoalitions": "Show coalitions",
+    "about": "About",
+    "informations": "Informations",
+    "decreaseSize": "Decrease graph size",
+    "increaseSize": "Increase graph size",
+    "graphSize": "Graph size:"
+  },
+  "filtersLine": {
+    "resetCurrentsFilters": "Reset displayed currents",
+    "shuffleCurrentsFilters": "Show random currents",
+    "loading": "Loading...",
+    "hide": "Hide",
+    "show": "Show",
+    "currentsList": "currents list:",
+    "allCurrents": "all currents:",
+    "theCurrent": "the current:"
+  },
+  "percentage": {
+    "fullPowers": "Full powers"
+  },
+  "entityDetails": {
+    "noAvailableData": "No available data",
+    "hideCurrent": "Hide the current",
+    "showCurrent": "Show the current",
+    "current": "Current ",
+    "close": "Close details",
+    "loading": "Loading...",
+    "parties": "Parties",
+    "persons": "Personnalities",
+    "details": "details"
+  }
+}

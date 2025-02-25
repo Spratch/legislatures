@@ -15,8 +15,11 @@ import truncateString from "../utils/truncateString";
 import IconButton from "./iconButton";
 import useKeyPress from "../utils/hooks/useKeyPress";
 import { useHorizontalScroll } from "../utils/hooks/useHorizontalScroll";
+import { useDictionary } from "../utils/contexts/dictionaryContext";
 
 export default function EntityDetails() {
+  const dict = useDictionary().entityDetails;
+
   // Get the entity to display from the context
   const { detailsContent, setDetailsContent } = useDetailsContext();
   const { entity, parent } = detailsContent;
@@ -54,7 +57,7 @@ export default function EntityDetails() {
   useEffect(() => {
     if (entity) {
       const fetchWiki = (searchTerm: string) => {
-        const noInfo = "Aucune information disponible…";
+        const noInfo = dict.noAvailableData;
         fetch("/api/wiki", {
           method: "POST",
           headers: {
@@ -71,7 +74,7 @@ export default function EntityDetails() {
       };
       fetchWiki(entity.keyword || title);
     }
-  }, [entity, title]);
+  }, [entity, title, dict]);
 
   // Get the sub entities
   const subEntities = current?.parties || party?.persons || null;
@@ -154,7 +157,7 @@ export default function EntityDetails() {
             current ? (
               <IconButton
                 Icon={isVisible ? EyeOpenIcon : EyeClosedIcon}
-                label={isVisible ? "Masquer le courant" : "Afficher le courant"}
+                label={isVisible ? dict.hideCurrent : dict.showCurrent}
                 onClick={() => handleVisibility()}
               />
             ) : // If party, display the parent badge
@@ -162,7 +165,7 @@ export default function EntityDetails() {
               <Badge
                 name={(parent as CurrentType).name}
                 hex={(parent as CurrentType).color}
-                label={`Courant : ${(parent as CurrentType).name}`}
+                label={`${dict.current}: ${(parent as CurrentType).name}`}
                 onClick={() => onClick(parent)}
               />
             ) : // If event, display dates and type
@@ -208,7 +211,7 @@ export default function EntityDetails() {
           }
           <IconButton
             Icon={Cross1Icon}
-            label="Fermer les détails"
+            label={dict.close}
             onClick={handleClose}
           />
         </div>
@@ -251,7 +254,7 @@ export default function EntityDetails() {
               {/* If small screens, truncate at 250, else 400 */}
               {description
                 ? truncateString(description, windowWidth < 640 ? 250 : 400)
-                : "Chargement…"}
+                : dict.loading}
             </p>
             {wikiLink && <WikiLink href={wikiLink} />}
           </div>
@@ -263,7 +266,7 @@ export default function EntityDetails() {
             }`}
           >
             <h3 className="font-bold">
-              {current ? "Partis" : "Personnalités"}
+              {current ? dict.parties : dict.persons}
             </h3>
             <ul
               ref={detailsScrollRef}
@@ -276,7 +279,7 @@ export default function EntityDetails() {
                     entity={subEntity}
                     onClick={() => onClick(subEntity, entity)}
                     isActive={true}
-                    label={`${subEntity.full_name || subEntity.name}, détails`}
+                    label={`${subEntity.full_name || subEntity.name}, ${dict.details}`}
                   />
                 ))}
             </ul>

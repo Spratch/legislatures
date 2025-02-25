@@ -4,6 +4,7 @@ import SettingsButton from "./settingsButton";
 import EntityButton from "./entityButton";
 import { useVisibleCurrentsContext } from "../utils/contexts/currentsContext";
 import { EyeClosedIcon, EyeOpenIcon } from "@radix-ui/react-icons";
+import { useDictionary } from "../utils/contexts/dictionaryContext";
 
 type Props = {
   family: FamilyType;
@@ -11,6 +12,8 @@ type Props = {
 };
 
 export default function CurrentsFamily({ family, onCurrentClick }: Props) {
+  const dict = useDictionary().filtersLine;
+
   // Is currents family button open
   const [isActive, setIsActive] = useState(false);
   // Context for visible currents
@@ -93,16 +96,16 @@ export default function CurrentsFamily({ family, onCurrentClick }: Props) {
           }}
           isActive={isActive}
           label={`${
-            isActive ? "Masquer" : "Afficher"
-          } la liste des courants : ${family.name}`}
+            isActive ? dict.hide : dict.show
+          } ${dict.currentsList + " " + family.name}`}
           straightSide="right"
         />
         <SettingsButton
           Icon={isFamilyVisible ? EyeOpenIcon : EyeClosedIcon}
           onClick={() => toggleFullFamily()}
           label={`${
-            isFamilyVisible ? "Masquer" : "Afficher"
-          } tous les courants : ${family.name}`}
+            isFamilyVisible ? dict.hide : dict.show
+          } ${dict.allCurrents + " " + family.name}`}
           straightSide="left"
         />
       </div>
@@ -119,8 +122,8 @@ export default function CurrentsFamily({ family, onCurrentClick }: Props) {
                 onClick={() => onCurrentClick(current)}
                 isActive={isCurrentVisible}
                 label={`${
-                  isCurrentVisible ? "Masquer" : "Afficher"
-                } le courant : ${current.name}`}
+                  isCurrentVisible ? dict.hide : dict.show
+                } ${dict.theCurrent + " " + current.name}`}
               />
             );
           })}

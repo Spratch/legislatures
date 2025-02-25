@@ -1,1 +1,39 @@
-{}
+{
+  "settingsLine": {
+    "hideEvents": "Masquer les événements",
+    "showEvents": "Afficher les événements",
+    "hideTransitions": "Masquer les transitions",
+    "showTransitions": "Afficher les transitions",
+    "hideCoalitions": "Masquer les coalitions",
+    "showCoalitions": "Afficher les coalitions",
+    "about": "En savoir plus",
+    "informations": "Informations",
+    "decreaseSize": "Réduire la taille du graphique",
+    "increaseSize": "Augmenter la taille du graphique",
+    "graphSize": "Taille du graphique :"
+  },
+  "filtersLine": {
+    "resetCurrentsFilters": "Réinitialiser les courants affichés",
+    "shuffleCurrentsFilters": "Afficher des courants aléatoires",
+    "loading": "Chargement...",
+    "hide": "Masquer",
+    "show": "Afficher",
+    "currentsList": "la liste des courants :",
+    "allCurrents": "tous les courants :",
+    "theCurrent": "le courant :"
+  },
+  "percentage": {
+    "fullPowers": "Pleins pouvoirs"
+  },
+  "entityDetails": {
+    "noAvailableData": "Aucune donnée disponible",
+    "hideCurrent": "Masquer le courant",
+    "showCurrent": "Afficher le courant",
+    "current": "Courant ",
+    "close": "Fermer les détails",
+    "loading": "Chargement...",
+    "parties": "Partis",
+    "persons": "Personnalités",
+    "details": "détails"
+  }
+}

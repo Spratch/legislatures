@@ -8,6 +8,7 @@ import {
   PlusIcon
 } from "@radix-ui/react-icons";
 import SettingsButton from "./settingsButton";
+import { useDictionary } from "../utils/contexts/dictionaryContext";
 
 function HideTransitionsIcon() {
   return (
@@ -57,6 +58,7 @@ export default function SettingsLine({
   coalitionsVisibility,
   setCoalitionsVisibility
 }: Props) {
+  const dict = useDictionary().settingsLine;
   return (
     <section className="w-full p-2 flex items-end max-w-screen-3xl mx-auto">
       <div className="w-full flex justify-between gap-2">
@@ -66,11 +68,7 @@ export default function SettingsLine({
           <SettingsButton
             Icon={PinLeftIcon}
             onClick={() => setEventVisibility(!eventVisibility)}
-            label={
-              eventVisibility
-                ? "Masquer les événements"
-                : "Afficher les événements"
-            }
+            label={eventVisibility ? dict.hideEvents : dict.showEvents}
             flipIcon={eventVisibility ? false : true}
             position={{ x: "left", y: "top" }}
             kbd="e"
@@ -82,8 +80,8 @@ export default function SettingsLine({
             onClick={() => setTransitionsVisibility(!transitionsVisibility)}
             label={
               transitionsVisibility
-                ? "Masquer les transitions"
-                : "Afficher les transitions"
+                ? dict.hideTransitions
+                : dict.showTransitions
             }
             position={{ x: "left", y: "top" }}
             kbd="t"
@@ -94,9 +92,7 @@ export default function SettingsLine({
             Icon={coalitionsVisibility ? PaddingIcon : MarginIcon}
             onClick={() => setCoalitionsVisibility(!coalitionsVisibility)}
             label={
-              coalitionsVisibility
-                ? "Masquer les coalitions"
-                : "Afficher les coalitions"
+              coalitionsVisibility ? dict.hideCoalitions : dict.showCoalitions
             }
             position={{ x: "left", y: "top" }}
             kbd="c"
@@ -108,9 +104,9 @@ export default function SettingsLine({
           {/* Infos button */}
           <SettingsButton
             Icon={InfoCircledIcon}
-            // name="En savoir plus"
+            // name={dict.infos}
             onClick={() => setInfosVisibility(true)}
-            label="Informations"
+            label={dict.informations}
             position={{ x: "right", y: "top" }}
             kbd="i"
           />
@@ -119,18 +115,18 @@ export default function SettingsLine({
           <SettingsButton
             Icon={MinusIcon}
             onClick={() => setReferenceSize(Math.max(4, referenceSize - 12))}
-            label="Réduire la taille du graphique"
+            label={dict.decreaseSize}
             position={{ x: "right", y: "top" }}
             kbd={["-", "_"]}
           />
           <p className="text-sm opacity-75 select-none tabular-nums">
-            <span className="sr-only">Taille du graphique :</span>
+            <span className="sr-only">{dict.graphSize}</span>
             {String(referenceSize).padStart(2, "0")}
           </p>
           <SettingsButton
             Icon={PlusIcon}
             onClick={() => setReferenceSize(Math.min(88, referenceSize + 12))}
-            label="Augmenter la taille du graphique"
+            label={dict.increaseSize}
             position={{ x: "right", y: "top" }}
             kbd={["+", "="]}
           />
