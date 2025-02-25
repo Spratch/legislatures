@@ -1,21 +1,21 @@
 "use client";
 
 import { createContext, useContext, useState } from "react";
-import { CurrentType } from "../../../types/current";
-import republicsData from "../../../public/data/republics.json";
-import familiesData from "../../../public/data/currents.json";
-import eventsData from "../../../public/data/events.json";
-import { FamilyType } from "../../../types/family";
+import { CurrentType } from "@/types/current";
+import { FamilyType } from "@/types/family";
+import { RepublicType } from "@/types/republic";
+import { EventType } from "@/types/event";
 
-export const republics = republicsData.republics;
-export const currents = familiesData.families.flatMap(
-  (family: FamilyType) => family.currents
-);
-export const families = familiesData.families;
-export const events = eventsData.events;
+export interface CountryData {
+  regimes: RepublicType[];
+  currents: { families: FamilyType[] };
+  events: EventType[];
+}
+
 interface VisibleCurrentsContextType {
   visibleCurrents: CurrentType[] | null;
   setVisibleCurrents: (visibleCurrents: CurrentType[]) => void;
+  countryData: CountryData;
 }
 
 // Create context for visible currents
@@ -36,15 +36,20 @@ export const useVisibleCurrentsContext = () => {
 
 // Create a provider for the visible currents context
 export const VisibleCurrentsProvider = ({
-  children
+  children,
+  countryData
 }: {
   children: React.ReactNode;
+  countryData: CountryData;
 }) => {
+  const currents = countryData.currents.families.flatMap(
+    (family: FamilyType) => family.currents
+  );
   const [visibleCurrents, setVisibleCurrents] = useState(currents);
 
   return (
     <VisibleCurrentsContext.Provider
-      value={{ visibleCurrents, setVisibleCurrents }}
+      value={{ visibleCurrents, setVisibleCurrents, ...countryData }}
     >
       {children}
     </VisibleCurrentsContext.Provider>
