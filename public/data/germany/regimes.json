@@ -1,0 +1,100 @@
+[
+  {
+    "name": "République féderale",
+    "name_de": "Bundesrepublik",
+    "name_en": "Federal Republic",
+    "begin": "1949-05-23",
+    "legislatures": [
+      {
+        "legislature": 1949,
+        "total_deputes": 402,
+        "duration": 4,
+        "begin": "1949-09-07",
+        "end": "1953-09-07",
+        "parties": [
+          {
+            "name": "KPD",
+            "deputes": 15
+          },
+          {
+            "name": "SPD",
+            "deputes": 131
+          },
+          {
+            "name": "CDU/CSU",
+            "deputes": 139
+          },
+          {
+            "name": "FDP",
+            "deputes": 52
+          },
+          {
+            "name": "BP",
+            "deputes": 17
+          },
+          {
+            "name": "DP",
+            "deputes": 17
+          },
+          {
+            "name": "WAV",
+            "deputes": 12
+          },
+          {
+            "name": "Ze",
+            "deputes": 10
+          },
+          {
+            "name": "DRP",
+            "deputes": 5
+          },
+          {
+            "name": "SSW",
+            "deputes": 1
+          },
+          {
+            "name": "Autres",
+            "deputes": 3
+          }
+        ]
+      },
+      {
+        "legislature": 1953,
+        "total_deputes": 487,
+        "duration": 4,
+        "begin": "1953-10-06",
+        "end": "1957-10-06",
+        "parties": [
+          {
+            "name": "KPD",
+            "deputes": 0
+          },
+          {
+            "name": "SPD",
+            "deputes": 151
+          },
+          {
+            "name": "CDU/CSU",
+            "deputes": 243
+          },
+          {
+            "name": "FDP",
+            "deputes": 48
+          },
+          {
+            "name": "DP",
+            "deputes": 15
+          },
+          {
+            "name": "Ze",
+            "deputes": 3
+          },
+          {
+            "name": "GB/BHE",
+            "deputes": 27
+          }
+        ]
+      }
+    ]
+  }
+]
