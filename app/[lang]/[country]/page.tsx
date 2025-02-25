@@ -3,17 +3,12 @@
 import { useState } from "react";
 import FiltersLine from "@/components/appUi/filtersLine";
 import Main from "@/components/appUi/main";
-// import {
-//   currents,
-//   events,
-//   families,
-//   republics
-// } from "@/utils/contexts/currentsContext";
 import SettingsLine from "@/components/appUi/settingsLine";
 import InfosModal from "@/components/appUi/infosModal";
 import { useTransitionsContext } from "@/components/utils/contexts/transitionsContext";
 import { useCoalitionsContext } from "@/components/utils/contexts/coalitionsContext";
 import { useVisibleCurrentsContext } from "@/components/utils/contexts/currentsContext";
+import { useCountryDataContext } from "@/components/utils/contexts/countryContext";
 
 export default function HomePage({ params: { lang, country } }) {
   const [eventVisibility, setEventVisibility] = useState(false);
@@ -23,7 +18,9 @@ export default function HomePage({ params: { lang, country } }) {
     useTransitionsContext();
   const { coalitionsVisibility, setCoalitionsVisibility } =
     useCoalitionsContext();
-  const { regimes, currents, events } = useVisibleCurrentsContext().countryData;
+  const {
+    countryData: { regimes, families, events }
+  } = useCountryDataContext();
 
   return (
     <>
@@ -45,13 +42,13 @@ export default function HomePage({ params: { lang, country } }) {
 
       <Main
         republics={regimes}
-        currents={currents.families.flatMap((family) => family.currents)}
+        currents={families.flatMap((family) => family.currents)}
         events={events}
         eventsVisibility={eventVisibility}
         referenceSize={referenceSize}
       />
 
-      <FiltersLine families={currents.families} />
+      <FiltersLine families={families} />
 
       {infosVisibility && (
         <InfosModal setInfosVisibility={setInfosVisibility} />

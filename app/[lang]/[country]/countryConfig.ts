@@ -1,9 +1,9 @@
 import "server-only";
 import fs from "fs";
 import path from "path";
-import { CountryData } from "@/components/utils/contexts/currentsContext";
+import { CountryType } from "@/types/country";
 
-const files = ["currents", "events", "regimes"] as const;
+const files = ["families", "events", "regimes"] as const;
 type FileType = (typeof files)[number];
 
 const generateCountryData = (countryCode: string) => {
@@ -37,7 +37,7 @@ const countryConfig = {
 
 export async function getCountryData(
   countryCode: string
-): Promise<CountryData> {
+): Promise<CountryType> {
   const data = countryConfig[countryCode];
   if (!data) {
     throw new Error(`Country data not found for ${countryCode}`);
@@ -49,5 +49,5 @@ export async function getCountryData(
     }))
   );
 
-  return result.reduce((acc, item) => ({ ...acc, ...item }), {}) as CountryData;
+  return result.reduce((acc, item) => ({ ...acc, ...item }), {}) as CountryType;
 }

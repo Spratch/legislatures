@@ -1,0 +1,1002 @@
+[
+  {
+    "name": "Gauche",
+    "color": "#FF0E3A",
+    "currents": [
+      {
+        "name": "Communiste",
+        "color": "#A40C34",
+        "keyword": "Communisme",
+        "parties": [
+          {
+            "name": "PC-SFIC",
+            "full_name": "Parti communiste - Section française de l'Internationale communiste",
+            "keyword": "Parti communiste français #Premières années (1921-1933)"
+          },
+          {
+            "name": "PCF",
+            "full_name": "Parti communiste français"
+          }
+        ]
+      },
+      {
+        "name": "Socialiste autogestionnaire",
+        "color": "#D10F3D",
+        "keyword": "Autogestion",
+        "parties": [
+          {
+            "name": "URR",
+            "full_name": "Union républicaine et résistance",
+            "keyword": "Union progressiste (France)"
+          },
+          {
+            "name": "URP",
+            "full_name": "Union des Républicains Progressistes",
+            "keyword": "Union progressiste (France)"
+          },
+          {
+            "name": "UP",
+            "full_name": "Union progressiste",
+            "keyword": "Union progressiste (France)"
+          },
+          {
+            "name": "PSU",
+            "full_name": "Parti socialiste unifié",
+            "keyword": "Parti socialiste unifié (France)"
+          }
+        ]
+      },
+      {
+        "name": "Indépendantiste",
+        "color": "#E40E3B",
+        "keyword": "Indépendantisme",
+        "parties": [
+          {
+            "name": "RDA",
+            "full_name": "Rassemblement démocratique africain"
+          }
+        ]
+      },
+      {
+        "name": "Marxiste-léniniste",
+        "color": "#E10F3D",
+        "keyword": "Marxisme-léninisme",
+        "parties": [
+          {
+            "name": "PUP",
+            "full_name": "Parti d'unité prolétarienne"
+          }
+        ]
+      },
+      {
+        "name": "Socialiste blanquiste",
+        "color": "#AF0E37",
+        "keyword": "Blanquisme",
+        "parties": [
+          {
+            "name": "CRC",
+            "full_name": "Comité révolutionnaire central"
+          },
+          {
+            "name": "PSR",
+            "full_name": "Parti socialiste révolutionnaire",
+            "keyword": "Parti socialiste révolutionnaire (France)"
+          }
+        ]
+      },
+      {
+        "name": "Socialiste allemaniste",
+        "color": "#C10F3D",
+        "keyword": "Jean Allemane #Pensée politique",
+        "parties": [
+          {
+            "name": "POSR",
+            "full_name": "Parti ouvrier socialiste révolutionnaire"
+          }
+        ]
+      },
+      {
+        "name": "Socialiste altermondialiste",
+        "color": "#C10F3D",
+        "keyword": "Altermondialisme",
+        "parties": [
+          {
+            "name": "FASE - PG",
+            "full_name": "Fédération pour une alternative sociale et écologique - Parti de gauche",
+            "keyword": "Fédération pour une alternative sociale et écologique"
+          },
+          {
+            "name": "LFI",
+            "full_name": "La France insoumise"
+          }
+        ]
+      },
+      {
+        "name": "Écologiste",
+        "color": "#80C34E",
+        "keyword": "Écologie politique",
+        "parties": [
+          {
+            "name": "LV",
+            "full_name": "Les Verts",
+            "keyword": "Les Verts (France)"
+          },
+          {
+            "name": "EELV",
+            "full_name": "Europe Écologie - Les Verts",
+            "keyword": "Les Écologistes"
+          },
+          {
+            "name": "LE",
+            "full_name": "Les Écologistes"
+          }
+        ]
+      },
+      {
+        "name": "Socialiste",
+        "color": "#F40E39",
+        "keyword": "Socialisme",
+        "parties": [
+          {
+            "name": "FPTSF",
+            "full_name": "Fédération du parti des travailleurs socialistes de France",
+            "keyword": "Fédération des travailleurs socialistes de France #FPTSF : union des courants socialistes"
+          },
+          {
+            "name": "PO",
+            "full_name": "Parti ouvrier",
+            "keyword": "Parti ouvrier français"
+          },
+          {
+            "name": "POF",
+            "full_name": "Parti ouvrier français"
+          },
+          {
+            "name": "PSdF",
+            "full_name": "Parti socialiste de France",
+            "keyword": "Parti socialiste de France (guesdiste)"
+          },
+          {
+            "name": "SFIO",
+            "full_name": "Section française de l'Internationale ouvrière"
+          },
+          {
+            "name": "PS",
+            "full_name": "Parti socialiste",
+            "keyword": "Parti socialiste (France)"
+          }
+        ]
+      },
+      {
+        "name": "Socialiste possibiliste",
+        "color": "#FF0E3A",
+        "keyword": "Possibilisme (politique)",
+        "parties": [
+          {
+            "name": "FTSF",
+            "full_name": "Fédération des travailleurs socialistes de France"
+          },
+          {
+            "name": "PSF ",
+            "full_name": "Parti Socialiste Français",
+            "keyword": "Parti socialiste français (1919)"
+          }
+        ]
+      },
+      {
+        "name": "Socialiste-libéral",
+        "color": "#FF3B64",
+        "keyword": "Social-libéralisme",
+        "parties": [
+          {
+            "name": "PSF",
+            "full_name": "Parti socialiste français",
+            "keyword": "Parti socialiste français (1902)"
+          },
+          {
+            "name": "SI",
+            "full_name": "Socialistes indépendants"
+          },
+          {
+            "name": "PRS ",
+            "full_name": "Parti républicain-socialiste"
+          },
+          {
+            "name": "USR",
+            "full_name": "Union socialiste républicaine"
+          },
+          {
+            "name": "UDSR",
+            "full_name": "Union démocratique et socialiste de la Résistance"
+          },
+          {
+            "name": "CIR",
+            "full_name": "Convention des institutions républicaines"
+          }
+        ]
+      },
+      {
+        "name": "Souverainisme social",
+        "color": "#FF3B64",
+        "keyword": "Jean-Pierre Chevènement #Souverainisme",
+        "parties": [
+          {
+            "name": "MDC",
+            "full_name": "Mouvement des Citoyens",
+            "keyword": "Mouvement des citoyens (France)"
+          },
+          {
+            "name": "MRC",
+            "full_name": "Mouvement républicain et citoyen"
+          }
+        ]
+      },
+      {
+        "name": "Sans-culotte",
+        "color": "#C10F3D",
+        "keyword": "Sans-culottes",
+        "parties": [
+          {
+            "name": "EXG",
+            "full_name": "Extrème gauche",
+            "keyword": "Sans-culottes"
+          }
+        ]
+      },
+      {
+        "name": "Républicain jacobin",
+        "color": "#FF3057",
+        "keyword": "Jacobinisme",
+        "parties": [
+          {
+            "name": "MON",
+            "full_name": "Montagnards",
+            "keyword": "Montagne (Révolution française)"
+          },
+          {
+            "name": "REP ",
+            "full_name": "Républicains",
+            "keyword": "Républicains français sous la Restauration"
+          },
+          {
+            "name": "RC",
+            "full_name": "Républicains convaincus",
+            "keyword": "Républicains français sous la monarchie de Juillet"
+          },
+          {
+            "name": "MTG",
+            "full_name": "La Montagne",
+            "keyword": "Montagne (1849)"
+          }
+        ]
+      },
+      {
+        "name": "Radical de gauche",
+        "color": "#FF5879",
+        "keyword": "Radicalisme #En France",
+        "parties": [
+          {
+            "name": "OR",
+            "full_name": "Opposition radicale",
+            "keyword": "Républicains français sous le Second Empire"
+          },
+          {
+            "name": "RI  ",
+            "full_name": "Radicaux intransigeants"
+          },
+          {
+            "name": "RS ",
+            "full_name": "Radicaux socialistes",
+            "keyword": "Groupe radical-socialiste"
+          },
+          {
+            "name": "PRRRS",
+            "full_name": "Parti républicain, radical et radical-socialiste",
+            "keyword": "Parti radical (France)"
+          },
+          {
+            "name": "PRRS",
+            "full_name": "Parti républicain, radical et radical-socialiste",
+            "keyword": "Parti radical (France)"
+          },
+          {
+            "name": "PRG",
+            "full_name": "Parti radical de gauche"
+          },
+          {
+            "name": "MRG",
+            "full_name": "Mouvement des radicaux de gauche",
+            "keyword": "Parti radical de gauche #1973-1994 : Mouvement des radicaux de gauche"
+          },
+          {
+            "name": "PRS",
+            "full_name": "Parti radical-socialiste",
+            "keyword": "Parti radical de gauche #1996-1998 : Parti radical-socialiste"
+          }
+        ]
+      },
+      {
+        "name": "Divers gauche",
+        "color": "#FF718B",
+        "keyword": "Divers gauche",
+        "parties": [
+          {
+            "name": "DVG",
+            "full_name": "Divers gauche"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Centre",
+    "color": "#FFBC5D",
+    "currents": [
+      {
+        "name": "Chrétien-social",
+        "color": "#FFDD8F",
+        "keyword": "Catholicisme social",
+        "parties": [
+          {
+            "name": "LJR",
+            "full_name": "Ligue de la Jeune République"
+          },
+          {
+            "name": "PJR",
+            "full_name": "Parti de la Jeune République",
+            "keyword": "Ligue de la Jeune République #Le Parti de la Jeune République"
+          }
+        ]
+      },
+      {
+        "name": "Centre démocrate-chrétien",
+        "color": "#FED264",
+        "keyword": "Démocratie chrétienne",
+        "parties": [
+          {
+            "name": "DEM",
+            "full_name": "Démocrates",
+            "keyword": "Parti démocrate populaire (France)"
+          },
+          {
+            "name": "PDP",
+            "full_name": "Parti démocrate populaire",
+            "keyword": "Parti démocrate populaire (France)"
+          },
+          {
+            "name": "MRP",
+            "full_name": "Mouvement républicain populaire"
+          },
+          {
+            "name": "CD",
+            "full_name": "Centre démocrate",
+            "keyword": "Centre démocrate (France)"
+          },
+          {
+            "name": "CDP",
+            "full_name": "Centre démocratie et progrès"
+          },
+          {
+            "name": "CDS",
+            "full_name": "Centre des démocrates sociaux"
+          },
+          {
+            "name": "MoDem",
+            "full_name": "Mouvement démocrate",
+            "keyword": "Mouvement démocrate (France)"
+          }
+        ]
+      },
+      {
+        "name": "Radical-centriste",
+        "color": "#FFBC5D",
+        "keyword": "Radicalisme",
+        "parties": [
+          {
+            "name": "RR",
+            "full_name": "Républicains radicaux",
+            "keyword": "Gauche radicale (groupe parlementaire)"
+          },
+          {
+            "name": "RI ",
+            "full_name": "Radicaux indépendants",
+            "keyword": "Radical indépendant"
+          },
+          {
+            "name": "RGR",
+            "full_name": "Rassemblement des gauches républicaines"
+          },
+          {
+            "name": "CR",
+            "full_name": "Centre républicain"
+          }
+        ]
+      },
+      {
+        "name": "Extrême centre",
+        "color": "#FBC408",
+        "keyword": "Extrême centre",
+        "parties": [
+          {
+            "name": "LREM",
+            "full_name": "La République en marche",
+            "keyword": "Renaissance (parti)"
+          },
+          {
+            "name": "RE",
+            "full_name": "Renaissance",
+            "keyword": "Renaissance (parti)"
+          }
+        ]
+      },
+      {
+        "name": "Centre droit",
+        "color": "#FFA500",
+        "keyword": "Centre droit",
+        "parties": [
+          {
+            "name": "GIR",
+            "full_name": "Girondins",
+            "keyword": "Gironde (Révolution française)"
+          },
+          {
+            "name": "LIB",
+            "full_name": "Libéraux",
+            "keyword": "Libéraux (Restauration)"
+          },
+          {
+            "name": "PdM",
+            "full_name": "Parti du Mouvement",
+            "keyword": "Courants politiques sous la monarchie de Juillet #Le centre gauche"
+          },
+          {
+            "name": "RL",
+            "full_name": "Républicains libéraux",
+            "keyword": "Républicains modérés (Deuxième République)"
+          },
+          {
+            "name": "REP",
+            "full_name": "Républicains",
+            "keyword": "Républicains français sous le Second Empire"
+          },
+          {
+            "name": "OD",
+            "full_name": "Opposition démocrate",
+            "keyword": "Républicains français sous le Second Empire"
+          },
+          {
+            "name": "RM",
+            "full_name": "Républicains modérés"
+          },
+          {
+            "name": "UR",
+            "full_name": "Union républicaine",
+            "keyword": "Union républicaine (France)"
+          },
+          {
+            "name": "ULR",
+            "full_name": "Union libérale républicaine"
+          },
+          {
+            "name": "UP ",
+            "full_name": "Union progressiste",
+            "keyword": "Union progressiste (Troisième République)"
+          },
+          {
+            "name": "ARD",
+            "full_name": "Alliance républicaine démocratique",
+            "keyword": "Alliance démocratique (France)"
+          },
+          {
+            "name": "PRD",
+            "full_name": "Parti républicain démocratique",
+            "keyword": "Alliance démocratique (France)"
+          },
+          {
+            "name": "PRDS",
+            "full_name": "Parti républicain démocratique et social",
+            "keyword": "Alliance démocratique (France)"
+          },
+          {
+            "name": "AD",
+            "full_name": "Alliance démocratique",
+            "keyword": "Alliance démocratique (France)"
+          },
+          {
+            "name": "CNIP",
+            "full_name": "Centre national des indépendants et paysans"
+          },
+          {
+            "name": "RI",
+            "full_name": "Républicains indépendants",
+            "keyword": "Groupe des Républicains indépendants (Assemblée nationale)"
+          },
+          {
+            "name": "UDF",
+            "full_name": "Union pour la démocratie française"
+          },
+          {
+            "name": "NC",
+            "full_name": "le Nouveau Centre",
+            "keyword": "Les Centristes - Le Nouveau Centre"
+          },
+          {
+            "name": "UDI",
+            "full_name": "Union des démocrates et indépendants"
+          }
+        ]
+      },
+      {
+        "name": "Centre droit ",
+        "color": "#FFA500",
+        "keyword": "Centre droit",
+        "parties": [
+          {
+            "name": "LC",
+            "full_name": "Les Centristes",
+            "keyword": "Les Centristes - Le Nouveau Centre"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Droite",
+    "color": "#33ADFF",
+    "currents": [
+      {
+        "name": "Divers droite",
+        "color": "#89D9FE",
+        "keyword": "Divers droite",
+        "parties": [
+          {
+            "name": "DVD",
+            "full_name": "Divers droite"
+          }
+        ]
+      },
+      {
+        "name": "Radical de droite",
+        "color": "#96D2FF",
+        "keyword": "Radicalisme",
+        "parties": [
+          {
+            "name": "PR",
+            "full_name": "Parti radical",
+            "keyword": "Parti radical (France)"
+          }
+        ]
+      },
+      {
+        "name": "Libéral-conservateur",
+        "color": "#70C2FF",
+        "keyword": "libéral-conservatisme",
+        "parties": [
+          {
+            "name": "MAR",
+            "full_name": "Marais",
+            "keyword": "Plaine (Révolution française)"
+          },
+          {
+            "name": "THER",
+            "full_name": "Thermidoriens",
+            "keyword": "Thermidorien"
+          },
+          {
+            "name": "TP",
+            "full_name": "Tiers parti",
+            "keyword": "Courants politiques sous la monarchie de Juillet #Le centre"
+          },
+          {
+            "name": "CL",
+            "full_name": "Conservateurs libéraux",
+            "keyword": "Centre gauche (groupe parlementaire)"
+          },
+          {
+            "name": "UD",
+            "full_name": "Union démocratique",
+            "keyword": "Union démocratique (groupe parlementaire) #Premier groupe, centriste (1882-1885)"
+          },
+          {
+            "name": "ANR",
+            "full_name": "Association nationale républicaine",
+            "keyword": "Association nationale républicaine (France)"
+          },
+          {
+            "name": "RP",
+            "full_name": "Républicains progressistes"
+          },
+          {
+            "name": "FR",
+            "full_name": "Fédération républicaine"
+          },
+          {
+            "name": "UR ",
+            "full_name": "Unité républicaine",
+            "keyword": "Unité républicaine (France)"
+          },
+          {
+            "name": "PRL",
+            "full_name": "Parti républicain de la liberté"
+          },
+          {
+            "name": "HOR",
+            "full_name": "Horizons"
+          }
+        ]
+      },
+      {
+        "name": "Conservateur",
+        "color": "#33ADFF",
+        "keyword": "Conservatisme",
+        "parties": [
+          {
+            "name": "FEU",
+            "full_name": "Feuillants",
+            "keyword": "Club des feuillants"
+          },
+          {
+            "name": "CLY",
+            "full_name": "Clichyens",
+            "keyword": "Club de Clichy"
+          },
+          {
+            "name": "DOC",
+            "full_name": "Doctrinaires",
+            "keyword": "Doctrinaires (politique)"
+          },
+          {
+            "name": "CD ",
+            "full_name": "Centre droit",
+            "keyword": "Doctrinaires (politique)"
+          },
+          {
+            "name": "PdR",
+            "full_name": "Parti de la résistance",
+            "keyword": "Courants politiques sous la monarchie de Juillet #Le centre droit"
+          },
+          {
+            "name": "PdO",
+            "full_name": "Parti de l'Ordre"
+          },
+          {
+            "name": "MR",
+            "full_name": "Monarchistes Ralliés",
+            "keyword": "Ralliement (catholicisme en France)"
+          },
+          {
+            "name": "ALP",
+            "full_name": "Action libérale populaire"
+          },
+          {
+            "name": "RPF",
+            "full_name": "Rassemblement du peuple français"
+          },
+          {
+            "name": "RS",
+            "full_name": "Républicains sociaux"
+          },
+          {
+            "name": "UNR",
+            "full_name": "Union pour la nouvelle République"
+          },
+          {
+            "name": "UNR-UDT",
+            "full_name": "Union pour la nouvelle République - Union démocratique du travail",
+            "keyword": "Union pour la nouvelle République"
+          },
+          {
+            "name": "UDR",
+            "full_name": "Union des démocrates pour la République"
+          },
+          {
+            "name": "RPR",
+            "full_name": "Rassemblement pour la République"
+          },
+          {
+            "name": "UMP",
+            "full_name": "Union pour un mouvement populaire"
+          },
+          {
+            "name": "LR",
+            "full_name": "Les Républicains"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Extrême droite",
+    "color": "#BE9E87",
+    "currents": [
+      {
+        "name": "Agrariste",
+        "color": "#55A696",
+        "keyword": "Agrarisme",
+        "parties": [
+          {
+            "name": "RAPS",
+            "full_name": "Républicains d'action paysanne et sociale",
+            "keyword": "Parti paysan d'union sociale"
+          },
+          {
+            "name": "PPUS",
+            "full_name": "Parti paysan d'union sociale"
+          }
+        ]
+      },
+      {
+        "name": "Droite Ciottiste",
+        "color": "#3989DB",
+        "keyword": "Éric Ciotti",
+        "parties": [
+          {
+            "name": "AD!",
+            "full_name": "À droite !",
+            "keyword": "Union des droites pour la République"
+          }
+        ]
+      },
+      {
+        "name": "Populiste souverainiste",
+        "color": "#8024AB",
+        "keyword": "Souverainisme",
+        "parties": [
+          {
+            "name": "DLF",
+            "full_name": "Debout la France"
+          }
+        ]
+      },
+      {
+        "name": "National-conservateur",
+        "color": "#49297A",
+        "keyword": "National-conservatisme",
+        "parties": [
+          {
+            "name": "MPF",
+            "full_name": "Mouvement pour la France"
+          }
+        ]
+      },
+      {
+        "name": "Poujadiste",
+        "color": "#A24A9A",
+        "keyword": "Poujadisme",
+        "parties": [
+          {
+            "name": "UFF",
+            "full_name": "Union et fraternité française"
+          }
+        ]
+      },
+      {
+        "name": "National-populiste",
+        "color": "#BE9E87",
+        "keyword": "National-populisme",
+        "parties": [
+          {
+            "name": "BOU",
+            "full_name": "Boulangistes",
+            "keyword": "Boulangisme"
+          },
+          {
+            "name": "FN",
+            "full_name": "Front national",
+            "keyword": "Rassemblement national"
+          },
+          {
+            "name": "RN",
+            "full_name": "Rassemblement national"
+          }
+        ]
+      },
+      {
+        "name": "Nationaliste",
+        "color": "#B18C70",
+        "keyword": "Nationalisme",
+        "parties": [
+          {
+            "name": "NAT",
+            "full_name": "Nationalistes",
+            "keyword": "Groupe nationaliste"
+          },
+          {
+            "name": "DN",
+            "full_name": "Défense nationale",
+            "keyword": "Groupe de la Défense nationale"
+          },
+          {
+            "name": "PN",
+            "full_name": "Parti nationaliste",
+            "keyword": "Parti nationaliste (Troisième République)"
+          }
+        ]
+      },
+      {
+        "name": "Nationaliste antisémite/pétainiste",
+        "color": "#91735C",
+        "keyword": "Antisémitisme #Antisémitisme politique",
+        "parties": [
+          {
+            "name": "NA",
+            "full_name": "Nationalistes Antijuifs",
+            "keyword": "Groupe antijuif"
+          },
+          {
+            "name": "UNIR",
+            "full_name": "Union des nationaux indépendants et républicains"
+          },
+          {
+            "name": "PP",
+            "full_name": "Philippe Pétain"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Monarchisme",
+    "color": "#4599E0",
+    "currents": [
+      {
+        "name": "Orléaniste fusionniste",
+        "color": "#924EAE",
+        "keyword": "Orléanisme",
+        "parties": [
+          {
+            "name": "RO",
+            "full_name": "Royalistes orléanistes",
+            "keyword": "Orléanisme"
+          }
+        ]
+      },
+      {
+        "name": "Orléaniste pur",
+        "color": "#924EAE",
+        "keyword": "Orléanisme",
+        "parties": [
+          {
+            "name": "ORL",
+            "full_name": "Orléanistes",
+            "keyword": "Orléanisme #Orléanisme sous la monarchie de Juillet"
+          }
+        ]
+      },
+      {
+        "name": "Monarchiste",
+        "color": "#4599E0",
+        "keyword": "Monarchisme",
+        "parties": [
+          {
+            "name": "UR  ",
+            "full_name": "Ultraroyalistes",
+            "keyword": "Ultraroyalistes (France)"
+          },
+          {
+            "name": "LEG",
+            "full_name": "Légitimistes",
+            "keyword": "Légitimisme #L’opposition parlementaire légitimiste (1832-1841)"
+          },
+          {
+            "name": "ROY",
+            "full_name": "Royalistes",
+            "keyword": "Légitimisme #La politique de fusion après la chute de la monarchie de Juillet (1848-1870)"
+          },
+          {
+            "name": "RL&C",
+            "full_name": "Royalistes légitimistes & cléricaux",
+            "keyword": "Légitimisme"
+          },
+          {
+            "name": "R&C",
+            "full_name": "Royalistes & cléricaux",
+            "keyword": "Royalisme"
+          },
+          {
+            "name": "M&C",
+            "full_name": "Monarchistes & cléricaux",
+            "keyword": "Monarchisme"
+          }
+        ]
+      },
+      {
+        "name": "Monarchiste absolutiste",
+        "color": "#2C61A1",
+        "keyword": "Absolutisme",
+        "parties": [
+          {
+            "name": "UCO",
+            "full_name": "Ultraroyalistes de la contre-opposition",
+            "keyword": "Ultraroyalistes (France)"
+          }
+        ]
+      },
+      {
+        "name": "Bonapartiste indépendant",
+        "color": "#60B17B",
+        "keyword": "Bonapartisme",
+        "parties": [
+          {
+            "name": "BL",
+            "full_name": "Bonapartistes libéraux",
+            "keyword": "Bonapartisme"
+          },
+          {
+            "name": "BI",
+            "full_name": "Bonapartistes indépendants",
+            "keyword": "Bonapartisme"
+          }
+        ]
+      },
+      {
+        "name": "Bonapartiste",
+        "color": "#169547",
+        "keyword": "Bonapartisme",
+        "parties": [
+          {
+            "name": "BA",
+            "full_name": "Bonapartistes autoritaires",
+            "keyword": "Bonapartisme"
+          },
+          {
+            "name": "AAP",
+            "full_name": "Appel au peuple",
+            "keyword": "Appel au peuple (France)"
+          },
+          {
+            "name": "BNP",
+            "full_name": "Bonapartistes",
+            "keyword": "Bonapartisme"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Autres",
+    "color": "#CDCCCD",
+    "currents": [
+      {
+        "name": "Autres",
+        "color": "#CDCCCD",
+        "keyword": "Non-inscrit à l'Assemblée nationale",
+        "parties": [
+          {
+            "name": "Indé",
+            "full_name": "Indépendant",
+            "keyword": "Indépendant (politique) #France"
+          },
+          {
+            "name": "Autres",
+            "full_name": "Autres",
+            "keyword": "Non-inscrit à l'Assemblée nationale"
+          }
+        ]
+      },
+      {
+        "name": "Indépendant d'Algérie",
+        "color": "#DAD9DA",
+        "parties": [
+          {
+            "name": "MA",
+            "full_name": "Musulmans algériens"
+          },
+          {
+            "name": "UDMA",
+            "full_name": "Union démocratique du manifeste algérien"
+          },
+          {
+            "name": "MIDFA",
+            "full_name": "Musulman indépendant pour la défense du fédéralisme algérien"
+          },
+          {
+            "name": "FAEAS",
+            "full_name": "Formation administrative des élus d'Algérie et du Sahara",
+            "keyword": "Regroupement national pour l'unité de la République"
+          }
+        ]
+      }
+    ]
+  }
+]

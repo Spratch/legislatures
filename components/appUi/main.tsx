@@ -5,12 +5,12 @@ import EntityDetails from "./entityDetails";
 import Chart from "../chart/chart";
 import { CurrentType } from "../../types/current";
 import { EventType } from "../../types/event";
-import { RepublicType } from "../../types/republic";
+import { RegimeType } from "@/types/regime";
 import { useDetailsContext } from "../utils/contexts/detailsContext";
 import { useEffect, useRef, useState } from "react";
 
 type Props = {
-  republics: RepublicType[];
+  republics: RegimeType[];
   currents: CurrentType[];
   events: EventType[];
   eventsVisibility: boolean;

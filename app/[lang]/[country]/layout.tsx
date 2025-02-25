@@ -11,6 +11,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { getDictionary } from "../dictionaries";
 import { DictionaryProvider } from "@/components/utils/contexts/dictionaryContext";
 import { getCountryData } from "./countryConfig";
+import { CountryDataProvider } from "@/components/utils/contexts/countryContext";
 
 const title = "Visualisation des législatures françaises";
 const description =
@@ -59,13 +60,15 @@ export default async function RootLayout({
             commit={process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA}
             branch={process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF}
           />
-          <VisibleCurrentsProvider countryData={countryData}>
-            <DetailsProvider>
-              <TransitionsProvider>
-                <CoalitionsProvider>{children}</CoalitionsProvider>
-              </TransitionsProvider>
-            </DetailsProvider>
-          </VisibleCurrentsProvider>
+          <CountryDataProvider countryData={countryData}>
+            <VisibleCurrentsProvider countryData={countryData}>
+              <DetailsProvider>
+                <TransitionsProvider>
+                  <CoalitionsProvider>{children}</CoalitionsProvider>
+                </TransitionsProvider>
+              </DetailsProvider>
+            </VisibleCurrentsProvider>
+          </CountryDataProvider>
           <Analytics />
           <SpeedInsights />
         </body>

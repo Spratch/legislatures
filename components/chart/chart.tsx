@@ -1,6 +1,6 @@
 import { CurrentType } from "../../types/current";
 import { EventType } from "../../types/event";
-import { RepublicType } from "../../types/republic";
+import { RegimeType } from "@/types/regime";
 import Tooltip from "../appUi/tooltip";
 import { useDetailsContext } from "../utils/contexts/detailsContext";
 import { tooltipContentAtom } from "../utils/contexts/tooltipContext";
@@ -14,7 +14,7 @@ import getDate from "../utils/getDate";
 import { useSetAtom } from "jotai";
 
 type Props = {
-  republics: RepublicType[];
+  republics: RegimeType[];
   currents: CurrentType[];
   events: EventType[];
   eventsVisibility: boolean;
@@ -60,12 +60,12 @@ export default function Chart({
   const axisLeftPosition = !dimensions.boundedWidth
     ? 0
     : !eventsVisibility
-    ? dimensions.boundedWidth < 640
-      ? 40
-      : 100
-    : dimensions.boundedWidth < 640
-    ? 200
-    : 400;
+      ? dimensions.boundedWidth < 640
+        ? 40
+        : 100
+      : dimensions.boundedWidth < 640
+        ? 200
+        : 400;
 
   // Get the tooltip party
   const setTooltipContent = useSetAtom(tooltipContentAtom);
