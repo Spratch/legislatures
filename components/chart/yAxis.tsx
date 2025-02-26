@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { LegislatureType } from "../../types/legislature";
+import { LegislatureType } from "@/types/legislature";
 import { motion } from "framer-motion";
 import getDate from "../utils/getDate";
 import { scaleLinear } from "d3";

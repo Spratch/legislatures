@@ -14,7 +14,7 @@
   },
   "filtersLine": {
     "resetCurrentsFilters": "Reset displayed currents",
-    "shuffleCurrentsFilters": "Show random currents",
+    "shuffleCurrentsFilters": "Shuffle displayed currents",
     "loading": "Loading...",
     "hide": "Hide",
     "show": "Show",
@@ -35,5 +35,34 @@
     "parties": "Parties",
     "persons": "Personnalities",
     "details": "details"
+  },
+  "chart": {
+    "chartLabel": "Interactive visualization of legislatures",
+    "eventsList": "Contextual events",
+    "regimesList": "Political regimes"
+  },
+  "event": {
+    "openDetails": "Open event details"
+  },
+  "regime": {
+    "from": "from",
+    "to": "to",
+    "today": "today",
+    "legislatures": "legislatures",
+    "legislaturesList": "Legislatures"
+  },
+  "legislature": {
+    "majorityCurrent": "Majority current",
+    "with": "with",
+    "majorityCoalition": "Majority coalition",
+    "legislature": "Legislature",
+    "from": "from",
+    "to": "to",
+    "today": "today"
+  },
+  "party": {
+    "seats": "seats",
+    "current": "Current",
+    "coalition": "Coalition: "
   }
 }

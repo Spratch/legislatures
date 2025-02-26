@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { FamilyType } from "../../types/family";
+import { FamilyType } from "@/types/family";
 import SettingsButton from "./settingsButton";
 import EntityButton from "./entityButton";
 import { useVisibleCurrentsContext } from "../utils/contexts/currentsContext";
@@ -95,17 +95,17 @@ export default function CurrentsFamily({ family, onCurrentClick }: Props) {
             setIsActive(!isActive);
           }}
           isActive={isActive}
-          label={`${
-            isActive ? dict.hide : dict.show
-          } ${dict.currentsList + " " + family.name}`}
+          label={`${isActive ? dict.hide : dict.show} ${
+            dict.currentsList + " " + family.name
+          }`}
           straightSide="right"
         />
         <SettingsButton
           Icon={isFamilyVisible ? EyeOpenIcon : EyeClosedIcon}
           onClick={() => toggleFullFamily()}
-          label={`${
-            isFamilyVisible ? dict.hide : dict.show
-          } ${dict.allCurrents + " " + family.name}`}
+          label={`${isFamilyVisible ? dict.hide : dict.show} ${
+            dict.allCurrents + " " + family.name
+          }`}
           straightSide="left"
         />
       </div>
@@ -121,9 +121,9 @@ export default function CurrentsFamily({ family, onCurrentClick }: Props) {
                 entity={current}
                 onClick={() => onCurrentClick(current)}
                 isActive={isCurrentVisible}
-                label={`${
-                  isCurrentVisible ? dict.hide : dict.show
-                } ${dict.theCurrent + " " + current.name}`}
+                label={`${isCurrentVisible ? dict.hide : dict.show} ${
+                  dict.theCurrent + " " + current.name
+                }`}
               />
             );
           })}

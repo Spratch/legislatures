@@ -1,5 +1,5 @@
-import { CurrentType } from "../../types/current";
-import { PartyType } from "../../types/party";
+import { CurrentType } from "@/types/current";
+import { PartyType } from "@/types/party";
 import truncateString from "../utils/truncateString";
 
 type EntityType = CurrentType | PartyType | { name: React.ReactNode };

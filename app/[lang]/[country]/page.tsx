@@ -7,7 +7,6 @@ import SettingsLine from "@/components/appUi/settingsLine";
 import InfosModal from "@/components/appUi/infosModal";
 import { useTransitionsContext } from "@/components/utils/contexts/transitionsContext";
 import { useCoalitionsContext } from "@/components/utils/contexts/coalitionsContext";
-import { useVisibleCurrentsContext } from "@/components/utils/contexts/currentsContext";
 import { useCountryDataContext } from "@/components/utils/contexts/countryContext";
 
 export default function HomePage({ params: { lang, country } }) {
@@ -41,7 +40,7 @@ export default function HomePage({ params: { lang, country } }) {
       />
 
       <Main
-        republics={regimes}
+        regimes={regimes}
         currents={families.flatMap((family) => family.currents)}
         events={events}
         eventsVisibility={eventVisibility}

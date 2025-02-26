@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
-import { EventType } from "../../types/event";
+import { EventType } from "@/types/event";
 import getDate from "../utils/getDate";
 import getYear from "../utils/getYear";
+import { useDictionary } from "../utils/contexts/dictionaryContext";
 
 type Props = {
   event: EventType;
@@ -20,6 +21,8 @@ export default function Event({
   onClick,
   eventsVisibility
 }: Props) {
+  const dict = useDictionary().event;
+
   const beginDate = getDate(event.begin);
   const endDate = getDate(event.end);
 
@@ -101,7 +104,7 @@ export default function Event({
         transition={{ duration: transitionDuration }}
         fill={eventColor}
         className="opacity-5 group-hover/event:opacity-15 transition-opacity"
-        aria-label="Ouvrir le détail de l'événement"
+        aria-label={dict.openDetails}
         role="button"
         onClick={onClick}
         tabIndex={eventsVisibility ? 0 : -1}

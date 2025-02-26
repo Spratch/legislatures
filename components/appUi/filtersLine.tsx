@@ -2,9 +2,9 @@
 
 import { ReloadIcon, ShuffleIcon, SymbolIcon } from "@radix-ui/react-icons";
 import EntityButton from "./entityButton";
-import { CurrentType } from "../../types/current";
+import { CurrentType } from "@/types/current";
 import { useEffect } from "react";
-import { FamilyType } from "../../types/family";
+import { FamilyType } from "@/types/family";
 import CurrentsFamily from "./currentsFamily";
 import SettingsButton from "./settingsButton";
 import { useVisibleCurrentsContext } from "../utils/contexts/currentsContext";

@@ -1,10 +1,10 @@
 "use client";
 
 import PartyBar from "./partyBar";
-import { LegislatureType } from "../../types/legislature";
+import { LegislatureType } from "@/types/legislature";
 import { ChartDimensions } from "../utils/hooks/useChartDimensions";
 import { useVisibleCurrentsContext } from "../utils/contexts/currentsContext";
-import { CurrentType } from "../../types/current";
+import { CurrentType } from "@/types/current";
 import { motion } from "framer-motion";
 import { useTransitionsContext } from "../utils/contexts/transitionsContext";
 import getDate from "../utils/getDate";
@@ -12,6 +12,7 @@ import { useCoalitionsContext } from "../utils/contexts/coalitionsContext";
 import getYear from "../utils/getYear";
 import { useSetAtom } from "jotai";
 import { tooltipContentAtom } from "../utils/contexts/tooltipContext";
+import { useDictionary } from "../utils/contexts/dictionaryContext";
 
 type LegislatureProps = {
   leg: LegislatureType;
@@ -32,6 +33,8 @@ export default function Legislature({
   axisLeftPosition,
   isNextRep
 }: LegislatureProps) {
+  const dict = useDictionary().legislature;
+
   const { coalitionsVisibility } = useCoalitionsContext();
 
   // Toggle currents transition polygons visibility
@@ -111,12 +114,13 @@ export default function Legislature({
     mostImportantParty.deputes > mostImportantCoalition.deputes;
 
   const srDescription = isPartyMostImportantEntity
-    ? `Courant majoritaire : ${mostImportantParty.current.name} avec : ${
-        mostImportantParty.full_name
-      }, (${((mostImportantParty.deputes / leg.total_deputes) * 100).toFixed(
-        0
-      )}%).`
-    : `Coalition majoritaire : ${mostImportantCoalition.name}, (${(
+    ? `${dict.majorityCurrent}: ${mostImportantParty.current.name} ${
+        dict.with
+      }: ${mostImportantParty.full_name}, (${(
+        (mostImportantParty.deputes / leg.total_deputes) *
+        100
+      ).toFixed(0)}%).`
+    : `${dict.majorityCoalition}: ${mostImportantCoalition.name}, (${(
         (mostImportantCoalition.deputes / leg.total_deputes) *
         100
       ).toFixed(0)}%)`;
@@ -129,9 +133,9 @@ export default function Legislature({
   return (
     <motion.g
       key={leg.begin}
-      aria-label={`Législature : de ${getYear(getDate(leg.begin))} à ${
-        getYear(getDate(leg.end)) || "aujourd'hui"
-      }`}
+      aria-label={`${dict.legislature}: ${dict.from} ${getYear(
+        getDate(leg.begin)
+      )} ${dict.to} ${getYear(getDate(leg.end)) || dict.today}`}
       role="listitem"
       className={`legislature-${leg.legislature}`}
       animate={{ y: y }}

@@ -35,5 +35,34 @@
     "parties": "Partis",
     "persons": "Personnalités",
     "details": "détails"
+  },
+  "chart": {
+    "chartLabel": "Visualisation interactive des législatures",
+    "eventsList": "Événements contextuels",
+    "regimesList": "Régimes politiques"
+  },
+  "event": {
+    "openDetails": "Ouvrir le détail de l'événement"
+  },
+  "regime": {
+    "from": "de",
+    "to": "à",
+    "today": "aujourd'hui",
+    "legislatures": "législatures",
+    "legislaturesList": "Législatures"
+  },
+  "legislature": {
+    "majorityCurrent": "Courant majoritaire ",
+    "with": "avec ",
+    "majorityCoalition": "Coalition majoritaire ",
+    "legislature": "Législature ",
+    "from": "de",
+    "to": "à",
+    "today": "aujourd'hui"
+  },
+  "party": {
+    "seats": "sièges",
+    "current": "Courant ",
+    "coalition": "Coalition : "
   }
 }

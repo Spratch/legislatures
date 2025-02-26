@@ -7,9 +7,9 @@ import WikiLink from "./wikiLink";
 import { Cross1Icon, EyeClosedIcon, EyeOpenIcon } from "@radix-ui/react-icons";
 import { Key, useCallback, useEffect, useRef, useState } from "react";
 import { useDetailsContext } from "../utils/contexts/detailsContext";
-import { CurrentType } from "../../types/current";
-import { EventType } from "../../types/event";
-import { PartyType } from "../../types/party";
+import { CurrentType } from "@/types/current";
+import { EventType } from "@/types/event";
+import { PartyType } from "@/types/party";
 import { useVisibleCurrentsContext } from "../utils/contexts/currentsContext";
 import truncateString from "../utils/truncateString";
 import IconButton from "./iconButton";
@@ -279,7 +279,9 @@ export default function EntityDetails() {
                     entity={subEntity}
                     onClick={() => onClick(subEntity, entity)}
                     isActive={true}
-                    label={`${subEntity.full_name || subEntity.name}, ${dict.details}`}
+                    label={`${subEntity.full_name || subEntity.name}, ${
+                      dict.details
+                    }`}
                   />
                 ))}
             </ul>

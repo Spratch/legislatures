@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { TooltipContentType } from "../../types/tooltipContent";
+import { TooltipContentType } from "@/types/tooltipContent";
 import { tooltipContentAtom } from "../utils/contexts/tooltipContext";
 import EntityButton from "./entityButton";
 import Badge from "./badge";
