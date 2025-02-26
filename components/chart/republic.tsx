@@ -21,7 +21,6 @@ type RepublicProps = {
 
 export default function Republic({
   republic,
-  index,
   axisLeftPosition,
   minHeight,
   firstLegislature,

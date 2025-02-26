@@ -1,328 +1,551 @@
 [
   {
     "name": "Gauche",
+    "name_en": "Left",
+    "name_de": "Links",
     "color": "#FF0E3A",
     "currents": [
       {
         "name": "Communiste",
+        "name_en": "Communist",
+        "name_de": "Kommunist",
         "color": "#A40C34",
         "keyword": "Communisme",
+        "keyword_en": "Communism",
+        "keyword_de": "Kommunismus",
         "parties": [
           {
             "name": "PC-SFIC",
             "full_name": "Parti communiste - Section française de l'Internationale communiste",
-            "keyword": "Parti communiste français #Premières années (1921-1933)"
+            "full_name_en": "Communist Party - French section of the Communist International",
+            "full_name_de": "Kommunistische Partei – Französische Sektion der Kommunistischen Internationale",
+            "keyword": "Parti communiste français #Premières années (1921-1933)",
+            "keyword_en": "French Communist Party #Early years (1921-1933)",
+            "keyword_de": "Französische Kommunistische Partei #Frühe Jahre (1921-1933)"
           },
           {
             "name": "PCF",
-            "full_name": "Parti communiste français"
+            "full_name": "Parti communiste français",
+            "full_name_en": "French Communist Party",
+            "full_name_de": "Französische Kommunistische Partei"
           }
         ]
       },
       {
         "name": "Socialiste autogestionnaire",
+        "name_en": "Self-managing socialist",
+        "name_de": "Selbstverwaltender Sozialist",
         "color": "#D10F3D",
         "keyword": "Autogestion",
+        "keyword_en": "Self-management",
+        "keyword_de": "Selbstmanagement",
         "parties": [
           {
             "name": "URR",
             "full_name": "Union républicaine et résistance",
-            "keyword": "Union progressiste (France)"
+            "full_name_en": "Republican Union and Resistance",
+            "full_name_de": "Republikanische Union und Widerstand",
+            "keyword": "Union progressiste (France)",
+            "keyword_en": "Progressive Union (France)",
+            "keyword_de": "Progressive Union (Frankreich)"
           },
           {
             "name": "URP",
             "full_name": "Union des Républicains Progressistes",
-            "keyword": "Union progressiste (France)"
+            "full_name_en": "Union of Progressive Republicans",
+            "full_name_de": "Union progressiver Republikaner",
+            "keyword": "Union progressiste (France)",
+            "keyword_en": "Progressive Union (France)",
+            "keyword_de": "Progressive Union (Frankreich)"
           },
           {
             "name": "UP",
             "full_name": "Union progressiste",
-            "keyword": "Union progressiste (France)"
+            "full_name_en": "Progressive Union",
+            "full_name_de": "Fortschrittliche Union",
+            "keyword": "Union progressiste (France)",
+            "keyword_en": "Progressive Union (France)",
+            "keyword_de": "Progressive Union (Frankreich)"
           },
           {
             "name": "PSU",
             "full_name": "Parti socialiste unifié",
-            "keyword": "Parti socialiste unifié (France)"
+            "full_name_en": "United Socialist Party",
+            "full_name_de": "Vereinigte Sozialistische Partei",
+            "keyword": "Parti socialiste unifié (France)",
+            "keyword_en": "United Socialist Party (France)",
+            "keyword_de": "Vereinigte Sozialistische Partei (Frankreich)"
           }
         ]
       },
       {
         "name": "Indépendantiste",
+        "name_en": "Independentist",
+        "name_de": "Unabhängiger",
         "color": "#E40E3B",
         "keyword": "Indépendantisme",
+        "keyword_en": "Independence",
+        "keyword_de": "Unabhängigkeit",
         "parties": [
           {
             "name": "RDA",
-            "full_name": "Rassemblement démocratique africain"
+            "full_name": "Rassemblement démocratique africain",
+            "full_name_en": "African Democratic Rally",
+            "full_name_de": "Kundgebung der Afrikanischen Demokraten"
           }
         ]
       },
       {
         "name": "Marxiste-léniniste",
+        "name_en": "Marxist-Leninist",
+        "name_de": "Marxist-Leninist",
         "color": "#E10F3D",
         "keyword": "Marxisme-léninisme",
+        "keyword_en": "Marxism-Leninism",
+        "keyword_de": "Marxismus-Leninismus",
         "parties": [
           {
             "name": "PUP",
-            "full_name": "Parti d'unité prolétarienne"
+            "full_name": "Parti d'unité prolétarienne",
+            "full_name_en": "Proletarian Unity Party",
+            "full_name_de": "Proletarische Einheitspartei"
           }
         ]
       },
       {
         "name": "Socialiste blanquiste",
+        "name_en": "Blanquist socialist",
+        "name_de": "Blanquistischer Sozialist",
         "color": "#AF0E37",
         "keyword": "Blanquisme",
+        "keyword_en": "Blanquism",
+        "keyword_de": "Blanquismus",
         "parties": [
           {
             "name": "CRC",
-            "full_name": "Comité révolutionnaire central"
-          },
+            "full_name": "Comité révolutionnaire central",
+            "full_name_en": "Central Revolutionary Committee",
+            "full_name_de": "Zentrales Revolutionskomitee"
+          }
+        ]
+      },
+      {
+        "name": "Socialiste blanquiste",
+        "name_en": "Blanquist socialist",
+        "name_de": "Blanquistischer Sozialist",
+        "color": "#AF0E37",
+        "keyword": "Blanquisme",
+        "keyword_en": "Blanquism",
+        "keyword_de": "Blanquismus",
+        "parties": [
           {
             "name": "PSR",
             "full_name": "Parti socialiste révolutionnaire",
-            "keyword": "Parti socialiste révolutionnaire (France)"
+            "full_name_en": "Revolutionary Socialist Party",
+            "full_name_de": "Revolutionäre Sozialistische Partei",
+            "keyword": "Parti socialiste révolutionnaire (France)",
+            "keyword_en": "Revolutionary Socialist Party (France)",
+            "keyword_de": "Revolutionäre Sozialistische Partei (Frankreich)"
           }
         ]
       },
       {
         "name": "Socialiste allemaniste",
+        "name_en": "Germanist socialist",
+        "name_de": "Germanistischer Sozialist",
         "color": "#C10F3D",
         "keyword": "Jean Allemane #Pensée politique",
+        "keyword_en": "Jean Allemane #Political Thought",
+        "keyword_de": "Jean Allemane #Politisches Denken",
         "parties": [
           {
             "name": "POSR",
-            "full_name": "Parti ouvrier socialiste révolutionnaire"
+            "full_name": "Parti ouvrier socialiste révolutionnaire",
+            "full_name_en": "Revolutionary Socialist Workers Party",
+            "full_name_de": "Revolutionäre Sozialistische Arbeiterpartei"
           }
         ]
       },
       {
         "name": "Socialiste altermondialiste",
+        "name_en": "Anti-globalization socialist",
+        "name_de": "Antiglobalisierungssozialist",
         "color": "#C10F3D",
         "keyword": "Altermondialisme",
+        "keyword_en": "Alterglobalization",
+        "keyword_de": "Alterglobalisierung",
         "parties": [
           {
             "name": "FASE - PG",
             "full_name": "Fédération pour une alternative sociale et écologique - Parti de gauche",
-            "keyword": "Fédération pour une alternative sociale et écologique"
+            "full_name_en": "Federation for a social and ecological alternative - Left Party",
+            "full_name_de": "Bund für eine soziale und ökologische Alternative – Linkspartei",
+            "keyword": "Fédération pour une alternative sociale et écologique",
+            "keyword_en": "Federation for a social and ecological alternative",
+            "keyword_de": "Verband für eine soziale und ökologische Alternative"
           },
           {
             "name": "LFI",
-            "full_name": "La France insoumise"
+            "full_name": "La France insoumise",
+            "full_name_en": "Rebellious France",
+            "full_name_de": "Das rebellische Frankreich"
           }
         ]
       },
       {
         "name": "Écologiste",
+        "name_en": "Ecologist",
+        "name_de": "Ökologe",
         "color": "#80C34E",
         "keyword": "Écologie politique",
+        "keyword_en": "Political ecology",
+        "keyword_de": "Politische Ökologie",
         "parties": [
           {
             "name": "LV",
             "full_name": "Les Verts",
-            "keyword": "Les Verts (France)"
+            "full_name_en": "The Greens",
+            "full_name_de": "Die Grünen",
+            "keyword": "Les Verts (France)",
+            "keyword_en": "The Greens (France)",
+            "keyword_de": "Die Grünen (Frankreich)"
           },
           {
             "name": "EELV",
             "full_name": "Europe Écologie - Les Verts",
-            "keyword": "Les Écologistes"
+            "full_name_en": "Europe Ecology - The Greens",
+            "full_name_de": "Europa Ökologie – Die Grünen",
+            "keyword": "Les Écologistes",
+            "keyword_en": "Environmentalists",
+            "keyword_de": "Umweltschützer"
           },
           {
             "name": "LE",
-            "full_name": "Les Écologistes"
+            "full_name": "Les Écologistes",
+            "full_name_en": "Environmentalists",
+            "full_name_de": "Umweltschützer"
           }
         ]
       },
       {
         "name": "Socialiste",
+        "name_en": "Socialist",
+        "name_de": "Sozialistisch",
         "color": "#F40E39",
         "keyword": "Socialisme",
+        "keyword_en": "Socialism",
+        "keyword_de": "Sozialismus",
         "parties": [
           {
             "name": "FPTSF",
             "full_name": "Fédération du parti des travailleurs socialistes de France",
-            "keyword": "Fédération des travailleurs socialistes de France #FPTSF : union des courants socialistes"
+            "full_name_en": "Federation of the Socialist Workers' Party of France",
+            "full_name_de": "Föderation der Sozialistischen Arbeiterpartei Frankreichs",
+            "keyword": "Fédération des travailleurs socialistes de France #FPTSF : union des courants socialistes",
+            "keyword_en": "Federation of Socialist Workers of France #FPTSF: union of socialist currents",
+            "keyword_de": "Föderation der sozialistischen Arbeiter Frankreichs #FPTSF: Vereinigung sozialistischer Strömungen"
           },
           {
             "name": "PO",
             "full_name": "Parti ouvrier",
-            "keyword": "Parti ouvrier français"
+            "full_name_en": "Workers' Party",
+            "full_name_de": "Arbeiterpartei",
+            "keyword": "Parti ouvrier français",
+            "keyword_en": "French Workers' Party",
+            "keyword_de": "Französische Arbeiterpartei"
           },
           {
             "name": "POF",
-            "full_name": "Parti ouvrier français"
+            "full_name": "Parti ouvrier français",
+            "full_name_en": "French Workers' Party",
+            "full_name_de": "Französische Arbeiterpartei"
           },
           {
             "name": "PSdF",
             "full_name": "Parti socialiste de France",
-            "keyword": "Parti socialiste de France (guesdiste)"
+            "full_name_en": "Socialist Party of France",
+            "full_name_de": "Sozialistische Partei Frankreichs",
+            "keyword": "Parti socialiste de France (guesdiste)",
+            "keyword_en": "Socialist Party of France (Guesdist)",
+            "keyword_de": "Sozialistische Partei Frankreichs (Guesdist)"
           },
           {
             "name": "SFIO",
-            "full_name": "Section française de l'Internationale ouvrière"
+            "full_name": "Section française de l'Internationale ouvrière",
+            "full_name_en": "French section of the Workers' International",
+            "full_name_de": "Französische Sektion der Arbeiterinternationale"
           },
           {
             "name": "PS",
             "full_name": "Parti socialiste",
-            "keyword": "Parti socialiste (France)"
+            "full_name_en": "Socialist Party",
+            "full_name_de": "Sozialistische Partei",
+            "keyword": "Parti socialiste (France)",
+            "keyword_en": "Socialist Party (France)",
+            "keyword_de": "Sozialistische Partei (Frankreich)"
           }
         ]
       },
       {
         "name": "Socialiste possibiliste",
+        "name_en": "Possibilist socialist",
+        "name_de": "Possibilistischer Sozialist",
         "color": "#FF0E3A",
         "keyword": "Possibilisme (politique)",
+        "keyword_en": "Possibilism (politics)",
+        "keyword_de": "Possibilismus (Politik)",
         "parties": [
           {
             "name": "FTSF",
-            "full_name": "Fédération des travailleurs socialistes de France"
+            "full_name": "Fédération des travailleurs socialistes de France",
+            "full_name_en": "Federation of Socialist Workers of France",
+            "full_name_de": "Föderation der sozialistischen Arbeiter Frankreichs"
           },
           {
-            "name": "PSF ",
+            "name": "PSF",
             "full_name": "Parti Socialiste Français",
-            "keyword": "Parti socialiste français (1919)"
+            "full_name_en": "French Socialist Party",
+            "full_name_de": "Französische Sozialistische Partei",
+            "keyword": "Parti socialiste français (1919)",
+            "keyword_en": "French Socialist Party (1919)",
+            "keyword_de": "Französische Sozialistische Partei (1919)"
           }
         ]
       },
       {
         "name": "Socialiste-libéral",
+        "name_en": "Socialist-liberal",
+        "name_de": "Sozialistisch-liberal",
         "color": "#FF3B64",
         "keyword": "Social-libéralisme",
+        "keyword_en": "Social liberalism",
+        "keyword_de": "Sozialliberalismus",
         "parties": [
           {
             "name": "PSF",
             "full_name": "Parti socialiste français",
-            "keyword": "Parti socialiste français (1902)"
+            "full_name_en": "French Socialist Party",
+            "full_name_de": "Französische Sozialistische Partei",
+            "keyword": "Parti socialiste français (1902)",
+            "keyword_en": "French Socialist Party (1902)",
+            "keyword_de": "Französische Sozialistische Partei (1902)"
           },
           {
             "name": "SI",
-            "full_name": "Socialistes indépendants"
+            "full_name": "Socialistes indépendants",
+            "full_name_en": "Independent Socialists",
+            "full_name_de": "Unabhängige Sozialisten"
           },
           {
-            "name": "PRS ",
-            "full_name": "Parti républicain-socialiste"
+            "name": "PRS",
+            "full_name": "Parti républicain-socialiste",
+            "full_name_en": "Republican-Socialist Party",
+            "full_name_de": "Republikanisch-sozialistische Partei"
           },
           {
             "name": "USR",
-            "full_name": "Union socialiste républicaine"
+            "full_name": "Union socialiste républicaine",
+            "full_name_en": "Republican Socialist Union",
+            "full_name_de": "Republikanische Sozialistische Union"
           },
           {
             "name": "UDSR",
-            "full_name": "Union démocratique et socialiste de la Résistance"
+            "full_name": "Union démocratique et socialiste de la Résistance",
+            "full_name_en": "Democratic and Socialist Union of the Resistance",
+            "full_name_de": "Demokratische und Sozialistische Union des Widerstands"
           },
           {
             "name": "CIR",
-            "full_name": "Convention des institutions républicaines"
+            "full_name": "Convention des institutions républicaines",
+            "full_name_en": "Convention of Republican Institutions",
+            "full_name_de": "Konvention der republikanischen Institutionen"
           }
         ]
       },
       {
         "name": "Souverainisme social",
+        "name_en": "Social sovereignty",
+        "name_de": "Soziale Souveränität",
         "color": "#FF3B64",
         "keyword": "Jean-Pierre Chevènement #Souverainisme",
+        "keyword_en": "Jean-Pierre Chevènement #Sovereignty",
+        "keyword_de": "Jean-Pierre Chevènement #Souveränität",
         "parties": [
           {
             "name": "MDC",
             "full_name": "Mouvement des Citoyens",
-            "keyword": "Mouvement des citoyens (France)"
+            "full_name_en": "Citizens' Movement",
+            "full_name_de": "Bürgerbewegung",
+            "keyword": "Mouvement des citoyens (France)",
+            "keyword_en": "Citizens' Movement (France)",
+            "keyword_de": "Bürgerbewegung (Frankreich)"
           },
           {
             "name": "MRC",
-            "full_name": "Mouvement républicain et citoyen"
+            "full_name": "Mouvement républicain et citoyen",
+            "full_name_en": "Republican and citizen movement",
+            "full_name_de": "Republikanische und Bürgerbewegung"
           }
         ]
       },
       {
         "name": "Sans-culotte",
+        "name_en": "Sans-culotte",
+        "name_de": "Ohne Culotte",
         "color": "#C10F3D",
         "keyword": "Sans-culottes",
+        "keyword_en": "Sans-culottes",
+        "keyword_de": "Ohne Hosen",
         "parties": [
           {
             "name": "EXG",
             "full_name": "Extrème gauche",
-            "keyword": "Sans-culottes"
+            "full_name_en": "Far left",
+            "full_name_de": "Ganz links",
+            "keyword": "Sans-culottes",
+            "keyword_en": "Sans-culottes",
+            "keyword_de": "Ohne Hosen"
           }
         ]
       },
       {
         "name": "Républicain jacobin",
+        "name_en": "Jacobin Republican",
+        "name_de": "Jakobinischer Republikaner",
         "color": "#FF3057",
         "keyword": "Jacobinisme",
+        "keyword_en": "Jacobinism",
+        "keyword_de": "Jakobinismus",
         "parties": [
           {
             "name": "MON",
             "full_name": "Montagnards",
-            "keyword": "Montagne (Révolution française)"
+            "full_name_en": "Mountaineers",
+            "full_name_de": "Bergsteiger",
+            "keyword": "Montagne (Révolution française)",
+            "keyword_en": "Mountain (French Revolution)",
+            "keyword_de": "Berg (Französische Revolution)"
           },
           {
-            "name": "REP ",
+            "name": "REP",
             "full_name": "Républicains",
-            "keyword": "Républicains français sous la Restauration"
+            "full_name_en": "Republicans",
+            "full_name_de": "Republikaner",
+            "keyword": "Républicains français sous la Restauration",
+            "keyword_en": "French Republicans under the Restoration",
+            "keyword_de": "Französische Republikaner unter der Restauration"
           },
           {
             "name": "RC",
             "full_name": "Républicains convaincus",
-            "keyword": "Républicains français sous la monarchie de Juillet"
+            "full_name_en": "Convinced Republicans",
+            "full_name_de": "Überzeugte Republikaner",
+            "keyword": "Républicains français sous la monarchie de Juillet",
+            "keyword_en": "French Republicans under the July Monarchy",
+            "keyword_de": "Französische Republikaner unter der Julimonarchie"
           },
           {
             "name": "MTG",
             "full_name": "La Montagne",
-            "keyword": "Montagne (1849)"
+            "full_name_en": "The Mountain",
+            "full_name_de": "Der Berg",
+            "keyword": "Montagne (1849)",
+            "keyword_en": "Mountain (1849)",
+            "keyword_de": "Berg (1849)"
           }
         ]
       },
       {
         "name": "Radical de gauche",
+        "name_en": "Left radical",
+        "name_de": "Linksradikal",
         "color": "#FF5879",
         "keyword": "Radicalisme #En France",
+        "keyword_en": "Radicalism #In France",
+        "keyword_de": "Radikalismus #In Frankreich",
         "parties": [
           {
             "name": "OR",
             "full_name": "Opposition radicale",
-            "keyword": "Républicains français sous le Second Empire"
+            "full_name_en": "Radical opposition",
+            "full_name_de": "Radikale Opposition",
+            "keyword": "Républicains français sous le Second Empire",
+            "keyword_en": "French Republicans under the Second Empire",
+            "keyword_de": "Französische Republikaner unter dem Zweiten Kaiserreich"
           },
           {
-            "name": "RI  ",
-            "full_name": "Radicaux intransigeants"
+            "name": "RI",
+            "full_name": "Radicaux intransigeants",
+            "full_name_en": "Uncompromising radicals",
+            "full_name_de": "Kompromisslose Radikale"
           },
           {
-            "name": "RS ",
+            "name": "RS",
             "full_name": "Radicaux socialistes",
-            "keyword": "Groupe radical-socialiste"
+            "full_name_en": "Socialist radicals",
+            "full_name_de": "Sozialistische Radikale",
+            "keyword": "Groupe radical-socialiste",
+            "keyword_en": "Radical-socialist group",
+            "keyword_de": "Radikal-sozialistische Gruppe"
           },
           {
             "name": "PRRRS",
             "full_name": "Parti républicain, radical et radical-socialiste",
-            "keyword": "Parti radical (France)"
+            "full_name_en": "Republican, Radical and Radical-Socialist Party",
+            "full_name_de": "Republikanische, radikale und radikal-sozialistische Partei",
+            "keyword": "Parti radical (France)",
+            "keyword_en": "Radical Party (France)",
+            "keyword_de": "Radikale Partei (Frankreich)"
           },
           {
             "name": "PRRS",
             "full_name": "Parti républicain, radical et radical-socialiste",
-            "keyword": "Parti radical (France)"
+            "full_name_en": "Republican, Radical and Radical-Socialist Party",
+            "full_name_de": "Republikanische, radikale und radikal-sozialistische Partei",
+            "keyword": "Parti radical (France)",
+            "keyword_en": "Radical Party (France)",
+            "keyword_de": "Radikale Partei (Frankreich)"
           },
           {
             "name": "PRG",
-            "full_name": "Parti radical de gauche"
+            "full_name": "Parti radical de gauche",
+            "full_name_en": "Radical Left Party",
+            "full_name_de": "Radikale Linkspartei"
           },
           {
             "name": "MRG",
             "full_name": "Mouvement des radicaux de gauche",
-            "keyword": "Parti radical de gauche #1973-1994 : Mouvement des radicaux de gauche"
+            "full_name_en": "Left radical movement",
+            "full_name_de": "Linksradikale Bewegung",
+            "keyword": "Parti radical de gauche #1973-1994 : Mouvement des radicaux de gauche",
+            "keyword_en": "Radical Left Party #1973-1994: Movement of left radicals",
+            "keyword_de": "Radikale Linkspartei #1973-1994: Bewegung der Linksradikalen"
           },
           {
             "name": "PRS",
             "full_name": "Parti radical-socialiste",
-            "keyword": "Parti radical de gauche #1996-1998 : Parti radical-socialiste"
+            "full_name_en": "Radical-Socialist Party",
+            "full_name_de": "Radikal-Sozialistische Partei",
+            "keyword": "Parti radical de gauche #1996-1998 : Parti radical-socialiste",
+            "keyword_en": "Radical Left Party #1996-1998: Radical-Socialist Party",
+            "keyword_de": "Radikale Linkspartei #1996-1998: Radikal-Sozialistische Partei"
           }
         ]
       },
       {
         "name": "Divers gauche",
+        "name_en": "Miscellaneous left",
+        "name_de": "Sonstiges übrig",
         "color": "#FF718B",
         "keyword": "Divers gauche",
+        "keyword_en": "Miscellaneous left",
+        "keyword_de": "Sonstiges übrig",
         "parties": [
           {
             "name": "DVG",
-            "full_name": "Divers gauche"
+            "full_name": "Divers gauche",
+            "full_name_en": "Miscellaneous left",
+            "full_name_de": "Sonstiges übrig"
           }
         ]
       }
@@ -330,211 +553,355 @@
   },
   {
     "name": "Centre",
+    "name_en": "Centre",
+    "name_de": "Mitte",
     "color": "#FFBC5D",
     "currents": [
       {
         "name": "Chrétien-social",
+        "name_en": "Christian-social",
+        "name_de": "Christlich-sozial",
         "color": "#FFDD8F",
         "keyword": "Catholicisme social",
+        "keyword_en": "Social Catholicism",
+        "keyword_de": "Sozialkatholizismus",
         "parties": [
           {
             "name": "LJR",
-            "full_name": "Ligue de la Jeune République"
+            "full_name": "Ligue de la Jeune République",
+            "full_name_en": "League of the Young Republic",
+            "full_name_de": "Liga der Jungen Republik"
           },
           {
             "name": "PJR",
             "full_name": "Parti de la Jeune République",
-            "keyword": "Ligue de la Jeune République #Le Parti de la Jeune République"
+            "full_name_en": "Young Republic Party",
+            "full_name_de": "Partei der Jungen Republik",
+            "keyword": "Ligue de la Jeune République #Le Parti de la Jeune République",
+            "keyword_en": "League of the Young Republic #The Party of the Young Republic",
+            "keyword_de": "Liga der Jungen Republik #Die Partei der Jungen Republik"
           }
         ]
       },
       {
         "name": "Centre démocrate-chrétien",
+        "name_en": "Christian Democratic Center",
+        "name_de": "Christlich-Demokratisches Zentrum",
         "color": "#FED264",
         "keyword": "Démocratie chrétienne",
+        "keyword_en": "Christian democracy",
+        "keyword_de": "Christliche Demokratie",
         "parties": [
           {
             "name": "DEM",
             "full_name": "Démocrates",
-            "keyword": "Parti démocrate populaire (France)"
+            "full_name_en": "Democrats",
+            "full_name_de": "Demokraten",
+            "keyword": "Parti démocrate populaire (France)",
+            "keyword_en": "Popular Democratic Party (France)",
+            "keyword_de": "Demokratische Volkspartei (Frankreich)"
           },
           {
             "name": "PDP",
             "full_name": "Parti démocrate populaire",
-            "keyword": "Parti démocrate populaire (France)"
+            "full_name_en": "People's Democratic Party",
+            "full_name_de": "Demokratische Volkspartei",
+            "keyword": "Parti démocrate populaire (France)",
+            "keyword_en": "Popular Democratic Party (France)",
+            "keyword_de": "Demokratische Volkspartei (Frankreich)"
           },
           {
             "name": "MRP",
-            "full_name": "Mouvement républicain populaire"
+            "full_name": "Mouvement républicain populaire",
+            "full_name_en": "Popular Republican Movement",
+            "full_name_de": "Volksrepublikanische Bewegung"
           },
           {
             "name": "CD",
             "full_name": "Centre démocrate",
-            "keyword": "Centre démocrate (France)"
+            "full_name_en": "Democratic Center",
+            "full_name_de": "Demokratisches Zentrum",
+            "keyword": "Centre démocrate (France)",
+            "keyword_en": "Democratic Center (France)",
+            "keyword_de": "Demokratisches Zentrum (Frankreich)"
           },
           {
             "name": "CDP",
-            "full_name": "Centre démocratie et progrès"
+            "full_name": "Centre démocratie et progrès",
+            "full_name_en": "Center for Democracy and Progress",
+            "full_name_de": "Zentrum für Demokratie und Fortschritt"
           },
           {
             "name": "CDS",
-            "full_name": "Centre des démocrates sociaux"
+            "full_name": "Centre des démocrates sociaux",
+            "full_name_en": "Center for Social Democrats",
+            "full_name_de": "Zentrum für Sozialdemokraten"
           },
           {
             "name": "MoDem",
             "full_name": "Mouvement démocrate",
-            "keyword": "Mouvement démocrate (France)"
+            "full_name_en": "Democratic movement",
+            "full_name_de": "Demokratische Bewegung",
+            "keyword": "Mouvement démocrate (France)",
+            "keyword_en": "Democratic movement (France)",
+            "keyword_de": "Demokratische Bewegung (Frankreich)"
           }
         ]
       },
       {
         "name": "Radical-centriste",
+        "name_en": "Radical-centrist",
+        "name_de": "Radikal-zentristisch",
         "color": "#FFBC5D",
         "keyword": "Radicalisme",
+        "keyword_en": "Radicalism",
+        "keyword_de": "Radikalismus",
         "parties": [
           {
             "name": "RR",
             "full_name": "Républicains radicaux",
-            "keyword": "Gauche radicale (groupe parlementaire)"
+            "full_name_en": "Radical Republicans",
+            "full_name_de": "Radikale Republikaner",
+            "keyword": "Gauche radicale (groupe parlementaire)",
+            "keyword_en": "Radical left (parliamentary group)",
+            "keyword_de": "Radikale Linke (Fraktion)"
           },
           {
             "name": "RI ",
             "full_name": "Radicaux indépendants",
-            "keyword": "Radical indépendant"
+            "full_name_en": "Independent radicals",
+            "full_name_de": "Unabhängige Radikale",
+            "keyword": "Radical indépendant",
+            "keyword_en": "Independent Radical",
+            "keyword_de": "Unabhängiger Radikaler"
           },
           {
             "name": "RGR",
-            "full_name": "Rassemblement des gauches républicaines"
+            "full_name": "Rassemblement des gauches républicaines",
+            "full_name_en": "Rally of republican lefts",
+            "full_name_de": "Kundgebung der republikanischen Linken"
           },
           {
             "name": "CR",
-            "full_name": "Centre républicain"
+            "full_name": "Centre républicain",
+            "full_name_en": "Republican Center",
+            "full_name_de": "Republikanisches Zentrum"
           }
         ]
       },
       {
         "name": "Extrême centre",
+        "name_en": "Extreme center",
+        "name_de": "Extremes Zentrum",
         "color": "#FBC408",
         "keyword": "Extrême centre",
+        "keyword_en": "Extreme center",
+        "keyword_de": "Extremes Zentrum",
         "parties": [
           {
             "name": "LREM",
             "full_name": "La République en marche",
-            "keyword": "Renaissance (parti)"
+            "full_name_en": "The Republic on the move",
+            "full_name_de": "Die Republik in Bewegung",
+            "keyword": "Renaissance (parti)",
+            "keyword_en": "Renaissance (party)",
+            "keyword_de": "Renaissance (Party)"
           },
           {
             "name": "RE",
             "full_name": "Renaissance",
-            "keyword": "Renaissance (parti)"
+            "full_name_en": "Renaissance",
+            "full_name_de": "Renaissance",
+            "keyword": "Renaissance (parti)",
+            "keyword_en": "Renaissance (party)",
+            "keyword_de": "Renaissance (Party)"
           }
         ]
       },
       {
         "name": "Centre droit",
+        "name_en": "Center right",
+        "name_de": "Mitte rechts",
         "color": "#FFA500",
         "keyword": "Centre droit",
+        "keyword_en": "Center right",
+        "keyword_de": "Mitte rechts",
         "parties": [
           {
             "name": "GIR",
             "full_name": "Girondins",
-            "keyword": "Gironde (Révolution française)"
+            "full_name_en": "Girondins",
+            "full_name_de": "Girondisten",
+            "keyword": "Gironde (Révolution française)",
+            "keyword_en": "Gironde (French Revolution)",
+            "keyword_de": "Gironde (Französische Revolution)"
           },
           {
             "name": "LIB",
             "full_name": "Libéraux",
-            "keyword": "Libéraux (Restauration)"
+            "full_name_en": "Liberals",
+            "full_name_de": "Liberale",
+            "keyword": "Libéraux (Restauration)",
+            "keyword_en": "Liberals (Restoration)",
+            "keyword_de": "Liberale (Restauration)"
           },
           {
             "name": "PdM",
             "full_name": "Parti du Mouvement",
-            "keyword": "Courants politiques sous la monarchie de Juillet #Le centre gauche"
+            "full_name_en": "Movement Party",
+            "full_name_de": "Bewegungspartei",
+            "keyword": "Courants politiques sous la monarchie de Juillet #Le centre gauche",
+            "keyword_en": "Political currents under the July Monarchy #The center left",
+            "keyword_de": "Politische Strömungen unter der Julimonarchie #Die Mitte links"
           },
           {
             "name": "RL",
             "full_name": "Républicains libéraux",
-            "keyword": "Républicains modérés (Deuxième République)"
+            "full_name_en": "Liberal Republicans",
+            "full_name_de": "Liberale Republikaner",
+            "keyword": "Républicains modérés (Deuxième République)",
+            "keyword_en": "Moderate Republicans (Second Republic)",
+            "keyword_de": "Gemäßigte Republikaner (Zweite Republik)"
           },
           {
             "name": "REP",
             "full_name": "Républicains",
-            "keyword": "Républicains français sous le Second Empire"
+            "full_name_en": "Republicans",
+            "full_name_de": "Republikaner",
+            "keyword": "Républicains français sous le Second Empire",
+            "keyword_en": "French Republicans under the Second Empire",
+            "keyword_de": "Französische Republikaner unter dem Zweiten Kaiserreich"
           },
           {
             "name": "OD",
             "full_name": "Opposition démocrate",
-            "keyword": "Républicains français sous le Second Empire"
+            "full_name_en": "Democratic opposition",
+            "full_name_de": "Demokratische Opposition",
+            "keyword": "Républicains français sous le Second Empire",
+            "keyword_en": "French Republicans under the Second Empire",
+            "keyword_de": "Französische Republikaner unter dem Zweiten Kaiserreich"
           },
           {
             "name": "RM",
-            "full_name": "Républicains modérés"
+            "full_name": "Républicains modérés",
+            "full_name_en": "Moderate Republicans",
+            "full_name_de": "Gemäßigte Republikaner"
           },
           {
             "name": "UR",
             "full_name": "Union républicaine",
-            "keyword": "Union républicaine (France)"
+            "full_name_en": "Republican Union",
+            "full_name_de": "Republikanische Union",
+            "keyword": "Union républicaine (France)",
+            "keyword_en": "Republican Union (France)",
+            "keyword_de": "Republikanische Union (Frankreich)"
           },
           {
             "name": "ULR",
-            "full_name": "Union libérale républicaine"
+            "full_name": "Union libérale républicaine",
+            "full_name_en": "Liberal Republican Union",
+            "full_name_de": "Liberale Republikanische Union"
           },
           {
             "name": "UP ",
             "full_name": "Union progressiste",
-            "keyword": "Union progressiste (Troisième République)"
+            "full_name_en": "Progressive Union",
+            "full_name_de": "Fortschrittliche Union",
+            "keyword": "Union progressiste (Troisième République)",
+            "keyword_en": "Progressive Union (Third Republic)",
+            "keyword_de": "Fortschrittsunion (Dritte Republik)"
           },
           {
             "name": "ARD",
             "full_name": "Alliance républicaine démocratique",
-            "keyword": "Alliance démocratique (France)"
+            "full_name_en": "Democratic Republican Alliance",
+            "full_name_de": "Demokratische Republikanische Allianz",
+            "keyword": "Alliance démocratique (France)",
+            "keyword_en": "Democratic Alliance (France)",
+            "keyword_de": "Demokratische Allianz (Frankreich)"
           },
           {
             "name": "PRD",
             "full_name": "Parti républicain démocratique",
-            "keyword": "Alliance démocratique (France)"
+            "full_name_en": "Democratic Republican Party",
+            "full_name_de": "Demokratische Republikanische Partei",
+            "keyword": "Alliance démocratique (France)",
+            "keyword_en": "Democratic Alliance (France)",
+            "keyword_de": "Demokratische Allianz (Frankreich)"
           },
           {
             "name": "PRDS",
             "full_name": "Parti républicain démocratique et social",
-            "keyword": "Alliance démocratique (France)"
+            "full_name_en": "Democratic and Social Republican Party",
+            "full_name_de": "Demokratische und Sozialrepublikanische Partei",
+            "keyword": "Alliance démocratique (France)",
+            "keyword_en": "Democratic Alliance (France)",
+            "keyword_de": "Demokratische Allianz (Frankreich)"
           },
           {
             "name": "AD",
             "full_name": "Alliance démocratique",
-            "keyword": "Alliance démocratique (France)"
+            "full_name_en": "Democratic Alliance",
+            "full_name_de": "Demokratische Allianz",
+            "keyword": "Alliance démocratique (France)",
+            "keyword_en": "Democratic Alliance (France)",
+            "keyword_de": "Demokratische Allianz (Frankreich)"
           },
           {
             "name": "CNIP",
-            "full_name": "Centre national des indépendants et paysans"
+            "full_name": "Centre national des indépendants et paysans",
+            "full_name_en": "National Center for Independents and Peasants",
+            "full_name_de": "Nationales Zentrum für Unabhängige und Bauern"
           },
           {
             "name": "RI",
             "full_name": "Républicains indépendants",
-            "keyword": "Groupe des Républicains indépendants (Assemblée nationale)"
+            "full_name_en": "Independent Republicans",
+            "full_name_de": "Unabhängige Republikaner",
+            "keyword": "Groupe des Républicains indépendants (Assemblée nationale)",
+            "keyword_en": "Group of Independent Republicans (National Assembly)",
+            "keyword_de": "Gruppe unabhängiger Republikaner (Nationalversammlung)"
           },
           {
             "name": "UDF",
-            "full_name": "Union pour la démocratie française"
+            "full_name": "Union pour la démocratie française",
+            "full_name_en": "Union for French Democracy",
+            "full_name_de": "Union für die französische Demokratie"
           },
           {
             "name": "NC",
             "full_name": "le Nouveau Centre",
-            "keyword": "Les Centristes - Le Nouveau Centre"
+            "full_name_en": "the New Center",
+            "full_name_de": "das Neue Zentrum",
+            "keyword": "Les Centristes - Le Nouveau Centre",
+            "keyword_en": "The Centrists - The New Center",
+            "keyword_de": "Die Zentristen – Die neue Mitte"
           },
           {
             "name": "UDI",
-            "full_name": "Union des démocrates et indépendants"
+            "full_name": "Union des démocrates et indépendants",
+            "full_name_en": "Union of Democrats and Independents",
+            "full_name_de": "Union der Demokraten und Unabhängigen"
           }
         ]
       },
       {
         "name": "Centre droit ",
+        "name_en": "Center right ",
+        "name_de": "Mitte rechts ",
         "color": "#FFA500",
         "keyword": "Centre droit",
+        "keyword_en": "Center right",
+        "keyword_de": "Mitte rechts",
         "parties": [
           {
             "name": "LC",
             "full_name": "Les Centristes",
-            "keyword": "Les Centristes - Le Nouveau Centre"
+            "full_name_en": "The Centrists",
+            "full_name_de": "Die Zentristen",
+            "keyword": "Les Centristes - Le Nouveau Centre",
+            "keyword_en": "The Centrists - The New Center",
+            "keyword_de": "Die Zentristen – Die neue Mitte"
           }
         ]
       }
@@ -542,164 +909,270 @@
   },
   {
     "name": "Droite",
+    "name_en": "Right",
+    "name_de": "Rechts",
     "color": "#33ADFF",
     "currents": [
       {
         "name": "Divers droite",
+        "name_en": "Various right",
+        "name_de": "Verschiedenes richtig",
         "color": "#89D9FE",
         "keyword": "Divers droite",
+        "keyword_en": "Various right",
+        "keyword_de": "Verschiedenes richtig",
         "parties": [
           {
             "name": "DVD",
-            "full_name": "Divers droite"
+            "full_name": "Divers droite",
+            "full_name_en": "Various right",
+            "full_name_de": "Verschiedenes richtig"
           }
         ]
       },
       {
         "name": "Radical de droite",
+        "name_en": "Right-wing radical",
+        "name_de": "Rechtsradikaler",
         "color": "#96D2FF",
         "keyword": "Radicalisme",
+        "keyword_en": "Radicalism",
+        "keyword_de": "Radikalismus",
         "parties": [
           {
             "name": "PR",
             "full_name": "Parti radical",
-            "keyword": "Parti radical (France)"
+            "full_name_en": "Radical Party",
+            "full_name_de": "Radikale Partei",
+            "keyword": "Parti radical (France)",
+            "keyword_en": "Radical Party (France)",
+            "keyword_de": "Radikale Partei (Frankreich)"
           }
         ]
       },
       {
         "name": "Libéral-conservateur",
+        "name_en": "Liberal-conservative",
+        "name_de": "Liberal-konservativ",
         "color": "#70C2FF",
         "keyword": "libéral-conservatisme",
+        "keyword_en": "liberal-conservatism",
+        "keyword_de": "Liberal-Konservatismus",
         "parties": [
           {
             "name": "MAR",
             "full_name": "Marais",
-            "keyword": "Plaine (Révolution française)"
+            "full_name_en": "Marsh",
+            "full_name_de": "Sumpf",
+            "keyword": "Plaine (Révolution française)",
+            "keyword_en": "Plain (French Revolution)",
+            "keyword_de": "Ebene (Französische Revolution)"
           },
           {
             "name": "THER",
             "full_name": "Thermidoriens",
-            "keyword": "Thermidorien"
+            "full_name_en": "Thermidorians",
+            "full_name_de": "Thermidorianer",
+            "keyword": "Thermidorien",
+            "keyword_en": "Thermidorian",
+            "keyword_de": "Thermidorianer"
           },
           {
             "name": "TP",
             "full_name": "Tiers parti",
-            "keyword": "Courants politiques sous la monarchie de Juillet #Le centre"
+            "full_name_en": "Third party",
+            "full_name_de": "Dritte Seite",
+            "keyword": "Courants politiques sous la monarchie de Juillet #Le centre",
+            "keyword_en": "Political currents under the July Monarchy #The center",
+            "keyword_de": "Politische Strömungen unter der Julimonarchie #Das Zentrum"
           },
           {
             "name": "CL",
             "full_name": "Conservateurs libéraux",
-            "keyword": "Centre gauche (groupe parlementaire)"
+            "full_name_en": "Liberal Conservatives",
+            "full_name_de": "Liberale Konservative",
+            "keyword": "Centre gauche (groupe parlementaire)",
+            "keyword_en": "Center left (parliamentary group)",
+            "keyword_de": "Mitte links (Fraktion)"
           },
           {
             "name": "UD",
             "full_name": "Union démocratique",
-            "keyword": "Union démocratique (groupe parlementaire) #Premier groupe, centriste (1882-1885)"
+            "full_name_en": "Democratic Union",
+            "full_name_de": "Demokratische Union",
+            "keyword": "Union démocratique (groupe parlementaire) #Premier groupe, centriste (1882-1885)",
+            "keyword_en": "Democratic Union (parliamentary group) #First group, centrist (1882-1885)",
+            "keyword_de": "Demokratische Union (Fraktion) #Erste Gruppe, Mitte (1882-1885)"
           },
           {
             "name": "ANR",
             "full_name": "Association nationale républicaine",
-            "keyword": "Association nationale républicaine (France)"
+            "full_name_en": "National Republican Association",
+            "full_name_de": "Nationale Republikanische Vereinigung",
+            "keyword": "Association nationale républicaine (France)",
+            "keyword_en": "National Republican Association (France)",
+            "keyword_de": "Nationale Republikanische Vereinigung (Frankreich)"
           },
           {
             "name": "RP",
-            "full_name": "Républicains progressistes"
+            "full_name": "Républicains progressistes",
+            "full_name_en": "Progressive Republicans",
+            "full_name_de": "Progressive Republikaner"
           },
           {
             "name": "FR",
-            "full_name": "Fédération républicaine"
+            "full_name": "Fédération républicaine",
+            "full_name_en": "Republican Federation",
+            "full_name_de": "Republikanische Föderation"
           },
           {
             "name": "UR ",
             "full_name": "Unité républicaine",
-            "keyword": "Unité républicaine (France)"
+            "full_name_en": "Republican unity",
+            "full_name_de": "Republikanische Einheit",
+            "keyword": "Unité républicaine (France)",
+            "keyword_en": "Republican unity (France)",
+            "keyword_de": "Republikanische Einheit (Frankreich)"
           },
           {
             "name": "PRL",
-            "full_name": "Parti républicain de la liberté"
+            "full_name": "Parti républicain de la liberté",
+            "full_name_en": "Republican Liberty Party",
+            "full_name_de": "Republikanische Freiheitspartei"
           },
           {
             "name": "HOR",
-            "full_name": "Horizons"
+            "full_name": "Horizons",
+            "full_name_en": "Horizons",
+            "full_name_de": "Horizonte"
           }
         ]
       },
       {
         "name": "Conservateur",
+        "name_en": "Conservative",
+        "name_de": "Konservativ",
         "color": "#33ADFF",
         "keyword": "Conservatisme",
+        "keyword_en": "Conservatism",
+        "keyword_de": "Konservatismus",
         "parties": [
           {
             "name": "FEU",
             "full_name": "Feuillants",
-            "keyword": "Club des feuillants"
+            "full_name_en": "Leaves",
+            "full_name_de": "Blätter",
+            "keyword": "Club des feuillants",
+            "keyword_en": "Leaf club",
+            "keyword_de": "Blattclub"
           },
           {
             "name": "CLY",
             "full_name": "Clichyens",
-            "keyword": "Club de Clichy"
+            "full_name_en": "Clichyans",
+            "full_name_de": "Klischeer",
+            "keyword": "Club de Clichy",
+            "keyword_en": "Clichy Club",
+            "keyword_de": "Clichy Club"
           },
           {
             "name": "DOC",
             "full_name": "Doctrinaires",
-            "keyword": "Doctrinaires (politique)"
+            "full_name_en": "Doctrinaires",
+            "full_name_de": "Doktrinäre",
+            "keyword": "Doctrinaires (politique)",
+            "keyword_en": "Doctrinaires (politics)",
+            "keyword_de": "Doktrinäre (Politik)"
           },
           {
             "name": "CD ",
             "full_name": "Centre droit",
-            "keyword": "Doctrinaires (politique)"
+            "full_name_en": "Center right",
+            "full_name_de": "Mitte rechts",
+            "keyword": "Doctrinaires (politique)",
+            "keyword_en": "Doctrinaires (politics)",
+            "keyword_de": "Doktrinäre (Politik)"
           },
           {
             "name": "PdR",
             "full_name": "Parti de la résistance",
-            "keyword": "Courants politiques sous la monarchie de Juillet #Le centre droit"
+            "full_name_en": "Resistance Party",
+            "full_name_de": "Widerstandspartei",
+            "keyword": "Courants politiques sous la monarchie de Juillet #Le centre droit",
+            "keyword_en": "Political currents under the July Monarchy #The center right",
+            "keyword_de": "Politische Strömungen unter der Julimonarchie #Mitte-Rechts"
           },
           {
             "name": "PdO",
-            "full_name": "Parti de l'Ordre"
+            "full_name": "Parti de l'Ordre",
+            "full_name_en": "Party of Order",
+            "full_name_de": "Partei der Ordnung"
           },
           {
             "name": "MR",
             "full_name": "Monarchistes Ralliés",
-            "keyword": "Ralliement (catholicisme en France)"
+            "full_name_en": "Rallied Monarchists",
+            "full_name_de": "Versammelte Monarchisten",
+            "keyword": "Ralliement (catholicisme en France)",
+            "keyword_en": "Rally (Catholicism in France)",
+            "keyword_de": "Kundgebung (Katholizismus in Frankreich)"
           },
           {
             "name": "ALP",
-            "full_name": "Action libérale populaire"
+            "full_name": "Action libérale populaire",
+            "full_name_en": "Popular liberal action",
+            "full_name_de": "Populäre liberale Aktion"
           },
           {
             "name": "RPF",
-            "full_name": "Rassemblement du peuple français"
+            "full_name": "Rassemblement du peuple français",
+            "full_name_en": "Rally of the French people",
+            "full_name_de": "Kundgebung des französischen Volkes"
           },
           {
             "name": "RS",
-            "full_name": "Républicains sociaux"
+            "full_name": "Républicains sociaux",
+            "full_name_en": "Social Republicans",
+            "full_name_de": "Sozialrepublikaner"
           },
           {
             "name": "UNR",
-            "full_name": "Union pour la nouvelle République"
+            "full_name": "Union pour la nouvelle République",
+            "full_name_en": "Union for the New Republic",
+            "full_name_de": "Union für die Neue Republik"
           },
           {
             "name": "UNR-UDT",
             "full_name": "Union pour la nouvelle République - Union démocratique du travail",
-            "keyword": "Union pour la nouvelle République"
+            "full_name_en": "Union for the New Republic - Democratic Labor Union",
+            "full_name_de": "Union für die Neue Republik – Demokratische Gewerkschaft",
+            "keyword": "Union pour la nouvelle République",
+            "keyword_en": "Union for the New Republic",
+            "keyword_de": "Union für die Neue Republik"
           },
           {
             "name": "UDR",
-            "full_name": "Union des démocrates pour la République"
+            "full_name": "Union des démocrates pour la République",
+            "full_name_en": "Union of Democrats for the Republic",
+            "full_name_de": "Union der Demokraten für die Republik"
           },
           {
             "name": "RPR",
-            "full_name": "Rassemblement pour la République"
+            "full_name": "Rassemblement pour la République",
+            "full_name_en": "Rally for the Republic",
+            "full_name_de": "Kundgebung für die Republik"
           },
           {
             "name": "UMP",
-            "full_name": "Union pour un mouvement populaire"
+            "full_name": "Union pour un mouvement populaire",
+            "full_name_en": "Union for a Popular Movement",
+            "full_name_de": "Union für eine Volksbewegung"
           },
           {
             "name": "LR",
-            "full_name": "Les Républicains"
+            "full_name": "Les Républicains",
+            "full_name_en": "The Republicans",
+            "full_name_de": "Die Republikaner"
           }
         ]
       }
@@ -707,129 +1180,209 @@
   },
   {
     "name": "Extrême droite",
+    "name_en": "Far right",
+    "name_de": "Ganz rechts",
     "color": "#BE9E87",
     "currents": [
       {
         "name": "Agrariste",
+        "name_en": "Agrarian",
+        "name_de": "Agrarisch",
         "color": "#55A696",
         "keyword": "Agrarisme",
+        "keyword_en": "Agrarianism",
+        "keyword_de": "Agrarismus",
         "parties": [
           {
             "name": "RAPS",
             "full_name": "Républicains d'action paysanne et sociale",
-            "keyword": "Parti paysan d'union sociale"
+            "full_name_en": "Republicans of peasant and social action",
+            "full_name_de": "Republikaner der bäuerlichen und sozialen Aktion",
+            "keyword": "Parti paysan d'union sociale",
+            "keyword_en": "Social Union Peasant Party",
+            "keyword_de": "Bauernpartei der Sozialunion"
           },
           {
             "name": "PPUS",
-            "full_name": "Parti paysan d'union sociale"
+            "full_name": "Parti paysan d'union sociale",
+            "full_name_en": "Social Union Peasant Party",
+            "full_name_de": "Bauernpartei der Sozialunion"
           }
         ]
       },
       {
         "name": "Droite Ciottiste",
+        "name_en": "Right Ciottiste",
+        "name_de": "Richtig, Ciottiste",
         "color": "#3989DB",
         "keyword": "Éric Ciotti",
+        "keyword_en": "Eric Ciotti",
+        "keyword_de": "Eric Ciotti",
         "parties": [
           {
             "name": "AD!",
             "full_name": "À droite !",
-            "keyword": "Union des droites pour la République"
+            "full_name_en": "Right!",
+            "full_name_de": "Rechts!",
+            "keyword": "Union des droites pour la République",
+            "keyword_en": "Union of Rights for the Republic",
+            "keyword_de": "Union der Rechte für die Republik"
           }
         ]
       },
       {
         "name": "Populiste souverainiste",
+        "name_en": "Sovereignist populist",
+        "name_de": "Souveränistischer Populist",
         "color": "#8024AB",
         "keyword": "Souverainisme",
+        "keyword_en": "Sovereignism",
+        "keyword_de": "Souveränismus",
         "parties": [
           {
             "name": "DLF",
-            "full_name": "Debout la France"
+            "full_name": "Debout la France",
+            "full_name_en": "Stand up France",
+            "full_name_de": "Steh auf, Frankreich"
           }
         ]
       },
       {
         "name": "National-conservateur",
+        "name_en": "National-conservative",
+        "name_de": "Nationalkonservativ",
         "color": "#49297A",
         "keyword": "National-conservatisme",
+        "keyword_en": "National-conservatism",
+        "keyword_de": "Nationalkonservatismus",
         "parties": [
           {
             "name": "MPF",
-            "full_name": "Mouvement pour la France"
+            "full_name": "Mouvement pour la France",
+            "full_name_en": "Movement for France",
+            "full_name_de": "Bewegung für Frankreich"
           }
         ]
       },
       {
         "name": "Poujadiste",
+        "name_en": "Poujadist",
+        "name_de": "Poujadist",
         "color": "#A24A9A",
         "keyword": "Poujadisme",
+        "keyword_en": "Poujadism",
+        "keyword_de": "Poujadismus",
         "parties": [
           {
             "name": "UFF",
-            "full_name": "Union et fraternité française"
+            "full_name": "Union et fraternité française",
+            "full_name_en": "French union and fraternity",
+            "full_name_de": "Französische Union und Bruderschaft"
           }
         ]
       },
       {
         "name": "National-populiste",
+        "name_en": "National-populist",
+        "name_de": "Nationalpopulistisch",
         "color": "#BE9E87",
         "keyword": "National-populisme",
+        "keyword_en": "National-populism",
+        "keyword_de": "Nationalpopulismus",
         "parties": [
           {
             "name": "BOU",
             "full_name": "Boulangistes",
-            "keyword": "Boulangisme"
+            "full_name_en": "Bakers",
+            "full_name_de": "Bäcker",
+            "keyword": "Boulangisme",
+            "keyword_en": "Boulangism",
+            "keyword_de": "Boulangismus"
           },
           {
             "name": "FN",
             "full_name": "Front national",
-            "keyword": "Rassemblement national"
+            "full_name_en": "National front",
+            "full_name_de": "Nationale Front",
+            "keyword": "Rassemblement national",
+            "keyword_en": "National gathering",
+            "keyword_de": "Nationale Versammlung"
           },
           {
             "name": "RN",
-            "full_name": "Rassemblement national"
+            "full_name": "Rassemblement national",
+            "full_name_en": "National gathering",
+            "full_name_de": "Nationale Versammlung"
           }
         ]
       },
       {
         "name": "Nationaliste",
+        "name_en": "Nationalist",
+        "name_de": "Nationalist",
         "color": "#B18C70",
         "keyword": "Nationalisme",
+        "keyword_en": "Nationalism",
+        "keyword_de": "Nationalismus",
         "parties": [
           {
             "name": "NAT",
             "full_name": "Nationalistes",
-            "keyword": "Groupe nationaliste"
+            "full_name_en": "Nationalists",
+            "full_name_de": "Nationalisten",
+            "keyword": "Groupe nationaliste",
+            "keyword_en": "Nationalist group",
+            "keyword_de": "Nationalistische Gruppe"
           },
           {
             "name": "DN",
             "full_name": "Défense nationale",
-            "keyword": "Groupe de la Défense nationale"
+            "full_name_en": "National Defense",
+            "full_name_de": "Landesverteidigung",
+            "keyword": "Groupe de la Défense nationale",
+            "keyword_en": "National Defense Group",
+            "keyword_de": "Nationale Verteidigungsgruppe"
           },
           {
             "name": "PN",
             "full_name": "Parti nationaliste",
-            "keyword": "Parti nationaliste (Troisième République)"
+            "full_name_en": "Nationalist Party",
+            "full_name_de": "Nationalistische Partei",
+            "keyword": "Parti nationaliste (Troisième République)",
+            "keyword_en": "Nationalist Party (Third Republic)",
+            "keyword_de": "Nationalistische Partei (Dritte Republik)"
           }
         ]
       },
       {
         "name": "Nationaliste antisémite/pétainiste",
+        "name_en": "Anti-Semitic nationalist/Pétainist",
+        "name_de": "Antisemitischer Nationalist/Pétainist",
         "color": "#91735C",
         "keyword": "Antisémitisme #Antisémitisme politique",
+        "keyword_en": "Anti-Semitism #Political Anti-Semitism",
+        "keyword_de": "Antisemitismus #Politischer Antisemitismus",
         "parties": [
           {
             "name": "NA",
             "full_name": "Nationalistes Antijuifs",
-            "keyword": "Groupe antijuif"
+            "full_name_en": "Anti-Jewish Nationalists",
+            "full_name_de": "Antijüdische Nationalisten",
+            "keyword": "Groupe antijuif",
+            "keyword_en": "Anti-Jewish group",
+            "keyword_de": "Antijüdische Gruppe"
           },
           {
             "name": "UNIR",
-            "full_name": "Union des nationaux indépendants et républicains"
+            "full_name": "Union des nationaux indépendants et républicains",
+            "full_name_en": "Union of Independent and Republican Nationals",
+            "full_name_de": "Union unabhängiger und republikanischer Staatsangehöriger"
           },
           {
             "name": "PP",
-            "full_name": "Philippe Pétain"
+            "full_name": "Philippe Pétain",
+            "full_name_en": "Philippe Petain",
+            "full_name_de": "Philippe Pétain"
           }
         ]
       }
@@ -837,117 +1390,199 @@
   },
   {
     "name": "Monarchisme",
+    "name_en": "Monarchism",
+    "name_de": "Monarchismus",
     "color": "#4599E0",
     "currents": [
       {
         "name": "Orléaniste fusionniste",
+        "name_en": "Fusionist Orleanist",
+        "name_de": "Fusionistischer Orleanist",
         "color": "#924EAE",
         "keyword": "Orléanisme",
+        "keyword_en": "Orleanism",
+        "keyword_de": "Orleansismus",
         "parties": [
           {
             "name": "RO",
             "full_name": "Royalistes orléanistes",
-            "keyword": "Orléanisme"
+            "full_name_en": "Orleanist royalists",
+            "full_name_de": "Orleanistische Royalisten",
+            "keyword": "Orléanisme",
+            "keyword_en": "Orleanism",
+            "keyword_de": "Orleansismus"
           }
         ]
       },
       {
         "name": "Orléaniste pur",
+        "name_en": "Pure Orleanist",
+        "name_de": "Reiner Orleanist",
         "color": "#924EAE",
         "keyword": "Orléanisme",
+        "keyword_en": "Orleanism",
+        "keyword_de": "Orleansismus",
         "parties": [
           {
             "name": "ORL",
             "full_name": "Orléanistes",
-            "keyword": "Orléanisme #Orléanisme sous la monarchie de Juillet"
+            "full_name_en": "Orleanists",
+            "full_name_de": "Orleansisten",
+            "keyword": "Orléanisme #Orléanisme sous la monarchie de Juillet",
+            "keyword_en": "Orléanism #Orléanism under the July Monarchy",
+            "keyword_de": "Orléanismus #Orléanismus unter der Julimonarchie"
           }
         ]
       },
       {
         "name": "Monarchiste",
+        "name_en": "Monarchist",
+        "name_de": "Monarchist",
         "color": "#4599E0",
         "keyword": "Monarchisme",
+        "keyword_en": "Monarchism",
+        "keyword_de": "Monarchismus",
         "parties": [
           {
             "name": "UR  ",
             "full_name": "Ultraroyalistes",
-            "keyword": "Ultraroyalistes (France)"
+            "full_name_en": "Ultraroyalists",
+            "full_name_de": "Ultraroyalisten",
+            "keyword": "Ultraroyalistes (France)",
+            "keyword_en": "Ultraroyalists (France)",
+            "keyword_de": "Ultraroyalisten (Frankreich)"
           },
           {
             "name": "LEG",
             "full_name": "Légitimistes",
-            "keyword": "Légitimisme #L’opposition parlementaire légitimiste (1832-1841)"
+            "full_name_en": "Legitimists",
+            "full_name_de": "Legitimisten",
+            "keyword": "Légitimisme #L’opposition parlementaire légitimiste (1832-1841)",
+            "keyword_en": "Legitimism #The legitimist parliamentary opposition (1832-1841)",
+            "keyword_de": "Legitimismus #Die legitimistische parlamentarische Opposition (1832-1841)"
           },
           {
             "name": "ROY",
             "full_name": "Royalistes",
-            "keyword": "Légitimisme #La politique de fusion après la chute de la monarchie de Juillet (1848-1870)"
+            "full_name_en": "Royalists",
+            "full_name_de": "Royalisten",
+            "keyword": "Légitimisme #La politique de fusion après la chute de la monarchie de Juillet (1848-1870)",
+            "keyword_en": "Legitimism #The policy of fusion after the fall of the July Monarchy (1848-1870)",
+            "keyword_de": "Legitimismus #Die Fusionspolitik nach dem Untergang der Julimonarchie (1848-1870)"
           },
           {
             "name": "RL&C",
             "full_name": "Royalistes légitimistes & cléricaux",
-            "keyword": "Légitimisme"
+            "full_name_en": "Legitimist & clerical royalists",
+            "full_name_de": "Legitimistische und klerikale Royalisten",
+            "keyword": "Légitimisme",
+            "keyword_en": "Legitimism",
+            "keyword_de": "Legitimismus"
           },
           {
             "name": "R&C",
             "full_name": "Royalistes & cléricaux",
-            "keyword": "Royalisme"
+            "full_name_en": "Royalists & clericals",
+            "full_name_de": "Royalisten und Geistliche",
+            "keyword": "Royalisme",
+            "keyword_en": "Royalism",
+            "keyword_de": "Royalismus"
           },
           {
             "name": "M&C",
             "full_name": "Monarchistes & cléricaux",
-            "keyword": "Monarchisme"
+            "full_name_en": "Monarchists & clericals",
+            "full_name_de": "Monarchisten und Geistliche",
+            "keyword": "Monarchisme",
+            "keyword_en": "Monarchism",
+            "keyword_de": "Monarchismus"
           }
         ]
       },
       {
         "name": "Monarchiste absolutiste",
+        "name_en": "Absolutist monarchist",
+        "name_de": "Absolutistischer Monarchist",
         "color": "#2C61A1",
         "keyword": "Absolutisme",
+        "keyword_en": "Absolutism",
+        "keyword_de": "Absolutismus",
         "parties": [
           {
             "name": "UCO",
             "full_name": "Ultraroyalistes de la contre-opposition",
-            "keyword": "Ultraroyalistes (France)"
+            "full_name_en": "Ultraroyalists of the counter-opposition",
+            "full_name_de": "Ultraroyalisten der Gegenopposition",
+            "keyword": "Ultraroyalistes (France)",
+            "keyword_en": "Ultraroyalists (France)",
+            "keyword_de": "Ultraroyalisten (Frankreich)"
           }
         ]
       },
       {
         "name": "Bonapartiste indépendant",
+        "name_en": "Independent Bonapartist",
+        "name_de": "Unabhängiger Bonapartist",
         "color": "#60B17B",
         "keyword": "Bonapartisme",
+        "keyword_en": "Bonapartism",
+        "keyword_de": "Bonapartismus",
         "parties": [
           {
             "name": "BL",
             "full_name": "Bonapartistes libéraux",
-            "keyword": "Bonapartisme"
+            "full_name_en": "Liberal Bonapartists",
+            "full_name_de": "Liberale Bonapartisten",
+            "keyword": "Bonapartisme",
+            "keyword_en": "Bonapartism",
+            "keyword_de": "Bonapartismus"
           },
           {
             "name": "BI",
             "full_name": "Bonapartistes indépendants",
-            "keyword": "Bonapartisme"
+            "full_name_en": "Independent Bonapartists",
+            "full_name_de": "Unabhängige Bonapartisten",
+            "keyword": "Bonapartisme",
+            "keyword_en": "Bonapartism",
+            "keyword_de": "Bonapartismus"
           }
         ]
       },
       {
         "name": "Bonapartiste",
+        "name_en": "Bonapartist",
+        "name_de": "Bonapartist",
         "color": "#169547",
         "keyword": "Bonapartisme",
+        "keyword_en": "Bonapartism",
+        "keyword_de": "Bonapartismus",
         "parties": [
           {
             "name": "BA",
             "full_name": "Bonapartistes autoritaires",
-            "keyword": "Bonapartisme"
+            "full_name_en": "Authoritarian Bonapartists",
+            "full_name_de": "Autoritäre Bonapartisten",
+            "keyword": "Bonapartisme",
+            "keyword_en": "Bonapartism",
+            "keyword_de": "Bonapartismus"
           },
           {
             "name": "AAP",
             "full_name": "Appel au peuple",
-            "keyword": "Appel au peuple (France)"
+            "full_name_en": "Appeal to the people",
+            "full_name_de": "Appell an das Volk",
+            "keyword": "Appel au peuple (France)",
+            "keyword_en": "Appeal to the people (France)",
+            "keyword_de": "Appell an das Volk (Frankreich)"
           },
           {
             "name": "BNP",
             "full_name": "Bonapartistes",
-            "keyword": "Bonapartisme"
+            "full_name_en": "Bonapartists",
+            "full_name_de": "Bonapartisten",
+            "keyword": "Bonapartisme",
+            "keyword_en": "Bonapartism",
+            "keyword_de": "Bonapartismus"
           }
         ]
       }
@@ -955,45 +1590,71 @@
   },
   {
     "name": "Autres",
+    "name_en": "Others",
+    "name_de": "Andere",
     "color": "#CDCCCD",
     "currents": [
       {
         "name": "Autres",
+        "name_en": "Others",
+        "name_de": "Andere",
         "color": "#CDCCCD",
         "keyword": "Non-inscrit à l'Assemblée nationale",
+        "keyword_en": "Not registered in the National Assembly",
+        "keyword_de": "Nicht in der Nationalversammlung registriert",
         "parties": [
           {
             "name": "Indé",
             "full_name": "Indépendant",
-            "keyword": "Indépendant (politique) #France"
+            "full_name_en": "Independent",
+            "full_name_de": "Unabhängig",
+            "keyword": "Indépendant (politique) #France",
+            "keyword_en": "Independent (politician) #France",
+            "keyword_de": "Unabhängiger (Politiker) #Frankreich"
           },
           {
             "name": "Autres",
             "full_name": "Autres",
-            "keyword": "Non-inscrit à l'Assemblée nationale"
+            "full_name_en": "Others",
+            "full_name_de": "Andere",
+            "keyword": "Non-inscrit à l'Assemblée nationale",
+            "keyword_en": "Not registered in the National Assembly",
+            "keyword_de": "Nicht in der Nationalversammlung registriert"
           }
         ]
       },
       {
         "name": "Indépendant d'Algérie",
+        "name_en": "Independent of Algeria",
+        "name_de": "Unabhängig von Algerien",
         "color": "#DAD9DA",
         "parties": [
           {
             "name": "MA",
-            "full_name": "Musulmans algériens"
+            "full_name": "Musulmans algériens",
+            "full_name_en": "Algerian Muslims",
+            "full_name_de": "Algerische Muslime"
           },
           {
             "name": "UDMA",
-            "full_name": "Union démocratique du manifeste algérien"
+            "full_name": "Union démocratique du manifeste algérien",
+            "full_name_en": "Democratic Union of the Algerian Manifesto",
+            "full_name_de": "Demokratische Union des Algerischen Manifests"
           },
           {
             "name": "MIDFA",
-            "full_name": "Musulman indépendant pour la défense du fédéralisme algérien"
+            "full_name": "Musulman indépendant pour la défense du fédéralisme algérien",
+            "full_name_en": "Independent Muslim in defense of Algerian federalism",
+            "full_name_de": "Unabhängiger Muslim zur Verteidigung des algerischen Föderalismus"
           },
           {
             "name": "FAEAS",
             "full_name": "Formation administrative des élus d'Algérie et du Sahara",
-            "keyword": "Regroupement national pour l'unité de la République"
+            "full_name_en": "Administrative training for elected officials from Algeria and the Sahara",
+            "full_name_de": "Verwaltungsschulung für gewählte Amtsträger aus Algerien und der Sahara",
+            "keyword": "Regroupement national pour l'unité de la République",
+            "keyword_en": "National grouping for the unity of the Republic",
+            "keyword_de": "Nationale Gruppierung für die Einheit der Republik"
           }
         ]
       }

@@ -25,12 +25,7 @@ export default function Event({
   const lang = dictionary.locale.lang;
   const dict = dictionary.event;
 
-  const eventTitle =
-    lang === "de"
-      ? event.title_de
-      : lang === "en"
-        ? event.title_en
-        : event.title;
+  const eventTitle = event[`title${lang === "fr" ? "" : "_" + lang}`];
 
   const beginDate = getDate(event.begin);
   const endDate = getDate(event.end);
@@ -147,16 +142,16 @@ export default function Event({
             x: isTall
               ? textX
               : getYear(endDate) !== getYear(beginDate)
-                ? textX + fontSize * 6.5
-                : textX + fontSize * 2.75,
+              ? textX + fontSize * 6.5
+              : textX + fontSize * 2.75,
             y: isTall ? textY + fontSize + 1 : textY
           }}
           animate={{
             x: isTall
               ? textX
               : getYear(endDate) !== getYear(beginDate)
-                ? textX + fontSize * 6.5
-                : textX + fontSize * 2.75,
+              ? textX + fontSize * 6.5
+              : textX + fontSize * 2.75,
             y: isTall ? textY + fontSize + 1 : textY
           }}
           transition={{ duration: transitionDuration }}

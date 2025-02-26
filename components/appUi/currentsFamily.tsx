@@ -12,7 +12,11 @@ type Props = {
 };
 
 export default function CurrentsFamily({ family, onCurrentClick }: Props) {
-  const dict = useDictionary().filtersLine;
+  const dictionary = useDictionary();
+  const lang = dictionary.locale.lang;
+  const dict = dictionary.filtersLine;
+
+  const familyName = family[`name${lang === "fr" ? "" : "_" + lang}`];
 
   // Is currents family button open
   const [isActive, setIsActive] = useState(false);
@@ -90,13 +94,13 @@ export default function CurrentsFamily({ family, onCurrentClick }: Props) {
         <SettingsButton
           number={familyNumber}
           color={family.color}
-          name={family.name}
+          name={familyName}
           onClick={() => {
             setIsActive(!isActive);
           }}
           isActive={isActive}
           label={`${isActive ? dict.hide : dict.show} ${
-            dict.currentsList + " " + family.name
+            dict.currentsList + " " + familyName
           }`}
           straightSide="right"
         />
@@ -104,7 +108,7 @@ export default function CurrentsFamily({ family, onCurrentClick }: Props) {
           Icon={isFamilyVisible ? EyeOpenIcon : EyeClosedIcon}
           onClick={() => toggleFullFamily()}
           label={`${isFamilyVisible ? dict.hide : dict.show} ${
-            dict.allCurrents + " " + family.name
+            dict.allCurrents + " " + familyName
           }`}
           straightSide="left"
         />

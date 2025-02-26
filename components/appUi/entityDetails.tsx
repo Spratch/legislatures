@@ -39,13 +39,11 @@ export default function EntityDetails() {
   const event = entityType === "event" ? (entity as EventType) : null;
 
   // Get the entity title
-  const eventTitle =
-    lang === "de"
-      ? event.title_de
-      : lang === "en"
-        ? event.title_en
-        : event.title;
-  const title = eventTitle || party?.full_name || current?.name;
+  const title = event
+    ? event[`title${lang === "fr" ? "" : "_" + lang}`]
+    : party
+    ? party[`full_name${lang === "fr" ? "" : "_" + lang}`]
+    : current?.[`name${lang === "fr" ? "" : "_" + lang}`];
 
   const updateWikiLink = (wikiUrl: string, keyword: string) => {
     let fullWikiLink = wikiUrl;
@@ -171,9 +169,17 @@ export default function EntityDetails() {
             ) : // If party, display the parent badge
             party ? (
               <Badge
-                name={(parent as CurrentType).name}
+                name={
+                  (parent as CurrentType)[
+                    `name${lang === "fr" ? "" : "_" + lang}`
+                  ]
+                }
                 hex={(parent as CurrentType).color}
-                label={`${dict.current}: ${(parent as CurrentType).name}`}
+                label={`${dict.current}: ${
+                  (parent as CurrentType)[
+                    `name${lang === "fr" ? "" : "_" + lang}`
+                  ]
+                }`}
                 onClick={() => onClick(parent)}
               />
             ) : // If event, display dates and type
