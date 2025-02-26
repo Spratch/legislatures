@@ -1,1 +1,68 @@
-{}
+{
+  "settingsLine": {
+    "hideEvents": "Ereignisse ausblenden",
+    "showEvents": "Ereignisse anzeigen",
+    "hideTransitions": "Übergänge ausblenden",
+    "showTransitions": "Übergänge anzeigen",
+    "hideCoalitions": "Koalitionen ausblenden",
+    "showCoalitions": "Koalitionen anzeigen",
+    "about": "Über",
+    "informations": "Informationen",
+    "decreaseSize": "Größe verringern",
+    "increaseSize": "Größe erhöhen",
+    "graphSize": "Diagrammgröße:"
+  },
+  "filtersLine": {
+    "resetCurrentsFilters": "Angezeigte Strömungen zurücksetzen",
+    "shuffleCurrentsFilters": "Angezeigte Strömungen mischen",
+    "loading": "Wird geladen...",
+    "hide": "Ausblenden",
+    "show": "Anzeigen",
+    "currentsList": "Strömungsliste:",
+    "allCurrents": "alle Strömungen:",
+    "theCurrent": "die Strömung:"
+  },
+  "percentage": {
+    "fullPowers": "Vollmachten"
+  },
+  "entityDetails": {
+    "noAvailableData": "Keine Daten verfügbar",
+    "hideCurrent": "Strömung ausblenden",
+    "showCurrent": "Strömung anzeigen",
+    "current": "Strömung ",
+    "close": "Details schließen",
+    "loading": "Wird geladen...",
+    "parties": "Parteien",
+    "persons": "Persönlichkeiten",
+    "details": "Details"
+  },
+  "chart": {
+    "chartLabel": "Interaktive Visualisierung der Legislaturen",
+    "eventsList": "Kontextuelle Ereignisse",
+    "regimesList": "Politische Regime"
+  },
+  "event": {
+    "openDetails": "Ereignisdetails öffnen"
+  },
+  "regime": {
+    "from": "von",
+    "to": "bis",
+    "today": "heute",
+    "legislatures": "Legislaturen",
+    "legislaturesList": "Legislaturliste"
+  },
+  "legislature": {
+    "majorityCurrent": "Mehrheitsströmung",
+    "with": "mit",
+    "majorityCoalition": "Mehrheitskoalition",
+    "legislature": "Legislatur",
+    "from": "von",
+    "to": "bis",
+    "today": "heute"
+  },
+  "party": {
+    "seats": "Sitze",
+    "current": "Strömung",
+    "coalition": "Koalition: "
+  }
+}
