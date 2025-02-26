@@ -1,4 +1,5 @@
 {
+  "locale": { "lang": "fr" },
   "settingsLine": {
     "hideEvents": "Masquer les événements",
     "showEvents": "Afficher les événements",

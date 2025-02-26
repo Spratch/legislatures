@@ -21,7 +21,16 @@ export default function Event({
   onClick,
   eventsVisibility
 }: Props) {
-  const dict = useDictionary().event;
+  const dictionary = useDictionary();
+  const lang = dictionary.locale.lang;
+  const dict = dictionary.event;
+
+  const eventTitle =
+    lang === "de"
+      ? event.title_de
+      : lang === "en"
+        ? event.title_en
+        : event.title;
 
   const beginDate = getDate(event.begin);
   const endDate = getDate(event.end);
@@ -30,7 +39,7 @@ export default function Event({
     return (
       (getYear(endDate) !== getYear(beginDate)
         ? `${getYear(beginDate)} ${label ? "à" : "→"} ${getYear(endDate)}`
-        : getYear(beginDate)) + (label ? ", " + event.title : "")
+        : getYear(beginDate)) + (label ? ", " + eventTitle : "")
     );
   };
 
@@ -58,7 +67,7 @@ export default function Event({
 
   return (
     <motion.g
-      key={event.title}
+      key={eventTitle}
       clipPath={`url(#clip-${event.begin})`}
       initial={{ y: y }}
       animate={{ y: y }}
@@ -138,16 +147,16 @@ export default function Event({
             x: isTall
               ? textX
               : getYear(endDate) !== getYear(beginDate)
-              ? textX + fontSize * 6.5
-              : textX + fontSize * 2.75,
+                ? textX + fontSize * 6.5
+                : textX + fontSize * 2.75,
             y: isTall ? textY + fontSize + 1 : textY
           }}
           animate={{
             x: isTall
               ? textX
               : getYear(endDate) !== getYear(beginDate)
-              ? textX + fontSize * 6.5
-              : textX + fontSize * 2.75,
+                ? textX + fontSize * 6.5
+                : textX + fontSize * 2.75,
             y: isTall ? textY + fontSize + 1 : textY
           }}
           transition={{ duration: transitionDuration }}
@@ -155,7 +164,7 @@ export default function Event({
           fill={eventColor}
           fontSize={fontSize}
         >
-          {event.title}
+          {eventTitle}
         </motion.text>
       </g>
     </motion.g>

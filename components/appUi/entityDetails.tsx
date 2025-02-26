@@ -18,7 +18,9 @@ import { useHorizontalScroll } from "../utils/hooks/useHorizontalScroll";
 import { useDictionary } from "../utils/contexts/dictionaryContext";
 
 export default function EntityDetails() {
-  const dict = useDictionary().entityDetails;
+  const dictionary = useDictionary();
+  const lang = dictionary.locale.lang;
+  const dict = dictionary.entityDetails;
 
   // Get the entity to display from the context
   const { detailsContent, setDetailsContent } = useDetailsContext();
@@ -37,7 +39,13 @@ export default function EntityDetails() {
   const event = entityType === "event" ? (entity as EventType) : null;
 
   // Get the entity title
-  const title = event?.title || party?.full_name || current?.name;
+  const eventTitle =
+    lang === "de"
+      ? event.title_de
+      : lang === "en"
+        ? event.title_en
+        : event.title;
+  const title = eventTitle || party?.full_name || current?.name;
 
   const updateWikiLink = (wikiUrl: string, keyword: string) => {
     let fullWikiLink = wikiUrl;

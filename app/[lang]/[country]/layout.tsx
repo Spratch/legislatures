@@ -8,7 +8,7 @@ import { TransitionsProvider } from "@/components/utils/contexts/transitionsCont
 import { CoalitionsProvider } from "@/components/utils/contexts/coalitionsContext";
 import Script from "next/script";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { getDictionary } from "../dictionaries";
+import { getDictionary, LocaleEnum } from "../dictionaries";
 import { DictionaryProvider } from "@/components/utils/contexts/dictionaryContext";
 import { getCountryData } from "./countryConfig";
 import { CountryDataProvider } from "@/components/utils/contexts/countryContext";
@@ -32,7 +32,7 @@ export default async function RootLayout({
   params
 }: {
   children: React.ReactNode;
-  params: { lang: string; country: string };
+  params: { lang: LocaleEnum; country: string };
 }) {
   // Get the dictionary for the current locale
   const dict = await getDictionary(params.lang);
