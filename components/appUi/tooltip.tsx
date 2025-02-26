@@ -42,7 +42,7 @@ export function TooltipContent({
 
   const currentName = party.current[`name${lang === "fr" ? "" : "_" + lang}`];
   const coalitionName = party.coalition
-    ? party.coalition[`${lang === "fr" ? "" : "_" + lang}`]
+    ? party[`coalition${lang === "fr" ? "" : "_" + lang}`]
     : "";
 
   // Get tooltip dimensions

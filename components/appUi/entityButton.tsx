@@ -33,6 +33,8 @@ export default function EntityButton({
     entityFullName = entity[`full_name${lang === "fr" ? "" : "_" + lang}`];
   }
 
+  console.log(entity);
+
   return (
     <button
       aria-label={label}

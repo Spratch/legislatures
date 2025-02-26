@@ -28,7 +28,9 @@ export default function Republic({
   currents,
   nextRepFirstLeg
 }: RepublicProps) {
-  const dict = useDictionary().regime;
+  const dictionary = useDictionary();
+  const lang = dictionary.locale.lang;
+  const dict = dictionary.regime;
 
   // Add the next rep first legislature to the current republic
   const republicWithNextRepFirstLeg = nextRepFirstLeg
@@ -47,9 +49,10 @@ export default function Republic({
           const current = currents.find((current) =>
             current.parties.find((p) => p.name === party.name)
           );
-          const full_name = current?.parties.find(
-            (p) => p.name === party.name
-          )?.full_name;
+          const full_name =
+            current?.parties.find((p) => p.name === party.name)?.[
+              `full_name${lang === "fr" ? "" : "_" + lang}`
+            ] || "";
 
           if (current) {
             return {
@@ -167,7 +170,7 @@ export default function Republic({
             }}
             transition={{ duration: 0.5 }}
           >
-            {republic.name}
+            {republic[`name${lang === "fr" ? "" : "_" + lang}`]}
           </motion.text>
           <motion.line
             x1={0}
