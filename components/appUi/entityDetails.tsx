@@ -60,6 +60,11 @@ export default function EntityDetails() {
   };
 
   // Fetch the entity content on mount
+  const pageTitle = event
+    ? event.title
+    : party
+      ? party.full_name
+      : current.name;
   useEffect(() => {
     if (entity) {
       const fetchWiki = (searchTerm: string) => {
@@ -69,18 +74,20 @@ export default function EntityDetails() {
           headers: {
             "Content-Type": "application/json"
           },
-          body: JSON.stringify({ keyword: searchTerm })
+          body: JSON.stringify({ keyword: searchTerm, lang })
         })
           .then((response) => response.json())
           .then((data) => {
-            setDescription(data.firstParagraph || noInfo);
+            setDescription(
+              data.firstParagraphLang || data.firstParagraphFr || noInfo
+            );
             setImage(data.thumbnail);
-            updateWikiLink(data.pageUrl, searchTerm);
+            updateWikiLink(data.pageUrlLang || data.pageUrlFr, searchTerm);
           });
       };
-      fetchWiki(entity.keyword || title);
+      fetchWiki(entity.keyword || pageTitle);
     }
-  }, [entity, title, dict]);
+  }, [entity, pageTitle, dict, lang]);
 
   // Get the sub entities
   const subEntities = current?.parties || party?.persons || null;

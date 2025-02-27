@@ -36,7 +36,6 @@ export default async function RootLayout({
 }) {
   // Get the dictionary for the current locale
   const dict = await getDictionary(params.lang);
-  console.log("countryData:", params);
   const countryData = await getCountryData(params.country);
 
   return (
