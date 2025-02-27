@@ -6,7 +6,7 @@ import Chart from "../chart/chart";
 import { CurrentType } from "@/types/current";
 import { EventType } from "@/types/event";
 import { RegimeType } from "@/types/regime";
-import { useDetailsContext } from "../utils/contexts/detailsContext";
+import { useDetailsContext } from "@/utils/contexts/detailsContext";
 import { useEffect, useRef, useState } from "react";
 
 type Props = {

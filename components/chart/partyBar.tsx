@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { PartyType } from "@/types/party";
-import { useDictionary } from "../utils/contexts/dictionaryContext";
+import { useDictionary } from "@/utils/contexts/dictionaryContext";
 
 type PartyBarProps = {
   party: PartyType;

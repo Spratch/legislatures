@@ -8,7 +8,7 @@ import {
   PlusIcon
 } from "@radix-ui/react-icons";
 import SettingsButton from "./settingsButton";
-import { useDictionary } from "../utils/contexts/dictionaryContext";
+import { useDictionary } from "@/utils/contexts/dictionaryContext";
 
 function HideTransitionsIcon() {
   return (

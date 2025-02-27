@@ -33,5 +33,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!_next|api|admin|favicon.ico).*)"] // Exclude specific paths
+  matcher: ["/((?!_next|api|admin|public|favicon.ico).*)"] // Exclude specific paths
 };

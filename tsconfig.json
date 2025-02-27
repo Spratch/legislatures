@@ -23,10 +23,8 @@
     ],
     "baseUrl": ".",
     "paths": {
-        "@/public/*": ["public/*"],
-        "@/components/*": ["components/*"],
+        "@/*": ["./*"],
         "@/utils/*": ["components/utils/*"],
-        "@/types/*": ["types/*"],
     }
   },
   "include": [

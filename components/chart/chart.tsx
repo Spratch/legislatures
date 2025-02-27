@@ -2,17 +2,17 @@ import { CurrentType } from "@/types/current";
 import { EventType } from "@/types/event";
 import { RegimeType } from "@/types/regime";
 import Tooltip from "../appUi/tooltip";
-import { useDetailsContext } from "../utils/contexts/detailsContext";
-import { tooltipContentAtom } from "../utils/contexts/tooltipContext";
-import { useTransitionsContext } from "../utils/contexts/transitionsContext";
-import useChartDimensions from "../utils/hooks/useChartDimensions";
+import { useDetailsContext } from "@/utils/contexts/detailsContext";
+import { tooltipContentAtom } from "@/utils/contexts/tooltipContext";
+import { useTransitionsContext } from "@/utils/contexts/transitionsContext";
+import useChartDimensions from "@/utils/hooks/useChartDimensions";
 import Event from "./event";
 import Republic from "./republic";
 import XAxis from "./xAxis";
 import YAxis from "./yAxis";
-import getDate from "../utils/getDate";
+import getDate from "@/utils/getDate";
 import { useSetAtom } from "jotai";
-import { useDictionary } from "../utils/contexts/dictionaryContext";
+import { useDictionary } from "@/utils/contexts/dictionaryContext";
 
 type Props = {
   regimes: RegimeType[];
@@ -63,12 +63,12 @@ export default function Chart({
   const axisLeftPosition = !dimensions.boundedWidth
     ? 0
     : !eventsVisibility
-    ? dimensions.boundedWidth < 640
-      ? 40
-      : 100
-    : dimensions.boundedWidth < 640
-    ? 200
-    : 400;
+      ? dimensions.boundedWidth < 640
+        ? 40
+        : 100
+      : dimensions.boundedWidth < 640
+        ? 200
+        : 400;
 
   // Get the tooltip party
   const setTooltipContent = useSetAtom(tooltipContentAtom);

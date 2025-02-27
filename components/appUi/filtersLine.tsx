@@ -7,9 +7,9 @@ import { useEffect } from "react";
 import { FamilyType } from "@/types/family";
 import CurrentsFamily from "./currentsFamily";
 import SettingsButton from "./settingsButton";
-import { useVisibleCurrentsContext } from "../utils/contexts/currentsContext";
-import { useHorizontalScroll } from "../utils/hooks/useHorizontalScroll";
-import { useDictionary } from "../utils/contexts/dictionaryContext";
+import { useVisibleCurrentsContext } from "@/utils/contexts/currentsContext";
+import { useHorizontalScroll } from "@/utils/hooks/useHorizontalScroll";
+import { useDictionary } from "@/utils/contexts/dictionaryContext";
 
 export default function FiltersLine({ families }: { families: FamilyType[] }) {
   const dict = useDictionary().filtersLine;

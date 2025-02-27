@@ -1,7 +1,7 @@
 "use client";
 
 import { CountryType } from "@/types/country";
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext } from "react";
 
 interface CountryDataContextType {
   countryData: CountryType | null;

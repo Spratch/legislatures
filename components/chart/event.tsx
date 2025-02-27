@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import { EventType } from "@/types/event";
-import getDate from "../utils/getDate";
-import getYear from "../utils/getYear";
-import { useDictionary } from "../utils/contexts/dictionaryContext";
+import getDate from "@/utils/getDate";
+import getYear from "@/utils/getYear";
+import { useDictionary } from "@/utils/contexts/dictionaryContext";
 
 type Props = {
   event: EventType;
@@ -142,16 +142,16 @@ export default function Event({
             x: isTall
               ? textX
               : getYear(endDate) !== getYear(beginDate)
-              ? textX + fontSize * 6.5
-              : textX + fontSize * 2.75,
+                ? textX + fontSize * 6.5
+                : textX + fontSize * 2.75,
             y: isTall ? textY + fontSize + 1 : textY
           }}
           animate={{
             x: isTall
               ? textX
               : getYear(endDate) !== getYear(beginDate)
-              ? textX + fontSize * 6.5
-              : textX + fontSize * 2.75,
+                ? textX + fontSize * 6.5
+                : textX + fontSize * 2.75,
             y: isTall ? textY + fontSize + 1 : textY
           }}
           transition={{ duration: transitionDuration }}

@@ -1,4 +1,4 @@
-import useKeyPress from "../utils/hooks/useKeyPress";
+import useKeyPress from "@/utils/hooks/useKeyPress";
 
 type SettingsButtonProps = {
   Icon?: React.ElementType;
@@ -49,8 +49,8 @@ export default function SettingsButton({
                       straightSide === "left"
                         ? "rounded-l-none pr-0.5"
                         : straightSide === "right"
-                        ? "rounded-r-none pr-2"
-                        : ""
+                          ? "rounded-r-none pr-2"
+                          : ""
                     }
                 `}
         onClick={onClick}

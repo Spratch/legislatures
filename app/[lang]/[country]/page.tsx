@@ -5,11 +5,11 @@ import FiltersLine from "@/components/appUi/filtersLine";
 import Main from "@/components/appUi/main";
 import SettingsLine from "@/components/appUi/settingsLine";
 import InfosModal from "@/components/appUi/infosModal";
-import { useTransitionsContext } from "@/components/utils/contexts/transitionsContext";
-import { useCoalitionsContext } from "@/components/utils/contexts/coalitionsContext";
-import { useCountryDataContext } from "@/components/utils/contexts/countryContext";
+import { useTransitionsContext } from "@/utils/contexts/transitionsContext";
+import { useCoalitionsContext } from "@/utils/contexts/coalitionsContext";
+import { useCountryDataContext } from "@/utils/contexts/countryContext";
 
-export default function HomePage({ params: { lang, country } }) {
+export default function HomePage() {
   const [eventVisibility, setEventVisibility] = useState(false);
   const [referenceSize, setReferenceSize] = useState(28);
   const [infosVisibility, setInfosVisibility] = useState(false);

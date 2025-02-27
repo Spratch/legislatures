@@ -2,17 +2,17 @@
 
 import PartyBar from "./partyBar";
 import { LegislatureType } from "@/types/legislature";
-import { ChartDimensions } from "../utils/hooks/useChartDimensions";
-import { useVisibleCurrentsContext } from "../utils/contexts/currentsContext";
+import { ChartDimensions } from "@/utils/hooks/useChartDimensions";
+import { useVisibleCurrentsContext } from "@/utils/contexts/currentsContext";
 import { CurrentType } from "@/types/current";
 import { motion } from "framer-motion";
-import { useTransitionsContext } from "../utils/contexts/transitionsContext";
-import getDate from "../utils/getDate";
-import { useCoalitionsContext } from "../utils/contexts/coalitionsContext";
-import getYear from "../utils/getYear";
+import { useTransitionsContext } from "@/utils/contexts/transitionsContext";
+import getDate from "@/utils/getDate";
+import { useCoalitionsContext } from "@/utils/contexts/coalitionsContext";
+import getYear from "@/utils/getYear";
 import { useSetAtom } from "jotai";
-import { tooltipContentAtom } from "../utils/contexts/tooltipContext";
-import { useDictionary } from "../utils/contexts/dictionaryContext";
+import { tooltipContentAtom } from "@/utils/contexts/tooltipContext";
+import { useDictionary } from "@/utils/contexts/dictionaryContext";
 
 type LegislatureProps = {
   leg: LegislatureType;
@@ -95,15 +95,18 @@ export default function Legislature({
   );
   // Find most important coalition by reducing deputies number of all parties having the same coalition
   const coalitionsParties = leg.parties.filter((p) => p.coalition);
-  const coalitionsDeputies = coalitionsParties.reduce((acc, party) => {
-    if (party.coalition) {
-      if (!acc[party.coalition]) {
-        acc[party.coalition] = { name: party.coalition, deputes: 0 };
+  const coalitionsDeputies = coalitionsParties.reduce(
+    (acc, party) => {
+      if (party.coalition) {
+        if (!acc[party.coalition]) {
+          acc[party.coalition] = { name: party.coalition, deputes: 0 };
+        }
+        acc[party.coalition].deputes += party.deputes;
       }
-      acc[party.coalition].deputes += party.deputes;
-    }
-    return acc;
-  }, {} as { [key: string]: { name: string; deputes: number } });
+      return acc;
+    },
+    {} as { [key: string]: { name: string; deputes: number } }
+  );
 
   // Find the coalition with the most deputies
   const mostImportantCoalition = Object.values(coalitionsDeputies).reduce(

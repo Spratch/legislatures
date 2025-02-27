@@ -2,13 +2,13 @@
 
 import { useEffect, useRef, useState } from "react";
 import { TooltipContentType } from "@/types/tooltipContent";
-import { tooltipContentAtom } from "../utils/contexts/tooltipContext";
+import { tooltipContentAtom } from "@/utils/contexts/tooltipContext";
 import EntityButton from "./entityButton";
 import Badge from "./badge";
 import PercentageButton from "./percentageButton";
-import { useDetailsContext } from "../utils/contexts/detailsContext";
+import { useDetailsContext } from "@/utils/contexts/detailsContext";
 import { useAtomValue, useSetAtom } from "jotai";
-import { useDictionary } from "../utils/contexts/dictionaryContext";
+import { useDictionary } from "@/utils/contexts/dictionaryContext";
 
 type Props = {
   chartWidth: number;

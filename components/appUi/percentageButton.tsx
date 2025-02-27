@@ -1,4 +1,4 @@
-import { useDictionary } from "../utils/contexts/dictionaryContext";
+import { useDictionary } from "@/utils/contexts/dictionaryContext";
 
 type PercentageButtonProps = {
   percentage: number;

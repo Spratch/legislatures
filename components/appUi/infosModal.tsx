@@ -4,7 +4,7 @@ import { Cross1Icon, GitHubLogoIcon } from "@radix-ui/react-icons";
 import { useCallback, useEffect, useRef } from "react";
 import Link from "next/link";
 import IconButton from "./iconButton";
-import useKeyPress from "../utils/hooks/useKeyPress";
+import useKeyPress from "@/utils/hooks/useKeyPress";
 
 function InfoLink({ href, children }) {
   return (

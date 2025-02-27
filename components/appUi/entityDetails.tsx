@@ -6,16 +6,16 @@ import Badge from "./badge";
 import WikiLink from "./wikiLink";
 import { Cross1Icon, EyeClosedIcon, EyeOpenIcon } from "@radix-ui/react-icons";
 import { Key, useCallback, useEffect, useRef, useState } from "react";
-import { useDetailsContext } from "../utils/contexts/detailsContext";
+import { useDetailsContext } from "@/utils/contexts/detailsContext";
 import { CurrentType } from "@/types/current";
 import { EventType } from "@/types/event";
 import { PartyType } from "@/types/party";
-import { useVisibleCurrentsContext } from "../utils/contexts/currentsContext";
-import truncateString from "../utils/truncateString";
+import { useVisibleCurrentsContext } from "@/utils/contexts/currentsContext";
+import truncateString from "@/utils/truncateString";
 import IconButton from "./iconButton";
-import useKeyPress from "../utils/hooks/useKeyPress";
-import { useHorizontalScroll } from "../utils/hooks/useHorizontalScroll";
-import { useDictionary } from "../utils/contexts/dictionaryContext";
+import useKeyPress from "@/utils/hooks/useKeyPress";
+import { useHorizontalScroll } from "@/utils/hooks/useHorizontalScroll";
+import { useDictionary } from "@/utils/contexts/dictionaryContext";
 
 export default function EntityDetails() {
   const dictionary = useDictionary();
@@ -42,8 +42,8 @@ export default function EntityDetails() {
   const title = event
     ? event[`title${lang === "fr" ? "" : "_" + lang}`]
     : party
-    ? party[`full_name${lang === "fr" ? "" : "_" + lang}`]
-    : current?.[`name${lang === "fr" ? "" : "_" + lang}`];
+      ? party[`full_name${lang === "fr" ? "" : "_" + lang}`]
+      : current?.[`name${lang === "fr" ? "" : "_" + lang}`];
 
   const updateWikiLink = (wikiUrl: string, keyword: string) => {
     let fullWikiLink = wikiUrl;

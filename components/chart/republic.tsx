@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 import { CurrentType } from "@/types/current";
 import { LegislatureType } from "@/types/legislature";
 import { RegimeType } from "@/types/regime";
-import { ChartDimensions } from "../utils/hooks/useChartDimensions";
+import { ChartDimensions } from "@/utils/hooks/useChartDimensions";
 import Legislature from "./legislature";
-import getDate from "../utils/getDate";
-import getYear from "../utils/getYear";
-import { useDictionary } from "../utils/contexts/dictionaryContext";
+import getDate from "@/utils/getDate";
+import getYear from "@/utils/getYear";
+import { useDictionary } from "@/utils/contexts/dictionaryContext";
 
 type RepublicProps = {
   republic: RegimeType;

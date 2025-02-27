@@ -2,16 +2,16 @@ import "../../globals.css";
 import { Monitoring } from "react-scan/monitoring/next";
 import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
-import { VisibleCurrentsProvider } from "@/components/utils/contexts/currentsContext";
-import { DetailsProvider } from "@/components/utils/contexts/detailsContext";
-import { TransitionsProvider } from "@/components/utils/contexts/transitionsContext";
-import { CoalitionsProvider } from "@/components/utils/contexts/coalitionsContext";
+import { VisibleCurrentsProvider } from "@/utils/contexts/currentsContext";
+import { DetailsProvider } from "@/utils/contexts/detailsContext";
+import { TransitionsProvider } from "@/utils/contexts/transitionsContext";
+import { CoalitionsProvider } from "@/utils/contexts/coalitionsContext";
 import Script from "next/script";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { getDictionary, LocaleEnum } from "../dictionaries";
-import { DictionaryProvider } from "@/components/utils/contexts/dictionaryContext";
+import { DictionaryProvider } from "@/utils/contexts/dictionaryContext";
 import { getCountryData } from "./countryConfig";
-import { CountryDataProvider } from "@/components/utils/contexts/countryContext";
+import { CountryDataProvider } from "@/utils/contexts/countryContext";
 
 const title = "Visualisation des législatures françaises";
 const description =
