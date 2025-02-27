@@ -2,16 +2,11 @@ import "../../globals.css";
 import { Monitoring } from "react-scan/monitoring/next";
 import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
-import { VisibleCurrentsProvider } from "@/utils/contexts/currentsContext";
-import { DetailsProvider } from "@/utils/contexts/detailsContext";
-import { TransitionsProvider } from "@/utils/contexts/transitionsContext";
-import { CoalitionsProvider } from "@/utils/contexts/coalitionsContext";
 import Script from "next/script";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { getDictionary, LocaleEnum } from "../dictionaries";
-import { DictionaryProvider } from "@/utils/contexts/dictionaryContext";
-import { getCountryData } from "./countryConfig";
-import { CountryDataProvider } from "@/utils/contexts/countryContext";
+import { CountryEnum, getCountryData } from "./countryConfig";
+import Providers from "@/utils/contexts/providers";
 
 const title = "Visualisation des législatures françaises";
 const description =
@@ -32,7 +27,7 @@ export default async function RootLayout({
   params
 }: {
   children: React.ReactNode;
-  params: { lang: LocaleEnum; country: string };
+  params: { lang: LocaleEnum; country: CountryEnum };
 }) {
   // Get the dictionary for the current locale
   const dict = await getDictionary(params.lang);
@@ -51,27 +46,22 @@ export default async function RootLayout({
           data-website-id="cc67e312-aaf6-4e72-bf1d-fca4ba4258de"
         />
       </head>
-      <DictionaryProvider dictionary={dict}>
-        <body className="overscroll-none">
-          <Monitoring
-            apiKey="WciccaRIHNoiwSM-Q0Cj9spQfSAdfINb" // Safe to expose publically
-            url="https://monitoring.react-scan.com/api/v1/ingest"
-            commit={process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA}
-            branch={process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF}
-          />
-          <CountryDataProvider countryData={countryData}>
-            <VisibleCurrentsProvider countryData={countryData}>
-              <DetailsProvider>
-                <TransitionsProvider>
-                  <CoalitionsProvider>{children}</CoalitionsProvider>
-                </TransitionsProvider>
-              </DetailsProvider>
-            </VisibleCurrentsProvider>
-          </CountryDataProvider>
-          <Analytics />
-          <SpeedInsights />
-        </body>
-      </DictionaryProvider>
+      <body className="overscroll-none">
+        <Monitoring
+          apiKey="WciccaRIHNoiwSM-Q0Cj9spQfSAdfINb" // Safe to expose publically
+          url="https://monitoring.react-scan.com/api/v1/ingest"
+          commit={process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA}
+          branch={process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF}
+        />
+        <Providers
+          dict={dict}
+          countryData={countryData}
+        >
+          {children}
+        </Providers>
+        <Analytics />
+        <SpeedInsights />
+      </body>
     </html>
   );
 }
