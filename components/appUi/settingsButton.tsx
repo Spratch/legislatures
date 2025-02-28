@@ -1,4 +1,5 @@
 import useKeyPress from "@/utils/hooks/useKeyPress";
+import { Button } from "react-aria-components";
 
 type SettingsButtonProps = {
   Icon?: React.ElementType;
@@ -38,7 +39,7 @@ export default function SettingsButton({
           : "opacity-100 pointer-events-auto"
       }`}
     >
-      <button
+      <Button
         aria-label={label}
         aria-hidden={!isVisible}
         className={` flex items-center justify-center rounded-full border border-black/10 hover:border-black/20 transition text-nowrap gap-2 select-none bg-white
@@ -49,11 +50,11 @@ export default function SettingsButton({
                       straightSide === "left"
                         ? "rounded-l-none pr-0.5"
                         : straightSide === "right"
-                          ? "rounded-r-none pr-2"
-                          : ""
+                        ? "rounded-r-none pr-2"
+                        : ""
                     }
                 `}
-        onClick={onClick}
+        onPress={onClick}
         aria-keyshortcuts={Array.isArray(kbd) ? kbd.join(" ou ") : kbd || ""}
       >
         {(number || number === 0) && (
@@ -82,7 +83,7 @@ export default function SettingsButton({
             {name}
           </span>
         )}
-      </button>
+      </Button>
 
       {/* Tooltip */}
       {position && (

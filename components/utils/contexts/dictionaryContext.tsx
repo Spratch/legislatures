@@ -2,17 +2,17 @@
 
 import { createContext, useContext } from "react";
 
-interface Dictionary {
+export interface DictionaryType {
   [key: string]: { [key: string]: string };
 }
 
-const DictionaryContext = createContext<Dictionary | null>(null);
+const DictionaryContext = createContext<DictionaryType | null>(null);
 
 export const DictionaryProvider = ({
   dictionary,
   children
 }: {
-  dictionary: Dictionary;
+  dictionary: DictionaryType;
   children: React.ReactNode;
 }) => (
   <DictionaryContext.Provider value={dictionary}>

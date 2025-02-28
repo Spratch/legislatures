@@ -3,7 +3,7 @@
 import { createContext, useContext, useState } from "react";
 import { CurrentType } from "@/types/current";
 import { FamilyType } from "@/types/family";
-import { CountryType } from "@/types/country";
+import { CountryDataType } from "@/types/countryData";
 
 interface VisibleCurrentsContextType {
   visibleCurrents: CurrentType[] | null;
@@ -32,7 +32,7 @@ export const VisibleCurrentsProvider = ({
   countryData
 }: {
   children: React.ReactNode;
-  countryData: CountryType;
+  countryData: CountryDataType;
 }) => {
   const currents = countryData.families.flatMap(
     (family: FamilyType) => family.currents

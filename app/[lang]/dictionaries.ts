@@ -1,10 +1,6 @@
+import { DictionaryType } from "@/components/utils/contexts/dictionaryContext";
+import { LocaleEnum } from "@/types/langsEnum";
 import "server-only";
-
-export enum LocaleEnum {
-  "fr" = "fr",
-  "en" = "en",
-  "de" = "de"
-}
 
 const dictionaries = {
   fr: () => import("./dictionaries/fr.json").then((module) => module.default),
@@ -12,5 +8,6 @@ const dictionaries = {
   de: () => import("./dictionaries/de.json").then((module) => module.default)
 };
 
-export const getDictionary = async (locale: LocaleEnum) =>
-  dictionaries[locale]();
+export const getDictionary = async (
+  locale: keyof typeof LocaleEnum
+): Promise<DictionaryType> => dictionaries[locale]();

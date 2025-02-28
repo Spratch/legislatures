@@ -1,14 +1,11 @@
 import "server-only";
-import { CountryType } from "@/types/country";
-
-export enum CountryEnum {
-  "france" = "france"
-}
+import { CountryDataType } from "@/types/countryData";
+import { CountryEnum } from "@/types/countriesEnum";
 
 const datas = {
   france: () => import("../../data/france.js").then((module) => module.default)
 };
 
 export const getCountryData = async (
-  country: CountryEnum
-): Promise<CountryType> => datas[country]();
+  country: keyof typeof CountryEnum
+): Promise<CountryDataType> => datas[country]();

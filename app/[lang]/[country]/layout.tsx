@@ -4,9 +4,11 @@ import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
 import Script from "next/script";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { getDictionary, LocaleEnum } from "../dictionaries";
-import { CountryEnum, getCountryData } from "./countryConfig";
+import { getDictionary } from "../dictionaries";
+import { getCountryData } from "./countryConfig";
 import Providers from "@/utils/contexts/providers";
+import { LocaleEnum } from "@/types/langsEnum";
+import { CountryEnum } from "@/types/countriesEnum";
 
 const title = "Visualisation des législatures françaises";
 const description =
@@ -15,6 +17,16 @@ const description =
 export const metadata: Metadata = {
   title: title,
   description: description,
+  alternates: {
+    canonical: "/",
+    languages: Object.entries(LocaleEnum).reduce(
+      (acc, [key]) => ({
+        ...acc,
+        [key]: `/${key}`
+      }),
+      {}
+    )
+  },
   openGraph: {
     title: title,
     description: description,
@@ -27,7 +39,7 @@ export default async function RootLayout({
   params
 }: {
   children: React.ReactNode;
-  params: { lang: LocaleEnum; country: CountryEnum };
+  params: { lang: keyof typeof LocaleEnum; country: keyof typeof CountryEnum };
 }) {
   // Get the dictionary for the current locale
   const dict = await getDictionary(params.lang);

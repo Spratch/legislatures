@@ -1,4 +1,4 @@
-import { CountryType } from "@/types/country";
+import { CountryDataType } from "@/types/countryData";
 import { CoalitionsProvider } from "./coalitionsContext";
 import { CountryDataProvider } from "./countryContext";
 import { VisibleCurrentsProvider } from "./currentsContext";
@@ -7,7 +7,11 @@ import { DictionaryProvider } from "./dictionaryContext";
 import { TransitionsProvider } from "./transitionsContext";
 import { Provider as JotaiProvider } from "jotai";
 
-type Props = { children: React.ReactNode; dict: any; countryData: CountryType };
+type Props = {
+  children: React.ReactNode;
+  dict: any;
+  countryData: CountryDataType;
+};
 
 export default function Providers({ children, dict, countryData }: Props) {
   return (

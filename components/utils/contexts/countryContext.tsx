@@ -1,10 +1,10 @@
 "use client";
 
-import { CountryType } from "@/types/country";
+import { CountryDataType } from "@/types/countryData";
 import { createContext, useContext } from "react";
 
 interface CountryDataContextType {
-  countryData: CountryType | null;
+  countryData: CountryDataType | null;
 }
 
 // Create context for country data
@@ -29,7 +29,7 @@ export const CountryDataProvider = ({
   countryData
 }: {
   children: React.ReactNode;
-  countryData: CountryType;
+  countryData: CountryDataType;
 }) => {
   return (
     <CountryDataContext.Provider value={{ countryData }}>

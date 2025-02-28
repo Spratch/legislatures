@@ -8,6 +8,8 @@ import InfosModal from "@/components/appUi/infosModal";
 import { useTransitionsContext } from "@/utils/contexts/transitionsContext";
 import { useCoalitionsContext } from "@/utils/contexts/coalitionsContext";
 import { useCountryDataContext } from "@/utils/contexts/countryContext";
+import { usePathname, useRouter } from "next/navigation";
+import { LocaleEnum } from "@/types/langsEnum";
 
 export default function HomePage() {
   const [eventVisibility, setEventVisibility] = useState(false);
@@ -20,6 +22,14 @@ export default function HomePage() {
   const {
     countryData: { regimes, families, events }
   } = useCountryDataContext();
+  const [isSelectorOpen, setSelectorOpen] = useState(false);
+
+  const router = useRouter();
+  const pathName = usePathname();
+  const setLanguage = (lang: keyof typeof LocaleEnum) => {
+    const newPath = pathName.replace(/\/[a-z]{2}\//, `/${lang}/`);
+    router.replace(newPath, { scroll: false });
+  };
 
   return (
     <>
@@ -37,6 +47,9 @@ export default function HomePage() {
         setCoalitionsVisibility={(newValue) =>
           setCoalitionsVisibility(newValue)
         }
+        isSelectorOpen={isSelectorOpen}
+        setSelectorOpen={(newValue) => setSelectorOpen(newValue)}
+        setLanguage={(lang) => setLanguage(lang)}
       />
 
       <Main
