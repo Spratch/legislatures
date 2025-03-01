@@ -9,6 +9,7 @@ import PercentageButton from "./percentageButton";
 import { useDetailsContext } from "@/utils/contexts/detailsContext";
 import { useAtomValue, useSetAtom } from "jotai";
 import { useDictionary } from "@/utils/contexts/dictionaryContext";
+import { getLangKey } from "../utils/getLangKey";
 
 type Props = {
   chartWidth: number;
@@ -40,9 +41,9 @@ export function TooltipContent({
 
   const lang = useDictionary().locale.lang;
 
-  const currentName = party.current[`name${lang === "fr" ? "" : "_" + lang}`];
+  const currentName = party.current[getLangKey("name", lang)];
   const coalitionName = party.coalition
-    ? party[`coalition${lang === "fr" ? "" : "_" + lang}`]
+    ? party[getLangKey("coalition", lang)]
     : "";
 
   // Get tooltip dimensions

@@ -3,6 +3,7 @@ import { EventType } from "@/types/event";
 import getDate from "@/utils/getDate";
 import getYear from "@/utils/getYear";
 import { useDictionary } from "@/utils/contexts/dictionaryContext";
+import { getLangKey } from "../utils/getLangKey";
 
 type Props = {
   event: EventType;
@@ -25,7 +26,7 @@ export default function Event({
   const lang = dictionary.locale.lang;
   const dict = dictionary.event;
 
-  const eventTitle = event[`title${lang === "fr" ? "" : "_" + lang}`];
+  const eventTitle = event[getLangKey("title", lang)];
 
   const beginDate = getDate(event.begin);
   const endDate = getDate(event.end);
@@ -142,16 +143,16 @@ export default function Event({
             x: isTall
               ? textX
               : getYear(endDate) !== getYear(beginDate)
-                ? textX + fontSize * 6.5
-                : textX + fontSize * 2.75,
+              ? textX + fontSize * 6.5
+              : textX + fontSize * 2.75,
             y: isTall ? textY + fontSize + 1 : textY
           }}
           animate={{
             x: isTall
               ? textX
               : getYear(endDate) !== getYear(beginDate)
-                ? textX + fontSize * 6.5
-                : textX + fontSize * 2.75,
+              ? textX + fontSize * 6.5
+              : textX + fontSize * 2.75,
             y: isTall ? textY + fontSize + 1 : textY
           }}
           transition={{ duration: transitionDuration }}

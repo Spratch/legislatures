@@ -2,6 +2,7 @@ import { CurrentType } from "@/types/current";
 import { PartyType } from "@/types/party";
 import truncateString from "@/utils/truncateString";
 import { useDictionary } from "@/utils/contexts/dictionaryContext";
+import { getLangKey } from "../utils/getLangKey";
 
 type EntityType = CurrentType | PartyType | { name: React.ReactNode };
 
@@ -28,9 +29,9 @@ export default function EntityButton({
   let entityName = entity.name;
   let entityFullName = "";
   if (isCurrent(entity)) {
-    entityName = entity[`name${lang === "fr" ? "" : "_" + lang}`];
+    entityName = entity[getLangKey("name", lang)];
   } else if (isParty(entity)) {
-    entityFullName = entity[`full_name${lang === "fr" ? "" : "_" + lang}`];
+    entityFullName = entity[getLangKey("full_name", lang)];
   }
 
   return (

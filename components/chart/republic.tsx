@@ -7,6 +7,7 @@ import Legislature from "./legislature";
 import getDate from "@/utils/getDate";
 import getYear from "@/utils/getYear";
 import { useDictionary } from "@/utils/contexts/dictionaryContext";
+import { getLangKey } from "../utils/getLangKey";
 
 type RepublicProps = {
   republic: RegimeType;
@@ -51,7 +52,7 @@ export default function Republic({
           );
           const full_name =
             current?.parties.find((p) => p.name === party.name)?.[
-              `full_name${lang === "fr" ? "" : "_" + lang}`
+              getLangKey("full_name", lang)
             ] || "";
 
           if (current) {
@@ -170,7 +171,7 @@ export default function Republic({
             }}
             transition={{ duration: 0.5 }}
           >
-            {republic[`name${lang === "fr" ? "" : "_" + lang}`]}
+            {republic[getLangKey("name", lang)]}
           </motion.text>
           <motion.line
             x1={0}

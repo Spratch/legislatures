@@ -4,7 +4,8 @@ import SettingsButton from "./settingsButton";
 import EntityButton from "./entityButton";
 import { useVisibleCurrentsContext } from "@/utils/contexts/currentsContext";
 import { EyeClosedIcon, EyeOpenIcon } from "@radix-ui/react-icons";
-import { useDictionary } from "@/utils/contexts/dictionaryContext";
+import { useDictionary } from "../utils/contexts/dictionaryContext";
+import { getLangKey } from "../utils/getLangKey";
 
 type Props = {
   family: FamilyType;
@@ -16,7 +17,7 @@ export default function CurrentsFamily({ family, onCurrentClick }: Props) {
   const lang = dictionary.locale.lang;
   const dict = dictionary.filtersLine;
 
-  const familyName = family[`name${lang === "fr" ? "" : "_" + lang}`];
+  const familyName = family[getLangKey("name", lang)];
 
   // Is currents family button open
   const [isActive, setIsActive] = useState(false);

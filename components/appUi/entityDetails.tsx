@@ -16,6 +16,7 @@ import IconButton from "./iconButton";
 import useKeyPress from "@/utils/hooks/useKeyPress";
 import { useHorizontalScroll } from "@/utils/hooks/useHorizontalScroll";
 import { useDictionary } from "@/utils/contexts/dictionaryContext";
+import { getLangKey } from "../utils/getLangKey";
 
 export default function EntityDetails() {
   const dictionary = useDictionary();
@@ -40,10 +41,10 @@ export default function EntityDetails() {
 
   // Get the entity title
   const title = event
-    ? event[`title${lang === "fr" ? "" : "_" + lang}`]
+    ? event[getLangKey("title", lang)]
     : party
-      ? party[`full_name${lang === "fr" ? "" : "_" + lang}`]
-      : current?.[`name${lang === "fr" ? "" : "_" + lang}`];
+    ? party[getLangKey("full_name", lang)]
+    : current?.[getLangKey("name", lang)];
 
   const updateWikiLink = (wikiUrl: string, keyword: string) => {
     let fullWikiLink = wikiUrl;
@@ -63,8 +64,8 @@ export default function EntityDetails() {
   const pageTitle = event
     ? event.title
     : party
-      ? party.full_name
-      : current.name;
+    ? party.full_name
+    : current.name;
   useEffect(() => {
     if (entity) {
       const fetchWiki = (searchTerm: string) => {
@@ -176,16 +177,10 @@ export default function EntityDetails() {
             ) : // If party, display the parent badge
             party ? (
               <Badge
-                name={
-                  (parent as CurrentType)[
-                    `name${lang === "fr" ? "" : "_" + lang}`
-                  ]
-                }
+                name={(parent as CurrentType)[getLangKey("name", lang)]}
                 hex={(parent as CurrentType).color}
                 label={`${dict.current}: ${
-                  (parent as CurrentType)[
-                    `name${lang === "fr" ? "" : "_" + lang}`
-                  ]
+                  (parent as CurrentType)[getLangKey("name", lang)]
                 }`}
                 onClick={() => onClick(parent)}
               />
