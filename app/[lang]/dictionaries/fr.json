@@ -73,5 +73,9 @@
     "seats": "sièges",
     "current": "Courant ",
     "coalition": "Coalition : "
+  },
+  "infosModal": {
+    "github": "Contribuer sur GitHub",
+    "close": "Fermer la modale"
   }
 }

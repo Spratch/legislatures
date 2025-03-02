@@ -5,6 +5,9 @@ import { useCallback, useEffect, useRef } from "react";
 import Link from "next/link";
 import IconButton from "./iconButton";
 import useKeyPress from "@/utils/hooks/useKeyPress";
+import { useDictionary } from "../utils/contexts/dictionaryContext";
+import { useCountryDataContext } from "../utils/contexts/countryContext";
+import { getLangKey } from "../utils/getLangKey";
 
 function InfoLink({ href, children }) {
   return (
@@ -23,6 +26,11 @@ type Props = {
 };
 
 export default function InfosModal({ setInfosVisibility }: Props) {
+  const dictionary = useDictionary();
+  const lang = dictionary.locale.lang;
+  const dict = dictionary.infosModal;
+  const { infos } = useCountryDataContext().countryData;
+
   // Close the modal
   const handleClose = useCallback(() => {
     setInfosVisibility(false);
@@ -62,7 +70,7 @@ export default function InfosModal({ setInfosVisibility }: Props) {
               className="size-9 bg-black/5 hover:bg-black/10 rounded-full flex items-center justify-center cursor-pointer text-black/50 hover:text-black transition-all"
               href="https://github.com/Spratch/legislatures"
               target="_blank"
-              title="Contribuer sur GitHub"
+              title={dict.github}
             >
               <GitHubLogoIcon className="size-5" />
             </Link>
@@ -70,23 +78,21 @@ export default function InfosModal({ setInfosVisibility }: Props) {
 
           <IconButton
             Icon={Cross1Icon}
-            label="Fermer la modale"
+            label={dict.close}
             onClick={handleClose}
           />
         </div>
 
         <section className="grid grid-cols-12 gap-6 pb-14 border-b border-black px-5 sm:px-10">
           <h1 className="col-span-12 md:col-span-7 text-3xl md:text-5xl">
-            <span className="opacity-40">Entre crises et revendications</span>
+            <span className="opacity-40">
+              {infos[getLangKey("title_light", lang)]}
+            </span>
             <br />
-            Les évolutions des courants politiques au sein de l&rsquo;Assemblée
-            nationale*
+            {infos[getLangKey("title_main", lang)]}
           </h1>
           <div className="col-span-12 md:col-span-5 flex flex-col items-start text-xl md:text-2xl">
-            <p className="opacity-75">
-              Ce site est une représentation visuelle des résultats des
-              élections législatives françaises depuis la première en 1791.
-            </p>
+            <p className="opacity-75">{infos[getLangKey("intro", lang)]}</p>
           </div>
         </section>
 

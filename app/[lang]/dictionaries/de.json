@@ -73,5 +73,9 @@
     "seats": "Sitze",
     "current": "Strömung",
     "coalition": "Koalition: "
+  },
+  "infosModal": {
+    "github": "Auf GitHub beitragen",
+    "close": "Modal schließen"
   }
 }
