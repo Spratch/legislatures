@@ -48,9 +48,9 @@ export default function SettingsLine({
   const dict = useDictionary().settingsLine;
   return (
     <section className="w-full p-2 flex items-end max-w-screen-3xl mx-auto">
-      <div className="w-full flex justify-between gap-2">
+      <div className="w-full flex justify-between gap-2 relative">
         {/* Left */}
-        <div className="flex gap-1 items-center max-md:flex-grow">
+        <div className="flex gap-1 items-center">
           {/* Events button */}
           <SettingsButton
             Icon={PinLeftIcon}
@@ -87,7 +87,7 @@ export default function SettingsLine({
         </div>
 
         {/* Center */}
-        <div className="flex gap-2 items-center">
+        <div className="flex gap-2 items-center justify-center absolute left-0 right-0">
           {/* Lang button */}
           <MenuTrigger isOpen={isSelectorOpen}>
             <SettingsButton
@@ -123,7 +123,7 @@ export default function SettingsLine({
           />
 
           {/* Reference size buttons */}
-          <div className="hidden md:flex gap-2 items-center">
+          <div className="hidden sm:flex gap-2 items-center">
             <SettingsButton
               Icon={MinusIcon}
               onClick={() => setReferenceSize(Math.max(4, referenceSize - 12))}

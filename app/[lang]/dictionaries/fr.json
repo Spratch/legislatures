@@ -1,5 +1,11 @@
 {
   "locale": { "lang": "fr" },
+  "home": {
+    "title_france": "France",
+    "description_france": "À partir de 1791",
+    "title_germany": "Allemagne",
+    "description_germany": "À partir de 1949"
+  },
   "settingsLine": {
     "hideEvents": "Masquer les événements",
     "showEvents": "Afficher les événements",

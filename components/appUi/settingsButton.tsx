@@ -31,6 +31,7 @@ export default function SettingsButton({
   straightSide
 }: SettingsButtonProps) {
   useKeyPress(kbd, onClick);
+  const isArrow = kbd === "ArrowLeft" || kbd === "ArrowRight";
   return (
     <div
       className={`relative group ${
@@ -75,7 +76,7 @@ export default function SettingsButton({
           <Icon
             className={`size-4 ${
               flipIcon ? "-scale-x-100" : ""
-            } transition-transform`}
+            } transition-transform data-[sanity-icon]:size-5`}
           />
         )}
         {name && (
@@ -100,7 +101,7 @@ export default function SettingsButton({
           {label}
           {kbd && (
             <kbd className="hidden sm:inline ml-1.5 text-black/80 border border-black/30 rounded px-1 py-0.5 bg-black/5">
-              {kbd[0] || kbd}
+              {!isArrow ? kbd[0] || kbd : kbd === "ArrowLeft" ? "←" : "→"}
             </kbd>
           )}
         </div>
