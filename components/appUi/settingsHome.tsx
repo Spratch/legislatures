@@ -25,7 +25,10 @@ export default function HomeSettingsLine({
         {/* Center */}
         <div className="flex gap-2 items-center">
           {/* Lang button */}
-          <MenuTrigger isOpen={isSelectorOpen}>
+          <MenuTrigger
+            isOpen={isSelectorOpen}
+            onOpenChange={setSelectorOpen}
+          >
             <SettingsButton
               Icon={EarthGlobeIcon}
               label={dict.changeLang}
@@ -40,7 +43,7 @@ export default function HomeSettingsLine({
             className="size-9 bg-black/5 hover:bg-black/10 rounded-full flex items-center justify-center cursor-pointer text-black/50 hover:text-black transition-all"
             href="https://github.com/Spratch/legislatures"
             target="_blank"
-            title="Contribuer sur GitHub"
+            title={dict.github}
           >
             <GitHubLogoIcon className="size-5" />
           </Link>

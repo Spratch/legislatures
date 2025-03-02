@@ -18,7 +18,8 @@
     "informations": "Informations",
     "decreaseSize": "Réduire la taille du graphique",
     "increaseSize": "Augmenter la taille du graphique",
-    "graphSize": "Taille du graphique :"
+    "graphSize": "Taille du graphique :",
+    "github": "Contribuer sur GitHub"
   },
   "filtersLine": {
     "resetCurrentsFilters": "Réinitialiser les courants affichés",

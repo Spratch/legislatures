@@ -1,5 +1,11 @@
 {
   "locale": { "lang": "de" },
+  "home": {
+    "title_france": "Frankreich",
+    "description_france": "Ab 1791",
+    "title_germany": "Deutschland",
+    "description_germany": "Ab 1949"
+  },
   "settingsLine": {
     "hideEvents": "Ereignisse ausblenden",
     "showEvents": "Ereignisse anzeigen",
@@ -12,7 +18,8 @@
     "informations": "Informationen",
     "decreaseSize": "Größe verringern",
     "increaseSize": "Größe erhöhen",
-    "graphSize": "Diagrammgröße:"
+    "graphSize": "Diagrammgröße:",
+    "github": "Auf GitHub beitragen"
   },
   "filtersLine": {
     "resetCurrentsFilters": "Angezeigte Strömungen zurücksetzen",
