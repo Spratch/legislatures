@@ -15,6 +15,7 @@ import Link from "next/link";
 import { MenuTrigger } from "react-aria-components";
 import LangSelector from "./langSelector";
 import { LocaleEnum } from "@/types/langsEnum";
+import { useRouter } from "next/navigation";
 
 type Props = {
   eventVisibility: boolean;
@@ -46,11 +47,12 @@ export default function SettingsLine({
   setLanguage
 }: Props) {
   const dict = useDictionary().settingsLine;
+  const router = useRouter();
   return (
     <section className="w-full p-2 flex items-end max-w-screen-3xl mx-auto">
       <div className="w-full flex justify-between gap-2 relative">
         {/* Left */}
-        <div className="flex gap-1 items-center">
+        <div className="flex gap-1 sm:gap-1.5 items-center">
           {/* Events button */}
           <SettingsButton
             Icon={PinLeftIcon}
@@ -87,7 +89,7 @@ export default function SettingsLine({
         </div>
 
         {/* Center */}
-        <div className="flex gap-2 items-center justify-center absolute left-0 right-0 pointer-events-none">
+        <div className="flex gap-1 sm:gap-1.5 items-center justify-center absolute left-0 right-0 pointer-events-none">
           {/* Lang button */}
           <MenuTrigger
             isOpen={isSelectorOpen}
@@ -103,19 +105,17 @@ export default function SettingsLine({
             <LangSelector setLanguage={setLanguage} />
           </MenuTrigger>
           {/* Home button */}
-          <Link href="/">
-            <SettingsButton
-              Icon={HomeIcon}
-              onClick={() => {}}
-              label={dict.home}
-              position={{ x: "left", y: "top" }}
-              kbd="h"
-            />
-          </Link>
+          <SettingsButton
+            Icon={HomeIcon}
+            onClick={() => router.push("/")}
+            label={dict.home}
+            position={{ x: "left", y: "top" }}
+            kbd="h"
+          />
         </div>
 
         {/* Right */}
-        <div className="flex gap-2 items-center">
+        <div className="flex gap-1.5 items-center">
           {/* Infos button */}
           <SettingsButton
             Icon={InfoCircledIcon}
@@ -126,7 +126,7 @@ export default function SettingsLine({
           />
 
           {/* Reference size buttons */}
-          <div className="hidden sm:flex gap-2 items-center">
+          <div className="flex gap-1 sm:gap-1.5 items-center bg-black/5 rounded-full">
             <SettingsButton
               Icon={MinusIcon}
               onClick={() => setReferenceSize(Math.max(4, referenceSize - 12))}
@@ -134,7 +134,7 @@ export default function SettingsLine({
               position={{ x: "right", y: "top" }}
               kbd={["-", "_"]}
             />
-            <p className="text-sm opacity-75 select-none tabular-nums">
+            <p className="hidden sm:inline text-sm opacity-75 select-none tabular-nums">
               <span className="sr-only">{dict.graphSize}</span>
               {String(referenceSize).padStart(2, "0")}
             </p>
