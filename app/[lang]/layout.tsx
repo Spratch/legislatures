@@ -1,13 +1,12 @@
-import "./globals.css";
+import "../globals.css";
 import { Monitoring } from "react-scan/monitoring/next";
 import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
-import { VisibleCurrentsProvider } from "../components/utils/contexts/currentsContext";
-import { DetailsProvider } from "../components/utils/contexts/detailsContext";
-import { TransitionsProvider } from "../components/utils/contexts/transitionsContext";
-import { CoalitionsProvider } from "../components/utils/contexts/coalitionsContext";
 import Script from "next/script";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { getDictionary } from "./dictionaries";
+import { LocaleEnum } from "@/types/langsEnum";
+import { DictionaryProvider } from "@/utils/contexts/dictionaryContext";
 
 const title = "Visualisation des législatures françaises";
 const description =
@@ -16,6 +15,16 @@ const description =
 export const metadata: Metadata = {
   title: title,
   description: description,
+  alternates: {
+    canonical: "/",
+    languages: Object.entries(LocaleEnum).reduce(
+      (acc, [key]) => ({
+        ...acc,
+        [key]: `/${key}`
+      }),
+      {}
+    )
+  },
   openGraph: {
     title: title,
     description: description,
@@ -23,13 +32,18 @@ export const metadata: Metadata = {
   }
 };
 
-export default function RootLayout({
-  children
+export default async function RootLayout({
+  children,
+  params
 }: {
   children: React.ReactNode;
+  params: { lang: keyof typeof LocaleEnum };
 }) {
+  // Get the dictionary for the current locale
+  const dict = await getDictionary(params.lang);
+
   return (
-    <html lang="fr">
+    <html lang={params.lang || "fr"}>
       <head>
         <Script
           src="https://unpkg.com/react-scan/dist/install-hook.global.js"
@@ -48,13 +62,7 @@ export default function RootLayout({
           commit={process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA}
           branch={process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF}
         />
-        <VisibleCurrentsProvider>
-          <DetailsProvider>
-            <TransitionsProvider>
-              <CoalitionsProvider>{children}</CoalitionsProvider>
-            </TransitionsProvider>
-          </DetailsProvider>
-        </VisibleCurrentsProvider>
+        <DictionaryProvider dictionary={dict}>{children}</DictionaryProvider>
         <Analytics />
         <SpeedInsights />
       </body>

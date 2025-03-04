@@ -1,0 +1,86 @@
+{
+  "locale": { "lang": "de" },
+  "home": {
+    "title_france": "Frankreich",
+    "description_france": "Ab 1791",
+    "title_germany": "Deutschland",
+    "description_germany": "Ab 1949"
+  },
+  "settingsLine": {
+    "hideEvents": "Ereignisse ausblenden",
+    "showEvents": "Ereignisse anzeigen",
+    "hideTransitions": "Übergänge ausblenden",
+    "showTransitions": "Übergänge anzeigen",
+    "hideCoalitions": "Koalitionen ausblenden",
+    "showCoalitions": "Koalitionen anzeigen",
+    "home": "Startseite",
+    "changeLang": "Sprache ändern",
+    "informations": "Informationen",
+    "decreaseSize": "Größe verringern",
+    "increaseSize": "Größe erhöhen",
+    "graphSize": "Diagrammgröße:",
+    "github": "Auf GitHub beitragen"
+  },
+  "filtersLine": {
+    "resetCurrentsFilters": "Angezeigte Strömungen zurücksetzen",
+    "shuffleCurrentsFilters": "Angezeigte Strömungen mischen",
+    "loading": "Wird geladen...",
+    "hide": "Ausblenden",
+    "show": "Anzeigen",
+    "currentsList": "Strömungsliste:",
+    "allCurrents": "alle Strömungen:",
+    "theCurrent": "die Strömung:"
+  },
+  "percentage": {
+    "fullPowers": "Vollmachten"
+  },
+  "entityDetails": {
+    "noAvailableData": "Keine Daten verfügbar",
+    "hideCurrent": "Strömung ausblenden",
+    "showCurrent": "Strömung anzeigen",
+    "current": "Strömung ",
+    "close": "Details schließen",
+    "loading": "Wird geladen...",
+    "parties": "Parteien",
+    "persons": "Persönlichkeiten",
+    "details": "Details",
+    "type_cohabitation": "Kohabitation",
+    "type_référendum": "Referendum",
+    "type_lutte": "Kampf",
+    "type_guerre": "Krieg",
+    "type_loi": "Gesetz"
+  },
+  "chart": {
+    "chartLabel": "Interaktive Visualisierung der Legislaturen",
+    "eventsList": "Kontextuelle Ereignisse",
+    "regimesList": "Politische Regime"
+  },
+  "event": {
+    "openDetails": "Ereignisdetails öffnen"
+  },
+  "regime": {
+    "from": "von",
+    "to": "bis",
+    "today": "heute",
+    "legislatures": "Legislaturen",
+    "legislaturesList": "Legislaturliste"
+  },
+  "legislature": {
+    "majorityCurrent": "Mehrheitsströmung",
+    "with": "mit",
+    "majorityCoalition": "Mehrheitskoalition",
+    "legislature": "Legislatur",
+    "from": "von",
+    "to": "bis",
+    "today": "heute"
+  },
+  "party": {
+    "seats": "Sitze",
+    "current": "Strömung",
+    "coalition": "Koalition: "
+  },
+  "infosModal": {
+    "github": "Auf GitHub beitragen",
+    "close": "Modal schließen"
+  }
+}

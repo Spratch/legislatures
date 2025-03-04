@@ -1,4 +1,4 @@
-import hexToRgb from "../utils/hexToRgb";
+import hexToRgb from "@/utils/hexToRgb";
 
 type Props = {
   name: string;

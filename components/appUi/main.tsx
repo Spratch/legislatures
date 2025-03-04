@@ -3,14 +3,14 @@
 import EntityDetails from "./entityDetails";
 
 import Chart from "../chart/chart";
-import { CurrentType } from "../../types/current";
-import { EventType } from "../../types/event";
-import { RepublicType } from "../../types/republic";
-import { useDetailsContext } from "../utils/contexts/detailsContext";
+import { CurrentType } from "@/types/current";
+import { EventType } from "@/types/event";
+import { RegimeType } from "@/types/regime";
+import { useDetailsContext } from "@/utils/contexts/detailsContext";
 import { useEffect, useRef, useState } from "react";
 
 type Props = {
-  republics: RepublicType[];
+  regimes: RegimeType[];
   currents: CurrentType[];
   events: EventType[];
   eventsVisibility: boolean;
@@ -18,7 +18,7 @@ type Props = {
 };
 
 export default function Main({
-  republics,
+  regimes,
   currents,
   events,
   eventsVisibility,
@@ -38,7 +38,7 @@ export default function Main({
         setHasScrolled(true);
       }
     }
-  }, [hasScrolled, scrollRef, republics]);
+  }, [hasScrolled, scrollRef, regimes]);
 
   return (
     <main className="relative w-full max-w-screen-3xl mx-auto h-[calc(100dvh-6.5rem)]">
@@ -47,9 +47,9 @@ export default function Main({
         className="w-full h-full overflow-y-scroll no-scrollbar overscroll-none"
       >
         {/* Chart */}
-        {republics && currents && events && (
+        {regimes && currents && events && (
           <Chart
-            republics={republics}
+            regimes={regimes}
             currents={currents}
             events={events}
             eventsVisibility={eventsVisibility}

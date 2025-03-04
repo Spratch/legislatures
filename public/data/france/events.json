@@ -1,0 +1,675 @@
+[
+  {
+    "begin": "1792-04-20",
+    "end": "1797-10-18",
+    "title": "Guerre de la Première Coalition",
+    "title_en": "War of the First Coalition",
+    "title_de": "Krieg der Ersten Koalition",
+    "keyword": "Guerre de la première coalition",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1794-07-27",
+    "end": "1794-07-28",
+    "title": "Chute de Robespierre",
+    "title_en": "Fall of Robespierre",
+    "title_de": "Sturz von Robespierre",
+    "keyword": "Chute de Robespierre"
+  },
+  {
+    "begin": "1797-09-04",
+    "end": "1797-09-04",
+    "title": "Coup d'État du 18 fructidor",
+    "title_en": "Coup of 18 Fructidor",
+    "title_de": "Staatsstreich vom 18. Fructidor",
+    "keyword": "Coup d'État du 18 fructidor an V"
+  },
+  {
+    "begin": "1798-11-29",
+    "end": "1802-03-25",
+    "title": "Guerre de la Deuxième Coalition",
+    "title_en": "War of the Second Coalition",
+    "title_de": "Krieg der Zweiten Koalition",
+    "keyword": "Guerre de la deuxième coalition",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1799-11-09",
+    "end": "1799-11-10",
+    "title": "Coup d'État du 18 Brumaire",
+    "title_en": "Coup of 18 Brumaire",
+    "title_de": "Staatsstreich vom 18. Brumaire",
+    "keyword": "Coup d'État du 18 Brumaire"
+  },
+  {
+    "begin": "1802-05-20",
+    "end": "1802-05-20",
+    "title": "Rétablissement de l'esclavage",
+    "title_en": "Re-establishment of slavery",
+    "title_de": "Wiedereinführung der Sklaverei",
+    "keyword": "Rétablissement de l'esclavage par Napoléon Bonaparte",
+    "type": "Loi"
+  },
+  {
+    "begin": "1803-04-30",
+    "end": "1803-05-08",
+    "title": "Vente de la Louisiane aux États-Unis (37 Francs/Km²)",
+    "title_en": "Louisiana Purchase by the United States (37 Francs/km²)",
+    "title_de": "Verkauf von Louisiana an die Vereinigten Staaten (37 Francs/km²)",
+    "keyword": "Vente de la Louisiane"
+  },
+  {
+    "begin": "1804-01-01",
+    "end": "1804-01-01",
+    "title": "Indépendance d'Haïti",
+    "title_en": "Independence of Haiti",
+    "title_de": "Unabhängigkeit Haitis",
+    "keyword": "Révolution haïtienne #L'indépendance d'Haïti"
+  },
+  {
+    "begin": "1805-04-11",
+    "end": "1806-07-18",
+    "title": "Guerre de la Troisième Coalition",
+    "title_en": "War of the Third Coalition",
+    "title_de": "Krieg der Dritten Koalition",
+    "keyword": "Guerre de la troisième coalition",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1806-10-09",
+    "end": "1807-07-09",
+    "title": "Guerre de la Quatrième Coalition",
+    "title_en": "War of the Fourth Coalition",
+    "title_de": "Krieg der Vierten Koalition",
+    "keyword": "Guerre de la Quatrième Coalition",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1809-04-10",
+    "end": "1809-10-14",
+    "title": "Guerre de la Cinquième Coalition",
+    "title_en": "War of the Fifth Coalition",
+    "title_de": "Krieg der Fünften Koalition",
+    "keyword": "Guerre de la cinquième coalition",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1812-06-24",
+    "end": "1812-12-30",
+    "title": "Campagne de Russie",
+    "title_en": "Russian Campaign",
+    "title_de": "Russlandfeldzug",
+    "keyword": "Campagne de Russie",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1813-03-03",
+    "end": "1814-05-30",
+    "title": "Guerre de la Sixième Coalition",
+    "title_en": "War of the Sixth Coalition",
+    "title_de": "Krieg der Sechsten Koalition",
+    "keyword": "Guerre de la Sixième Coalition",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1816-09-22",
+    "end": "1817-06-21",
+    "title": "Année sans été (famines)",
+    "title_en": "Year Without a Summer (famines)",
+    "title_de": "Jahr ohne Sommer (Hungersnöte)",
+    "keyword": "Année sans été"
+  },
+  {
+    "begin": "1820-03-28",
+    "end": "1820-03-31",
+    "title": "Lois rétablissant la censure et restreignant les libertés individuelles",
+    "title_en": "Laws restoring censorship and restricting individual freedoms",
+    "title_de": "Gesetze zur Wiedereinführung der Zensur und Einschränkung der individuellen Freiheiten",
+    "keyword": "Liberté de la presse sous la Restauration",
+    "type": "Loi"
+  },
+  {
+    "begin": "1823-04-07",
+    "end": "1823-11-05",
+    "title": "Expédition d'Espagne",
+    "title_en": "Spanish Expedition",
+    "title_de": "Spanienexpedition",
+    "keyword": "Expédition d'Espagne",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1825-04-17",
+    "end": "1825-04-17",
+    "title": "Indemnisation de la France par Haïti (5405 Francs/Km²)",
+    "title_en": "Compensation of France by Haiti (5405 Francs/km²)",
+    "title_de": "Entschädigung Frankreichs durch Haiti (5405 Francs/km²)",
+    "keyword": "Indemnisation de la France par la république d'Haïti"
+  },
+  {
+    "begin": "1827-04-25",
+    "end": "1827-04-25",
+    "title": "Loi d'interdiction de la traite des Noirs",
+    "title_en": "Law Prohibiting the Slave Trade",
+    "title_de": "Gesetz zur Abschaffung des Sklavenhandels",
+    "keyword": "Loi du 25 avril 1827",
+    "type": "Loi"
+  },
+  {
+    "begin": "1830-07-27",
+    "end": "1830-07-29",
+    "title": "Révolution de 1830",
+    "title_en": "Revolution of 1830",
+    "title_de": "Revolution von 1830",
+    "keyword": "Trois Glorieuses",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1831-11-21",
+    "end": "1831-12-03",
+    "title": "Première révolte des Canuts",
+    "title_en": "First Canut Revolt",
+    "title_de": "Erster Canut-Aufstand",
+    "keyword": "Révolte des canuts",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1832-06-05",
+    "end": "1847-12-23",
+    "title": "Campagnes contre Abdelkader (conquête de l'Algérie)",
+    "title_en": "Campaigns against Abdelkader (Conquest of Algeria)",
+    "title_de": "Kampagnen gegen Abdelkader (Eroberung Algeriens)",
+    "keyword": "Conquête de l'Algérie par la France #Campagnes contre Abdelkader (1832-1847)",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1834-04-09",
+    "end": "1834-04-15",
+    "title": "Seconde révolte des Canuts",
+    "title_en": "Second Canut Revolt",
+    "title_de": "Zweiter Canut-Aufstand",
+    "keyword": "Révolte des canuts",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1839-05-12",
+    "end": "1839-05-13",
+    "title": "Insurrection républicaine à Paris",
+    "title_en": "Republican Insurrection in Paris",
+    "title_de": "Republikanischer Aufstand in Paris",
+    "keyword": "Société des saisons",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1844-08-06",
+    "end": "1844-09-10",
+    "title": "Expédition du Maroc",
+    "title_en": "Morocco Expedition",
+    "title_de": "Marokko-Expedition",
+    "keyword": "Guerre franco-marocaine (1844)",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1848-02-22",
+    "end": "1848-02-25",
+    "title": "Révolution de 1848",
+    "title_en": "Revolution of 1848",
+    "title_de": "Revolution von 1848",
+    "keyword": "Révolution française de 1848",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1851-12-02",
+    "end": "1851-12-02",
+    "title": "Coup d'État de Louis-Napoléon Bonaparte",
+    "title_en": "Coup d'État of Louis-Napoleon Bonaparte",
+    "title_de": "Staatsstreich von Louis-Napoleon Bonaparte",
+    "keyword": "Coup d'État du 2 décembre 1851"
+  },
+  {
+    "begin": "1853-10-04",
+    "end": "1856-03-30",
+    "title": "Guerre de Crimée",
+    "title_en": "Crimean War",
+    "title_de": "Krimkrieg",
+    "keyword": "Guerre de Crimée",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1859-04-26",
+    "end": "1859-07-12",
+    "title": "Campagne d'Italie",
+    "title_en": "Italian Campaign",
+    "title_de": "Italienfeldzug",
+    "keyword": "Campagne d'Italie (1859)",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1860-04-15",
+    "end": "1860-04-23",
+    "title": "Rattachement de la Savoie et de Nice à la France",
+    "title_en": "Annexation of Savoy and Nice to France",
+    "title_de": "Angliederung von Savoyen und Nizza an Frankreich",
+    "keyword": "Annexion de la Savoie à la France"
+  },
+  {
+    "begin": "1861-12-08",
+    "end": "1867-06-21",
+    "title": "Expédition du Mexique",
+    "title_en": "Shipping from Mexico",
+    "title_de": "Versand aus Mexiko",
+    "keyword": "Expédition du Mexique",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1864-05-25",
+    "end": "1864-05-25",
+    "title": "Droit de grève",
+    "title_en": "Right to strike",
+    "title_de": "Streikrecht",
+    "keyword": "Loi Ollivier",
+    "type": "Loi"
+  },
+  {
+    "begin": "1870-07-19",
+    "end": "1871-01-28",
+    "title": "Guerre franco-prussienne",
+    "title_en": "Franco-Prussian War",
+    "title_de": "Deutsch-Französischer Krieg",
+    "keyword": "Guerre franco-allemande de 1870",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1871-03-18",
+    "end": "1871-05-28",
+    "title": "Commune de Paris",
+    "title_en": "Commune of Paris",
+    "title_de": "Gemeinde Paris",
+    "keyword": "Commune de Paris",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1875-02-24",
+    "end": "1875-02-25",
+    "title": "Lois constitutionnelles",
+    "title_en": "Constitutional laws",
+    "title_de": "Verfassungsgesetze",
+    "keyword": "Lois constitutionnelles de 1875",
+    "type": "Loi"
+  },
+  {
+    "begin": "1877-05-16",
+    "end": "1877-12-14",
+    "title": "Crise du 16 mai",
+    "title_en": "May 16 crisis",
+    "title_de": "Krise vom 16. Mai",
+    "keyword": "Crise du 16 mai 1877"
+  },
+  {
+    "begin": "1881-06-16",
+    "end": "1882-03-28",
+    "title": "Lois Jules Ferry sur l'école",
+    "title_en": "Lois Jules Ferry on school",
+    "title_de": "Lois Jules Ferry in der Schule",
+    "keyword": "Lois Jules Ferry",
+    "type": "Loi"
+  },
+  {
+    "begin": "1884-07-12",
+    "end": "1884-07-12",
+    "title": "Liberté syndicale",
+    "title_en": "Freedom of association",
+    "title_de": "Vereinigungsfreiheit",
+    "keyword": "Loi relative à la création des syndicats professionnels",
+    "type": "Loi"
+  },
+  {
+    "begin": "1885-01-25",
+    "end": "1891-09-30",
+    "title": "Crise boulangiste",
+    "title_en": "Boulangist crisis",
+    "title_de": "Boulangistische Krise",
+    "keyword": "Boulangisme"
+  },
+  {
+    "begin": "1894-12-22",
+    "end": "1906-07-12",
+    "title": "Affaire Dreyfus",
+    "title_en": "Dreyfus affair",
+    "title_de": "Dreyfus-Affäre",
+    "keyword": "Affaire Dreyfus"
+  },
+  {
+    "begin": "1905-07-07",
+    "end": "1905-12-09",
+    "title": "Séparation de l'Église et de l'État",
+    "title_en": "Separation of Church and State",
+    "title_de": "Trennung von Kirche und Staat",
+    "keyword": "Loi de séparation des Églises et de l'État",
+    "type": "Loi"
+  },
+  {
+    "begin": "1907-03-11",
+    "end": "1907-06-29",
+    "title": "Révolte des vignerons du Midi",
+    "title_en": "Revolt of the winegrowers of the South",
+    "title_de": "Aufstand der Winzer des Südens",
+    "keyword": "Révolte des vignerons de 1907",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1914-07-28",
+    "end": "1918-11-11",
+    "title": "Première Guerre mondiale",
+    "title_en": "World War I",
+    "title_de": "Erster Weltkrieg",
+    "keyword": "Première Guerre mondiale",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1923-01-11",
+    "end": "1925-08-25",
+    "title": "Occupation de la Ruhr",
+    "title_en": "Occupation of the Ruhr",
+    "title_de": "Besetzung des Ruhrgebiets",
+    "keyword": "Occupation de la Ruhr"
+  },
+  {
+    "begin": "1931-07-31",
+    "end": "1936-02-06",
+    "title": "Grande Dépression",
+    "title_en": "Great Depression",
+    "title_de": "Große Depression",
+    "keyword": "Grande Dépression en France"
+  },
+  {
+    "begin": "1936-06-07",
+    "end": "1936-06-07",
+    "title": "Accords de Matignon",
+    "title_en": "Matignon Accords",
+    "title_de": "Matignon-Abkommen",
+    "keyword": "Accords de Matignon (1936)",
+    "type": "Loi"
+  },
+  {
+    "begin": "1939-09-03",
+    "end": "1945-05-08",
+    "title": "Seconde Guerre mondiale",
+    "title_en": "World War II",
+    "title_de": "Zweiter Weltkrieg",
+    "keyword": "Seconde Guerre mondiale",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1944-04-21",
+    "end": "1944-11-20",
+    "title": "Droit de vote des femmes",
+    "title_en": "Women's right to vote",
+    "title_de": "Das Wahlrecht der Frauen",
+    "keyword": "Droit de vote des femmes #France",
+    "type": "Loi"
+  },
+  {
+    "begin": "1945-10-04",
+    "end": "1945-10-19",
+    "title": "Création de la Sécurité sociale",
+    "title_en": "Creation of Social Security",
+    "title_de": "Schaffung einer sozialen Sicherheit",
+    "keyword": "Sécurité sociale (France)",
+    "type": "Loi"
+  },
+  {
+    "begin": "1949-04-04",
+    "end": "1949-04-04",
+    "title": "Adhésion de la France à l'OTAN",
+    "title_en": "France's accession to NATO",
+    "title_de": "Frankreichs Beitritt zur NATO",
+    "keyword": "Organisation du traité de l'Atlantique nord"
+  },
+  {
+    "begin": "1950-05-09",
+    "end": "1950-05-09",
+    "title": "Déclaration Schuman",
+    "title_en": "Schuman Declaration",
+    "title_de": "Schuman-Erklärung",
+    "keyword": "Déclaration du 9 mai 1950"
+  },
+  {
+    "begin": "1954-11-01",
+    "end": "1962-03-19",
+    "title": "Guerre d'Algérie",
+    "title_en": "Algerian War",
+    "title_de": "Algerienkrieg",
+    "keyword": "Guerre d'Algérie",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1956-03-02",
+    "end": "1956-03-20",
+    "title": "Indépendance du Maroc et de la Tunisie",
+    "title_en": "Independence of Morocco and Tunisia",
+    "title_de": "Unabhängigkeit Marokkos und Tunesiens",
+    "keyword": "Indépendance du Maroc"
+  },
+  {
+    "begin": "1958-05-13",
+    "end": "1958-06-01",
+    "title": "Crise de mai 1958",
+    "title_en": "Crisis of May 1958",
+    "title_de": "Krise vom Mai 1958",
+    "keyword": "Crise de mai 1958"
+  },
+  {
+    "begin": "1968-05-02",
+    "end": "1968-06-23",
+    "title": "Mouvement de mai 68",
+    "title_en": "May 68 movement",
+    "title_de": "Bewegung vom 68. Mai",
+    "keyword": "Mai 68",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1969-04-27",
+    "end": "1969-04-27",
+    "title": "Référendum et démission de Charles de Gaulle",
+    "title_en": "Referendum and resignation of Charles de Gaulle",
+    "title_de": "Referendum und Rücktritt von Charles de Gaulle",
+    "keyword": "Référendum constitutionnel français de 1969",
+    "type": "Référendum"
+  },
+  {
+    "begin": "1973-06-12",
+    "end": "1974-01-29",
+    "title": "Lutte pour l'autogestion de l'usine Lip",
+    "title_en": "Struggle for self-management of the Lip factory",
+    "title_de": "Kampf um die Selbstverwaltung der Lip-Fabrik",
+    "keyword": "Affaire Lip",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1975-01-17",
+    "end": "1975-01-19",
+    "title": "Loi Veil sur l'IVG",
+    "title_en": "Veil law on abortion",
+    "title_de": "Schleiergesetz zur Abtreibung",
+    "keyword": "Loi Veil",
+    "type": "Loi"
+  },
+  {
+    "begin": "1981-09-17",
+    "end": "1981-10-09",
+    "title": "Abolition de la peine de mort",
+    "title_en": "Abolition of the death penalty",
+    "title_de": "Abschaffung der Todesstrafe",
+    "keyword": "Peine de mort en France #Abolition",
+    "type": "Loi"
+  },
+  {
+    "begin": "1982-01-16",
+    "end": "1982-12-23",
+    "title": "Lois travail, 39h, congés payés, et retraite à 60 ans",
+    "title_en": "Work laws, 39 hours, paid leave, and retirement at 60",
+    "title_de": "Arbeitsgesetze, 39 Stunden, bezahlter Urlaub und Ruhestand mit 60",
+    "keyword": "Lois Auroux",
+    "type": "Loi"
+  },
+  {
+    "begin": "1984-11-18",
+    "end": "1988-06-26",
+    "title": "Événements en Nouvelle-Calédonie",
+    "title_en": "Events in New Caledonia",
+    "title_de": "Veranstaltungen in Neukaledonien",
+    "keyword": "Événements politiques de 1984 à 1988 en Nouvelle-Calédonie",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1986-04-02",
+    "end": "1988-05-14",
+    "title": "Cohabitation Mitterrand-Chirac",
+    "title_en": "Mitterrand-Chirac cohabitation",
+    "title_de": "Zusammenleben Mitterrand-Chirac",
+    "keyword": "Première cohabitation",
+    "type": "Cohabitation"
+  },
+  {
+    "begin": "1988-12-01",
+    "end": "1988-12-01",
+    "title": "Revenu Minimum d'Insertion",
+    "title_en": "Minimum Integration Income",
+    "title_de": "Mindestintegrationseinkommen",
+    "keyword": "Revenu minimum d'insertion",
+    "type": "Loi"
+  },
+  {
+    "begin": "1992-09-20",
+    "end": "1992-09-20",
+    "title": "Référendum sur le traité de Maastricht",
+    "title_en": "Referendum on the Maastricht Treaty",
+    "title_de": "Referendum zum Maastricht-Vertrag",
+    "keyword": "Référendum français sur le traité de Maastricht",
+    "type": "Référendum"
+  },
+  {
+    "begin": "1993-04-02",
+    "end": "1995-05-17",
+    "title": "Cohabitation Mitterrand-Balladur",
+    "title_en": "Mitterrand-Balladur cohabitation",
+    "title_de": "Mitterrand-Balladur-Zusammenleben",
+    "keyword": "Deuxième cohabitation",
+    "type": "Cohabitation"
+  },
+  {
+    "begin": "1995-11-15",
+    "end": "1995-12-15",
+    "title": "Grèves contre le plan Juppé",
+    "title_en": "Strikes against the Juppé plan",
+    "title_de": "Streiks gegen den Juppé-Plan",
+    "keyword": "Grèves de 1995 en France",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1997-06-12",
+    "end": "2002-06-18",
+    "title": "Cohabitation Chirac-Jospin",
+    "title_en": "Chirac-Jospin cohabitation",
+    "title_de": "Zusammenleben Chirac-Jospin",
+    "keyword": "Troisième cohabitation",
+    "type": "Cohabitation"
+  },
+  {
+    "begin": "2000-01-19",
+    "end": "2000-01-19",
+    "title": "Réduction du temps de travail à 35h",
+    "title_en": "Reduction of working hours to 35 hours",
+    "title_de": "Reduzierung der Arbeitszeit auf 35 Stunden",
+    "keyword": "Réforme des 35 heures en France",
+    "type": "Loi"
+  },
+  {
+    "begin": "2005-05-29",
+    "end": "2005-05-29",
+    "title": "Refus par référendum du traité établissant une Constitution pour l'Europe",
+    "title_en": "Refusal by referendum of the treaty establishing a Constitution for Europe",
+    "title_de": "Ablehnung des Vertrags über eine Verfassung für Europa durch Referendum",
+    "keyword": "Référendum français sur le traité établissant une Constitution pour l'Europe",
+    "type": "Référendum"
+  },
+  {
+    "begin": "2005-10-27",
+    "end": "2005-11-17",
+    "title": "Émeutes de 2005 suite à la mort de Zyed et Bouna",
+    "title_en": "2005 riots following the deaths of Zyed and Bouna",
+    "title_de": "2005 Unruhen nach dem Tod von Zyed und Bouna",
+    "keyword": "Émeutes de 2005 dans les banlieues françaises",
+    "type": "Lutte"
+  },
+  {
+    "begin": "2008-10-05",
+    "end": "2008-10-05",
+    "title": "Grande Récession",
+    "title_en": "Great Recession",
+    "title_de": "Große Rezession",
+    "keyword": "Grande Récession de 2008"
+  },
+  {
+    "begin": "2009-06-01",
+    "end": "2009-12-01",
+    "title": "Application du Traité de Lisbonne, malgré le refus de 2005",
+    "title_en": "Application of the Lisbon Treaty, despite the refusal in 2005",
+    "title_de": "Anwendung des Vertrags von Lissabon trotz der Ablehnung im Jahr 2005",
+    "keyword": "Traité de Lisbonne",
+    "type": "Loi"
+  },
+  {
+    "begin": "2010-03-23",
+    "end": "2010-11-23",
+    "title": "Mouvement contre la réforme des retraites",
+    "title_en": "Movement against pension reform",
+    "title_de": "Bewegung gegen Rentenreform",
+    "keyword": "Mouvement social contre la réforme des retraites en France de 2010",
+    "type": "Lutte"
+  },
+  {
+    "begin": "2013-04-23",
+    "end": "2013-05-17",
+    "title": "Mariage pour tous",
+    "title_en": "Marriage for all",
+    "title_de": "Ehe für alle",
+    "keyword": "Mariage entre personnes de même sexe en France #Loi de 2013 ouvrant le mariage aux couples de personnes de même sexe",
+    "type": "Loi"
+  },
+  {
+    "begin": "2016-03-09",
+    "end": "2016-09-15",
+    "title": "Mouvement contre la loi Travail",
+    "title_en": "Movement against the Labor law",
+    "title_de": "Bewegung gegen das Arbeitsgesetz",
+    "keyword": "Mouvement social contre la loi Travail en France de 2016",
+    "type": "Lutte"
+  },
+  {
+    "begin": "2018-11-17",
+    "end": "2019-03-16",
+    "title": "Mouvement des Gilets jaunes",
+    "title_en": "Yellow Vest Movement",
+    "title_de": "Gelbwesten-Bewegung",
+    "keyword": "Mouvement des Gilets jaunes",
+    "type": "Lutte"
+  },
+  {
+    "begin": "2020-03-17",
+    "end": "2021-05-02",
+    "title": "Confinements liés à la pandémie de Covid-19",
+    "title_en": "Confinements linked to the Covid-19 pandemic",
+    "title_de": "Einschränkungen im Zusammenhang mit der Covid-19-Pandemie",
+    "keyword": "Confinements liés à la pandémie de Covid-19 en France"
+  },
+  {
+    "begin": "2023-01-19",
+    "end": "2023-06-08",
+    "title": "Mouvement contre la réforme des retraites",
+    "title_en": "Movement against pension reform",
+    "title_de": "Bewegung gegen Rentenreform",
+    "keyword": "Mouvement social contre la réforme des retraites en France de 2023",
+    "type": "Lutte"
+  }
+]

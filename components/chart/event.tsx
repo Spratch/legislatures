@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
-import { EventType } from "../../types/event";
-import getDate from "../utils/getDate";
-import getYear from "../utils/getYear";
+import { EventType } from "@/types/event";
+import getDate from "@/utils/getDate";
+import getYear from "@/utils/getYear";
+import { useDictionary } from "@/utils/contexts/dictionaryContext";
+import { getLangKey } from "../utils/getLangKey";
 
 type Props = {
   event: EventType;
@@ -20,6 +22,12 @@ export default function Event({
   onClick,
   eventsVisibility
 }: Props) {
+  const dictionary = useDictionary();
+  const lang = dictionary.locale.lang;
+  const dict = dictionary.event;
+
+  const eventTitle = event[getLangKey("title", lang)];
+
   const beginDate = getDate(event.begin);
   const endDate = getDate(event.end);
 
@@ -27,7 +35,7 @@ export default function Event({
     return (
       (getYear(endDate) !== getYear(beginDate)
         ? `${getYear(beginDate)} ${label ? "à" : "→"} ${getYear(endDate)}`
-        : getYear(beginDate)) + (label ? ", " + event.title : "")
+        : getYear(beginDate)) + (label ? ", " + eventTitle : "")
     );
   };
 
@@ -55,7 +63,7 @@ export default function Event({
 
   return (
     <motion.g
-      key={event.title}
+      key={eventTitle}
       clipPath={`url(#clip-${event.begin})`}
       initial={{ y: y }}
       animate={{ y: y }}
@@ -101,7 +109,7 @@ export default function Event({
         transition={{ duration: transitionDuration }}
         fill={eventColor}
         className="opacity-5 group-hover/event:opacity-15 transition-opacity"
-        aria-label="Ouvrir le détail de l'événement"
+        aria-label={dict.openDetails}
         role="button"
         onClick={onClick}
         tabIndex={eventsVisibility ? 0 : -1}
@@ -152,7 +160,7 @@ export default function Event({
           fill={eventColor}
           fontSize={fontSize}
         >
-          {event.title}
+          {eventTitle}
         </motion.text>
       </g>
     </motion.g>

@@ -1,18 +1,15 @@
 "use client";
 
 import { useState } from "react";
-import FiltersLine from "../components/appUi/filtersLine";
-import Main from "../components/appUi/main";
-import {
-  currents,
-  events,
-  families,
-  republics
-} from "../components/utils/contexts/currentsContext";
-import SettingsLine from "../components/appUi/settingsLine";
-import InfosModal from "../components/appUi/infosModal";
-import { useTransitionsContext } from "../components/utils/contexts/transitionsContext";
-import { useCoalitionsContext } from "../components/utils/contexts/coalitionsContext";
+import FiltersLine from "@/components/appUi/filtersLine";
+import Main from "@/components/appUi/main";
+import SettingsLine from "@/components/appUi/settingsLine";
+import InfosModal from "@/components/appUi/infosModal";
+import { useTransitionsContext } from "@/utils/contexts/transitionsContext";
+import { useCoalitionsContext } from "@/utils/contexts/coalitionsContext";
+import { useCountryDataContext } from "@/utils/contexts/countryContext";
+import { usePathname, useRouter } from "next/navigation";
+import { LocaleEnum } from "@/types/langsEnum";
 
 export default function HomePage() {
   const [eventVisibility, setEventVisibility] = useState(false);
@@ -22,6 +19,17 @@ export default function HomePage() {
     useTransitionsContext();
   const { coalitionsVisibility, setCoalitionsVisibility } =
     useCoalitionsContext();
+  const {
+    countryData: { regimes, families, events }
+  } = useCountryDataContext();
+  const [isSelectorOpen, setSelectorOpen] = useState(false);
+
+  const router = useRouter();
+  const pathName = usePathname();
+  const setLanguage = (lang: keyof typeof LocaleEnum) => {
+    const newPath = pathName.replace(/\/[a-z]{2}\//, `/${lang}/`);
+    router.replace(newPath, { scroll: false });
+  };
 
   return (
     <>
@@ -39,11 +47,14 @@ export default function HomePage() {
         setCoalitionsVisibility={(newValue) =>
           setCoalitionsVisibility(newValue)
         }
+        isSelectorOpen={isSelectorOpen}
+        setSelectorOpen={(newValue) => setSelectorOpen(newValue)}
+        setLanguage={(lang) => setLanguage(lang)}
       />
 
       <Main
-        republics={republics}
-        currents={currents}
+        regimes={regimes}
+        currents={families.flatMap((family) => family.currents)}
         events={events}
         eventsVisibility={eventVisibility}
         referenceSize={referenceSize}

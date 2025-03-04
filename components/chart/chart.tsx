@@ -1,20 +1,21 @@
-import { CurrentType } from "../../types/current";
-import { EventType } from "../../types/event";
-import { RepublicType } from "../../types/republic";
+import { CurrentType } from "@/types/current";
+import { EventType } from "@/types/event";
+import { RegimeType } from "@/types/regime";
 import Tooltip from "../appUi/tooltip";
-import { useDetailsContext } from "../utils/contexts/detailsContext";
-import { tooltipContentAtom } from "../utils/contexts/tooltipContext";
-import { useTransitionsContext } from "../utils/contexts/transitionsContext";
-import useChartDimensions from "../utils/hooks/useChartDimensions";
+import { useDetailsContext } from "@/utils/contexts/detailsContext";
+import { tooltipContentAtom } from "@/utils/contexts/tooltipContext";
+import { useTransitionsContext } from "@/utils/contexts/transitionsContext";
+import useChartDimensions from "@/utils/hooks/useChartDimensions";
 import Event from "./event";
 import Republic from "./republic";
 import XAxis from "./xAxis";
 import YAxis from "./yAxis";
-import getDate from "../utils/getDate";
+import getDate from "@/utils/getDate";
 import { useSetAtom } from "jotai";
+import { useDictionary } from "@/utils/contexts/dictionaryContext";
 
 type Props = {
-  republics: RepublicType[];
+  regimes: RegimeType[];
   currents: CurrentType[];
   events: EventType[];
   eventsVisibility: boolean;
@@ -22,12 +23,14 @@ type Props = {
 };
 
 export default function Chart({
-  republics,
+  regimes,
   currents,
   events,
   eventsVisibility,
   referenceSize
 }: Props) {
+  const dict = useDictionary().chart;
+
   // Set the dimensions of the chart by giving the margins
   const [ref, dimensions] = useChartDimensions({
     marginTop: 0,
@@ -37,10 +40,10 @@ export default function Chart({
   });
 
   // Find the first and last legislature to calculate the total duration
-  const firstLegislature = getDate(republics[0].legislatures[0].begin);
+  const firstLegislature = getDate(regimes[0].legislatures[0].begin);
   const lastLegislature = getDate(
-    republics[republics.length - 1].legislatures[
-      republics[republics.length - 1].legislatures.length - 1
+    regimes[regimes.length - 1].legislatures[
+      regimes[regimes.length - 1].legislatures.length - 1
     ].begin
   );
   const totalDuration = lastLegislature - firstLegislature;
@@ -60,12 +63,12 @@ export default function Chart({
   const axisLeftPosition = !dimensions.boundedWidth
     ? 0
     : !eventsVisibility
-    ? dimensions.boundedWidth < 640
-      ? 40
-      : 100
-    : dimensions.boundedWidth < 640
-    ? 200
-    : 400;
+      ? dimensions.boundedWidth < 640
+        ? 40
+        : 100
+      : dimensions.boundedWidth < 640
+        ? 200
+        : 400;
 
   // Get the tooltip party
   const setTooltipContent = useSetAtom(tooltipContentAtom);
@@ -119,7 +122,7 @@ export default function Chart({
         onMouseLeave={() => setTooltipContent(null)}
         className="select-none"
         role="group"
-        aria-label="Visualisation interactive des législatures françaises"
+        aria-label={dict.chart}
       >
         {/* Events */}
         <g
@@ -128,7 +131,7 @@ export default function Chart({
           } group/eventslist`}
           role="list"
           aria-hidden={!eventsVisibility}
-          aria-label={eventsVisibility ? "Événements contextuels" : ""}
+          aria-label={eventsVisibility ? dict.eventsList : ""}
         >
           {events.map((event, index) => {
             return (
@@ -174,9 +177,9 @@ export default function Chart({
         {/* Legislatures */}
         <g
           role="list"
-          aria-label="Régimes politiques"
+          aria-label={dict.regimesList}
         >
-          {republics.map((republic, index) => (
+          {regimes.map((republic, index) => (
             <Republic
               key={republic.name}
               republic={republic}
@@ -187,7 +190,7 @@ export default function Chart({
               dimensions={dimensions}
               currents={currents}
               nextRepFirstLeg={
-                republics[republics.indexOf(republic) + 1]?.legislatures[0]
+                regimes[regimes.indexOf(republic) + 1]?.legislatures[0]
               }
             />
           ))}
@@ -196,9 +199,7 @@ export default function Chart({
         <YAxis
           domain={[firstLegislature, lastLegislature]}
           range={[0, totalDuration * minHeight]}
-          legislatures={republics
-            .map((republic) => republic.legislatures)
-            .flat()}
+          legislatures={regimes.map((republic) => republic.legislatures).flat()}
           axisLeftPosition={axisLeftPosition}
         />
       </svg>

@@ -1,0 +1,86 @@
+{
+  "locale": { "lang": "fr" },
+  "home": {
+    "title_france": "France",
+    "description_france": "À partir de 1791",
+    "title_germany": "Allemagne",
+    "description_germany": "À partir de 1949"
+  },
+  "settingsLine": {
+    "hideEvents": "Masquer les événements",
+    "showEvents": "Afficher les événements",
+    "hideTransitions": "Masquer les transitions",
+    "showTransitions": "Afficher les transitions",
+    "hideCoalitions": "Masquer les coalitions",
+    "showCoalitions": "Afficher les coalitions",
+    "home": "Accueil",
+    "changeLang": "Changer de langue",
+    "informations": "Informations",
+    "decreaseSize": "Réduire la taille du graphique",
+    "increaseSize": "Augmenter la taille du graphique",
+    "graphSize": "Taille du graphique :",
+    "github": "Contribuer sur GitHub"
+  },
+  "filtersLine": {
+    "resetCurrentsFilters": "Réinitialiser les courants affichés",
+    "shuffleCurrentsFilters": "Afficher des courants aléatoires",
+    "loading": "Chargement...",
+    "hide": "Masquer",
+    "show": "Afficher",
+    "currentsList": "la liste des courants :",
+    "allCurrents": "tous les courants :",
+    "theCurrent": "le courant :"
+  },
+  "percentage": {
+    "fullPowers": "Pleins pouvoirs"
+  },
+  "entityDetails": {
+    "noAvailableData": "Aucune donnée disponible",
+    "hideCurrent": "Masquer le courant",
+    "showCurrent": "Afficher le courant",
+    "current": "Courant ",
+    "close": "Fermer les détails",
+    "loading": "Chargement...",
+    "parties": "Partis",
+    "persons": "Personnalités",
+    "details": "détails",
+    "type_cohabitation": "Cohabitation",
+    "type_référendum": "Référendum",
+    "type_lutte": "Lutte",
+    "type_guerre": "Guerre",
+    "type_loi": "Loi"
+  },
+  "chart": {
+    "chartLabel": "Visualisation interactive des législatures",
+    "eventsList": "Événements contextuels",
+    "regimesList": "Régimes politiques"
+  },
+  "event": {
+    "openDetails": "Ouvrir le détail de l'événement"
+  },
+  "regime": {
+    "from": "de",
+    "to": "à",
+    "today": "aujourd'hui",
+    "legislatures": "législatures",
+    "legislaturesList": "Législatures"
+  },
+  "legislature": {
+    "majorityCurrent": "Courant majoritaire ",
+    "with": "avec ",
+    "majorityCoalition": "Coalition majoritaire ",
+    "legislature": "Législature ",
+    "from": "de",
+    "to": "à",
+    "today": "aujourd'hui"
+  },
+  "party": {
+    "seats": "sièges",
+    "current": "Courant ",
+    "coalition": "Coalition : "
+  },
+  "infosModal": {
+    "github": "Contribuer sur GitHub",
+    "close": "Fermer la modale"
+  }
+}

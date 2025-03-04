@@ -1,5 +1,6 @@
 import {
   HeightIcon,
+  HomeIcon,
   InfoCircledIcon,
   MarginIcon,
   MinusIcon,
@@ -7,7 +8,149 @@ import {
   PinLeftIcon,
   PlusIcon
 } from "@radix-ui/react-icons";
+import { EarthGlobeIcon } from "@sanity/icons";
 import SettingsButton from "./settingsButton";
+import { useDictionary } from "@/utils/contexts/dictionaryContext";
+import Link from "next/link";
+import { MenuTrigger } from "react-aria-components";
+import LangSelector from "./langSelector";
+import { LocaleEnum } from "@/types/langsEnum";
+import { useRouter } from "next/navigation";
+
+type Props = {
+  eventVisibility: boolean;
+  setEventVisibility: (eventVisibility: boolean) => void;
+  referenceSize: number;
+  setReferenceSize: (referenceSize: number) => void;
+  setInfosVisibility: (infosVisibility: boolean) => void;
+  transitionsVisibility: boolean;
+  setTransitionsVisibility: (transitionsVisibility: boolean) => void;
+  coalitionsVisibility: boolean;
+  setCoalitionsVisibility: (coalitionsVisibility: boolean) => void;
+  isSelectorOpen: boolean;
+  setSelectorOpen: (selectorOpen: boolean) => void;
+  setLanguage: (lang: keyof typeof LocaleEnum) => void;
+};
+
+export default function SettingsLine({
+  eventVisibility,
+  setEventVisibility,
+  referenceSize,
+  setReferenceSize,
+  setInfosVisibility,
+  transitionsVisibility,
+  setTransitionsVisibility,
+  coalitionsVisibility,
+  setCoalitionsVisibility,
+  isSelectorOpen,
+  setSelectorOpen,
+  setLanguage
+}: Props) {
+  const dict = useDictionary().settingsLine;
+  const router = useRouter();
+  return (
+    <section className="w-full p-2 flex items-end max-w-screen-3xl mx-auto">
+      <div className="w-full flex justify-between gap-2 relative">
+        {/* Left */}
+        <div className="flex gap-1 sm:gap-1.5 items-center">
+          {/* Events button */}
+          <SettingsButton
+            Icon={PinLeftIcon}
+            onClick={() => setEventVisibility(!eventVisibility)}
+            label={eventVisibility ? dict.hideEvents : dict.showEvents}
+            flipIcon={eventVisibility ? false : true}
+            position={{ x: "left", y: "top" }}
+            kbd="e"
+          />
+
+          {/* Transition polygons button */}
+          <SettingsButton
+            Icon={transitionsVisibility ? HideTransitionsIcon : HeightIcon}
+            onClick={() => setTransitionsVisibility(!transitionsVisibility)}
+            label={
+              transitionsVisibility
+                ? dict.hideTransitions
+                : dict.showTransitions
+            }
+            position={{ x: "left", y: "top" }}
+            kbd="t"
+          />
+
+          {/* Coalitions button */}
+          <SettingsButton
+            Icon={coalitionsVisibility ? PaddingIcon : MarginIcon}
+            onClick={() => setCoalitionsVisibility(!coalitionsVisibility)}
+            label={
+              coalitionsVisibility ? dict.hideCoalitions : dict.showCoalitions
+            }
+            position={{ x: "left", y: "top" }}
+            kbd="c"
+          />
+        </div>
+
+        {/* Center */}
+        <div className="flex gap-1 sm:gap-1.5 items-center justify-center absolute left-0 right-0 pointer-events-none">
+          {/* Lang button */}
+          <MenuTrigger
+            isOpen={isSelectorOpen}
+            onOpenChange={setSelectorOpen}
+          >
+            <SettingsButton
+              Icon={EarthGlobeIcon}
+              label={dict.changeLang}
+              position={{ x: "left", y: "top" }}
+              onClick={() => setSelectorOpen(!isSelectorOpen)}
+              kbd="l"
+            />
+            <LangSelector setLanguage={setLanguage} />
+          </MenuTrigger>
+          {/* Home button */}
+          <SettingsButton
+            Icon={HomeIcon}
+            onClick={() => router.push("/")}
+            label={dict.home}
+            position={{ x: "left", y: "top" }}
+            kbd="h"
+          />
+        </div>
+
+        {/* Right */}
+        <div className="flex gap-1.5 items-center">
+          {/* Infos button */}
+          <SettingsButton
+            Icon={InfoCircledIcon}
+            onClick={() => setInfosVisibility(true)}
+            label={dict.informations}
+            position={{ x: "right", y: "top" }}
+            kbd="i"
+          />
+
+          {/* Reference size buttons */}
+          <div className="flex gap-1 sm:gap-1.5 items-center bg-black/5 rounded-full">
+            <SettingsButton
+              Icon={MinusIcon}
+              onClick={() => setReferenceSize(Math.max(4, referenceSize - 12))}
+              label={dict.decreaseSize}
+              position={{ x: "right", y: "top" }}
+              kbd={["-", "_"]}
+            />
+            <p className="hidden sm:inline text-sm opacity-75 select-none tabular-nums">
+              <span className="sr-only">{dict.graphSize}</span>
+              {String(referenceSize).padStart(2, "0")}
+            </p>
+            <SettingsButton
+              Icon={PlusIcon}
+              onClick={() => setReferenceSize(Math.min(88, referenceSize + 12))}
+              label={dict.increaseSize}
+              position={{ x: "right", y: "top" }}
+              kbd={["+", "="]}
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
 
 function HideTransitionsIcon() {
   return (
@@ -31,111 +174,5 @@ function HideTransitionsIcon() {
         fill="black"
       />
     </svg>
-  );
-}
-
-type Props = {
-  eventVisibility: boolean;
-  setEventVisibility: (eventVisibility: boolean) => void;
-  referenceSize: number;
-  setReferenceSize: (referenceSize: number) => void;
-  setInfosVisibility: (infosVisibility: boolean) => void;
-  transitionsVisibility: boolean;
-  setTransitionsVisibility: (transitionsVisibility: boolean) => void;
-  coalitionsVisibility: boolean;
-  setCoalitionsVisibility: (coalitionsVisibility: boolean) => void;
-};
-
-export default function SettingsLine({
-  eventVisibility,
-  setEventVisibility,
-  referenceSize,
-  setReferenceSize,
-  setInfosVisibility,
-  transitionsVisibility,
-  setTransitionsVisibility,
-  coalitionsVisibility,
-  setCoalitionsVisibility
-}: Props) {
-  return (
-    <section className="w-full p-2 flex items-end max-w-screen-3xl mx-auto">
-      <div className="w-full flex justify-between gap-2">
-        {/* Left */}
-        <div className="flex gap-1 items-center">
-          {/* Events button */}
-          <SettingsButton
-            Icon={PinLeftIcon}
-            onClick={() => setEventVisibility(!eventVisibility)}
-            label={
-              eventVisibility
-                ? "Masquer les événements"
-                : "Afficher les événements"
-            }
-            flipIcon={eventVisibility ? false : true}
-            position={{ x: "left", y: "top" }}
-            kbd="e"
-          />
-
-          {/* Transition polygons button */}
-          <SettingsButton
-            Icon={transitionsVisibility ? HideTransitionsIcon : HeightIcon}
-            onClick={() => setTransitionsVisibility(!transitionsVisibility)}
-            label={
-              transitionsVisibility
-                ? "Masquer les transitions"
-                : "Afficher les transitions"
-            }
-            position={{ x: "left", y: "top" }}
-            kbd="t"
-          />
-
-          {/* Coalitions button */}
-          <SettingsButton
-            Icon={coalitionsVisibility ? PaddingIcon : MarginIcon}
-            onClick={() => setCoalitionsVisibility(!coalitionsVisibility)}
-            label={
-              coalitionsVisibility
-                ? "Masquer les coalitions"
-                : "Afficher les coalitions"
-            }
-            position={{ x: "left", y: "top" }}
-            kbd="c"
-          />
-        </div>
-
-        {/* Right */}
-        <div className="flex gap-2 items-center">
-          {/* Infos button */}
-          <SettingsButton
-            Icon={InfoCircledIcon}
-            // name="En savoir plus"
-            onClick={() => setInfosVisibility(true)}
-            label="Informations"
-            position={{ x: "right", y: "top" }}
-            kbd="i"
-          />
-
-          {/* Reference size buttons */}
-          <SettingsButton
-            Icon={MinusIcon}
-            onClick={() => setReferenceSize(Math.max(4, referenceSize - 12))}
-            label="Réduire la taille du graphique"
-            position={{ x: "right", y: "top" }}
-            kbd={["-", "_"]}
-          />
-          <p className="text-sm opacity-75 select-none tabular-nums">
-            <span className="sr-only">Taille du graphique :</span>
-            {String(referenceSize).padStart(2, "0")}
-          </p>
-          <SettingsButton
-            Icon={PlusIcon}
-            onClick={() => setReferenceSize(Math.min(88, referenceSize + 12))}
-            label="Augmenter la taille du graphique"
-            position={{ x: "right", y: "top" }}
-            kbd={["+", "="]}
-          />
-        </div>
-      </div>
-    </section>
   );
 }

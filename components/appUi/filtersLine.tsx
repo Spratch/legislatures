@@ -2,15 +2,18 @@
 
 import { ReloadIcon, ShuffleIcon, SymbolIcon } from "@radix-ui/react-icons";
 import EntityButton from "./entityButton";
-import { CurrentType } from "../../types/current";
+import { CurrentType } from "@/types/current";
 import { useEffect } from "react";
-import { FamilyType } from "../../types/family";
+import { FamilyType } from "@/types/family";
 import CurrentsFamily from "./currentsFamily";
 import SettingsButton from "./settingsButton";
-import { useVisibleCurrentsContext } from "../utils/contexts/currentsContext";
-import { useHorizontalScroll } from "../utils/hooks/useHorizontalScroll";
+import { useVisibleCurrentsContext } from "@/utils/contexts/currentsContext";
+import { useHorizontalScroll } from "@/utils/hooks/useHorizontalScroll";
+import { useDictionary } from "@/utils/contexts/dictionaryContext";
 
 export default function FiltersLine({ families }: { families: FamilyType[] }) {
+  const dict = useDictionary().filtersLine;
+
   const scrollRef = useHorizontalScroll<HTMLDivElement>(); // Convert vertical scroll to horizontal scroll
   const { visibleCurrents, setVisibleCurrents } = useVisibleCurrentsContext();
   const currents = families?.flatMap((family) => family.currents);
@@ -56,7 +59,7 @@ export default function FiltersLine({ families }: { families: FamilyType[] }) {
             Icon={ReloadIcon}
             flipIcon={true}
             onClick={() => setVisibleCurrents(currents)}
-            label="Réinitialiser les courants affichés"
+            label={dict.resetCurrentsFilters}
             isVisible={visibleCurrents?.length !== currents?.length}
             position={{ x: "left", y: "bottom" }}
             kbd="r"
@@ -66,7 +69,7 @@ export default function FiltersLine({ families }: { families: FamilyType[] }) {
           <SettingsButton
             Icon={ShuffleIcon}
             onClick={handleShuffle}
-            label="Afficher des courants aléatoires"
+            label={dict.shuffleCurrentsFilters}
             position={{ x: "left", y: "bottom" }}
             kbd="s"
           />
@@ -96,7 +99,7 @@ export default function FiltersLine({ families }: { families: FamilyType[] }) {
                   }}
                   onClick={() => {}}
                   isActive={true}
-                  label="Chargement..."
+                  label={dict.loading}
                 />
               </span>
             )}

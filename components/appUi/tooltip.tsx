@@ -1,13 +1,15 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { TooltipContentType } from "../../types/tooltipContent";
-import { tooltipContentAtom } from "../utils/contexts/tooltipContext";
+import { TooltipContentType } from "@/types/tooltipContent";
+import { tooltipContentAtom } from "@/utils/contexts/tooltipContext";
 import EntityButton from "./entityButton";
 import Badge from "./badge";
 import PercentageButton from "./percentageButton";
-import { useDetailsContext } from "../utils/contexts/detailsContext";
+import { useDetailsContext } from "@/utils/contexts/detailsContext";
 import { useAtomValue, useSetAtom } from "jotai";
+import { useDictionary } from "@/utils/contexts/dictionaryContext";
+import { getLangKey } from "../utils/getLangKey";
 
 type Props = {
   chartWidth: number;
@@ -36,6 +38,13 @@ export function TooltipContent({
   const { setDetailsContent } = useDetailsContext();
   const { y, xStart, xEnd, legislature, party, coalitionDatas } =
     tooltipContent;
+
+  const lang = useDictionary().locale.lang;
+
+  const currentName = party.current[getLangKey("name", lang)];
+  const coalitionName = party.coalition
+    ? party[getLangKey("coalition", lang)]
+    : "";
 
   // Get tooltip dimensions
   const tooltipRef = useRef(null);
@@ -110,7 +119,7 @@ export function TooltipContent({
         <div className="flex gap-2 justify-start items-center">
           {party.current && (
             <Badge
-              name={party.current.name}
+              name={currentName}
               hex={party.current.color}
               onClick={() => setDetailsContent({ entity: party.current })}
             />
@@ -155,7 +164,7 @@ export function TooltipContent({
                 style={{ backgroundColor: coalitionDatas.color }}
               ></span>
               <span className="text-sm sm:text-base text-black/50 leading-none inline sm:text-nowrap">
-                {party.coalition}
+                {coalitionName}
               </span>
             </div>
             <PercentageButton

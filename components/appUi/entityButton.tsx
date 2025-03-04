@@ -1,6 +1,8 @@
-import { CurrentType } from "../../types/current";
-import { PartyType } from "../../types/party";
-import truncateString from "../utils/truncateString";
+import { CurrentType } from "@/types/current";
+import { PartyType } from "@/types/party";
+import truncateString from "@/utils/truncateString";
+import { useDictionary } from "@/utils/contexts/dictionaryContext";
+import { getLangKey } from "../utils/getLangKey";
 
 type EntityType = CurrentType | PartyType | { name: React.ReactNode };
 
@@ -21,6 +23,16 @@ export default function EntityButton({
     "full_name" in entity;
   const isCurrent = (entity: EntityType): entity is CurrentType =>
     "color" in entity;
+
+  // I18n
+  const lang = useDictionary().locale.lang;
+  let entityName = entity.name;
+  let entityFullName = "";
+  if (isCurrent(entity)) {
+    entityName = entity[getLangKey("name", lang)];
+  } else if (isParty(entity)) {
+    entityFullName = entity[getLangKey("full_name", lang)];
+  }
 
   return (
     <button
@@ -52,13 +64,15 @@ export default function EntityButton({
             aria-hidden
             className="text-black/40 sm:text-black/35 group-hover:text-black/50 all-small-caps mr-1 inline-flex h-full text-xs transition text-nowrap"
           >
-            {entity.name}
+            {entityName}
           </span>
         )}
 
         {/* If party, display full name */}
         <span className="text-nowrap">
-          {isParty(entity) ? truncateString(entity.full_name, 30) : entity.name}
+          {isParty(entity)
+            ? truncateString(entityFullName || entity.full_name, 30)
+            : entityName}
         </span>
       </span>
     </button>

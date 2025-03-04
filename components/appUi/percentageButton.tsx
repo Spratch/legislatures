@@ -1,3 +1,5 @@
+import { useDictionary } from "@/utils/contexts/dictionaryContext";
+
 type PercentageButtonProps = {
   percentage: number;
   deputies: number;
@@ -13,6 +15,8 @@ export default function PercentageButton({
   isPercentage,
   onHover
 }: PercentageButtonProps) {
+  const dict = useDictionary().percentage;
+
   // If the percentage is 100, display "Plein pouvoirs"
   const isFullPowers = percentage === 100;
   return (
@@ -24,10 +28,10 @@ export default function PercentageButton({
     >
       <span className="text-black/65 text-nowrap">
         {isFullPowers
-          ? "Plein pouvoirs"
+          ? dict.fullPowers
           : isPercentage
-          ? percentage.toFixed(1)
-          : deputies}
+            ? percentage.toFixed(1)
+            : deputies}
       </span>
       {!isFullPowers && (
         <span className="text-black/45">

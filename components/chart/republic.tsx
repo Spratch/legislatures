@@ -1,14 +1,16 @@
 import { motion } from "framer-motion";
-import { CurrentType } from "../../types/current";
-import { LegislatureType } from "../../types/legislature";
-import { RepublicType } from "../../types/republic";
-import { ChartDimensions } from "../utils/hooks/useChartDimensions";
+import { CurrentType } from "@/types/current";
+import { LegislatureType } from "@/types/legislature";
+import { RegimeType } from "@/types/regime";
+import { ChartDimensions } from "@/utils/hooks/useChartDimensions";
 import Legislature from "./legislature";
-import getDate from "../utils/getDate";
-import getYear from "../utils/getYear";
+import getDate from "@/utils/getDate";
+import getYear from "@/utils/getYear";
+import { useDictionary } from "@/utils/contexts/dictionaryContext";
+import { getLangKey } from "../utils/getLangKey";
 
 type RepublicProps = {
-  republic: RepublicType;
+  republic: RegimeType;
   index: number;
   axisLeftPosition: number;
   minHeight: number;
@@ -20,7 +22,6 @@ type RepublicProps = {
 
 export default function Republic({
   republic,
-  index,
   axisLeftPosition,
   minHeight,
   firstLegislature,
@@ -28,6 +29,10 @@ export default function Republic({
   currents,
   nextRepFirstLeg
 }: RepublicProps) {
+  const dictionary = useDictionary();
+  const lang = dictionary.locale.lang;
+  const dict = dictionary.regime;
+
   // Add the next rep first legislature to the current republic
   const republicWithNextRepFirstLeg = nextRepFirstLeg
     ? {
@@ -45,9 +50,10 @@ export default function Republic({
           const current = currents.find((current) =>
             current.parties.find((p) => p.name === party.name)
           );
-          const full_name = current?.parties.find(
-            (p) => p.name === party.name
-          )?.full_name;
+          const full_name =
+            current?.parties.find((p) => p.name === party.name)?.[
+              getLangKey("full_name", lang)
+            ] || "";
 
           if (current) {
             return {
@@ -73,9 +79,11 @@ export default function Republic({
   const regimeY = (getDate(republic.begin) - firstLegislature) * minHeight;
   const regimeWidth = dimensions.boundedWidth - axisLeftPosition;
 
-  const republicDescription = `(de ${getYear(getDate(republic.begin))} à ${
-    getYear(getDate(republic.end)) || "aujourd'hui"
-  }). ${republic.legislatures.length} législatures.`;
+  const republicDescription = `(${dict.from} ${getYear(
+    getDate(republic.begin)
+  )} ${dict.to} ${getYear(getDate(republic.end)) || dict.today}). ${
+    republic.legislatures.length
+  } ${dict.legislatures}.`;
 
   return (
     <g
@@ -90,7 +98,7 @@ export default function Republic({
       {/* Legislatures list */}
       <g
         role="list"
-        aria-label="Législatures"
+        aria-label={dict.legislaturesList}
       >
         {legislaturesWithIndexes.map((leg) => {
           // Find the next legislature and add the currents to the parties
@@ -163,7 +171,7 @@ export default function Republic({
             }}
             transition={{ duration: 0.5 }}
           >
-            {republic.name}
+            {republic[getLangKey("name", lang)]}
           </motion.text>
           <motion.line
             x1={0}

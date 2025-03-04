@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { PartyType } from "../../types/party";
+import { PartyType } from "@/types/party";
+import { useDictionary } from "@/utils/contexts/dictionaryContext";
 
 type PartyBarProps = {
   party: PartyType;
@@ -25,6 +26,8 @@ export default function PartyBar({
   transitionDuration,
   barColor
 }: PartyBarProps) {
+  const dict = useDictionary().party;
+
   // Display text if the party is wide enough
   const displayText = partyWidth > 30 && height > 13;
 
@@ -34,9 +37,9 @@ export default function PartyBar({
   const coalitionStrokeWidth = 0.75;
   const strokeOffset = coalitionStrokeWidth / 2;
 
-  const srDescription = `${party.deputes} députés. Courant : ${
+  const srDescription = `${party.deputes} ${dict.seats}. ${dict.current}: ${
     party.current.name
-  }. ${party.coalition ? "Coalition : " + party.coalition : ""}`;
+  }. ${party.coalition ? dict.coalition + party.coalition : ""}`;
 
   return (
     <motion.g

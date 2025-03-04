@@ -1,18 +1,10 @@
 "use client";
 
 import { createContext, useContext, useState } from "react";
-import { CurrentType } from "../../../types/current";
-import republicsData from "../../../public/data/republics.json";
-import familiesData from "../../../public/data/currents.json";
-import eventsData from "../../../public/data/events.json";
-import { FamilyType } from "../../../types/family";
+import { CurrentType } from "@/types/current";
+import { FamilyType } from "@/types/family";
+import { CountryDataType } from "@/types/countryData";
 
-export const republics = republicsData.republics;
-export const currents = familiesData.families.flatMap(
-  (family: FamilyType) => family.currents
-);
-export const families = familiesData.families;
-export const events = eventsData.events;
 interface VisibleCurrentsContextType {
   visibleCurrents: CurrentType[] | null;
   setVisibleCurrents: (visibleCurrents: CurrentType[]) => void;
@@ -36,10 +28,15 @@ export const useVisibleCurrentsContext = () => {
 
 // Create a provider for the visible currents context
 export const VisibleCurrentsProvider = ({
-  children
+  children,
+  countryData
 }: {
   children: React.ReactNode;
+  countryData: CountryDataType;
 }) => {
+  const currents = countryData.families.flatMap(
+    (family: FamilyType) => family.currents
+  );
   const [visibleCurrents, setVisibleCurrents] = useState(currents);
 
   return (

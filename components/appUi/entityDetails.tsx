@@ -6,17 +6,23 @@ import Badge from "./badge";
 import WikiLink from "./wikiLink";
 import { Cross1Icon, EyeClosedIcon, EyeOpenIcon } from "@radix-ui/react-icons";
 import { Key, useCallback, useEffect, useRef, useState } from "react";
-import { useDetailsContext } from "../utils/contexts/detailsContext";
-import { CurrentType } from "../../types/current";
-import { EventType } from "../../types/event";
-import { PartyType } from "../../types/party";
-import { useVisibleCurrentsContext } from "../utils/contexts/currentsContext";
-import truncateString from "../utils/truncateString";
+import { useDetailsContext } from "@/utils/contexts/detailsContext";
+import { CurrentType } from "@/types/current";
+import { EventType } from "@/types/event";
+import { PartyType } from "@/types/party";
+import { useVisibleCurrentsContext } from "@/utils/contexts/currentsContext";
+import truncateString from "@/utils/truncateString";
 import IconButton from "./iconButton";
-import useKeyPress from "../utils/hooks/useKeyPress";
-import { useHorizontalScroll } from "../utils/hooks/useHorizontalScroll";
+import useKeyPress from "@/utils/hooks/useKeyPress";
+import { useHorizontalScroll } from "@/utils/hooks/useHorizontalScroll";
+import { useDictionary } from "@/utils/contexts/dictionaryContext";
+import { getLangKey } from "../utils/getLangKey";
 
 export default function EntityDetails() {
+  const dictionary = useDictionary();
+  const lang = dictionary.locale.lang;
+  const dict = dictionary.entityDetails;
+
   // Get the entity to display from the context
   const { detailsContent, setDetailsContent } = useDetailsContext();
   const { entity, parent } = detailsContent;
@@ -34,7 +40,11 @@ export default function EntityDetails() {
   const event = entityType === "event" ? (entity as EventType) : null;
 
   // Get the entity title
-  const title = event?.title || party?.full_name || current?.name;
+  const title = event
+    ? event[getLangKey("title", lang)]
+    : party
+    ? party[getLangKey("full_name", lang)]
+    : current?.[getLangKey("name", lang)];
 
   const updateWikiLink = (wikiUrl: string, keyword: string) => {
     let fullWikiLink = wikiUrl;
@@ -51,27 +61,34 @@ export default function EntityDetails() {
   };
 
   // Fetch the entity content on mount
+  const pageTitle = event
+    ? event.title
+    : party
+    ? party.full_name
+    : current.name;
   useEffect(() => {
     if (entity) {
       const fetchWiki = (searchTerm: string) => {
-        const noInfo = "Aucune information disponible…";
+        const noInfo = dict.noAvailableData;
         fetch("/api/wiki", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
           },
-          body: JSON.stringify({ keyword: searchTerm })
+          body: JSON.stringify({ keyword: searchTerm, lang })
         })
           .then((response) => response.json())
           .then((data) => {
-            setDescription(data.firstParagraph || noInfo);
+            setDescription(
+              data.firstParagraphLang || data.firstParagraphFr || noInfo
+            );
             setImage(data.thumbnail);
-            updateWikiLink(data.pageUrl, searchTerm);
+            updateWikiLink(data.pageUrlLang || data.pageUrlFr, searchTerm);
           });
       };
-      fetchWiki(entity.keyword || title);
+      fetchWiki(entity.keyword || pageTitle);
     }
-  }, [entity, title]);
+  }, [entity, pageTitle, dict, lang]);
 
   // Get the sub entities
   const subEntities = current?.parties || party?.persons || null;
@@ -90,6 +107,22 @@ export default function EntityDetails() {
         )
       : setVisibleCurrents([...visibleCurrents, current]);
   }
+
+  // Define the colors for each event type
+  const eventTypeColors = {
+    Cohabitation: "#FFC107",
+    Référendum: "#4CAF50",
+    Lutte: "#673AB7",
+    Guerre: "#D32F2F",
+    Loi: "#2196F3"
+  };
+  // Get the event type properties
+  const eventTypeColor = event?.type
+    ? eventTypeColors[event.type] || "black"
+    : "black";
+  const eventTypeTitle = event?.type
+    ? dict[`type_${event.type.toLowerCase()}`] || event.type
+    : "";
 
   // Close the details
   const handleClose = useCallback(() => {
@@ -154,15 +187,17 @@ export default function EntityDetails() {
             current ? (
               <IconButton
                 Icon={isVisible ? EyeOpenIcon : EyeClosedIcon}
-                label={isVisible ? "Masquer le courant" : "Afficher le courant"}
+                label={isVisible ? dict.hideCurrent : dict.showCurrent}
                 onClick={() => handleVisibility()}
               />
             ) : // If party, display the parent badge
             party ? (
               <Badge
-                name={(parent as CurrentType).name}
+                name={(parent as CurrentType)[getLangKey("name", lang)]}
                 hex={(parent as CurrentType).color}
-                label={`Courant : ${(parent as CurrentType).name}`}
+                label={`${dict.current}: ${
+                  (parent as CurrentType)[getLangKey("name", lang)]
+                }`}
                 onClick={() => onClick(parent)}
               />
             ) : // If event, display dates and type
@@ -179,17 +214,9 @@ export default function EntityDetails() {
                     </div>
                     {event.type && (
                       <Badge
-                        name={event.type}
-                        hex={
-                          {
-                            Cohabitation: "#FFC107",
-                            Référendum: "#4CAF50",
-                            Lutte: "#673AB7",
-                            Guerre: "#D32F2F",
-                            Loi: "#2196F3"
-                          }[event.type] || "black"
-                        }
-                        label={event.type}
+                        name={eventTypeTitle}
+                        hex={eventTypeColor}
+                        label={eventTypeTitle}
                         isClickable={false}
                       />
                     )}
@@ -208,7 +235,7 @@ export default function EntityDetails() {
           }
           <IconButton
             Icon={Cross1Icon}
-            label="Fermer les détails"
+            label={dict.close}
             onClick={handleClose}
           />
         </div>
@@ -251,7 +278,7 @@ export default function EntityDetails() {
               {/* If small screens, truncate at 250, else 400 */}
               {description
                 ? truncateString(description, windowWidth < 640 ? 250 : 400)
-                : "Chargement…"}
+                : dict.loading}
             </p>
             {wikiLink && <WikiLink href={wikiLink} />}
           </div>
@@ -263,7 +290,7 @@ export default function EntityDetails() {
             }`}
           >
             <h3 className="font-bold">
-              {current ? "Partis" : "Personnalités"}
+              {current ? dict.parties : dict.persons}
             </h3>
             <ul
               ref={detailsScrollRef}
@@ -276,7 +303,9 @@ export default function EntityDetails() {
                     entity={subEntity}
                     onClick={() => onClick(subEntity, entity)}
                     isActive={true}
-                    label={`${subEntity.full_name || subEntity.name}, détails`}
+                    label={`${subEntity.full_name || subEntity.name}, ${
+                      dict.details
+                    }`}
                   />
                 ))}
             </ul>

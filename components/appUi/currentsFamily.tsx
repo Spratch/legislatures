@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
-import { FamilyType } from "../../types/family";
+import { FamilyType } from "@/types/family";
 import SettingsButton from "./settingsButton";
 import EntityButton from "./entityButton";
-import { useVisibleCurrentsContext } from "../utils/contexts/currentsContext";
+import { useVisibleCurrentsContext } from "@/utils/contexts/currentsContext";
 import { EyeClosedIcon, EyeOpenIcon } from "@radix-ui/react-icons";
+import { useDictionary } from "../utils/contexts/dictionaryContext";
+import { getLangKey } from "../utils/getLangKey";
 
 type Props = {
   family: FamilyType;
@@ -11,6 +13,12 @@ type Props = {
 };
 
 export default function CurrentsFamily({ family, onCurrentClick }: Props) {
+  const dictionary = useDictionary();
+  const lang = dictionary.locale.lang;
+  const dict = dictionary.filtersLine;
+
+  const familyName = family[getLangKey("name", lang)];
+
   // Is currents family button open
   const [isActive, setIsActive] = useState(false);
   // Context for visible currents
@@ -87,22 +95,22 @@ export default function CurrentsFamily({ family, onCurrentClick }: Props) {
         <SettingsButton
           number={familyNumber}
           color={family.color}
-          name={family.name}
+          name={familyName}
           onClick={() => {
             setIsActive(!isActive);
           }}
           isActive={isActive}
-          label={`${
-            isActive ? "Masquer" : "Afficher"
-          } la liste des courants : ${family.name}`}
+          label={`${isActive ? dict.hide : dict.show} ${
+            dict.currentsList + " " + familyName
+          }`}
           straightSide="right"
         />
         <SettingsButton
           Icon={isFamilyVisible ? EyeOpenIcon : EyeClosedIcon}
           onClick={() => toggleFullFamily()}
-          label={`${
-            isFamilyVisible ? "Masquer" : "Afficher"
-          } tous les courants : ${family.name}`}
+          label={`${isFamilyVisible ? dict.hide : dict.show} ${
+            dict.allCurrents + " " + familyName
+          }`}
           straightSide="left"
         />
       </div>
@@ -118,9 +126,9 @@ export default function CurrentsFamily({ family, onCurrentClick }: Props) {
                 entity={current}
                 onClick={() => onCurrentClick(current)}
                 isActive={isCurrentVisible}
-                label={`${
-                  isCurrentVisible ? "Masquer" : "Afficher"
-                } le courant : ${current.name}`}
+                label={`${isCurrentVisible ? dict.hide : dict.show} ${
+                  dict.theCurrent + " " + current.name
+                }`}
               />
             );
           })}
