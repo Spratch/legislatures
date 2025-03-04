@@ -108,6 +108,22 @@ export default function EntityDetails() {
       : setVisibleCurrents([...visibleCurrents, current]);
   }
 
+  // Define the colors for each event type
+  const eventTypeColors = {
+    Cohabitation: "#FFC107",
+    Référendum: "#4CAF50",
+    Lutte: "#673AB7",
+    Guerre: "#D32F2F",
+    Loi: "#2196F3"
+  };
+  // Get the event type properties
+  const eventTypeColor = event?.type
+    ? eventTypeColors[event.type] || "black"
+    : "black";
+  const eventTypeTitle = event?.type
+    ? dict[`type_${event.type.toLowerCase()}`] || event.type
+    : "";
+
   // Close the details
   const handleClose = useCallback(() => {
     setDetailsContent(null);
@@ -198,17 +214,9 @@ export default function EntityDetails() {
                     </div>
                     {event.type && (
                       <Badge
-                        name={event.type}
-                        hex={
-                          {
-                            Cohabitation: "#FFC107",
-                            Référendum: "#4CAF50",
-                            Lutte: "#673AB7",
-                            Guerre: "#D32F2F",
-                            Loi: "#2196F3"
-                          }[event.type] || "black"
-                        }
-                        label={event.type}
+                        name={eventTypeTitle}
+                        hex={eventTypeColor}
+                        label={eventTypeTitle}
                         isClickable={false}
                       />
                     )}

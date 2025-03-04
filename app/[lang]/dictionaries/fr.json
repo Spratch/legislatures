@@ -43,7 +43,12 @@
     "loading": "Chargement...",
     "parties": "Partis",
     "persons": "Personnalités",
-    "details": "détails"
+    "details": "détails",
+    "type_cohabitation": "Cohabitation",
+    "type_référendum": "Référendum",
+    "type_lutte": "Lutte",
+    "type_guerre": "Guerre",
+    "type_loi": "Loi"
   },
   "chart": {
     "chartLabel": "Visualisation interactive des législatures",

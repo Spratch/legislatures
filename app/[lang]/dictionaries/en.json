@@ -43,7 +43,12 @@
     "loading": "Loading...",
     "parties": "Parties",
     "persons": "Personnalities",
-    "details": "details"
+    "details": "details",
+    "type_cohabitation": "Cohabitation",
+    "type_référendum": "Referendum",
+    "type_lutte": "Struggle",
+    "type_guerre": "War",
+    "type_loi": "Law"
   },
   "chart": {
     "chartLabel": "Interactive visualization of legislatures",
