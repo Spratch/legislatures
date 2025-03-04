@@ -3,7 +3,8 @@ import { CountryDataType } from "@/types/countryData";
 import { CountryEnum } from "@/types/countriesEnum";
 
 const datas = {
-  france: () => import("../../data/france.js").then((module) => module.default)
+  france: () => import("../../data/france").then((module) => module.default),
+  germany: () => import("../../data/germany").then((module) => module.default)
 };
 
 export const getCountryData = async (

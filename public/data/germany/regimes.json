@@ -41,7 +41,7 @@
             "deputes": 12
           },
           {
-            "name": "Ze",
+            "name": "DZP",
             "deputes": 10
           },
           {
@@ -56,6 +56,9 @@
             "name": "Autres",
             "deputes": 3
           }
+        ],
+        "source": [
+          "https://germanhistorydocs.org/en/a-new-germany-1990-2023/distribution-of-seats-in-the-bundestag-1949-2017#note-5"
         ]
       },
       {
@@ -86,13 +89,17 @@
             "deputes": 15
           },
           {
-            "name": "Ze",
+            "name": "DZP",
             "deputes": 3
           },
           {
             "name": "GB/BHE",
             "deputes": 27
           }
+        ],
+        "source": [
+          "https://germanhistorydocs.org/en/a-new-germany-1990-2023/distribution-of-seats-in-the-bundestag-1949-2017#note-5",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_f%C3%A9d%C3%A9rales_ouest-allemandes_de_1953"
         ]
       }
     ]
