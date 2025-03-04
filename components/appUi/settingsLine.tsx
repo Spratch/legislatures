@@ -87,9 +87,12 @@ export default function SettingsLine({
         </div>
 
         {/* Center */}
-        <div className="flex gap-2 items-center justify-center absolute left-0 right-0">
+        <div className="flex gap-2 items-center justify-center absolute left-0 right-0 pointer-events-none">
           {/* Lang button */}
-          <MenuTrigger isOpen={isSelectorOpen}>
+          <MenuTrigger
+            isOpen={isSelectorOpen}
+            onOpenChange={setSelectorOpen}
+          >
             <SettingsButton
               Icon={EarthGlobeIcon}
               label={dict.changeLang}

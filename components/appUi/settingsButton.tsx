@@ -51,8 +51,8 @@ export default function SettingsButton({
                       straightSide === "left"
                         ? "rounded-l-none pr-0.5"
                         : straightSide === "right"
-                        ? "rounded-r-none pr-2"
-                        : ""
+                          ? "rounded-r-none pr-2"
+                          : ""
                     }
                 `}
         onPress={onClick}
