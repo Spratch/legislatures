@@ -147,6 +147,68 @@
               "_type": "block",
               "style": "normal"
             }
+          ],
+          "portable_text_de": [
+            {
+              "_key": "cf31595a30f6",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Diese Visualisierung wurde unter Verwendung von Daten aus verschiedenen Quellen erstellt, hauptsächlich jedoch aus der Liste der französischen gesetzgebenden Körperschaften auf ",
+                  "_key": "8464965dba85"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["26effcd020b9"],
+                  "text": "Wikipédia",
+                  "_key": "ac12a4e99af2"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". Je älter die Daten sind, desto ungenauer sind sie. Tatsächlich gab es moderne Konzepte politischer Parteien oder Fraktionen nicht immer. Nach ihrer Wahl wurden die Abgeordneten entsprechend ihrer Stimmabgabe benannt.",
+                  "_key": "ecad5922b6e8"
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "26effcd020b9",
+                  "_type": "link",
+                  "href": "https://fr.wikipedia.org/wiki/Liste_des_l%C3%A9gislatures_fran%C3%A7aises"
+                }
+              ],
+              "_type": "block",
+              "style": "normal"
+            },
+            {
+              "_key": "0b8ebae6c99c",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Zudem musste über die Mitgliedschaft jedes einzelnen Parteimitglieds bzw. Abgeordneten zu einer politischen Bewegung willkürlich entschieden werden. Nuancen und Entwicklungen der politischen Parteien werden dabei nicht unbedingt berücksichtigt. Hinzu kommt die Tatsache, dass politische Strömungen wie die Rechte oder die Linke sich im Laufe der Zeit verändern konnten. Die extreme Linke zu Beginn der Dritten Republik könnte heute einer zentristischen Position entsprechen. Der Übersichtlichkeit halber habe ich mich für eine Klassifizierung der Parteien nach zeitgenössischen Maßstäben entschieden.",
+                  "_key": "47b281d74eba"
+                }
+              ],
+              "markDefs": [],
+              "_type": "block",
+              "style": "normal"
+            },
+            {
+              "_key": "9a637c9f8d77",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Schließlich wollte ich Wahlabsprachen zwischen Parteien, etwa Koalitionen, darstellen. Diese ermöglichen uns ein besseres Verständnis der herrschenden Machtverhältnisse. Die Verfahren sind nicht immer identisch und für ältere Wahlen fehlen teilweise Informationen.",
+                  "_key": "371f2e0b3536"
+                }
+              ],
+              "markDefs": [],
+              "_type": "block",
+              "style": "normal"
+            }
           ]
         },
         {
@@ -203,6 +265,36 @@
                   "marks": [],
                   "text": "However, significant events are placed on the margins of the main graph to further contextualize the results. These choices do not claim to be exhaustive and may gain in relevance. Your feedback is welcome.",
                   "_key": "3203b75cf545"
+                }
+              ],
+              "markDefs": [],
+              "_type": "block",
+              "style": "normal"
+            }
+          ],
+          "portable_text_de": [
+            {
+              "_key": "8edae2c18d2e",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "* Die Versammlungen haben unterschiedliche Formen und Namen angenommen, die Wahlmethoden haben sich weiterentwickelt und die Geschichte hat sich weiterentwickelt, indem sie jede Wahl aufgrund der politischen und sozialen Probleme der Zeit einzigartig gemacht hat. Diese Site bietet einen synthetischen und daher unvollständigen Überblick über die Zusammenhänge jeder Wahl.",
+                  "_key": "8b4b891e9698"
+                }
+              ],
+              "markDefs": [],
+              "_type": "block",
+              "style": "normal"
+            },
+            {
+              "_key": "177d53199f91",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Bemerkenswerte Ereignisse werden jedoch an den Rändern des Hauptdiagramms platziert, um die Ergebnisse weiter in einen Kontext zu setzen. Diese Auswahl erhebt keinen Anspruch auf Vollständigkeit und kann an Relevanz gewinnen. Ihr Feedback ist willkommen.",
+                  "_key": "09b0008f3147"
                 }
               ],
               "markDefs": [],
@@ -375,6 +467,89 @@
               "markDefs": [
                 {
                   "_key": "2be0ddfc9890",
+                  "_type": "link",
+                  "href": "mailto:legislaturesfr@gmail.com"
+                }
+              ],
+              "_type": "block",
+              "style": "normal"
+            }
+          ],
+          "portable_text_de": [
+            {
+              "_key": "86c33a405f65",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Dieses Diagramm ist von der hervorragenden Arbeit von ",
+                  "_key": "82fb7e8075eb"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["2dc23619c9e5"],
+                  "text": "Tom Février und Marie Patino",
+                  "_key": "f6fef4346a9c"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": " für ",
+                  "_key": "6f88bf25b90a"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["8c1218cc5386"],
+                  "text": "diesen Bloomberg-Artikel",
+                  "_key": "0498dded95e0"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". Als ich es entdeckte, hätte ich es gern bis zur Revolution von 1789 ausdehnen können. Und das habe ich getan. Ich habe es aus Spaß gemacht, um zu lernen, wie man Datenvisualisierungen erstellt und um die politische Geschichte Frankreichs besser zu verstehen.",
+                  "_key": "82a95a70cb97"
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "2dc23619c9e5",
+                  "_type": "link",
+                  "href": "https://mastodon.social/@tomfevrier/112751171765233201"
+                },
+                {
+                  "_key": "8c1218cc5386",
+                  "_type": "link",
+                  "href": "https://www.bloomberg.com/graphics/2024-french-election-results/"
+                }
+              ],
+              "_type": "block",
+              "style": "normal"
+            },
+            {
+              "_key": "80e38e56115d",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Ich hoffe, dass Ihnen die Lektüre ebenso viel Freude bereitet wie dass sie Ihnen Wissen und Perspektiven vermittelt. Wenn Sie Fehler, Ungenauigkeiten oder Auslassungen feststellen oder Vorschläge haben, zögern Sie bitte nicht, ",
+                  "_key": "56fe21ac633b"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["c304ccd06f59"],
+                  "text": "mich zu kontaktieren",
+                  "_key": "6233f8d17066"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". Ich bin weder Historiker noch Politikexperte und dies ist mein erstes Datenvisualisierungsprojekt. Ich bin daher für jede konstruktive Kritik sowohl zum Inhalt als auch zum Code offen.",
+                  "_key": "b85a6fd05e9a"
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "c304ccd06f59",
                   "_type": "link",
                   "href": "mailto:legislaturesfr@gmail.com"
                 }
@@ -563,6 +738,99 @@
                 },
                 {
                   "_key": "5b4ca4bda0b7",
+                  "_type": "link",
+                  "href": "http://fr.wikipedia.org/w/index.php?title=Liste_des_l%C3%A9gislatures_fran%C3%A7aises&action=history"
+                }
+              ],
+              "_type": "block",
+              "style": "lastParagraph"
+            }
+          ],
+          "portable_text_de": [
+            {
+              "_key": "875ec4544af7",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Außerdem danke ich allen Menschen, die mir Daten, Erklärungen, Feedback und Unterstützung zur Verfügung gestellt haben.",
+                  "_key": "ffcd9d148386"
+                }
+              ],
+              "markDefs": [],
+              "_type": "block",
+              "style": "normal"
+            },
+            {
+              "_key": "0db74af3effd",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": ["42b900671733"],
+                  "text": "Inhalt lizenziert unter CC-BY-SA 4.0",
+                  "_key": "748571ff91c6"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". Quelle: Artikel ",
+                  "_key": "67732e4588de"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["54d5e4ed2e1f", "em"],
+                  "text": "Liste des législatures françaises",
+                  "_key": "cbb923c9d7d7"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": " aus der ",
+                  "_key": "036613f6ec14"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["aa07dde21fab"],
+                  "text": "französischen Wikipédia",
+                  "_key": "661656ff8b2a"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": " (",
+                  "_key": "6109ed73b8ce"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["f9ded076240f"],
+                  "text": "Autoren",
+                  "_key": "6c837aca1987"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ")",
+                  "_key": "22e5aec344a9"
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "42b900671733",
+                  "_type": "link",
+                  "href": "https://creativecommons.org/licenses/by-sa/4.0/deed.fr"
+                },
+                {
+                  "_key": "54d5e4ed2e1f",
+                  "_type": "link",
+                  "href": "http://fr.wikipedia.org/wiki/Liste_des_l%C3%A9gislatures_fran%C3%A7aises"
+                },
+                {
+                  "_key": "aa07dde21fab",
+                  "_type": "link",
+                  "href": "https://fr.wikipedia.org/"
+                },
+                {
+                  "_key": "f9ded076240f",
                   "_type": "link",
                   "href": "http://fr.wikipedia.org/w/index.php?title=Liste_des_l%C3%A9gislatures_fran%C3%A7aises&action=history"
                 }
