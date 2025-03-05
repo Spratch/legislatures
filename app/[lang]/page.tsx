@@ -64,7 +64,7 @@ export default function Home() {
                     (prev) => (prev - 1 + countries.length) % countries.length
                   )
                 }
-                label="Previous"
+                label={dict.previous}
                 position={{ x: "left", y: "bottom" }}
                 kbd={"ArrowLeft"}
               />
@@ -73,7 +73,7 @@ export default function Home() {
                 onClick={() =>
                   setOffset((prev) => (prev + 1) % countries.length)
                 }
-                label="Next"
+                label={dict.next}
                 position={{ x: "right", y: "bottom" }}
                 kbd={"ArrowRight"}
               />

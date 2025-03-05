@@ -1,6 +1,8 @@
 {
   "locale": { "lang": "en" },
   "home": {
+    "next": "Next",
+    "previous": "Previous",
     "title_france": "France",
     "description_france": "From 1791",
     "title_germany": "Germany",

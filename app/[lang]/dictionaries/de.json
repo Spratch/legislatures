@@ -1,6 +1,8 @@
 {
   "locale": { "lang": "de" },
   "home": {
+    "next": "Nächster",
+    "previous": "Vorheriger",
     "title_france": "Frankreich",
     "description_france": "Ab 1791",
     "title_germany": "Deutschland",

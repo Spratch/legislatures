@@ -1,14 +1,14 @@
 [
   {
     "name": "Gauche",
-    "name_de": "Linke",
     "name_en": "Left",
+    "name_de": "Linke",
     "color": "#FF0E3A",
     "currents": [
       {
         "name": "Communiste",
-        "name_de": "Kommunist",
         "name_en": "Communist",
+        "name_de": "Kommunist",
         "color": "#A40C34",
         "keyword": "Communisme",
         "parties": [
@@ -16,183 +16,55 @@
             "name": "KPD",
             "full_name": "Parti communiste d'Allemagne",
             "full_name_en": "Communist Party of Germany",
-            "full_name_de": "Kommunistische Partei Deutschlands"
+            "full_name_de": "Kommunistische Partei Deutschlands",
+            "keyword": "Parti communiste d'Allemagne"
           }
         ]
       },
       {
-        "name": "Socialiste autogestionnaire",
-        "color": "#D10F3D",
-        "keyword": "Autogestion",
-        "parties": []
-      },
-      {
-        "name": "Indépendantiste",
-        "color": "#E40E3B",
-        "keyword": "Indépendantisme",
-        "parties": []
-      },
-      {
-        "name": "Marxiste-léniniste",
-        "color": "#E10F3D",
-        "keyword": "Marxisme-léninisme",
-        "parties": []
-      },
-      {
-        "name": "Socialiste blanquiste",
-        "color": "#AF0E37",
-        "keyword": "Blanquisme",
-        "parties": []
-      },
-      {
-        "name": "Socialiste allemaniste",
-        "color": "#C10F3D",
-        "keyword": "Jean Allemane #Pensée politique",
-        "parties": []
-      },
-      {
-        "name": "Socialiste altermondialiste",
-        "color": "#C10F3D",
-        "keyword": "Altermondialisme",
-        "parties": []
-      },
-      {
-        "name": "Écologiste",
-        "color": "#80C34E",
-        "keyword": "Écologie politique",
-        "parties": []
-      },
-      {
         "name": "Social-démocrate",
+        "name_en": "Social Democrat",
         "name_de": "Sozialdemokrat",
-        "name_en": "Social democrat",
         "color": "#F40E39",
         "keyword": "Social-démocratie",
         "parties": [
           {
             "name": "SPD",
             "full_name": "Parti social-démocrate d'Allemagne",
+            "full_name_en": "Social Democratic Party of Germany",
             "full_name_de": "Sozialdemokratische Partei Deutschlands",
-            "full_name_en": "Social Democratic Party of Germany"
+            "keyword": "Parti social-démocrate d'Allemagne"
           }
         ]
-      },
-      {
-        "name": "Socialiste possibiliste",
-        "color": "#FF0E3A",
-        "keyword": "Possibilisme (politique)",
-        "parties": []
-      },
-      {
-        "name": "Socialiste-libéral",
-        "color": "#FF3B64",
-        "keyword": "Social-libéralisme",
-        "parties": []
-      },
-      {
-        "name": "Souverainisme social",
-        "color": "#FF3B64",
-        "keyword": "Jean-Pierre Chevènement #Souverainisme",
-        "parties": []
-      },
-      {
-        "name": "Sans-culotte",
-        "color": "#C10F3D",
-        "keyword": "Sans-culottes",
-        "parties": []
-      },
-      {
-        "name": "Républicain jacobin",
-        "color": "#FF3057",
-        "keyword": "Jacobinisme",
-        "parties": []
-      },
-      {
-        "name": "Radical de gauche",
-        "color": "#FF5879",
-        "keyword": "Radicalisme #En France",
-        "parties": []
-      },
-      {
-        "name": "Divers gauche",
-        "color": "#FF718B",
-        "keyword": "Divers gauche",
-        "parties": []
-      }
-    ]
-  },
-  {
-    "name": "Centre",
-    "color": "#FFBC5D",
-    "currents": [
-      {
-        "name": "Chrétien-social",
-        "color": "#FFDD8F",
-        "keyword": "Catholicisme social",
-        "parties": []
-      },
-      {
-        "name": "Centre démocrate-chrétien",
-        "color": "#FED264",
-        "keyword": "Démocratie chrétienne",
-        "parties": []
-      },
-      {
-        "name": "Radical-centriste",
-        "color": "#FFBC5D",
-        "keyword": "Radicalisme",
-        "parties": []
-      },
-      {
-        "name": "Extrême centre",
-        "color": "#FBC408",
-        "keyword": "Extrême centre",
-        "parties": []
-      },
-      {
-        "name": "Centre droit",
-        "color": "#FFA500",
-        "keyword": "Centre droit",
-        "parties": []
       }
     ]
   },
   {
     "name": "Droite",
+    "name_en": "Right",
+    "name_de": "Rechts",
     "color": "#33ADFF",
     "currents": [
       {
-        "name": "Divers droite",
-        "color": "#89D9FE",
-        "keyword": "Divers droite",
-        "parties": []
-      },
-      {
-        "name": "Radical de droite",
-        "color": "#96D2FF",
-        "keyword": "Radicalisme",
-        "parties": []
-      },
-      {
         "name": "Libéral-conservateur",
-        "name_de": "Liberal-konservativ",
         "name_en": "Liberal-conservative",
+        "name_de": "Liberal-konservativ",
         "color": "#70C2FF",
         "keyword": "libéral-conservatisme",
         "parties": [
           {
             "name": "FDP",
             "full_name": "Parti libéral-démocrate",
-            "full_name_de": "Freie Demokratische Partei",
             "full_name_en": "Free Democratic Party",
+            "full_name_de": "Freie Demokratische Partei",
             "keyword": "Parti libéral-démocrate (Allemagne)"
           }
         ]
       },
       {
         "name": "Conservateur",
-        "name_de": "Konservativ",
         "name_en": "Conservative",
+        "name_de": "Konservativ",
         "color": "#33ADFF",
         "keyword": "Conservatisme",
         "parties": [
@@ -209,40 +81,14 @@
   },
   {
     "name": "Extrême droite",
+    "name_en": "Far right",
+    "name_de": "Ganz rechts",
     "color": "#BE9E87",
     "currents": [
       {
-        "name": "Agrariste",
-        "color": "#55A696",
-        "keyword": "Agrarisme",
-        "parties": []
-      },
-      {
-        "name": "Droite Ciottiste",
-        "color": "#3989DB",
-        "keyword": "Éric Ciotti",
-        "parties": []
-      },
-      {
-        "name": "Populiste souverainiste",
-        "color": "#8024AB",
-        "keyword": "Souverainisme",
-        "parties": []
-      },
-      {
-        "name": "National-conservateur",
-        "color": "#49297A",
-        "keyword": "National-conservatisme",
-        "parties": []
-      },
-      {
-        "name": "Poujadiste",
-        "color": "#A24A9A",
-        "keyword": "Poujadisme",
-        "parties": []
-      },
-      {
         "name": "National-populiste",
+        "name_en": "National-populist",
+        "name_de": "Nationalpopulistisch",
         "color": "#BE9E87",
         "keyword": "National-populisme",
         "parties": [
@@ -254,77 +100,6 @@
             "keyword": "Union de la reconstruction économique"
           }
         ]
-      },
-      {
-        "name": "Nationaliste",
-        "color": "#B18C70",
-        "keyword": "Nationalisme",
-        "parties": []
-      },
-      {
-        "name": "Nationaliste antisémite/pétainiste",
-        "color": "#91735C",
-        "keyword": "Antisémitisme #Antisémitisme politique",
-        "parties": []
-      }
-    ]
-  },
-  {
-    "name": "Monarchisme",
-    "color": "#4599E0",
-    "currents": [
-      {
-        "name": "Orléaniste fusionniste",
-        "color": "#924EAE",
-        "keyword": "Orléanisme",
-        "parties": []
-      },
-      {
-        "name": "Orléaniste pur",
-        "color": "#924EAE",
-        "keyword": "Orléanisme",
-        "parties": []
-      },
-      {
-        "name": "Monarchiste",
-        "color": "#4599E0",
-        "keyword": "Monarchisme",
-        "parties": []
-      },
-      {
-        "name": "Monarchiste absolutiste",
-        "color": "#2C61A1",
-        "keyword": "Absolutisme",
-        "parties": []
-      },
-      {
-        "name": "Bonapartiste indépendant",
-        "color": "#60B17B",
-        "keyword": "Bonapartisme",
-        "parties": []
-      },
-      {
-        "name": "Bonapartiste",
-        "color": "#169547",
-        "keyword": "Bonapartisme",
-        "parties": []
-      }
-    ]
-  },
-  {
-    "name": "Autres",
-    "color": "#CDCCCD",
-    "currents": [
-      {
-        "name": "Autres",
-        "color": "#CDCCCD",
-        "keyword": "Non-inscrit à l'Assemblée nationale",
-        "parties": []
-      },
-      {
-        "name": "Indépendant d'Algérie",
-        "color": "#DAD9DA",
-        "parties": []
       }
     ]
   }

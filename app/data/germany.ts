@@ -1,4 +1,4 @@
-import eventsData from "@/public/data/france/events.json";
+import eventsData from "@/public/data/germany/events.json";
 import familiesData from "@/public/data/germany/families.json";
 import infosData from "@/public/data/france/infos.json";
 import regimesData from "@/public/data/germany/regimes.json";
