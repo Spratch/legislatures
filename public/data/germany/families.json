@@ -22,9 +22,48 @@
         ]
       },
       {
-        "name": "Social-démocrate",
-        "name_en": "Social Democrat",
-        "name_de": "Sozialdemokrat",
+        "name": "Socialiste démocratique",
+        "name_en": "Democratic socialist",
+        "name_de": "Demokratischer Sozialist",
+        "color": "#C10F3D",
+        "keyword": "Socialisme démocratique",
+        "parties": [
+          {
+            "name": "PDS",
+            "full_name": "Parti du socialisme démocratique",
+            "full_name_en": "Party of Democratic Socialism",
+            "full_name_de": "Partei des Demokratischen Sozialismus",
+            "keyword": "Parti du socialisme démocratique (Allemagne)"
+          },
+          {
+            "name": "DL",
+            "full_name": "La gauche",
+            "full_name_en": "The left",
+            "full_name_de": "Die Linke",
+            "keyword": "Die Linke"
+          }
+        ]
+      },
+      {
+        "name": "Écologiste",
+        "name_en": "Ecologist",
+        "name_de": "Ökologe",
+        "color": "#80C34E",
+        "keyword": "Écologie politique",
+        "parties": [
+          {
+            "name": "Gr",
+            "full_name": "Les Verts",
+            "full_name_en": "The Greens",
+            "full_name_de": "Die Grünen",
+            "keyword": "Alliance 90/Les Verts"
+          }
+        ]
+      },
+      {
+        "name": "Social-libéral",
+        "name_en": "Social liberal",
+        "name_de": "Sozialliberaler",
         "color": "#F40E39",
         "keyword": "Social-démocratie",
         "parties": [
@@ -119,25 +158,9 @@
           {
             "name": "FDP",
             "full_name": "Parti libéral-démocrate",
-            "full_name_en": "Liberal Democratic Party",
-            "full_name_de": "Liberaldemokratische Partei",
+            "full_name_en": "Free Democratic Party",
+            "full_name_de": "Freie Demokratische Partei",
             "keyword": "Parti libéral-démocrate (Allemagne)"
-          }
-        ]
-      },
-      {
-        "name": "Conservateur",
-        "name_en": "Conservative",
-        "name_de": "Konservativ",
-        "color": "#33ADFF",
-        "keyword": "Conservatisme",
-        "parties": [
-          {
-            "name": "CDU/CSU",
-            "full_name": "Union chrétienne-démocrate d'Allemagne/Union chrétienne-sociale en Bavière",
-            "full_name_en": "Christian Democratic Union of Germany/Christian Social Union in Bavaria",
-            "full_name_de": "Christlich-Demokratische Union Deutschlands/Christlich-Soziale Union in Bayern",
-            "keyword": "CDU/CSU"
           }
         ]
       },
@@ -145,7 +168,7 @@
         "name": "National-libéralisme",
         "name_en": "National-liberalism",
         "name_de": "Nationalliberalismus",
-        "color": "#70C2FF",
+        "color": "#33ADFF",
         "keyword": "National-libéralisme",
         "parties": [
           {
@@ -154,6 +177,22 @@
             "full_name_en": "German Party",
             "full_name_de": "Deutsche Partei",
             "keyword": "Parti allemand"
+          }
+        ]
+      },
+      {
+        "name": "Conservateur",
+        "name_en": "Conservative",
+        "name_de": "Konservativ",
+        "color": "#4599E0",
+        "keyword": "Conservatisme",
+        "parties": [
+          {
+            "name": "CDU/CSU",
+            "full_name": "Union chrétienne-démocrate d'Allemagne/Union chrétienne-sociale en Bavière",
+            "full_name_en": "Christian Democratic Union of Germany/Christian Social Union in Bavaria",
+            "full_name_de": "Christlich-Demokratische Union Deutschlands/Christlich-Soziale Union in Bayern",
+            "keyword": "CDU/CSU"
           }
         ]
       },
