@@ -21,19 +21,31 @@
             "deputes": 131
           },
           {
-            "name": "CDU/CSU",
-            "deputes": 139
+            "name": "Autres",
+            "deputes": 3
+          },
+          {
+            "name": "SSW",
+            "deputes": 1
+          },
+          {
+            "name": "DZP",
+            "deputes": 10
           },
           {
             "name": "FDP",
             "deputes": 52
           },
           {
-            "name": "BP",
-            "deputes": 17
+            "name": "CDU/CSU",
+            "deputes": 139
           },
           {
             "name": "DP",
+            "deputes": 17
+          },
+          {
+            "name": "BP",
             "deputes": 17
           },
           {
@@ -41,20 +53,12 @@
             "deputes": 12
           },
           {
-            "name": "DZP",
-            "deputes": 10
-          },
-          {
-            "name": "DRP",
+            "name": "DKP-DRP",
             "deputes": 5
           },
           {
-            "name": "SSW",
-            "deputes": 1
-          },
-          {
-            "name": "Autres",
-            "deputes": 3
+            "name": "GB/BHE",
+            "deputes": 0
           }
         ],
         "source": [
@@ -77,20 +81,40 @@
             "deputes": 151
           },
           {
-            "name": "CDU/CSU",
-            "deputes": 243
+            "name": "Autres",
+            "deputes": 0
+          },
+          {
+            "name": "SSW",
+            "deputes": 0
+          },
+          {
+            "name": "DZP",
+            "deputes": 3
           },
           {
             "name": "FDP",
             "deputes": 48
           },
           {
+            "name": "CDU/CSU",
+            "deputes": 243
+          },
+          {
             "name": "DP",
             "deputes": 15
           },
           {
-            "name": "DZP",
-            "deputes": 3
+            "name": "BP",
+            "deputes": 0
+          },
+          {
+            "name": "WAV",
+            "deputes": 0
+          },
+          {
+            "name": "DKP-DRP",
+            "deputes": 0
           },
           {
             "name": "GB/BHE",
