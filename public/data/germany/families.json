@@ -36,6 +36,13 @@
             "keyword": "Parti du socialisme démocratique (Allemagne)"
           },
           {
+            "name": "DL.PDS",
+            "full_name": "La gauche.PDS",
+            "full_name_en": "The left.PDS",
+            "full_name_de": "Die Linke.PDS",
+            "keyword": "Parti du socialisme démocratique (Allemagne)"
+          },
+          {
             "name": "DL",
             "full_name": "La gauche",
             "full_name_en": "The left",
@@ -233,6 +240,13 @@
             "full_name_en": "Economic Reconstruction Union",
             "full_name_de": "Union für den wirtschaftlichen Wiederaufbau",
             "keyword": "Union de la reconstruction économique"
+          },
+          {
+            "name": "AfD",
+            "full_name": "Alternative pour l'Allemagne",
+            "full_name_en": "Alternative for Germany",
+            "full_name_de": "Alternative für Deutschland",
+            "keyword": "Alternative pour l'Allemagne"
           }
         ]
       },

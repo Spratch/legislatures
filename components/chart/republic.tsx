@@ -139,7 +139,7 @@ export default function Republic({
               axisLeftPosition={axisLeftPosition}
               isNextRep={
                 leg.index === legislaturesWithIndexes.length - 1 &&
-                leg.legislature !== 2024
+                leg.end !== "now"
               }
             />
           );
