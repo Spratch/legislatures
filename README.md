@@ -1,15 +1,15 @@
-# French Legislatures Visualization
+# Legislatures Visualization
 
-An interactive visualization tool tracking the composition and evolution of French legislative assemblies through time.
+An interactive visualization tool tracking the composition and evolution of some countries legislative assemblies through time.
 [See it live.](https://legislatures.vercel.app/)
 
 ## Overview
 
-This project aims to provide a clear and interactive visualization of how French legislative assemblies have evolved, showing political parties, coalitions, and their relative strength over different periods.
+This project aims to provide a clear and interactive visualization of how legislative assemblies have evolved, showing political parties, coalitions, and their relative strength over different periods.
 
 ## Features
 
-- Interactive timeline of French legislatures
+- Interactive timeline of legislatures
 - Political party visualization with proportional representation
 - Contextual timeline aside the main visualization
 - Detailed information about parties and political movements
