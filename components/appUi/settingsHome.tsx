@@ -18,7 +18,7 @@ export default function HomeSettingsLine({
   setSelectorOpen,
   setLanguage
 }: Props) {
-  const dict = useDictionary().settingsLine;
+  const dict = useDictionary().infosModal;
   return (
     <section className="w-full p-2 flex items-end max-w-screen-3xl mx-auto">
       <div className="w-full flex justify-center gap-2">

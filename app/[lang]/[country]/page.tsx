@@ -47,9 +47,6 @@ export default function HomePage() {
         setCoalitionsVisibility={(newValue) =>
           setCoalitionsVisibility(newValue)
         }
-        isSelectorOpen={isSelectorOpen}
-        setSelectorOpen={(newValue) => setSelectorOpen(newValue)}
-        setLanguage={(lang) => setLanguage(lang)}
       />
 
       <Main
@@ -63,7 +60,12 @@ export default function HomePage() {
       <FiltersLine families={families} />
 
       {infosVisibility && (
-        <InfosModal setInfosVisibility={setInfosVisibility} />
+        <InfosModal
+          setInfosVisibility={setInfosVisibility}
+          isSelectorOpen={isSelectorOpen}
+          setSelectorOpen={(newValue) => setSelectorOpen(newValue)}
+          setLanguage={(lang) => setLanguage(lang)}
+        />
       )}
     </>
   );

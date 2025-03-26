@@ -16,7 +16,6 @@
     "hideCoalitions": "Hide coalitions",
     "showCoalitions": "Show coalitions",
     "home": "Home",
-    "changeLang": "Change language",
     "informations": "Informations",
     "decreaseSize": "Decrease graph size",
     "increaseSize": "Increase graph size",
@@ -83,6 +82,7 @@
   },
   "infosModal": {
     "github": "Contribute on GitHub",
-    "close": "Close modal"
+    "close": "Close modal",
+    "changeLang": "Change language"
   }
 }

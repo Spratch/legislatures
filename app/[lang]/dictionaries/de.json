@@ -16,7 +16,6 @@
     "hideCoalitions": "Koalitionen ausblenden",
     "showCoalitions": "Koalitionen anzeigen",
     "home": "Startseite",
-    "changeLang": "Sprache ändern",
     "informations": "Informationen",
     "decreaseSize": "Größe verringern",
     "increaseSize": "Größe erhöhen",
@@ -83,6 +82,7 @@
   },
   "infosModal": {
     "github": "Auf GitHub beitragen",
-    "close": "Modal schließen"
+    "close": "Modal schließen",
+    "changeLang": "Sprache ändern"
   }
 }
