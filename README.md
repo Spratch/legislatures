@@ -97,30 +97,34 @@ There are multiple data files, which contain multiple data types:
 
 ```
 legislatures/
-└── public/data/
+└── public/data/[country]
     ├── events.json             # List of historical events (avoid more than one per year)
     │
-    ├── republics.json          # List of regimes
+    ├── regimes.json            # List of regimes
     │   └── legislatures        # List of regime legislatures
     │       └── parties         # List of parties elected during this legislature
     │
-    └── currents.json           # List of political currents families
-        └── currents            # List of political currents associated with this family
-            └── parties         # List of parties associated with this current
+    └── families.json           # List of political currents families
+    │   └── currents            # List of political currents associated with this family
+    │       └── parties         # List of parties associated with this current
+    │
+    └── infos.json              # Content for the info modal
 ```
 
-Parties are both in `republics.json` and `currents.json` using the same id (`name`).
-In `republics.json`, give the id (`name`), and the temporary datas:
+Parties are both in `regimes.json` and `families.json` using the same id (`name`).
+In `regimes.json`, give the id (`name`), and the temporary datas:
 
 - Number of deputies
 - If the party is part of a coalition, name it
 
-In `currents.json`, the id (`name`) associate the party with a current and its datas, but also with the party untemporal datas:
+In `families.json`, the id (`name`) associate the party with a current and its datas, but also with the party untemporal datas:
 
 - Full name
 - Keyword (Wikipedia article name)
 
 Each entity requires specific mandatory fields (refer to TypeScript types).
+
+For `infos.json`, use [Portable Text](https://www.portabletext.org/) to get json for each section part and for each translation.
 
 ## Accessibility
 
