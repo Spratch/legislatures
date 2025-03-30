@@ -23,6 +23,7 @@ type Props = {
   setTransitionsVisibility: (transitionsVisibility: boolean) => void;
   coalitionsVisibility: boolean;
   setCoalitionsVisibility: (coalitionsVisibility: boolean) => void;
+  showCoalitionsButton: boolean;
 };
 
 export default function SettingsLine({
@@ -34,7 +35,8 @@ export default function SettingsLine({
   transitionsVisibility,
   setTransitionsVisibility,
   coalitionsVisibility,
-  setCoalitionsVisibility
+  setCoalitionsVisibility,
+  showCoalitionsButton
 }: Props) {
   const dict = useDictionary().settingsLine;
   const router = useRouter();
@@ -67,15 +69,17 @@ export default function SettingsLine({
           />
 
           {/* Coalitions button */}
-          <SettingsButton
-            Icon={coalitionsVisibility ? PaddingIcon : MarginIcon}
-            onClick={() => setCoalitionsVisibility(!coalitionsVisibility)}
-            label={
-              coalitionsVisibility ? dict.hideCoalitions : dict.showCoalitions
-            }
-            position={{ x: "left", y: "top" }}
-            kbd="c"
-          />
+          {showCoalitionsButton && (
+            <SettingsButton
+              Icon={coalitionsVisibility ? PaddingIcon : MarginIcon}
+              onClick={() => setCoalitionsVisibility(!coalitionsVisibility)}
+              label={
+                coalitionsVisibility ? dict.hideCoalitions : dict.showCoalitions
+              }
+              position={{ x: "left", y: "top" }}
+              kbd="c"
+            />
+          )}
         </div>
 
         {/* Center */}

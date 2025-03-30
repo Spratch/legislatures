@@ -31,6 +31,12 @@ export default function HomePage() {
     router.replace(newPath, { scroll: false });
   };
 
+  const showCoalitionsButton = regimes.some((regime) =>
+    regime.legislatures.some((legislature) =>
+      legislature.parties.some((party) => party.coalition)
+    )
+  );
+
   return (
     <>
       <SettingsLine
@@ -47,6 +53,7 @@ export default function HomePage() {
         setCoalitionsVisibility={(newValue) =>
           setCoalitionsVisibility(newValue)
         }
+        showCoalitionsButton={showCoalitionsButton}
       />
 
       <Main
