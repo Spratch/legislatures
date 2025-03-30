@@ -76,7 +76,7 @@ export default function InfosModal({
             <SettingsButton
               Icon={EarthGlobeIcon}
               label={dict.changeLang}
-              position={{ x: "left", y: "top" }}
+              position={{ x: "right", y: "top" }}
               onClick={() => setSelectorOpen(true)}
               kbd="l"
             />

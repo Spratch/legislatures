@@ -33,7 +33,7 @@ This project aims to provide a clear and interactive visualization of how legisl
 ```
 legislatures/
 ├── app/                   # Next.js app directory
-│   └── api/               # Wikipédia api service
+│   └── api/               # Wikipedia api service
 ├── components/
 │   ├── appUi/             # UI components
 │   ├── chart/             # Visualization components
@@ -118,7 +118,7 @@ In `republics.json`, give the id (`name`), and the temporary datas:
 In `currents.json`, the id (`name`) associate the party with a current and its datas, but also with the party untemporal datas:
 
 - Full name
-- Keyword (Wikipédia article name)
+- Keyword (Wikipedia article name)
 
 Each entity requires specific mandatory fields (refer to TypeScript types).
 
