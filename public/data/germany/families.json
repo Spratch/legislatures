@@ -1,0 +1,287 @@
+[
+  {
+    "name": "Gauche",
+    "name_en": "Left",
+    "name_de": "Linke",
+    "color": "#FF0E3A",
+    "currents": [
+      {
+        "name": "Communiste",
+        "name_en": "Communist",
+        "name_de": "Kommunist",
+        "color": "#A40C34",
+        "keyword": "Communisme",
+        "parties": [
+          {
+            "name": "KPD",
+            "full_name": "Parti communiste d'Allemagne",
+            "full_name_en": "Communist Party of Germany",
+            "full_name_de": "Kommunistische Partei Deutschlands",
+            "keyword": "Parti communiste d'Allemagne"
+          }
+        ]
+      },
+      {
+        "name": "Socialiste démocratique",
+        "name_en": "Democratic socialist",
+        "name_de": "Demokratischer Sozialist",
+        "color": "#C10F3D",
+        "keyword": "Socialisme démocratique",
+        "parties": [
+          {
+            "name": "PDS",
+            "full_name": "Parti du socialisme démocratique",
+            "full_name_en": "Party of Democratic Socialism",
+            "full_name_de": "Partei des Demokratischen Sozialismus",
+            "keyword": "Parti du socialisme démocratique (Allemagne)"
+          },
+          {
+            "name": "DL.PDS",
+            "full_name": "La gauche.PDS",
+            "full_name_en": "The left.PDS",
+            "full_name_de": "Die Linke.PDS",
+            "keyword": "Parti du socialisme démocratique (Allemagne)"
+          },
+          {
+            "name": "DL",
+            "full_name": "La gauche",
+            "full_name_en": "The left",
+            "full_name_de": "Die Linke",
+            "keyword": "Die Linke"
+          }
+        ]
+      },
+      {
+        "name": "Écologiste",
+        "name_en": "Ecologist",
+        "name_de": "Ökologe",
+        "color": "#80C34E",
+        "keyword": "Écologie politique",
+        "parties": [
+          {
+            "name": "Gr",
+            "full_name": "Les Verts",
+            "full_name_en": "The Greens",
+            "full_name_de": "Die Grünen",
+            "keyword": "Alliance 90/Les Verts"
+          }
+        ]
+      },
+      {
+        "name": "Social-démocrate",
+        "name_en": "Social democrat",
+        "name_de": "Sozialdemokrat",
+        "color": "#F40E39",
+        "keyword": "Social-démocratie",
+        "parties": [
+          {
+            "name": "SPD",
+            "full_name": "Parti social-démocrate d'Allemagne",
+            "full_name_en": "Social Democratic Party of Germany",
+            "full_name_de": "Sozialdemokratische Partei Deutschlands",
+            "keyword": "Parti social-démocrate d'Allemagne"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Autres",
+    "name_en": "Others",
+    "name_de": "Andere",
+    "color": "#CDCCCD",
+    "currents": [
+      {
+        "name": "Autres",
+        "name_en": "Others",
+        "name_de": "Andere",
+        "color": "#CDCCCD",
+        "keyword": "Indépendant (politique)",
+        "parties": [
+          {
+            "name": "Autres",
+            "full_name": "Autres",
+            "full_name_en": "Others",
+            "full_name_de": "Andere",
+            "keyword": "Indépendant (politique)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Centre",
+    "name_en": "Centre",
+    "name_de": "Mitte",
+    "color": "#FFBC5D",
+    "currents": [
+      {
+        "name": "Minorité danoise",
+        "name_en": "Danish minority",
+        "name_de": "Dänische Minderheit",
+        "color": "#FECD05",
+        "keyword": "Danois d'Allemagne",
+        "parties": [
+          {
+            "name": "SSW",
+            "full_name": "Fédération des électeurs du Schleswig du Sud",
+            "full_name_en": "Federation of Voters of South Schleswig",
+            "full_name_de": "Wählerbund Südschleswig",
+            "keyword": "Fédération des électeurs du Schleswig du Sud"
+          }
+        ]
+      },
+      {
+        "name": "Démocratie chrétienne",
+        "name_en": "Christian democracy",
+        "name_de": "Christliche Demokratie",
+        "color": "#FED264",
+        "keyword": "Démocratie chrétienne",
+        "parties": [
+          {
+            "name": "DZP",
+            "full_name": "Parti du centre allemand",
+            "full_name_en": "German Center Party",
+            "full_name_de": "Deutsche Zentrumspartei",
+            "keyword": "Zentrum"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Droite",
+    "name_en": "Right",
+    "name_de": "Rechts",
+    "color": "#33ADFF",
+    "currents": [
+      {
+        "name": "Libéral-conservateur",
+        "name_en": "Liberal-conservative",
+        "name_de": "Liberal-konservativ",
+        "color": "#70C2FF",
+        "keyword": "libéral-conservatisme",
+        "parties": [
+          {
+            "name": "FDP",
+            "full_name": "Parti libéral-démocrate",
+            "full_name_en": "Free Democratic Party",
+            "full_name_de": "Freie Demokratische Partei",
+            "keyword": "Parti libéral-démocrate (Allemagne)"
+          }
+        ]
+      },
+      {
+        "name": "National-libéralisme",
+        "name_en": "National-liberalism",
+        "name_de": "Nationalliberalismus",
+        "color": "#33ADFF",
+        "keyword": "National-libéralisme",
+        "parties": [
+          {
+            "name": "DP",
+            "full_name": "Parti allemand",
+            "full_name_en": "German Party",
+            "full_name_de": "Deutsche Partei",
+            "keyword": "Parti allemand"
+          }
+        ]
+      },
+      {
+        "name": "Conservateur",
+        "name_en": "Conservative",
+        "name_de": "Konservativ",
+        "color": "#4599E0",
+        "keyword": "Conservatisme",
+        "parties": [
+          {
+            "name": "CDU/CSU",
+            "full_name": "Union chrétienne-démocrate d'Allemagne/Union chrétienne-sociale en Bavière",
+            "full_name_en": "Christian Democratic Union of Germany/Christian Social Union in Bavaria",
+            "full_name_de": "Christlich-Demokratische Union Deutschlands/Christlich-Soziale Union in Bayern",
+            "keyword": "CDU/CSU"
+          }
+        ]
+      },
+      {
+        "name": "Indépendentiste bavarois",
+        "name_en": "Bavarian independence activist",
+        "name_de": "Bayerischer Unabhängigkeitsaktivist",
+        "color": "#96D2FF",
+        "keyword": "Indépendantisme",
+        "parties": [
+          {
+            "name": "BP",
+            "full_name": "Parti bavarois",
+            "full_name_en": "Bavarian Party",
+            "full_name_de": "Bayernpartei",
+            "keyword": "Parti bavarois"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Extrême droite",
+    "name_en": "Far right",
+    "name_de": "Ganz rechts",
+    "color": "#BE9E87",
+    "currents": [
+      {
+        "name": "National-populiste",
+        "name_en": "National-populist",
+        "name_de": "Nationalpopulistisch",
+        "color": "#BE9E87",
+        "keyword": "National-populisme",
+        "parties": [
+          {
+            "name": "WAV",
+            "full_name": "Union de la reconstruction économique",
+            "full_name_en": "Economic Reconstruction Union",
+            "full_name_de": "Union für den wirtschaftlichen Wiederaufbau",
+            "keyword": "Union de la reconstruction économique"
+          },
+          {
+            "name": "AfD",
+            "full_name": "Alternative pour l'Allemagne",
+            "full_name_en": "Alternative for Germany",
+            "full_name_de": "Alternative für Deutschland",
+            "keyword": "Alternative pour l'Allemagne"
+          }
+        ]
+      },
+      {
+        "name": "National-conservatisme",
+        "name_en": "National-conservatism",
+        "name_de": "Nationalkonservatismus",
+        "color": "#49297A",
+        "keyword": "National-conservatisme",
+        "parties": [
+          {
+            "name": "GB/BHE",
+            "full_name": "Bloc pan-allemand/Fédérations des réfugiés et des expulsés",
+            "full_name_en": "All-German Bloc/Federations of Refugees and Expellees",
+            "full_name_de": "Gesamtdeutscher Block/Bünde der Flüchtlinge und Vertriebenen",
+            "keyword": "Bloc des réfugiés"
+          }
+        ]
+      },
+      {
+        "name": "Nationalisme prussien",
+        "name_en": "Prussian nationalism",
+        "name_de": "Preußischer Nationalismus",
+        "color": "#B18C70",
+        "keyword": "Pangermanisme",
+        "parties": [
+          {
+            "name": "DKP-DRP",
+            "full_name": "Parti conservateur allemand - Parti allemand de droite",
+            "full_name_en": "German Conservative Party - Right-wing German Party",
+            "full_name_de": "Deutsche Konservative Partei – rechte deutsche Partei",
+            "keyword": "Parti impérial allemand"
+          }
+        ]
+      }
+    ]
+  }
+]

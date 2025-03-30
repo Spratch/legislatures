@@ -8,12 +8,8 @@ import {
   PinLeftIcon,
   PlusIcon
 } from "@radix-ui/react-icons";
-import { EarthGlobeIcon } from "@sanity/icons";
 import SettingsButton from "./settingsButton";
 import { useDictionary } from "@/utils/contexts/dictionaryContext";
-import Link from "next/link";
-import { MenuTrigger } from "react-aria-components";
-import LangSelector from "./langSelector";
 import { LocaleEnum } from "@/types/langsEnum";
 import { useRouter } from "next/navigation";
 
@@ -27,9 +23,6 @@ type Props = {
   setTransitionsVisibility: (transitionsVisibility: boolean) => void;
   coalitionsVisibility: boolean;
   setCoalitionsVisibility: (coalitionsVisibility: boolean) => void;
-  isSelectorOpen: boolean;
-  setSelectorOpen: (selectorOpen: boolean) => void;
-  setLanguage: (lang: keyof typeof LocaleEnum) => void;
 };
 
 export default function SettingsLine({
@@ -41,10 +34,7 @@ export default function SettingsLine({
   transitionsVisibility,
   setTransitionsVisibility,
   coalitionsVisibility,
-  setCoalitionsVisibility,
-  isSelectorOpen,
-  setSelectorOpen,
-  setLanguage
+  setCoalitionsVisibility
 }: Props) {
   const dict = useDictionary().settingsLine;
   const router = useRouter();
@@ -90,20 +80,6 @@ export default function SettingsLine({
 
         {/* Center */}
         <div className="flex gap-1 sm:gap-1.5 items-center justify-center absolute left-0 right-0 pointer-events-none">
-          {/* Lang button */}
-          <MenuTrigger
-            isOpen={isSelectorOpen}
-            onOpenChange={setSelectorOpen}
-          >
-            <SettingsButton
-              Icon={EarthGlobeIcon}
-              label={dict.changeLang}
-              position={{ x: "left", y: "top" }}
-              onClick={() => setSelectorOpen(!isSelectorOpen)}
-              kbd="l"
-            />
-            <LangSelector setLanguage={setLanguage} />
-          </MenuTrigger>
           {/* Home button */}
           <SettingsButton
             Icon={HomeIcon}

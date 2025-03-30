@@ -1,6 +1,8 @@
 {
   "locale": { "lang": "de" },
   "home": {
+    "next": "Nächster",
+    "previous": "Vorheriger",
     "title_france": "Frankreich",
     "description_france": "Ab 1791",
     "title_germany": "Deutschland",
@@ -14,7 +16,6 @@
     "hideCoalitions": "Koalitionen ausblenden",
     "showCoalitions": "Koalitionen anzeigen",
     "home": "Startseite",
-    "changeLang": "Sprache ändern",
     "informations": "Informationen",
     "decreaseSize": "Größe verringern",
     "increaseSize": "Größe erhöhen",
@@ -81,6 +82,7 @@
   },
   "infosModal": {
     "github": "Auf GitHub beitragen",
-    "close": "Modal schließen"
+    "close": "Modal schließen",
+    "changeLang": "Sprache ändern"
   }
 }

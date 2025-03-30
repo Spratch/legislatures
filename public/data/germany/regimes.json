@@ -1,0 +1,719 @@
+[
+  {
+    "name": "République féderale",
+    "name_de": "Bundesrepublik",
+    "name_en": "Federal Republic",
+    "begin": "1949-05-23",
+    "legislatures": [
+      {
+        "legislature": 1949,
+        "total_deputes": 402,
+        "duration": 4,
+        "begin": "1949-09-07",
+        "end": "1953-09-07",
+        "parties": [
+          {
+            "name": "KPD",
+            "deputes": 15
+          },
+          {
+            "name": "SPD",
+            "deputes": 131
+          },
+          {
+            "name": "Autres",
+            "deputes": 3
+          },
+          {
+            "name": "SSW",
+            "deputes": 1
+          },
+          {
+            "name": "DZP",
+            "deputes": 10
+          },
+          {
+            "name": "FDP",
+            "deputes": 52
+          },
+          {
+            "name": "DP",
+            "deputes": 17
+          },
+          {
+            "name": "CDU/CSU",
+            "deputes": 139
+          },
+          {
+            "name": "BP",
+            "deputes": 17
+          },
+          {
+            "name": "WAV",
+            "deputes": 12
+          },
+          {
+            "name": "DKP-DRP",
+            "deputes": 5
+          },
+          {
+            "name": "GB/BHE",
+            "deputes": 0
+          }
+        ],
+        "source": [
+          "https://germanhistorydocs.org/en/a-new-germany-1990-2023/distribution-of-seats-in-the-bundestag-1949-2017#note-5"
+        ]
+      },
+      {
+        "legislature": 1953,
+        "total_deputes": 487,
+        "duration": 4,
+        "begin": "1953-10-06",
+        "end": "1957-10-06",
+        "parties": [
+          {
+            "name": "KPD",
+            "deputes": 0
+          },
+          {
+            "name": "SPD",
+            "deputes": 151
+          },
+          {
+            "name": "Autres",
+            "deputes": 0
+          },
+          {
+            "name": "SSW",
+            "deputes": 0
+          },
+          {
+            "name": "DZP",
+            "deputes": 3
+          },
+          {
+            "name": "FDP",
+            "deputes": 48
+          },
+          {
+            "name": "DP",
+            "deputes": 15
+          },
+          {
+            "name": "CDU/CSU",
+            "deputes": 243
+          },
+          {
+            "name": "BP",
+            "deputes": 0
+          },
+          {
+            "name": "WAV",
+            "deputes": 0
+          },
+          {
+            "name": "DKP-DRP",
+            "deputes": 0
+          },
+          {
+            "name": "GB/BHE",
+            "deputes": 27
+          }
+        ],
+        "source": [
+          "https://germanhistorydocs.org/en/a-new-germany-1990-2023/distribution-of-seats-in-the-bundestag-1949-2017#note-5",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_f%C3%A9d%C3%A9rales_ouest-allemandes_de_1953"
+        ]
+      },
+      {
+        "legislature": 1957,
+        "total_deputes": 497,
+        "duration": 4,
+        "begin": "1957-10-15",
+        "end": "1961-10-15",
+        "parties": [
+          {
+            "name": "SPD",
+            "deputes": 169
+          },
+          {
+            "name": "DZP",
+            "deputes": 0
+          },
+          {
+            "name": "FDP",
+            "deputes": 41
+          },
+          {
+            "name": "DP",
+            "deputes": 17
+          },
+          {
+            "name": "CDU/CSU",
+            "deputes": 270
+          },
+          {
+            "name": "GB/BHE",
+            "deputes": 0
+          }
+        ],
+        "source": [
+          "https://germanhistorydocs.org/en/a-new-germany-1990-2023/distribution-of-seats-in-the-bundestag-1949-2017#note-5",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_f%C3%A9d%C3%A9rales_ouest-allemandes_de_1953"
+        ]
+      },
+      {
+        "legislature": 1961,
+        "total_deputes": 499,
+        "duration": 4,
+        "begin": "1961-10-17",
+        "end": "1965-10-17",
+        "parties": [
+          {
+            "name": "SPD",
+            "deputes": 190
+          },
+          {
+            "name": "FDP",
+            "deputes": 67
+          },
+          {
+            "name": "DP",
+            "deputes": 0
+          },
+          {
+            "name": "CDU/CSU",
+            "deputes": 242
+          }
+        ],
+        "source": [
+          "https://germanhistorydocs.org/en/a-new-germany-1990-2023/distribution-of-seats-in-the-bundestag-1949-2017",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_f%C3%A9d%C3%A9rales_ouest-allemandes_de_1961"
+        ]
+      },
+      {
+        "legislature": 1965,
+        "total_deputes": 496,
+        "duration": 4,
+        "begin": "1965-10-19",
+        "end": "1969-10-19",
+        "parties": [
+          {
+            "name": "SPD",
+            "deputes": 202
+          },
+          {
+            "name": "FDP",
+            "deputes": 49
+          },
+          {
+            "name": "CDU/CSU",
+            "deputes": 245
+          }
+        ],
+        "source": [
+          "https://germanhistorydocs.org/en/a-new-germany-1990-2023/distribution-of-seats-in-the-bundestag-1949-2017"
+        ]
+      },
+      {
+        "legislature": 1969,
+        "total_deputes": 496,
+        "duration": 3,
+        "begin": "1969-10-20",
+        "end": "1972-12-13",
+        "parties": [
+          {
+            "name": "SPD",
+            "deputes": 224
+          },
+          {
+            "name": "FDP",
+            "deputes": 30
+          },
+          {
+            "name": "CDU/CSU",
+            "deputes": 242
+          }
+        ],
+        "source": [
+          "https://germanhistorydocs.org/en/a-new-germany-1990-2023/distribution-of-seats-in-the-bundestag-1949-2017"
+        ]
+      },
+      {
+        "legislature": 1972,
+        "total_deputes": 496,
+        "duration": 4,
+        "begin": "1972-12-13",
+        "end": "1976-12-13",
+        "parties": [
+          {
+            "name": "SPD",
+            "deputes": 230
+          },
+          {
+            "name": "FDP",
+            "deputes": 41
+          },
+          {
+            "name": "CDU/CSU",
+            "deputes": 225
+          }
+        ],
+        "source": [
+          "https://germanhistorydocs.org/en/a-new-germany-1990-2023/distribution-of-seats-in-the-bundestag-1949-2017"
+        ]
+      },
+      {
+        "legislature": 1976,
+        "total_deputes": 496,
+        "duration": 4,
+        "begin": "1976-12-14",
+        "end": "1980-11-04",
+        "parties": [
+          {
+            "name": "SPD",
+            "deputes": 214
+          },
+          {
+            "name": "FDP",
+            "deputes": 39
+          },
+          {
+            "name": "CDU/CSU",
+            "deputes": 243
+          }
+        ],
+        "source": [
+          "https://germanhistorydocs.org/en/a-new-germany-1990-2023/distribution-of-seats-in-the-bundestag-1949-2017"
+        ]
+      },
+      {
+        "legislature": 1980,
+        "total_deputes": 497,
+        "duration": 2,
+        "begin": "1980-11-04",
+        "end": "1983-03-29",
+        "parties": [
+          {
+            "name": "Gr",
+            "deputes": 0
+          },
+          {
+            "name": "SPD",
+            "deputes": 218
+          },
+          {
+            "name": "FDP",
+            "deputes": 53
+          },
+          {
+            "name": "CDU/CSU",
+            "deputes": 226
+          }
+        ],
+        "source": [
+          "https://germanhistorydocs.org/en/a-new-germany-1990-2023/distribution-of-seats-in-the-bundestag-1949-2017"
+        ]
+      },
+      {
+        "legislature": 1983,
+        "total_deputes": 498,
+        "duration": 4,
+        "begin": "1983-03-29",
+        "end": "1987-02-18",
+        "parties": [
+          {
+            "name": "Gr",
+            "deputes": 27
+          },
+          {
+            "name": "SPD",
+            "deputes": 193
+          },
+          {
+            "name": "FDP",
+            "deputes": 34
+          },
+          {
+            "name": "CDU/CSU",
+            "deputes": 244
+          }
+        ],
+        "source": [
+          "https://germanhistorydocs.org/en/a-new-germany-1990-2023/distribution-of-seats-in-the-bundestag-1949-2017",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_f%C3%A9d%C3%A9rales_ouest-allemandes_de_1983"
+        ]
+      },
+      {
+        "legislature": 1987,
+        "total_deputes": 497,
+        "duration": 4,
+        "begin": "1987-02-18",
+        "end": "1990-12-20",
+        "parties": [
+          {
+            "name": "PDS",
+            "deputes": 0
+          },
+          {
+            "name": "Gr",
+            "deputes": 42
+          },
+          {
+            "name": "SPD",
+            "deputes": 186
+          },
+          {
+            "name": "FDP",
+            "deputes": 46
+          },
+          {
+            "name": "CDU/CSU",
+            "deputes": 223
+          }
+        ],
+        "source": [
+          "https://germanhistorydocs.org/en/a-new-germany-1990-2023/distribution-of-seats-in-the-bundestag-1949-2017"
+        ]
+      },
+      {
+        "legislature": 1990,
+        "total_deputes": 662,
+        "duration": 4,
+        "begin": "1990-12-20",
+        "end": "1994-11-10",
+        "parties": [
+          {
+            "name": "PDS",
+            "deputes": 17
+          },
+          {
+            "name": "Gr",
+            "deputes": 8
+          },
+          {
+            "name": "SPD",
+            "deputes": 239
+          },
+          {
+            "name": "FDP",
+            "deputes": 79
+          },
+          {
+            "name": "CDU/CSU",
+            "deputes": 319
+          }
+        ],
+        "source": [
+          "https://germanhistorydocs.org/en/a-new-germany-1990-2023/distribution-of-seats-in-the-bundestag-1949-2017",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_f%C3%A9d%C3%A9rales_allemandes_de_1990"
+        ]
+      },
+      {
+        "legislature": 1994,
+        "total_deputes": 672,
+        "duration": 4,
+        "begin": "1994-11-10",
+        "end": "1998-10-26",
+        "parties": [
+          {
+            "name": "PDS",
+            "deputes": 30
+          },
+          {
+            "name": "Gr",
+            "deputes": 49
+          },
+          {
+            "name": "SPD",
+            "deputes": 252
+          },
+          {
+            "name": "FDP",
+            "deputes": 47
+          },
+          {
+            "name": "CDU/CSU",
+            "deputes": 294
+          }
+        ],
+        "source": [
+          "https://germanhistorydocs.org/en/a-new-germany-1990-2023/distribution-of-seats-in-the-bundestag-1949-2017"
+        ]
+      },
+      {
+        "legislature": 1998,
+        "total_deputes": 669,
+        "duration": 4,
+        "begin": "1998-10-26",
+        "end": "2002-10-17",
+        "parties": [
+          {
+            "name": "PDS",
+            "deputes": 36
+          },
+          {
+            "name": "Gr",
+            "deputes": 47
+          },
+          {
+            "name": "SPD",
+            "deputes": 298
+          },
+          {
+            "name": "FDP",
+            "deputes": 43
+          },
+          {
+            "name": "CDU/CSU",
+            "deputes": 245
+          }
+        ],
+        "source": [
+          "https://germanhistorydocs.org/en/a-new-germany-1990-2023/distribution-of-seats-in-the-bundestag-1949-2017"
+        ]
+      },
+      {
+        "legislature": 2002,
+        "total_deputes": 603,
+        "duration": 3,
+        "begin": "2002-10-17",
+        "end": "2005-10-18",
+        "parties": [
+          {
+            "name": "PDS",
+            "deputes": 2
+          },
+          {
+            "name": "Gr",
+            "deputes": 55
+          },
+          {
+            "name": "SPD",
+            "deputes": 251
+          },
+          {
+            "name": "FDP",
+            "deputes": 47
+          },
+          {
+            "name": "CDU/CSU",
+            "deputes": 248
+          }
+        ],
+        "source": [
+          "https://germanhistorydocs.org/en/a-new-germany-1990-2023/distribution-of-seats-in-the-bundestag-1949-2017"
+        ]
+      },
+      {
+        "legislature": 2005,
+        "total_deputes": 614,
+        "duration": 4,
+        "begin": "2005-10-18",
+        "end": "2009-10-27",
+        "parties": [
+          {
+            "name": "DL.PDS",
+            "deputes": 54
+          },
+          {
+            "name": "Gr",
+            "deputes": 51
+          },
+          {
+            "name": "SPD",
+            "deputes": 222
+          },
+          {
+            "name": "FDP",
+            "deputes": 61
+          },
+          {
+            "name": "CDU/CSU",
+            "deputes": 226
+          }
+        ],
+        "source": [
+          "https://germanhistorydocs.org/en/a-new-germany-1990-2023/distribution-of-seats-in-the-bundestag-1949-2017"
+        ]
+      },
+      {
+        "legislature": 2009,
+        "total_deputes": 622,
+        "duration": 4,
+        "begin": "2009-10-27",
+        "end": "2013-10-22",
+        "parties": [
+          {
+            "name": "DL",
+            "deputes": 76
+          },
+          {
+            "name": "Gr",
+            "deputes": 68
+          },
+          {
+            "name": "SPD",
+            "deputes": 146
+          },
+          {
+            "name": "FDP",
+            "deputes": 93
+          },
+          {
+            "name": "CDU/CSU",
+            "deputes": 239
+          }
+        ],
+        "source": [
+          "https://germanhistorydocs.org/en/a-new-germany-1990-2023/distribution-of-seats-in-the-bundestag-1949-2017"
+        ]
+      },
+      {
+        "legislature": 2013,
+        "total_deputes": 631,
+        "duration": 4,
+        "begin": "2013-10-22",
+        "end": "2017-10-24",
+        "parties": [
+          {
+            "name": "DL",
+            "deputes": 64
+          },
+          {
+            "name": "Gr",
+            "deputes": 63
+          },
+          {
+            "name": "SPD",
+            "deputes": 193
+          },
+          {
+            "name": "FDP",
+            "deputes": 0
+          },
+          {
+            "name": "CDU/CSU",
+            "deputes": 311
+          },
+          {
+            "name": "AfD",
+            "deputes": 0
+          }
+        ],
+        "source": [
+          "https://germanhistorydocs.org/en/a-new-germany-1990-2023/distribution-of-seats-in-the-bundestag-1949-2017"
+        ]
+      },
+      {
+        "legislature": 2017,
+        "total_deputes": 709,
+        "duration": 4,
+        "begin": "2017-10-24",
+        "end": "2021-10-26",
+        "parties": [
+          {
+            "name": "DL",
+            "deputes": 69
+          },
+          {
+            "name": "Gr",
+            "deputes": 67
+          },
+          {
+            "name": "SPD",
+            "deputes": 153
+          },
+          {
+            "name": "FDP",
+            "deputes": 80
+          },
+          {
+            "name": "CDU/CSU",
+            "deputes": 246
+          },
+          {
+            "name": "AfD",
+            "deputes": 94
+          }
+        ],
+        "source": [
+          "https://germanhistorydocs.org/en/a-new-germany-1990-2023/distribution-of-seats-in-the-bundestag-1949-2017"
+        ]
+      },
+      {
+        "legislature": 2021,
+        "total_deputes": 736,
+        "duration": 4,
+        "begin": "2021-10-26",
+        "end": "2025-03-25",
+        "parties": [
+          {
+            "name": "DL",
+            "deputes": 39
+          },
+          {
+            "name": "Gr",
+            "deputes": 118
+          },
+          {
+            "name": "SPD",
+            "deputes": 206
+          },
+          {
+            "name": "FDP",
+            "deputes": 92
+          },
+          {
+            "name": "CDU/CSU",
+            "deputes": 197
+          },
+          {
+            "name": "AfD",
+            "deputes": 83
+          }
+        ],
+        "source": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_f%C3%A9d%C3%A9rales_allemandes_de_2021"
+        ]
+      },
+      {
+        "legislature": 2025,
+        "total_deputes": 630,
+        "duration": 1,
+        "begin": "2025-03-25",
+        "end": "now",
+        "parties": [
+          {
+            "name": "DL",
+            "deputes": 64
+          },
+          {
+            "name": "Gr",
+            "deputes": 85
+          },
+          {
+            "name": "SPD",
+            "deputes": 120
+          },
+          {
+            "name": "FDP",
+            "deputes": 0
+          },
+          {
+            "name": "CDU/CSU",
+            "deputes": 208
+          },
+          {
+            "name": "AfD",
+            "deputes": 152
+          }
+        ],
+        "source": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_f%C3%A9d%C3%A9rales_allemandes_de_2025"
+        ]
+      }
+    ]
+  }
+]

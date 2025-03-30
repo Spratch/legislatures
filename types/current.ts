@@ -6,8 +6,6 @@ export type CurrentType = {
   name_de?: string;
   color: string;
   keyword?: string;
-  keyword_en?: string;
-  keyword_de?: string;
   parties: PartyType[];
   source?: string[];
 };

@@ -1,0 +1,228 @@
+[
+  {
+    "begin": "1949-05-08",
+    "end": "1949-05-24",
+    "title": "Fondation de la République fédérale d'Allemagne",
+    "title_en": "Foundation of the Federal Republic of Germany",
+    "title_de": "Gründung der Bundesrepublik Deutschland",
+    "keyword": "Loi fondamentale de la République fédérale d'Allemagne",
+    "type": "Loi"
+  },
+  {
+    "begin": "1952-03*10",
+    "end": "1952-03-10",
+    "title": "Rétablissement de l'assurance chômage",
+    "title_en": "Re-establishment of unemployment insurance",
+    "title_de": "Wiedereinführung der Arbeitslosenversicherung",
+    "keyword": "Assurance chômage",
+    "type": "Loi"
+  },
+  {
+    "begin": "1955-05-05",
+    "end": "1955-05-09",
+    "title": "Entrée dans l'OTAN et remilitarisation",
+    "title_en": "Entry into NATO and remilitarization",
+    "title_de": "Beitritt zur NATO und Remilitarisierung",
+    "keyword": "Accords de Paris (1954)"
+  },
+  {
+    "begin": "1956-10-27",
+    "end": "1957-01-01",
+    "title": "Rattachement de la Sarre",
+    "title_en": "Attachment of Saarland",
+    "title_de": "Anschluss des Saarlandes",
+    "keyword": "Traité sur la Sarre",
+    "type": "Référendum"
+  },
+  {
+    "begin": "1957-02-23",
+    "end": "1957-06-26",
+    "title": "Réforme de l'assurance retraite et de l'assurance maladie",
+    "title_en": "Reform of pension and health insurance",
+    "title_de": "Renten- und Krankenversicherungsreform",
+    "keyword": "Assurance retraite",
+    "type": "Loi"
+  },
+  {
+    "begin": "1961-08-12",
+    "end": "1961-08-13",
+    "title": "Construction du mur de Berlin",
+    "title_en": "Construction of the Berlin Wall",
+    "title_de": "Bau der Berliner Mauer",
+    "keyword": "Mur de Berlin"
+  },
+  {
+    "begin": "1963-01-22",
+    "end": "1963-01-22",
+    "title": "Signature du traité de l'Élysée",
+    "title_en": "Signing of the Élysée Treaty",
+    "title_de": "Unterzeichnung des Élysée-Vertrags",
+    "keyword": "Traité de l'Élysée",
+    "type": "Loi"
+  },
+  {
+    "begin": "1966-08-05",
+    "end": "1966-08-05",
+    "title": "Constitutionnalisation de la liberté de la presse",
+    "title_en": "Constitutionalization of press freedom",
+    "title_de": "Verfassungsmäßige Verankerung der Pressefreiheit",
+    "keyword": "Liberté de la presse",
+    "type": "Loi"
+  },
+  {
+    "begin": "1968-04-11",
+    "end": "1968-04-15",
+    "title": "Attentat sur Rudi Dutschke et mouvements sociaux",
+    "title_en": "Assassination attempt on Rudi Dutschke and social movements",
+    "title_de": "Attentat auf Rudi Dutschke und soziale Bewegungen",
+    "keyword": "Mouvements sociaux de 1968 en Allemagne et Europe de l'Est",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1970-08-12",
+    "end": "1970-08-12",
+    "title": "Traité de Moscou entre la RFA et l'URSS",
+    "title_en": "Moscow Treaty between West Germany and the USSR",
+    "title_de": "Moskauer Vertrag zwischen der BRD und der UdSSR",
+    "keyword": "Ostpolitik",
+    "type": "Loi"
+  },
+  {
+    "begin": "1972-12-21",
+    "end": "1972-12-21",
+    "title": "Traité fondamental entre la RFA et la RDA",
+    "title_en": "Basic Treaty between West and East Germany",
+    "title_de": "Grundlagenvertrag zwischen der BRD und der DDR",
+    "keyword": "Traité fondamental",
+    "type": "Loi"
+  },
+  {
+    "begin": "1974-02-10",
+    "end": "1974-02-12",
+    "title": "Grève massive des services publics",
+    "title_en": "Massive public service strike",
+    "title_de": "Massiver Streik im öffentlichen Dienst",
+    "keyword": "Grève",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1977-09-05",
+    "end": "1977-10-18",
+    "title": "Automne allemand et crise terroriste de la RAF",
+    "title_en": "German Autumn and Red Army Faction terrorism crisis",
+    "title_de": "Deutscher Herbst und RAF-Terrorismuskrise",
+    "keyword": "Automne allemand",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1983-11-22",
+    "end": "1983-11-22",
+    "title": "Déploiement des missiles Pershing II en RFA",
+    "title_en": "Deployment of Pershing II missiles in West Germany",
+    "title_de": "Stationierung der Pershing-II-Raketen in der BRD",
+    "keyword": "Crise des euromissiles",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1984-05-01",
+    "end": "1984-05-28",
+    "title": "Grèves pour les 35h",
+    "title_en": "Strikes for the 35 hours",
+    "title_de": "Streiks für 35 Stunden",
+    "keyword": "Chronologie du syndicalisme en Allemagne#Après la Seconde Guerre mondiale",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1989-11-09",
+    "end": "1990-10-03",
+    "title": "Chute du mur de Berlin et réunification",
+    "title_en": "Fall of the Berlin Wall and reunification",
+    "title_de": "Fall der Berliner Mauer und Wiedervereinigung",
+    "keyword": "Réunification allemande"
+  },
+  {
+    "begin": "1992-02-07",
+    "end": "1992-11-01",
+    "title": "Ratification du traité de Maastricht",
+    "title_en": "Ratification of the Maastricht Treaty",
+    "title_de": "Ratifizierung des Maastrichter Vertrags",
+    "keyword": "Traité de Maastricht",
+    "type": "Loi"
+  },
+  {
+    "begin": "1994-06-29",
+    "end": "1994-06-29",
+    "title": "Privatisation des télécommunications et des services postaux",
+    "title_en": "Privatization of telecommunications and postal services",
+    "title_de": "Privatisierung der Telekommunikation und Postdienste",
+    "keyword": "Privatisation",
+    "type": "Loi"
+  },
+  {
+    "begin": "1999-04-01",
+    "end": "1999-06-10",
+    "title": "Première intervention militaire allemande depuis 1945 (Kosovo)",
+    "title_en": "First German military intervention since 1945 (Kosovo)",
+    "title_de": "Erster Bundeswehreinsatz seit 1945 (Kosovo)",
+    "keyword": "Guerre du Kosovo",
+    "type": "Guerre"
+  },
+  {
+    "begin": "2002-01-01",
+    "end": "2002-01-01",
+    "title": "Adoption de l'euro comme monnaie officielle",
+    "title_en": "Adoption of the euro as official currency",
+    "title_de": "Einführung des Euro als offizielle Währung",
+    "keyword": "Euro",
+    "type": "Économie"
+  },
+  {
+    "begin": "2008-10-05",
+    "end": "2008-10-05",
+    "title": "Grande Récession",
+    "title_en": "Great Recession",
+    "title_de": "Große Rezession",
+    "keyword": "Grande Récession de 2008"
+  },
+  {
+    "begin": "2010-05-10",
+    "end": "2010-05-10",
+    "title": "Crise de la dette dans la zone euro",
+    "title_en": "Eurozone debt crisis",
+    "title_de": "Eurokrise",
+    "keyword": "Crise de la dette dans la zone euro"
+  },
+  {
+    "begin": "2011-03-11",
+    "end": "2011-06-30",
+    "title": "Décision de sortie du nucléaire après Fukushima",
+    "title_en": "Decision to phase out nuclear power after Fukushima",
+    "title_de": "Ausstiegsentscheidung aus der Kernenergie nach Fukushima",
+    "keyword": "Sortie du nucléaire civil"
+  },
+  {
+    "begin": "2022-04-01",
+    "end": "2022-10-01",
+    "title": "Mise en place du salaire minimum à 12 euros",
+    "title_en": "Implementation of the minimum wage at 12 euros",
+    "title_de": "Einführung des Mindestlohns von 12 Euro",
+    "keyword": "Salaire minimum",
+    "type": "Loi"
+  },
+  {
+    "begin": "2023-05-01",
+    "end": "2023-05-01",
+    "title": "Lancement du ticket de transport à 49 euros",
+    "title_en": "Launch of the 49-euro transport ticket",
+    "title_de": "Einführung des 49-Euro-Tickets",
+    "keyword": "Deutschlandticket"
+  },
+  {
+    "begin": "2024-11-07",
+    "end": "2024-12-27",
+    "title": "Dissolution du Parlement et convocation d'élections anticipées",
+    "title_en": "Dissolution of Parliament and call for early elections",
+    "title_de": "Auflösung des Parlaments und Ansetzung vorgezogener Neuwahlen",
+    "keyword": "Crise politique allemande de 2024"
+  }
+]

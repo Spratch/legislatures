@@ -9,14 +9,14 @@
           "title_light_de": "Zwischen Krisen und Anforderungen"
         },
         {
-          "title_main": "Les évolutions des courants politiques au sein de l’Assemblée nationale*",
-          "title_main_en": "The evolutions of political currents within the National Assembly*",
-          "title_main_de": "Die Entwicklungen der politischen Strömungen innerhalb der Nationalversammlung*"
+          "title_main": "Les évolutions des courants politiques au sein du Bundestag",
+          "title_main_en": "The evolutions of political currents within the Bundestag",
+          "title_main_de": "Die Entwicklungen der politischen Strömungen innerhalb der Deutscher Bundestag"
         },
         {
-          "intro": "Ceci est une représentation visuelle des résultats des élections législatives françaises depuis la première en 1791.",
-          "intro_en": "This is a visual representation of the results of French legislative elections since the first in 1791.",
-          "intro_de": "Dies ist eine visuelle Darstellung der Ergebnisse der französischen Parlamentswahlen seit der ersten im Jahr 1791."
+          "intro": "Ceci est une représentation visuelle des résultats des élections législatives en République fédérale d'Allemagne depuis 1949.",
+          "intro_en": "This is a visual representation of the results of legislative elections in the Federal Republic of Germany since 1949.",
+          "intro_de": "Dies ist eine visuelle Darstellung der Ergebnisse der Parlamentswahlen in der Bundesrepublik Deutschland seit 1949."
         }
       ]
     },
@@ -26,59 +26,45 @@
         {
           "portable_text": [
             {
-              "_key": "404a2afd14c8",
+              "_key": "9467c45f03e5",
               "children": [
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": "Cette visualisation a été réalisée à partir de données de sources variées, mais principalement depuis la liste des législatures françaises sur ",
-                  "_key": "bac930b93b0a"
+                  "text": "Cette visualisation a été réalisée à partir de données de sources variées, mais principalement depuis la liste des législatures du Bundestag sur ",
+                  "_key": "9005b0d47612"
                 },
                 {
                   "_type": "span",
-                  "marks": ["b0690139050a"],
+                  "marks": ["84f1e3f2aab8"],
                   "text": "Wikipédia",
-                  "_key": "0c4d140af356"
+                  "_key": "abcabd322d19"
                 },
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": ". Plus les données sont anciennes, moins elles sont précises. En effet, les concepts modernes de partis politiques ou de groupes parlementaires n’existaient pas toujours. Les députés étaient alors étiquetés en fonction de leurs votes, une fois élus.",
-                  "_key": "f97f19c03baf"
+                  "text": ".",
+                  "_key": "dc5dca1b0dfc"
                 }
               ],
               "markDefs": [
                 {
-                  "_key": "b0690139050a",
+                  "_key": "84f1e3f2aab8",
                   "_type": "link",
-                  "href": "https://fr.wikipedia.org/wiki/Liste_des_l%C3%A9gislatures_fran%C3%A7aises"
+                  "href": "https://fr.wikipedia.org/wiki/Bundestag#Historique_des_l%C3%A9gislatures"
                 }
               ],
               "_type": "block",
               "style": "normal"
             },
             {
-              "_key": "6b24cf19290b",
+              "_key": "81153f46f076",
               "children": [
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": "De plus, il a fallu trancher de manière arbitraire sur l’appartenance de chaque parti ou député à un courant politique. Les nuances et les évolutions des partis politiques ne sont d’ailleurs pas forcément prises en compte. Ajoutons à cela que les familles politiques telles que la droite ou la gauche sont des notions qui, au fil du temps, ont pu se déplacer. L’extrême gauche du début de la IIIe République pourrait correspondre aujourd’hui à un positionnement centriste. Pour plus de clarté, j’ai décidé de classer les partis à partir de repères contemporains.",
-                  "_key": "ff6b031217b3"
-                }
-              ],
-              "markDefs": [],
-              "_type": "block",
-              "style": "normal"
-            },
-            {
-              "_key": "9c4bd231b42c",
-              "children": [
-                {
-                  "_type": "span",
-                  "marks": [],
-                  "text": "Enfin, j’ai souhaité représenter les accords électoraux entre partis tels que les coalitions. Celles-ci permettent de mieux comprendre les rapports de force qui s’opèrent. Elles n’ont pas toujours les mêmes modalités, et les informations manquent parfois pour les élections les plus anciennes.",
-                  "_key": "6f4c1903fcb0"
+                  "text": "Ce site propose une vision synthétique, et donc incomplète quant aux contextes entourant chaque élection.",
+                  "_key": "3a1081192a6a"
                 }
               ],
               "markDefs": [],
@@ -88,59 +74,45 @@
           ],
           "portable_text_en": [
             {
-              "_key": "592ad033d355",
+              "_key": "9467c45f03e5",
               "children": [
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": "This visualization was created using data from various sources, but mainly from the list of French legislatures on ",
-                  "_key": "6c8985f9ea84"
+                  "text": "This visualization was created using data from various sources, but mainly from the list of Bundestag legislatures on ",
+                  "_key": "e245cde3bf98"
                 },
                 {
                   "_type": "span",
-                  "marks": ["2e0532f9b6c4"],
-                  "text": "Wikipedia",
-                  "_key": "7f583d6450bd"
+                  "marks": ["84f1e3f2aab8"],
+                  "text": "Wikipédia",
+                  "_key": "abcabd322d19"
                 },
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": ". The older the data, the less accurate it is. Indeed, modern concepts of political parties or parliamentary groups did not always exist. MPs were then labelled according to their votes, once elected.",
-                  "_key": "e9f9c2c32aa5"
+                  "text": ".",
+                  "_key": "dc5dca1b0dfc"
                 }
               ],
               "markDefs": [
                 {
-                  "_key": "2e0532f9b6c4",
+                  "_key": "84f1e3f2aab8",
                   "_type": "link",
-                  "href": "https://fr.wikipedia.org/wiki/Liste_des_l%C3%A9gislatures_fran%C3%A7aises"
+                  "href": "https://fr.wikipedia.org/wiki/Bundestag#Historique_des_l%C3%A9gislatures"
                 }
               ],
               "_type": "block",
               "style": "normal"
             },
             {
-              "_key": "c0a49b405ec4",
+              "_key": "81153f46f076",
               "children": [
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": "In addition, it was necessary to arbitrarily decide on the affiliation of each party or deputy to a political movement. The nuances and developments of political parties are not necessarily taken into account. Let us add to this that political families such as the right or the left are notions that, over time, have been able to move. The extreme left of the beginning of the Third Republic could correspond today to a centrist position. For the sake of clarity, I decided to classify the parties based on contemporary benchmarks. ",
-                  "_key": "3719dac4baba"
-                }
-              ],
-              "markDefs": [],
-              "_type": "block",
-              "style": "normal"
-            },
-            {
-              "_key": "3486352f348f",
-              "children": [
-                {
-                  "_type": "span",
-                  "marks": [],
-                  "text": "Finally, I wanted to represent electoral agreements between parties such as coalitions. These allow us to better understand the balance of power that takes place. They do not always have the same modalities, and information is sometimes lacking for the oldest elections.",
-                  "_key": "46386ffb43fe"
+                  "text": "This site offers a synthetic, and therefore incomplete, view of the contexts surrounding each election.",
+                  "_key": "3a1081192a6a"
                 }
               ],
               "markDefs": [],
@@ -150,59 +122,45 @@
           ],
           "portable_text_de": [
             {
-              "_key": "cf31595a30f6",
+              "_key": "9467c45f03e5",
               "children": [
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": "Diese Visualisierung wurde unter Verwendung von Daten aus verschiedenen Quellen erstellt, hauptsächlich jedoch aus der Liste der französischen gesetzgebenden Körperschaften auf ",
-                  "_key": "8464965dba85"
+                  "text": "Diese Visualisierung wurde unter Verwendung von Daten aus verschiedenen Quellen erstellt, hauptsächlich jedoch aus der Liste der Bundestagsparlamente auf ",
+                  "_key": "266370a71a12"
                 },
                 {
                   "_type": "span",
-                  "marks": ["26effcd020b9"],
-                  "text": "Wikipedia",
-                  "_key": "ac12a4e99af2"
+                  "marks": ["84f1e3f2aab8"],
+                  "text": "Wikipédia",
+                  "_key": "abcabd322d19"
                 },
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": ". Je älter die Daten sind, desto ungenauer sind sie. Tatsächlich gab es moderne Konzepte politischer Parteien oder Fraktionen nicht immer. Nach ihrer Wahl wurden die Abgeordneten entsprechend ihrer Stimmabgabe benannt.",
-                  "_key": "ecad5922b6e8"
+                  "text": ".",
+                  "_key": "dc5dca1b0dfc"
                 }
               ],
               "markDefs": [
                 {
-                  "_key": "26effcd020b9",
+                  "_key": "84f1e3f2aab8",
                   "_type": "link",
-                  "href": "https://fr.wikipedia.org/wiki/Liste_des_l%C3%A9gislatures_fran%C3%A7aises"
+                  "href": "https://fr.wikipedia.org/wiki/Bundestag#Historique_des_l%C3%A9gislatures"
                 }
               ],
               "_type": "block",
               "style": "normal"
             },
             {
-              "_key": "0b8ebae6c99c",
+              "_key": "81153f46f076",
               "children": [
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": "Zudem musste über die Mitgliedschaft jedes einzelnen Parteimitglieds bzw. Abgeordneten zu einer politischen Bewegung willkürlich entschieden werden. Nuancen und Entwicklungen der politischen Parteien werden dabei nicht unbedingt berücksichtigt. Hinzu kommt die Tatsache, dass politische Strömungen wie die Rechte oder die Linke sich im Laufe der Zeit verändern konnten. Die extreme Linke zu Beginn der Dritten Republik könnte heute einer zentristischen Position entsprechen. Der Übersichtlichkeit halber habe ich mich für eine Klassifizierung der Parteien nach zeitgenössischen Maßstäben entschieden.",
-                  "_key": "47b281d74eba"
-                }
-              ],
-              "markDefs": [],
-              "_type": "block",
-              "style": "normal"
-            },
-            {
-              "_key": "9a637c9f8d77",
-              "children": [
-                {
-                  "_type": "span",
-                  "marks": [],
-                  "text": "Schließlich wollte ich Wahlabsprachen zwischen Parteien, etwa Koalitionen, darstellen. Diese ermöglichen uns ein besseres Verständnis der herrschenden Machtverhältnisse. Die Verfahren sind nicht immer identisch und für ältere Wahlen fehlen teilweise Informationen.",
-                  "_key": "371f2e0b3536"
+                  "text": "Diese Site bietet einen synthetischen und daher unvollständigen Überblick über die Kontexte jeder Wahl.",
+                  "_key": "3a1081192a6a"
                 }
               ],
               "markDefs": [],
@@ -214,27 +172,13 @@
         {
           "portable_text": [
             {
-              "_key": "74fe085172c0",
-              "children": [
-                {
-                  "_type": "span",
-                  "marks": [],
-                  "text": "* Les assemblées ont pris différentes formes et différents noms, les modes de scrutin ont évolué et l’Histoire a avancé en rendant chaque élection unique par les enjeux politiques et sociaux de l’époque. Ce site propose une vision synthétique, et donc incomplète quant aux contextes entourant chaque élection.",
-                  "_key": "83e0c673d027"
-                }
-              ],
-              "markDefs": [],
-              "_type": "block",
-              "style": "normal"
-            },
-            {
-              "_key": "839896cda9ef",
+              "_key": "3258a74b8fe3",
               "children": [
                 {
                   "_type": "span",
                   "marks": [],
                   "text": "Cependant, des événements marquants sont placés en marge du graphique principal pour contextualiser d’avantage les résultats. Ces choix ne prétendent pas à l’exhaustivité et peuvent gagner en pertinence. Vos retours sont les bienvenus.",
-                  "_key": "2fe3e69d31ab"
+                  "_key": "d50aaac5a42e"
                 }
               ],
               "markDefs": [],
@@ -244,27 +188,13 @@
           ],
           "portable_text_en": [
             {
-              "_key": "e5f7e3b1b99d",
-              "children": [
-                {
-                  "_type": "span",
-                  "marks": [],
-                  "text": "* Assemblies have taken different forms and names, voting methods have evolved and history has progressed, making each election unique due to the political and social issues of the time. This site offers a synthetic, and therefore incomplete, view of the contexts surrounding each election.",
-                  "_key": "a48abfbf3fbd"
-                }
-              ],
-              "markDefs": [],
-              "_type": "block",
-              "style": "normal"
-            },
-            {
-              "_key": "27c714a72289",
+              "_key": "3258a74b8fe3",
               "children": [
                 {
                   "_type": "span",
                   "marks": [],
                   "text": "However, significant events are placed on the margins of the main graph to further contextualize the results. These choices do not claim to be exhaustive and may gain in relevance. Your feedback is welcome.",
-                  "_key": "3203b75cf545"
+                  "_key": "d50aaac5a42e"
                 }
               ],
               "markDefs": [],
@@ -274,27 +204,13 @@
           ],
           "portable_text_de": [
             {
-              "_key": "8edae2c18d2e",
-              "children": [
-                {
-                  "_type": "span",
-                  "marks": [],
-                  "text": "* Die Versammlungen haben unterschiedliche Formen und Namen angenommen, die Wahlmethoden haben sich weiterentwickelt und die Geschichte hat sich weiterentwickelt, indem sie jede Wahl aufgrund der politischen und sozialen Probleme der Zeit einzigartig gemacht hat. Diese Site bietet einen synthetischen und daher unvollständigen Überblick über die Zusammenhänge jeder Wahl.",
-                  "_key": "8b4b891e9698"
-                }
-              ],
-              "markDefs": [],
-              "_type": "block",
-              "style": "normal"
-            },
-            {
-              "_key": "177d53199f91",
+              "_key": "3258a74b8fe3",
               "children": [
                 {
                   "_type": "span",
                   "marks": [],
                   "text": "Bemerkenswerte Ereignisse werden jedoch an den Rändern des Hauptdiagramms platziert, um die Ergebnisse weiter in einen Kontext zu setzen. Diese Auswahl erhebt keinen Anspruch auf Vollständigkeit und kann an Relevanz gewinnen. Ihr Feedback ist willkommen.",
-                  "_key": "09b0008f3147"
+                  "_key": "d50aaac5a42e"
                 }
               ],
               "markDefs": [],
@@ -311,79 +227,110 @@
         {
           "portable_text": [
             {
-              "_key": "e26ffde99938",
+              "_key": "afa6152d1824",
               "children": [
                 {
                   "_type": "span",
                   "marks": [],
                   "text": "Ce graphique est inspiré du superbe travail de ",
-                  "_key": "84c021b4dc52"
+                  "_key": "3dee2ac6c32f"
                 },
                 {
                   "_type": "span",
-                  "marks": ["18a16c269048"],
+                  "marks": ["a1b99071aafb"],
                   "text": "Tom Février et Marie Patino",
-                  "_key": "999070e3b8ca"
+                  "_key": "c22a0c71078b"
                 },
                 {
                   "_type": "span",
                   "marks": [],
                   "text": " pour ",
-                  "_key": "dd6edae68a86"
+                  "_key": "1a81996bc2a1"
                 },
                 {
                   "_type": "span",
-                  "marks": ["0200d2192564"],
+                  "marks": ["d4404069eb50"],
                   "text": "cet article de Bloomberg",
-                  "_key": "8e83d768e9f6"
+                  "_key": "bd5152c5d2cf"
                 },
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": ". En le découvrant, j’aurais aimé pouvoir l’étendre jusqu’à la révolution de 1789. C’est donc ce que j’ai fait. Je l’ai fait pour le plaisir, pour apprendre à créer des visualisations de données, et pour mieux comprendre l’histoire politique de la France.",
-                  "_key": "067c767486da"
+                  "text": ". En le découvrant, j’aurais aimé pouvoir l’étendre jusqu’à la révolution de 1789. C’est donc ce que j’ai fait, d’abord avec la ",
+                  "_key": "2aef85925967"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["c010c3fcfe76"],
+                  "text": "France",
+                  "_key": "cfb789d84d9f"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". Je l’ai fait pour le plaisir, pour apprendre à créer des visualisations de données, et pour mieux comprendre l’histoire politique de la France.",
+                  "_key": "e34404e52ee3"
                 }
               ],
               "markDefs": [
                 {
-                  "_key": "18a16c269048",
+                  "_key": "a1b99071aafb",
                   "_type": "link",
                   "href": "https://mastodon.social/@tomfevrier/112751171765233201"
                 },
                 {
-                  "_key": "0200d2192564",
+                  "_key": "d4404069eb50",
                   "_type": "link",
                   "href": "https://www.bloomberg.com/graphics/2024-french-election-results/"
+                },
+                {
+                  "_key": "c010c3fcfe76",
+                  "_type": "link",
+                  "href": "/fr/france/"
                 }
               ],
               "_type": "block",
               "style": "normal"
             },
             {
-              "_key": "3731b16c2eed",
+              "_key": "927de6f1fa25",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Puis j’ai étendu le principe à d’autres pays, comme ici avec l’Allemagne.",
+                  "_key": "2551d808ab44"
+                }
+              ],
+              "markDefs": [],
+              "_type": "block",
+              "style": "normal"
+            },
+            {
+              "_key": "884eb941ca6b",
               "children": [
                 {
                   "_type": "span",
                   "marks": [],
                   "text": "J’espère que vous prendrez autant de plaisir à le consulter, qu’il vous apportera connaissances ou mises en perspectives. Si vous y rencontrez des erreurs, des imprécisions, des oublis, ou si vous avez des suggestions, ",
-                  "_key": "dde3f35a8b1a"
+                  "_key": "ffef21f4b461"
                 },
                 {
                   "_type": "span",
-                  "marks": ["d14bd3007823"],
+                  "marks": ["70e44fd3d944"],
                   "text": "n’hésitez pas à me contacter",
-                  "_key": "774eec696914"
+                  "_key": "c497df664315"
                 },
                 {
                   "_type": "span",
                   "marks": [],
                   "text": ". Je ne suis ni historien, ni expert en politique, et c’est mon premier projet de visualisation de données. Je suis donc ouvert à toute critique constructive, tant sur le contenu que sur le code.",
-                  "_key": "3d5392f9cdf4"
+                  "_key": "fd88c63396b5"
                 }
               ],
               "markDefs": [
                 {
-                  "_key": "d14bd3007823",
+                  "_key": "70e44fd3d944",
                   "_type": "link",
                   "href": "mailto:legislaturesfr@gmail.com"
                 }
@@ -394,79 +341,110 @@
           ],
           "portable_text_en": [
             {
-              "_key": "8c5e9f3a8b17",
+              "_key": "79928c66e400",
               "children": [
                 {
                   "_type": "span",
                   "marks": [],
                   "text": "This chart is inspired by the great work of ",
-                  "_key": "f95206b49beb"
+                  "_key": "498bd6c46cce"
                 },
                 {
                   "_type": "span",
-                  "marks": ["e2defca43bc6"],
+                  "marks": ["6226e623a6da"],
                   "text": "Tom Février and Marie Patino",
-                  "_key": "69b51e2b6e4a"
+                  "_key": "2fe004795b51"
                 },
                 {
                   "_type": "span",
                   "marks": [],
-                  "_key": "9d8ad3ea76f1",
-                  "text": " for "
+                  "text": " for ",
+                  "_key": "f6a9c8c2af86"
                 },
                 {
                   "_type": "span",
-                  "marks": ["b4e5324fd1d7"],
+                  "marks": ["68e608ee1fbb"],
                   "text": "this Bloomberg article",
-                  "_key": "6b5576a4e52a"
+                  "_key": "bea09ca86f0b"
                 },
                 {
                   "_type": "span",
-                  "_key": "c451d104d7bf",
-                  "text": ". When I discovered it, I wished I could extend it to the revolution of 1789. So that’s what I did. I did it for fun, to learn how to create data visualizations, and to better understand the political history of France.",
-                  "marks": []
+                  "marks": [],
+                  "text": ". When I discovered it, I wished I could extend it to the revolution of 1789. So that’s what I did, first with ",
+                  "_key": "5fffae20e4d3"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["01f2bdbc3072"],
+                  "text": "France",
+                  "_key": "347e1d037213"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". I did it for fun, to learn how to create data visualizations, and to better understand the political history of France.",
+                  "_key": "ceb47aca6ae7"
                 }
               ],
               "markDefs": [
                 {
-                  "_key": "b4e5324fd1d7",
+                  "_key": "6226e623a6da",
+                  "_type": "link",
+                  "href": "https://mastodon.social/@tomfevrier/112751171765233201"
+                },
+                {
+                  "_key": "68e608ee1fbb",
                   "_type": "link",
                   "href": "https://www.bloomberg.com/graphics/2024-french-election-results/"
                 },
                 {
-                  "_key": "e2defca43bc6",
+                  "_key": "01f2bdbc3072",
                   "_type": "link",
-                  "href": "https://mastodon.social/@tomfevrier/112751171765233201"
+                  "href": "/en/france/"
                 }
               ],
               "_type": "block",
               "style": "normal"
             },
             {
-              "_key": "062738b23af0",
+              "_key": "2fd14e2dc07a",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Then I extended the principle to other countries, like here with Germany.",
+                  "_key": "d9a579fe1819"
+                }
+              ],
+              "markDefs": [],
+              "_type": "block",
+              "style": "normal"
+            },
+            {
+              "_key": "69508a109f8b",
               "children": [
                 {
                   "_type": "span",
                   "marks": [],
                   "text": "I hope you will enjoy reading it as much as it will bring you knowledge or perspective. If you find any errors, inaccuracies, omissions, or if you have any suggestions, ",
-                  "_key": "7388aa31d583"
+                  "_key": "f75afbbfa643"
                 },
                 {
                   "_type": "span",
-                  "marks": ["2be0ddfc9890"],
+                  "marks": ["48544e09806c"],
                   "text": "please do not hesitate to contact me",
-                  "_key": "5324ee1e65d5"
+                  "_key": "c0e3e372ebc6"
                 },
                 {
                   "_type": "span",
                   "marks": [],
                   "text": ". I am neither a historian nor a political expert, and this is my first data visualization project, so I am open to constructive criticism, both on the content and the code.",
-                  "_key": "8b724a4dbefa"
+                  "_key": "9392ada06c7f"
                 }
               ],
               "markDefs": [
                 {
-                  "_key": "2be0ddfc9890",
+                  "_key": "48544e09806c",
                   "_type": "link",
                   "href": "mailto:legislaturesfr@gmail.com"
                 }
@@ -477,79 +455,110 @@
           ],
           "portable_text_de": [
             {
-              "_key": "86c33a405f65",
+              "_key": "abede41fe98a",
               "children": [
                 {
                   "_type": "span",
                   "marks": [],
                   "text": "Dieses Diagramm ist von der hervorragenden Arbeit von ",
-                  "_key": "82fb7e8075eb"
+                  "_key": "a75e33d556da"
                 },
                 {
                   "_type": "span",
-                  "marks": ["2dc23619c9e5"],
+                  "marks": ["b21080174204"],
                   "text": "Tom Février und Marie Patino",
-                  "_key": "f6fef4346a9c"
+                  "_key": "5ad1507e8f53"
                 },
                 {
                   "_type": "span",
                   "marks": [],
                   "text": " für ",
-                  "_key": "6f88bf25b90a"
+                  "_key": "fbba26da427e"
                 },
                 {
                   "_type": "span",
-                  "marks": ["8c1218cc5386"],
+                  "marks": ["e337918ee3f4"],
                   "text": "diesen Bloomberg-Artikel",
-                  "_key": "0498dded95e0"
+                  "_key": "094c680ab41b"
                 },
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": ". Als ich es entdeckte, hätte ich es gern bis zur Revolution von 1789 ausdehnen können. Und das habe ich getan. Ich habe es aus Spaß gemacht, um zu lernen, wie man Datenvisualisierungen erstellt und um die politische Geschichte Frankreichs besser zu verstehen.",
-                  "_key": "82a95a70cb97"
+                  "text": ". Als ich es entdeckte, hätte ich es gern bis zur Revolution von 1789 ausdehnen können. Also habe ich das gemacht, zuerst mit ",
+                  "_key": "f26e2149e63c"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["3fdd95e5d3ce"],
+                  "text": "Frankreich",
+                  "_key": "3934d188bb1f"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". Ich habe es aus Spaß gemacht, um zu lernen, wie man Datenvisualisierungen erstellt und um die politische Geschichte Frankreichs besser zu verstehen.",
+                  "_key": "0a305f338e5f"
                 }
               ],
               "markDefs": [
                 {
-                  "_key": "2dc23619c9e5",
+                  "_key": "b21080174204",
                   "_type": "link",
                   "href": "https://mastodon.social/@tomfevrier/112751171765233201"
                 },
                 {
-                  "_key": "8c1218cc5386",
+                  "_key": "e337918ee3f4",
                   "_type": "link",
                   "href": "https://www.bloomberg.com/graphics/2024-french-election-results/"
+                },
+                {
+                  "_key": "3fdd95e5d3ce",
+                  "_type": "link",
+                  "href": "/de/france/"
                 }
               ],
               "_type": "block",
               "style": "normal"
             },
             {
-              "_key": "80e38e56115d",
+              "_key": "0e921c233aaa",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Dann habe ich das Prinzip auf andere Länder ausgeweitet, wie hier auf Deutschland.",
+                  "_key": "a9035696142d"
+                }
+              ],
+              "markDefs": [],
+              "_type": "block",
+              "style": "normal"
+            },
+            {
+              "_key": "d4bed45593aa",
               "children": [
                 {
                   "_type": "span",
                   "marks": [],
                   "text": "Ich hoffe, dass Ihnen die Lektüre ebenso viel Freude bereitet wie dass sie Ihnen Wissen und Perspektiven vermittelt. Wenn Sie Fehler, Ungenauigkeiten oder Auslassungen feststellen oder Vorschläge haben, zögern Sie bitte nicht, ",
-                  "_key": "56fe21ac633b"
+                  "_key": "3e122dcc3877"
                 },
                 {
                   "_type": "span",
-                  "marks": ["c304ccd06f59"],
+                  "marks": ["f2c3af3ef735"],
                   "text": "mich zu kontaktieren",
-                  "_key": "6233f8d17066"
+                  "_key": "0f30ed3257b5"
                 },
                 {
                   "_type": "span",
                   "marks": [],
                   "text": ". Ich bin weder Historiker noch Politikexperte und dies ist mein erstes Datenvisualisierungsprojekt. Ich bin daher für jede konstruktive Kritik sowohl zum Inhalt als auch zum Code offen.",
-                  "_key": "b85a6fd05e9a"
+                  "_key": "6753bca42cca"
                 }
               ],
               "markDefs": [
                 {
-                  "_key": "c304ccd06f59",
+                  "_key": "f2c3af3ef735",
                   "_type": "link",
                   "href": "mailto:legislaturesfr@gmail.com"
                 }
@@ -593,7 +602,7 @@
                 {
                   "_type": "span",
                   "marks": ["em", "30fe972d1d35"],
-                  "text": "Liste des législatures françaises",
+                  "text": "Bundestag",
                   "_key": "f4e1a14b6cde"
                 },
                 {
@@ -636,7 +645,7 @@
                 {
                   "_key": "30fe972d1d35",
                   "_type": "link",
-                  "href": "http://fr.wikipedia.org/wiki/Liste_des_l%C3%A9gislatures_fran%C3%A7aises"
+                  "href": "https://fr.wikipedia.org/wiki/Bundestag#Historique_des_l%C3%A9gislatures"
                 },
                 {
                   "_key": "eaeaa3fd3721",
@@ -646,7 +655,7 @@
                 {
                   "_key": "ca60d6561d3c",
                   "_type": "link",
-                  "href": "http://fr.wikipedia.org/w/index.php?title=Liste_des_l%C3%A9gislatures_fran%C3%A7aises&action=history"
+                  "href": "http://fr.wikipedia.org/w/index.php?title=Bundestag&action=history"
                 }
               ],
               "_type": "block",
@@ -686,7 +695,7 @@
                 {
                   "_type": "span",
                   "marks": ["em", "47d441a5f282"],
-                  "text": "Liste des législatures françaises",
+                  "text": "Bundestag",
                   "_key": "0e89cd653de6"
                 },
                 {
@@ -729,7 +738,7 @@
                 {
                   "_key": "47d441a5f282",
                   "_type": "link",
-                  "href": "http://fr.wikipedia.org/wiki/Liste_des_l%C3%A9gislatures_fran%C3%A7aises"
+                  "href": "https://fr.wikipedia.org/wiki/Bundestag"
                 },
                 {
                   "_key": "d27aa0f60893",
@@ -739,7 +748,7 @@
                 {
                   "_key": "5b4ca4bda0b7",
                   "_type": "link",
-                  "href": "http://fr.wikipedia.org/w/index.php?title=Liste_des_l%C3%A9gislatures_fran%C3%A7aises&action=history"
+                  "href": "http://fr.wikipedia.org/w/index.php?title=Bundestag&action=history"
                 }
               ],
               "_type": "block",
@@ -779,7 +788,7 @@
                 {
                   "_type": "span",
                   "marks": ["54d5e4ed2e1f", "em"],
-                  "text": "Liste des législatures françaises",
+                  "text": "Bundestag",
                   "_key": "cbb923c9d7d7"
                 },
                 {
@@ -822,7 +831,7 @@
                 {
                   "_key": "54d5e4ed2e1f",
                   "_type": "link",
-                  "href": "http://fr.wikipedia.org/wiki/Liste_des_l%C3%A9gislatures_fran%C3%A7aises"
+                  "href": "https://fr.wikipedia.org/wiki/Bundestag"
                 },
                 {
                   "_key": "aa07dde21fab",
@@ -832,7 +841,7 @@
                 {
                   "_key": "f9ded076240f",
                   "_type": "link",
-                  "href": "http://fr.wikipedia.org/w/index.php?title=Liste_des_l%C3%A9gislatures_fran%C3%A7aises&action=history"
+                  "href": "http://fr.wikipedia.org/w/index.php?title=Bundestag&action=history"
                 }
               ],
               "_type": "block",

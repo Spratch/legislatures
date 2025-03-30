@@ -14,7 +14,7 @@ export default function LangSelector({ setLanguage, ...props }: SelectorProps) {
   return (
     <Popover
       {...props}
-      className="p-1.5 rounded-xl bg-white shadow-md z-30 border border-black/10 hover:border-black/20 transition-color text-nowrap select-none ring-0"
+      className="p-1.5 rounded-xl bg-white shadow-md z-30 border border-black/20 transition-color text-nowrap select-none ring-0"
     >
       <Menu className="flex flex-col outline-none gap-1">
         {Object.entries(LocaleEnum).map(([key, value]) => {
@@ -23,7 +23,7 @@ export default function LangSelector({ setLanguage, ...props }: SelectorProps) {
             <MenuItem
               key={key}
               onAction={() => setLanguage(key as keyof typeof LocaleEnum)}
-              className={`px-2.5 rounded-md py-0.5 focus:bg-blue-400/10 focus:outline-none flex justify-between items-center gap-5 ${
+              className={`px-2.5 rounded-md py-0.5 focus:bg-black/30 focus:text-white focus:outline-none flex justify-between items-center gap-5 ${
                 isCurrentLang ? "" : "cursor-pointer"
               }`}
               isDisabled={isCurrentLang}

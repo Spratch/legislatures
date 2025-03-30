@@ -10,12 +10,25 @@ import { useCountryDataContext } from "../utils/contexts/countryContext";
 import { getLangKey } from "../utils/getLangKey";
 import { PortableText } from "@portabletext/react";
 import portableTextComponents from "./portableText";
+import { MenuTrigger } from "react-aria-components";
+import SettingsButton from "./settingsButton";
+import { EarthGlobeIcon } from "@sanity/icons";
+import LangSelector from "./langSelector";
+import { LocaleEnum } from "@/types/langsEnum";
 
 type Props = {
   setInfosVisibility: (value: boolean) => void;
+  isSelectorOpen: boolean;
+  setSelectorOpen: (selectorOpen: boolean) => void;
+  setLanguage: (lang: keyof typeof LocaleEnum) => void;
 };
 
-export default function InfosModal({ setInfosVisibility }: Props) {
+export default function InfosModal({
+  setInfosVisibility,
+  isSelectorOpen,
+  setSelectorOpen,
+  setLanguage
+}: Props) {
   const dictionary = useDictionary();
   const lang = dictionary.locale.lang;
   const dict = dictionary.infosModal;
@@ -54,7 +67,23 @@ export default function InfosModal({ setInfosVisibility }: Props) {
         className="bg-white h-full w-full rounded-2xl shadow-lg max-w-screen-xl mx-auto relative overflow-y-scroll"
         role="popover"
       >
-        <div className="sticky top-0 flex justify-end w-full p-4 gap-3 bg-gradient-to-b from-white z-50">
+        <div className="sticky top-0 flex justify-end w-full p-4 gap-2 bg-gradient-to-b from-white z-50">
+          {/* Lang button */}
+          <MenuTrigger
+            isOpen={isSelectorOpen}
+            onOpenChange={setSelectorOpen}
+          >
+            <SettingsButton
+              Icon={EarthGlobeIcon}
+              label={dict.changeLang}
+              position={{ x: "right", y: "top" }}
+              onClick={() => setSelectorOpen(true)}
+              kbd="l"
+            />
+            <LangSelector setLanguage={setLanguage} />
+          </MenuTrigger>
+
+          {/* Github button */}
           <div className="bg-white rounded-full">
             <Link
               className="size-9 bg-black/5 hover:bg-black/10 rounded-full flex items-center justify-center cursor-pointer text-black/50 hover:text-black transition-all"
@@ -66,6 +95,7 @@ export default function InfosModal({ setInfosVisibility }: Props) {
             </Link>
           </div>
 
+          {/* Close button */}
           <IconButton
             Icon={Cross1Icon}
             label={dict.close}

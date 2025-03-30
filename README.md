@@ -1,15 +1,15 @@
-# French Legislatures Visualization
+# Legislatures Visualization
 
-An interactive visualization tool tracking the composition and evolution of French legislative assemblies through time.
+An interactive visualization tool tracking the composition and evolution of some countries legislative assemblies through time.
 [See it live.](https://legislatures.vercel.app/)
 
 ## Overview
 
-This project aims to provide a clear and interactive visualization of how French legislative assemblies have evolved, showing political parties, coalitions, and their relative strength over different periods.
+This project aims to provide a clear and interactive visualization of how legislative assemblies have evolved, showing political parties, coalitions, and their relative strength over different periods.
 
 ## Features
 
-- Interactive timeline of French legislatures
+- Interactive timeline of legislatures
 - Political party visualization with proportional representation
 - Contextual timeline aside the main visualization
 - Detailed information about parties and political movements
@@ -33,7 +33,7 @@ This project aims to provide a clear and interactive visualization of how French
 ```
 legislatures/
 ├── app/                   # Next.js app directory
-│   └── api/               # Wikipédia api service
+│   └── api/               # Wikipedia api service
 ├── components/
 │   ├── appUi/             # UI components
 │   ├── chart/             # Visualization components
@@ -118,7 +118,7 @@ In `republics.json`, give the id (`name`), and the temporary datas:
 In `currents.json`, the id (`name`) associate the party with a current and its datas, but also with the party untemporal datas:
 
 - Full name
-- Keyword (Wikipédia article name)
+- Keyword (Wikipedia article name)
 
 Each entity requires specific mandatory fields (refer to TypeScript types).
 
