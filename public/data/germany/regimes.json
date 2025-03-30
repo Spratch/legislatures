@@ -626,6 +626,10 @@
             "deputes": 153
           },
           {
+            "name": "SSW",
+            "deputes": 0
+          },
+          {
             "name": "FDP",
             "deputes": 80
           },
@@ -662,6 +666,10 @@
             "deputes": 206
           },
           {
+            "name": "SSW",
+            "deputes": 1
+          },
+          {
             "name": "FDP",
             "deputes": 92
           },
@@ -696,6 +704,10 @@
           {
             "name": "SPD",
             "deputes": 120
+          },
+          {
+            "name": "SSW",
+            "deputes": 1
           },
           {
             "name": "FDP",
