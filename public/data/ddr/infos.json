@@ -1,0 +1,855 @@
+{
+  "sections": [
+    {
+      "id": "section_0",
+      "strings": [
+        {
+          "title_light": "Entre crises et revendications",
+          "title_light_en": "Between crises and claims",
+          "title_light_de": "Zwischen Krisen und Anforderungen"
+        },
+        {
+          "title_main": "Les évolutions des courants politiques au sein du Bundestag",
+          "title_main_en": "The evolutions of political currents within the Bundestag",
+          "title_main_de": "Die Entwicklungen der politischen Strömungen innerhalb der Deutscher Bundestag"
+        },
+        {
+          "intro": "Ceci est une représentation visuelle des résultats des élections législatives en République fédérale d'Allemagne depuis 1949.",
+          "intro_en": "This is a visual representation of the results of legislative elections in the Federal Republic of Germany since 1949.",
+          "intro_de": "Dies ist eine visuelle Darstellung der Ergebnisse der Parlamentswahlen in der Bundesrepublik Deutschland seit 1949."
+        }
+      ]
+    },
+    {
+      "id": "section_1",
+      "articles": [
+        {
+          "portable_text": [
+            {
+              "_key": "9467c45f03e5",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Cette visualisation a été réalisée à partir de données de sources variées, mais principalement depuis la liste des législatures du Bundestag sur ",
+                  "_key": "9005b0d47612"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["84f1e3f2aab8"],
+                  "text": "Wikipédia",
+                  "_key": "abcabd322d19"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ".",
+                  "_key": "dc5dca1b0dfc"
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "84f1e3f2aab8",
+                  "_type": "link",
+                  "href": "https://fr.wikipedia.org/wiki/Bundestag#Historique_des_l%C3%A9gislatures"
+                }
+              ],
+              "_type": "block",
+              "style": "normal"
+            },
+            {
+              "_key": "81153f46f076",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Ce site propose une vision synthétique, et donc incomplète quant aux contextes entourant chaque élection.",
+                  "_key": "3a1081192a6a"
+                }
+              ],
+              "markDefs": [],
+              "_type": "block",
+              "style": "normal"
+            }
+          ],
+          "portable_text_en": [
+            {
+              "_key": "9467c45f03e5",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "This visualization was created using data from various sources, but mainly from the list of Bundestag legislatures on ",
+                  "_key": "e245cde3bf98"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["84f1e3f2aab8"],
+                  "text": "Wikipédia",
+                  "_key": "abcabd322d19"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ".",
+                  "_key": "dc5dca1b0dfc"
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "84f1e3f2aab8",
+                  "_type": "link",
+                  "href": "https://fr.wikipedia.org/wiki/Bundestag#Historique_des_l%C3%A9gislatures"
+                }
+              ],
+              "_type": "block",
+              "style": "normal"
+            },
+            {
+              "_key": "81153f46f076",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "This site offers a synthetic, and therefore incomplete, view of the contexts surrounding each election.",
+                  "_key": "3a1081192a6a"
+                }
+              ],
+              "markDefs": [],
+              "_type": "block",
+              "style": "normal"
+            }
+          ],
+          "portable_text_de": [
+            {
+              "_key": "9467c45f03e5",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Diese Visualisierung wurde unter Verwendung von Daten aus verschiedenen Quellen erstellt, hauptsächlich jedoch aus der Liste der Bundestagsparlamente auf ",
+                  "_key": "266370a71a12"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["84f1e3f2aab8"],
+                  "text": "Wikipédia",
+                  "_key": "abcabd322d19"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ".",
+                  "_key": "dc5dca1b0dfc"
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "84f1e3f2aab8",
+                  "_type": "link",
+                  "href": "https://fr.wikipedia.org/wiki/Bundestag#Historique_des_l%C3%A9gislatures"
+                }
+              ],
+              "_type": "block",
+              "style": "normal"
+            },
+            {
+              "_key": "81153f46f076",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Diese Site bietet einen synthetischen und daher unvollständigen Überblick über die Kontexte jeder Wahl.",
+                  "_key": "3a1081192a6a"
+                }
+              ],
+              "markDefs": [],
+              "_type": "block",
+              "style": "normal"
+            }
+          ]
+        },
+        {
+          "portable_text": [
+            {
+              "_key": "3258a74b8fe3",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Cependant, des événements marquants sont placés en marge du graphique principal pour contextualiser d’avantage les résultats. Ces choix ne prétendent pas à l’exhaustivité et peuvent gagner en pertinence. Vos retours sont les bienvenus.",
+                  "_key": "d50aaac5a42e"
+                }
+              ],
+              "markDefs": [],
+              "_type": "block",
+              "style": "normal"
+            }
+          ],
+          "portable_text_en": [
+            {
+              "_key": "3258a74b8fe3",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "However, significant events are placed on the margins of the main graph to further contextualize the results. These choices do not claim to be exhaustive and may gain in relevance. Your feedback is welcome.",
+                  "_key": "d50aaac5a42e"
+                }
+              ],
+              "markDefs": [],
+              "_type": "block",
+              "style": "normal"
+            }
+          ],
+          "portable_text_de": [
+            {
+              "_key": "3258a74b8fe3",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Bemerkenswerte Ereignisse werden jedoch an den Rändern des Hauptdiagramms platziert, um die Ergebnisse weiter in einen Kontext zu setzen. Diese Auswahl erhebt keinen Anspruch auf Vollständigkeit und kann an Relevanz gewinnen. Ihr Feedback ist willkommen.",
+                  "_key": "d50aaac5a42e"
+                }
+              ],
+              "markDefs": [],
+              "_type": "block",
+              "style": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section_2",
+      "articles": [
+        {
+          "portable_text": [
+            {
+              "_key": "afa6152d1824",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Ce graphique est inspiré du superbe travail de ",
+                  "_key": "3dee2ac6c32f"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["a1b99071aafb"],
+                  "text": "Tom Février et Marie Patino",
+                  "_key": "c22a0c71078b"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": " pour ",
+                  "_key": "1a81996bc2a1"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["d4404069eb50"],
+                  "text": "cet article de Bloomberg",
+                  "_key": "bd5152c5d2cf"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". En le découvrant, j’aurais aimé pouvoir l’étendre jusqu’à la révolution de 1789. C’est donc ce que j’ai fait, d’abord avec la ",
+                  "_key": "2aef85925967"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["c010c3fcfe76"],
+                  "text": "France",
+                  "_key": "cfb789d84d9f"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". Je l’ai fait pour le plaisir, pour apprendre à créer des visualisations de données, et pour mieux comprendre l’histoire politique de la France.",
+                  "_key": "e34404e52ee3"
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "a1b99071aafb",
+                  "_type": "link",
+                  "href": "https://mastodon.social/@tomfevrier/112751171765233201"
+                },
+                {
+                  "_key": "d4404069eb50",
+                  "_type": "link",
+                  "href": "https://www.bloomberg.com/graphics/2024-french-election-results/"
+                },
+                {
+                  "_key": "c010c3fcfe76",
+                  "_type": "link",
+                  "href": "/fr/france/"
+                }
+              ],
+              "_type": "block",
+              "style": "normal"
+            },
+            {
+              "_key": "927de6f1fa25",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Puis j’ai étendu le principe à d’autres pays, comme ici avec l’Allemagne.",
+                  "_key": "2551d808ab44"
+                }
+              ],
+              "markDefs": [],
+              "_type": "block",
+              "style": "normal"
+            },
+            {
+              "_key": "884eb941ca6b",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "J’espère que vous prendrez autant de plaisir à le consulter, qu’il vous apportera connaissances ou mises en perspectives. Si vous y rencontrez des erreurs, des imprécisions, des oublis, ou si vous avez des suggestions, ",
+                  "_key": "ffef21f4b461"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["70e44fd3d944"],
+                  "text": "n’hésitez pas à me contacter",
+                  "_key": "c497df664315"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". Je ne suis ni historien, ni expert en politique, et c’est mon premier projet de visualisation de données. Je suis donc ouvert à toute critique constructive, tant sur le contenu que sur le code.",
+                  "_key": "fd88c63396b5"
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "70e44fd3d944",
+                  "_type": "link",
+                  "href": "mailto:legislaturesfr@gmail.com"
+                }
+              ],
+              "_type": "block",
+              "style": "normal"
+            }
+          ],
+          "portable_text_en": [
+            {
+              "_key": "79928c66e400",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "This chart is inspired by the great work of ",
+                  "_key": "498bd6c46cce"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["6226e623a6da"],
+                  "text": "Tom Février and Marie Patino",
+                  "_key": "2fe004795b51"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": " for ",
+                  "_key": "f6a9c8c2af86"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["68e608ee1fbb"],
+                  "text": "this Bloomberg article",
+                  "_key": "bea09ca86f0b"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". When I discovered it, I wished I could extend it to the revolution of 1789. So that’s what I did, first with ",
+                  "_key": "5fffae20e4d3"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["01f2bdbc3072"],
+                  "text": "France",
+                  "_key": "347e1d037213"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". I did it for fun, to learn how to create data visualizations, and to better understand the political history of France.",
+                  "_key": "ceb47aca6ae7"
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "6226e623a6da",
+                  "_type": "link",
+                  "href": "https://mastodon.social/@tomfevrier/112751171765233201"
+                },
+                {
+                  "_key": "68e608ee1fbb",
+                  "_type": "link",
+                  "href": "https://www.bloomberg.com/graphics/2024-french-election-results/"
+                },
+                {
+                  "_key": "01f2bdbc3072",
+                  "_type": "link",
+                  "href": "/en/france/"
+                }
+              ],
+              "_type": "block",
+              "style": "normal"
+            },
+            {
+              "_key": "2fd14e2dc07a",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Then I extended the principle to other countries, like here with Germany.",
+                  "_key": "d9a579fe1819"
+                }
+              ],
+              "markDefs": [],
+              "_type": "block",
+              "style": "normal"
+            },
+            {
+              "_key": "69508a109f8b",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "I hope you will enjoy reading it as much as it will bring you knowledge or perspective. If you find any errors, inaccuracies, omissions, or if you have any suggestions, ",
+                  "_key": "f75afbbfa643"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["48544e09806c"],
+                  "text": "please do not hesitate to contact me",
+                  "_key": "c0e3e372ebc6"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". I am neither a historian nor a political expert, and this is my first data visualization project, so I am open to constructive criticism, both on the content and the code.",
+                  "_key": "9392ada06c7f"
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "48544e09806c",
+                  "_type": "link",
+                  "href": "mailto:legislaturesfr@gmail.com"
+                }
+              ],
+              "_type": "block",
+              "style": "normal"
+            }
+          ],
+          "portable_text_de": [
+            {
+              "_key": "abede41fe98a",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Dieses Diagramm ist von der hervorragenden Arbeit von ",
+                  "_key": "a75e33d556da"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["b21080174204"],
+                  "text": "Tom Février und Marie Patino",
+                  "_key": "5ad1507e8f53"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": " für ",
+                  "_key": "fbba26da427e"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["e337918ee3f4"],
+                  "text": "diesen Bloomberg-Artikel",
+                  "_key": "094c680ab41b"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". Als ich es entdeckte, hätte ich es gern bis zur Revolution von 1789 ausdehnen können. Also habe ich das gemacht, zuerst mit ",
+                  "_key": "f26e2149e63c"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["3fdd95e5d3ce"],
+                  "text": "Frankreich",
+                  "_key": "3934d188bb1f"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". Ich habe es aus Spaß gemacht, um zu lernen, wie man Datenvisualisierungen erstellt und um die politische Geschichte Frankreichs besser zu verstehen.",
+                  "_key": "0a305f338e5f"
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "b21080174204",
+                  "_type": "link",
+                  "href": "https://mastodon.social/@tomfevrier/112751171765233201"
+                },
+                {
+                  "_key": "e337918ee3f4",
+                  "_type": "link",
+                  "href": "https://www.bloomberg.com/graphics/2024-french-election-results/"
+                },
+                {
+                  "_key": "3fdd95e5d3ce",
+                  "_type": "link",
+                  "href": "/de/france/"
+                }
+              ],
+              "_type": "block",
+              "style": "normal"
+            },
+            {
+              "_key": "0e921c233aaa",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Dann habe ich das Prinzip auf andere Länder ausgeweitet, wie hier auf Deutschland.",
+                  "_key": "a9035696142d"
+                }
+              ],
+              "markDefs": [],
+              "_type": "block",
+              "style": "normal"
+            },
+            {
+              "_key": "d4bed45593aa",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Ich hoffe, dass Ihnen die Lektüre ebenso viel Freude bereitet wie dass sie Ihnen Wissen und Perspektiven vermittelt. Wenn Sie Fehler, Ungenauigkeiten oder Auslassungen feststellen oder Vorschläge haben, zögern Sie bitte nicht, ",
+                  "_key": "3e122dcc3877"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["f2c3af3ef735"],
+                  "text": "mich zu kontaktieren",
+                  "_key": "0f30ed3257b5"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". Ich bin weder Historiker noch Politikexperte und dies ist mein erstes Datenvisualisierungsprojekt. Ich bin daher für jede konstruktive Kritik sowohl zum Inhalt als auch zum Code offen.",
+                  "_key": "6753bca42cca"
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "f2c3af3ef735",
+                  "_type": "link",
+                  "href": "mailto:legislaturesfr@gmail.com"
+                }
+              ],
+              "_type": "block",
+              "style": "normal"
+            }
+          ]
+        },
+        {
+          "portable_text": [
+            {
+              "_key": "466063edffce",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Je remercie également toutes les personnes qui m’ont apporté données, explications, retours et soutien.",
+                  "_key": "7df2c7e7e095"
+                }
+              ],
+              "markDefs": [],
+              "_type": "block",
+              "style": "normal"
+            },
+            {
+              "_key": "ec2ca12a6eb7",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": ["4e132e2f5fe0"],
+                  "text": "Contenu soumis à la licence CC-BY-SA 4.0",
+                  "_key": "00caaca9fa99"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". Source : Article ",
+                  "_key": "4eb8f263a1cf"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["em", "30fe972d1d35"],
+                  "text": "Bundestag",
+                  "_key": "f4e1a14b6cde"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": " de ",
+                  "_key": "216dce264101"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["eaeaa3fd3721"],
+                  "text": "Wikipédia en français",
+                  "_key": "ed8058d8433b"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": " (",
+                  "_key": "17ec98114b97"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["ca60d6561d3c"],
+                  "text": "auteurs",
+                  "_key": "2aac0d4cb846"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ")",
+                  "_key": "d89617fe4818"
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "4e132e2f5fe0",
+                  "_type": "link",
+                  "href": "https://creativecommons.org/licenses/by-sa/4.0/deed.fr"
+                },
+                {
+                  "_key": "30fe972d1d35",
+                  "_type": "link",
+                  "href": "https://fr.wikipedia.org/wiki/Bundestag#Historique_des_l%C3%A9gislatures"
+                },
+                {
+                  "_key": "eaeaa3fd3721",
+                  "_type": "link",
+                  "href": "https://fr.wikipedia.org/"
+                },
+                {
+                  "_key": "ca60d6561d3c",
+                  "_type": "link",
+                  "href": "http://fr.wikipedia.org/w/index.php?title=Bundestag&action=history"
+                }
+              ],
+              "_type": "block",
+              "style": "lastParagraph"
+            }
+          ],
+          "portable_text_en": [
+            {
+              "_key": "d18de0bc9af9",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "I also thank all the people who provided me with data, explanations, feedback and support.",
+                  "_key": "93c2343b0f8d"
+                }
+              ],
+              "markDefs": [],
+              "_type": "block",
+              "style": "normal"
+            },
+            {
+              "_key": "e40eb7f9d15b",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": ["18d49ba42aa3"],
+                  "text": "Content licensed under CC-BY-SA 4.0",
+                  "_key": "6d583e394a73"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". Source : Article ",
+                  "_key": "34ae3e9ae2d4"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["em", "47d441a5f282"],
+                  "text": "Bundestag",
+                  "_key": "0e89cd653de6"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": " from ",
+                  "_key": "847c6e705d6d"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["d27aa0f60893"],
+                  "text": "Wikipedia in french",
+                  "_key": "5053a7d25296"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": " (",
+                  "_key": "db04af1f678c"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["5b4ca4bda0b7"],
+                  "text": "authors",
+                  "_key": "e52c27a7e25f"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ")",
+                  "_key": "ee1fb7085a5b"
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "18d49ba42aa3",
+                  "_type": "link",
+                  "href": "https://creativecommons.org/licenses/by-sa/4.0/deed.fr"
+                },
+                {
+                  "_key": "47d441a5f282",
+                  "_type": "link",
+                  "href": "https://fr.wikipedia.org/wiki/Bundestag"
+                },
+                {
+                  "_key": "d27aa0f60893",
+                  "_type": "link",
+                  "href": "https://fr.wikipedia.org/"
+                },
+                {
+                  "_key": "5b4ca4bda0b7",
+                  "_type": "link",
+                  "href": "http://fr.wikipedia.org/w/index.php?title=Bundestag&action=history"
+                }
+              ],
+              "_type": "block",
+              "style": "lastParagraph"
+            }
+          ],
+          "portable_text_de": [
+            {
+              "_key": "875ec4544af7",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Außerdem danke ich allen Menschen, die mir Daten, Erklärungen, Feedback und Unterstützung zur Verfügung gestellt haben.",
+                  "_key": "ffcd9d148386"
+                }
+              ],
+              "markDefs": [],
+              "_type": "block",
+              "style": "normal"
+            },
+            {
+              "_key": "0db74af3effd",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": ["42b900671733"],
+                  "text": "Inhalt lizenziert unter CC-BY-SA 4.0",
+                  "_key": "748571ff91c6"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". Quelle: Artikel ",
+                  "_key": "67732e4588de"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["54d5e4ed2e1f", "em"],
+                  "text": "Bundestag",
+                  "_key": "cbb923c9d7d7"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": " aus der ",
+                  "_key": "036613f6ec14"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["aa07dde21fab"],
+                  "text": "französischen Wikipedia",
+                  "_key": "661656ff8b2a"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": " (",
+                  "_key": "6109ed73b8ce"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["f9ded076240f"],
+                  "text": "Autoren",
+                  "_key": "6c837aca1987"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ")",
+                  "_key": "22e5aec344a9"
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "42b900671733",
+                  "_type": "link",
+                  "href": "https://creativecommons.org/licenses/by-sa/4.0/deed.fr"
+                },
+                {
+                  "_key": "54d5e4ed2e1f",
+                  "_type": "link",
+                  "href": "https://fr.wikipedia.org/wiki/Bundestag"
+                },
+                {
+                  "_key": "aa07dde21fab",
+                  "_type": "link",
+                  "href": "https://fr.wikipedia.org/"
+                },
+                {
+                  "_key": "f9ded076240f",
+                  "_type": "link",
+                  "href": "http://fr.wikipedia.org/w/index.php?title=Bundestag&action=history"
+                }
+              ],
+              "_type": "block",
+              "style": "lastParagraph"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

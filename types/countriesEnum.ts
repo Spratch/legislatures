@@ -1,4 +1,5 @@
 export enum CountryEnum {
   "france" = "France",
-  "germany" = "Germany"
+  "germany" = "Germany",
+  "ddr" = "DDR"
 }

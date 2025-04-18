@@ -1,0 +1,749 @@
+[
+  {
+    "name": "République féderale",
+    "name_de": "Bundesrepublik",
+    "name_en": "Federal Republic",
+    "begin": "1949-05-23",
+    "legislatures": [
+      {
+        "legislature": 1949,
+        "total_deputes": 315,
+        "duration": 1,
+        "begin": "1949-05-07",
+        "end": "1950-10-15",
+        "parties": [
+          {
+            "name": "SED",
+            "deputes": 90,
+            "coalition": "Demokratischer Block"
+          },
+          {
+            "name": "FDGB",
+            "deputes": 30,
+            "coalition": "Demokratischer Block"
+          },
+          {
+            "name": "DBD",
+            "deputes": 15,
+            "coalition": "Demokratischer Block"
+          },
+          {
+            "name": "VdgB",
+            "deputes": 0,
+            "coalition": "Demokratischer Block"
+          },
+          {
+            "name": "FDJ",
+            "deputes": 10,
+            "coalition": "Demokratischer Block"
+          },
+          {
+            "name": "DFD",
+            "deputes": 10,
+            "coalition": "Demokratischer Block"
+          },
+          {
+            "name": "KB",
+            "deputes": 10,
+            "coalition": "Demokratischer Block"
+          },
+          {
+            "name": "VVN",
+            "deputes": 10,
+            "coalition": "Demokratischer Block"
+          },
+          {
+            "name": "Autres",
+            "deputes": 35,
+            "coalition": "Demokratischer Block"
+          },
+          {
+            "name": "CDU",
+            "deputes": 45,
+            "coalition": "Demokratischer Block"
+          },
+          {
+            "name": "LDP",
+            "deputes": 45,
+            "coalition": "Demokratischer Block"
+          },
+          {
+            "name": "NDPD",
+            "deputes": 15,
+            "coalition": "Demokratischer Block"
+          }
+        ],
+        "source": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_est-allemandes_de_1949"
+        ]
+      },
+      {
+        "legislature": 1950,
+        "total_deputes": 460,
+        "duration": 4,
+        "begin": "1950-10-15",
+        "end": "1954-10-17",
+        "parties": [
+          {
+            "name": "SED",
+            "deputes": 110,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "FDGB",
+            "deputes": 49,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "DBD",
+            "deputes": 33,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "VdgB",
+            "deputes": 12,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "FDJ",
+            "deputes": 25,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "DFD",
+            "deputes": 20,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "KB",
+            "deputes": 24,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "VVN",
+            "deputes": 19,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "Autres",
+            "deputes": 0,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "CDU",
+            "deputes": 67,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "LDP",
+            "deputes": 66,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "NDPD",
+            "deputes": 35,
+            "coalition": "Nationale Front"
+          }
+        ],
+        "source": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_est-allemandes_de_1950"
+        ]
+      },
+      {
+        "legislature": 1954,
+        "total_deputes": 466,
+        "duration": 4,
+        "begin": "1954-10-17",
+        "end": "1958-11-16",
+        "parties": [
+          {
+            "name": "SED",
+            "deputes": 117,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "FDGB",
+            "deputes": 53,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "DBD",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "VdgB",
+            "deputes": 12,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "FDJ",
+            "deputes": 29,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "DFD",
+            "deputes": 29,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "KB",
+            "deputes": 18,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "VVN",
+            "deputes": 0,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "Autres",
+            "deputes": 0,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "CDU",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "LDPD",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "NDPD",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1954_East_German_general_election"
+        ]
+      },
+      {
+        "legislature": 1958,
+        "total_deputes": 466,
+        "duration": 5,
+        "begin": "1958-11-16",
+        "end": "1963-10-20",
+        "parties": [
+          {
+            "name": "SED",
+            "deputes": 117,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "FDGB",
+            "deputes": 53,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "DBD",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "VdgB",
+            "deputes": 12,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "FDJ",
+            "deputes": 29,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "DFD",
+            "deputes": 29,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "DKB",
+            "deputes": 18,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "CDU",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "LDPD",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "NDPD",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1958_East_German_general_election"
+        ]
+      },
+      {
+        "legislature": 1963,
+        "total_deputes": 500,
+        "duration": 4,
+        "begin": "1963-10-20",
+        "end": "1967-07-02",
+        "parties": [
+          {
+            "name": "SED",
+            "deputes": 127,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "FDGB",
+            "deputes": 68,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "DBD",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "VdgB",
+            "deputes": 0,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "FDJ",
+            "deputes": 40,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "DFD",
+            "deputes": 35,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "DKB",
+            "deputes": 22,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "CDU",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "LDPD",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "NDPD",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1963_East_German_general_election"
+        ]
+      },
+      {
+        "legislature": 1967,
+        "total_deputes": 500,
+        "duration": 4,
+        "begin": "1967-07-02",
+        "end": "1971-11-14",
+        "parties": [
+          {
+            "name": "SED",
+            "deputes": 127,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "FDGB",
+            "deputes": 68,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "DBD",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "FDJ",
+            "deputes": 40,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "DFD",
+            "deputes": 35,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "DKB",
+            "deputes": 22,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "CDU",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "LDPD",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "NDPD",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1967_East_German_general_election"
+        ]
+      },
+      {
+        "legislature": 1971,
+        "total_deputes": 500,
+        "duration": 5,
+        "begin": "1971-11-14",
+        "end": "1976-10-17",
+        "parties": [
+          {
+            "name": "SED",
+            "deputes": 127,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "FDGB",
+            "deputes": 68,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "DBD",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "FDJ",
+            "deputes": 40,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "DFD",
+            "deputes": 35,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "DKB",
+            "deputes": 22,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "CDU",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "LDPD",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "NDPD",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1971_East_German_general_election"
+        ]
+      },
+      {
+        "legislature": 1976,
+        "total_deputes": 500,
+        "duration": 5,
+        "begin": "1976-10-17",
+        "end": "1981-06-14",
+        "parties": [
+          {
+            "name": "SED",
+            "deputes": 127,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "FDGB",
+            "deputes": 68,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "DBD",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "FDJ",
+            "deputes": 40,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "DFD",
+            "deputes": 35,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "DKB",
+            "deputes": 22,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "CDU",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "LDPD",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "NDPD",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1976_East_German_general_election"
+        ]
+      },
+      {
+        "legislature": 1981,
+        "total_deputes": 500,
+        "duration": 5,
+        "begin": "1981-06-14",
+        "end": "1986-06-08",
+        "parties": [
+          {
+            "name": "SED",
+            "deputes": 127,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "FDGB",
+            "deputes": 68,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "DBD",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "VdgB",
+            "deputes": 0,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "FDJ",
+            "deputes": 40,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "DFD",
+            "deputes": 35,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "KB ",
+            "deputes": 22,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "CDU",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "LDPD",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "NDPD",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1981_East_German_general_election"
+        ]
+      },
+      {
+        "legislature": 1986,
+        "total_deputes": 500,
+        "duration": 4,
+        "begin": "1986-06-08",
+        "end": "1990-03-18",
+        "parties": [
+          {
+            "name": "VL",
+            "deputes": 0,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "SED",
+            "deputes": 127,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "FDGB",
+            "deputes": 61,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "B90",
+            "deputes": 0,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "Gr/UFV",
+            "deputes": 0,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "DBD",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "VdgB",
+            "deputes": 14,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "FDJ",
+            "deputes": 37,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "DFD",
+            "deputes": 32,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "KB ",
+            "deputes": 21,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "DA",
+            "deputes": 0,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "CDU",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "LDPD",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "DSU",
+            "deputes": 0,
+            "coalition": "Nationale Front"
+          },
+          {
+            "name": "NDPD",
+            "deputes": 52,
+            "coalition": "Nationale Front"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1986_East_German_general_election"
+        ]
+      },
+      {
+        "legislature": 1990,
+        "total_deputes": 400,
+        "duration": 1,
+        "begin": "1990-03-18",
+        "end": "now",
+        "parties": [
+          {
+            "name": "VL",
+            "deputes": 1
+          },
+          {
+            "name": "PDS",
+            "deputes": 66
+          },
+          {
+            "name": "FDGB",
+            "deputes": 0
+          },
+          {
+            "name": "SPD",
+            "deputes": 88
+          },
+          {
+            "name": "B90",
+            "deputes": 12
+          },
+          {
+            "name": "Gr/UFV",
+            "deputes": 8
+          },
+          {
+            "name": "DBD",
+            "deputes": 9
+          },
+          {
+            "name": "VdgB",
+            "deputes": 0
+          },
+          {
+            "name": "FDJ",
+            "deputes": 0
+          },
+          {
+            "name": "DFD",
+            "deputes": 1
+          },
+          {
+            "name": "KB ",
+            "deputes": 0
+          },
+          {
+            "name": "DA",
+            "deputes": 4,
+            "coalition": "Allianz für Deutschland"
+          },
+          {
+            "name": "CDU",
+            "deputes": 163,
+            "coalition": "Allianz für Deutschland"
+          },
+          {
+            "name": "BFD",
+            "deputes": 21
+          },
+          {
+            "name": "DSU",
+            "deputes": 25,
+            "coalition": "Allianz für Deutschland"
+          },
+          {
+            "name": "NDPD",
+            "deputes": 2
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1990_East_German_general_election"
+        ]
+      }
+    ]
+  }
+]
