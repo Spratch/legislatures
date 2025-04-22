@@ -1,9 +1,10 @@
 [
   {
-    "name": "République féderale",
-    "name_de": "Bundesrepublik",
-    "name_en": "Federal Republic",
-    "begin": "1949-05-23",
+    "name": "Zone d'occupation soviétique en Allemagne",
+    "name_de": "Sowjetische Besatzungszone",
+    "name_en": "Soviet occupation zone in Germany",
+    "begin": "1945-08-02",
+    "end": "1949-10-07",
     "legislatures": [
       {
         "legislature": 1949,
@@ -76,7 +77,15 @@
         "source": [
           "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_est-allemandes_de_1949"
         ]
-      },
+      }
+    ]
+  },
+  {
+    "name": "République démocratique allemande",
+    "name_de": "Deutsche Demokratische Republik",
+    "name_en": "German Democratic Republic",
+    "begin": "1949-10-07",
+    "legislatures": [
       {
         "legislature": 1950,
         "total_deputes": 460,
