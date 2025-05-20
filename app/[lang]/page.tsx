@@ -60,9 +60,7 @@ export default function Home() {
               <SettingsButton
                 Icon={ArrowLeftIcon}
                 onClick={() =>
-                  setOffset(
-                    (prev) => (prev - 1 + countries.length) % countries.length
-                  )
+                  setOffset((prev) => (prev + 1) % countries.length)
                 }
                 label={dict.previous}
                 position={{ x: "left", y: "bottom" }}
@@ -71,7 +69,9 @@ export default function Home() {
               <SettingsButton
                 Icon={ArrowRightIcon}
                 onClick={() =>
-                  setOffset((prev) => (prev + 1) % countries.length)
+                  setOffset(
+                    (prev) => (prev - 1 + countries.length) % countries.length
+                  )
                 }
                 label={dict.next}
                 position={{ x: "right", y: "bottom" }}
