@@ -1,0 +1,367 @@
+[
+  {
+    "name": "Gauche",
+    "name_en": "Left",
+    "name_de": "Linke",
+    "color": "#FF0E3A",
+    "currents": [
+      {
+        "name": "Socialiste autogestionnaire",
+        "name_en": "Socialist self-management",
+        "name_de": "Arbeiterselbstverwaltung",
+        "color": "#F00",
+        "keyword": "Socialisme autogestionnaire",
+        "parties": [
+          {
+            "name": "VL",
+            "full_name": "Gauche unie",
+            "full_name_en": "United Left",
+            "full_name_de": "Vereinigte Linke",
+            "keyword": "Vereinigte Linke (1989)"
+          }
+        ]
+      },
+      {
+        "name": "Communiste",
+        "name_en": "Communist",
+        "name_de": "Kommunist",
+        "color": "#A40C34",
+        "keyword": "Communisme",
+        "parties": [
+          {
+            "name": "SED",
+            "full_name": "Parti socialiste unifié d’Allemagne",
+            "full_name_en": "Socialist Unity Party of Germany",
+            "full_name_de": "Sozialistische Einheitspartei Deutschlands",
+            "keyword": "Parti socialiste unifié d'Allemagne",
+            "period": "1946-1989"
+          },
+          {
+            "name": "PDS",
+            "full_name": "Parti du socialisme démocratique",
+            "full_name_en": "Party of Democratic Socialism",
+            "full_name_de": "Partei des Demokratischen Sozialismus",
+            "keyword": "Parti du socialisme démocratique (Allemagne)",
+            "period": "1989-2005"
+          }
+        ]
+      },
+      {
+        "name": "Mouvement alternatif",
+        "name_en": "Alternative movement",
+        "name_de": "Alternativbewegung",
+        "color": "#86B34C",
+        "keyword": "Mouvement alternatif",
+        "parties": [
+          {
+            "name": "B90",
+            "full_name": "Alliance 90",
+            "full_name_en": "Alliance 90",
+            "full_name_de": "Bündnis 90",
+            "keyword": "Alliance 90"
+          }
+        ]
+      },
+      {
+        "name": "Écologiste",
+        "name_en": "Ecologist",
+        "name_de": "Ökologe",
+        "color": "#80C34E",
+        "keyword": "Écologie politique",
+        "parties": [
+          {
+            "name": "Gr/UFV",
+            "full_name": "Parti vert/Association indépendante des femmes",
+            "full_name_en": "Green Party/Independent Women's Association",
+            "full_name_de": "Grüne Partei/Unabhängige Frauenvereinigung",
+            "keyword": "Parti vert (RDA)"
+          }
+        ]
+      },
+      {
+        "name": "Socialiste agraire",
+        "name_en": "Agrarian socialist",
+        "name_de": "Agrarsozialist",
+        "color": "#56b34d",
+        "keyword": "Agrarisme",
+        "parties": [
+          {
+            "name": "DBD",
+            "full_name": "Parti paysan démocratique d'Allemagne",
+            "full_name_en": "Democratic Farmers' Party of Germany",
+            "full_name_de": "Demokratische Bauernpartei Deutschlands",
+            "keyword": "Parti paysan démocratique d'Allemagne"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Organisations de masse",
+    "name_en": "Mass organizations",
+    "name_de": "Massenorganisationen",
+    "color": "#FF6F00",
+    "currents": [
+      {
+        "name": "Syndicaliste",
+        "name_en": "Syndicalist",
+        "name_de": "Gewerkschaftler",
+        "color": "#C10F3D",
+        "keyword": "Syndicalisme",
+        "parties": [
+          {
+            "name": "FDGB",
+            "full_name": "Confédération des syndicats libres allemands",
+            "full_name_en": "Free German Trade Union Federation",
+            "full_name_de": "Freier Deutscher Gewerkschaftsbund",
+            "keyword": "Freier Deutscher Gewerkschaftsbund"
+          }
+        ]
+      },
+      {
+        "name": "Paysan",
+        "name_en": "Peasant",
+        "name_de": "Bauer",
+        "color": "#55A696",
+        "keyword": "Syndicat agricole",
+        "parties": [
+          {
+            "name": "VdgB",
+            "full_name": "Association d'entraide des paysans",
+            "full_name_en": "Peasants Mutual Aid Association",
+            "full_name_de": "Vereinigung der gegenseitigen Bauernhilfe",
+            "keyword": "Vereinigung der gegenseitigen Bauernhilfe"
+          }
+        ]
+      },
+      {
+        "name": "Jeunesse",
+        "name_en": "Youth",
+        "name_de": "Jugend",
+        "color": "#FFC428",
+        "keyword": "Mouvement de jeunesse",
+        "parties": [
+          {
+            "name": "FDJ",
+            "full_name": "Jeunesse libre allemande",
+            "full_name_en": "Free German Youth",
+            "full_name_de": "Freie Deutsche Jugend",
+            "keyword": "Jeunesse libre allemande"
+          }
+        ]
+      },
+
+      {
+        "name": "Féministe",
+        "name_en": "Feminist",
+        "name_de": "Feministin",
+        "color": "#6280E0",
+        "keyword": "Féminisme",
+        "parties": [
+          {
+            "name": "DFD",
+            "full_name": "Ligue démocratique des femmes d'Allemagne",
+            "full_name_en": "Democratic Women's League of Germany",
+            "full_name_de": "Demokratischer Frauenbund Deutschlands",
+            "keyword": "Ligue démocratique des femmes d'Allemagne"
+          }
+        ]
+      },
+      {
+        "name": "Culturel",
+        "name_en": "Cultural",
+        "name_de": "Kulturell",
+        "color": "#5B69B9",
+        "keyword": "Kulturbund der DDR",
+        "parties": [
+          {
+            "name": "KB",
+            "full_name": "Union culturelle pour le renouvellement démocratique de l'Allemagne",
+            "full_name_en": "Cultural Association for the Democratic Renewal of Germany",
+            "full_name_de": "Kulturbund zur demokratischen Erneuerung Deutschlands",
+            "keyword": "Kulturbund der DDR",
+            "period": "1945-1958"
+          },
+          {
+            "name": "DKB",
+            "full_name": "Union culturelle allemande",
+            "full_name_en": "German Cultural Association",
+            "full_name_de": "Deutscher Kulturbund",
+            "keyword": "Kulturbund der DDR",
+            "period": "1958-1974"
+          },
+          {
+            "name": "KB ",
+            "full_name": "Union culturelle de la RDA",
+            "full_name_en": "Cultural Association of the GDR",
+            "full_name_de": "Kulturbund der DDR",
+            "keyword": "Culture",
+            "period": "1974-1990"
+          }
+        ]
+      },
+      {
+        "name": "Antifasciste",
+        "name_en": "Antifascist",
+        "name_de": "Antifaschist",
+        "color": "#E8383D",
+        "keyword": "Antifascisme",
+        "parties": [
+          {
+            "name": "VVN",
+            "full_name": "Association des persécutés du régime nazi",
+            "full_name_en": "Association of Persecutees of the Nazi Regime",
+            "full_name_de": "Vereinigung der Verfolgten des Naziregimes",
+            "keyword": "Association des persécutés du régime nazi",
+            "period": "1947-1953"
+          },
+          {
+            "name": "KdAW",
+            "full_name": "Comité des combattants de la résistance antifasciste",
+            "full_name_en": "Committee of Antifascist Resistance Fighters",
+            "full_name_de": "Komitee der Antifaschistischen Widerstandskämpfer",
+            "keyword": "Comité des combattants de la résistance antifasciste",
+            "period": "1953-1990"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Autres",
+    "name_en": "Others",
+    "name_de": "Andere",
+    "color": "#CDCCCD",
+    "currents": [
+      {
+        "name": "Autres",
+        "name_en": "Others",
+        "name_de": "Andere",
+        "color": "#CDCCCD",
+        "keyword": "Indépendant (politique)",
+        "parties": [
+          {
+            "name": "Autres",
+            "full_name": "Autres",
+            "full_name_en": "Others",
+            "full_name_de": "Andere",
+            "keyword": "Indépendant (politique)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Centre",
+    "name_en": "Centre",
+    "name_de": "Mitte",
+    "color": "#FFBC5D",
+    "currents": [
+      {
+        "name": "Centre droit",
+        "name_en": "Center right",
+        "name_de": "Mitte rechts",
+        "color": "#FFA500",
+        "keyword": "Centre droit",
+        "parties": [
+          {
+            "name": "DA",
+            "full_name": "Renouveau démocratique",
+            "full_name_en": "Democratic Beginning",
+            "full_name_de": "Demokratischer Aufbruch",
+            "keyword": "Demokratischer Aufbruch"
+          }
+        ]
+      },
+      {
+        "name": "Démocrate-chrétien",
+        "name_en": "Christian democrat",
+        "name_de": "Christdemokrat",
+        "color": "#FED264",
+        "keyword": "Démocratie chrétienne",
+        "parties": [
+          {
+            "name": "CDU",
+            "full_name": "Union chrétienne-démocrate d'Allemagne",
+            "full_name_en": "Christian Democratic Union of Germany",
+            "full_name_de": "Christlich Demokratische Union Deutschlands",
+            "keyword": "Union chrétienne-démocrate d'Allemagne (RDA)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Droite",
+    "name_en": "Right",
+    "name_de": "Rechts",
+    "color": "#33ADFF",
+    "currents": [
+      {
+        "name": "Libéral",
+        "name_en": "Liberal",
+        "name_de": "Liberal",
+        "color": "#70C2FF",
+        "keyword": "libéralisme",
+        "parties": [
+          {
+            "name": "LDP",
+            "full_name": "Parti libéral-démocrate",
+            "full_name_en": "Liberal Democratic Party",
+            "full_name_de": "Liberal-Demokratische Partei",
+            "keyword": "Parti libéral-démocrate d'Allemagne",
+            "period": "1945-1951"
+          },
+          {
+            "name": "LDPD",
+            "full_name": "Parti libéral-démocrate d'Allemagne",
+            "full_name_en": "Liberal Democratic Party of Germany",
+            "full_name_de": "Liberal-Demokratische Partei Deutschlands",
+            "keyword": "Parti libéral-démocrate d'Allemagne",
+            "period": "1951-1990"
+          },
+          {
+            "name": "BFD",
+            "full_name": "Fédération des démocrates libres",
+            "full_name_en": "Association of Free Democrats",
+            "full_name_de": "Bund Freier Demokraten",
+            "keyword": "Fédération des démocrates libres",
+            "period": "1990-1990"
+          }
+        ]
+      },
+      {
+        "name": "National-conservateur",
+        "name_en": "National-conservative",
+        "name_de": "Nationalkonservativ",
+        "color": "#33ADFF",
+        "keyword": "National-conservatisme",
+        "parties": [
+          {
+            "name": "DSU",
+            "full_name": "Union sociale allemande",
+            "full_name_en": "German Social Union",
+            "full_name_de": "Deutsche Soziale Union",
+            "keyword": "Union sociale allemande"
+          }
+        ]
+      },
+      {
+        "name": "National-libéral",
+        "name_en": "National-liberal",
+        "name_de": "Nationalliberal",
+        "color": "#3989DB",
+        "keyword": "National-libéralisme",
+        "parties": [
+          {
+            "name": "NDPD",
+            "full_name": "Parti national-démocrate d'Allemagne",
+            "full_name_en": "National Democratic Party of Germany",
+            "full_name_de": "National-Demokratische Partei Deutschlands",
+            "keyword": "Parti national-démocrate d'Allemagne (RDA)"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -60,7 +60,7 @@ export default function CountryThumbnail({ index, countryInfos, lang }: Props) {
         alt="Country"
         width={500}
         height={300}
-        className="h-full w-80 sm:w-[30rem] object-cover"
+        className="h-full w-80 sm:w-[30rem] object-cover object-top"
       />
       <div
         className="absolute top-0 bottom-0 left-0 right-0"

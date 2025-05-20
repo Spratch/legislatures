@@ -1,0 +1,89 @@
+[
+  {
+    "begin": "1948-06-24",
+    "end": "1949-05-12",
+    "title": "Blocus de Berlin",
+    "title_en": "Berlin Blockade",
+    "title_de": "Berliner Blockade",
+    "keyword": "Blocus de Berlin",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1949-10-07",
+    "end": "1949-10-07",
+    "title": "Fondation de la République démocratique d'Allemagne",
+    "title_en": "Foundation of the Democtratic Republic of Germany",
+    "title_de": "Gründung der Deutschen Demokratischen Republik",
+    "keyword": "Histoire de la République démocratique allemande #La formation de la RDA (1949 - 1954)",
+    "type": "Loi"
+  },
+  {
+    "begin": "1950-10-07",
+    "end": "1950-10-07",
+    "title": "Création de la Stasi",
+    "title_en": "Creation of the Stasi (Ministry for State Security)",
+    "title_de": "Gründung des Ministeriums für Staatssicherheit (Stasi)",
+    "keyword": "Ministère de la Sécurité d'État"
+  },
+  {
+    "begin": "1953-06-16",
+    "end": "1953-06-17",
+    "title": "Soulèvement populaire de 1953",
+    "title_en": "Popular uprising of 1953",
+    "title_de": "Volksaufstand von 1953",
+    "keyword": "Insurrection de juin 1953 en Allemagne de l'Est",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1958-11-27",
+    "end": "1963-01-22",
+    "title": "Crise de Berlin",
+    "title_en": "Berlin Crisis",
+    "title_de": "Berliner Krise",
+    "keyword": "Crise de Berlin (1958-1963)",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1961-08-12",
+    "end": "1961-08-13",
+    "title": "Construction du mur de Berlin",
+    "title_en": "Construction of the Berlin Wall",
+    "title_de": "Bau der Berliner Mauer",
+    "keyword": "Mur de Berlin",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1972-12-21",
+    "end": "1972-12-21",
+    "title": "Traité fondamental entre la RFA et la RDA",
+    "title_en": "Basic Treaty between West and East Germany",
+    "title_de": "Grundlagenvertrag zwischen der BRD und der DDR",
+    "keyword": "Traité fondamental",
+    "type": "Loi"
+  },
+  {
+    "begin": "1973-06-22",
+    "end": "1973-09-18",
+    "title": "Admission de la RDA à l'ONU",
+    "title_en": "Admission of East Germany to the UN",
+    "title_de": "Beitritt der DDR zur UNO",
+    "keyword": "Résolution 335 du Conseil de sécurité des Nations unies"
+  },
+  {
+    "begin": "1983-11-22",
+    "end": "1983-11-22",
+    "title": "Déploiement des missiles Pershing II en RFA",
+    "title_en": "Deployment of Pershing II missiles in West Germany",
+    "title_de": "Stationierung der Pershing-II-Raketen in der BRD",
+    "keyword": "Crise des euromissiles",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1989-11-09",
+    "end": "1990-10-03",
+    "title": "Chute du mur de Berlin et réunification",
+    "title_en": "Fall of the Berlin Wall and reunification",
+    "title_de": "Fall der Berliner Mauer und Wiedervereinigung",
+    "keyword": "Réunification allemande"
+  }
+]
