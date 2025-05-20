@@ -1,6 +1,9 @@
 {
   "locale": { "lang": "en" },
   "home": {
+    "meta_title": "Legislatures",
+    "meta_description": "Visualize the history of the legislative assemblies",
+    "meta_multi": " of several countries",
     "next": "Next",
     "previous": "Previous",
     "title_france": "France",

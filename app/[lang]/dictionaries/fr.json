@@ -1,6 +1,9 @@
 {
   "locale": { "lang": "fr" },
   "home": {
+    "meta_title": "Législatures",
+    "meta_description": "Visualiser les historiques des assemblées legislatives",
+    "meta_multi": " de plusieurs pays",
     "next": "Suivant",
     "previous": "Précédent",
     "title_france": "France",

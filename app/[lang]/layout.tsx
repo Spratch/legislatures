@@ -1,36 +1,40 @@
 import "../globals.css";
 import { Monitoring } from "react-scan/monitoring/next";
 import { Analytics } from "@vercel/analytics/react";
-import type { Metadata } from "next";
 import Script from "next/script";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { getDictionary } from "./dictionaries";
 import { LocaleEnum } from "@/types/langsEnum";
 import { DictionaryProvider } from "@/utils/contexts/dictionaryContext";
 
-const title = "Visualisation des législatures françaises";
-const description =
-  "Historique des compositions de l'Assemblée nationale depuis 1791";
-
-export const metadata: Metadata = {
-  title: title,
-  description: description,
-  alternates: {
-    canonical: "/",
-    languages: Object.entries(LocaleEnum).reduce(
-      (acc, [key]) => ({
-        ...acc,
-        [key]: `/${key}`
-      }),
-      {}
-    )
-  },
-  openGraph: {
+export async function generateMetadata({
+  params
+}: {
+  params: { lang: keyof typeof LocaleEnum };
+}) {
+  const dict = (await getDictionary(params.lang)).home;
+  const title = dict.meta_title;
+  const description = dict.meta_description + dict.meta_multi;
+  return {
     title: title,
     description: description,
-    url: "https://legislatures.vercel.app"
-  }
-};
+    alternates: {
+      canonical: "/",
+      languages: Object.entries(LocaleEnum).reduce(
+        (acc, [key]) => ({
+          ...acc,
+          [key]: `/${key}`
+        }),
+        {}
+      )
+    },
+    openGraph: {
+      title: title,
+      description: description,
+      url: "https://legislatures.vercel.app"
+    }
+  };
+}
 
 export default async function RootLayout({
   children,

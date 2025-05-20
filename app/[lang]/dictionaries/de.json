@@ -1,6 +1,9 @@
 {
   "locale": { "lang": "de" },
   "home": {
+    "meta_title": "Legislatures",
+    "meta_description": "Visualisieren Sie die Geschichte der gesetzgebenden",
+    "meta_multi": " von mehreren Ländern",
     "next": "Nächster",
     "previous": "Vorheriger",
     "title_france": "Frankreich",
