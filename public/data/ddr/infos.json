@@ -9,14 +9,14 @@
           "title_light_de": "Zwischen Krisen und Anforderungen"
         },
         {
-          "title_main": "Les évolutions des courants politiques au sein du Bundestag",
-          "title_main_en": "The evolutions of political currents within the Bundestag",
-          "title_main_de": "Die Entwicklungen der politischen Strömungen innerhalb der Deutscher Bundestag"
+          "title_main": "L’évolution politique de la République démocratique allemande",
+          "title_main_en": "The political evolution of the German Democratic Republic",
+          "title_main_de": "Die politische Entwicklung der Deutschen Demokratischen Republik"
         },
         {
-          "intro": "Ceci est une représentation visuelle des résultats des élections législatives en République fédérale d'Allemagne depuis 1949.",
-          "intro_en": "This is a visual representation of the results of legislative elections in the Federal Republic of Germany since 1949.",
-          "intro_de": "Dies ist eine visuelle Darstellung der Ergebnisse der Parlamentswahlen in der Bundesrepublik Deutschland seit 1949."
+          "intro": "Ceci est une représentation visuelle de la composition de la Volkskammer (Chambre du peuple) en République démocratique allemande de 1949 à 1990.",
+          "intro_en": "This is a visual representation of the composition of the Volkskammer (People’s Chamber) in the German Democratic Republic from 1949 to 1990.",
+          "intro_de": "Dies ist eine visuelle Darstellung der Zusammensetzung der Volkskammer in der Deutschen Demokratischen Republik von 1949 bis 1990."
         }
       ]
     },
@@ -31,7 +31,7 @@
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": "Cette visualisation a été réalisée à partir de données de sources variées, mais principalement depuis la liste des législatures du Bundestag sur ",
+                  "text": "Cette visualisation a été réalisée à partir de données de sources variées, mais principalement depuis l’histoire de la Volkskammer sur ",
                   "_key": "9005b0d47612"
                 },
                 {
@@ -51,7 +51,7 @@
                 {
                   "_key": "84f1e3f2aab8",
                   "_type": "link",
-                  "href": "https://fr.wikipedia.org/wiki/Bundestag#Historique_des_l%C3%A9gislatures"
+                  "href": "https://fr.wikipedia.org/wiki/Mod%C3%A8le:Palette_%C3%89lections_en_Allemagne_de_l%27Est"
                 }
               ],
               "_type": "block",
@@ -79,13 +79,13 @@
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": "This visualization was created using data from various sources, but mainly from the list of Bundestag legislatures on ",
+                  "text": "This visualization was created using data from various sources, but mainly from the history of the Volkskammer on ",
                   "_key": "e245cde3bf98"
                 },
                 {
                   "_type": "span",
                   "marks": ["84f1e3f2aab8"],
-                  "text": "Wikipédia",
+                  "text": "Wikipedia",
                   "_key": "abcabd322d19"
                 },
                 {
@@ -99,7 +99,7 @@
                 {
                   "_key": "84f1e3f2aab8",
                   "_type": "link",
-                  "href": "https://fr.wikipedia.org/wiki/Bundestag#Historique_des_l%C3%A9gislatures"
+                  "href": "https://fr.wikipedia.org/wiki/Mod%C3%A8le:Palette_%C3%89lections_en_Allemagne_de_l%27Est"
                 }
               ],
               "_type": "block",
@@ -111,7 +111,7 @@
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": "This site offers a synthetic, and therefore incomplete, view of the contexts surrounding each election.",
+                  "text": "This site offers a synthetic, and therefore incomplete, view of the contexts surrounding the parliamentary history of the GDR.",
                   "_key": "3a1081192a6a"
                 }
               ],
@@ -127,13 +127,13 @@
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": "Diese Visualisierung wurde unter Verwendung von Daten aus verschiedenen Quellen erstellt, hauptsächlich jedoch aus der Liste der Bundestagsparlamente auf ",
+                  "text": "Diese Visualisierung wurde unter Verwendung von Daten aus verschiedenen Quellen erstellt, hauptsächlich jedoch aus der Geschichte der Volkskammer auf ",
                   "_key": "266370a71a12"
                 },
                 {
                   "_type": "span",
                   "marks": ["84f1e3f2aab8"],
-                  "text": "Wikipédia",
+                  "text": "Wikipedia",
                   "_key": "abcabd322d19"
                 },
                 {
@@ -147,7 +147,7 @@
                 {
                   "_key": "84f1e3f2aab8",
                   "_type": "link",
-                  "href": "https://fr.wikipedia.org/wiki/Bundestag#Historique_des_l%C3%A9gislatures"
+                  "href": "https://fr.wikipedia.org/wiki/Mod%C3%A8le:Palette_%C3%89lections_en_Allemagne_de_l%27Est"
                 }
               ],
               "_type": "block",
@@ -159,7 +159,7 @@
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": "Diese Site bietet einen synthetischen und daher unvollständigen Überblick über die Kontexte jeder Wahl.",
+                  "text": "Diese Site bietet einen synthetischen und daher unvollständigen Überblick über die Kontexte der parlamentarischen Geschichte der DDR.",
                   "_key": "3a1081192a6a"
                 }
               ],
@@ -177,7 +177,7 @@
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": "Cependant, des événements marquants sont placés en marge du graphique principal pour contextualiser d’avantage les résultats. Ces choix ne prétendent pas à l’exhaustivité et peuvent gagner en pertinence. Vos retours sont les bienvenus.",
+                  "text": "Cependant, des événements marquants sont placés en marge du graphique principal pour contextualiser davantage la situation politique. Il est important de noter que malgré une apparente diversité des partis, la RDA fonctionnait comme un système à parti unique dirigé par le SED (Parti socialiste unifié d’Allemagne).",
                   "_key": "d50aaac5a42e"
                 }
               ],
@@ -193,7 +193,7 @@
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": "However, significant events are placed on the margins of the main graph to further contextualize the results. These choices do not claim to be exhaustive and may gain in relevance. Your feedback is welcome.",
+                  "text": "However, significant events are placed on the margins of the main graph to further contextualize the political situation. It is important to note that despite an apparent diversity of parties, the GDR operated as a single-party system led by the SED (Socialist Unity Party of Germany).",
                   "_key": "d50aaac5a42e"
                 }
               ],
@@ -209,7 +209,7 @@
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": "Bemerkenswerte Ereignisse werden jedoch an den Rändern des Hauptdiagramms platziert, um die Ergebnisse weiter in einen Kontext zu setzen. Diese Auswahl erhebt keinen Anspruch auf Vollständigkeit und kann an Relevanz gewinnen. Ihr Feedback ist willkommen.",
+                  "text": "Bemerkenswerte Ereignisse werden jedoch an den Rändern des Hauptdiagramms platziert, um die politische Situation weiter in einen Kontext zu setzen. Es ist wichtig zu beachten, dass die DDR trotz einer scheinbaren Vielfalt an Parteien als Einparteiensystem unter Führung der SED (Sozialistische Einheitspartei Deutschlands) funktionierte.",
                   "_key": "d50aaac5a42e"
                 }
               ],
@@ -268,7 +268,19 @@
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": ". Je l’ai fait pour le plaisir, pour apprendre à créer des visualisations de données, et pour mieux comprendre l’histoire politique de la France.",
+                  "text": " et la ",
+                  "_key": "e34404e52ee3"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["c010c3fcfe77"],
+                  "text": "RFA",
+                  "_key": "cfb789d84d9f"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ".",
                   "_key": "e34404e52ee3"
                 }
               ],
@@ -287,6 +299,11 @@
                   "_key": "c010c3fcfe76",
                   "_type": "link",
                   "href": "/fr/france/"
+                },
+                {
+                  "_key": "c010c3fcfe77",
+                  "_type": "link",
+                  "href": "/fr/germany/"
                 }
               ],
               "_type": "block",
@@ -298,7 +315,7 @@
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": "Puis j’ai étendu le principe à d’autres pays, comme ici avec l’Allemagne.",
+                  "text": "Cette visualisation de la RDA représente un cas particulier où l’histoire parlementaire est courte et très verrouillée.",
                   "_key": "2551d808ab44"
                 }
               ],
@@ -382,7 +399,19 @@
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": ". I did it for fun, to learn how to create data visualizations, and to better understand the political history of France.",
+                  "text": " and ",
+                  "_key": "ceb47aca6ae7"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["01f2bdbc3073"],
+                  "text": "FRG",
+                  "_key": "347e1d037213"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ".",
                   "_key": "ceb47aca6ae7"
                 }
               ],
@@ -401,6 +430,11 @@
                   "_key": "01f2bdbc3072",
                   "_type": "link",
                   "href": "/en/france/"
+                },
+                {
+                  "_key": "01f2bdbc3073",
+                  "_type": "link",
+                  "href": "/en/germany/"
                 }
               ],
               "_type": "block",
@@ -412,7 +446,7 @@
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": "Then I extended the principle to other countries, like here with Germany.",
+                  "text": "This visualization of the GDR represents a special case where parliamentary history is short and very locked.",
                   "_key": "d9a579fe1819"
                 }
               ],
@@ -496,7 +530,19 @@
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": ". Ich habe es aus Spaß gemacht, um zu lernen, wie man Datenvisualisierungen erstellt und um die politische Geschichte Frankreichs besser zu verstehen.",
+                  "text": " und der ",
+                  "_key": "0a305f338e5f"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["3fdd95e5d3cf"],
+                  "text": "BRD",
+                  "_key": "3934d188bb1f"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": " besser zu verstehen.",
                   "_key": "0a305f338e5f"
                 }
               ],
@@ -515,6 +561,11 @@
                   "_key": "3fdd95e5d3ce",
                   "_type": "link",
                   "href": "/de/france/"
+                },
+                {
+                  "_key": "3fdd95e5d3cf",
+                  "_type": "link",
+                  "href": "/de/germany/"
                 }
               ],
               "_type": "block",
@@ -526,7 +577,7 @@
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": "Dann habe ich das Prinzip auf andere Länder ausgeweitet, wie hier auf Deutschland.",
+                  "text": "Diese Visualisierung des DDR stellt einen Sonderfall dar, in dem die parlamentarische Geschichte kurz und sehr verschlossen ist.",
                   "_key": "a9035696142d"
                 }
               ],
@@ -602,7 +653,7 @@
                 {
                   "_type": "span",
                   "marks": ["em", "30fe972d1d35"],
-                  "text": "Bundestag",
+                  "text": "Volkskammer",
                   "_key": "f4e1a14b6cde"
                 },
                 {
@@ -645,7 +696,7 @@
                 {
                   "_key": "30fe972d1d35",
                   "_type": "link",
-                  "href": "https://fr.wikipedia.org/wiki/Bundestag#Historique_des_l%C3%A9gislatures"
+                  "href": "https://fr.wikipedia.org/wiki/Volkskammer"
                 },
                 {
                   "_key": "eaeaa3fd3721",
@@ -655,7 +706,7 @@
                 {
                   "_key": "ca60d6561d3c",
                   "_type": "link",
-                  "href": "http://fr.wikipedia.org/w/index.php?title=Bundestag&action=history"
+                  "href": "http://fr.wikipedia.org/w/index.php?title=Volkskammer&action=history"
                 }
               ],
               "_type": "block",
@@ -695,7 +746,7 @@
                 {
                   "_type": "span",
                   "marks": ["em", "47d441a5f282"],
-                  "text": "Bundestag",
+                  "text": "Volkskammer",
                   "_key": "0e89cd653de6"
                 },
                 {
@@ -707,7 +758,7 @@
                 {
                   "_type": "span",
                   "marks": ["d27aa0f60893"],
-                  "text": "Wikipedia in french",
+                  "text": "Wikipedia in French",
                   "_key": "5053a7d25296"
                 },
                 {
@@ -738,7 +789,7 @@
                 {
                   "_key": "47d441a5f282",
                   "_type": "link",
-                  "href": "https://fr.wikipedia.org/wiki/Bundestag"
+                  "href": "https://en.wikipedia.org/wiki/Volkskammer"
                 },
                 {
                   "_key": "d27aa0f60893",
@@ -748,7 +799,7 @@
                 {
                   "_key": "5b4ca4bda0b7",
                   "_type": "link",
-                  "href": "http://fr.wikipedia.org/w/index.php?title=Bundestag&action=history"
+                  "href": "http://fr.wikipedia.org/w/index.php?title=Volkskammer&action=history"
                 }
               ],
               "_type": "block",
@@ -788,7 +839,7 @@
                 {
                   "_type": "span",
                   "marks": ["54d5e4ed2e1f", "em"],
-                  "text": "Bundestag",
+                  "text": "Volkskammer",
                   "_key": "cbb923c9d7d7"
                 },
                 {
@@ -831,7 +882,7 @@
                 {
                   "_key": "54d5e4ed2e1f",
                   "_type": "link",
-                  "href": "https://fr.wikipedia.org/wiki/Bundestag"
+                  "href": "https://de.wikipedia.org/wiki/Volkskammer"
                 },
                 {
                   "_key": "aa07dde21fab",
@@ -841,7 +892,7 @@
                 {
                   "_key": "f9ded076240f",
                   "_type": "link",
-                  "href": "http://fr.wikipedia.org/w/index.php?title=Bundestag&action=history"
+                  "href": "http://fr.wikipedia.org/w/index.php?title=Volkskammer&action=history"
                 }
               ],
               "_type": "block",
