@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { TooltipContentType } from "@/types/tooltipContent";
 import { tooltipContentAtom } from "@/utils/contexts/tooltipContext";
 import EntityButton from "./entityButton";
@@ -98,14 +98,14 @@ export function TooltipContent({
   const [isPercentage, setIsPercentage] = useState(true);
   const handlePercentageClick = () => setIsPercentage(!isPercentage);
 
-  // Set the width of the coalition name
-  const partyLineRef = useRef<HTMLDivElement | null>(null);
+  // Set the width of the coalition name using a callback ref
   const [coalitionMaxWidth, setCoalitionMaxWidth] = useState(0);
-  useEffect(() => {
-    if (partyLineRef.current) {
-      setCoalitionMaxWidth(partyLineRef.current.offsetWidth);
+
+  const partyLineRef = useCallback((node: HTMLDivElement | null) => {
+    if (node) {
+      setCoalitionMaxWidth(node.offsetWidth);
     }
-  }, [party, party.coalition]);
+  }, []);
 
   return (
     <div

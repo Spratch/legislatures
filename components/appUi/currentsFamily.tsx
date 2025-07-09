@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useMemo, useState } from "react";
 import { FamilyType } from "@/types/family";
 import SettingsButton from "./settingsButton";
 import EntityButton from "./entityButton";
@@ -6,6 +6,7 @@ import { useVisibleCurrentsContext } from "@/utils/contexts/currentsContext";
 import { EyeClosedIcon, EyeOpenIcon } from "@radix-ui/react-icons";
 import { useDictionary } from "../utils/contexts/dictionaryContext";
 import { getLangKey } from "../utils/getLangKey";
+import { CurrentType } from "@/types/current";
 
 type Props = {
   family: FamilyType;
@@ -24,7 +25,9 @@ export default function CurrentsFamily({ family, onCurrentClick }: Props) {
   // Context for visible currents
   const { visibleCurrents, setVisibleCurrents } = useVisibleCurrentsContext();
   // Is full family visible
-  const [isFamilyVisible, setIsFamilyVisible] = useState(true);
+  const isFamilyVisible = family.currents.every((familyCurrent) =>
+    visibleCurrents.some((current) => current.name === familyCurrent.name)
+  );
 
   // Toggle full family visibility
   function toggleFullFamily() {
@@ -41,46 +44,28 @@ export default function CurrentsFamily({ family, onCurrentClick }: Props) {
     } else {
       setVisibleCurrents([...visibleCurrents, ...family.currents]);
     }
-    setIsFamilyVisible(!isFamilyVisible);
   }
 
-  // Keep the button updated with the visible currents
-  useEffect(() => {
-    // Check if all family currents are visible
-    const allFamilyCurrentsVisible = family.currents.every((familyCurrent) =>
-      visibleCurrents.some((current) => current.name === familyCurrent.name)
-    );
-    setIsFamilyVisible(allFamilyCurrentsVisible);
-  }, [visibleCurrents, family.currents]);
-
   // Merge two currents if they have the same name (even with additionnal space), keep the name and color of the first one, and merge the parties
-  const [mergedCurrents, setMergedCurrents] = useState([]);
+  const mergedCurrents = useMemo<CurrentType[]>(() => {
+    let currentMap = {};
 
-  useEffect(() => {
-    const mergeCurrents = () => {
-      let courantMap = {};
+    family.currents.forEach((current) => {
+      // Erase the spaces at the beginning and end of the name
+      const normalizedName = current.name.trim();
 
-      family.currents.forEach((courant) => {
-        // Erase the spaces at the beginning and end of the name
-        const normalizedName = courant.name.trim();
-
-        // If the current already exists in the map, we merge the parties
-        if (courantMap[normalizedName]) {
-          courantMap[normalizedName].parties = [
-            ...courantMap[normalizedName].parties,
-            ...courant.parties
-          ];
-        } else {
-          // Otherwise, we add the current to the map
-          courantMap[normalizedName] = { ...courant, name: normalizedName };
-        }
-      });
-
-      // Convert the map to an array
-      setMergedCurrents(Object.values(courantMap));
-    };
-
-    mergeCurrents();
+      // If the current already exists in the map, we merge the parties
+      if (currentMap[normalizedName]) {
+        currentMap[normalizedName].parties = [
+          ...currentMap[normalizedName].parties,
+          ...current.parties
+        ];
+      } else {
+        // Otherwise, we add the current to the map
+        currentMap[normalizedName] = { ...current, name: normalizedName };
+      }
+    });
+    return Object.values(currentMap);
   }, [family]);
 
   const familyNumber = mergedCurrents.filter((current) =>

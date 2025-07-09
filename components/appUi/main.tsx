@@ -7,7 +7,7 @@ import { CurrentType } from "@/types/current";
 import { EventType } from "@/types/event";
 import { RegimeType } from "@/types/regime";
 import { useDetailsContext } from "@/utils/contexts/detailsContext";
-import { useEffect, useRef, useState } from "react";
+import { useCallback } from "react";
 
 type Props = {
   regimes: RegimeType[];
@@ -28,17 +28,16 @@ export default function Main({
   const selectedEntity = detailsContent?.entity;
 
   // Set the scroll position to the bottom on first render
-  const scrollRef = useRef<HTMLDivElement>(null);
-  const [hasScrolled, setHasScrolled] = useState(false);
-
-  useEffect(() => {
-    if (!hasScrolled && scrollRef.current) {
-      if (scrollRef.current.scrollHeight > scrollRef.current.clientHeight) {
-        scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
-        setHasScrolled(true);
-      }
+  const scrollRef = useCallback((node: HTMLDivElement | null) => {
+    if (node) {
+      // Small delay to ensure content is rendered
+      setTimeout(() => {
+        if (node.scrollHeight > node.clientHeight) {
+          node.scrollTop = node.scrollHeight;
+        }
+      }, 0);
     }
-  }, [hasScrolled, scrollRef, regimes]);
+  }, []);
 
   return (
     <main className="relative w-full max-w-screen-3xl mx-auto h-[calc(100dvh-6.5rem)]">
