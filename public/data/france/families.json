@@ -1021,17 +1021,17 @@
         ]
       },
       {
-        "name": "Droite Ciottiste",
-        "name_en": "Right Ciottiste",
-        "name_de": "Richtig, Ciottiste",
+        "name": "Conservateur libertarien",
+        "name_en": "Libertarian conservative",
+        "name_de": "Libertär-konservativ",
         "color": "#3989DB",
-        "keyword": "Éric Ciotti",
+        "keyword": "Conservatisme libertarien",
         "parties": [
           {
-            "name": "AD!",
-            "full_name": "À droite !",
-            "full_name_en": "Right!",
-            "full_name_de": "Rechts!",
+            "name": "UDR ",
+            "full_name": "Union des droites pour la République",
+            "full_name_en": "Union of the Right for the Republic",
+            "full_name_de": "Union der Rechten für die Republik",
             "keyword": "Union des droites pour la République"
           }
         ]
