@@ -24,6 +24,7 @@ type Props = {
   coalitionsVisibility: boolean;
   setCoalitionsVisibility: (coalitionsVisibility: boolean) => void;
   showCoalitionsButton: boolean;
+  showEventsButton: boolean;
 };
 
 export default function SettingsLine({
@@ -36,7 +37,8 @@ export default function SettingsLine({
   setTransitionsVisibility,
   coalitionsVisibility,
   setCoalitionsVisibility,
-  showCoalitionsButton
+  showCoalitionsButton,
+  showEventsButton
 }: Props) {
   const dict = useDictionary().settingsLine;
   const router = useRouter();
@@ -46,14 +48,16 @@ export default function SettingsLine({
         {/* Left */}
         <div className="flex gap-1 sm:gap-1.5 items-center">
           {/* Events button */}
-          <SettingsButton
-            Icon={PinLeftIcon}
-            onClick={() => setEventVisibility(!eventVisibility)}
-            label={eventVisibility ? dict.hideEvents : dict.showEvents}
-            flipIcon={eventVisibility ? false : true}
-            position={{ x: "left", y: "top" }}
-            kbd="e"
-          />
+          {showEventsButton && (
+            <SettingsButton
+              Icon={PinLeftIcon}
+              onClick={() => setEventVisibility(!eventVisibility)}
+              label={eventVisibility ? dict.hideEvents : dict.showEvents}
+              flipIcon={eventVisibility ? false : true}
+              position={{ x: "left", y: "top" }}
+              kbd="e"
+            />
+          )}
 
           {/* Transition polygons button */}
           <SettingsButton
