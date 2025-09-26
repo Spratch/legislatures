@@ -1,0 +1,864 @@
+[
+  {
+    "name": "Gauche",
+    "name_en": "Left",
+    "name_de": "Links",
+    "color": "#FF0E3A",
+    "currents": [
+      {
+        "name": "Communiste",
+        "name_en": "Communist",
+        "name_de": "Kommunist",
+        "color": "#A40C34",
+        "keyword": "Communisme",
+        "parties": [
+          {
+            "name": "CPGB",
+            "full_name": "Parti communiste de Grande-Bretagne",
+            "full_name_en": "Communist Party of Great Britain",
+            "full_name_de": "Kommunistische Partei Großbritanniens",
+            "keyword": "Parti communiste de Grande-Bretagne"
+          }
+        ]
+      },
+      {
+        "name": "Marxiste-léniniste",
+        "name_en": "Marxist-Leninist",
+        "name_de": "Marxist-Leninist",
+        "color": "#E10F3D",
+        "keyword": "Marxisme-léninisme",
+        "parties": [
+          {
+            "name": "PUP ",
+            "full_name": "Parti d'unité prolétarienne",
+            "full_name_en": "Proletarian Unity Party",
+            "full_name_de": "Proletarische Einheitspartei"
+          }
+        ]
+      },
+
+      {
+        "name": "Socialiste démocratique",
+        "name_en": "Democratic socialist",
+        "name_de": "Demokratischer Sozialist",
+        "color": "#C10F3D",
+        "keyword": "Socialisme démocratique",
+        "parties": [
+          {
+            "name": "ILP",
+            "full_name": "Parti travailliste indépendant",
+            "full_name_en": "Independent Labour Party",
+            "full_name_de": "Unabhängige Labour-Partei",
+            "keyword": "Parti travailliste indépendant"
+          }
+        ]
+      },
+      {
+        "name": "Écologiste",
+        "name_en": "Ecologist",
+        "name_de": "Ökologe",
+        "color": "#80C34E",
+        "keyword": "Écologie politique",
+        "parties": [
+          {
+            "name": "GP",
+            "full_name": "Parti vert d'Angleterre et du Pays de Galles",
+            "full_name_en": "Green Party of England and Wales",
+            "full_name_de": "Grüne Partei von England und Wales",
+            "keyword": "Parti vert d'Angleterre et du Pays de Galles"
+          }
+        ]
+      },
+      {
+        "name": "Libertarien de gauche",
+        "name_en": "Left libertarian",
+        "name_de": "Linkslibertär",
+        "color": "#D10F3D",
+        "keyword": "Libertarisme de gauche",
+        "parties": [
+          {
+            "name": "CW",
+            "full_name": "Parti de la richesse commune",
+            "full_name_en": "Common Wealth Party",
+            "full_name_de": "Partei des gemeinsamen Reichtums",
+            "keyword": "Common Wealth Party"
+          }
+        ]
+      },
+      {
+        "name": "Socialiste altermondialiste",
+        "name_en": "Alter-globalization socialist",
+        "name_de": "Alter-globalisierungssozialist",
+        "color": "#C10F3D",
+        "keyword": "Altermondialisme",
+        "parties": [
+          {
+            "name": "R",
+            "full_name": "Respect",
+            "full_name_en": "Respect",
+            "full_name_de": "Respekt",
+            "keyword": "Parti du respect"
+          }
+        ]
+      },
+      {
+        "name": "Social-démocrate",
+        "name_en": "Social-democrat",
+        "name_de": "Sozialdemokrat",
+        "color": "#F40E39",
+        "keyword": "Social-démocratie",
+        "parties": [
+          {
+            "name": "Lab",
+            "full_name": "Parti travailliste",
+            "full_name_en": "Labour Party",
+            "full_name_de": "Labour-Partei",
+            "keyword": "Parti travailliste (Royaume-Uni)"
+          }
+        ]
+      },
+      {
+        "name": "Prohibitionniste",
+        "name_en": "Prohibitionist",
+        "name_de": "Prohibitionist",
+        "color": "#C10F3D",
+        "keyword": "Mouvement de la tempérance",
+        "parties": [
+          {
+            "name": "SPP",
+            "full_name": "Parti prohibitionniste écossais",
+            "full_name_en": "Scottish Prohibition Party",
+            "full_name_de": "Schottische Prohibitionistische Partei",
+            "keyword": "Mouvement de la tempérance"
+          }
+        ]
+      },
+      {
+        "name": "Pacifiste",
+        "name_en": "Pacifist",
+        "name_de": "Pazifist",
+        "color": "#FF3057",
+        "keyword": "Pacifisme",
+        "parties": [
+          {
+            "name": "CP",
+            "full_name": "Pacifiste chrétien",
+            "full_name_en": "Christian Pacifist",
+            "full_name_de": "Christlicher Pazifist",
+            "keyword": "George Maitland Lloyd Davies"
+          }
+        ]
+      },
+      {
+        "name": "Divers gauche",
+        "name_en": "Miscellaneous left",
+        "name_de": "Sonstiges übrig",
+        "color": "#FF5879",
+        "keyword": "Divers gauche",
+        "parties": [
+          {
+            "name": "ILab",
+            "full_name": "Travaillistes indépendants",
+            "full_name_en": "Independent Labour",
+            "full_name_de": "Unabhängige Arbeiter"
+          }
+        ]
+      },
+      {
+        "name": "Progressiste",
+        "name_en": "Progressive",
+        "name_de": "Progressiver",
+        "color": "#FF718B",
+        "keyword": "Progressisme",
+        "parties": [
+          {
+            "name": "IP",
+            "full_name": "Progressiste indépendant",
+            "full_name_en": "Independent Progressive",
+            "full_name_de": "Unabhängiger Progressiver",
+            "keyword": "Progressiste indépendant"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nationaliste",
+    "name_en": "Nationalist",
+    "name_de": "Nationalist",
+    "color": "#FFD700",
+    "currents": [
+      {
+        "name": "Socialiste démocratique irlandais",
+        "name_en": "Irish democratic socialist",
+        "name_de": "Irischer demokratischer Sozialist",
+        "color": "#60B17B",
+        "keyword": "Socialisme démocratique",
+        "parties": [
+          {
+            "name": "SF",
+            "full_name": "Sinn Féin",
+            "full_name_en": "Sinn Féin",
+            "full_name_de": "Sinn Féin",
+            "keyword": "Sinn Féin"
+          }
+        ]
+      },
+      {
+        "name": "Travailliste irlandais",
+        "name_en": "Irish Labour",
+        "name_de": "Irischer Arbeiter",
+        "color": "#AF0E37",
+        "keyword": "Travaillisme",
+        "parties": [
+          {
+            "name": "IrLab",
+            "full_name": "Travaillistes irlandais",
+            "full_name_en": "Irish Labour",
+            "full_name_de": "Irischer Arbeiter",
+            "keyword": "Parti travailliste (Irlande)"
+          },
+          {
+            "name": "RLP",
+            "full_name": "Parti travailliste républicain",
+            "full_name_en": "Republican Labour Party",
+            "full_name_de": "Republikanische Arbeiterpartei",
+            "keyword": "Parti travailliste républicain"
+          },
+          {
+            "name": "SDLP",
+            "full_name": "Parti social-démocrate et travailliste",
+            "full_name_en": "Social Democratic and Labour Party",
+            "full_name_de": "Sozialdemokratische und Arbeiterpartei",
+            "keyword": "Parti social-démocrate et travailliste"
+          }
+        ]
+      },
+      {
+        "name": "Nationaliste gallois",
+        "name_en": "Welsh nationalist",
+        "name_de": "Walisischer Nationalist",
+        "color": "#799D97",
+        "keyword": "Nationalisme gallois",
+        "parties": [
+          {
+            "name": "PC",
+            "full_name": "Plaid Cymru",
+            "full_name_en": "Plaid Cymru",
+            "full_name_de": "Plaid Cymru",
+            "keyword": "Plaid Cymru"
+          }
+        ]
+      },
+      {
+        "name": "Nationaliste écossais",
+        "name_en": "Scottish nationalist",
+        "name_de": "Schottischer Nationalist",
+        "color": "#D0C874",
+        "keyword": "Nationalisme écossais",
+        "parties": [
+          {
+            "name": "SNP",
+            "full_name": "Parti national écossais",
+            "full_name_en": "Scottish National Party",
+            "full_name_de": "Schottische Nationalpartei",
+            "keyword": "Parti national écossais"
+          }
+        ]
+      },
+      {
+        "name": "Républicain irlandais indépendant",
+        "name_en": "Independent Irish republican",
+        "name_de": "Unabhängiger irischer Republikaner",
+        "color": "#6FCF6A",
+        "keyword": "Républicanisme irlandais",
+        "parties": [
+          {
+            "name": "IR",
+            "full_name": "Républicains indépendants",
+            "full_name_en": "Independent Republicans",
+            "full_name_de": "Unabhängige Republikaner",
+            "keyword": "Républicains indépendants (Irlande)"
+          }
+        ]
+      },
+      {
+        "name": "Nationaliste irlandais indépendant",
+        "name_en": "Independent Irish nationalist",
+        "name_de": "Unabhängiger irischer Nationalist",
+        "color": "#6FCF6A",
+        "keyword": "Nationalisme irlandais",
+        "parties": [
+          {
+            "name": "IN ",
+            "full_name": "Indépendants nationalistes",
+            "full_name_en": "Independent Nationalists",
+            "full_name_de": "Unabhängige Nationalisten",
+            "keyword": "Indépendants nationalistes"
+          }
+        ]
+      },
+      {
+        "name": "Nationaliste irlandais",
+        "name_en": "Irish nationalist",
+        "name_de": "Irischer Nationalist",
+        "color": "#56B34D",
+        "keyword": "Nationalisme irlandais",
+        "parties": [
+          {
+            "name": "NP",
+            "full_name": "Parti nationaliste",
+            "full_name_en": "Nationalist Party",
+            "full_name_de": "Nationalistische Partei",
+            "keyword": "Parti nationaliste (Irlande du Nord)"
+          },
+          {
+            "name": "U",
+            "full_name": "Unité",
+            "full_name_en": "Unity",
+            "full_name_de": "Einheit",
+            "keyword": "Unity (Irlande du Nord)"
+          }
+        ]
+      },
+      {
+        "name": "Nationaliste irlandais (en diaspora)",
+        "name_en": "Irish nationalist (in diaspora)",
+        "name_de": "Irischer Nationalist (in der Diaspora)",
+        "color": "#84C87E",
+        "keyword": "Nationalisme irlandais",
+        "parties": [
+          {
+            "name": "INP",
+            "full_name": "Parti nationaliste irlandais",
+            "full_name_en": "Irish Nationalist Party",
+            "full_name_de": "Irische Nationalistische Partei",
+            "keyword": "Parti nationaliste irlandais"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Centre",
+    "name_en": "Centre",
+    "name_de": "Mitte",
+    "color": "#FFBC5D",
+    "currents": [
+      {
+        "name": "National travailliste",
+        "name_en": "National Labour",
+        "name_de": "Nationaler Arbeiter",
+        "color": "#FFA6AE",
+        "keyword": "Travaillisme",
+        "parties": [
+          {
+            "name": "NLO",
+            "full_name": "Organisation travailliste nationale",
+            "full_name_en": "National Labour Organisation",
+            "full_name_de": "Nationale Arbeitsorganisation",
+            "keyword": "Organisation travailliste nationale"
+          }
+        ]
+      },
+      {
+        "name": "Centre gauche",
+        "name_en": "Center left",
+        "name_de": "Mitte links",
+        "color": "#FFB3A1",
+        "keyword": "Centre gauche",
+        "parties": [
+          {
+            "name": "DLP",
+            "full_name": "Parti travailliste démocrate",
+            "full_name_en": "Democratic Labour Party",
+            "full_name_de": "Demokratische Arbeiterpartei",
+            "keyword": "Parti travailliste démocrate"
+          }
+        ]
+      },
+      {
+        "name": "Social-libéral",
+        "name_en": "Social-liberal",
+        "name_de": "Sozial-libéral",
+        "color": "#FF3B64",
+        "keyword": "Social-libéralisme",
+        "parties": [
+          {
+            "name": "SDP",
+            "full_name": "Parti social-démocrate",
+            "full_name_en": "Social Democratic Party",
+            "full_name_de": "Sozialdemokratische Partei",
+            "keyword": "Parti social-démocrate (Royaume-Uni)"
+          }
+        ]
+      },
+      {
+        "name": "Libéral",
+        "name_en": "Liberal",
+        "name_de": "Liberale",
+        "color": "#FED264",
+        "keyword": "Libéralisme",
+        "parties": [
+          {
+            "name": "L",
+            "full_name": "Parti libéral",
+            "full_name_en": "Liberal Party",
+            "full_name_de": "Liberale Partei",
+            "keyword": "Parti libéral (Royaume-Uni)"
+          },
+          {
+            "name": "LD",
+            "full_name": "Libéraux-démocrates",
+            "full_name_en": "Liberal Democrats",
+            "full_name_de": "Liberaldemokraten",
+            "keyword": "Libéraux-démocrates (Royaume-Uni)"
+          }
+        ]
+      },
+      {
+        "name": "Divers libéral",
+        "name_en": "Miscellaneous liberal",
+        "name_de": "Sonstiges liberal",
+        "color": "#FEE29C",
+        "keyword": "Libéralisme",
+        "parties": [
+          {
+            "name": "ILib",
+            "full_name": "Libéraux indépendants",
+            "full_name_en": "Independent Liberals",
+            "full_name_de": "Unabhängige Liberale",
+            "keyword": "Libéraux indépendants"
+          },
+          {
+            "name": "IL",
+            "full_name": "Libéraux indépendants",
+            "full_name_en": "Independent Liberals",
+            "full_name_de": "Unabhängige Liberale",
+            "keyword": "Libéraux indépendants (Royaume-Uni, 1931)"
+          }
+        ]
+      },
+      {
+        "name": "Constitutionnaliste",
+        "name_en": "Constitutionalist",
+        "name_de": "Verfassungsgemäße",
+        "color": "#FBC408",
+        "keyword": "Constitutionnaliste (Royaume-Uni)",
+        "parties": [
+          {
+            "name": "Cons",
+            "full_name": "Constitutionnaliste",
+            "full_name_en": "Constitutionalist",
+            "full_name_de": "Verfassungsgemäße",
+            "keyword": "Constitutionnaliste (Royaume-Uni)"
+          }
+        ]
+      },
+      {
+        "name": "Indépendant national",
+        "name_en": "National independent",
+        "name_de": "National unabhängiger",
+        "color": "#FBC408",
+        "keyword": "Centre droit",
+        "parties": [
+          {
+            "name": "IN",
+            "full_name": "Indépendants nationaux",
+            "full_name_en": "National Independents",
+            "full_name_de": "Nationale Unabhängige",
+            "keyword": "Gouvernement national (Royaume-Uni)"
+          }
+        ]
+      },
+      {
+        "name": "Centre droit",
+        "name_en": "Center right",
+        "name_de": "Mitte rechts",
+        "color": "#FFA500",
+        "keyword": "Centre droit",
+        "parties": [
+          {
+            "name": "N",
+            "full_name": "National",
+            "full_name_en": "National",
+            "full_name_de": "National",
+            "keyword": "Gouvernement national (Royaume-Uni)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Droite",
+    "name_en": "Right",
+    "name_de": "Rechts",
+    "color": "#33ADFF",
+    "currents": [
+      {
+        "name": "Radical de droite",
+        "name_en": "Right-wing radical",
+        "name_de": "Rechtsradikaler",
+        "color": "#89D9FE",
+        "keyword": "Radicalisme",
+        "parties": [
+          {
+            "name": "PR",
+            "full_name": "Parti radical",
+            "full_name_en": "Radical Party",
+            "full_name_de": "Radikale Partei",
+            "keyword": "Parti radical (France)"
+          }
+        ]
+      },
+      {
+        "name": "Libéral-conservateur",
+        "name_en": "Liberal-conservative",
+        "name_de": "Liberal-konservativ",
+        "color": "#96D2FF",
+        "keyword": "libéral-conservatisme",
+        "parties": [
+          {
+            "name": "NLP",
+            "full_name": "Parti national-libéral",
+            "full_name_en": "National Liberal Party",
+            "full_name_de": "Nationalliberale Partei",
+            "keyword": "Parti national-libéral (Royaume-Uni, 1922-1923)"
+          },
+          {
+            "name": "NLP ",
+            "full_name": "Parti national-libéral",
+            "full_name_en": "National Liberal Party",
+            "full_name_de": "Nationalliberale Partei",
+            "keyword": "Parti national-libéral (Royaume-Uni, 1931-1968)"
+          }
+        ]
+      },
+      {
+        "name": "Divers droite",
+        "name_en": "Various right",
+        "name_de": "Verschiedenes richtig",
+        "color": "#70C2FF",
+        "keyword": "Divers droite",
+        "parties": [
+          {
+            "name": "IC",
+            "full_name": "Conservateurs indépendants",
+            "full_name_en": "Independent Conservatives",
+            "full_name_de": "Unabhängige Konservative"
+          }
+        ]
+      },
+      {
+        "name": "Conservateur",
+        "name_en": "Conservative",
+        "name_de": "Konservativ",
+        "color": "#33ADFF",
+        "keyword": "Conservatisme",
+        "parties": [
+          {
+            "name": "C",
+            "full_name": "Parti conservateur",
+            "full_name_en": "Conservative Party",
+            "full_name_de": "Konservative Partei",
+            "keyword": "Parti conservateur (Royaume-Uni)"
+          }
+        ]
+      },
+      {
+        "name": "Unioniste",
+        "name_en": "Unionist",
+        "name_de": "Unionist",
+        "color": "#2A8ED1",
+        "keyword": "Unionisme en Irlande",
+        "parties": [
+          {
+            "name": "UUP",
+            "full_name": "Parti unioniste d'Ulster",
+            "full_name_en": "Ulster Unionist Party",
+            "full_name_de": "Ulster Unionistische Partei",
+            "keyword": "Parti unioniste d'Ulster"
+          }
+        ]
+      },
+      {
+        "name": "Unionisme intransigeant",
+        "name_en": "Hardline unionism",
+        "name_de": "Harte Unionismus",
+        "color": "#1F6FB3",
+        "keyword": "Unionisme en Irlande",
+        "parties": [
+          {
+            "name": "IU",
+            "full_name": "Unionistes indépendants",
+            "full_name_en": "Independent Unionists",
+            "full_name_de": "Unabhängige Unionisten",
+            "keyword": "James Kilfedder"
+          },
+          {
+            "name": "UPUP",
+            "full_name": "Parti unioniste populaire d'Ulster",
+            "full_name_en": "Ulster Popular Unionist Party",
+            "full_name_de": "Ulster Populäre Unionistische Partei",
+            "keyword": "Parti unioniste populaire d'Ulster"
+          },
+          {
+            "name": "UKUP",
+            "full_name": "Parti unioniste du Royaume-Uni",
+            "full_name_en": "United Kingdom Unionist Party",
+            "full_name_de": "Vereinigte Königreich Unionistische Partei",
+            "keyword": "Parti unioniste du Royaume-Uni"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Extrême droite",
+    "name_en": "Far right",
+    "name_de": "Ganz rechts",
+    "color": "#BE9E87",
+    "currents": [
+      {
+        "name": "Conservateur libertarien",
+        "name_en": "Libertarian conservative",
+        "name_de": "Libertär-konservativ",
+        "color": "#3989DB",
+        "keyword": "Conservatisme libertarien",
+        "parties": [
+          {
+            "name": "UDR ",
+            "full_name": "Union des droites pour la République",
+            "full_name_en": "Union of the Right for the Republic",
+            "full_name_de": "Union der Rechten für die Republik",
+            "keyword": "Union des droites pour la République"
+          }
+        ]
+      },
+      {
+        "name": "Populiste de droite",
+        "name_en": "Right-wing populist",
+        "name_de": "Rechts-populistisch",
+        "color": "#49297A",
+        "keyword": "Populisme de droite",
+        "parties": [
+          {
+            "name": "RUK",
+            "full_name": "Parti de la réforme",
+            "full_name_en": "Reform UK",
+            "full_name_de": "Reform UK",
+            "keyword": "Reform UK"
+          }
+        ]
+      },
+      {
+        "name": "Loyaliste",
+        "name_en": "Loyalist",
+        "name_de": "Loyalist",
+        "color": "#FF9301",
+        "keyword": "Loyalisme d'Ulster",
+        "parties": [
+          {
+            "name": "VUPP",
+            "full_name": "Parti progressiste d'avant-garde unioniste",
+            "full_name_en": "Vanguard Unionist Progressive Party",
+            "full_name_de": "Vanguard Unionistische Fortschrittspartei",
+            "keyword": "Parti progressiste d'avant-garde unioniste"
+          },
+          {
+            "name": "UUUP",
+            "full_name": "Parti unioniste unifié d'Ulster",
+            "full_name_en": "United Ulster Unionist Party",
+            "full_name_de": "Vereinigte Ulster Unionistische Partei",
+            "keyword": "Parti unioniste unifié d'Ulster"
+          }
+        ]
+      },
+      {
+        "name": "National-populiste",
+        "name_en": "National-populist",
+        "name_de": "Nationalpopulistisch",
+        "color": "#BE9E87",
+        "keyword": "National-populisme",
+        "parties": [
+          {
+            "name": "UKIP",
+            "full_name": "United Kingdom Independence Party",
+            "full_name_en": "United Kingdom Independence Party",
+            "full_name_de": "Vereinigte Königreich Unabhängigkeitspartei",
+            "keyword": "UKIP"
+          }
+        ]
+      },
+      {
+        "name": "Loyaliste fondamentaliste",
+        "name_en": "Fundamentalist loyalist",
+        "name_de": "Fundamentalistischer Loyalist",
+        "color": "#FE7301",
+        "keyword": "Loyalisme d'Ulster",
+        "parties": [
+          {
+            "name": "PUP",
+            "full_name": "Parti unioniste protestant",
+            "full_name_en": "Protestant Unionist Party",
+            "full_name_de": "Protestantische Unionistische Partei",
+            "keyword": "Parti unioniste protestant"
+          },
+          {
+            "name": "DUP",
+            "full_name": "Parti unioniste démocrate",
+            "full_name_en": "Democratic Unionist Party",
+            "full_name_de": "Demokratische Unionistische Partei",
+            "keyword": "Parti unioniste démocrate"
+          }
+        ]
+      },
+      {
+        "name": "Loyaliste intransigeant",
+        "name_en": "Hardline loyalist",
+        "name_de": "Harter Loyalist",
+        "color": "#FE5200",
+        "keyword": "Loyalisme d'Ulster",
+        "parties": [
+          {
+            "name": "TUV",
+            "full_name": "Voix unioniste traditionnelle",
+            "full_name_en": "Traditional Unionist Voice",
+            "full_name_de": "Traditionelle Unionistische Stimme",
+            "keyword": "Voix unioniste traditionnelle"
+          }
+        ]
+      },
+      {
+        "name": "Poujadiste",
+        "name_en": "Poujadist",
+        "name_de": "Poujadist",
+        "color": "#A24A9A",
+        "keyword": "Poujadisme",
+        "parties": [
+          {
+            "name": "UFF",
+            "full_name": "Union et fraternité française",
+            "full_name_en": "French union and fraternity",
+            "full_name_de": "Französische Union und Bruderschaft"
+          }
+        ]
+      },
+      {
+        "name": "Nationaliste",
+        "name_en": "Nationalist",
+        "name_de": "Nationalist",
+        "color": "#B18C70",
+        "keyword": "Nationalisme",
+        "parties": [
+          {
+            "name": "NAT",
+            "full_name": "Nationalistes",
+            "full_name_en": "Nationalists",
+            "full_name_de": "Nationalisten",
+            "keyword": "Groupe nationaliste"
+          },
+          {
+            "name": "DN",
+            "full_name": "Défense nationale",
+            "full_name_en": "National Defense",
+            "full_name_de": "Landesverteidigung",
+            "keyword": "Groupe de la Défense nationale"
+          },
+          {
+            "name": "PN",
+            "full_name": "Parti nationaliste",
+            "full_name_en": "Nationalist Party",
+            "full_name_de": "Nationalistische Partei",
+            "keyword": "Parti nationaliste (Troisième République)"
+          }
+        ]
+      },
+      {
+        "name": "Nationaliste antisémite/pétainiste",
+        "name_en": "Anti-Semitic nationalist/Pétainist",
+        "name_de": "Antisemitischer Nationalist/Pétainist",
+        "color": "#91735C",
+        "keyword": "Antisémitisme #Antisémitisme politique",
+        "parties": [
+          {
+            "name": "NA",
+            "full_name": "Nationalistes Antijuifs",
+            "full_name_en": "Anti-Jewish Nationalists",
+            "full_name_de": "Antijüdische Nationalisten",
+            "keyword": "Groupe antijuif"
+          },
+          {
+            "name": "UNIR",
+            "full_name": "Union des nationaux indépendants et républicains",
+            "full_name_en": "Union of Independent and Republican Nationals",
+            "full_name_de": "Union unabhängiger und republikanischer Staatsangehöriger"
+          },
+          {
+            "name": "PP",
+            "full_name": "Philippe Pétain",
+            "full_name_en": "Philippe Petain",
+            "full_name_de": "Philippe Pétain"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Autres",
+    "name_en": "Others",
+    "name_de": "Andere",
+    "color": "#CDCCCD",
+    "currents": [
+      {
+        "name": "Autres",
+        "name_en": "Others",
+        "name_de": "Andere",
+        "color": "#CDCCCD",
+        "keyword": "Indépendant (politique)",
+        "parties": [
+          {
+            "name": "Ind",
+            "full_name": "Indépendant",
+            "full_name_en": "Independent",
+            "full_name_de": "Unabhängig",
+            "keyword": "Indépendant (politique)"
+          }
+        ]
+      },
+      {
+        "name": "Indépendant d'Algérie",
+        "name_en": "Independent of Algeria",
+        "name_de": "Unabhängig von Algerien",
+        "color": "#DAD9DA",
+        "parties": [
+          {
+            "name": "MA",
+            "full_name": "Musulmans algériens",
+            "full_name_en": "Algerian Muslims",
+            "full_name_de": "Algerische Muslime"
+          },
+          {
+            "name": "UDMA",
+            "full_name": "Union démocratique du manifeste algérien",
+            "full_name_en": "Democratic Union of the Algerian Manifesto",
+            "full_name_de": "Demokratische Union des Algerischen Manifests"
+          },
+          {
+            "name": "MIDFA",
+            "full_name": "Musulman indépendant pour la défense du fédéralisme algérien",
+            "full_name_en": "Independent Muslim in defense of Algerian federalism",
+            "full_name_de": "Unabhängiger Muslim zur Verteidigung des algerischen Föderalismus"
+          },
+          {
+            "name": "FAEAS",
+            "full_name": "Formation administrative des élus d'Algérie et du Sahara",
+            "full_name_en": "Administrative training for elected officials from Algeria and the Sahara",
+            "full_name_de": "Verwaltungsschulung für gewählte Amtsträger aus Algerien und der Sahara",
+            "keyword": "Regroupement national pour l'unité de la République"
+          }
+        ]
+      }
+    ]
+  }
+]

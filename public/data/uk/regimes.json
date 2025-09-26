@@ -1,0 +1,1875 @@
+[
+  {
+    "name": "Royaume uni de Grande-Bretagne et d'Irlande",
+    "name_en": "United Kingdom of Great Britain and Ireland",
+    "name_de": "Vereinigtes Königreich von Großbritannien und Irland",
+    "begin": "1801-01-01",
+    "end": "1922-12-06",
+    "legislatures": [
+      {
+        "legislature": 1922,
+        "total_deputes": 615,
+        "duration": 1,
+        "begin": "1922-11-15",
+        "end": "1923-12-06",
+        "parties": [
+          {
+            "name": "CPGB",
+            "deputes": 1
+          },
+          {
+            "name": "Lab",
+            "deputes": 142
+          },
+          {
+            "name": "ILab",
+            "deputes": 1
+          },
+          {
+            "name": "SPP",
+            "deputes": 1
+          },
+          {
+            "name": "CP",
+            "deputes": 0
+          },
+          {
+            "name": "Ind",
+            "deputes": 3
+          },
+          {
+            "name": "NP",
+            "deputes": 2,
+            "coalition": "Nationalistes irlandais",
+            "coalition_en": "Irish Nationalists",
+            "coalition_de": "Irische Nationalisten"
+          },
+          {
+            "name": "INP",
+            "deputes": 1,
+            "coalition": "Nationalistes irlandais",
+            "coalition_en": "Irish Nationalists",
+            "coalition_de": "Irische Nationalisten"
+          },
+          {
+            "name": "L",
+            "deputes": 62
+          },
+          {
+            "name": "ILib",
+            "deputes": 1
+          },
+          {
+            "name": "Cons",
+            "deputes": 1
+          },
+          {
+            "name": "NLP",
+            "deputes": 53
+          },
+          {
+            "name": "IC",
+            "deputes": 3
+          },
+          {
+            "name": "C",
+            "deputes": 344
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1922_United_Kingdom_general_election"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Royaume uni de Grande-Bretagne et d'Irlande du Nord",
+    "name_en": "United Kingdom of Great Britain and Northern Ireland",
+    "name_de": "Vereinigtes Königreich von Großbritannien und Nordirland",
+    "begin": "1922-12-06",
+    "legislatures": [
+      {
+        "legislature": 1923,
+        "total_deputes": 615,
+        "duration": 1,
+        "begin": "1923-12-06",
+        "end": "1924-10-29",
+        "parties": [
+          {
+            "name": "CPGB",
+            "deputes": 0
+          },
+          {
+            "name": "Lab",
+            "deputes": 191
+          },
+          {
+            "name": "ILab",
+            "deputes": 0
+          },
+          {
+            "name": "SPP",
+            "deputes": 1
+          },
+          {
+            "name": "CP",
+            "deputes": 1
+          },
+          {
+            "name": "Ind",
+            "deputes": 2
+          },
+          {
+            "name": "NP",
+            "deputes": 2,
+            "coalition": "Nationalistes irlandais",
+            "coalition_en": "Irish Nationalists",
+            "coalition_de": "Irische Nationalisten"
+          },
+          {
+            "name": "INP",
+            "deputes": 1,
+            "coalition": "Nationalistes irlandais",
+            "coalition_en": "Irish Nationalists",
+            "coalition_de": "Irische Nationalisten"
+          },
+          {
+            "name": "L",
+            "deputes": 158
+          },
+          {
+            "name": "ILib",
+            "deputes": 1
+          },
+          {
+            "name": "Cons",
+            "deputes": 0
+          },
+          {
+            "name": "NLP",
+            "deputes": 0
+          },
+          {
+            "name": "IC",
+            "deputes": 0
+          },
+          {
+            "name": "C",
+            "deputes": 258
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1923_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 1924,
+        "total_deputes": 615,
+        "duration": 5,
+        "begin": "1924-10-29",
+        "end": "1929-05-30",
+        "parties": [
+          {
+            "name": "CPGB",
+            "deputes": 1
+          },
+          {
+            "name": "Lab",
+            "deputes": 151
+          },
+          {
+            "name": "ILab",
+            "deputes": 0
+          },
+          {
+            "name": "SPP",
+            "deputes": 1
+          },
+          {
+            "name": "CP",
+            "deputes": 0
+          },
+          {
+            "name": "Ind",
+            "deputes": 2
+          },
+          {
+            "name": "NP",
+            "deputes": 0,
+            "coalition": "Nationalistes irlandais",
+            "coalition_en": "Irish Nationalists",
+            "coalition_de": "Irische Nationalisten"
+          },
+          {
+            "name": "INP",
+            "deputes": 1,
+            "coalition": "Nationalistes irlandais",
+            "coalition_en": "Irish Nationalists",
+            "coalition_de": "Irische Nationalisten"
+          },
+          {
+            "name": "L",
+            "deputes": 40
+          },
+          {
+            "name": "ILib",
+            "deputes": 0
+          },
+          {
+            "name": "Cons",
+            "deputes": 7
+          },
+          {
+            "name": "C",
+            "deputes": 412
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1924_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 1929,
+        "total_deputes": 615,
+        "duration": 2,
+        "begin": "1929-05-30",
+        "end": "1931-10-27",
+        "parties": [
+          {
+            "name": "CPGB",
+            "deputes": 0
+          },
+          {
+            "name": "ILP",
+            "deputes": 0
+          },
+          {
+            "name": "Lab",
+            "deputes": 287
+          },
+          {
+            "name": "ILab",
+            "deputes": 1
+          },
+          {
+            "name": "SPP",
+            "deputes": 1
+          },
+          {
+            "name": "Ind",
+            "deputes": 4
+          },
+          {
+            "name": "NP",
+            "deputes": 2,
+            "coalition": "Nationalistes irlandais",
+            "coalition_en": "Irish Nationalists",
+            "coalition_de": "Irische Nationalisten"
+          },
+          {
+            "name": "INP",
+            "deputes": 1,
+            "coalition": "Nationalistes irlandais",
+            "coalition_en": "Irish Nationalists",
+            "coalition_de": "Irische Nationalisten"
+          },
+          {
+            "name": "NLO",
+            "deputes": 0
+          },
+          {
+            "name": "L",
+            "deputes": 59
+          },
+          {
+            "name": "ILib",
+            "deputes": 0
+          },
+          {
+            "name": "Cons",
+            "deputes": 0
+          },
+          {
+            "name": "N",
+            "deputes": 0
+          },
+          {
+            "name": "NLP",
+            "deputes": 0
+          },
+          {
+            "name": "IC",
+            "deputes": 0
+          },
+          {
+            "name": "C",
+            "deputes": 260
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1929_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 1931,
+        "total_deputes": 615,
+        "duration": 4,
+        "begin": "1931-10-27",
+        "end": "1935-11-14",
+        "comment": "Total: 616. Please tell me if you know who is the extra MP (inside NG coalition_en).",
+        "parties": [
+          {
+            "name": "CPGB",
+            "deputes": 0
+          },
+          {
+            "name": "ILP",
+            "deputes": 3
+          },
+          {
+            "name": "Lab",
+            "deputes": 46
+          },
+          {
+            "name": "ILab",
+            "deputes": 3
+          },
+          {
+            "name": "SPP",
+            "deputes": 0
+          },
+          {
+            "name": "Ind",
+            "deputes": 3
+          },
+          {
+            "name": "NP",
+            "deputes": 2
+          },
+          {
+            "name": "INP",
+            "deputes": 0
+          },
+          {
+            "name": "NLO",
+            "deputes": 13,
+            "coalition": "Gouvernement national",
+            "coalition_en": "National Government",
+            "coalition_de": "Nationalregierung"
+          },
+          {
+            "name": "L",
+            "deputes": 33,
+            "coalition": "Gouvernement national",
+            "coalition_en": "National Government",
+            "coalition_de": "Nationalregierung"
+          },
+          {
+            "name": "ILib",
+            "deputes": 4
+          },
+          {
+            "name": "IN",
+            "deputes": 0,
+            "coalition": "Gouvernement national",
+            "coalition_en": "National Government",
+            "coalition_de": "Nationalregierung"
+          },
+          {
+            "name": "N",
+            "deputes": 4,
+            "coalition": "Gouvernement national",
+            "coalition_en": "National Government",
+            "coalition_de": "Nationalregierung"
+          },
+          {
+            "name": "NLP ",
+            "deputes": 35,
+            "coalition": "Gouvernement national",
+            "coalition_en": "National Government",
+            "coalition_de": "Nationalregierung"
+          },
+          {
+            "name": "C",
+            "deputes": 470,
+            "coalition": "Gouvernement national",
+            "coalition_en": "National Government",
+            "coalition_de": "Nationalregierung"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1931_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 1935,
+        "total_deputes": 615,
+        "duration": 10,
+        "begin": "1935-11-14",
+        "end": "1945-07-05",
+        "parties": [
+          {
+            "name": "CPGB",
+            "deputes": 1
+          },
+          {
+            "name": "ILP",
+            "deputes": 4
+          },
+          {
+            "name": "CW",
+            "deputes": 0
+          },
+          {
+            "name": "Lab",
+            "deputes": 154
+          },
+          {
+            "name": "ILab",
+            "deputes": 0
+          },
+          {
+            "name": "IP",
+            "deputes": 0
+          },
+          {
+            "name": "Ind",
+            "deputes": 2
+          },
+          {
+            "name": "NP",
+            "deputes": 2
+          },
+          {
+            "name": "NLO",
+            "deputes": 8,
+            "coalition": "Gouvernement national",
+            "coalition_en": "National Government",
+            "coalition_de": "Nationalregierung"
+          },
+          {
+            "name": "L",
+            "deputes": 17
+          },
+          {
+            "name": "IL",
+            "deputes": 4
+          },
+          {
+            "name": "IN",
+            "deputes": 2,
+            "coalition": "Gouvernement national",
+            "coalition_en": "National Government",
+            "coalition_de": "Nationalregierung"
+          },
+          {
+            "name": "N",
+            "deputes": 1,
+            "coalition": "Gouvernement national",
+            "coalition_en": "National Government",
+            "coalition_de": "Nationalregierung"
+          },
+          {
+            "name": "NLP ",
+            "deputes": 33,
+            "coalition": "Gouvernement national",
+            "coalition_en": "National Government",
+            "coalition_de": "Nationalregierung"
+          },
+          {
+            "name": "IC",
+            "deputes": 0,
+            "coalition": "Gouvernement national",
+            "coalition_en": "National Government",
+            "coalition_de": "Nationalregierung"
+          },
+          {
+            "name": "C",
+            "deputes": 387,
+            "coalition": "Gouvernement national",
+            "coalition_en": "National Government",
+            "coalition_de": "Nationalregierung"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1935_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 1945,
+        "total_deputes": 640,
+        "duration": 5,
+        "begin": "1945-07-05",
+        "end": "1950-02-23",
+        "comment": "Total: 648. Please tell me if you know who were the eight extra MPs.",
+        "parties": [
+          {
+            "name": "CPGB",
+            "deputes": 2
+          },
+          {
+            "name": "ILP",
+            "deputes": 3
+          },
+          {
+            "name": "CW",
+            "deputes": 1
+          },
+          {
+            "name": "Lab",
+            "deputes": 393
+          },
+          {
+            "name": "ILab",
+            "deputes": 2
+          },
+          {
+            "name": "IP",
+            "deputes": 1
+          },
+          {
+            "name": "Ind",
+            "deputes": 8
+          },
+          {
+            "name": "NP",
+            "deputes": 2
+          },
+          {
+            "name": "NLO",
+            "deputes": 8
+          },
+          {
+            "name": "L",
+            "deputes": 12
+          },
+          {
+            "name": "ILib",
+            "deputes": 2
+          },
+          {
+            "name": "IN",
+            "deputes": 2
+          },
+          {
+            "name": "N",
+            "deputes": 2
+          },
+          {
+            "name": "NLP ",
+            "deputes": 11
+          },
+          {
+            "name": "IC",
+            "deputes": 2
+          },
+          {
+            "name": "C",
+            "deputes": 197
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1945_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 1950,
+        "total_deputes": 625,
+        "duration": 1,
+        "begin": "1950-02-23",
+        "true-end": "1951-10-25",
+        "parties": [
+          {
+            "name": "CPGB",
+            "deputes": 0
+          },
+          {
+            "name": "ILP",
+            "deputes": 0
+          },
+          {
+            "name": "IrLab",
+            "deputes": 0
+          },
+          {
+            "name": "CW",
+            "deputes": 0
+          },
+          {
+            "name": "Lab",
+            "deputes": 315
+          },
+          {
+            "name": "ILab",
+            "deputes": 0
+          },
+          {
+            "name": "IP",
+            "deputes": 0
+          },
+          {
+            "name": "Ind",
+            "deputes": 0
+          },
+          {
+            "name": "IN ",
+            "deputes": 0
+          },
+          {
+            "name": "NP",
+            "deputes": 2
+          },
+          {
+            "name": "NLO",
+            "deputes": 0
+          },
+          {
+            "name": "L",
+            "deputes": 9
+          },
+          {
+            "name": "ILib",
+            "deputes": 1
+          },
+          {
+            "name": "IN",
+            "deputes": 0
+          },
+          {
+            "name": "N",
+            "deputes": 0
+          },
+          {
+            "name": "NLP ",
+            "deputes": 16,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "IC",
+            "deputes": 0,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "C",
+            "deputes": 282,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1950_United_Kingdom_general_election",
+          "https://en.wikipedia.org/wiki/National_Liberal_Party_(UK,_1931)"
+        ]
+      },
+      {
+        "legislature": 1951,
+        "total_deputes": 625,
+        "duration": 4,
+        "begin": "1951-10-25",
+        "end": "1955-05-26",
+        "parties": [
+          {
+            "name": "SF",
+            "deputes": 0
+          },
+          {
+            "name": "IrLab",
+            "deputes": 1
+          },
+          {
+            "name": "Lab",
+            "deputes": 295
+          },
+          {
+            "name": "IN ",
+            "deputes": 2
+          },
+          {
+            "name": "NP",
+            "deputes": 0
+          },
+          {
+            "name": "L",
+            "deputes": 6
+          },
+          {
+            "name": "ILib",
+            "deputes": 0
+          },
+          {
+            "name": "NLP ",
+            "deputes": 19,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "C",
+            "deputes": 302,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1951_United_Kingdom_general_election",
+          "https://en.wikipedia.org/wiki/National_Liberal_Party_(UK,_1931)"
+        ]
+      },
+      {
+        "legislature": 1955,
+        "total_deputes": 630,
+        "duration": 4,
+        "begin": "1955-05-26",
+        "end": "1959-10-08",
+        "parties": [
+          {
+            "name": "SF",
+            "deputes": 2
+          },
+          {
+            "name": "IrLab",
+            "deputes": 0
+          },
+          {
+            "name": "Lab",
+            "deputes": 277
+          },
+          {
+            "name": "IN ",
+            "deputes": 0
+          },
+          {
+            "name": "L",
+            "deputes": 6
+          },
+          {
+            "name": "NLP ",
+            "deputes": 21,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "IC",
+            "deputes": 0,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "C",
+            "deputes": 324,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1955_United_Kingdom_general_election",
+          "https://en.wikipedia.org/wiki/National_Liberal_Party_(UK,_1931)"
+        ]
+      },
+      {
+        "legislature": 1959,
+        "total_deputes": 630,
+        "duration": 5,
+        "begin": "1959-10-08",
+        "end": "1964-10-15",
+        "parties": [
+          {
+            "name": "SF",
+            "deputes": 0
+          },
+          {
+            "name": "Lab",
+            "deputes": 258
+          },
+          {
+            "name": "L",
+            "deputes": 6
+          },
+          {
+            "name": "NLP ",
+            "deputes": 20,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "IC",
+            "deputes": 1,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "C",
+            "deputes": 345,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1959_United_Kingdom_general_election",
+          "https://en.wikipedia.org/wiki/National_Liberal_Party_(UK,_1931)"
+        ]
+      },
+      {
+        "legislature": 1964,
+        "total_deputes": 630,
+        "duration": 2,
+        "begin": "1964-10-15",
+        "end": "1966-03-31",
+        "parties": [
+          {
+            "name": "RLP",
+            "deputes": 0
+          },
+          {
+            "name": "Lab",
+            "deputes": 317
+          },
+          {
+            "name": "L",
+            "deputes": 9
+          },
+          {
+            "name": "NLP ",
+            "deputes": 6,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "IC",
+            "deputes": 0,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "C",
+            "deputes": 298,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1964_United_Kingdom_general_election",
+          "https://en.wikipedia.org/wiki/National_Liberal_Party_(UK,_1931)"
+        ]
+      },
+      {
+        "legislature": 1966,
+        "total_deputes": 630,
+        "duration": 4,
+        "begin": "1966-03-31",
+        "end": "1970-06-18",
+        "parties": [
+          {
+            "name": "RLP",
+            "deputes": 1
+          },
+          {
+            "name": "Lab",
+            "deputes": 364
+          },
+          {
+            "name": "ILab",
+            "deputes": 0
+          },
+          {
+            "name": "SNP",
+            "deputes": 0
+          },
+          {
+            "name": "U",
+            "deputes": 0
+          },
+          {
+            "name": "L",
+            "deputes": 12
+          },
+          {
+            "name": "NLP ",
+            "deputes": 3,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "C",
+            "deputes": 250,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "PUP",
+            "deputes": 0
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1966_United_Kingdom_general_election",
+          "https://en.wikipedia.org/wiki/National_Liberal_Party_(UK,_1931)"
+        ]
+      },
+      {
+        "legislature": 1970,
+        "total_deputes": 630,
+        "duration": 4,
+        "begin": "1970-06-18",
+        "end": "1974-02-28",
+        "parties": [
+          {
+            "name": "RLP",
+            "deputes": 1
+          },
+          {
+            "name": "Lab",
+            "deputes": 288
+          },
+          {
+            "name": "ILab",
+            "deputes": 1
+          },
+          {
+            "name": "DLP",
+            "deputes": 0
+          },
+          {
+            "name": "PC",
+            "deputes": 0
+          },
+          {
+            "name": "SNP",
+            "deputes": 1
+          },
+          {
+            "name": "U",
+            "deputes": 2
+          },
+          {
+            "name": "L",
+            "deputes": 6
+          },
+          {
+            "name": "NLP ",
+            "deputes": 0
+          },
+          {
+            "name": "C",
+            "deputes": 330
+          },
+          {
+            "name": "UUP",
+            "deputes": 0
+          },
+          {
+            "name": "VUPP",
+            "deputes": 0
+          },
+          {
+            "name": "PUP",
+            "deputes": 1
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1970_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 1974,
+        "total_deputes": 635,
+        "duration": 0.5,
+        "begin": "1974-02-28",
+        "end": "1974-10-10",
+        "parties": [
+          {
+            "name": "SDLP",
+            "deputes": 1
+          },
+          {
+            "name": "Lab",
+            "deputes": 301
+          },
+          {
+            "name": "ILab",
+            "deputes": 1
+          },
+          {
+            "name": "DLP",
+            "deputes": 1
+          },
+          {
+            "name": "PC",
+            "deputes": 2
+          },
+          {
+            "name": "SNP",
+            "deputes": 7
+          },
+          {
+            "name": "U",
+            "deputes": 0
+          },
+          {
+            "name": "L",
+            "deputes": 14
+          },
+          {
+            "name": "C",
+            "deputes": 297
+          },
+          {
+            "name": "UUP",
+            "deputes": 7
+          },
+          {
+            "name": "VUPP",
+            "deputes": 3
+          },
+          {
+            "name": "DUP",
+            "deputes": 1
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/February_1974_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 1974.5,
+        "total_deputes": 635,
+        "duration": 5,
+        "begin": "1974-10-10",
+        "end": "1979-05-03",
+        "parties": [
+          {
+            "name": "SDLP",
+            "deputes": 1
+          },
+          {
+            "name": "Lab",
+            "deputes": 319
+          },
+          {
+            "name": "ILab",
+            "deputes": 0
+          },
+          {
+            "name": "DLP",
+            "deputes": 0
+          },
+          {
+            "name": "PC",
+            "deputes": 3
+          },
+          {
+            "name": "SNP",
+            "deputes": 11
+          },
+          {
+            "name": "IR",
+            "deputes": 1
+          },
+          {
+            "name": "L",
+            "deputes": 13
+          },
+          {
+            "name": "C",
+            "deputes": 277
+          },
+          {
+            "name": "UUP",
+            "deputes": 6
+          },
+          {
+            "name": "IU",
+            "deputes": 0
+          },
+
+          {
+            "name": "VUPP",
+            "deputes": 3
+          },
+          {
+            "name": "DUP",
+            "deputes": 1
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/October_1974_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 1979,
+        "total_deputes": 635,
+        "duration": 4,
+        "begin": "1979-05-03",
+        "end": "1983-06-09",
+        "parties": [
+          {
+            "name": "SF",
+            "deputes": 0
+          },
+          {
+            "name": "SDLP",
+            "deputes": 1
+          },
+          {
+            "name": "Lab",
+            "deputes": 269
+          },
+          {
+            "name": "PC",
+            "deputes": 2
+          },
+          {
+            "name": "SNP",
+            "deputes": 2
+          },
+          {
+            "name": "IR",
+            "deputes": 1
+          },
+          {
+            "name": "SDP",
+            "deputes": 0
+          },
+          {
+            "name": "L",
+            "deputes": 11
+          },
+          {
+            "name": "C",
+            "deputes": 339
+          },
+          {
+            "name": "UUP",
+            "deputes": 5
+          },
+          {
+            "name": "IU",
+            "deputes": 1
+          },
+          {
+            "name": "UUUP",
+            "deputes": 1
+          },
+          {
+            "name": "DUP",
+            "deputes": 3
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1979_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 1983,
+        "total_deputes": 650,
+        "duration": 4,
+        "begin": "1983-06-09",
+        "end": "1987-06-11",
+        "parties": [
+          {
+            "name": "SF",
+            "deputes": 1
+          },
+          {
+            "name": "SDLP",
+            "deputes": 1
+          },
+          {
+            "name": "Lab",
+            "deputes": 209
+          },
+          {
+            "name": "PC",
+            "deputes": 2
+          },
+          {
+            "name": "SNP",
+            "deputes": 2
+          },
+          {
+            "name": "IR",
+            "deputes": 0
+          },
+          {
+            "name": "SDP",
+            "deputes": 6,
+            "coalition": "Alliance SDP-Libérale",
+            "coalition_en": "SDP-Liberal Alliance",
+            "coalition_de": "SDP-Liberale Allianz"
+          },
+          {
+            "name": "L",
+            "deputes": 17,
+            "coalition": "Alliance SDP-Libérale",
+            "coalition_en": "SDP-Liberal Alliance",
+            "coalition_de": "SDP-Liberale Allianz"
+          },
+          {
+            "name": "C",
+            "deputes": 397
+          },
+          {
+            "name": "UUP",
+            "deputes": 11
+          },
+          {
+            "name": "UPUP",
+            "deputes": 1
+          },
+          {
+            "name": "UUUP",
+            "deputes": 0
+          },
+          {
+            "name": "DUP",
+            "deputes": 3
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1983_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 1987,
+        "total_deputes": 650,
+        "duration": 5,
+        "begin": "1987-06-11",
+        "end": "1992-04-09",
+        "parties": [
+          {
+            "name": "SF",
+            "deputes": 1
+          },
+          {
+            "name": "SDLP",
+            "deputes": 3
+          },
+          {
+            "name": "Lab",
+            "deputes": 229
+          },
+          {
+            "name": "PC",
+            "deputes": 3
+          },
+          {
+            "name": "SNP",
+            "deputes": 3
+          },
+          {
+            "name": "SDP",
+            "deputes": 5,
+            "coalition": "Alliance SDP-Libérale",
+            "coalition_en": "SDP-Liberal Alliance",
+            "coalition_de": "SDP-Liberale Allianz"
+          },
+          {
+            "name": "L",
+            "deputes": 17,
+            "coalition": "Alliance SDP-Libérale",
+            "coalition_en": "SDP-Liberal Alliance",
+            "coalition_de": "SDP-Liberale Allianz"
+          },
+          {
+            "name": "C",
+            "deputes": 376
+          },
+          {
+            "name": "UUP",
+            "deputes": 9
+          },
+          {
+            "name": "UPUP",
+            "deputes": 1
+          },
+          {
+            "name": "DUP",
+            "deputes": 3
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1987_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 1992,
+        "total_deputes": 651,
+        "duration": 5,
+        "begin": "1992-04-09",
+        "end": "1997-05-01",
+        "parties": [
+          {
+            "name": "SF",
+            "deputes": 0
+          },
+          {
+            "name": "SDLP",
+            "deputes": 4
+          },
+          {
+            "name": "Lab",
+            "deputes": 271
+          },
+          {
+            "name": "PC",
+            "deputes": 4
+          },
+          {
+            "name": "SNP",
+            "deputes": 3
+          },
+          {
+            "name": "SDP",
+            "deputes": 0
+          },
+          {
+            "name": "Ind",
+            "deputes": 0
+          },
+          {
+            "name": "LD",
+            "deputes": 20
+          },
+          {
+            "name": "C",
+            "deputes": 336
+          },
+          {
+            "name": "UUP",
+            "deputes": 9
+          },
+          {
+            "name": "UPUP",
+            "deputes": 1
+          },
+          {
+            "name": "DUP",
+            "deputes": 3
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1992_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 1997,
+        "total_deputes": 659,
+        "duration": 4,
+        "begin": "1997-05-01",
+        "end": "2001-06-07",
+        "parties": [
+          {
+            "name": "SF",
+            "deputes": 2
+          },
+          {
+            "name": "SDLP",
+            "deputes": 3
+          },
+          {
+            "name": "Lab",
+            "deputes": 418
+          },
+          {
+            "name": "PC",
+            "deputes": 4
+          },
+          {
+            "name": "SNP",
+            "deputes": 6
+          },
+          {
+            "name": "Ind",
+            "deputes": 2
+          },
+          {
+            "name": "LD",
+            "deputes": 46
+          },
+          {
+            "name": "C",
+            "deputes": 165
+          },
+          {
+            "name": "UUP",
+            "deputes": 10
+          },
+          {
+            "name": "UKUP",
+            "deputes": 1
+          },
+          {
+            "name": "DUP",
+            "deputes": 2
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1997_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 2001,
+        "total_deputes": 659,
+        "duration": 4,
+        "begin": "2001-06-07",
+        "end": "2005-05-05",
+        "parties": [
+          {
+            "name": "R",
+            "deputes": 0
+          },
+          {
+            "name": "SF",
+            "deputes": 4
+          },
+          {
+            "name": "SDLP",
+            "deputes": 3
+          },
+          {
+            "name": "Lab",
+            "deputes": 412
+          },
+          {
+            "name": "PC",
+            "deputes": 4
+          },
+          {
+            "name": "SNP",
+            "deputes": 5
+          },
+          {
+            "name": "Ind",
+            "deputes": 2
+          },
+          {
+            "name": "LD",
+            "deputes": 52
+          },
+          {
+            "name": "C",
+            "deputes": 166
+          },
+          {
+            "name": "UUP",
+            "deputes": 6
+          },
+          {
+            "name": "UKUP",
+            "deputes": 0
+          },
+          {
+            "name": "DUP",
+            "deputes": 5
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/2001_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 2005,
+        "total_deputes": 646,
+        "duration": 5,
+        "begin": "2005-05-05",
+        "end": "2010-05-06",
+        "parties": [
+          {
+            "name": "R",
+            "deputes": 1
+          },
+          {
+            "name": "SF",
+            "deputes": 5
+          },
+          {
+            "name": "SDLP",
+            "deputes": 3
+          },
+          {
+            "name": "GP",
+            "deputes": 0
+          },
+          {
+            "name": "Lab",
+            "deputes": 355
+          },
+          {
+            "name": "PC",
+            "deputes": 3
+          },
+          {
+            "name": "SNP",
+            "deputes": 6
+          },
+          {
+            "name": "Ind",
+            "deputes": 3
+          },
+          {
+            "name": "LD",
+            "deputes": 62
+          },
+          {
+            "name": "C",
+            "deputes": 198
+          },
+          {
+            "name": "UUP",
+            "deputes": 1
+          },
+          {
+            "name": "DUP",
+            "deputes": 9
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/2005_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 2010,
+        "total_deputes": 650,
+        "duration": 5,
+        "begin": "2010-05-06",
+        "end": "2015-05-07",
+        "parties": [
+          {
+            "name": "R",
+            "deputes": 0
+          },
+          {
+            "name": "SF",
+            "deputes": 5
+          },
+          {
+            "name": "SDLP",
+            "deputes": 3
+          },
+          {
+            "name": "GP",
+            "deputes": 1
+          },
+          {
+            "name": "Lab",
+            "deputes": 258
+          },
+          {
+            "name": "PC",
+            "deputes": 3
+          },
+          {
+            "name": "SNP",
+            "deputes": 6
+          },
+          {
+            "name": "Ind",
+            "deputes": 2
+          },
+          {
+            "name": "LD",
+            "deputes": 58
+          },
+          {
+            "name": "C",
+            "deputes": 306
+          },
+          {
+            "name": "UUP",
+            "deputes": 0
+          },
+          {
+            "name": "UKIP",
+            "deputes": 0
+          },
+          {
+            "name": "DUP",
+            "deputes": 9
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/2010_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 2015,
+        "total_deputes": 650,
+        "duration": 2,
+        "begin": "2015-05-07",
+        "end": "2017-06-08",
+        "parties": [
+          {
+            "name": "SF",
+            "deputes": 4
+          },
+          {
+            "name": "SDLP",
+            "deputes": 3
+          },
+          {
+            "name": "GP",
+            "deputes": 1
+          },
+          {
+            "name": "Lab",
+            "deputes": 232
+          },
+          {
+            "name": "PC",
+            "deputes": 3
+          },
+          {
+            "name": "SNP",
+            "deputes": 56
+          },
+          {
+            "name": "Ind",
+            "deputes": 2
+          },
+          {
+            "name": "LD",
+            "deputes": 8
+          },
+          {
+            "name": "C",
+            "deputes": 330
+          },
+          {
+            "name": "UUP",
+            "deputes": 2
+          },
+          {
+            "name": "UKIP",
+            "deputes": 1
+          },
+          {
+            "name": "DUP",
+            "deputes": 8
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/2015_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 2017,
+        "total_deputes": 650,
+        "duration": 2,
+        "begin": "2017-06-08",
+        "end": "2019-12-12",
+        "parties": [
+          {
+            "name": "SF",
+            "deputes": 7
+          },
+          {
+            "name": "SDLP",
+            "deputes": 0
+          },
+          {
+            "name": "GP",
+            "deputes": 1
+          },
+          {
+            "name": "Lab",
+            "deputes": 262
+          },
+          {
+            "name": "PC",
+            "deputes": 4
+          },
+          {
+            "name": "SNP",
+            "deputes": 35
+          },
+          {
+            "name": "Ind",
+            "deputes": 2
+          },
+          {
+            "name": "LD",
+            "deputes": 12
+          },
+          {
+            "name": "C",
+            "deputes": 317
+          },
+          {
+            "name": "UUP",
+            "deputes": 0
+          },
+          {
+            "name": "UKIP",
+            "deputes": 0
+          },
+          {
+            "name": "DUP",
+            "deputes": 10
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/2017_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 2019,
+        "total_deputes": 650,
+        "duration": 5,
+        "begin": "2019-12-12",
+        "end": "2024-07-04",
+        "parties": [
+          {
+            "name": "SF",
+            "deputes": 7
+          },
+          {
+            "name": "SDLP",
+            "deputes": 2
+          },
+          {
+            "name": "GP",
+            "deputes": 1,
+            "coalition": "Unis pour rester",
+            "coalition_en": "Unite to Remain",
+            "coalition_de": "Vereinigung für bleiben"
+          },
+          {
+            "name": "Lab",
+            "deputes": 202
+          },
+          {
+            "name": "PC",
+            "deputes": 4,
+            "coalition": "Unis pour rester",
+            "coalition_en": "Unite to Remain",
+            "coalition_de": "Vereinigung für bleiben"
+          },
+          {
+            "name": "SNP",
+            "deputes": 48
+          },
+          {
+            "name": "Ind",
+            "deputes": 1
+          },
+          {
+            "name": "LD",
+            "deputes": 12,
+            "coalition": "Unis pour rester",
+            "coalition_en": "Unite to Remain",
+            "coalition_de": "Vereinigung für bleiben"
+          },
+          {
+            "name": "C",
+            "deputes": 365
+          },
+          {
+            "name": "UUP",
+            "deputes": 0
+          },
+          {
+            "name": "DUP",
+            "deputes": 8
+          },
+          {
+            "name": "RUK",
+            "deputes": 0
+          },
+          {
+            "name": "TUV",
+            "deputes": 0
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/2019_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 2024,
+        "total_deputes": 650,
+        "duration": 5,
+        "begin": "2024-07-04",
+        "end": "now",
+        "parties": [
+          {
+            "name": "SF",
+            "deputes": 7
+          },
+          {
+            "name": "SDLP",
+            "deputes": 2
+          },
+          {
+            "name": "GP",
+            "deputes": 4
+          },
+          {
+            "name": "Lab",
+            "deputes": 411
+          },
+          {
+            "name": "PC",
+            "deputes": 4
+          },
+          {
+            "name": "SNP",
+            "deputes": 9
+          },
+          {
+            "name": "Ind",
+            "deputes": 7
+          },
+          {
+            "name": "LD",
+            "deputes": 73
+          },
+          {
+            "name": "C",
+            "deputes": 121
+          },
+          {
+            "name": "UUP",
+            "deputes": 1
+          },
+          {
+            "name": "DUP",
+            "deputes": 5
+          },
+          {
+            "name": "RUK",
+            "deputes": 5,
+            "coalition": "Alliance Reform UK-TUV",
+            "coalition_en": "Reform UK-TUV Alliance",
+            "coalition_de": "Reform UK-TUV Allianz"
+          },
+          {
+            "name": "TUV",
+            "deputes": 1,
+            "coalition": "Alliance Reform UK-TUV",
+            "coalition_en": "Reform UK-TUV Alliance",
+            "coalition_de": "Reform UK-TUV Allianz"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/2024_United_Kingdom_general_election"
+        ]
+      }
+    ]
+  }
+]
