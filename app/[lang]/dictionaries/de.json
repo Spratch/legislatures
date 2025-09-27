@@ -11,7 +11,9 @@
     "title_germany": "Deutschland",
     "description_germany": "Ab 1949",
     "title_ddr": "Deutsche Demokratische Republik",
-    "description_ddr": "1949-1990"
+    "description_ddr": "1949-1990",
+    "title_uk": "Vereinigtes Königreich",
+    "description_uk": "Ab 1922"
   },
   "settingsLine": {
     "hideEvents": "Ereignisse ausblenden",

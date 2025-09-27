@@ -11,7 +11,9 @@
     "title_germany": "Allemagne",
     "description_germany": "À partir de 1949",
     "title_ddr": "Allemagne de l'Est",
-    "description_ddr": "1949-1990"
+    "description_ddr": "1949-1990",
+    "title_uk": "Royaume-Uni",
+    "description_uk": "À partir de 1922"
   },
   "settingsLine": {
     "hideEvents": "Masquer les événements",
