@@ -2,13 +2,22 @@ import "server-only";
 import { CountryDataType } from "@/types/countryData";
 import { CountryEnum } from "@/types/countriesEnum";
 
-const datas = {
-  france: () => import("../../data/france").then((module) => module.default),
-  germany: () => import("../../data/germany").then((module) => module.default),
-  ddr: () => import("../../data/ddr").then((module) => module.default),
-  uk: () => import("../../data/uk").then((module) => module.default)
-};
-
 export const getCountryData = async (
   country: keyof typeof CountryEnum
-): Promise<CountryDataType> => datas[country]();
+): Promise<CountryDataType> => {
+  const [events, families, infos, regimes] = await Promise.all([
+    import(`@/public/data/${country}/events.json`).then(
+      (module) => module.default
+    ),
+    import(`@/public/data/${country}/families.json`).then(
+      (module) => module.default
+    ),
+    import(`@/public/data/${country}/infos.json`).then(
+      (module) => module.default
+    ),
+    import(`@/public/data/${country}/regimes.json`).then(
+      (module) => module.default
+    )
+  ]);
+  return { events, families, infos, regimes };
+};
