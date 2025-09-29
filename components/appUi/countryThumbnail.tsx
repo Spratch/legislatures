@@ -39,7 +39,7 @@ export default function CountryThumbnail({ index, countryInfos, lang }: Props) {
   return (
     <Link
       href={`/${lang}/${countryInfos.key}`}
-      className="border border-black/10 hover:border-black/20 rounded-xl transition shadow-md sm:shadow-sm sm:hover:shadow-lg overflow-hidden absolute aspect-video"
+      className="border border-black/10 hover:border-black/20 rounded-xl transition shadow-md sm:shadow-sm sm:hover:shadow-lg overflow-hidden absolute aspect-video w-80 sm:w-[30rem]"
       style={{
         transform: `
                 rotateX(${tilt.rotateX + index * 5}deg)
@@ -57,10 +57,10 @@ export default function CountryThumbnail({ index, countryInfos, lang }: Props) {
     >
       <Image
         src={countryInfos.image}
-        alt="Country"
+        alt=""
         width={500}
         height={300}
-        className="h-full w-80 sm:w-[30rem] object-cover object-top"
+        className="h-full w-full object-cover object-top p-px"
       />
       <div
         className="absolute top-0 bottom-0 left-0 right-0"
