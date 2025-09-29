@@ -102,6 +102,22 @@
         ]
       },
       {
+        "name": "Coopératif",
+        "name_en": "Co-operative",
+        "name_de": "Kooperativ",
+        "color": "#A795BE",
+        "keyword": "Coopérative",
+        "parties": [
+          {
+            "name": "Coop",
+            "full_name": "Parti coopératif",
+            "full_name_en": "Co-operative Party",
+            "full_name_de": "Kooperative Partei",
+            "keyword": "Parti coopératif"
+          }
+        ]
+      },
+      {
         "name": "Social-démocrate",
         "name_en": "Social-democrat",
         "name_de": "Sozialdemokrat",
@@ -161,6 +177,22 @@
             "full_name": "Travaillistes indépendants",
             "full_name_en": "Independent Labour",
             "full_name_de": "Unabhängige Arbeiter"
+          }
+        ]
+      },
+      {
+        "name": "Vétéran",
+        "name_en": "Veteran",
+        "name_de": "Veteran",
+        "color": "#B10A29",
+        "keyword": "Vétéran",
+        "parties": [
+          {
+            "name": "NADSS",
+            "full_name": "Association nationale des marins et soldats démobilisés",
+            "full_name_en": "National Association of Discharged Sailors and Soldiers",
+            "full_name_de": "Nationale Vereinigung entlassener Matrosen und Soldaten",
+            "keyword": "Association nationale des marins et soldats démobilisés"
           }
         ]
       },
@@ -306,6 +338,13 @@
         "keyword": "Nationalisme irlandais",
         "parties": [
           {
+            "name": "IPP",
+            "full_name": "Parti parlementaire irlandais",
+            "full_name_en": "Irish Parliamentary Party",
+            "full_name_de": "Irische Parlamentarische Partei",
+            "keyword": "Parti parlementaire irlandais"
+          },
+          {
             "name": "NP",
             "full_name": "Parti nationaliste",
             "full_name_en": "Nationalist Party",
@@ -346,12 +385,34 @@
     "color": "#FFBC5D",
     "currents": [
       {
+        "name": "Socialiste patriotique",
+        "name_en": "Patriotic Socialist",
+        "name_de": "Patriotischer Sozialist",
+        "color": "#FF8C6A",
+        "keyword": "Patriotisme",
+        "parties": [
+          {
+            "name": "NSP",
+            "full_name": "Parti socialiste national",
+            "full_name_en": "National Socialist Party",
+            "full_name_de": "Nationalsozialistische Partei"
+          }
+        ]
+      },
+      {
         "name": "National travailliste",
         "name_en": "National Labour",
         "name_de": "Nationaler Arbeiter",
         "color": "#FFA6AE",
         "keyword": "Travaillisme",
         "parties": [
+          {
+            "name": "CLab",
+            "full_name": "Travaillistes de coalition",
+            "full_name_en": "Coalition Labour",
+            "full_name_de": "Koalitionsarbeiter",
+            "keyword": "Travaillistes de coalition"
+          },
           {
             "name": "NLO",
             "full_name": "Organisation travailliste nationale",
@@ -440,12 +501,18 @@
         ]
       },
       {
-        "name": "Constitutionnaliste",
-        "name_en": "Constitutionalist",
-        "name_de": "Verfassungsgemäße",
+        "name": "National-Démocrate",
+        "name_en": "National-Democrat",
+        "name_de": "Nationaldemokrat",
         "color": "#FBC408",
-        "keyword": "Constitutionnaliste (Royaume-Uni)",
+        "keyword": "National-Démocrate",
         "parties": [
+          {
+            "name": "NDP",
+            "full_name": "Parti national-démocrate et travailliste",
+            "full_name_en": "National-Democrat and Labour Party",
+            "full_name_de": "Nationaldemokratische und Arbeiterpartei"
+          },
           {
             "name": "Cons",
             "full_name": "Constitutionnaliste",
@@ -519,6 +586,13 @@
         "keyword": "libéral-conservatisme",
         "parties": [
           {
+            "name": "CL",
+            "full_name": "Libéraux de coalition",
+            "full_name_en": "Coalition liberals",
+            "full_name_de": "Koalitionsliberale",
+            "keyword": "Libéraux de coalition"
+          },
+          {
             "name": "NLP",
             "full_name": "Parti national-libéral",
             "full_name_en": "National Liberal Party",
@@ -531,6 +605,21 @@
             "full_name_en": "National Liberal Party",
             "full_name_de": "Nationalliberale Partei",
             "keyword": "Parti national-libéral (Royaume-Uni, 1931-1968)"
+          }
+        ]
+      },
+      {
+        "name": "Unioniste travailliste",
+        "name_en": "Labour unionist",
+        "name_de": "Arbeiterunionist",
+        "color": "#7EC9FF",
+        "keyword": "Unionisme en Irlande",
+        "parties": [
+          {
+            "name": "UULA",
+            "full_name": "Association unioniste travailliste d'Ulster",
+            "full_name_en": "Ulster Unionist Labour Association",
+            "full_name_de": "Ulster Unionistische Arbeitervereinigung"
           }
         ]
       },
@@ -566,12 +655,35 @@
         ]
       },
       {
+        "name": "Unioniste indépendant",
+        "name_en": "Independent unionist",
+        "name_de": "Unabhängiger Unionist",
+        "color": "#4DA3FF",
+        "keyword": "Unionisme en Irlande",
+        "parties": [
+          {
+            "name": "IU",
+            "full_name": "Unionistes indépendants",
+            "full_name_en": "Independent Unionists",
+            "full_name_de": "Unabhängige Unionisten",
+            "keyword": "Unionisme en Irlande"
+          }
+        ]
+      },
+      {
         "name": "Unioniste",
         "name_en": "Unionist",
         "name_de": "Unionist",
         "color": "#2A8ED1",
         "keyword": "Unionisme en Irlande",
         "parties": [
+          {
+            "name": "IUA",
+            "full_name": "Association unioniste irlandaise",
+            "full_name_en": "Irish Unionist Alliance",
+            "full_name_de": "Irische Unionistische Allianz",
+            "keyword": "Parti unioniste irlandais"
+          },
           {
             "name": "UUP",
             "full_name": "Parti unioniste d'Ulster",
@@ -582,14 +694,14 @@
         ]
       },
       {
-        "name": "Unionisme intransigeant",
-        "name_en": "Hardline unionism",
-        "name_de": "Harte Unionismus",
+        "name": "Unioniste intransigeant",
+        "name_en": "Hardline unionist",
+        "name_de": "Harter Unionist",
         "color": "#1F6FB3",
         "keyword": "Unionisme en Irlande",
         "parties": [
           {
-            "name": "IU",
+            "name": "IU ",
             "full_name": "Unionistes indépendants",
             "full_name_en": "Independent Unionists",
             "full_name_de": "Unabhängige Unionisten",
@@ -682,6 +794,12 @@
         "keyword": "National-populisme",
         "parties": [
           {
+            "name": "NP ",
+            "full_name": "Parti national",
+            "full_name_en": "National Party",
+            "full_name_de": "Nationale Partei"
+          },
+          {
             "name": "UKIP",
             "full_name": "United Kingdom Independence Party",
             "full_name_en": "United Kingdom Independence Party",
@@ -726,51 +844,6 @@
             "full_name_en": "Traditional Unionist Voice",
             "full_name_de": "Traditionelle Unionistische Stimme",
             "keyword": "Voix unioniste traditionnelle"
-          }
-        ]
-      },
-      {
-        "name": "Poujadiste",
-        "name_en": "Poujadist",
-        "name_de": "Poujadist",
-        "color": "#A24A9A",
-        "keyword": "Poujadisme",
-        "parties": [
-          {
-            "name": "UFF",
-            "full_name": "Union et fraternité française",
-            "full_name_en": "French union and fraternity",
-            "full_name_de": "Französische Union und Bruderschaft"
-          }
-        ]
-      },
-      {
-        "name": "Nationaliste",
-        "name_en": "Nationalist",
-        "name_de": "Nationalist",
-        "color": "#B18C70",
-        "keyword": "Nationalisme",
-        "parties": [
-          {
-            "name": "NAT",
-            "full_name": "Nationalistes",
-            "full_name_en": "Nationalists",
-            "full_name_de": "Nationalisten",
-            "keyword": "Groupe nationaliste"
-          },
-          {
-            "name": "DN",
-            "full_name": "Défense nationale",
-            "full_name_en": "National Defense",
-            "full_name_de": "Landesverteidigung",
-            "keyword": "Groupe de la Défense nationale"
-          },
-          {
-            "name": "PN",
-            "full_name": "Parti nationaliste",
-            "full_name_en": "Nationalist Party",
-            "full_name_de": "Nationalistische Partei",
-            "keyword": "Parti nationaliste (Troisième République)"
           }
         ]
       },
@@ -823,39 +896,6 @@
             "full_name_en": "Independent",
             "full_name_de": "Unabhängig",
             "keyword": "Indépendant (politique)"
-          }
-        ]
-      },
-      {
-        "name": "Indépendant d'Algérie",
-        "name_en": "Independent of Algeria",
-        "name_de": "Unabhängig von Algerien",
-        "color": "#DAD9DA",
-        "parties": [
-          {
-            "name": "MA",
-            "full_name": "Musulmans algériens",
-            "full_name_en": "Algerian Muslims",
-            "full_name_de": "Algerische Muslime"
-          },
-          {
-            "name": "UDMA",
-            "full_name": "Union démocratique du manifeste algérien",
-            "full_name_en": "Democratic Union of the Algerian Manifesto",
-            "full_name_de": "Demokratische Union des Algerischen Manifests"
-          },
-          {
-            "name": "MIDFA",
-            "full_name": "Musulman indépendant pour la défense du fédéralisme algérien",
-            "full_name_en": "Independent Muslim in defense of Algerian federalism",
-            "full_name_de": "Unabhängiger Muslim zur Verteidigung des algerischen Föderalismus"
-          },
-          {
-            "name": "FAEAS",
-            "full_name": "Formation administrative des élus d'Algérie et du Sahara",
-            "full_name_en": "Administrative training for elected officials from Algeria and the Sahara",
-            "full_name_de": "Verwaltungsschulung für gewählte Amtsträger aus Algerien und der Sahara",
-            "keyword": "Regroupement national pour l'unité de la République"
           }
         ]
       }

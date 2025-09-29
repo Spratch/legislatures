@@ -7,6 +7,148 @@
     "end": "1922-12-06",
     "legislatures": [
       {
+        "legislature": 1918,
+        "total_deputes": 707,
+        "duration": 4,
+        "begin": "1918-12-14",
+        "end": "1922-11-15",
+        "parties": [
+          {
+            "name": "CPGB",
+            "deputes": 0
+          },
+          {
+            "name": "SF",
+            "deputes": 73
+          },
+          {
+            "name": "ILP",
+            "deputes": 2,
+            "coalition": "Travaillistes",
+            "coalition_en": "Labour",
+            "coalition_de": "Arbeiter"
+          },
+          {
+            "name": "Coop",
+            "deputes": 1
+          },
+          {
+            "name": "Lab",
+            "deputes": 57,
+            "coalition": "Travaillistes",
+            "coalition_en": "Labour",
+            "coalition_de": "Arbeiter"
+          },
+          {
+            "name": "ILab",
+            "deputes": 0
+          },
+          {
+            "name": "NADSS",
+            "deputes": 1
+          },
+          {
+            "name": "SPP",
+            "deputes": 0
+          },
+          {
+            "name": "Ind",
+            "deputes": 2
+          },
+          {
+            "name": "IPP",
+            "deputes": 7
+          },
+          {
+            "name": "INP",
+            "deputes": 0
+          },
+          {
+            "name": "NSP",
+            "deputes": 1
+          },
+          {
+            "name": "CLab",
+            "deputes": 4,
+            "coalition": "Gouvernement de coalition",
+            "coalition_en": "Coalition Government",
+            "coalition_de": "Koalitionsregierung"
+          },
+          {
+            "name": "L",
+            "deputes": 35
+          },
+          {
+            "name": "ILib",
+            "deputes": 1
+          },
+          {
+            "name": "NDP",
+            "deputes": 9,
+            "coalition": "Gouvernement de coalition",
+            "coalition_en": "Coalition Government",
+            "coalition_de": "Koalitionsregierung"
+          },
+          {
+            "name": "Cons",
+            "deputes": 0,
+            "coalition": "Gouvernement de coalition",
+            "coalition_en": "Coalition Government",
+            "coalition_de": "Koalitionsregierung"
+          },
+          {
+            "name": "CL",
+            "deputes": 128,
+            "coalition": "Gouvernement de coalition",
+            "coalition_en": "Coalition Government",
+            "coalition_de": "Koalitionsregierung"
+          },
+          {
+            "name": "UULA",
+            "deputes": 3,
+            "coalition": "Gouvernement de coalition",
+            "coalition_en": "Coalition Government",
+            "coalition_de": "Koalitionsregierung"
+          },
+          {
+            "name": "IC",
+            "deputes": 0,
+            "coalition": "Gouvernement de coalition",
+            "coalition_en": "Coalition Government",
+            "coalition_de": "Koalitionsregierung"
+          },
+          {
+            "name": "C",
+            "deputes": 358,
+            "coalition": "Gouvernement de coalition",
+            "coalition_en": "Coalition Government",
+            "coalition_de": "Koalitionsregierung"
+          },
+          {
+            "name": "IUA",
+            "deputes": 22,
+            "coalition": "Gouvernement de coalition",
+            "coalition_en": "Coalition Government",
+            "coalition_de": "Koalitionsregierung"
+          },
+          {
+            "name": "IU",
+            "deputes": 1
+          },
+          {
+            "name": "NP ",
+            "deputes": 2
+          }
+        ],
+        "source": [
+          "https://archive.org/details/britishparliamen0000crai_h0w9/page/n13/mode/2up?view=theater",
+          "https://en.wikipedia.org/wiki/Independent_Labour_Party_election_results",
+          "https://en.wikipedia.org/wiki/Co-operative_Party#Electoral_performance",
+          "https://en.wikipedia.org/wiki/1918_United_Kingdom_general_election_in_Ireland",
+          "https://en.wikipedia.org/wiki/1918_United_Kingdom_general_election"
+        ]
+      },
+      {
         "legislature": 1922,
         "total_deputes": 615,
         "duration": 1,
@@ -18,12 +160,34 @@
             "deputes": 1
           },
           {
+            "name": "SF",
+            "deputes": 0
+          },
+          {
+            "name": "ILP",
+            "deputes": 31,
+            "coalition": "Travaillistes",
+            "coalition_en": "Labour",
+            "coalition_de": "Arbeiter"
+          },
+          {
+            "name": "Coop",
+            "deputes": 4
+          },
+          {
             "name": "Lab",
-            "deputes": 142
+            "deputes": 107,
+            "coalition": "Travaillistes",
+            "coalition_en": "Labour",
+            "coalition_de": "Arbeiter"
           },
           {
             "name": "ILab",
             "deputes": 1
+          },
+          {
+            "name": "NADSS",
+            "deputes": 0
           },
           {
             "name": "SPP",
@@ -52,12 +216,24 @@
             "coalition_de": "Irische Nationalisten"
           },
           {
+            "name": "NSP",
+            "deputes": 0
+          },
+          {
+            "name": "CLab",
+            "deputes": 0
+          },
+          {
             "name": "L",
             "deputes": 62
           },
           {
             "name": "ILib",
             "deputes": 1
+          },
+          {
+            "name": "NDP",
+            "deputes": 0
           },
           {
             "name": "Cons",
@@ -68,16 +244,42 @@
             "deputes": 53
           },
           {
+            "name": "UULA",
+            "deputes": 0
+          },
+          {
             "name": "IC",
             "deputes": 3
           },
           {
             "name": "C",
-            "deputes": 344
+            "deputes": 333,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "UUP",
+            "deputes": 11,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "IU",
+            "deputes": 0
+          },
+          {
+            "name": "NP ",
+            "deputes": 0
           }
         ],
         "source": [
-          "https://en.wikipedia.org/wiki/1922_United_Kingdom_general_election"
+          "https://archive.org/details/britishparliamen0000crai_h0w9/page/n13/mode/2up?view=theater",
+          "https://en.wikipedia.org/wiki/Independent_Labour_Party_election_results",
+          "https://en.wikipedia.org/wiki/Co-operative_Party#Electoral_performance",
+          "https://en.wikipedia.org/wiki/1922_United_Kingdom_general_election",
+          "https://en.wikipedia.org/wiki/Ulster_Unionist_Party#Electoral_performance"
         ]
       }
     ]
@@ -100,8 +302,22 @@
             "deputes": 0
           },
           {
+            "name": "ILP",
+            "deputes": 39,
+            "coalition": "Travaillistes",
+            "coalition_en": "Labour",
+            "coalition_de": "Arbeiter"
+          },
+          {
+            "name": "Coop",
+            "deputes": 6
+          },
+          {
             "name": "Lab",
-            "deputes": 191
+            "deputes": 146,
+            "coalition": "Travaillistes",
+            "coalition_en": "Labour",
+            "coalition_de": "Arbeiter"
           },
           {
             "name": "ILab",
@@ -155,10 +371,23 @@
           },
           {
             "name": "C",
-            "deputes": 258
+            "deputes": 247,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "UUP",
+            "deputes": 11,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
           }
         ],
         "source": [
+          "https://archive.org/details/britishparliamen0000crai_h0w9/page/n13/mode/2up?view=theater",
+          "https://en.wikipedia.org/wiki/Independent_Labour_Party_election_results",
+          "https://en.wikipedia.org/wiki/Co-operative_Party#Electoral_performance",
           "https://en.wikipedia.org/wiki/1923_United_Kingdom_general_election"
         ]
       },
@@ -174,8 +403,22 @@
             "deputes": 1
           },
           {
+            "name": "ILP",
+            "deputes": 30,
+            "coalition": "Travaillistes",
+            "coalition_en": "Labour",
+            "coalition_de": "Arbeiter"
+          },
+          {
+            "name": "Coop",
+            "deputes": 5
+          },
+          {
             "name": "Lab",
-            "deputes": 151
+            "deputes": 116,
+            "coalition": "Travaillistes",
+            "coalition_en": "Labour",
+            "coalition_de": "Arbeiter"
           },
           {
             "name": "ILab",
@@ -221,11 +464,25 @@
           },
           {
             "name": "C",
-            "deputes": 412
+            "deputes": 399,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "UUP",
+            "deputes": 13,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
           }
         ],
         "source": [
-          "https://en.wikipedia.org/wiki/1924_United_Kingdom_general_election"
+          "https://archive.org/details/britishparliamen0000crai_h0w9/page/n13/mode/2up?view=theater",
+          "https://en.wikipedia.org/wiki/Independent_Labour_Party_election_results",
+          "https://en.wikipedia.org/wiki/Co-operative_Party#Electoral_performance",
+          "https://en.wikipedia.org/wiki/1924_United_Kingdom_general_election",
+          "https://en.wikipedia.org/wiki/Ulster_Unionist_Party#Electoral_performance"
         ]
       },
       {
@@ -241,11 +498,24 @@
           },
           {
             "name": "ILP",
-            "deputes": 0
+            "deputes": 36,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
+          },
+          {
+            "name": "Coop",
+            "deputes": 9,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 287
+            "deputes": 242,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "ILab",
@@ -303,11 +573,25 @@
           },
           {
             "name": "C",
-            "deputes": 260
+            "deputes": 249,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "UUP",
+            "deputes": 11,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
           }
         ],
         "source": [
-          "https://en.wikipedia.org/wiki/1929_United_Kingdom_general_election"
+          "https://archive.org/details/britishparliamen0000crai_h0w9/page/n13/mode/2up?view=theater",
+          "https://en.wikipedia.org/wiki/Independent_Labour_Party_election_results",
+          "https://en.wikipedia.org/wiki/Co-operative_Party#Electoral_performance",
+          "https://en.wikipedia.org/wiki/1929_United_Kingdom_general_election",
+          "https://en.wikipedia.org/wiki/Ulster_Unionist_Party#Electoral_performance"
         ]
       },
       {
@@ -324,11 +608,24 @@
           },
           {
             "name": "ILP",
-            "deputes": 3
+            "deputes": 3,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
+          },
+          {
+            "name": "Coop",
+            "deputes": 1,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 46
+            "deputes": 45,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "ILab",
@@ -391,14 +688,22 @@
           },
           {
             "name": "C",
-            "deputes": 470,
+            "deputes": 459,
+            "coalition": "Gouvernement national",
+            "coalition_en": "National Government",
+            "coalition_de": "Nationalregierung"
+          },
+          {
+            "name": "UUP",
+            "deputes": 11,
             "coalition": "Gouvernement national",
             "coalition_en": "National Government",
             "coalition_de": "Nationalregierung"
           }
         ],
         "source": [
-          "https://en.wikipedia.org/wiki/1931_United_Kingdom_general_election"
+          "https://en.wikipedia.org/wiki/1931_United_Kingdom_general_election",
+          "https://en.wikipedia.org/wiki/Ulster_Unionist_Party#Electoral_performance"
         ]
       },
       {
@@ -421,8 +726,18 @@
             "deputes": 0
           },
           {
+            "name": "Coop",
+            "deputes": 9,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
+          },
+          {
             "name": "Lab",
-            "deputes": 154
+            "deputes": 145,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "ILab",
@@ -485,14 +800,22 @@
           },
           {
             "name": "C",
-            "deputes": 387,
+            "deputes": 376,
+            "coalition": "Gouvernement national",
+            "coalition_en": "National Government",
+            "coalition_de": "Nationalregierung"
+          },
+          {
+            "name": "UUP",
+            "deputes": 11,
             "coalition": "Gouvernement national",
             "coalition_en": "National Government",
             "coalition_de": "Nationalregierung"
           }
         ],
         "source": [
-          "https://en.wikipedia.org/wiki/1935_United_Kingdom_general_election"
+          "https://en.wikipedia.org/wiki/1935_United_Kingdom_general_election",
+          "https://en.wikipedia.org/wiki/Ulster_Unionist_Party#Electoral_performance"
         ]
       },
       {
@@ -516,8 +839,18 @@
             "deputes": 1
           },
           {
+            "name": "Coop",
+            "deputes": 23,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
+          },
+          {
             "name": "Lab",
-            "deputes": 393
+            "deputes": 370,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "ILab",
@@ -565,11 +898,22 @@
           },
           {
             "name": "C",
-            "deputes": 197
+            "deputes": 188,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "UUP",
+            "deputes": 9,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
           }
         ],
         "source": [
-          "https://en.wikipedia.org/wiki/1945_United_Kingdom_general_election"
+          "https://en.wikipedia.org/wiki/1945_United_Kingdom_general_election",
+          "https://en.wikipedia.org/wiki/Ulster_Unionist_Party#Electoral_performance"
         ]
       },
       {
@@ -596,8 +940,18 @@
             "deputes": 0
           },
           {
+            "name": "Coop",
+            "deputes": 18,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
+          },
+          {
             "name": "Lab",
-            "deputes": 315
+            "deputes": 297,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "ILab",
@@ -655,7 +1009,14 @@
           },
           {
             "name": "C",
-            "deputes": 282,
+            "deputes": 272,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "UUP",
+            "deputes": 10,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -663,7 +1024,8 @@
         ],
         "source": [
           "https://en.wikipedia.org/wiki/1950_United_Kingdom_general_election",
-          "https://en.wikipedia.org/wiki/National_Liberal_Party_(UK,_1931)"
+          "https://en.wikipedia.org/wiki/National_Liberal_Party_(UK,_1931)",
+          "https://en.wikipedia.org/wiki/Ulster_Unionist_Party#Electoral_performance"
         ]
       },
       {
@@ -682,8 +1044,18 @@
             "deputes": 1
           },
           {
+            "name": "Coop",
+            "deputes": 16,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
+          },
+          {
             "name": "Lab",
-            "deputes": 295
+            "deputes": 279,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "IN ",
@@ -710,7 +1082,14 @@
           },
           {
             "name": "C",
-            "deputes": 302,
+            "deputes": 293,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "UUP",
+            "deputes": 9,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -718,7 +1097,8 @@
         ],
         "source": [
           "https://en.wikipedia.org/wiki/1951_United_Kingdom_general_election",
-          "https://en.wikipedia.org/wiki/National_Liberal_Party_(UK,_1931)"
+          "https://en.wikipedia.org/wiki/National_Liberal_Party_(UK,_1931)",
+          "https://en.wikipedia.org/wiki/Ulster_Unionist_Party#Electoral_performance"
         ]
       },
       {
@@ -737,8 +1117,18 @@
             "deputes": 0
           },
           {
+            "name": "Coop",
+            "deputes": 19,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
+          },
+          {
             "name": "Lab",
-            "deputes": 277
+            "deputes": 258,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "IN ",
@@ -764,7 +1154,14 @@
           },
           {
             "name": "C",
-            "deputes": 324,
+            "deputes": 314,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "UUP",
+            "deputes": 10,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -772,7 +1169,8 @@
         ],
         "source": [
           "https://en.wikipedia.org/wiki/1955_United_Kingdom_general_election",
-          "https://en.wikipedia.org/wiki/National_Liberal_Party_(UK,_1931)"
+          "https://en.wikipedia.org/wiki/National_Liberal_Party_(UK,_1931)",
+          "https://en.wikipedia.org/wiki/Ulster_Unionist_Party#Electoral_performance"
         ]
       },
       {
@@ -787,8 +1185,18 @@
             "deputes": 0
           },
           {
+            "name": "Coop",
+            "deputes": 16,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
+          },
+          {
             "name": "Lab",
-            "deputes": 258
+            "deputes": 242,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "L",
@@ -810,7 +1218,14 @@
           },
           {
             "name": "C",
-            "deputes": 345,
+            "deputes": 333,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "UUP",
+            "deputes": 12,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -818,7 +1233,8 @@
         ],
         "source": [
           "https://en.wikipedia.org/wiki/1959_United_Kingdom_general_election",
-          "https://en.wikipedia.org/wiki/National_Liberal_Party_(UK,_1931)"
+          "https://en.wikipedia.org/wiki/National_Liberal_Party_(UK,_1931)",
+          "https://en.wikipedia.org/wiki/Ulster_Unionist_Party#Electoral_performance"
         ]
       },
       {
@@ -833,8 +1249,18 @@
             "deputes": 0
           },
           {
+            "name": "Coop",
+            "deputes": 19,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
+          },
+          {
             "name": "Lab",
-            "deputes": 317
+            "deputes": 298,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "L",
@@ -856,7 +1282,14 @@
           },
           {
             "name": "C",
-            "deputes": 298,
+            "deputes": 286,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "UUP",
+            "deputes": 12,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -864,7 +1297,8 @@
         ],
         "source": [
           "https://en.wikipedia.org/wiki/1964_United_Kingdom_general_election",
-          "https://en.wikipedia.org/wiki/National_Liberal_Party_(UK,_1931)"
+          "https://en.wikipedia.org/wiki/National_Liberal_Party_(UK,_1931)",
+          "https://en.wikipedia.org/wiki/Ulster_Unionist_Party#Electoral_performance"
         ]
       },
       {
@@ -879,8 +1313,18 @@
             "deputes": 1
           },
           {
+            "name": "Coop",
+            "deputes": 18,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
+          },
+          {
             "name": "Lab",
-            "deputes": 364
+            "deputes": 346,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "ILab",
@@ -907,7 +1351,14 @@
           },
           {
             "name": "C",
-            "deputes": 250,
+            "deputes": 239,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "UUP",
+            "deputes": 11,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -919,7 +1370,8 @@
         ],
         "source": [
           "https://en.wikipedia.org/wiki/1966_United_Kingdom_general_election",
-          "https://en.wikipedia.org/wiki/National_Liberal_Party_(UK,_1931)"
+          "https://en.wikipedia.org/wiki/National_Liberal_Party_(UK,_1931)",
+          "https://en.wikipedia.org/wiki/Ulster_Unionist_Party#Electoral_performance"
         ]
       },
       {
@@ -934,8 +1386,18 @@
             "deputes": 1
           },
           {
+            "name": "Coop",
+            "deputes": 15,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
+          },
+          {
             "name": "Lab",
-            "deputes": 288
+            "deputes": 273,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "ILab",
@@ -967,11 +1429,17 @@
           },
           {
             "name": "C",
-            "deputes": 330
+            "deputes": 322,
+            "coalition": "Conservateurs et unionistes",
+            "coalition_en": "Conservative and Unionist",
+            "coalition_de": "Konservative und Unionisten"
           },
           {
             "name": "UUP",
-            "deputes": 0
+            "deputes": 8,
+            "coalition": "Conservateurs et unionistes",
+            "coalition_en": "Conservative and Unionist",
+            "coalition_de": "Konservative und Unionisten"
           },
           {
             "name": "VUPP",
@@ -983,7 +1451,8 @@
           }
         ],
         "source": [
-          "https://en.wikipedia.org/wiki/1970_United_Kingdom_general_election"
+          "https://en.wikipedia.org/wiki/1970_United_Kingdom_general_election",
+          "https://en.wikipedia.org/wiki/Ulster_Unionist_Party#Electoral_performance"
         ]
       },
       {
@@ -998,8 +1467,18 @@
             "deputes": 1
           },
           {
+            "name": "Coop",
+            "deputes": 14,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
+          },
+          {
             "name": "Lab",
-            "deputes": 301
+            "deputes": 287,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "ILab",
@@ -1062,8 +1541,18 @@
             "deputes": 1
           },
           {
+            "name": "Coop",
+            "deputes": 14,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
+          },
+          {
             "name": "Lab",
-            "deputes": 319
+            "deputes": 305,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "ILab",
@@ -1098,7 +1587,7 @@
             "deputes": 6
           },
           {
-            "name": "IU",
+            "name": "IU ",
             "deputes": 0
           },
 
@@ -1131,8 +1620,18 @@
             "deputes": 1
           },
           {
+            "name": "Coop",
+            "deputes": 17,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
+          },
+          {
             "name": "Lab",
-            "deputes": 269
+            "deputes": 252,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "PC",
@@ -1163,7 +1662,7 @@
             "deputes": 5
           },
           {
-            "name": "IU",
+            "name": "IU ",
             "deputes": 1
           },
           {
@@ -1195,8 +1694,18 @@
             "deputes": 1
           },
           {
+            "name": "Coop",
+            "deputes": 7,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
+          },
+          {
             "name": "Lab",
-            "deputes": 209
+            "deputes": 202,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "PC",
@@ -1265,8 +1774,18 @@
             "deputes": 3
           },
           {
+            "name": "Coop",
+            "deputes": 9,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
+          },
+          {
             "name": "Lab",
-            "deputes": 229
+            "deputes": 220,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "PC",
@@ -1327,8 +1846,18 @@
             "deputes": 4
           },
           {
+            "name": "Coop",
+            "deputes": 14,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
+          },
+          {
             "name": "Lab",
-            "deputes": 271
+            "deputes": 257,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "PC",
@@ -1387,8 +1916,18 @@
             "deputes": 3
           },
           {
+            "name": "Coop",
+            "deputes": 28,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
+          },
+          {
             "name": "Lab",
-            "deputes": 418
+            "deputes": 390,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "PC",
@@ -1447,8 +1986,18 @@
             "deputes": 3
           },
           {
+            "name": "Coop",
+            "deputes": 30,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
+          },
+          {
             "name": "Lab",
-            "deputes": 412
+            "deputes": 382,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "PC",
@@ -1511,8 +2060,18 @@
             "deputes": 0
           },
           {
+            "name": "Coop",
+            "deputes": 29,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
+          },
+          {
             "name": "Lab",
-            "deputes": 355
+            "deputes": 326,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "PC",
@@ -1571,8 +2130,18 @@
             "deputes": 1
           },
           {
+            "name": "Coop",
+            "deputes": 28,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
+          },
+          {
             "name": "Lab",
-            "deputes": 258
+            "deputes": 230,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "PC",
@@ -1631,8 +2200,18 @@
             "deputes": 1
           },
           {
+            "name": "Coop",
+            "deputes": 24,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
+          },
+          {
             "name": "Lab",
-            "deputes": 232
+            "deputes": 208,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "PC",
@@ -1691,8 +2270,18 @@
             "deputes": 1
           },
           {
+            "name": "Coop",
+            "deputes": 38,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
+          },
+          {
             "name": "Lab",
-            "deputes": 262
+            "deputes": 224,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "PC",
@@ -1754,8 +2343,18 @@
             "coalition_de": "Vereinigung für bleiben"
           },
           {
+            "name": "Coop",
+            "deputes": 26,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
+          },
+          {
             "name": "Lab",
-            "deputes": 202
+            "deputes": 176,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "PC",
@@ -1824,8 +2423,18 @@
             "deputes": 4
           },
           {
+            "name": "Coop",
+            "deputes": 43,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
+          },
+          {
             "name": "Lab",
-            "deputes": 411
+            "deputes": 368,
+            "coalition": "Parti travailliste et coopératif",
+            "coalition_en": "Labour and Co-operative Party",
+            "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "PC",
