@@ -7,6 +7,197 @@
     "end": "1922-12-06",
     "legislatures": [
       {
+        "legislature": 1910,
+        "total_deputes": 670,
+        "duration": 0.9,
+        "begin": "1910-02-10",
+        "end": "1910-12-19",
+        "parties": [
+          {
+            "name": "ILP",
+            "deputes": 6,
+            "coalition": "Travaillistes",
+            "coalition_en": "Labour",
+            "coalition_de": "Arbeiter"
+          },
+          {
+            "name": "Lab",
+            "deputes": 34,
+            "coalition": "Travaillistes",
+            "coalition_en": "Labour",
+            "coalition_de": "Arbeiter"
+          },
+          {
+            "name": "IN ",
+            "deputes": 3
+          },
+          {
+            "name": "IPP",
+            "deputes": 71
+          },
+          {
+            "name": "AFIL",
+            "deputes": 8
+          },
+          {
+            "name": "L",
+            "deputes": 274
+          },
+          {
+            "name": "ILib",
+            "deputes": 1
+          },
+          {
+            "name": "LUP",
+            "deputes": 43,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          },
+          {
+            "name": "IC",
+            "deputes": 1
+          },
+          {
+            "name": "C ",
+            "deputes": 211,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          },
+          {
+            "name": "IUA",
+            "deputes": 18,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/Independent_Labour_Party_election_results",
+          "https://en.wikipedia.org/wiki/Liberal_Unionist_Party",
+          "https://en.wikipedia.org/wiki/Irish_Unionist_Alliance#General_election_results",
+          "https://en.wikipedia.org/wiki/January_1910_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 1910.5,
+        "total_deputes": 670,
+        "duration": 8,
+        "begin": "1910-12-19",
+        "end": "1918-12-14",
+        "parties": [
+          {
+            "name": "SF",
+            "deputes": 0
+          },
+          {
+            "name": "ILP",
+            "deputes": 8,
+            "coalition": "Travaillistes",
+            "coalition_en": "Labour",
+            "coalition_de": "Arbeiter"
+          },
+          {
+            "name": "Coop",
+            "deputes": 0,
+            "coalition": "Travaillistes",
+            "coalition_en": "Labour",
+            "coalition_de": "Arbeiter"
+          },
+          {
+            "name": "Lab",
+            "deputes": 34,
+            "coalition": "Travaillistes",
+            "coalition_en": "Labour",
+            "coalition_de": "Arbeiter"
+          },
+          {
+            "name": "NADSS",
+            "deputes": 0
+          },
+          {
+            "name": "Ind",
+            "deputes": 0
+          },
+          {
+            "name": "IN ",
+            "deputes": 2
+          },
+          {
+            "name": "IPP",
+            "deputes": 74
+          },
+          {
+            "name": "AFIL",
+            "deputes": 8
+          },
+          {
+            "name": "NSP",
+            "deputes": 0
+          },
+          {
+            "name": "CLab",
+            "deputes": 0
+          },
+          {
+            "name": "L",
+            "deputes": 272
+          },
+          {
+            "name": "ILib",
+            "deputes": 0
+          },
+          {
+            "name": "NDP",
+            "deputes": 0
+          },
+          {
+            "name": "UULA",
+            "deputes": 0
+          },
+          {
+            "name": "LUP",
+            "deputes": 49,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          },
+          {
+            "name": "IC",
+            "deputes": 1
+          },
+          {
+            "name": "C ",
+            "deputes": 206,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          },
+          {
+            "name": "IUA",
+            "deputes": 16,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          },
+          {
+            "name": "IU",
+            "deputes": 0
+          },
+          {
+            "name": "NP ",
+            "deputes": 0
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/Independent_Labour_Party_election_results",
+          "https://en.wikipedia.org/wiki/Liberal_Unionist_Party",
+          "https://en.wikipedia.org/wiki/Irish_Unionist_Alliance#General_election_results",
+          "https://en.wikipedia.org/wiki/December_1910_United_Kingdom_general_election"
+        ]
+      },
+      {
         "legislature": 1918,
         "total_deputes": 707,
         "duration": 4,
@@ -56,11 +247,19 @@
             "deputes": 2
           },
           {
+            "name": "IN ",
+            "deputes": 0
+          },
+          {
             "name": "IPP",
             "deputes": 7
           },
           {
             "name": "INP",
+            "deputes": 0
+          },
+          {
+            "name": "AFIL",
             "deputes": 0
           },
           {
@@ -97,15 +296,15 @@
             "coalition_de": "Koalitionsregierung"
           },
           {
-            "name": "CL",
-            "deputes": 128,
+            "name": "UULA",
+            "deputes": 3,
             "coalition": "Gouvernement de coalition",
             "coalition_en": "Coalition Government",
             "coalition_de": "Koalitionsregierung"
           },
           {
-            "name": "UULA",
-            "deputes": 3,
+            "name": "CL",
+            "deputes": 128,
             "coalition": "Gouvernement de coalition",
             "coalition_en": "Coalition Government",
             "coalition_de": "Koalitionsregierung"
@@ -144,6 +343,7 @@
           "https://archive.org/details/britishparliamen0000crai_h0w9/page/n13/mode/2up?view=theater",
           "https://en.wikipedia.org/wiki/Independent_Labour_Party_election_results",
           "https://en.wikipedia.org/wiki/Co-operative_Party#Electoral_performance",
+          "https://en.wikipedia.org/wiki/Irish_Unionist_Alliance#General_election_results",
           "https://en.wikipedia.org/wiki/1918_United_Kingdom_general_election_in_Ireland",
           "https://en.wikipedia.org/wiki/1918_United_Kingdom_general_election"
         ]
@@ -240,12 +440,12 @@
             "deputes": 1
           },
           {
-            "name": "NLP",
-            "deputes": 53
-          },
-          {
             "name": "UULA",
             "deputes": 0
+          },
+          {
+            "name": "NLP",
+            "deputes": 53
           },
           {
             "name": "IC",

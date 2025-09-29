@@ -375,6 +375,21 @@
             "keyword": "Parti nationaliste irlandais"
           }
         ]
+      },
+      {
+        "name": "Nationaliste irlandais libéral",
+        "name_en": "Irish liberal nationalist",
+        "name_de": "Irischer liberaler Nationalist",
+        "color": "#A3D3A6",
+        "keyword": "Nationalisme irlandais",
+        "parties": [
+          {
+            "name": "AFIL",
+            "full_name": "Ligue Tout-pour-l'Irlande",
+            "full_name_en": "All-for-Ireland League",
+            "full_name_de": "Liga Alles für Irland"
+          }
+        ]
       }
     ]
   },
@@ -586,6 +601,13 @@
         "keyword": "libéral-conservatisme",
         "parties": [
           {
+            "name": "LUP",
+            "full_name": "Parti libéral unioniste",
+            "full_name_en": "Unionist Liberal Party",
+            "full_name_de": "Unionistische Liberale Partei",
+            "keyword": "Parti libéral unioniste"
+          },
+          {
             "name": "CL",
             "full_name": "Libéraux de coalition",
             "full_name_en": "Coalition liberals",
@@ -646,10 +668,17 @@
         "keyword": "Conservatisme",
         "parties": [
           {
-            "name": "C",
+            "name": "C ",
             "full_name": "Parti conservateur",
             "full_name_en": "Conservative Party",
             "full_name_de": "Konservative Partei",
+            "keyword": "Parti conservateur (Royaume-Uni)"
+          },
+          {
+            "name": "C",
+            "full_name": "Parti conservateur et unioniste",
+            "full_name_en": "Conservative and Unionist Party",
+            "full_name_de": "Konservative und Unionistische Partei",
             "keyword": "Parti conservateur (Royaume-Uni)"
           }
         ]
