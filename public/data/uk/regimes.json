@@ -7,6 +7,534 @@
     "end": "1922-12-06",
     "legislatures": [
       {
+        "legislature": 1880,
+        "total_deputes": 652,
+        "duration": 5,
+        "begin": "1880-04-27",
+        "end": "1885-12-18",
+        "parties": [
+          {
+            "name": "HRL",
+            "deputes": 63
+          },
+          {
+            "name": "Cro",
+            "deputes": 0
+          },
+          {
+            "name": "LibLab",
+            "deputes": 3,
+            "coalition": "Libéraux",
+            "coalition_en": "Liberals",
+            "coalition_de": "Liberale"
+          },
+          {
+            "name": "L",
+            "deputes": 349,
+            "coalition": "Libéraux",
+            "coalition_en": "Liberals",
+            "coalition_de": "Liberale"
+          },
+          {
+            "name": "ILib",
+            "deputes": 0
+          },
+          {
+            "name": "IC",
+            "deputes": 0
+          },
+          {
+            "name": "C ",
+            "deputes": 214,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          },
+          {
+            "name": "ICP",
+            "deputes": 23,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/Irish_Conservative_Party#General_election_results",
+          "https://en.wikipedia.org/wiki/Liberal-Labour_(UK)",
+          "https://en.wikipedia.org/wiki/1880_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 1885,
+        "total_deputes": 670,
+        "duration": 1,
+        "begin": "1885-12-18",
+        "end": "1886-07-27",
+        "parties": [
+          {
+            "name": "IPP",
+            "deputes": 86
+          },
+          {
+            "name": "Cro",
+            "deputes": 4
+          },
+          {
+            "name": "LibLab",
+            "deputes": 10,
+            "coalition": "Libéraux",
+            "coalition_en": "Liberals",
+            "coalition_de": "Liberale"
+          },
+          {
+            "name": "L",
+            "deputes": 310,
+            "coalition": "Libéraux",
+            "coalition_en": "Liberals",
+            "coalition_de": "Liberale"
+          },
+          {
+            "name": "ILib",
+            "deputes": 11
+          },
+          {
+            "name": "LUP",
+            "deputes": 0
+          },
+          {
+            "name": "IC",
+            "deputes": 2
+          },
+          {
+            "name": "C ",
+            "deputes": 231,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          },
+          {
+            "name": "ICP",
+            "deputes": 16,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/Irish_Conservative_Party#General_election_results",
+          "https://en.wikipedia.org/wiki/Liberal-Labour_(UK)",
+          "https://en.wikipedia.org/wiki/1885_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 1886,
+        "total_deputes": 670,
+        "duration": 6,
+        "begin": "1886-07-27",
+        "end": "1892-07-26",
+        "parties": [
+          {
+            "name": "ILab",
+            "deputes": 0
+          },
+          {
+            "name": "INL",
+            "deputes": 0
+          },
+          {
+            "name": "IPP",
+            "deputes": 85
+          },
+          {
+            "name": "INF",
+            "deputes": 0
+          },
+          {
+            "name": "Cro",
+            "deputes": 0
+          },
+          {
+            "name": "LibLab",
+            "deputes": 9,
+            "coalition": "Libéraux",
+            "coalition_en": "Liberals",
+            "coalition_de": "Liberale"
+          },
+          {
+            "name": "L",
+            "deputes": 183,
+            "coalition": "Libéraux",
+            "coalition_en": "Liberals",
+            "coalition_de": "Liberale"
+          },
+          {
+            "name": "ILib",
+            "deputes": 0
+          },
+          {
+            "name": "LUP",
+            "deputes": 77,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          },
+          {
+            "name": "C ",
+            "deputes": 316,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          },
+          {
+            "name": "ICP",
+            "deputes": 17,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/Liberal_Unionist_Party#Electoral_performance",
+          "https://en.wikipedia.org/wiki/Irish_Conservative_Party#General_election_results",
+          "https://en.wikipedia.org/wiki/Liberal-Labour_(UK)",
+          "https://en.wikipedia.org/wiki/1886_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 1892,
+        "total_deputes": 670,
+        "duration": 3,
+        "begin": "1892-07-26",
+        "end": "1895-08-07",
+        "parties": [
+          {
+            "name": "ILab",
+            "deputes": 3
+          },
+          {
+            "name": "INL",
+            "deputes": 9
+          },
+          {
+            "name": "IPP",
+            "deputes": 0
+          },
+          {
+            "name": "INF",
+            "deputes": 72
+          },
+          {
+            "name": "LibLab",
+            "deputes": 13,
+            "coalition": "Libéraux",
+            "coalition_en": "Liberals",
+            "coalition_de": "Liberale"
+          },
+          {
+            "name": "L",
+            "deputes": 258,
+            "coalition": "Libéraux",
+            "coalition_en": "Liberals",
+            "coalition_de": "Liberale"
+          },
+          {
+            "name": "ILib",
+            "deputes": 1
+          },
+          {
+            "name": "LUP",
+            "deputes": 48,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          },
+          {
+            "name": "C ",
+            "deputes": 247,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          },
+          {
+            "name": "IUA",
+            "deputes": 19,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/Liberal_Unionist_Party#Electoral_performance",
+          "https://en.wikipedia.org/wiki/Irish_Unionist_Alliance#General_election_results",
+          "https://en.wikipedia.org/wiki/Liberal-Labour_(UK)",
+          "https://en.wikipedia.org/wiki/1892_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 1895,
+        "total_deputes": 670,
+        "duration": 5,
+        "begin": "1895-08-07",
+        "end": "1900-10-24",
+        "parties": [
+          {
+            "name": "ILP",
+            "deputes": 0
+          },
+          {
+            "name": "LRC",
+            "deputes": 0
+          },
+          {
+            "name": "ILab",
+            "deputes": 0
+          },
+          {
+            "name": "INL",
+            "deputes": 12
+          },
+          {
+            "name": "IPP",
+            "deputes": 0
+          },
+          {
+            "name": "INF",
+            "deputes": 70
+          },
+          {
+            "name": "HN",
+            "deputes": 0
+          },
+          {
+            "name": "LibLab",
+            "deputes": 9,
+            "coalition": "Libéraux",
+            "coalition_en": "Liberals",
+            "coalition_de": "Liberale"
+          },
+          {
+            "name": "L",
+            "deputes": 168,
+            "coalition": "Libéraux",
+            "coalition_en": "Liberals",
+            "coalition_de": "Liberale"
+          },
+          {
+            "name": "ILib",
+            "deputes": 1
+          },
+          {
+            "name": "LUP",
+            "deputes": 71,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          },
+          {
+            "name": "C ",
+            "deputes": 323,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          },
+          {
+            "name": "IUA",
+            "deputes": 17,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/Independent_Labour_Party_election_results",
+          "https://en.wikipedia.org/wiki/Liberal_Unionist_Party#Electoral_performance",
+          "https://en.wikipedia.org/wiki/Irish_Unionist_Alliance#General_election_results",
+          "https://en.wikipedia.org/wiki/Liberal-Labour_(UK)",
+          "https://en.wikipedia.org/wiki/1895_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 1900,
+        "total_deputes": 670,
+        "duration": 6,
+        "begin": "1900-10-24",
+        "end": "1906-02-08",
+        "parties": [
+          {
+            "name": "ILP",
+            "deputes": 1,
+            "coalition": "Travaillistes",
+            "coalition_en": "Labour",
+            "coalition_de": "Arbeiter"
+          },
+          {
+            "name": "LRC",
+            "deputes": 1,
+            "coalition": "Travaillistes",
+            "coalition_en": "Labour",
+            "coalition_de": "Arbeiter"
+          },
+          {
+            "name": "IN ",
+            "deputes": 0
+          },
+          {
+            "name": "INL",
+            "deputes": 0
+          },
+          {
+            "name": "IPP",
+            "deputes": 76
+          },
+          {
+            "name": "INF",
+            "deputes": 0
+          },
+          {
+            "name": "HN",
+            "deputes": 6
+          },
+          {
+            "name": "LibLab",
+            "deputes": 8,
+            "coalition": "Libéraux",
+            "coalition_en": "Liberals",
+            "coalition_de": "Liberale"
+          },
+          {
+            "name": "L",
+            "deputes": 175,
+            "coalition": "Libéraux",
+            "coalition_en": "Liberals",
+            "coalition_de": "Liberale"
+          },
+          {
+            "name": "ILib",
+            "deputes": 1
+          },
+          {
+            "name": "LUP",
+            "deputes": 67,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          },
+          {
+            "name": "IC",
+            "deputes": 0,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          },
+          {
+            "name": "C ",
+            "deputes": 318,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          },
+          {
+            "name": "IUA",
+            "deputes": 17,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/Independent_Labour_Party_election_results",
+          "https://en.wikipedia.org/wiki/Liberal_Unionist_Party#Electoral_performance",
+          "https://en.wikipedia.org/wiki/Irish_Unionist_Alliance#General_election_results",
+          "https://en.wikipedia.org/wiki/Liberal-Labour_(UK)",
+          "https://en.wikipedia.org/wiki/1900_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 1906,
+        "total_deputes": 670,
+        "duration": 4,
+        "begin": "1906-02-08",
+        "end": "1910-02-10",
+        "parties": [
+          {
+            "name": "ILP",
+            "deputes": 7,
+            "coalition": "Travaillistes",
+            "coalition_en": "Labour",
+            "coalition_de": "Arbeiter"
+          },
+          {
+            "name": "LRC",
+            "deputes": 23,
+            "coalition": "Travaillistes",
+            "coalition_en": "Labour",
+            "coalition_de": "Arbeiter"
+          },
+          {
+            "name": "IN ",
+            "deputes": 1
+          },
+          {
+            "name": "IPP",
+            "deputes": 82
+          },
+          {
+            "name": "HN",
+            "deputes": 1
+          },
+          {
+            "name": "LibLab",
+            "deputes": 21,
+            "coalition": "Libéraux",
+            "coalition_en": "Liberals",
+            "coalition_de": "Liberale"
+          },
+          {
+            "name": "L",
+            "deputes": 376,
+            "coalition": "Libéraux",
+            "coalition_en": "Liberals",
+            "coalition_de": "Liberale"
+          },
+          {
+            "name": "ILib",
+            "deputes": 0
+          },
+          {
+            "name": "LUP",
+            "deputes": 27,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          },
+          {
+            "name": "IC",
+            "deputes": 3
+          },
+          {
+            "name": "C ",
+            "deputes": 113,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          },
+          {
+            "name": "IUA",
+            "deputes": 16,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/Independent_Labour_Party_election_results",
+          "https://en.wikipedia.org/wiki/Liberal_Unionist_Party#Electoral_performance",
+          "https://en.wikipedia.org/wiki/Irish_Unionist_Alliance#General_election_results",
+          "https://en.wikipedia.org/wiki/Liberal-Labour_(UK)",
+          "https://en.wikipedia.org/wiki/1906_United_Kingdom_general_election"
+        ]
+      },
+      {
         "legislature": 1910,
         "total_deputes": 670,
         "duration": 0.9,
@@ -40,8 +568,18 @@
             "deputes": 8
           },
           {
+            "name": "LibLab",
+            "deputes": 6,
+            "coalition": "Libéraux",
+            "coalition_en": "Liberals",
+            "coalition_de": "Liberale"
+          },
+          {
             "name": "L",
-            "deputes": 274
+            "deputes": 268,
+            "coalition": "Libéraux",
+            "coalition_en": "Liberals",
+            "coalition_de": "Liberale"
           },
           {
             "name": "ILib",
@@ -75,8 +613,9 @@
         ],
         "source": [
           "https://en.wikipedia.org/wiki/Independent_Labour_Party_election_results",
-          "https://en.wikipedia.org/wiki/Liberal_Unionist_Party",
+          "https://en.wikipedia.org/wiki/Liberal_Unionist_Party#Electoral_performance",
           "https://en.wikipedia.org/wiki/Irish_Unionist_Alliance#General_election_results",
+          "https://en.wikipedia.org/wiki/Liberal-Labour_(UK)",
           "https://en.wikipedia.org/wiki/January_1910_United_Kingdom_general_election"
         ]
       },
@@ -141,8 +680,18 @@
             "deputes": 0
           },
           {
+            "name": "LibLab",
+            "deputes": 4,
+            "coalition": "Libéraux",
+            "coalition_en": "Liberals",
+            "coalition_de": "Liberale"
+          },
+          {
             "name": "L",
-            "deputes": 272
+            "deputes": 268,
+            "coalition": "Libéraux",
+            "coalition_en": "Liberals",
+            "coalition_de": "Liberale"
           },
           {
             "name": "ILib",
@@ -192,7 +741,7 @@
         ],
         "source": [
           "https://en.wikipedia.org/wiki/Independent_Labour_Party_election_results",
-          "https://en.wikipedia.org/wiki/Liberal_Unionist_Party",
+          "https://en.wikipedia.org/wiki/Liberal_Unionist_Party#Electoral_performance",
           "https://en.wikipedia.org/wiki/Irish_Unionist_Alliance#General_election_results",
           "https://en.wikipedia.org/wiki/December_1910_United_Kingdom_general_election"
         ]
@@ -272,6 +821,10 @@
             "coalition": "Gouvernement de coalition",
             "coalition_en": "Coalition Government",
             "coalition_de": "Koalitionsregierung"
+          },
+          {
+            "name": "LibLab",
+            "deputes": 0
           },
           {
             "name": "L",
@@ -800,7 +1353,7 @@
         "duration": 4,
         "begin": "1931-10-27",
         "end": "1935-11-14",
-        "comment": "Total: 616. Please tell me if you know who is the extra MP (inside NG coalition_en).",
+        "comment": "Total: 616. Please tell me if you know who is the extra MP (inside NG coalition). Also not totally sure about ILP-labour coalition (https://en.wikipedia.org/wiki/Unendorsed_Labour_candidates,_1931).",
         "parties": [
           {
             "name": "CPGB",

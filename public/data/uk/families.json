@@ -22,22 +22,6 @@
         ]
       },
       {
-        "name": "Marxiste-léniniste",
-        "name_en": "Marxist-Leninist",
-        "name_de": "Marxist-Leninist",
-        "color": "#E10F3D",
-        "keyword": "Marxisme-léninisme",
-        "parties": [
-          {
-            "name": "PUP ",
-            "full_name": "Parti d'unité prolétarienne",
-            "full_name_en": "Proletarian Unity Party",
-            "full_name_de": "Proletarische Einheitspartei"
-          }
-        ]
-      },
-
-      {
         "name": "Socialiste démocratique",
         "name_en": "Democratic socialist",
         "name_de": "Demokratischer Sozialist",
@@ -124,6 +108,13 @@
         "color": "#F40E39",
         "keyword": "Social-démocratie",
         "parties": [
+          {
+            "name": "LRC",
+            "full_name": "Comité de représentation travailliste",
+            "full_name_en": "Labour Representation Committee",
+            "full_name_de": "Komitee zur Vertretung der Labour-Partei",
+            "keyword": "Parti travailliste (Royaume-Uni)#Labour Representation Committee"
+          },
           {
             "name": "Lab",
             "full_name": "Parti travailliste",
@@ -331,12 +322,34 @@
         ]
       },
       {
+        "name": "Nationaliste irlandais parnellite",
+        "name_en": "Parnellite Irish nationalist",
+        "name_de": "Parnellite irischer Nationalist",
+        "color": "#6FCF6A",
+        "keyword": "Charles Stewart Parnell",
+        "parties": [
+          {
+            "name": "INL",
+            "full_name": "Ligue nationaliste irlandaise",
+            "full_name_en": "Irish National League",
+            "full_name_de": "Irische Nationalistische Liga",
+            "keyword": "Ligue nationaliste irlandaise"
+          }
+        ]
+      },
+      {
         "name": "Nationaliste irlandais",
         "name_en": "Irish nationalist",
         "name_de": "Irischer Nationalist",
         "color": "#56B34D",
         "keyword": "Nationalisme irlandais",
         "parties": [
+          {
+            "name": "HRL",
+            "full_name": "Ligue du Home Rule",
+            "full_name_en": "Home Rule League",
+            "full_name_de": "Home Rule Liga"
+          },
           {
             "name": "IPP",
             "full_name": "Parti parlementaire irlandais",
@@ -357,6 +370,22 @@
             "full_name_en": "Unity",
             "full_name_de": "Einheit",
             "keyword": "Unity (Irlande du Nord)"
+          }
+        ]
+      },
+      {
+        "name": "Nationaliste irlandais anti-parnelliste",
+        "name_en": "Anti-Parnellite Irish nationalist",
+        "name_de": "Anti-Parnellite irischer Nationalist",
+        "color": "#4EA34B",
+        "keyword": "Nationalisme irlandais",
+        "parties": [
+          {
+            "name": "INF",
+            "full_name": "Fédération nationaliste irlandaise",
+            "full_name_en": "Irish Nationalist Federation",
+            "full_name_de": "Irische Nationalistische Föderation",
+            "keyword": "Fédération nationaliste irlandaise"
           }
         ]
       },
@@ -384,10 +413,32 @@
         "keyword": "Nationalisme irlandais",
         "parties": [
           {
+            "name": "HN",
+            "full_name": "Nationalistes de Healy",
+            "full_name_en": "Healyite Nationalists",
+            "full_name_de": "Healyitische Nationalisten",
+            "keyword": "Tim Healy"
+          },
+          {
             "name": "AFIL",
             "full_name": "Ligue Tout-pour-l'Irlande",
             "full_name_en": "All-for-Ireland League",
             "full_name_de": "Liga Alles für Irland"
+          }
+        ]
+      },
+      {
+        "name": "Crofter",
+        "name_en": "Crofter",
+        "name_de": "Krofter",
+        "color": "#D0C874",
+        "keyword": "Croft",
+        "parties": [
+          {
+            "name": "Cro",
+            "full_name": "Parti des crofters",
+            "full_name_en": "Crofters Party",
+            "full_name_de": "Krofterpartei"
           }
         ]
       }
@@ -460,6 +511,12 @@
         "color": "#FF3B64",
         "keyword": "Social-libéralisme",
         "parties": [
+          {
+            "name": "LibLab",
+            "full_name": "Travaillistes libéraux",
+            "full_name_en": "Liberal Labour",
+            "full_name_de": "Liberale Arbeiter"
+          },
           {
             "name": "SDP",
             "full_name": "Parti social-démocrate",
@@ -706,6 +763,13 @@
         "color": "#2A8ED1",
         "keyword": "Unionisme en Irlande",
         "parties": [
+          {
+            "name": "ICP",
+            "full_name": "Parti conservateur irlandais",
+            "full_name_en": "Irish Conservative Party",
+            "full_name_de": "Irische Konservative Partei",
+            "keyword": "Parti conservateur irlandais"
+          },
           {
             "name": "IUA",
             "full_name": "Association unioniste irlandaise",
