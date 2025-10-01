@@ -406,6 +406,21 @@
         ]
       },
       {
+        "name": "Agrairien irlandais",
+        "name_en": "Irish agrarian",
+        "name_de": "Irischer Agrarier",
+        "color": "#A3D3A6",
+        "keyword": "Agrairisme",
+        "parties": [
+          {
+            "name": "IIP",
+            "full_name": "Parti indépendant irlandais",
+            "full_name_en": "Irish Independent Party",
+            "full_name_de": "Irische Unabhängige Partei"
+          }
+        ]
+      },
+      {
         "name": "Nationaliste irlandais libéral",
         "name_en": "Irish liberal nationalist",
         "name_de": "Irischer liberaler Nationalist",
@@ -533,6 +548,12 @@
         "color": "#FED264",
         "keyword": "Libéralisme",
         "parties": [
+          {
+            "name": "W",
+            "full_name": "Parti whig",
+            "full_name_en": "Whig Party",
+            "full_name_de": "Whig-Partei"
+          },
           {
             "name": "L",
             "full_name": "Parti libéral",

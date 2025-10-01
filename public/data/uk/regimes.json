@@ -7,6 +7,192 @@
     "end": "1922-12-06",
     "legislatures": [
       {
+        "legislature": 1857,
+        "total_deputes": 654,
+        "duration": 6,
+        "begin": "1857-04-24",
+        "end": "1859-05-18",
+        "parties": [
+          {
+            "name": "IIP",
+            "deputes": 13
+          },
+          {
+            "name": "W",
+            "deputes": 377
+          },
+          {
+            "name": "C ",
+            "deputes": 220,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          },
+          {
+            "name": "ICP",
+            "deputes": 44,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/Irish_Conservative_Party#General_election_results",
+          "https://en.wikipedia.org/wiki/1857_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 1859,
+        "total_deputes": 654,
+        "duration": 6,
+        "begin": "1859-05-18",
+        "end": "1865-07-24",
+        "parties": [
+          {
+            "name": "IIP",
+            "deputes": 0
+          },
+          {
+            "name": "L",
+            "deputes": 356
+          },
+          {
+            "name": "C ",
+            "deputes": 243,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          },
+          {
+            "name": "ICP",
+            "deputes": 55,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/Irish_Conservative_Party#General_election_results",
+          "https://en.wikipedia.org/wiki/1859_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 1865,
+        "total_deputes": 658,
+        "duration": 3,
+        "begin": "1865-07-24",
+        "end": "1868-12-07",
+        "parties": [
+          {
+            "name": "L",
+            "deputes": 369
+          },
+          {
+            "name": "C ",
+            "deputes": 242,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          },
+          {
+            "name": "ICP",
+            "deputes": 47,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/Irish_Conservative_Party#General_election_results",
+          "https://en.wikipedia.org/wiki/1865_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 1868,
+        "total_deputes": 658,
+        "duration": 6,
+        "begin": "1868-12-07",
+        "end": "1874-02-17",
+        "parties": [
+          {
+            "name": "HRL",
+            "deputes": 0
+          },
+          {
+            "name": "LibLab",
+            "deputes": 0
+          },
+          {
+            "name": "L",
+            "deputes": 387
+          },
+          {
+            "name": "C ",
+            "deputes": 232,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          },
+          {
+            "name": "ICP",
+            "deputes": 39,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/Irish_Conservative_Party#General_election_results",
+          "https://en.wikipedia.org/wiki/1868_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 1874,
+        "total_deputes": 652,
+        "duration": 6,
+        "begin": "1874-02-17",
+        "end": "1880-04-27",
+        "parties": [
+          {
+            "name": "HRL",
+            "deputes": 60
+          },
+          {
+            "name": "LibLab",
+            "deputes": 2,
+            "coalition": "Libéraux",
+            "coalition_en": "Liberals",
+            "coalition_de": "Liberale"
+          },
+          {
+            "name": "L",
+            "deputes": 240,
+            "coalition": "Libéraux",
+            "coalition_en": "Liberals",
+            "coalition_de": "Liberale"
+          },
+          {
+            "name": "C ",
+            "deputes": 317,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          },
+          {
+            "name": "ICP",
+            "deputes": 33,
+            "coalition": "Conservateurs et libéraux unionistes",
+            "coalition_en": "Conservatives and Unionist Liberals",
+            "coalition_de": "Konservative und unionistische Liberale"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/Irish_Conservative_Party#General_election_results",
+          "https://en.wikipedia.org/wiki/Liberal-Labour_(UK)",
+          "https://en.wikipedia.org/wiki/1874_United_Kingdom_general_election"
+        ]
+      },
+      {
         "legislature": 1880,
         "total_deputes": 652,
         "duration": 5,
