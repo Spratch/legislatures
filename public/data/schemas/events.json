@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "id": "schemas/events.json",
+  "type": "array",
+  "description": "List of important events",
+  "uniqueItems": true,
+  "items": {
+    "type": "object",
+    "description": "An important event",
+    "required": ["begin", "end", "title", "title_en", "title_de"],
+    "additionalProperties": false,
+    "properties": {
+      "begin": {
+        "type": "string",
+        "format": "date",
+        "description": "The start date of the event"
+      },
+      "end": {
+        "type": "string",
+        "format": "date",
+        "description": "The end date of the event"
+      },
+      "title": {
+        "type": "string",
+        "description": "The title of the event in french"
+      },
+      "title_en": {
+        "type": "string",
+        "description": "The title of the event in english"
+      },
+      "title_de": {
+        "type": "string",
+        "description": "The title of the event in german"
+      },
+      "keyword": {
+        "type": "string",
+        "description": "The title of the french wikipedia article about this event"
+      },
+      "type": {
+        "type": ["string", "null"],
+        "enum": ["Cohabitation", "Référendum", "Lutte", "Guerre", "Loi"],
+        "description": "The type of event"
+      }
+    }
+  }
+}
