@@ -380,20 +380,22 @@
             "name": "IC ",
             "full_name": "Confédération irlandaise",
             "full_name_en": "Irish Confederation",
-            "full_name_de": "Irische Konföderation"
+            "full_name_de": "Irische Konföderation",
+            "keyword": "Irish Confederation (Ireland, 1847)"
           },
           {
             "name": "HRL",
             "full_name": "Ligue du Home Rule",
             "full_name_en": "Home Rule League",
-            "full_name_de": "Home Rule Liga"
+            "full_name_de": "Home Rule Liga",
+            "keyword": "Home Rule League (Ireland)"
           },
           {
             "name": "IPP",
             "full_name": "Parti parlementaire irlandais",
             "full_name_en": "Irish Parliamentary Party",
             "full_name_de": "Irische Parlamentarische Partei",
-            "keyword": "Parti parlementaire irlandais"
+            "keyword": "Irish Parliamentary Party"
           },
           {
             "name": "NP",
@@ -460,7 +462,8 @@
             "name": "IIP",
             "full_name": "Parti indépendant irlandais",
             "full_name_en": "Irish Independent Party",
-            "full_name_de": "Irische Unabhängige Partei"
+            "full_name_de": "Irische Unabhängige Partei",
+            "keyword": "Independent Irish Party (Ireland, 1852)"
           }
         ]
       },
@@ -520,7 +523,8 @@
             "name": "NSP",
             "full_name": "Parti socialiste national",
             "full_name_en": "National Socialist Party",
-            "full_name_de": "Nationalsozialistische Partei"
+            "full_name_de": "Nationalsozialistische Partei",
+            "keyword": "National Socialist Party (Royaume-Uni)"
           }
         ]
       },
@@ -559,14 +563,14 @@
             "full_name": "Réformistes",
             "full_name_en": "Reformers",
             "full_name_de": "Reformer",
-            "keyword": "Réformistes"
+            "keyword": "Réformisme"
           },
           {
             "name": "DLP",
             "full_name": "Parti travailliste démocrate",
             "full_name_en": "Democratic Labour Party",
             "full_name_de": "Demokratische Arbeiterpartei",
-            "keyword": "Parti travailliste démocrate"
+            "keyword": "Democratic Labour Party (Royaume-Uni, 1972)"
           }
         ]
       },
@@ -627,7 +631,7 @@
             "full_name": "Whigs",
             "full_name_en": "Whigs",
             "full_name_de": "Whigs",
-            "keyword": "Whig"
+            "keyword": "Parti Whig (Royaume-Uni)"
           }
         ]
       },
@@ -664,8 +668,9 @@
           {
             "name": "NDP",
             "full_name": "Parti national-démocrate et travailliste",
-            "full_name_en": "National-Democrat and Labour Party",
-            "full_name_de": "Nationaldemokratische und Arbeiterpartei"
+            "full_name_en": "National Democratic and Labour Party",
+            "full_name_de": "Nationaldemokratische und Arbeiterpartei",
+            "keyword": "National Democratic and Labour Party (Royaume-Uni)"
           },
           {
             "name": "Cons",
@@ -825,7 +830,7 @@
             "full_name": "Tory",
             "full_name_en": "Tory",
             "full_name_de": "Tory",
-            "keyword": "Parti Tory"
+            "keyword": "Parti tory"
           },
           {
             "name": "C ",
