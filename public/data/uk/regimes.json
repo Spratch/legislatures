@@ -7,6 +7,432 @@
     "end": "1922-12-06",
     "legislatures": [
       {
+        "legislature": 1832,
+        "total_deputes": 658,
+        "duration": 3,
+        "begin": "1832-01-08",
+        "end": "1835-02-06",
+        "parties": [
+          {
+            "name": "Rad",
+            "deputes": 31,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "Rep",
+            "deputes": 42
+          },
+          {
+            "name": "Ref",
+            "deputes": 198,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "W",
+            "deputes": 212,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "T",
+            "deputes": 175
+          },
+          {
+            "name": "ICP",
+            "deputes": 0
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/Repeal_Association",
+          "https://en.wikipedia.org/wiki/1832_United_Kingdom_general_election",
+          "https://www.sethalexanderthevoz.com/database-mps-clubs"
+        ]
+      },
+      {
+        "legislature": 1835,
+        "total_deputes": 658,
+        "duration": 2,
+        "begin": "1835-02-06",
+        "end": "1837-08-18",
+        "parties": [
+          {
+            "name": "Rad",
+            "deputes": 39,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "Rep",
+            "deputes": 34,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "Ref",
+            "deputes": 210,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "L",
+            "deputes": 0,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "W",
+            "deputes": 102,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "LibC",
+            "deputes": 0,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "C ",
+            "deputes": 236,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "ICP",
+            "deputes": 37,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/Repeal_Association",
+          "https://en.wikipedia.org/wiki/Irish_Conservative_Party#General_election_results",
+          "https://en.wikipedia.org/wiki/1835_United_Kingdom_general_election",
+          "https://www.sethalexanderthevoz.com/database-mps-clubs"
+        ]
+      },
+      {
+        "legislature": 1837,
+        "total_deputes": 658,
+        "duration": 4,
+        "begin": "1837-08-18",
+        "end": "1841-07-22",
+        "parties": [
+          {
+            "name": "Rad",
+            "deputes": 35,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "Rep",
+            "deputes": 30,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "Ref",
+            "deputes": 144,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "L",
+            "deputes": 19,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "W",
+            "deputes": 116,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "LibC",
+            "deputes": 5,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "C ",
+            "deputes": 277,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "ICP",
+            "deputes": 32,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/Repeal_Association",
+          "https://en.wikipedia.org/wiki/Irish_Conservative_Party#General_election_results",
+          "https://en.wikipedia.org/wiki/1837_United_Kingdom_general_election",
+          "https://www.sethalexanderthevoz.com/database-mps-clubs"
+        ]
+      },
+      {
+        "legislature": 1841,
+        "total_deputes": 658,
+        "duration": 6,
+        "begin": "1841-07-22",
+        "end": "1847-08-26",
+        "parties": [
+          {
+            "name": "Char",
+            "deputes": 0
+          },
+          {
+            "name": "Rad",
+            "deputes": 31,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "IC ",
+            "deputes": 0
+          },
+          {
+            "name": "Rep",
+            "deputes": 20
+          },
+          {
+            "name": "Ref",
+            "deputes": 88,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "L",
+            "deputes": 67,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "W",
+            "deputes": 85,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "LibC",
+            "deputes": 2,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "C ",
+            "deputes": 322,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "ICP",
+            "deputes": 43,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/Irish_Conservative_Party#General_election_results",
+          "https://en.wikipedia.org/wiki/1841_United_Kingdom_general_election",
+          "https://www.sethalexanderthevoz.com/database-mps-clubs"
+        ]
+      },
+      {
+        "legislature": 1847,
+        "total_deputes": 656,
+        "duration": 5,
+        "begin": "1847-08-26",
+        "end": "1852-07-31",
+        "parties": [
+          {
+            "name": "Char",
+            "deputes": 1
+          },
+          {
+            "name": "Rad",
+            "deputes": 29,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "IC ",
+            "deputes": 2
+          },
+          {
+            "name": "Rep",
+            "deputes": 36
+          },
+          {
+            "name": "Ref",
+            "deputes": 40,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "L",
+            "deputes": 167,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "W",
+            "deputes": 56,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "P",
+            "deputes": 94,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "C ",
+            "deputes": 189,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "ICP",
+            "deputes": 42,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/Peelite",
+          "https://en.wikipedia.org/wiki/Irish_Conservative_Party#General_election_results",
+          "https://en.wikipedia.org/wiki/1847_United_Kingdom_general_election",
+          "https://www.sethalexanderthevoz.com/database-mps-clubs"
+        ]
+      },
+      {
+        "legislature": 1852,
+        "total_deputes": 654,
+        "duration": 5,
+        "begin": "1852-07-31",
+        "end": "1857-04-24",
+        "parties": [
+          {
+            "name": "Char",
+            "deputes": 1,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "Rad",
+            "deputes": 14,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "IC ",
+            "deputes": 0,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "IIP",
+            "deputes": 48,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "Ref",
+            "deputes": 27,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "L",
+            "deputes": 191,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "W",
+            "deputes": 43,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "P",
+            "deputes": 40,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "C ",
+            "deputes": 248,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          },
+          {
+            "name": "ICP",
+            "deputes": 42,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/Independent_Irish_Party",
+          "https://en.wikipedia.org/wiki/Peelite",
+          "https://en.wikipedia.org/wiki/Irish_Conservative_Party#General_election_results",
+          "https://en.wikipedia.org/wiki/1852_United_Kingdom_general_election",
+          "https://www.sethalexanderthevoz.com/database-mps-clubs"
+        ]
+      },
+      {
         "legislature": 1857,
         "total_deputes": 654,
         "duration": 6,
@@ -14,31 +440,72 @@
         "end": "1859-05-18",
         "parties": [
           {
+            "name": "Char",
+            "deputes": 0
+          },
+          {
+            "name": "Rad",
+            "deputes": 8,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
             "name": "IIP",
-            "deputes": 13
+            "deputes": 13,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "Ref",
+            "deputes": 8,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "L",
+            "deputes": 345,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
           },
           {
             "name": "W",
-            "deputes": 377
+            "deputes": 16,
+            "coalition": "Whigs",
+            "coalition_en": "Whigs",
+            "coalition_de": "Whigs"
+          },
+          {
+            "name": "P",
+            "deputes": 20,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
           },
           {
             "name": "C ",
-            "deputes": 220,
-            "coalition": "Conservateurs et libéraux unionistes",
-            "coalition_en": "Conservatives and Unionist Liberals",
-            "coalition_de": "Konservative und unionistische Liberale"
+            "deputes": 200,
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
           },
           {
             "name": "ICP",
             "deputes": 44,
-            "coalition": "Conservateurs et libéraux unionistes",
-            "coalition_en": "Conservatives and Unionist Liberals",
-            "coalition_de": "Konservative und unionistische Liberale"
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
           }
         ],
         "source": [
+          "https://en.wikipedia.org/wiki/Independent_Irish_Party",
+          "https://en.wikipedia.org/wiki/Peelite",
           "https://en.wikipedia.org/wiki/Irish_Conservative_Party#General_election_results",
-          "https://en.wikipedia.org/wiki/1857_United_Kingdom_general_election"
+          "https://en.wikipedia.org/wiki/1857_United_Kingdom_general_election",
+          "https://www.sethalexanderthevoz.com/database-mps-clubs"
         ]
       },
       {
@@ -49,7 +516,15 @@
         "end": "1865-07-24",
         "parties": [
           {
+            "name": "Rad",
+            "deputes": 0
+          },
+          {
             "name": "IIP",
+            "deputes": 0
+          },
+          {
+            "name": "Ref",
             "deputes": 0
           },
           {
@@ -57,18 +532,26 @@
             "deputes": 356
           },
           {
+            "name": "W",
+            "deputes": 0
+          },
+          {
+            "name": "P",
+            "deputes": 0
+          },
+          {
             "name": "C ",
             "deputes": 243,
-            "coalition": "Conservateurs et libéraux unionistes",
-            "coalition_en": "Conservatives and Unionist Liberals",
-            "coalition_de": "Konservative und unionistische Liberale"
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
           },
           {
             "name": "ICP",
             "deputes": 55,
-            "coalition": "Conservateurs et libéraux unionistes",
-            "coalition_en": "Conservatives and Unionist Liberals",
-            "coalition_de": "Konservative und unionistische Liberale"
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
           }
         ],
         "source": [
@@ -90,16 +573,16 @@
           {
             "name": "C ",
             "deputes": 242,
-            "coalition": "Conservateurs et libéraux unionistes",
-            "coalition_en": "Conservatives and Unionist Liberals",
-            "coalition_de": "Konservative und unionistische Liberale"
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
           },
           {
             "name": "ICP",
             "deputes": 47,
-            "coalition": "Conservateurs et libéraux unionistes",
-            "coalition_en": "Conservatives and Unionist Liberals",
-            "coalition_de": "Konservative und unionistische Liberale"
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
           }
         ],
         "source": [
@@ -129,16 +612,16 @@
           {
             "name": "C ",
             "deputes": 232,
-            "coalition": "Conservateurs et libéraux unionistes",
-            "coalition_en": "Conservatives and Unionist Liberals",
-            "coalition_de": "Konservative und unionistische Liberale"
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
           },
           {
             "name": "ICP",
             "deputes": 39,
-            "coalition": "Conservateurs et libéraux unionistes",
-            "coalition_en": "Conservatives and Unionist Liberals",
-            "coalition_de": "Konservative und unionistische Liberale"
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
           }
         ],
         "source": [
@@ -174,16 +657,16 @@
           {
             "name": "C ",
             "deputes": 317,
-            "coalition": "Conservateurs et libéraux unionistes",
-            "coalition_en": "Conservatives and Unionist Liberals",
-            "coalition_de": "Konservative und unionistische Liberale"
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
           },
           {
             "name": "ICP",
             "deputes": 33,
-            "coalition": "Conservateurs et libéraux unionistes",
-            "coalition_en": "Conservatives and Unionist Liberals",
-            "coalition_de": "Konservative und unionistische Liberale"
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
           }
         ],
         "source": [
@@ -232,16 +715,16 @@
           {
             "name": "C ",
             "deputes": 214,
-            "coalition": "Conservateurs et libéraux unionistes",
-            "coalition_en": "Conservatives and Unionist Liberals",
-            "coalition_de": "Konservative und unionistische Liberale"
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
           },
           {
             "name": "ICP",
             "deputes": 23,
-            "coalition": "Conservateurs et libéraux unionistes",
-            "coalition_en": "Conservatives and Unionist Liberals",
-            "coalition_de": "Konservative und unionistische Liberale"
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
           }
         ],
         "source": [
@@ -294,16 +777,16 @@
           {
             "name": "C ",
             "deputes": 231,
-            "coalition": "Conservateurs et libéraux unionistes",
-            "coalition_en": "Conservatives and Unionist Liberals",
-            "coalition_de": "Konservative und unionistische Liberale"
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
           },
           {
             "name": "ICP",
             "deputes": 16,
-            "coalition": "Conservateurs et libéraux unionistes",
-            "coalition_en": "Conservatives and Unionist Liberals",
-            "coalition_de": "Konservative und unionistische Liberale"
+            "coalition": "Conservateurs",
+            "coalition_en": "Conservatives",
+            "coalition_de": "Konservative"
           }
         ],
         "source": [

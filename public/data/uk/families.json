@@ -70,6 +70,22 @@
         ]
       },
       {
+        "name": "Chartiste",
+        "name_en": "Chartist",
+        "name_de": "Chartist",
+        "color": "#C10F3D",
+        "keyword": "Chartisme",
+        "parties": [
+          {
+            "name": "Char",
+            "full_name": "Chartistes",
+            "full_name_en": "Chartists",
+            "full_name_de": "Chartisten",
+            "keyword": "Chartisme"
+          }
+        ]
+      },
+      {
         "name": "Socialiste altermondialiste",
         "name_en": "Alter-globalization socialist",
         "name_de": "Alter-globalisierungssozialist",
@@ -153,6 +169,22 @@
             "full_name_en": "Christian Pacifist",
             "full_name_de": "Christlicher Pazifist",
             "keyword": "George Maitland Lloyd Davies"
+          }
+        ]
+      },
+      {
+        "name": "Radical",
+        "name_en": "Radical",
+        "name_de": "Radikal",
+        "color": "#FF5879",
+        "keyword": "Radicalisme #Au Royaume-Uni",
+        "parties": [
+          {
+            "name": "Rad",
+            "full_name": "Radicaux",
+            "full_name_en": "Radicals",
+            "full_name_de": "Radikale",
+            "keyword": "Radicalisme #Au Royaume-Uni"
           }
         ]
       },
@@ -345,6 +377,12 @@
         "keyword": "Nationalisme irlandais",
         "parties": [
           {
+            "name": "IC ",
+            "full_name": "Confédération irlandaise",
+            "full_name_en": "Irish Confederation",
+            "full_name_de": "Irische Konföderation"
+          },
+          {
             "name": "HRL",
             "full_name": "Ligue du Home Rule",
             "full_name_en": "Home Rule League",
@@ -412,6 +450,12 @@
         "color": "#A3D3A6",
         "keyword": "Agrairisme",
         "parties": [
+          {
+            "name": "Rep",
+            "full_name": "Association pour l'abrogation",
+            "full_name_en": "Repeal Association",
+            "full_name_de": "Abschaffungsvereinigung"
+          },
           {
             "name": "IIP",
             "full_name": "Parti indépendant irlandais",
@@ -511,6 +555,13 @@
         "keyword": "Centre gauche",
         "parties": [
           {
+            "name": "Ref",
+            "full_name": "Réformistes",
+            "full_name_en": "Reformers",
+            "full_name_de": "Reformer",
+            "keyword": "Réformistes"
+          },
+          {
             "name": "DLP",
             "full_name": "Parti travailliste démocrate",
             "full_name_en": "Democratic Labour Party",
@@ -549,12 +600,6 @@
         "keyword": "Libéralisme",
         "parties": [
           {
-            "name": "W",
-            "full_name": "Parti whig",
-            "full_name_en": "Whig Party",
-            "full_name_de": "Whig-Partei"
-          },
-          {
             "name": "L",
             "full_name": "Parti libéral",
             "full_name_en": "Liberal Party",
@@ -567,6 +612,22 @@
             "full_name_en": "Liberal Democrats",
             "full_name_de": "Liberaldemokraten",
             "keyword": "Libéraux-démocrates (Royaume-Uni)"
+          }
+        ]
+      },
+      {
+        "name": "Whig",
+        "name_en": "Whig",
+        "name_de": "Whig",
+        "color": "#FFA500",
+        "keyword": "Whig",
+        "parties": [
+          {
+            "name": "W",
+            "full_name": "Whigs",
+            "full_name_en": "Whigs",
+            "full_name_de": "Whigs",
+            "keyword": "Whig"
           }
         ]
       },
@@ -679,6 +740,20 @@
         "keyword": "libéral-conservatisme",
         "parties": [
           {
+            "name": "LibC",
+            "full_name": "Libéraux-conservateurs",
+            "full_name_en": "Liberal Conservatives",
+            "full_name_de": "Liberalkonservative",
+            "keyword": "Libéral-conservatisme"
+          },
+          {
+            "name": "P",
+            "full_name": "Peelites",
+            "full_name_en": "Peelites",
+            "full_name_de": "Peelites",
+            "keyword": "Peelite"
+          },
+          {
             "name": "LUP",
             "full_name": "Parti libéral unioniste",
             "full_name_en": "Unionist Liberal Party",
@@ -745,6 +820,13 @@
         "color": "#33ADFF",
         "keyword": "Conservatisme",
         "parties": [
+          {
+            "name": "T",
+            "full_name": "Tory",
+            "full_name_en": "Tory",
+            "full_name_de": "Tory",
+            "keyword": "Parti Tory"
+          },
           {
             "name": "C ",
             "full_name": "Parti conservateur",
