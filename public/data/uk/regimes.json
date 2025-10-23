@@ -7,6 +7,311 @@
     "end": "1922-12-06",
     "legislatures": [
       {
+        "legislature": 1802,
+        "total_deputes": 658,
+        "duration": 4,
+        "begin": "1802-08-28",
+        "end": "1806-12-17",
+        "parties": [
+          {
+            "name": "W",
+            "deputes": 124
+          },
+          {
+            "name": "NO",
+            "deputes": 25
+          },
+          {
+            "name": "Ind",
+            "deputes": 36
+          },
+          {
+            "name": "T",
+            "deputes": 416
+          },
+          {
+            "name": "Pit",
+            "deputes": 57
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1802_United_Kingdom_general_election",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_g%C3%A9n%C3%A9rales_britanniques_de_1802"
+        ]
+      },
+      {
+        "legislature": 1806,
+        "total_deputes": 658,
+        "duration": 1,
+        "begin": "1806-12-17",
+        "end": "1807-06-09",
+        "parties": [
+          {
+            "name": "Rad",
+            "deputes": 0
+          },
+          {
+            "name": "W",
+            "deputes": 431
+          },
+          {
+            "name": "NO",
+            "deputes": 0
+          },
+          {
+            "name": "Ind",
+            "deputes": 0
+          },
+          {
+            "name": "T",
+            "deputes": 227
+          },
+          {
+            "name": "Pit",
+            "deputes": 0
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1806_United_Kingdom_general_election"
+        ]
+      },
+      {
+        "legislature": 1807,
+        "total_deputes": 658,
+        "duration": 5,
+        "begin": "1807-06-09",
+        "end": "1812-11-10",
+        "parties": [
+          {
+            "name": "Rad",
+            "deputes": 1
+          },
+          {
+            "name": "W",
+            "deputes": 213
+          },
+          {
+            "name": "Ind",
+            "deputes": 228
+          },
+          {
+            "name": "T",
+            "deputes": 216
+          }
+        ],
+        "source": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_g%C3%A9n%C3%A9rales_britanniques_de_1807"
+        ]
+      },
+      {
+        "legislature": 1812,
+        "total_deputes": 658,
+        "duration": 6,
+        "begin": "1812-11-10",
+        "end": "1818-08-04",
+        "parties": [
+          {
+            "name": "Rad",
+            "deputes": 1
+          },
+          {
+            "name": "L ",
+            "deputes": 0
+          },
+          {
+            "name": "W",
+            "deputes": 196
+          },
+          {
+            "name": "Ind",
+            "deputes": 62
+          },
+          {
+            "name": "T",
+            "deputes": 399
+          }
+        ],
+        "source": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_g%C3%A9n%C3%A9rales_britanniques_de_1812"
+        ]
+      },
+      {
+        "legislature": 1818,
+        "total_deputes": 658,
+        "duration": 2,
+        "begin": "1818-08-04",
+        "end": "1820-04-14",
+        "parties": [
+          {
+            "name": "Rad",
+            "deputes": 1
+          },
+          {
+            "name": "L ",
+            "deputes": 4
+          },
+          {
+            "name": "W",
+            "deputes": 175
+          },
+          {
+            "name": "Ind",
+            "deputes": 98
+          },
+          {
+            "name": "T",
+            "deputes": 280
+          }
+        ],
+        "source": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_g%C3%A9n%C3%A9rales_britanniques_de_1818"
+        ]
+      },
+      {
+        "legislature": 1820,
+        "total_deputes": 658,
+        "duration": 6,
+        "begin": "1820-04-14",
+        "end": "1826-07-12",
+        "parties": [
+          {
+            "name": "Rad",
+            "deputes": 4
+          },
+          {
+            "name": "L ",
+            "deputes": 4
+          },
+          {
+            "name": "W",
+            "deputes": 215
+          },
+          {
+            "name": "Ind",
+            "deputes": 94
+          },
+          {
+            "name": "T",
+            "deputes": 341
+          },
+          {
+            "name": "UT",
+            "deputes": 0
+          }
+        ],
+        "source": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_g%C3%A9n%C3%A9rales_britanniques_de_1820"
+        ]
+      },
+      {
+        "legislature": 1826,
+        "total_deputes": 658,
+        "duration": 4,
+        "begin": "1826-07-12",
+        "end": "1830-09-01",
+        "parties": [
+          {
+            "name": "Rad",
+            "deputes": 5
+          },
+          {
+            "name": "L ",
+            "deputes": 0
+          },
+          {
+            "name": "W",
+            "deputes": 198
+          },
+          {
+            "name": "Ind",
+            "deputes": 27
+          },
+          {
+            "name": "T",
+            "deputes": 428
+          },
+          {
+            "name": "UT",
+            "deputes": 0
+          }
+        ],
+        "source": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_g%C3%A9n%C3%A9rales_britanniques_de_1826"
+        ]
+      },
+      {
+        "legislature": 1830,
+        "total_deputes": 658,
+        "duration": 1,
+        "begin": "1830-09-01",
+        "end": "1831-06-01",
+        "parties": [
+          {
+            "name": "Rad",
+            "deputes": 4
+          },
+          {
+            "name": "W",
+            "deputes": 196
+          },
+          {
+            "name": "Ind",
+            "deputes": 148
+          },
+          {
+            "name": "T",
+            "deputes": 250
+          },
+          {
+            "name": "UT",
+            "deputes": 60
+          }
+        ],
+        "source": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_g%C3%A9n%C3%A9rales_britanniques_de_1830"
+        ]
+      },
+      {
+        "legislature": 1831,
+        "total_deputes": 658,
+        "duration": 1,
+        "begin": "1831-06-01",
+        "end": "1832-01-08",
+        "parties": [
+          {
+            "name": "Rad",
+            "deputes": 6
+          },
+          {
+            "name": "Rep",
+            "deputes": 0
+          },
+          {
+            "name": "Ref",
+            "deputes": 0
+          },
+          {
+            "name": "W",
+            "deputes": 370
+          },
+          {
+            "name": "Ind",
+            "deputes": 47
+          },
+          {
+            "name": "T",
+            "deputes": 235
+          },
+          {
+            "name": "UT",
+            "deputes": 0
+          }
+        ],
+        "source": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_g%C3%A9n%C3%A9rales_britanniques_de_1831"
+        ]
+      },
+      {
         "legislature": 1832,
         "total_deputes": 658,
         "duration": 3,
@@ -37,6 +342,10 @@
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
+          },
+          {
+            "name": "Ind",
+            "deputes": 0
           },
           {
             "name": "T",
@@ -82,7 +391,7 @@
             "coalition_de": "Whigs"
           },
           {
-            "name": "L",
+            "name": "L ",
             "deputes": 0,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
@@ -153,7 +462,7 @@
             "coalition_de": "Whigs"
           },
           {
-            "name": "L",
+            "name": "L ",
             "deputes": 19,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
@@ -229,7 +538,7 @@
             "coalition_de": "Whigs"
           },
           {
-            "name": "L",
+            "name": "L ",
             "deputes": 67,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
@@ -304,7 +613,7 @@
             "coalition_de": "Whigs"
           },
           {
-            "name": "L",
+            "name": "L ",
             "deputes": 167,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
@@ -389,7 +698,7 @@
             "coalition_de": "Whigs"
           },
           {
-            "name": "L",
+            "name": "L ",
             "deputes": 191,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
@@ -465,7 +774,7 @@
             "coalition_de": "Whigs"
           },
           {
-            "name": "L",
+            "name": "L ",
             "deputes": 345,
             "coalition": "Whigs",
             "coalition_en": "Whigs",

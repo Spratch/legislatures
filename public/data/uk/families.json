@@ -604,6 +604,13 @@
         "keyword": "Libéralisme",
         "parties": [
           {
+            "name": "L ",
+            "full_name": "Libéraux",
+            "full_name_en": "Liberals",
+            "full_name_de": "Liberale",
+            "keyword": "Parti libéral (Royaume-Uni)"
+          },
+          {
             "name": "L",
             "full_name": "Parti libéral",
             "full_name_en": "Liberal Party",
@@ -632,6 +639,22 @@
             "full_name_en": "Whigs",
             "full_name_de": "Whigs",
             "keyword": "Parti Whig (Royaume-Uni)"
+          }
+        ]
+      },
+      {
+        "name": "Whig modéré",
+        "name_en": "Moderate Whig",
+        "name_de": "Moderater Whig",
+        "color": "#FFD68B",
+        "keyword": "William Grenville",
+        "parties": [
+          {
+            "name": "NO",
+            "full_name": "Nouvelle opposition",
+            "full_name_en": "New Opposition",
+            "full_name_de": "Neue Opposition",
+            "keyword": "William Grenville"
           }
         ]
       },
@@ -721,22 +744,6 @@
     "name_de": "Rechts",
     "color": "#33ADFF",
     "currents": [
-      {
-        "name": "Radical de droite",
-        "name_en": "Right-wing radical",
-        "name_de": "Rechtsradikaler",
-        "color": "#89D9FE",
-        "keyword": "Radicalisme",
-        "parties": [
-          {
-            "name": "PR",
-            "full_name": "Parti radical",
-            "full_name_en": "Radical Party",
-            "full_name_de": "Radikale Partei",
-            "keyword": "Parti radical (France)"
-          }
-        ]
-      },
       {
         "name": "Libéral-conservateur",
         "name_en": "Liberal-conservative",
@@ -849,6 +856,22 @@
         ]
       },
       {
+        "name": "Tory pittite",
+        "name_en": "Pittite Tory",
+        "name_de": "Pittitischer Tory",
+        "color": "#3989DB",
+        "keyword": "William Pitt le Jeune",
+        "parties": [
+          {
+            "name": "Pit",
+            "full_name": "Torysme pittite",
+            "full_name_en": "Pittite Torism",
+            "full_name_de": "Pittitischer Toryismus",
+            "keyword": "William Pitt le Jeune"
+          }
+        ]
+      },
+      {
         "name": "Unioniste indépendant",
         "name_en": "Independent unionist",
         "name_de": "Unabhängiger Unionist",
@@ -932,6 +955,22 @@
     "name_de": "Ganz rechts",
     "color": "#BE9E87",
     "currents": [
+      {
+        "name": "Ultra-conservateur",
+        "name_en": "Ultra-Tory",
+        "name_de": "Ultra-Tory",
+        "color": "#3989DB",
+        "keyword": "Ultraconservatisme",
+        "parties": [
+          {
+            "name": "UT",
+            "full_name": "Ultra-conservateurs",
+            "full_name_en": "Ultra-Tories",
+            "full_name_de": "Ultra-Tories",
+            "keyword": "Uktra-Tories (Royaume-Uni)"
+          }
+        ]
+      },
       {
         "name": "Conservateur libertarien",
         "name_en": "Libertarian conservative",
