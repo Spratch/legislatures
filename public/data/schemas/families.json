@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "id": "schemas/families.json",
+  "type": "array",
+  "description": "List of political families",
+  "uniqueItems": true,
+  "items": {
+    "type": "object",
+    "description": "A political family",
+    "required": ["name", "name_en", "name_de", "color", "currents"],
+    "additionalProperties": false,
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "The name of the political family in french"
+      },
+      "name_en": {
+        "type": "string",
+        "description": "The name of the political family in english"
+      },
+      "name_de": {
+        "type": "string",
+        "description": "The name of the political family in german"
+      },
+      "color": {
+        "type": "string",
+        "pattern": "^#([0-9a-fA-F]{6})$",
+        "description": "The color associated with this political family, in hex format (#RRGGBB)"
+      },
+
+      "currents": {
+        "type": "array",
+        "description": "List of political currents within this family",
+        "uniqueItems": true,
+        "items": {
+          "type": "object",
+          "description": "A political current",
+          "required": ["name", "name_en", "name_de", "color", "parties"],
+          "additionalProperties": false,
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "The name of the political current in french"
+            },
+            "name_en": {
+              "type": "string",
+              "description": "The name of the political current in english"
+            },
+            "name_de": {
+              "type": "string",
+              "description": "The name of the political current in german"
+            },
+            "color": {
+              "type": "string",
+              "pattern": "^#([0-9a-fA-F]{6})$",
+              "description": "The color associated with this political current, in hex format (#RRGGBB)"
+            },
+            "keyword": {
+              "type": "string",
+              "description": "The title of the french wikipedia article about this political current"
+            },
+
+            "parties": {
+              "type": "array",
+              "description": "List of parties within this political current",
+              "uniqueItems": true,
+              "items": {
+                "type": "object",
+                "description": "A political party",
+                "required": [
+                  "name",
+                  "full_name",
+                  "full_name_en",
+                  "full_name_de"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "description": "The identifier of the political party (usually its acronym), used to link to parties in regimes.json"
+                  },
+                  "full_name": {
+                    "type": "string",
+                    "description": "The full name of the political party in french"
+                  },
+                  "full_name_en": {
+                    "type": "string",
+                    "description": "The full name of the political party in english"
+                  },
+                  "full_name_de": {
+                    "type": "string",
+                    "description": "The full name of the political party in german"
+                  },
+                  "keyword": {
+                    "type": "string",
+                    "description": "The title of the french wikipedia article about this party"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

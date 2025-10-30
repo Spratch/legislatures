@@ -16,62 +16,86 @@
           {
             "name": "SED",
             "deputes": 90,
-            "coalition": "Demokratischer Block"
+            "coalition": "Bloc démocratique",
+            "coalition_en": "Democratic Bloc",
+            "coalition_de": "Demokratischer Block"
           },
           {
             "name": "FDGB",
             "deputes": 30,
-            "coalition": "Demokratischer Block"
+            "coalition": "Bloc démocratique",
+            "coalition_en": "Democratic Bloc",
+            "coalition_de": "Demokratischer Block"
           },
           {
             "name": "DBD",
             "deputes": 15,
-            "coalition": "Demokratischer Block"
+            "coalition": "Bloc démocratique",
+            "coalition_en": "Democratic Bloc",
+            "coalition_de": "Demokratischer Block"
           },
           {
             "name": "VdgB",
             "deputes": 0,
-            "coalition": "Demokratischer Block"
+            "coalition": "Bloc démocratique",
+            "coalition_en": "Democratic Bloc",
+            "coalition_de": "Demokratischer Block"
           },
           {
             "name": "FDJ",
             "deputes": 10,
-            "coalition": "Demokratischer Block"
+            "coalition": "Bloc démocratique",
+            "coalition_en": "Democratic Bloc",
+            "coalition_de": "Demokratischer Block"
           },
           {
             "name": "DFD",
             "deputes": 10,
-            "coalition": "Demokratischer Block"
+            "coalition": "Bloc démocratique",
+            "coalition_en": "Democratic Bloc",
+            "coalition_de": "Demokratischer Block"
           },
           {
             "name": "KB",
             "deputes": 10,
-            "coalition": "Demokratischer Block"
+            "coalition": "Bloc démocratique",
+            "coalition_en": "Democratic Bloc",
+            "coalition_de": "Demokratischer Block"
           },
           {
             "name": "VVN",
             "deputes": 10,
-            "coalition": "Demokratischer Block"
+            "coalition": "Bloc démocratique",
+            "coalition_en": "Democratic Bloc",
+            "coalition_de": "Demokratischer Block"
           },
           {
             "name": "Autres",
             "deputes": 35,
-            "coalition": "Demokratischer Block"
+            "coalition": "Bloc démocratique",
+            "coalition_en": "Democratic Bloc",
+            "coalition_de": "Demokratischer Block"
           },
           {
             "name": "CDU",
             "deputes": 45,
-            "coalition": "Demokratischer Block"
+            "coalition": "Bloc démocratique",
+            "coalition_en": "Democratic Bloc",
+            "coalition_de": "Demokratischer Block"
           },
           {
             "name": "LDP",
             "deputes": 45,
-            "coalition": "Demokratischer Block"
+            "coalition": "Bloc démocratique",
+            "coalition_en": "Democratic Bloc",
+            "coalition_de": "Demokratischer Block"
           },
           {
             "name": "NDPD",
             "deputes": 15,
-            "coalition": "Demokratischer Block"
+            "coalition": "Bloc démocratique",
+            "coalition_en": "Democratic Bloc",
+            "coalition_de": "Demokratischer Block"
           }
         ],
         "source": [
@@ -96,62 +120,86 @@
           {
             "name": "SED",
             "deputes": 110,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "FDGB",
             "deputes": 49,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "DBD",
             "deputes": 33,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "VdgB",
             "deputes": 12,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "FDJ",
             "deputes": 25,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "DFD",
             "deputes": 20,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "KB",
             "deputes": 24,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "VVN",
             "deputes": 19,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "Autres",
             "deputes": 0,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "CDU",
             "deputes": 67,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "LDP",
             "deputes": 66,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "NDPD",
             "deputes": 35,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           }
         ],
         "source": [
@@ -168,62 +216,86 @@
           {
             "name": "SED",
             "deputes": 117,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "FDGB",
             "deputes": 53,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "DBD",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "VdgB",
             "deputes": 12,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "FDJ",
             "deputes": 29,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "DFD",
             "deputes": 29,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "KB",
             "deputes": 18,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "VVN",
             "deputes": 0,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "Autres",
             "deputes": 0,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "CDU",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "LDPD",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "NDPD",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           }
         ],
         "source": [
@@ -240,52 +312,72 @@
           {
             "name": "SED",
             "deputes": 117,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "FDGB",
             "deputes": 53,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "DBD",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "VdgB",
             "deputes": 12,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "FDJ",
             "deputes": 29,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "DFD",
             "deputes": 29,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "DKB",
             "deputes": 18,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "CDU",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "LDPD",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "NDPD",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           }
         ],
         "source": [
@@ -302,52 +394,72 @@
           {
             "name": "SED",
             "deputes": 127,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "FDGB",
             "deputes": 68,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "DBD",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "VdgB",
             "deputes": 0,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "FDJ",
             "deputes": 40,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "DFD",
             "deputes": 35,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "DKB",
             "deputes": 22,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "CDU",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "LDPD",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "NDPD",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           }
         ],
         "source": [
@@ -364,47 +476,65 @@
           {
             "name": "SED",
             "deputes": 127,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "FDGB",
             "deputes": 68,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "DBD",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "FDJ",
             "deputes": 40,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "DFD",
             "deputes": 35,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "DKB",
             "deputes": 22,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "CDU",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "LDPD",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "NDPD",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           }
         ],
         "source": [
@@ -421,47 +551,65 @@
           {
             "name": "SED",
             "deputes": 127,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "FDGB",
             "deputes": 68,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "DBD",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "FDJ",
             "deputes": 40,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "DFD",
             "deputes": 35,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "DKB",
             "deputes": 22,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "CDU",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "LDPD",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "NDPD",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           }
         ],
         "source": [
@@ -478,47 +626,65 @@
           {
             "name": "SED",
             "deputes": 127,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "FDGB",
             "deputes": 68,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "DBD",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "FDJ",
             "deputes": 40,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "DFD",
             "deputes": 35,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "DKB",
             "deputes": 22,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "CDU",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "LDPD",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "NDPD",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           }
         ],
         "source": [
@@ -535,52 +701,72 @@
           {
             "name": "SED",
             "deputes": 127,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "FDGB",
             "deputes": 68,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "DBD",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "VdgB",
             "deputes": 0,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "FDJ",
             "deputes": 40,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "DFD",
             "deputes": 35,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "KB ",
             "deputes": 22,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "CDU",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "LDPD",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "NDPD",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           }
         ],
         "source": [
@@ -597,77 +783,107 @@
           {
             "name": "VL",
             "deputes": 0,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "SED",
             "deputes": 127,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "FDGB",
             "deputes": 61,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "B90",
             "deputes": 0,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "Gr/UFV",
             "deputes": 0,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "DBD",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "VdgB",
             "deputes": 14,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "FDJ",
             "deputes": 37,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "DFD",
             "deputes": 32,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "KB ",
             "deputes": 21,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "DA",
             "deputes": 0,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "CDU",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "LDPD",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "DSU",
             "deputes": 0,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           },
           {
             "name": "NDPD",
             "deputes": 52,
-            "coalition": "Nationale Front"
+            "coalition": "Front national",
+            "coalition_en": "National Front",
+            "coalition_de": "Nationale Front"
           }
         ],
         "source": [
@@ -728,12 +944,16 @@
           {
             "name": "DA",
             "deputes": 4,
-            "coalition": "Allianz für Deutschland"
+            "coalition": "Alliance pour l'Allemagne",
+            "coalition_en": "Alliance for Germany",
+            "coalition_de": "Allianz für Deutschland"
           },
           {
             "name": "CDU",
             "deputes": 163,
-            "coalition": "Allianz für Deutschland"
+            "coalition": "Alliance pour l'Allemagne",
+            "coalition_en": "Alliance for Germany",
+            "coalition_de": "Allianz für Deutschland"
           },
           {
             "name": "BFD",
@@ -742,7 +962,9 @@
           {
             "name": "DSU",
             "deputes": 25,
-            "coalition": "Allianz für Deutschland"
+            "coalition": "Alliance pour l'Allemagne",
+            "coalition_en": "Alliance for Germany",
+            "coalition_de": "Allianz für Deutschland"
           },
           {
             "name": "NDPD",

@@ -1,3 +1,17 @@
 {
-    "typescript.tsdk": "node_modules/typescript/lib"
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "json.schemas": [
+    {
+      "fileMatch": ["/regimes.json", "!/schemas/regimes.json"],
+      "url": "./public/data/schemas/regimes.json"
+    },
+    {
+      "fileMatch": ["/families.json", "!/schemas/families.json"],
+      "url": "./public/data/schemas/families.json"
+    },
+    {
+      "fileMatch": ["/events.json", "!/schemas/events.json"],
+      "url": "./public/data/schemas/events.json"
+    }
+  ]
 }

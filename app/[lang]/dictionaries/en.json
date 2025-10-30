@@ -11,7 +11,9 @@
     "title_germany": "Germany",
     "description_germany": "From 1949",
     "title_ddr": "East Germany",
-    "description_ddr": "1949-1990"
+    "description_ddr": "1949-1990",
+    "title_uk": "United Kingdom",
+    "description_uk": "From 1802"
   },
   "settingsLine": {
     "hideEvents": "Hide events",

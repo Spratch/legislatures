@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "id": "schemas/regimes.json",
+  "type": "array",
+  "description": "List of regimes",
+  "uniqueItems": true,
+  "items": {
+    "type": "object",
+    "description": "A regime",
+    "required": ["name", "name_en", "name_de", "begin", "legislatures"],
+    "additionalProperties": false,
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "The name of the regime in french"
+      },
+      "name_en": {
+        "type": "string",
+        "description": "The name of the regime in english"
+      },
+      "name_de": {
+        "type": "string",
+        "description": "The name of the regime in german"
+      },
+      "begin": {
+        "type": "string",
+        "format": "date",
+        "description": "The start date of the regime"
+      },
+      "end": {
+        "type": ["string", "null"],
+        "format": "date",
+        "description": "The end date of the regime"
+      },
+
+      "legislatures": {
+        "type": "array",
+        "description": "List of legislatures during this regime",
+        "uniqueItems": true,
+        "items": {
+          "type": "object",
+          "description": "A legislature",
+          "required": [
+            "legislature",
+            "total_deputes",
+            "begin",
+            "end",
+            "parties"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "legislature": {
+              "type": "number",
+              "description": "The year of the legislature, but also its identifier, so it must be unique within the regime (use 1910 and 1910.5 if there are two sessions in the same year)"
+            },
+            "total_deputes": {
+              "type": "number",
+              "description": "The total number of deputies in this legislature"
+            },
+            "duration": {
+              "type": "number",
+              "description": "The approximate duration of the legislature in years"
+            },
+            "begin": {
+              "type": "string",
+              "format": "date",
+              "description": "The start date of the legislature"
+            },
+            "end": {
+              "type": "string",
+              "oneOf": [
+                {
+                  "format": "date"
+                },
+                { "enum": ["now"] }
+              ],
+              "description": "The end date of the legislature"
+            },
+            "true-end": {
+              "type": ["string", "null"],
+              "format": "date",
+              "description": "The actual end date of the legislature, for WIP purposes, don't use it in production"
+            },
+            "comment": {
+              "type": ["string", "null"],
+              "description": "A comment about the legislature"
+            },
+            "source": {
+              "type": "array",
+              "description": "List of sources for this legislature",
+              "items": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+
+            "parties": {
+              "type": "array",
+              "description": "List of parties in this legislature, with their number of deputies. Includes parties that had no deputies but are present in the previous or the next legislature.",
+              "uniqueItems": true,
+              "items": {
+                "type": "object",
+                "description": "A party in this legislature",
+                "required": ["name", "deputes"],
+                "additionalProperties": false,
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "description": "The identifier of the party, must match a party in families.json"
+                  },
+                  "deputes": {
+                    "type": "number",
+                    "description": "The number of deputies for this party in this legislature"
+                  },
+                  "coalition": {
+                    "type": ["string", "null"],
+                    "description": "The coalition this party is part of, if any"
+                  },
+                  "coalition_en": {
+                    "type": ["string", "null"],
+                    "description": "The coalition this party is part of, if any (in english)"
+                  },
+                  "coalition_de": {
+                    "type": ["string", "null"],
+                    "description": "The coalition this party is part of, if any (in german)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

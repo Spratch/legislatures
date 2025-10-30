@@ -60,15 +60,16 @@ export default function Chart({
     minHeight * totalDuration + referenceSize + dimensions.marginBottom;
 
   // Set the position of the left axis in px
+  const eventsPresence = events && events.length > 0;
   const axisLeftPosition = !dimensions.boundedWidth
     ? 0
     : !eventsVisibility
-      ? dimensions.boundedWidth < 640
-        ? 40
-        : 100
-      : dimensions.boundedWidth < 640
-        ? 200
-        : 400;
+    ? dimensions.boundedWidth < 640 || !eventsPresence
+      ? 40
+      : 100
+    : dimensions.boundedWidth < 640
+    ? 200
+    : 400;
 
   // Get the tooltip party
   const setTooltipContent = useSetAtom(tooltipContentAtom);
@@ -125,54 +126,60 @@ export default function Chart({
         aria-label={dict.chart}
       >
         {/* Events */}
-        <g
-          className={`events ${
-            eventsVisibility ? "" : "pointer-events-none"
-          } group/eventslist`}
-          role="list"
-          aria-hidden={!eventsVisibility}
-          aria-label={eventsVisibility ? dict.eventsList : ""}
-        >
-          {events.map((event, index) => {
-            return (
-              <Event
-                key={index}
-                event={event}
-                axisLeftPosition={axisLeftPosition}
-                minHeight={minHeight}
-                firstLegislature={firstLegislature}
-                onClick={() =>
-                  eventsVisibility ? setDetailsContent({ entity: event }) : {}
-                }
-                eventsVisibility={eventsVisibility}
-              />
-            );
-          })}
-        </g>
+        {eventsPresence && (
+          <g
+            className={`events ${
+              eventsVisibility ? "" : "pointer-events-none"
+            } group/eventslist`}
+            role="list"
+            aria-hidden={!eventsVisibility}
+            aria-label={eventsVisibility ? dict.eventsList : ""}
+          >
+            {events.map((event, index) => {
+              return (
+                <Event
+                  key={index}
+                  event={event}
+                  axisLeftPosition={axisLeftPosition}
+                  minHeight={minHeight}
+                  firstLegislature={firstLegislature}
+                  onClick={() =>
+                    eventsVisibility ? setDetailsContent({ entity: event }) : {}
+                  }
+                  eventsVisibility={eventsVisibility}
+                />
+              );
+            })}
+          </g>
+        )}
 
         {/* Gradient over events */}
-        <rect
-          x={0}
-          y={0}
-          width={axisLeftPosition}
-          height={svgHeight}
-          fill="url(#events-gradient)"
-          className="pointer-events-none"
-        />
-        <defs>
-          <linearGradient id="events-gradient">
-            <stop
-              offset={`${gradientStart}%`}
-              stopColor="white"
-              stopOpacity={0}
+        {eventsPresence && (
+          <>
+            <rect
+              x={0}
+              y={0}
+              width={axisLeftPosition}
+              height={svgHeight}
+              fill="url(#events-gradient)"
+              className="pointer-events-none"
             />
-            <stop
-              offset={`${gradientEnd}%`}
-              stopColor="white"
-              stopOpacity={1}
-            />
-          </linearGradient>
-        </defs>
+            <defs>
+              <linearGradient id="events-gradient">
+                <stop
+                  offset={`${gradientStart}%`}
+                  stopColor="white"
+                  stopOpacity={0}
+                />
+                <stop
+                  offset={`${gradientEnd}%`}
+                  stopColor="white"
+                  stopOpacity={1}
+                />
+              </linearGradient>
+            </defs>
+          </>
+        )}
 
         {/* Legislatures */}
         <g

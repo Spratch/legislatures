@@ -9,14 +9,14 @@
           "title_light_de": "Zwischen Krisen und Anforderungen"
         },
         {
-          "title_main": "Les évolutions des courants politiques au sein de l’Assemblée nationale*",
-          "title_main_en": "The evolutions of political currents within the National Assembly*",
-          "title_main_de": "Die Entwicklungen der politischen Strömungen innerhalb der Nationalversammlung*"
+          "title_main": "Les évolutions des courants politiques au sein de la Chambre des communes*",
+          "title_main_en": "The evolutions of political currents within the House of Commons*",
+          "title_main_de": "Die Entwicklungen der politischen Strömungen innerhalb der Unterhaus*"
         },
         {
-          "intro": "Ceci est une représentation visuelle des résultats des élections législatives françaises depuis la première en 1791.",
-          "intro_en": "This is a visual representation of the results of French legislative elections since the first in 1791.",
-          "intro_de": "Dies ist eine visuelle Darstellung der Ergebnisse der französischen Parlamentswahlen seit der ersten im Jahr 1791."
+          "intro": "Ceci est une représentation visuelle des résultats des élections générales britanniques depuis les actes d'Union de 1800 entre le Royaume-Uni de Grande-Bretagne et le royaume d'Irlande qui réunit les deux chambres des communes.",
+          "intro_en": "This is a visual representation of the results of United Kingdom general elections since the Acts of Union 1800 between the United Kingdom of Great Britain and the Kingdom of Ireland that united the two Houses of Commons.",
+          "intro_de": "Dies ist eine visuelle Darstellung der Ergebnisse der britischen Allgemeinen Wahlen seit den Vereinigungsakte 1800 zwischen der Großbritannien und Irland, die die beiden Häuser der Gemeinde vereint haben."
         }
       ]
     },
@@ -31,7 +31,7 @@
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": "Cette visualisation a été réalisée à partir de données de sources variées, mais principalement depuis la liste des législatures françaises sur ",
+                  "text": "Cette visualisation a été réalisée à partir de données de sources variées, mais principalement depuis la liste des élections générales du Royaume-Uni sur ",
                   "_key": "bac930b93b0a"
                 },
                 {
@@ -43,7 +43,19 @@
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": ". Plus les données sont anciennes, moins elles sont précises. En effet, les concepts modernes de partis politiques ou de groupes parlementaires n’existaient pas toujours. Les députés étaient alors étiquetés en fonction de leurs votes, une fois élus.",
+                  "text": ", ou depuis les ",
+                  "_key": "bac930b93b0ab"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["b0690139050b"],
+                  "text": "données regroupées par Seth Alexander Thévoz",
+                  "_key": "bac930b93b0ac"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": " pour la période 1832-1868. Ces différentes sources n'ont pas forcément les mêmes chiffres, et il a parfois fallu les combiner pour obtenir un ensemble cohérent.\nDe manière générale, plus les données sont anciennes, moins elles sont précises.",
                   "_key": "f97f19c03baf"
                 }
               ],
@@ -51,7 +63,12 @@
                 {
                   "_key": "b0690139050a",
                   "_type": "link",
-                  "href": "https://fr.wikipedia.org/wiki/Liste_des_l%C3%A9gislatures_fran%C3%A7aises"
+                  "href": "https://en.wikipedia.org/wiki/List_of_United_Kingdom_general_elections"
+                },
+                {
+                  "_key": "b0690139050b",
+                  "_type": "link",
+                  "href": "https://www.sethalexanderthevoz.com/database-mps-clubs"
                 }
               ],
               "_type": "block",
@@ -63,7 +80,7 @@
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": "De plus, il a fallu trancher de manière arbitraire sur l’appartenance de chaque parti ou député à un courant politique. Les nuances et les évolutions des partis politiques ne sont d’ailleurs pas forcément prises en compte. Ajoutons à cela que les familles politiques telles que la droite ou la gauche sont des notions qui, au fil du temps, ont pu se déplacer. L’extrême gauche du début de la IIIe République pourrait correspondre aujourd’hui à un positionnement centriste. Pour plus de clarté, j’ai décidé de classer les partis à partir de repères contemporains.",
+                  "text": "De plus, il a fallu trancher de manière arbitraire sur l’appartenance de chaque parti ou député à un courant politique. Les nuances et les évolutions des partis politiques ne sont d’ailleurs pas forcément prises en compte. Ajoutons à cela que les familles politiques telles que la droite ou la gauche sont des notions qui, au fil du temps, ont pu se déplacer. Pour plus de clarté, j’ai décidé de classer les partis à partir de repères contemporains.",
                   "_key": "ff6b031217b3"
                 }
               ],
@@ -88,45 +105,62 @@
           ],
           "portable_text_en": [
             {
-              "_key": "592ad033d355",
+              "_key": "404a2afd14c8",
               "children": [
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": "This visualization was created using data from various sources, but mainly from the list of French legislatures on ",
-                  "_key": "6c8985f9ea84"
+                  "text": "This visualization was created using data from various sources, but mainly from the list of United Kingdom general elections on ",
+                  "_key": "bac930b93b0a"
                 },
                 {
                   "_type": "span",
-                  "marks": ["2e0532f9b6c4"],
+                  "marks": ["b0690139050a"],
                   "text": "Wikipedia",
-                  "_key": "7f583d6450bd"
+                  "_key": "0c4d140af356"
                 },
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": ". The older the data, the less accurate it is. Indeed, modern concepts of political parties or parliamentary groups did not always exist. MPs were then labelled according to their votes, once elected.",
-                  "_key": "e9f9c2c32aa5"
+                  "text": ", or from the ",
+                  "_key": "bac930b93b0ab"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["b0690139050b"],
+                  "text": "data grouped by Seth Alexander Thévoz",
+                  "_key": "bac930b93b0ac"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": " for the period 1832-1868. These different sources do not necessarily have the same results, and it was sometimes necessary to combine them to obtain a coherent whole.\nGenerally speaking, the older the data, the less accurate it is.",
+                  "_key": "f97f19c03baf"
                 }
               ],
               "markDefs": [
                 {
-                  "_key": "2e0532f9b6c4",
+                  "_key": "b0690139050a",
                   "_type": "link",
-                  "href": "https://fr.wikipedia.org/wiki/Liste_des_l%C3%A9gislatures_fran%C3%A7aises"
+                  "href": "https://en.wikipedia.org/wiki/List_of_United_Kingdom_general_elections"
+                },
+                {
+                  "_key": "b0690139050b",
+                  "_type": "link",
+                  "href": "https://www.sethalexanderthevoz.com/database-mps-clubs"
                 }
               ],
               "_type": "block",
               "style": "normal"
             },
             {
-              "_key": "c0a49b405ec4",
+              "_key": "6b24cf19290b",
               "children": [
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": "In addition, it was necessary to arbitrarily decide on the affiliation of each party or deputy to a political movement. The nuances and developments of political parties are not necessarily taken into account. Let us add to this that political families such as the right or the left are notions that, over time, have been able to move. The extreme left of the beginning of the Third Republic could correspond today to a centrist position. For the sake of clarity, I decided to classify the parties based on contemporary benchmarks. ",
-                  "_key": "3719dac4baba"
+                  "text": "In addition, it was necessary to decide arbitrarily on the membership of each party or deputy to a political movement. The nuances and developments of political parties are not necessarily taken into account. Let us add to this that political families such as the right or the left are notions which, over time, may have shifted. For greater clarity, I decided to classify the parties based on contemporary benchmarks.",
+                  "_key": "ff6b031217b3"
                 }
               ],
               "markDefs": [],
@@ -134,13 +168,13 @@
               "style": "normal"
             },
             {
-              "_key": "3486352f348f",
+              "_key": "9c4bd231b42c",
               "children": [
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": "Finally, I wanted to represent electoral agreements between parties such as coalitions. These allow us to better understand the balance of power that takes place. They do not always have the same modalities, and information is sometimes lacking for the oldest elections.",
-                  "_key": "46386ffb43fe"
+                  "text": "Finally, I wanted to represent electoral agreements between parties such as coalitions. These allow us to better understand the power relations that take place. They do not always have the same methods, and information is sometimes lacking for the oldest elections.",
+                  "_key": "6f4c1903fcb0"
                 }
               ],
               "markDefs": [],
@@ -150,32 +184,49 @@
           ],
           "portable_text_de": [
             {
-              "_key": "cf31595a30f6",
+              "_key": "404a2afd14c8",
               "children": [
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": "Diese Visualisierung wurde unter Verwendung von Daten aus verschiedenen Quellen erstellt, hauptsächlich jedoch aus der Liste der französischen gesetzgebenden Körperschaften auf ",
-                  "_key": "8464965dba85"
+                  "text": "Diese Visualisierung wurde unter Verwendung von Daten aus verschiedenen Quellen erstellt, hauptsächlich jedoch aus der Liste der Parlamentswahlen im Vereinigten Königreich auf ",
+                  "_key": "bac930b93b0a"
                 },
                 {
                   "_type": "span",
-                  "marks": ["26effcd020b9"],
+                  "marks": ["b0690139050a"],
                   "text": "Wikipedia",
-                  "_key": "ac12a4e99af2"
+                  "_key": "0c4d140af356"
                 },
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": ". Je älter die Daten sind, desto ungenauer sind sie. Tatsächlich gab es moderne Konzepte politischer Parteien oder Fraktionen nicht immer. Nach ihrer Wahl wurden die Abgeordneten entsprechend ihrer Stimmabgabe benannt.",
-                  "_key": "ecad5922b6e8"
+                  "text": " oder aus den von ",
+                  "_key": "bac930b93b0ab"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["b0690139050b"],
+                  "text": "Seth Alexander Thévoz für den Zeitraum 1832–1868",
+                  "_key": "bac930b93b0ac"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": " zusammengestellten Daten. Diese verschiedenen Quellen enthalten nicht unbedingt die gleichen Zahlen, und es war manchmal notwendig, sie zu kombinieren, um ein kohärentes Ganzes zu erhalten.\nGenerell gilt: Je älter die Daten sind, desto ungenauer sind sie.",
+                  "_key": "f97f19c03baf"
                 }
               ],
               "markDefs": [
                 {
-                  "_key": "26effcd020b9",
+                  "_key": "b0690139050a",
                   "_type": "link",
-                  "href": "https://fr.wikipedia.org/wiki/Liste_des_l%C3%A9gislatures_fran%C3%A7aises"
+                  "href": "https://en.wikipedia.org/wiki/List_of_United_Kingdom_general_elections"
+                },
+                {
+                  "_key": "b0690139050b",
+                  "_type": "link",
+                  "href": "https://www.sethalexanderthevoz.com/database-mps-clubs"
                 }
               ],
               "_type": "block",
@@ -187,8 +238,8 @@
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": "Zudem musste über die Mitgliedschaft jedes einzelnen Parteimitglieds bzw. Abgeordneten zu einer politischen Bewegung willkürlich entschieden werden. Nuancen und Entwicklungen der politischen Parteien werden dabei nicht unbedingt berücksichtigt. Hinzu kommt die Tatsache, dass politische Strömungen wie die Rechte oder die Linke sich im Laufe der Zeit verändern konnten. Die extreme Linke zu Beginn der Dritten Republik könnte heute einer zentristischen Position entsprechen. Der Übersichtlichkeit halber habe ich mich für eine Klassifizierung der Parteien nach zeitgenössischen Maßstäben entschieden.",
-                  "_key": "47b281d74eba"
+                  "text": "Zudem musste über die Mitgliedschaft jedes einzelnen Parteimitglieds bzw. Abgeordneten zu einer politischen Bewegung willkürlich entschieden werden. Nuancen und Entwicklungen der politischen Parteien werden dabei nicht unbedingt berücksichtigt. Hinzu kommt die Tatsache, dass politische Strömungen wie die Rechte oder die Linke sich im Laufe der Zeit verändern konnten. Der Übersichtlichkeit halber habe ich mich für eine Klassifizierung der Parteien nach zeitgenössischen Maßstäben entschieden.",
+                  "_key": "ff6b031217b3"
                 }
               ],
               "markDefs": [],
@@ -311,79 +362,110 @@
         {
           "portable_text": [
             {
-              "_key": "e26ffde99938",
+              "_key": "afa6152d1824",
               "children": [
                 {
                   "_type": "span",
                   "marks": [],
                   "text": "Ce graphique est inspiré du superbe travail de ",
-                  "_key": "84c021b4dc52"
+                  "_key": "3dee2ac6c32f"
                 },
                 {
                   "_type": "span",
-                  "marks": ["18a16c269048"],
+                  "marks": ["a1b99071aafb"],
                   "text": "Tom Février et Marie Patino",
-                  "_key": "999070e3b8ca"
+                  "_key": "c22a0c71078b"
                 },
                 {
                   "_type": "span",
                   "marks": [],
                   "text": " pour ",
-                  "_key": "dd6edae68a86"
+                  "_key": "1a81996bc2a1"
                 },
                 {
                   "_type": "span",
-                  "marks": ["0200d2192564"],
+                  "marks": ["d4404069eb50"],
                   "text": "cet article de Bloomberg",
-                  "_key": "8e83d768e9f6"
+                  "_key": "bd5152c5d2cf"
                 },
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": ". En le découvrant, j’aurais aimé pouvoir l’étendre jusqu’à la révolution de 1789. C’est donc ce que j’ai fait. Je l’ai fait pour le plaisir, pour apprendre à créer des visualisations de données, et pour mieux comprendre l’histoire politique de la France.",
-                  "_key": "067c767486da"
+                  "text": ". En le découvrant, j’aurais aimé pouvoir l’étendre jusqu’à la révolution de 1789. C’est donc ce que j’ai fait, d’abord avec la ",
+                  "_key": "2aef85925967"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["c010c3fcfe76"],
+                  "text": "France",
+                  "_key": "cfb789d84d9f"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". Je l’ai fait pour le plaisir, pour apprendre à créer des visualisations de données, et pour mieux comprendre l’histoire politique de la France.",
+                  "_key": "e34404e52ee3"
                 }
               ],
               "markDefs": [
                 {
-                  "_key": "18a16c269048",
+                  "_key": "a1b99071aafb",
                   "_type": "link",
                   "href": "https://mastodon.social/@tomfevrier/112751171765233201"
                 },
                 {
-                  "_key": "0200d2192564",
+                  "_key": "d4404069eb50",
                   "_type": "link",
                   "href": "https://www.bloomberg.com/graphics/2024-french-election-results/"
+                },
+                {
+                  "_key": "c010c3fcfe76",
+                  "_type": "link",
+                  "href": "/fr/france/"
                 }
               ],
               "_type": "block",
               "style": "normal"
             },
             {
-              "_key": "3731b16c2eed",
+              "_key": "927de6f1fa25",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Puis j’ai étendu le principe à d’autres pays, comme ici avec le Royaume-Uni.",
+                  "_key": "2551d808ab44"
+                }
+              ],
+              "markDefs": [],
+              "_type": "block",
+              "style": "normal"
+            },
+            {
+              "_key": "884eb941ca6b",
               "children": [
                 {
                   "_type": "span",
                   "marks": [],
                   "text": "J’espère que vous prendrez autant de plaisir à le consulter, qu’il vous apportera connaissances ou mises en perspectives. Si vous y rencontrez des erreurs, des imprécisions, des oublis, ou si vous avez des suggestions, ",
-                  "_key": "dde3f35a8b1a"
+                  "_key": "ffef21f4b461"
                 },
                 {
                   "_type": "span",
-                  "marks": ["d14bd3007823"],
+                  "marks": ["70e44fd3d944"],
                   "text": "n’hésitez pas à me contacter",
-                  "_key": "774eec696914"
+                  "_key": "c497df664315"
                 },
                 {
                   "_type": "span",
                   "marks": [],
                   "text": ". Je ne suis ni historien, ni expert en politique, et c’est mon premier projet de visualisation de données. Je suis donc ouvert à toute critique constructive, tant sur le contenu que sur le code.",
-                  "_key": "3d5392f9cdf4"
+                  "_key": "fd88c63396b5"
                 }
               ],
               "markDefs": [
                 {
-                  "_key": "d14bd3007823",
+                  "_key": "70e44fd3d944",
                   "_type": "link",
                   "href": "mailto:legislaturesfr@gmail.com"
                 }
@@ -394,79 +476,110 @@
           ],
           "portable_text_en": [
             {
-              "_key": "8c5e9f3a8b17",
+              "_key": "79928c66e400",
               "children": [
                 {
                   "_type": "span",
                   "marks": [],
                   "text": "This chart is inspired by the great work of ",
-                  "_key": "f95206b49beb"
+                  "_key": "498bd6c46cce"
                 },
                 {
                   "_type": "span",
-                  "marks": ["e2defca43bc6"],
+                  "marks": ["6226e623a6da"],
                   "text": "Tom Février and Marie Patino",
-                  "_key": "69b51e2b6e4a"
+                  "_key": "2fe004795b51"
                 },
                 {
                   "_type": "span",
                   "marks": [],
-                  "_key": "9d8ad3ea76f1",
-                  "text": " for "
+                  "text": " for ",
+                  "_key": "f6a9c8c2af86"
                 },
                 {
                   "_type": "span",
-                  "marks": ["b4e5324fd1d7"],
+                  "marks": ["68e608ee1fbb"],
                   "text": "this Bloomberg article",
-                  "_key": "6b5576a4e52a"
+                  "_key": "bea09ca86f0b"
                 },
                 {
                   "_type": "span",
-                  "_key": "c451d104d7bf",
-                  "text": ". When I discovered it, I wished I could extend it to the revolution of 1789. So that’s what I did. I did it for fun, to learn how to create data visualizations, and to better understand the political history of France.",
-                  "marks": []
+                  "marks": [],
+                  "text": ". When I discovered it, I wished I could extend it to the revolution of 1789. So that’s what I did, first with ",
+                  "_key": "5fffae20e4d3"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["01f2bdbc3072"],
+                  "text": "France",
+                  "_key": "347e1d037213"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". I did it for fun, to learn how to create data visualizations, and to better understand the political history of France.",
+                  "_key": "ceb47aca6ae7"
                 }
               ],
               "markDefs": [
                 {
-                  "_key": "b4e5324fd1d7",
+                  "_key": "6226e623a6da",
+                  "_type": "link",
+                  "href": "https://mastodon.social/@tomfevrier/112751171765233201"
+                },
+                {
+                  "_key": "68e608ee1fbb",
                   "_type": "link",
                   "href": "https://www.bloomberg.com/graphics/2024-french-election-results/"
                 },
                 {
-                  "_key": "e2defca43bc6",
+                  "_key": "01f2bdbc3072",
                   "_type": "link",
-                  "href": "https://mastodon.social/@tomfevrier/112751171765233201"
+                  "href": "/en/france/"
                 }
               ],
               "_type": "block",
               "style": "normal"
             },
             {
-              "_key": "062738b23af0",
+              "_key": "2fd14e2dc07a",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Then I extended the principle to other countries, like here with the United Kingdom.",
+                  "_key": "d9a579fe1819"
+                }
+              ],
+              "markDefs": [],
+              "_type": "block",
+              "style": "normal"
+            },
+            {
+              "_key": "69508a109f8b",
               "children": [
                 {
                   "_type": "span",
                   "marks": [],
                   "text": "I hope you will enjoy reading it as much as it will bring you knowledge or perspective. If you find any errors, inaccuracies, omissions, or if you have any suggestions, ",
-                  "_key": "7388aa31d583"
+                  "_key": "f75afbbfa643"
                 },
                 {
                   "_type": "span",
-                  "marks": ["2be0ddfc9890"],
+                  "marks": ["48544e09806c"],
                   "text": "please do not hesitate to contact me",
-                  "_key": "5324ee1e65d5"
+                  "_key": "c0e3e372ebc6"
                 },
                 {
                   "_type": "span",
                   "marks": [],
                   "text": ". I am neither a historian nor a political expert, and this is my first data visualization project, so I am open to constructive criticism, both on the content and the code.",
-                  "_key": "8b724a4dbefa"
+                  "_key": "9392ada06c7f"
                 }
               ],
               "markDefs": [
                 {
-                  "_key": "2be0ddfc9890",
+                  "_key": "48544e09806c",
                   "_type": "link",
                   "href": "mailto:legislaturesfr@gmail.com"
                 }
@@ -477,79 +590,110 @@
           ],
           "portable_text_de": [
             {
-              "_key": "86c33a405f65",
+              "_key": "abede41fe98a",
               "children": [
                 {
                   "_type": "span",
                   "marks": [],
                   "text": "Dieses Diagramm ist von der hervorragenden Arbeit von ",
-                  "_key": "82fb7e8075eb"
+                  "_key": "a75e33d556da"
                 },
                 {
                   "_type": "span",
-                  "marks": ["2dc23619c9e5"],
+                  "marks": ["b21080174204"],
                   "text": "Tom Février und Marie Patino",
-                  "_key": "f6fef4346a9c"
+                  "_key": "5ad1507e8f53"
                 },
                 {
                   "_type": "span",
                   "marks": [],
                   "text": " für ",
-                  "_key": "6f88bf25b90a"
+                  "_key": "fbba26da427e"
                 },
                 {
                   "_type": "span",
-                  "marks": ["8c1218cc5386"],
+                  "marks": ["e337918ee3f4"],
                   "text": "diesen Bloomberg-Artikel",
-                  "_key": "0498dded95e0"
+                  "_key": "094c680ab41b"
                 },
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": ". Als ich es entdeckte, hätte ich es gern bis zur Revolution von 1789 ausdehnen können. Und das habe ich getan. Ich habe es aus Spaß gemacht, um zu lernen, wie man Datenvisualisierungen erstellt und um die politische Geschichte Frankreichs besser zu verstehen.",
-                  "_key": "82a95a70cb97"
+                  "text": ". Als ich es entdeckte, hätte ich es gern bis zur Revolution von 1789 ausdehnen können. Also habe ich das gemacht, zuerst mit ",
+                  "_key": "f26e2149e63c"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["3fdd95e5d3ce"],
+                  "text": "Frankreich",
+                  "_key": "3934d188bb1f"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". Ich habe es aus Spaß gemacht, um zu lernen, wie man Datenvisualisierungen erstellt und um die politische Geschichte Frankreichs besser zu verstehen.",
+                  "_key": "0a305f338e5f"
                 }
               ],
               "markDefs": [
                 {
-                  "_key": "2dc23619c9e5",
+                  "_key": "b21080174204",
                   "_type": "link",
                   "href": "https://mastodon.social/@tomfevrier/112751171765233201"
                 },
                 {
-                  "_key": "8c1218cc5386",
+                  "_key": "e337918ee3f4",
                   "_type": "link",
                   "href": "https://www.bloomberg.com/graphics/2024-french-election-results/"
+                },
+                {
+                  "_key": "3fdd95e5d3ce",
+                  "_type": "link",
+                  "href": "/de/france/"
                 }
               ],
               "_type": "block",
               "style": "normal"
             },
             {
-              "_key": "80e38e56115d",
+              "_key": "0e921c233aaa",
+              "children": [
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Dann habe ich das Prinzip auf andere Länder ausgeweitet, wie hier im Vereinigten Königreich.",
+                  "_key": "a9035696142d"
+                }
+              ],
+              "markDefs": [],
+              "_type": "block",
+              "style": "normal"
+            },
+            {
+              "_key": "d4bed45593aa",
               "children": [
                 {
                   "_type": "span",
                   "marks": [],
                   "text": "Ich hoffe, dass Ihnen die Lektüre ebenso viel Freude bereitet wie dass sie Ihnen Wissen und Perspektiven vermittelt. Wenn Sie Fehler, Ungenauigkeiten oder Auslassungen feststellen oder Vorschläge haben, zögern Sie bitte nicht, ",
-                  "_key": "56fe21ac633b"
+                  "_key": "3e122dcc3877"
                 },
                 {
                   "_type": "span",
-                  "marks": ["c304ccd06f59"],
+                  "marks": ["f2c3af3ef735"],
                   "text": "mich zu kontaktieren",
-                  "_key": "6233f8d17066"
+                  "_key": "0f30ed3257b5"
                 },
                 {
                   "_type": "span",
                   "marks": [],
                   "text": ". Ich bin weder Historiker noch Politikexperte und dies ist mein erstes Datenvisualisierungsprojekt. Ich bin daher für jede konstruktive Kritik sowohl zum Inhalt als auch zum Code offen.",
-                  "_key": "b85a6fd05e9a"
+                  "_key": "6753bca42cca"
                 }
               ],
               "markDefs": [
                 {
-                  "_key": "c304ccd06f59",
+                  "_key": "f2c3af3ef735",
                   "_type": "link",
                   "href": "mailto:legislaturesfr@gmail.com"
                 }
@@ -587,13 +731,13 @@
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": ". Source : Article ",
+                  "text": ". Sources : Article ",
                   "_key": "4eb8f263a1cf"
                 },
                 {
                   "_type": "span",
                   "marks": ["em", "30fe972d1d35"],
-                  "text": "Liste des législatures françaises",
+                  "text": "List of United Kingdom general elections",
                   "_key": "f4e1a14b6cde"
                 },
                 {
@@ -605,7 +749,7 @@
                 {
                   "_type": "span",
                   "marks": ["eaeaa3fd3721"],
-                  "text": "Wikipédia en français",
+                  "text": "Wikipédia en anglais",
                   "_key": "ed8058d8433b"
                 },
                 {
@@ -623,8 +767,20 @@
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": ")",
+                  "text": ") ;",
                   "_key": "d89617fe4818"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Seth Alexander Thévoz, ",
+                  "_key": "f4e1a14b6cdf"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["eaeaa3fd3722"],
+                  "text": "Database of MPs' club memberships, 1832-68'",
+                  "_key": "ed8058d8433c"
                 }
               ],
               "markDefs": [
@@ -636,17 +792,22 @@
                 {
                   "_key": "30fe972d1d35",
                   "_type": "link",
-                  "href": "http://fr.wikipedia.org/wiki/Liste_des_l%C3%A9gislatures_fran%C3%A7aises"
+                  "href": "https://en.wikipedia.org/wiki/List_of_United_Kingdom_general_elections"
                 },
                 {
                   "_key": "eaeaa3fd3721",
                   "_type": "link",
-                  "href": "https://fr.wikipedia.org/"
+                  "href": "https://en.wikipedia.org/"
                 },
                 {
                   "_key": "ca60d6561d3c",
                   "_type": "link",
-                  "href": "http://fr.wikipedia.org/w/index.php?title=Liste_des_l%C3%A9gislatures_fran%C3%A7aises&action=history"
+                  "href": "https://en.wikipedia.org/w/index.php?title=List_of_United_Kingdom_general_elections&action=history"
+                },
+                {
+                  "_key": "eaeaa3fd3722",
+                  "_type": "link",
+                  "href": "https://www.sethalexanderthevoz.com/database-mps-clubs"
                 }
               ],
               "_type": "block",
@@ -680,13 +841,13 @@
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": ". Source: Article ",
+                  "text": ". Sources: Article ",
                   "_key": "34ae3e9ae2d4"
                 },
                 {
                   "_type": "span",
                   "marks": ["em", "47d441a5f282"],
-                  "text": "Liste des législatures françaises",
+                  "text": "List of United Kingdom general elections",
                   "_key": "0e89cd653de6"
                 },
                 {
@@ -698,7 +859,7 @@
                 {
                   "_type": "span",
                   "marks": ["d27aa0f60893"],
-                  "text": "Wikipedia in french",
+                  "text": "english Wikipedia",
                   "_key": "5053a7d25296"
                 },
                 {
@@ -716,8 +877,20 @@
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": ")",
+                  "text": ");",
                   "_key": "ee1fb7085a5b"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Seth Alexander Thévoz, ",
+                  "_key": "f4e1a14b6cdf"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["eaeaa3fd3722"],
+                  "text": "Database of MPs' club memberships, 1832-68'",
+                  "_key": "ed8058d8433c"
                 }
               ],
               "markDefs": [
@@ -729,17 +902,22 @@
                 {
                   "_key": "47d441a5f282",
                   "_type": "link",
-                  "href": "http://fr.wikipedia.org/wiki/Liste_des_l%C3%A9gislatures_fran%C3%A7aises"
+                  "href": "https://en.wikipedia.org/wiki/List_of_United_Kingdom_general_elections"
                 },
                 {
                   "_key": "d27aa0f60893",
                   "_type": "link",
-                  "href": "https://fr.wikipedia.org/"
+                  "href": "https://en.wikipedia.org/"
                 },
                 {
                   "_key": "5b4ca4bda0b7",
                   "_type": "link",
-                  "href": "http://fr.wikipedia.org/w/index.php?title=Liste_des_l%C3%A9gislatures_fran%C3%A7aises&action=history"
+                  "href": "https://en.wikipedia.org/w/index.php?title=List_of_United_Kingdom_general_elections&action=history"
+                },
+                {
+                  "_key": "eaeaa3fd3722",
+                  "_type": "link",
+                  "href": "https://www.sethalexanderthevoz.com/database-mps-clubs"
                 }
               ],
               "_type": "block",
@@ -773,13 +951,13 @@
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": ". Quelle: Artikel ",
+                  "text": ". Quellen: Artikel ",
                   "_key": "67732e4588de"
                 },
                 {
                   "_type": "span",
                   "marks": ["54d5e4ed2e1f", "em"],
-                  "text": "Liste des législatures françaises",
+                  "text": "List of United Kingdom general elections",
                   "_key": "cbb923c9d7d7"
                 },
                 {
@@ -791,7 +969,7 @@
                 {
                   "_type": "span",
                   "marks": ["aa07dde21fab"],
-                  "text": "französischen Wikipedia",
+                  "text": "Englische Wikipedia",
                   "_key": "661656ff8b2a"
                 },
                 {
@@ -809,8 +987,20 @@
                 {
                   "_type": "span",
                   "marks": [],
-                  "text": ")",
+                  "text": ");",
                   "_key": "22e5aec344a9"
+                },
+                {
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Seth Alexander Thévoz, ",
+                  "_key": "f4e1a14b6cdf"
+                },
+                {
+                  "_type": "span",
+                  "marks": ["eaeaa3fd3722"],
+                  "text": "Database of MPs' club memberships, 1832-68'",
+                  "_key": "ed8058d8433c"
                 }
               ],
               "markDefs": [
@@ -822,17 +1012,22 @@
                 {
                   "_key": "54d5e4ed2e1f",
                   "_type": "link",
-                  "href": "http://fr.wikipedia.org/wiki/Liste_des_l%C3%A9gislatures_fran%C3%A7aises"
+                  "href": "https://en.wikipedia.org/wiki/List_of_United_Kingdom_general_elections"
                 },
                 {
                   "_key": "aa07dde21fab",
                   "_type": "link",
-                  "href": "https://fr.wikipedia.org/"
+                  "href": "https://en.wikipedia.org"
                 },
                 {
                   "_key": "f9ded076240f",
                   "_type": "link",
-                  "href": "http://fr.wikipedia.org/w/index.php?title=Liste_des_l%C3%A9gislatures_fran%C3%A7aises&action=history"
+                  "href": "https://en.wikipedia.org/w/index.php?title=List_of_United_Kingdom_general_elections&action=history"
+                },
+                {
+                  "_key": "eaeaa3fd3722",
+                  "_type": "link",
+                  "href": "https://www.sethalexanderthevoz.com/database-mps-clubs"
                 }
               ],
               "_type": "block",

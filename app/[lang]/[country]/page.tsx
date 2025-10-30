@@ -37,6 +37,8 @@ export default function HomePage() {
     )
   );
 
+  const showEventsButton = events && events.length > 0;
+
   return (
     <>
       <SettingsLine
@@ -54,6 +56,7 @@ export default function HomePage() {
           setCoalitionsVisibility(newValue)
         }
         showCoalitionsButton={showCoalitionsButton}
+        showEventsButton={showEventsButton}
       />
 
       <Main
