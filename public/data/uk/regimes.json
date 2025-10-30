@@ -1,6 +1,47 @@
 [
   {
-    "name": "Royaume uni de Grande-Bretagne et d'Irlande",
+    "name": "Royaume de Grande-Bretagne",
+    "name_en": "Kingdom of Great Britain",
+    "name_de": "Königreich Großbritannien",
+    "begin": "1707-05-01",
+    "end": "1800-12-31",
+    "legislatures": [
+      {
+        "legislature": 1796,
+        "total_deputes": 558,
+        "duration": 6,
+        "begin": "1796-06-29",
+        "end": "1802-08-28",
+        "parties": [
+          {
+            "name": "W",
+            "deputes": 95
+          },
+          {
+            "name": "NO",
+            "deputes": 0
+          },
+          {
+            "name": "Ind",
+            "deputes": 39
+          },
+          {
+            "name": "T",
+            "deputes": 424
+          },
+          {
+            "name": "Pit",
+            "deputes": 0
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1796_British_general_election"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Royaume-Uni de Grande-Bretagne et d'Irlande",
     "name_en": "United Kingdom of Great Britain and Ireland",
     "name_de": "Vereinigtes Königreich von Großbritannien und Irland",
     "begin": "1801-01-01",
@@ -2016,7 +2057,7 @@
     ]
   },
   {
-    "name": "Royaume uni de Grande-Bretagne et d'Irlande du Nord",
+    "name": "Royaume-Uni de Grande-Bretagne et d'Irlande du Nord",
     "name_en": "United Kingdom of Great Britain and Northern Ireland",
     "name_de": "Vereinigtes Königreich von Großbritannien und Nordirland",
     "begin": "1922-12-06",
