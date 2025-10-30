@@ -1,7 +1,7 @@
 # Legislatures Visualization
 
 An interactive visualization tool tracking the composition and evolution of some countries legislative assemblies through time.
-[See it live.](https://legislatures.vercel.app/)
+[See it live.](https://legislatures.josephclenet.fr/)
 
 ## Overview
 
