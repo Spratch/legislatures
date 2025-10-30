@@ -5,6 +5,8 @@ import HomeSettingsLine from "@/components/appUi/settingsHome";
 import { useDictionary } from "@/components/utils/contexts/dictionaryContext";
 import { CountryEnum } from "@/types/countriesEnum";
 import { LocaleEnum } from "@/types/langsEnum";
+import { GitHubLogoIcon, PlusCircledIcon } from "@radix-ui/react-icons";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
@@ -51,6 +53,13 @@ export default function Home() {
               lang={lang}
             />
           ))}
+          <Link
+            href="https://github.com/Spratch/legislatures?tab=readme-ov-file#how-to-contribute"
+            target="_blank"
+            className="flex aspect-video w-full items-center justify-center overflow-hidden rounded-xl border-2 border-dashed border-gray-400 bg-gray-200 bg-opacity-50 opacity-50 transition-opacity hover:opacity-100 focus-visible:opacity-100"
+          >
+            <PlusCircledIcon className="size-6 text-gray-500 lg:size-8" />
+          </Link>
         </section>
       </main>
     </>
