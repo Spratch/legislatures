@@ -30,7 +30,7 @@ export async function generateMetadata({
     openGraph: {
       title: title,
       description: description,
-      url: "https://legislatures.vercel.app"
+      url: "https://legislatures.josephclenet.fr"
     }
   };
 }
