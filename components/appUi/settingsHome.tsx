@@ -1,4 +1,4 @@
-import { GitHubLogoIcon, InfoCircledIcon } from "@radix-ui/react-icons";
+import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { EarthGlobeIcon } from "@sanity/icons";
 import SettingsButton from "./settingsButton";
 import { useDictionary } from "@/utils/contexts/dictionaryContext";
@@ -20,10 +20,9 @@ export default function HomeSettingsLine({
 }: Props) {
   const dict = useDictionary().infosModal;
   return (
-    <section className="w-full p-2 flex items-end max-w-screen-3xl mx-auto">
-      <div className="w-full flex justify-center gap-2">
-        {/* Center */}
-        <div className="flex gap-2 items-center">
+    <section className="sticky top-0 z-10 mx-auto flex w-full max-w-screen-3xl items-end bg-opacity-45 bg-gradient-to-b from-white via-white/70 to-transparent p-2 pb-4">
+      <div className="flex w-full justify-center gap-2">
+        <div className="flex items-center gap-2">
           {/* Lang button */}
           <MenuTrigger
             isOpen={isSelectorOpen}
@@ -38,9 +37,10 @@ export default function HomeSettingsLine({
             />
             <LangSelector setLanguage={setLanguage} />
           </MenuTrigger>
+
           {/* Github button */}
           <Link
-            className="size-9 bg-black/5 hover:bg-black/10 rounded-full flex items-center justify-center cursor-pointer text-black/50 hover:text-black transition-all"
+            className="flex size-9 cursor-pointer items-center justify-center rounded-full bg-gray-100 text-gray-500 transition-colors hover:bg-gray-200 hover:text-gray-950"
             href="https://github.com/Spratch/legislatures"
             target="_blank"
             title={dict.github}
