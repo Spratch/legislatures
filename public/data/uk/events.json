@@ -1,1 +1,602 @@
-[]
+[
+  {
+    "begin": "1798-05-23",
+    "end": "1798-09-23",
+    "title": "Rébellion irlandaise",
+    "title_en": "Irish Rebellion",
+    "title_de": "Irlandische Rebellion",
+    "keyword": "Rébellion irlandaise de 1798",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1798-11-29",
+    "end": "1802-03-25",
+    "title": "Guerre de la Deuxième Coalition",
+    "title_en": "War of the Second Coalition",
+    "title_de": "Krieg der Zweiten Koalition",
+    "keyword": "Guerre de la deuxième coalition",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1800-07-02",
+    "end": "1801-01-01",
+    "title": "Actes d'Union avec l'Irlande",
+    "title_en": "Union with Ireland Act 1800",
+    "title_de": "Unionsgesetz mit Irland 1800",
+    "keyword": "Actes d'Union (1800)",
+    "type": "Loi"
+  },
+  {
+    "begin": "1805-04-11",
+    "end": "1806-07-18",
+    "title": "Guerre de la Troisième Coalition",
+    "title_en": "War of the Third Coalition",
+    "title_de": "Krieg der Dritten Koalition",
+    "keyword": "Guerre de la troisième coalition",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1806-10-09",
+    "end": "1807-07-09",
+    "title": "Guerre de la Quatrième Coalition",
+    "title_en": "War of the Fourth Coalition",
+    "title_de": "Krieg der Vierten Koalition",
+    "keyword": "Guerre de la Quatrième Coalition",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1807-03-23",
+    "end": "1807-03-23",
+    "title": "Abolition de la traite des esclaves",
+    "title_en": "Abolition of the Slave Trade",
+    "title_de": "Abschaffung des Sklavenhandels",
+    "keyword": "Slave Trade Act 1807",
+    "type": "Loi"
+  },
+  {
+    "begin": "1809-04-10",
+    "end": "1809-10-14",
+    "title": "Guerre de la Cinquième Coalition",
+    "title_en": "War of the Fifth Coalition",
+    "title_de": "Krieg der Fünften Koalition",
+    "keyword": "Guerre de la cinquième coalition",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1811-03-11",
+    "end": "1812-12-30",
+    "title": "Révolte des luddites",
+    "title_en": "Luddites riot",
+    "title_de": "Aufstand der Ludditen",
+    "keyword": "Luddisme",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1812-06-18",
+    "end": "1815-02-12",
+    "title": "Guerre anglo-américaine",
+    "title_en": "War of 1812",
+    "title_de": "Britisch-Amerikanischer Krieg",
+    "keyword": "Guerre anglo-américaine de 1812",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1813-03-03",
+    "end": "1814-05-30",
+    "title": "Guerre de la Sixième Coalition",
+    "title_en": "War of the Sixth Coalition",
+    "title_de": "Krieg der Sechsten Koalition",
+    "keyword": "Guerre de la Sixième Coalition",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1815-03-23",
+    "end": "1815-03-23",
+    "title": "Corn Laws",
+    "title_en": "Corn Laws",
+    "title_de": "Corn Laws",
+    "keyword": "Corn Laws",
+    "type": "Loi"
+  },
+  {
+    "begin": "1815-11-20",
+    "end": "1815-11-20",
+    "title": "Traité de Paris",
+    "title_en": "Treaty of Paris",
+    "title_de": "Paris-Vertrag",
+    "keyword": "Traité de Paris (1815)",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1816-09-22",
+    "end": "1817-06-21",
+    "title": "Année sans été (famines)",
+    "title_en": "Year Without a Summer (famines)",
+    "title_de": "Jahr ohne Sommer (Hungersnöte)",
+    "keyword": "Année sans été"
+  },
+  {
+    "begin": "1819-08-16",
+    "end": "1819-08-16",
+    "title": "Massacre de Peterloo (Répression des manifestants)",
+    "title_en": "Peterloo Massacre",
+    "title_de": "Peterloo-Massaker",
+    "keyword": "Massacre de Peterloo",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1832-06-07",
+    "end": "1832-06-07",
+    "title": "Réforme sur la représentation populaire",
+    "title_en": "Reform Act 1832",
+    "title_de": "Reform Act 1832",
+    "keyword": "Reform Act 1832",
+    "type": "Loi"
+  },
+  {
+    "begin": "1833-08-28",
+    "end": "1834-08-01",
+    "title": "Abolition de l'esclavage",
+    "title_en": "Slavery Abolition Act",
+    "title_de": "Abolition des Sklaverei",
+    "keyword": "Slavery Abolition Act 1833",
+    "type": "Loi"
+  },
+  {
+    "begin": "1837-06-20",
+    "end": "1837-06-20",
+    "title": "Accession au trône de Victoria",
+    "title_en": "Victoria's Accession",
+    "title_de": "Thronbesteigung von Victoria",
+    "keyword": "Victoria (reine)"
+  },
+  {
+    "begin": "1839-09-04",
+    "end": "1842-08-29",
+    "title": "Première guerre de l'opium",
+    "title_en": "First Opium War",
+    "title_de": "Erster Opiumkrieg",
+    "keyword": "Première guerre de l'opium",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1840-02-06",
+    "end": "1841-07-01",
+    "title": "Traité de Waitangi et établissement de la colonie de Nouvelle-Zélande",
+    "title_en": "Treaty of Waitangi and New-Zealand Colony establishment",
+    "title_de": "Waitangi-Vertrag und Gründung der Neuseelandkolonie",
+    "keyword": "Traité de Waitangi"
+  },
+  {
+    "begin": "1842-07-18",
+    "end": "1842-09-26",
+    "title": "Vague de grèves chartistes",
+    "title_en": "Chartist wave of strikes",
+    "title_de": "Chartistenstreiks",
+    "keyword": "Chartisme",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1845-01-01",
+    "end": "1852-12-30",
+    "title": "Grande famine irlandaise",
+    "title_en": "Great Irish Famine",
+    "title_de": "Große Irlandfamine",
+    "keyword": "Grande famine irlandaise"
+  },
+  {
+    "begin": "1846-05-15",
+    "end": "1846-05-15",
+    "title": "Abrogation des Corn Laws",
+    "title_en": "Corn Laws Repeal",
+    "title_de": "Abrogation der Corn Laws",
+    "keyword": "Corn Laws",
+    "type": "Loi"
+  },
+  {
+    "begin": "1848-07-29",
+    "end": "1848-07-29",
+    "title": "Rébellion des Jeunes Irlandais",
+    "title_en": "Young Ireland Rebellion",
+    "title_de": "Young Ireland Rebellion",
+    "keyword": "Jeune Irlande",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1851-05-01",
+    "end": "1851-05-01",
+    "title": "Ruée vers l'or au Victoria",
+    "title_en": "Victorian Gold Rush",
+    "title_de": "Victorianischer Goldrausch",
+    "keyword": "Ruée vers l'or au Victoria"
+  },
+  {
+    "begin": "1853-10-16",
+    "end": "1856-03-30",
+    "title": "Guerre de Crimée",
+    "title_en": "Crimean War",
+    "title_de": "Krimkrieg",
+    "keyword": "Guerre de Crimée",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1856-10-08",
+    "end": "1860-10-24",
+    "title": "Seconde guerre de l'opium",
+    "title_en": "Second Opium War",
+    "title_de": "Zweiter Opiumkrieg",
+    "keyword": "Seconde guerre de l'opium",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1857-05-10",
+    "end": "1858-11-01",
+    "title": "Révolte des cipayes",
+    "title_en": "Sepoy Mutiny",
+    "title_de": "Indischer Aufstand",
+    "keyword": "Révolte des cipayes",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1867-03-29",
+    "end": "1867-07-01",
+    "title": "Union du Canada",
+    "title_en": "Union of Canada",
+    "title_de": "Union der Kanada",
+    "keyword": "Loi constitutionnelle de 1867"
+  },
+  {
+    "begin": "1867-08-15",
+    "end": "1867-08-15",
+    "title": "Deuxième réforme électorale",
+    "title_en": "Second Reform Act",
+    "title_de": "Zweite Reformgesetz",
+    "keyword": "Reform Act 1867",
+    "type": "Loi"
+  },
+  {
+    "begin": "1874-01-01",
+    "end": "1874-01-01",
+    "title": "Dissolution de la Compagnie des Indes orientales",
+    "title_en": "Dissolution of the East India Company",
+    "title_de": "Aufhebung der Ostindischen Gesellschaft",
+    "keyword": "Compagnie britannique des Indes orientales"
+  },
+  {
+    "begin": "1879-01-11",
+    "end": "1879-07-04",
+    "title": "Guerre anglo-zouloue",
+    "title_en": "Anglo-Zulu War",
+    "title_de": "Anglo-Zulu Krieg",
+    "keyword": "Guerre anglo-zouloue",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1880-12-20",
+    "end": "1881-03-23",
+    "title": "Première guerre des Boers",
+    "title_en": "First Boer War",
+    "title_de": "Erster Boer Krieg",
+    "keyword": "Première guerre des Boers",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1884-01-04",
+    "end": "1884-01-04",
+    "title": "Création de la Fabian Society",
+    "title_en": "Creation of the Fabian Society",
+    "title_de": "Gründung der Fabian Gesellschaft",
+    "keyword": "Fabian Society"
+  },
+  {
+    "begin": "1887-11-13",
+    "end": "1887-11-13",
+    "title": "Bloody Sunday",
+    "title_en": "Bloody Sunday",
+    "title_de": "Bloody Sunday",
+    "keyword": "Bloody Sunday (1887)",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1888-07-11",
+    "end": "1888-08-01",
+    "title": "Grève des ouvrières des manufactures d’allumettes",
+    "title_en": "Matchgirls' strike",
+    "title_de": "Streik der Streichholzarbeiterinnen",
+    "keyword": "Grève des ouvrières des manufactures d’allumettes à Londres en 1888",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1899-10-11",
+    "end": "1902-05-31",
+    "title": "Seconde guerre des Boers",
+    "title_en": "Second Boer War",
+    "title_de": "Zweite Boer Krieg",
+    "keyword": "Seconde guerre des Boers",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1900-07-09",
+    "end": "1901-01-01",
+    "title": "Fédération de l'Australie",
+    "title_en": "Federation of Australia",
+    "title_de": "Föderation Australien",
+    "keyword": "Fédération de l'Australie"
+  },
+  {
+    "begin": "1909-04-29",
+    "end": "1910-04-29",
+    "title": "People's Budget (Taxations des classes supérieures)",
+    "title_en": "People's Budget",
+    "title_de": "Volksbudget",
+    "keyword": "People's Budget",
+    "type": "Loi"
+  },
+  {
+    "begin": "1909-09-20",
+    "end": "1910-05-31",
+    "title": "Union de l'Afrique du Sud",
+    "title_en": "Union of South Africa",
+    "title_de": "Union Südafrika",
+    "keyword": "Loi sur l'Afrique du Sud de 1909"
+  },
+  {
+    "begin": "1910-09-01",
+    "end": "1911-08-01",
+    "title": "Émeutes de Tonypandy",
+    "title_en": "Tonypandy Riots",
+    "title_de": "Tonypandy-Streit",
+    "keyword": "Émeutes de Tonypandy",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1911-12-16",
+    "end": "1912-07-01",
+    "title": "Assurance nationale (santé et chômage)",
+    "title_en": "National Insurance (health and unemployment)",
+    "title_de": "Nationalversicherung (Gesundheit und Arbeitslosigkeit)",
+    "keyword": "National Insurance Act de 1911",
+    "type": "Loi"
+  },
+  {
+    "begin": "1914-08-04",
+    "end": "1918-11-11",
+    "title": "Première guerre mondiale",
+    "title_en": "First World War",
+    "title_de": "Erster Weltkrieg",
+    "keyword": "Histoire du Royaume-Uni durant la Première Guerre mondiale",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1916-04-24",
+    "end": "1916-04-30",
+    "title": "Insurrection de Pâques",
+    "title_en": "Easter Rising",
+    "title_de": "Osteraufstand",
+    "keyword": "Insurrection de Pâques 1916",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1918-02-07",
+    "end": "1918-02-07",
+    "title": "Droit de vote accordé aux femmes (>30 ans) et extension du suffrage masculin",
+    "title_en": "Representation of the People Act 1918 (women over 30 & men over 21)",
+    "title_de": "Wahlrechtsgesetz 1918 (Frauen über 30 & Männer über 21)",
+    "keyword": "Representation of the People Act 1918",
+    "type": "Loi"
+  },
+  {
+    "begin": "1919-01-21",
+    "end": "1921-07-11",
+    "title": "Guerre d'indépendance irlandaise",
+    "title_en": "Irish War of Independence",
+    "title_de": "Irlandische Unabhängigkeitskrieg",
+    "keyword": "Guerre d'indépendance irlandaise",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1922-01-07",
+    "end": "1922-12-06",
+    "title": "Fondation de l'État libre d'Irlande",
+    "title_en": "Founding of the Irish Free State",
+    "title_de": "Gründung der freien Irland",
+    "keyword": "État libre d'Irlande"
+  },
+  {
+    "begin": "1924-10-25",
+    "end": "1924-10-29",
+    "title": "Affaire de la lettre de Zinoviev",
+    "title_en": "Zinoviev Letter Affair",
+    "title_de": "Zinoviev-Brief-Affäre",
+    "keyword": "Lettre de Zinoviev"
+  },
+  {
+    "begin": "1926-05-04",
+    "end": "1926-05-12",
+    "title": "Grève générale pour les salaires des mineurs",
+    "title_en": "General strike for miners' wages",
+    "title_de": "Allgemeine Greve für die Gehälter der Miner",
+    "keyword": "Grève générale de 1926 au Royaume-Uni",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1928-07-02",
+    "end": "1928-07-02",
+    "title": "Égalité de suffrage pour les femmes et les hommes",
+    "title_en": "Representation of the People (Equal Franchise) Act 1928",
+    "title_de": "Wahlrechtsgleichheitsgesetz 1928",
+    "keyword": "Droit de vote des femmes au Royaume-Uni",
+    "type": "Loi"
+  },
+  {
+    "begin": "1929-10-29",
+    "end": "1934-12-31",
+    "title": "Grande Dépression",
+    "title_en": "Great Depression",
+    "title_de": "Große Depression",
+    "keyword": "Grande Dépression au Royaume-Uni"
+  },
+  {
+    "begin": "1931-09-15",
+    "end": "1931-09-16",
+    "title": "Mutinerie d'Invergordon",
+    "title_en": "Invergordon Mutiny",
+    "title_de": "Invergordon-Mutinie",
+    "keyword": "Mutinerie d'Invergordon",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1936-12-10",
+    "end": "1936-12-11",
+    "title": "Abdication d'Édouard VIII",
+    "title_en": "Abdication of Edward VIII",
+    "title_de": "Abdikation von Edward VIII",
+    "keyword": "Crise d'abdication d'Édouard VIII"
+  },
+  {
+    "begin": "1939-09-03",
+    "end": "1945-05-08",
+    "title": "Seconde Guerre mondiale",
+    "title_en": "World War II",
+    "title_de": "Zweiter Weltkrieg",
+    "keyword": "Seconde Guerre mondiale",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1942-08-08",
+    "end": "1945-09-02",
+    "title": "Quit India Movement",
+    "title_en": "Quit India Movement",
+    "title_de": "Quit India Movement",
+    "keyword": "Quit India",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1947-07-18",
+    "end": "1947-08-15",
+    "title": "Partition des Indes",
+    "title_en": "Partition of India",
+    "title_de": "Partition von Indien",
+    "keyword": "Partition des Indes"
+  },
+  {
+    "begin": "1956-10-29",
+    "end": "1956-11-07",
+    "title": "Crise du canal de Suez",
+    "title_en": "Suez Crisis",
+    "title_de": "Suez-Krise",
+    "keyword": "Crise du canal de Suez",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1963-03-01",
+    "end": "1963-06-05",
+    "title": "Affaire Profumo",
+    "title_en": "Profumo Affair",
+    "title_de": "Profumo-Affäre",
+    "keyword": "Affaire Profumo"
+  },
+  {
+    "begin": "1968-06-07",
+    "end": "1968-06-28",
+    "title": "Grève de Dagenham pour l'égalité salariale",
+    "title_en": "Dagenham Equal Pay Strike",
+    "title_de": "Dagenham-Gleichbezahlungsschlag",
+    "keyword": "Grève à Dagenham",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1972-01-30",
+    "end": "1972-01-30",
+    "title": "Bloody Sunday",
+    "title_en": "Bloody Sunday",
+    "title_de": "Bloody Sunday",
+    "keyword": "Bloody Sunday (1972)",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1973-01-01",
+    "end": "1973-01-01",
+    "title": "Entrée dans la Communauté économique européenne",
+    "title_en": "Entry into the European Economic Community",
+    "title_de": "Eintritt in die Europäische Wirtschafts- und Sozialunion",
+    "keyword": "Procédure d'adhésion du Royaume-Uni à la Communauté économique européenne"
+  },
+  {
+    "begin": "1984-03-06",
+    "end": "1985-03-03",
+    "title": "Grève des mineurs",
+    "title_en": "Miners' Strike",
+    "title_de": "Mineralarbeitersstreik",
+    "keyword": "Grève des mineurs britanniques de 1984-1985",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1997-07-01",
+    "end": "1997-07-01",
+    "title": "Rétrocession de Hong Kong à la Chine",
+    "title_en": "Handover of Hong Kong to China",
+    "title_de": "Übergabe von Hongkong an China",
+    "keyword": "Rétrocession de Hong Kong à la Chine"
+  },
+  {
+    "begin": "1997-09-11",
+    "end": "1999-05-12",
+    "title": "Dévolution de l'Écosse",
+    "title_en": "Devolution of Scotland",
+    "title_de": "Devolution von Schottland",
+    "keyword": "Référendum de dévolution de l'Écosse de 1997",
+    "type": "Référendum"
+  },
+  {
+    "begin": "1998-04-10",
+    "end": "1999-12-02",
+    "title": "Accord du Vendredi saint",
+    "title_en": "Good Friday Agreement",
+    "title_de": "Gottesfreitagvertrag",
+    "keyword": "Accord du Vendredi saint",
+    "type": "Référendum"
+  },
+  {
+    "begin": "2008-10-05",
+    "end": "2008-10-05",
+    "title": "Grande Récession",
+    "title_en": "Great Recession",
+    "title_de": "Große Rezession",
+    "keyword": "Grande Récession de 2008"
+  },
+  {
+    "begin": "2014-09-18",
+    "end": "2014-09-18",
+    "title": "Référendum sur l'indépendance de l'Écosse",
+    "title_en": "Scottish independence referendum",
+    "title_de": "Schottland-Referendum",
+    "keyword": "Référendum sur l'indépendance de l'Écosse",
+    "type": "Référendum"
+  },
+  {
+    "begin": "2016-06-23",
+    "end": "2020-01-31",
+    "title": "Brexit",
+    "title_en": "Brexit",
+    "title_de": "Brexit",
+    "keyword": "Retrait du Royaume-Uni de l'Union européenne",
+    "type": "Référendum"
+  },
+  {
+    "begin": "2020-03-23",
+    "end": "2021-07-19",
+    "title": "Confinements liés à la pandémie de COVID-19",
+    "title_en": "COVID-19 lockdowns",
+    "title_de": "COVID-19 Lockdowns",
+    "keyword": "Confinements liés à la pandémie de Covid-19 au Royaume-Uni"
+  },
+  {
+    "begin": "2021-12-06",
+    "end": "2022-07-07",
+    "title": "Crise du Partygate",
+    "title_en": "Partygate crises",
+    "title_de": "Partygate Krise",
+    "keyword": "Partygate"
+  }
+]
