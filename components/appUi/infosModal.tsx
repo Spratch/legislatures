@@ -8,25 +8,13 @@ import { useCountryDataContext } from "../utils/contexts/countryContext";
 import { getLangKey } from "../utils/getLangKey";
 import { PortableText } from "@portabletext/react";
 import portableTextComponents from "./portableText";
-import { MenuTrigger } from "react-aria-components";
-import SettingsButton from "./settingsButton";
-import { EarthGlobeIcon } from "@sanity/icons";
 import LangSelector from "./langSelector";
-import { LocaleEnum } from "@/types/langsEnum";
 
 type Props = {
   setInfosVisibility: (value: boolean) => void;
-  isSelectorOpen: boolean;
-  setSelectorOpen: (selectorOpen: boolean) => void;
-  setLanguage: (lang: keyof typeof LocaleEnum) => void;
 };
 
-export default function InfosModal({
-  setInfosVisibility,
-  isSelectorOpen,
-  setSelectorOpen,
-  setLanguage
-}: Props) {
+export default function InfosModal({ setInfosVisibility }: Props) {
   const dictionary = useDictionary();
   const lang = dictionary.locale.lang;
   const dict = dictionary.infosModal;
@@ -66,20 +54,7 @@ export default function InfosModal({
         role="popover"
       >
         <div className="sticky top-0 z-50 flex w-full justify-end gap-2 bg-gradient-to-b from-white p-4">
-          {/* Lang button */}
-          <MenuTrigger
-            isOpen={isSelectorOpen}
-            onOpenChange={setSelectorOpen}
-          >
-            <SettingsButton
-              Icon={EarthGlobeIcon}
-              label={dict.changeLang}
-              position={{ x: "right", y: "top" }}
-              onClick={() => setSelectorOpen(true)}
-              kbd="l"
-            />
-            <LangSelector setLanguage={setLanguage} />
-          </MenuTrigger>
+          <LangSelector />
 
           {/* Github button */}
           <div className="rounded-full bg-white">

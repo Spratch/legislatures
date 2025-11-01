@@ -7,15 +7,15 @@ type Props = {
     title: string;
     description: string;
     image: string;
+    href: string;
   };
-  lang: string;
 };
 
-export default function CountryThumbnail({ countryInfos, lang }: Props) {
+export default function CountryThumbnail({ countryInfos }: Props) {
   const isPast = countryInfos.description.startsWith("1");
   return (
     <Link
-      href={`/${lang}/${countryInfos.key}`}
+      href={countryInfos.href}
       className="group/thumbnail relative aspect-video w-full overflow-hidden rounded-xl border border-gray-200 shadow-sm transition hover:border-gray-300 hover:shadow-lg"
     >
       <Image

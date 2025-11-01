@@ -1,39 +1,30 @@
-"use client";
-
 import CountryThumbnail from "@/components/appUi/countryThumbnail";
 import HomeSettingsLine from "@/components/appUi/settingsHome";
-import { useDictionary } from "@/components/utils/contexts/dictionaryContext";
 import { CountryEnum } from "@/types/countriesEnum";
+import { getDictionary } from "./dictionaries";
 import { LocaleEnum } from "@/types/langsEnum";
-import { useRouter } from "next/navigation";
-import { useState } from "react";
 
-export default function Home() {
-  const dictionary = useDictionary();
-  const lang = dictionary.locale.lang;
+export default async function Home({
+  params
+}: {
+  params: { lang: keyof typeof LocaleEnum };
+}) {
+  const dictionary = await getDictionary(params.lang);
   const dict = dictionary.home;
-  const [isSelectorOpen, setSelectorOpen] = useState(false);
-  const router = useRouter();
-  const setLanguage = (lang: keyof typeof LocaleEnum) => {
-    router.push(lang);
-  };
 
   const countries = Object.entries(CountryEnum).map(([key, value]) => ({
     key,
     value,
     title: dict[`title_${key}`],
     description: dict[`description_${key}`],
-    image: `/medias/${key}.webp`
+    image: `/medias/${key}.webp`,
+    href: `/${dictionary.locale.lang}/${key}`
   }));
 
   return (
     <>
-      <HomeSettingsLine
-        isSelectorOpen={isSelectorOpen}
-        setSelectorOpen={setSelectorOpen}
-        setLanguage={setLanguage}
-      />
-      <main className="relative mx-auto flex h-[calc(100dvh-3.25rem)] w-full max-w-screen-3xl flex-col px-5 pt-5 sm:gap-10 sm:px-10 sm:pt-12">
+      <HomeSettingsLine linkTitle={dictionary.infosModal.github} />
+      <main className="relative mx-auto flex h-[calc(100dvh-3.75rem)] w-full max-w-screen-3xl flex-col px-5 pt-5 sm:gap-10 sm:px-10 sm:pt-12">
         {/* Intro */}
         {dict.title && (
           <div className="flex max-w-prose flex-col gap-2">
@@ -48,7 +39,6 @@ export default function Home() {
             <CountryThumbnail
               key={country.key}
               countryInfos={country}
-              lang={lang}
             />
           ))}
         </section>

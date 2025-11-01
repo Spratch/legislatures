@@ -27,21 +27,12 @@ export default function HomePage() {
   const {
     countryData: { regimes, families, events }
   } = useCountryDataContext();
-  const [isSelectorOpen, setSelectorOpen] = useState(false);
-
-  const router = useRouter();
-  const pathName = usePathname();
-  const setLanguage = (lang: keyof typeof LocaleEnum) => {
-    const newPath = pathName.replace(/\/[a-z]{2}\//, `/${lang}/`);
-    router.replace(newPath, { scroll: false });
-  };
 
   const showCoalitionsButton = regimes.some((regime) =>
     regime.legislatures.some((legislature) =>
       legislature.parties.some((party) => party.coalition)
     )
   );
-
   const showEventsButton = events && events.length > 0;
 
   return (
@@ -75,12 +66,7 @@ export default function HomePage() {
       <FiltersLine families={families} />
 
       {infosVisibility && (
-        <InfosModal
-          setInfosVisibility={setInfosVisibility}
-          isSelectorOpen={isSelectorOpen}
-          setSelectorOpen={(newValue) => setSelectorOpen(newValue)}
-          setLanguage={(lang) => setLanguage(lang)}
-        />
+        <InfosModal setInfosVisibility={setInfosVisibility} />
       )}
     </>
   );
