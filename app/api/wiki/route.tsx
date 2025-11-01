@@ -40,7 +40,11 @@ export async function POST(req: Request) {
     )}&prop=extracts|pageimages|info|langlinks&explaintext&inprop=url&exchars=450&pithumbsize=500&format=json&lllang=${lang}`;
 
     // Fetch the data from Wikipedia
-    const responseFr = await fetch(urlFr);
+    const responseFr = await fetch(urlFr, {
+      next: {
+        revalidate: 3600
+      }
+    });
     if (!responseFr.ok) {
       throw new Error("Erreur lors de la requête à Wikipédia FR");
     }
@@ -67,7 +71,7 @@ export async function POST(req: Request) {
     };
     const firstParagraphFr = getFirstParagraph(fullText);
 
-    // Check if the page has [en] langlinks
+    // Check if the page has corresponding langlink
     const titleLang = pageFr.langlinks?.[0]?.["*"];
     let firstParagraphLang = null;
     let pageUrlLang = null;
@@ -77,7 +81,11 @@ export async function POST(req: Request) {
         titleLang
       )}&prop=extracts|info&explaintext&inprop=url&exchars=450&pithumbsize=500&format=json`;
 
-      const responseLang = await fetch(urlLang);
+      const responseLang = await fetch(urlLang, {
+        next: {
+          revalidate: 3600
+        }
+      });
       if (responseLang.ok) {
         const dataLang = await responseLang.json();
         const pagesLang = dataLang.query.pages;

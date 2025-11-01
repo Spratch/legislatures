@@ -27,8 +27,8 @@ export default function Main({
   const { detailsContent } = useDetailsContext();
   const selectedEntity = detailsContent?.entity;
 
-  // Set the scroll position to the bottom on first render
-  const scrollRef = useCallback((node: HTMLDivElement | null) => {
+  // Set the scroll position to the bottom
+  const scrollRef = (node: HTMLDivElement | null) => {
     if (node) {
       // Small delay to ensure content is rendered
       setTimeout(() => {
@@ -37,13 +37,13 @@ export default function Main({
         }
       }, 0);
     }
-  }, []);
+  };
 
   return (
-    <main className="relative w-full max-w-screen-3xl mx-auto h-[calc(100dvh-6.5rem)]">
+    <main className="relative mx-auto h-[calc(100dvh-6.5rem)] w-full max-w-screen-3xl">
       <div
         ref={scrollRef}
-        className="w-full h-full overflow-y-scroll no-scrollbar overscroll-none"
+        className="no-scrollbar h-full w-full overflow-y-scroll overscroll-none"
       >
         {/* Chart */}
         {regimes && currents && events && (

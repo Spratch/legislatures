@@ -16,7 +16,7 @@ export default function CountryThumbnail({ countryInfos, lang }: Props) {
   return (
     <Link
       href={`/${lang}/${countryInfos.key}`}
-      className="group/thumbnail relative mx-auto aspect-video w-full overflow-hidden rounded-xl border border-gray-200 shadow-md transition hover:border-gray-300 sm:shadow-sm sm:hover:shadow-lg"
+      className="group/thumbnail relative aspect-video w-full overflow-hidden rounded-xl border border-gray-200 shadow-sm transition hover:border-gray-300 hover:shadow-lg"
     >
       <Image
         src={countryInfos.image}
