@@ -1,5 +1,3 @@
-"use client";
-
 import PartyBar from "./partyBar";
 import { LegislatureType } from "@/types/legislature";
 import { ChartDimensions } from "@/utils/hooks/useChartDimensions";

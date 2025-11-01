@@ -1,5 +1,3 @@
-"use client";
-
 import { Cross1Icon, GitHubLogoIcon } from "@radix-ui/react-icons";
 import { useCallback, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -61,13 +59,13 @@ export default function InfosModal({
   }, [handleClose]);
 
   return (
-    <div className="fixed top-0 left-0 w-full h-full p-4 sm:p-8 z-50 bg-black/25 backdrop-blur-sm">
+    <div className="fixed left-0 top-0 z-50 h-full w-full bg-black/25 p-4 backdrop-blur-sm sm:p-8">
       <div
         ref={infoModalRef}
-        className="bg-white h-full w-full rounded-2xl shadow-lg max-w-screen-xl mx-auto relative overflow-y-scroll"
+        className="relative mx-auto h-full w-full max-w-screen-xl overflow-y-scroll rounded-2xl bg-white shadow-lg"
         role="popover"
       >
-        <div className="sticky top-0 flex justify-end w-full p-4 gap-2 bg-gradient-to-b from-white z-50">
+        <div className="sticky top-0 z-50 flex w-full justify-end gap-2 bg-gradient-to-b from-white p-4">
           {/* Lang button */}
           <MenuTrigger
             isOpen={isSelectorOpen}
@@ -84,9 +82,9 @@ export default function InfosModal({
           </MenuTrigger>
 
           {/* Github button */}
-          <div className="bg-white rounded-full">
+          <div className="rounded-full bg-white">
             <Link
-              className="size-9 bg-black/5 hover:bg-black/10 rounded-full flex items-center justify-center cursor-pointer text-black/50 hover:text-black transition-all"
+              className="flex size-9 cursor-pointer items-center justify-center rounded-full bg-black/5 text-black/50 transition-all hover:bg-black/10 hover:text-black"
               href="https://github.com/Spratch/legislatures"
               target="_blank"
               title={dict.github}
@@ -103,15 +101,15 @@ export default function InfosModal({
           />
         </div>
 
-        <section className="grid grid-cols-12 gap-6 pb-14 border-b border-black px-5 sm:px-10">
-          <h1 className="col-span-12 md:col-span-7 text-3xl md:text-5xl">
+        <section className="grid grid-cols-12 gap-6 border-b border-black px-5 pb-14 sm:px-10">
+          <h1 className="col-span-12 text-3xl md:col-span-7 md:text-5xl">
             <span className="opacity-40">
               {infos.sections[0].strings[0][getLangKey("title_light", lang)]}
             </span>
             <br />
             {infos.sections[0].strings[1][getLangKey("title_main", lang)]}
           </h1>
-          <div className="col-span-12 md:col-span-5 flex flex-col items-start text-xl md:text-2xl">
+          <div className="col-span-12 flex flex-col items-start text-xl md:col-span-5 md:text-2xl">
             <p className="opacity-75">
               {infos.sections[0].strings[2][getLangKey("intro", lang)]}
             </p>
@@ -119,7 +117,7 @@ export default function InfosModal({
         </section>
 
         <section className="grid grid-cols-12 gap-x-6 px-5 sm:px-10">
-          <article className="col-span-12 sm:col-span-7 py-8 border-b border-black max-w-prose flex flex-col gap-4">
+          <article className="col-span-12 flex max-w-prose flex-col gap-4 border-b border-black py-8 sm:col-span-7">
             <PortableText
               value={
                 infos.sections[1].articles[0][getLangKey("portable_text", lang)]
@@ -127,7 +125,7 @@ export default function InfosModal({
               components={portableTextComponents}
             />
           </article>
-          <article className="col-span-12 sm:col-span-5 py-8 border-b border-black max-w-prose flex flex-col gap-4">
+          <article className="col-span-12 flex max-w-prose flex-col gap-4 border-b border-black py-8 sm:col-span-5">
             <PortableText
               value={
                 infos.sections[1].articles[1][getLangKey("portable_text", lang)]
@@ -135,7 +133,7 @@ export default function InfosModal({
               components={portableTextComponents}
             />
           </article>
-          <article className="col-span-12 sm:col-span-7 py-8 sm:pb-0  max-w-prose flex flex-col gap-4 border-b border-black sm:border-none">
+          <article className="col-span-12 flex max-w-prose flex-col gap-4 border-b border-black py-8 sm:col-span-7 sm:border-none sm:pb-0">
             <PortableText
               value={
                 infos.sections[2].articles[0][getLangKey("portable_text", lang)]
@@ -143,7 +141,7 @@ export default function InfosModal({
               components={portableTextComponents}
             />
           </article>
-          <article className="col-span-12 sm:col-span-5 pt-8 max-w-prose flex flex-col gap-4 justify-between">
+          <article className="col-span-12 flex max-w-prose flex-col justify-between gap-4 pt-8 sm:col-span-5">
             <PortableText
               value={
                 infos.sections[2].articles[1][getLangKey("portable_text", lang)]
@@ -152,7 +150,7 @@ export default function InfosModal({
             />
           </article>
         </section>
-        <div className="sticky bottom-0 w-full h-16 bg-gradient-to-t from-white"></div>
+        <div className="sticky bottom-0 h-16 w-full bg-gradient-to-t from-white"></div>
       </div>
     </div>
   );

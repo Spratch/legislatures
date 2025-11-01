@@ -1,7 +1,4 @@
-"use client";
-
 import EntityDetails from "./entityDetails";
-
 import Chart from "../chart/chart";
 import { CurrentType } from "@/types/current";
 import { EventType } from "@/types/event";
@@ -27,8 +24,8 @@ export default function Main({
   const { detailsContent } = useDetailsContext();
   const selectedEntity = detailsContent?.entity;
 
-  // Set the scroll position to the bottom
-  const scrollRef = (node: HTMLDivElement | null) => {
+  // Set the scroll position to the bottom on first render
+  const scrollRef = useCallback((node: HTMLDivElement | null) => {
     if (node) {
       // Small delay to ensure content is rendered
       setTimeout(() => {
@@ -37,7 +34,7 @@ export default function Main({
         }
       }, 0);
     }
-  };
+  }, []);
 
   return (
     <main className="relative mx-auto h-[calc(100dvh-6.5rem)] w-full max-w-screen-3xl">

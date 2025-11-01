@@ -1,5 +1,3 @@
-"use client";
-
 import { ReloadIcon, ShuffleIcon, SymbolIcon } from "@radix-ui/react-icons";
 import EntityButton from "./entityButton";
 import { CurrentType } from "@/types/current";
@@ -49,10 +47,10 @@ export default function FiltersLine({ families }: { families: FamilyType[] }) {
   };
 
   return (
-    <section className="w-full p-2 flex items-end max-w-screen-3xl mx-auto relative z-20">
-      <div className="w-full flex items-end h-9">
+    <section className="relative z-20 mx-auto flex w-full max-w-screen-3xl items-end p-2">
+      <div className="flex h-9 w-full items-end">
         {/* List controls */}
-        <div className="flex flex-col gap-1 items-center">
+        <div className="flex flex-col items-center gap-1">
           {/* Show reset button when currents are filtered */}
           <SettingsButton
             Icon={ReloadIcon}
@@ -75,11 +73,11 @@ export default function FiltersLine({ families }: { families: FamilyType[] }) {
         </div>
 
         {/* Currents list */}
-        <div className="relative overflow-x-hidden overflow-y-visible w-full">
-          <div className="absolute left-0 top-0 h-full w-4 bg-gradient-to-r from-white via-white z-30 pointer-events-none -translate-x-1.5"></div>
-          <div className="absolute right-0 top-0 h-full w-4 bg-gradient-to-l from-white via-white z-30 pointer-events-none translate-x-1.5"></div>
+        <div className="relative w-full overflow-x-hidden overflow-y-visible">
+          <div className="pointer-events-none absolute left-0 top-0 z-30 h-full w-4 -translate-x-1.5 bg-gradient-to-r from-white via-white"></div>
+          <div className="pointer-events-none absolute right-0 top-0 z-30 h-full w-4 translate-x-1.5 bg-gradient-to-l from-white via-white"></div>
           <div
-            className="overflow-x-scroll overflow-y-visible h-9 flex gap-1 no-scrollbar px-2"
+            className="no-scrollbar flex h-9 gap-1 overflow-y-visible overflow-x-scroll px-2"
             ref={scrollRef}
           >
             {families ? (

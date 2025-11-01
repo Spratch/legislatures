@@ -10,7 +10,6 @@ import {
 } from "@radix-ui/react-icons";
 import SettingsButton from "./settingsButton";
 import { useDictionary } from "@/utils/contexts/dictionaryContext";
-import { LocaleEnum } from "@/types/langsEnum";
 import { useRouter } from "next/navigation";
 
 type Props = {
@@ -43,10 +42,10 @@ export default function SettingsLine({
   const dict = useDictionary().settingsLine;
   const router = useRouter();
   return (
-    <section className="w-full p-2 flex items-end max-w-screen-3xl mx-auto">
-      <div className="w-full flex justify-between gap-2 relative">
+    <section className="mx-auto flex w-full max-w-screen-3xl items-end p-2">
+      <div className="relative flex w-full justify-between gap-2">
         {/* Left */}
-        <div className="flex gap-1 sm:gap-1.5 items-center">
+        <div className="flex items-center gap-1 sm:gap-1.5">
           {/* Events button */}
           {showEventsButton && (
             <SettingsButton
@@ -87,7 +86,7 @@ export default function SettingsLine({
         </div>
 
         {/* Center */}
-        <div className="flex gap-1 sm:gap-1.5 items-center justify-center absolute left-0 right-0 pointer-events-none">
+        <div className="pointer-events-none absolute left-0 right-0 flex items-center justify-center gap-1 sm:gap-1.5">
           {/* Home button */}
           <SettingsButton
             Icon={HomeIcon}
@@ -99,7 +98,7 @@ export default function SettingsLine({
         </div>
 
         {/* Right */}
-        <div className="flex gap-1.5 items-center">
+        <div className="flex items-center gap-1.5">
           {/* Infos button */}
           <SettingsButton
             Icon={InfoCircledIcon}
@@ -110,7 +109,7 @@ export default function SettingsLine({
           />
 
           {/* Reference size buttons */}
-          <div className="flex gap-1 sm:gap-1.5 items-center bg-black/5 rounded-full">
+          <div className="flex items-center gap-1 rounded-full bg-black/5 sm:gap-1.5">
             <SettingsButton
               Icon={MinusIcon}
               onClick={() => setReferenceSize(Math.max(4, referenceSize - 12))}
@@ -118,7 +117,7 @@ export default function SettingsLine({
               position={{ x: "right", y: "top" }}
               kbd={["-", "_"]}
             />
-            <p className="hidden sm:inline text-sm opacity-75 select-none tabular-nums">
+            <p className="hidden select-none text-sm tabular-nums opacity-75 sm:inline">
               <span className="sr-only">{dict.graphSize}</span>
               {String(referenceSize).padStart(2, "0")}
             </p>

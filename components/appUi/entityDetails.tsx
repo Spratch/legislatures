@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import EntityButton from "./entityButton";
 import Badge from "./badge";
@@ -43,8 +41,8 @@ export default function EntityDetails() {
   const title = event
     ? event[getLangKey("title", lang)]
     : party
-    ? party[getLangKey("full_name", lang)]
-    : current?.[getLangKey("name", lang)];
+      ? party[getLangKey("full_name", lang)]
+      : current?.[getLangKey("name", lang)];
 
   const updateWikiLink = (wikiUrl: string, keyword: string) => {
     let fullWikiLink = wikiUrl;
@@ -64,8 +62,8 @@ export default function EntityDetails() {
   const pageTitle = event
     ? event.title
     : party
-    ? party.full_name
-    : current.name;
+      ? party.full_name
+      : current.name;
   useEffect(() => {
     if (entity) {
       const fetchWiki = (searchTerm: string) => {
@@ -173,15 +171,15 @@ export default function EntityDetails() {
   }, []);
 
   return (
-    <div className="fixed z-40 bg-black/25 sm:bg-transparent backdrop-blur-sm sm:backdrop-blur-0 top-0 bottom-0 left-0 right-0 sm:pointer-events-none p-2 sm:px-5 sm:py-16 flex items-end justify-center sm:justify-start">
+    <div className="fixed bottom-0 left-0 right-0 top-0 z-40 flex items-end justify-center bg-black/25 p-2 backdrop-blur-sm sm:pointer-events-none sm:justify-start sm:bg-transparent sm:px-5 sm:py-16 sm:backdrop-blur-0">
       <div
         ref={detailsRef}
-        className="rounded-2xl shadow-lg w-full sm:w-auto max-w-[28rem] max-h-full overflow-y-scroll bg-white p-2.5 sm:p-3 flex flex-col gap-2.5 border border-black/5 pointer-events-auto"
+        className="pointer-events-auto flex max-h-full w-full max-w-[28rem] flex-col gap-2.5 overflow-y-scroll rounded-2xl border border-black/5 bg-white p-2.5 shadow-lg sm:w-auto sm:p-3"
         role="dialog"
         tabIndex={0}
       >
         {/* Buttons bar */}
-        <div className="flex justify-between w-full gap-2">
+        <div className="flex w-full justify-between gap-2">
           {/* If current, add a button to display or hide it */}
           {
             current ? (
@@ -206,8 +204,8 @@ export default function EntityDetails() {
                 const beginDate = new Date(event.begin).getFullYear();
                 const endDate = new Date(event.end).getFullYear();
                 return (
-                  <div className="flex gap-2 items-stretch">
-                    <div className="h-9 px-2.5 rounded-full border border-black/20 border-dashed text-sm text-black/50 leading-none flex items-center">
+                  <div className="flex items-stretch gap-2">
+                    <div className="flex h-9 items-center rounded-full border border-dashed border-black/20 px-2.5 text-sm leading-none text-black/50">
                       {endDate !== beginDate
                         ? `${beginDate} → ${endDate}`
                         : beginDate}
@@ -246,13 +244,13 @@ export default function EntityDetails() {
             alt={title}
             width={500}
             height={500}
-            className="w-full relative object-cover object-[50%_25%] max-h-60 rounded-lg pointer-events-none"
+            className="pointer-events-none relative max-h-60 w-full rounded-lg object-cover object-[50%_25%]"
           />
         )}
         {/* Title and infos */}
-        <div className="flex flex-col gap-3 w-full">
+        <div className="flex w-full flex-col gap-3">
           <div className="flex flex-col items-start gap-1">
-            <h2 className="text-lg sm:text-xl !leading-tight font-bold flex gap-2 items-center">
+            <h2 className="flex items-center gap-2 text-lg font-bold !leading-tight sm:text-xl">
               {/* Display color if current */}
               {current && current.color && (
                 <span className="relative flex size-2.5 sm:size-3">
@@ -263,7 +261,7 @@ export default function EntityDetails() {
                     style={{ backgroundColor: current.color }}
                   ></span>
                   <span
-                    className={`relative inline-flex size-2.5 sm:size-3 rounded-full transition-opacity ${
+                    className={`relative inline-flex size-2.5 rounded-full transition-opacity sm:size-3 ${
                       isVisible ? "" : "opacity-50"
                     }`}
                     style={{ backgroundColor: current.color }}
@@ -274,7 +272,7 @@ export default function EntityDetails() {
               {title}
             </h2>
 
-            <p className="text-gray-500 text-base leading-snug">
+            <p className="text-base leading-snug text-gray-500">
               {/* If small screens, truncate at 250, else 400 */}
               {description
                 ? truncateString(description, windowWidth < 640 ? 250 : 400)
@@ -294,7 +292,7 @@ export default function EntityDetails() {
             </h3>
             <ul
               ref={detailsScrollRef}
-              className="w-full flex overflow-x-scroll gap-1.5 justify-start no-scrollbar"
+              className="no-scrollbar flex w-full justify-start gap-1.5 overflow-x-scroll"
             >
               {subEntities &&
                 subEntities.map((subEntity: PartyType | any, index: Key) => (

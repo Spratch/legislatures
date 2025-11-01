@@ -1,5 +1,3 @@
-"use client";
-
 import { useCallback, useEffect, useRef, useState } from "react";
 import { TooltipContentType } from "@/types/tooltipContent";
 import { tooltipContentAtom } from "@/utils/contexts/tooltipContext";
@@ -110,13 +108,13 @@ export function TooltipContent({
   return (
     <div
       ref={tooltipRef}
-      className="absolute pb-2 flex justify-start transition-all duration-500 select-none"
+      className="absolute flex select-none justify-start pb-2 transition-all duration-500"
       onMouseEnter={() => setTooltipContent({ chartWidth, ...tooltipContent })}
       onMouseLeave={() => setTooltipContent(null)}
     >
-      <div className="py-1.5 px-[5px] rounded-xl flex flex-col gap-1.5 bg-white shadow-md z-30 border border-black/5">
+      <div className="z-30 flex flex-col gap-1.5 rounded-xl border border-black/5 bg-white px-[5px] py-1.5 shadow-md">
         {/* Year and current name */}
-        <div className="flex gap-2 justify-start items-center">
+        <div className="flex items-center justify-start gap-2">
           {party.current && (
             <Badge
               name={currentName}
@@ -129,7 +127,7 @@ export function TooltipContent({
         {/* Party name and percentage */}
         <div
           ref={partyLineRef}
-          className="flex gap-2 justify-between items-center w-min sm:w-auto"
+          className="flex w-min items-center justify-between gap-2 sm:w-auto"
         >
           <EntityButton
             entity={party}
@@ -155,15 +153,15 @@ export function TooltipContent({
         {/* Coalition name and percentage */}
         {party.coalition && (
           <div
-            className="flex gap-2 justify-between items-center sm:!max-w-none"
+            className="flex items-center justify-between gap-2 sm:!max-w-none"
             style={{ maxWidth: coalitionMaxWidth }}
           >
-            <div className="flex gap-1.5 items-center pl-0.5">
+            <div className="flex items-center gap-1.5 pl-0.5">
               <span
-                className="size-2 rounded-full inline-block mt-0.5 shrink-0"
+                className="mt-0.5 inline-block size-2 shrink-0 rounded-full"
                 style={{ backgroundColor: coalitionDatas.color }}
               ></span>
-              <span className="text-sm sm:text-base text-black/50 leading-none inline sm:text-nowrap">
+              <span className="inline text-sm leading-none text-black/50 sm:text-nowrap sm:text-base">
                 {coalitionName}
               </span>
             </div>
