@@ -5,18 +5,21 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { getDictionary } from "./dictionaries";
 import { LocaleEnum } from "@/types/langsEnum";
 import { DictionaryProvider } from "@/utils/contexts/dictionaryContext";
+import { Metadata } from "next";
 
 export async function generateMetadata({
   params
 }: {
   params: { lang: keyof typeof LocaleEnum };
-}) {
+}): Promise<Metadata> {
   const dict = (await getDictionary(params.lang)).home;
   const title = dict.meta_title;
   const description = dict.meta_description + dict.meta_multi;
+  const url = `https://${process.env.NEXT_PUBLIC_HOST_NAME}/${params.lang}`;
+
   return {
-    title: title,
-    description: description,
+    title,
+    description,
     alternates: {
       canonical: "/",
       languages: Object.entries(LocaleEnum).reduce(
@@ -28,9 +31,9 @@ export async function generateMetadata({
       )
     },
     openGraph: {
-      title: title,
-      description: description,
-      url: "https://legislatures.josephclenet.fr"
+      title,
+      description,
+      url
     }
   };
 }
@@ -42,7 +45,6 @@ export default async function RootLayout({
   children: React.ReactNode;
   params: { lang: keyof typeof LocaleEnum };
 }) {
-  // Get the dictionary for the current locale
   const dict = await getDictionary(params.lang);
 
   return (
