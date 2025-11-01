@@ -4,7 +4,6 @@ import Badge from "./badge";
 import WikiLink from "./wikiLink";
 import { Cross1Icon, EyeClosedIcon, EyeOpenIcon } from "@radix-ui/react-icons";
 import { Key, useCallback, useEffect, useRef, useState } from "react";
-import { useDetailsContext } from "@/utils/contexts/detailsContext";
 import { CurrentType } from "@/types/current";
 import { EventType } from "@/types/event";
 import { PartyType } from "@/types/party";
@@ -15,6 +14,8 @@ import useKeyPress from "@/utils/hooks/useKeyPress";
 import { useHorizontalScroll } from "@/utils/hooks/useHorizontalScroll";
 import { useDictionary } from "@/utils/contexts/dictionaryContext";
 import { getLangKey } from "../utils/getLangKey";
+import { useAtom } from "jotai";
+import { detailsContentAtom } from "../utils/contexts/atoms";
 
 export default function EntityDetails() {
   const dictionary = useDictionary();
@@ -22,7 +23,7 @@ export default function EntityDetails() {
   const dict = dictionary.entityDetails;
 
   // Get the entity to display from the context
-  const { detailsContent, setDetailsContent } = useDetailsContext();
+  const [detailsContent, setDetailsContent] = useAtom(detailsContentAtom);
   const { entity, parent } = detailsContent;
 
   // Set the details content

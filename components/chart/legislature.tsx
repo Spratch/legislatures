@@ -4,12 +4,14 @@ import { ChartDimensions } from "@/utils/hooks/useChartDimensions";
 import { useVisibleCurrentsContext } from "@/utils/contexts/currentsContext";
 import { CurrentType } from "@/types/current";
 import { motion } from "framer-motion";
-import { useTransitionsContext } from "@/utils/contexts/transitionsContext";
 import getDate from "@/utils/getDate";
-import { useCoalitionsContext } from "@/utils/contexts/coalitionsContext";
 import getYear from "@/utils/getYear";
-import { useSetAtom } from "jotai";
-import { tooltipContentAtom } from "@/utils/contexts/tooltipContext";
+import { useAtomValue, useSetAtom } from "jotai";
+import {
+  tooltipContentAtom,
+  transitionsVisibilityAtom,
+  coalitionsVisibilityAtom
+} from "@/utils/contexts/atoms";
 import { useDictionary } from "@/utils/contexts/dictionaryContext";
 
 type LegislatureProps = {
@@ -33,10 +35,10 @@ export default function Legislature({
 }: LegislatureProps) {
   const dict = useDictionary().legislature;
 
-  const { coalitionsVisibility } = useCoalitionsContext();
+  const coalitionsVisibility = useAtomValue(coalitionsVisibilityAtom);
 
   // Toggle currents transition polygons visibility
-  const { transitionsVisibility } = useTransitionsContext();
+  const transitionsVisibility = useAtomValue(transitionsVisibilityAtom);
   const heightShare = transitionsVisibility ? 1.75 : 1;
 
   // Place the legislature on the y axis

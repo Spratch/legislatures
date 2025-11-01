@@ -1,10 +1,9 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { TooltipContentType } from "@/types/tooltipContent";
-import { tooltipContentAtom } from "@/utils/contexts/tooltipContext";
+import { tooltipContentAtom, detailsContentAtom } from "@/utils/contexts/atoms";
 import EntityButton from "./entityButton";
 import Badge from "./badge";
 import PercentageButton from "./percentageButton";
-import { useDetailsContext } from "@/utils/contexts/detailsContext";
 import { useAtomValue, useSetAtom } from "jotai";
 import { useDictionary } from "@/utils/contexts/dictionaryContext";
 import { getLangKey } from "../utils/getLangKey";
@@ -33,7 +32,7 @@ export function TooltipContent({
   tooltipContent
 }: Props) {
   const setTooltipContent = useSetAtom(tooltipContentAtom);
-  const { setDetailsContent } = useDetailsContext();
+  const setDetailsContent = useSetAtom(detailsContentAtom);
   const { y, xStart, xEnd, legislature, party, coalitionDatas } =
     tooltipContent;
 

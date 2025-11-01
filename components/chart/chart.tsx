@@ -2,16 +2,18 @@ import { CurrentType } from "@/types/current";
 import { EventType } from "@/types/event";
 import { RegimeType } from "@/types/regime";
 import Tooltip from "../appUi/tooltip";
-import { useDetailsContext } from "@/utils/contexts/detailsContext";
-import { tooltipContentAtom } from "@/utils/contexts/tooltipContext";
-import { useTransitionsContext } from "@/utils/contexts/transitionsContext";
+import {
+  tooltipContentAtom,
+  detailsContentAtom,
+  transitionsVisibilityAtom
+} from "@/utils/contexts/atoms";
 import useChartDimensions from "@/utils/hooks/useChartDimensions";
 import Event from "./event";
 import Republic from "./republic";
 import XAxis from "./xAxis";
 import YAxis from "./yAxis";
 import getDate from "@/utils/getDate";
-import { useSetAtom } from "jotai";
+import { useAtomValue, useSetAtom } from "jotai";
 import { useDictionary } from "@/utils/contexts/dictionaryContext";
 
 type Props = {
@@ -52,7 +54,7 @@ export default function Chart({
   const xAxisHeight = 28;
 
   // Set the minimal height for a legislature (one year, in px)
-  const { transitionsVisibility } = useTransitionsContext();
+  const transitionsVisibility = useAtomValue(transitionsVisibilityAtom);
   const minHeight = transitionsVisibility ? referenceSize : referenceSize / 2;
 
   // Calculate the height of the svg
@@ -64,18 +66,18 @@ export default function Chart({
   const axisLeftPosition = !dimensions.boundedWidth
     ? 0
     : !eventsVisibility
-    ? dimensions.boundedWidth < 640 || !eventsPresence
-      ? 40
-      : 100
-    : dimensions.boundedWidth < 640
-    ? 200
-    : 400;
+      ? dimensions.boundedWidth < 640 || !eventsPresence
+        ? 40
+        : 100
+      : dimensions.boundedWidth < 640
+        ? 200
+        : 400;
 
   // Get the tooltip party
   const setTooltipContent = useSetAtom(tooltipContentAtom);
 
   // Set the details content for events
-  const { setDetailsContent } = useDetailsContext();
+  const setDetailsContent = useSetAtom(detailsContentAtom);
 
   // Get the value of the stops positions for the events gradient
   // Using math.max to avoid negative values, and toFixed to avoid unwanted decimals
@@ -94,13 +96,13 @@ export default function Chart({
   return (
     <div
       ref={ref}
-      className="w-full relative overflow-visible"
+      className="relative w-full overflow-visible"
       style={{ height: svgHeight + minHeight }}
     >
       {/* X Axis and top margin */}
       <div
         aria-hidden
-        className="sticky top-0 z-10 backdrop-blur bg-opacity-45 bg-gradient-to-b from-white via-white/50 to-transparent"
+        className="sticky top-0 z-10 bg-opacity-45 bg-gradient-to-b from-white via-white/50 to-transparent backdrop-blur"
       >
         <svg
           width={dimensions.width}
@@ -214,7 +216,7 @@ export default function Chart({
       {/* Bottom margin */}
       <div
         aria-hidden
-        className="sticky bottom-0 z-10 backdrop-blur bg-opacity-45 bg-gradient-to-t from-white via-white/50 to-transparent"
+        className="sticky bottom-0 z-10 bg-opacity-45 bg-gradient-to-t from-white via-white/50 to-transparent backdrop-blur"
       >
         <svg
           width={dimensions.width}

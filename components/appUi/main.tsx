@@ -3,8 +3,9 @@ import Chart from "../chart/chart";
 import { CurrentType } from "@/types/current";
 import { EventType } from "@/types/event";
 import { RegimeType } from "@/types/regime";
-import { useDetailsContext } from "@/utils/contexts/detailsContext";
+import { detailsContentAtom } from "@/utils/contexts/atoms";
 import { useCallback } from "react";
+import { useAtomValue } from "jotai";
 
 type Props = {
   regimes: RegimeType[];
@@ -21,7 +22,7 @@ export default function Main({
   eventsVisibility,
   referenceSize
 }: Props) {
-  const { detailsContent } = useDetailsContext();
+  const detailsContent = useAtomValue(detailsContentAtom);
   const selectedEntity = detailsContent?.entity;
 
   // Set the scroll position to the bottom on first render

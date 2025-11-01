@@ -5,20 +5,25 @@ import FiltersLine from "@/components/appUi/filtersLine";
 import Main from "@/components/appUi/main";
 import SettingsLine from "@/components/appUi/settingsLine";
 import InfosModal from "@/components/appUi/infosModal";
-import { useTransitionsContext } from "@/utils/contexts/transitionsContext";
-import { useCoalitionsContext } from "@/utils/contexts/coalitionsContext";
 import { useCountryDataContext } from "@/utils/contexts/countryContext";
 import { usePathname, useRouter } from "next/navigation";
 import { LocaleEnum } from "@/types/langsEnum";
+import { useAtom } from "jotai";
+import {
+  transitionsVisibilityAtom,
+  coalitionsVisibilityAtom
+} from "@/components/utils/contexts/atoms";
 
 export default function HomePage() {
   const [eventVisibility, setEventVisibility] = useState(false);
   const [referenceSize, setReferenceSize] = useState(28);
   const [infosVisibility, setInfosVisibility] = useState(false);
-  const { transitionsVisibility, setTransitionsVisibility } =
-    useTransitionsContext();
-  const { coalitionsVisibility, setCoalitionsVisibility } =
-    useCoalitionsContext();
+  const [transitionsVisibility, setTransitionsVisibility] = useAtom(
+    transitionsVisibilityAtom
+  );
+  const [coalitionsVisibility, setCoalitionsVisibility] = useAtom(
+    coalitionsVisibilityAtom
+  );
   const {
     countryData: { regimes, families, events }
   } = useCountryDataContext();
