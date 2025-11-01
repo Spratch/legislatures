@@ -20,21 +20,21 @@ export default function Badge({
   return (
     <button
       aria-label={label}
-      aria-hidden={!label}
-      className={`bg-opacity-10 text-opacity-90 rounded-lg px-2 py-1 sm:py-0.5 text-sm sm:text-base font-normal cursor-pointer hover:bg-opacity-20 hover:text-opacity-100 hover:shadow-sm transition text-nowrap items-center flex gap-1.5 truncate ${
+      tabIndex={!label ? -1 : 0}
+      className={`flex cursor-pointer items-center gap-1.5 truncate text-nowrap rounded-lg bg-opacity-10 px-2 py-1 text-sm font-normal text-opacity-90 transition hover:bg-opacity-20 hover:text-opacity-100 hover:shadow-sm sm:py-0.5 sm:text-base ${
         isClickable ? "" : "pointer-events-none"
       }`}
       style={{
         backgroundColor: `rgb(
-                    ${color}, 
+                    ${color},
                     var(--tw-bg-opacity)
                 )`,
         color: `rgb(
-                    ${color}, 
+                    ${color},
                     var(--tw-text-opacity)
                 )`,
         borderColor: `rgb(
-                    ${color}, 
+                    ${color},
                     var(--tw-border-opacity)
                 )`
       }}

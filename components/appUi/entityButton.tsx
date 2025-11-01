@@ -37,18 +37,15 @@ export default function EntityButton({
   return (
     <button
       aria-label={label}
-      aria-hidden={!label}
-      className={`group flex gap-2 items-center max-w-full min-h-full text-black/55 sm:hover:text-black bg-black/5 sm:hover:bg-black/10 transition text-sm sm:text-base text-nowrap py-1 sm:py-0.5
-                ${isActive ? "" : "opacity-50"}
-                ${isParty(entity) ? "px-1.5 rounded-md" : "px-3 rounded-full"}
-                `}
+      tabIndex={!label ? -1 : 0}
+      className={`group flex min-h-full max-w-full items-center gap-2 text-nowrap bg-black/5 py-1 text-sm text-black/55 transition sm:py-0.5 sm:text-base sm:hover:bg-black/10 sm:hover:text-black ${isActive ? "" : "opacity-50"} ${isParty(entity) ? "rounded-md px-1.5" : "rounded-full px-3"} `}
       onClick={() => onClick(entity)}
     >
       {/* Currents have color point */}
       {isCurrent(entity) && (
         <span className="relative flex size-3">
           <span
-            className="group-hover:animate-ping absolute inline-flex size-full rounded-full opacity-75"
+            className="absolute inline-flex size-full rounded-full opacity-75 group-hover:animate-ping"
             style={{ backgroundColor: entity.color }}
           ></span>
           <span
@@ -58,11 +55,11 @@ export default function EntityButton({
         </span>
       )}
 
-      <span className="flex items-center min-w-0">
+      <span className="flex min-w-0 items-center">
         {isParty(entity) && (
           <span
             aria-hidden
-            className="text-black/40 sm:text-black/35 group-hover:text-black/50 all-small-caps mr-1 inline-flex h-full text-xs transition text-nowrap"
+            className="all-small-caps mr-1 inline-flex h-full text-nowrap text-xs text-black/40 transition group-hover:text-black/50 sm:text-black/35"
           >
             {entityName}
           </span>
