@@ -1,6 +1,6 @@
-import { motion } from "framer-motion";
 import { PartyType } from "@/types/party";
 import { useDictionary } from "@/utils/contexts/dictionaryContext";
+import { motion } from "framer-motion";
 
 type PartyBarProps = {
   party: PartyType;
@@ -65,7 +65,7 @@ export default function PartyBar({
         width={partyWidth}
         height={height}
         fill={barColor}
-        shapeRendering="crispEdges"
+        shapeRendering="crispEdges" // true: horizontal white lines, false: vertical white lines… :/
         initial={{ width: partyWidth, height: height, fill: barColor }}
         animate={{ width: partyWidth, height: height, fill: barColor }}
         transition={{ duration: transitionDuration }}

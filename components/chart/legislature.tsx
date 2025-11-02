@@ -1,26 +1,24 @@
-import PartyBar from "./partyBar";
-import { LegislatureType } from "@/types/legislature";
-import { ChartDimensions } from "@/utils/hooks/useChartDimensions";
-import { useVisibleCurrentsContext } from "@/utils/contexts/currentsContext";
 import { CurrentType } from "@/types/current";
-import { motion } from "framer-motion";
+import { LegislatureType } from "@/types/legislature";
+import {
+  coalitionsVisibilityAtom,
+  tooltipContentAtom,
+  transitionsVisibilityAtom
+} from "@/utils/contexts/atoms";
+import { useVisibleCurrentsContext } from "@/utils/contexts/currentsContext";
+import { useDictionary } from "@/utils/contexts/dictionaryContext";
 import getDate from "@/utils/getDate";
 import getYear from "@/utils/getYear";
+import { motion } from "framer-motion";
 import { useAtomValue, useSetAtom } from "jotai";
-import {
-  tooltipContentAtom,
-  transitionsVisibilityAtom,
-  coalitionsVisibilityAtom
-} from "@/utils/contexts/atoms";
-import { useDictionary } from "@/utils/contexts/dictionaryContext";
+import PartyBar from "./partyBar";
 
 type LegislatureProps = {
   leg: LegislatureType;
   nextLeg: LegislatureType | null;
   minHeight: number;
-  dimensions: ChartDimensions;
+  graphWidth: number;
   firstLegislature: number;
-  axisLeftPosition: number;
   isNextRep: boolean;
 };
 
@@ -28,9 +26,8 @@ export default function Legislature({
   leg,
   nextLeg,
   minHeight,
-  dimensions,
+  graphWidth,
   firstLegislature,
-  axisLeftPosition,
   isNextRep
 }: LegislatureProps) {
   const dict = useDictionary().legislature;
@@ -48,10 +45,6 @@ export default function Legislature({
   const duration =
     getDate(nextLeg ? nextLeg.begin : leg.end) - getDate(leg.begin);
   const height = (duration * minHeight) / heightShare;
-
-  // Calculate the width of the graph from the bounded width and the axis left position percentage
-  let graphWidth = dimensions.boundedWidth - axisLeftPosition;
-  graphWidth < 0 ? (graphWidth = 0) : graphWidth;
 
   // Get the filtered total deputies
   const { visibleCurrents }: { visibleCurrents: CurrentType[] } =
@@ -141,7 +134,7 @@ export default function Legislature({
       )} ${dict.to} ${getYear(getDate(leg.end)) || dict.today}`}
       role="listitem"
       className={`legislature-${leg.legislature}`}
-      animate={{ y: y }}
+      animate={{ y }}
       transition={{ duration: transitionDuration }}
     >
       <text className="sr-only">{srDescription}</text>
@@ -221,6 +214,7 @@ export default function Legislature({
             );
             coalitionDatas.color = coalitionMainParty.current.color;
           }
+
           // Give the party a color based on the coalition visibility
           const partyColor =
             coalitionDatas.color && coalitionsVisibility
@@ -228,16 +222,19 @@ export default function Legislature({
                 ? coalitionDatas.color + "CC" // Add alpha channel (80% opacity)
                 : party.current.color
               : party.current.color;
+
           // Find the corresponding party in the next legislature
           const nextParty = nextLeg
             ? nextLeg.parties?.find(
                 (p) => p.current.name === party.current.name
               )
             : null;
+
           // Find if the next party is visible
           const nextPartyIsVisible = visibleCurrents.find((current) =>
             current.parties.find((p) => p.name === nextParty?.name)
           );
+
           // Generate the next party width
           const nextPartyWidth = nextLeg
             ? nextPartyIsVisible
@@ -245,6 +242,7 @@ export default function Legislature({
                 0
               : 0
             : null;
+
           // Generate the next party x position
           const nextPartyX = nextParty
             ? nextLeg.parties
@@ -262,7 +260,8 @@ export default function Legislature({
                     : accumulator;
                 }, 0)
             : null;
-          // Generate the polygon points
+
+          // Generate the polygon points ⌜ ⌝ ⌟ ⌞
           const polygonPoints = [
             [partyX, height],
             [partyX + partyWidth, height],
@@ -271,6 +270,7 @@ export default function Legislature({
           ]
             .map((point) => point.join(","))
             .join(" ");
+
           // Create tooltip content
           const tooltipContent = {
             y,
@@ -280,6 +280,7 @@ export default function Legislature({
             party,
             coalitionDatas
           };
+
           return (
             <g
               key={party.name}
@@ -320,3 +321,5 @@ export default function Legislature({
     </motion.g>
   );
 }
+// 32.45995893223205
+// 32.45996

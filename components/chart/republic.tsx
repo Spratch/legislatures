@@ -1,13 +1,13 @@
-import { motion } from "framer-motion";
 import { CurrentType } from "@/types/current";
 import { LegislatureType } from "@/types/legislature";
 import { RegimeType } from "@/types/regime";
-import { ChartDimensions } from "@/utils/hooks/useChartDimensions";
-import Legislature from "./legislature";
+import { useDictionary } from "@/utils/contexts/dictionaryContext";
 import getDate from "@/utils/getDate";
 import getYear from "@/utils/getYear";
-import { useDictionary } from "@/utils/contexts/dictionaryContext";
+import { ChartDimensions } from "@/utils/hooks/useChartDimensions";
+import { motion } from "framer-motion";
 import { getLangKey } from "../utils/getLangKey";
+import Legislature from "./legislature";
 
 type RepublicProps = {
   republic: RegimeType;
@@ -85,6 +85,10 @@ export default function Republic({
     republic.legislatures.length
   } ${dict.legislatures}.`;
 
+  // Calculate the width of the graph from the bounded width and the axis left position percentage
+  let graphWidth = dimensions.boundedWidth - axisLeftPosition;
+  graphWidth < 0 ? (graphWidth = 0) : graphWidth;
+
   return (
     <g
       aria-labelledby={`regime-${republic.begin}-label`}
@@ -135,8 +139,7 @@ export default function Republic({
               nextLeg={nextLegislatureWithCurrents}
               firstLegislature={firstLegislature}
               minHeight={minHeight}
-              dimensions={dimensions}
-              axisLeftPosition={axisLeftPosition}
+              graphWidth={graphWidth}
               isNextRep={
                 leg.index === legislaturesWithIndexes.length - 1 &&
                 leg.end !== "now"

@@ -94,6 +94,10 @@
                   "keyword": {
                     "type": "string",
                     "description": "The title of the french wikipedia article about this party"
+                  },
+                  "period": {
+                    "type": "string",
+                    "description": "The period of the political party"
                   }
                 }
               }
