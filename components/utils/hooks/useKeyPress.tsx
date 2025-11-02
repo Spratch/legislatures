@@ -10,9 +10,12 @@ const useKeyPress = (
 ) => {
   useEffect(() => {
     const keyPressHandler = (event: KeyboardEvent) => {
+      const noModifierKeys = !event.ctrlKey && !event.altKey && !event.metaKey; // Keep shift for [+] key?
+
       if (
-        event.key === targetKey ||
-        (Array.isArray(targetKey) && targetKey.includes(event.key))
+        noModifierKeys &&
+        (event.key === targetKey ||
+          (Array.isArray(targetKey) && targetKey.includes(event.key)))
       ) {
         handler(event);
       }
