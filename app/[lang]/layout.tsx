@@ -1,11 +1,11 @@
-import "../globals.css";
-import { Analytics } from "@vercel/analytics/react";
-import Script from "next/script";
-import { SpeedInsights } from "@vercel/speed-insights/next";
-import { getDictionary } from "./dictionaries";
 import { LocaleEnum } from "@/types/langsEnum";
 import { DictionaryProvider } from "@/utils/contexts/dictionaryContext";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Metadata } from "next";
+import Script from "next/script";
+import "../globals.css";
+import { getDictionary } from "./dictionaries";
 
 export async function generateMetadata({
   params
@@ -21,11 +21,11 @@ export async function generateMetadata({
     title,
     description,
     alternates: {
-      canonical: "/",
+      canonical: `https://${process.env.NEXT_PUBLIC_HOST_NAME}`,
       languages: Object.entries(LocaleEnum).reduce(
         (acc, [key]) => ({
           ...acc,
-          [key]: `/${key}`
+          [key]: `https://${process.env.NEXT_PUBLIC_HOST_NAME}/${key}`
         }),
         {}
       )
