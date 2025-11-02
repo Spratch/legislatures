@@ -8,5 +8,5 @@ export const detailsContentAtom = atom<DetailsContentType>(
 export const tooltipContentAtom = atom<TooltipContentType>(
   null as TooltipContentType
 );
-export const coalitionsVisibilityAtom = atom<boolean>(true as boolean);
+export const coalitionsVisibilityAtom = atom<boolean>(false as boolean);
 export const transitionsVisibilityAtom = atom<boolean>(true as boolean);

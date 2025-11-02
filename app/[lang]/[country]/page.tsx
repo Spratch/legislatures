@@ -1,18 +1,16 @@
 "use client";
 
-import { useState } from "react";
 import FiltersLine from "@/components/appUi/filtersLine";
+import InfosModal from "@/components/appUi/infosModal";
 import Main from "@/components/appUi/main";
 import SettingsLine from "@/components/appUi/settingsLine";
-import InfosModal from "@/components/appUi/infosModal";
-import { useCountryDataContext } from "@/utils/contexts/countryContext";
-import { usePathname, useRouter } from "next/navigation";
-import { LocaleEnum } from "@/types/langsEnum";
-import { useAtom } from "jotai";
 import {
-  transitionsVisibilityAtom,
-  coalitionsVisibilityAtom
+  coalitionsVisibilityAtom,
+  transitionsVisibilityAtom
 } from "@/components/utils/contexts/atoms";
+import { useCountryDataContext } from "@/utils/contexts/countryContext";
+import { useAtom } from "jotai";
+import { useState } from "react";
 
 export default function HomePage() {
   const [eventVisibility, setEventVisibility] = useState(false);
