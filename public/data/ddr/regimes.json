@@ -8,91 +8,91 @@
     "legislatures": [
       {
         "legislature": 1949,
-        "total_deputes": 315,
+        "total_deputies": 315,
         "duration": 1,
         "begin": "1949-05-07",
         "end": "1950-10-15",
         "parties": [
           {
             "name": "SED",
-            "deputes": 90,
+            "deputies": 90,
             "coalition": "Bloc démocratique",
             "coalition_en": "Democratic Bloc",
             "coalition_de": "Demokratischer Block"
           },
           {
             "name": "FDGB",
-            "deputes": 30,
+            "deputies": 30,
             "coalition": "Bloc démocratique",
             "coalition_en": "Democratic Bloc",
             "coalition_de": "Demokratischer Block"
           },
           {
             "name": "DBD",
-            "deputes": 15,
+            "deputies": 15,
             "coalition": "Bloc démocratique",
             "coalition_en": "Democratic Bloc",
             "coalition_de": "Demokratischer Block"
           },
           {
             "name": "VdgB",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Bloc démocratique",
             "coalition_en": "Democratic Bloc",
             "coalition_de": "Demokratischer Block"
           },
           {
             "name": "FDJ",
-            "deputes": 10,
+            "deputies": 10,
             "coalition": "Bloc démocratique",
             "coalition_en": "Democratic Bloc",
             "coalition_de": "Demokratischer Block"
           },
           {
             "name": "DFD",
-            "deputes": 10,
+            "deputies": 10,
             "coalition": "Bloc démocratique",
             "coalition_en": "Democratic Bloc",
             "coalition_de": "Demokratischer Block"
           },
           {
             "name": "KB",
-            "deputes": 10,
+            "deputies": 10,
             "coalition": "Bloc démocratique",
             "coalition_en": "Democratic Bloc",
             "coalition_de": "Demokratischer Block"
           },
           {
             "name": "VVN",
-            "deputes": 10,
+            "deputies": 10,
             "coalition": "Bloc démocratique",
             "coalition_en": "Democratic Bloc",
             "coalition_de": "Demokratischer Block"
           },
           {
             "name": "Autres",
-            "deputes": 35,
+            "deputies": 35,
             "coalition": "Bloc démocratique",
             "coalition_en": "Democratic Bloc",
             "coalition_de": "Demokratischer Block"
           },
           {
             "name": "CDU",
-            "deputes": 45,
+            "deputies": 45,
             "coalition": "Bloc démocratique",
             "coalition_en": "Democratic Bloc",
             "coalition_de": "Demokratischer Block"
           },
           {
             "name": "LDP",
-            "deputes": 45,
+            "deputies": 45,
             "coalition": "Bloc démocratique",
             "coalition_en": "Democratic Bloc",
             "coalition_de": "Demokratischer Block"
           },
           {
             "name": "NDPD",
-            "deputes": 15,
+            "deputies": 15,
             "coalition": "Bloc démocratique",
             "coalition_en": "Democratic Bloc",
             "coalition_de": "Demokratischer Block"
@@ -112,91 +112,91 @@
     "legislatures": [
       {
         "legislature": 1950,
-        "total_deputes": 460,
+        "total_deputies": 460,
         "duration": 4,
         "begin": "1950-10-15",
         "end": "1954-10-17",
         "parties": [
           {
             "name": "SED",
-            "deputes": 110,
+            "deputies": 110,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "FDGB",
-            "deputes": 49,
+            "deputies": 49,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "DBD",
-            "deputes": 33,
+            "deputies": 33,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "VdgB",
-            "deputes": 12,
+            "deputies": 12,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "FDJ",
-            "deputes": 25,
+            "deputies": 25,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "DFD",
-            "deputes": 20,
+            "deputies": 20,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "KB",
-            "deputes": 24,
+            "deputies": 24,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "VVN",
-            "deputes": 19,
+            "deputies": 19,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "Autres",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "CDU",
-            "deputes": 67,
+            "deputies": 67,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "LDP",
-            "deputes": 66,
+            "deputies": 66,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "NDPD",
-            "deputes": 35,
+            "deputies": 35,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
@@ -208,91 +208,91 @@
       },
       {
         "legislature": 1954,
-        "total_deputes": 466,
+        "total_deputies": 466,
         "duration": 4,
         "begin": "1954-10-17",
         "end": "1958-11-16",
         "parties": [
           {
             "name": "SED",
-            "deputes": 117,
+            "deputies": 117,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "FDGB",
-            "deputes": 53,
+            "deputies": 53,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "DBD",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "VdgB",
-            "deputes": 12,
+            "deputies": 12,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "FDJ",
-            "deputes": 29,
+            "deputies": 29,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "DFD",
-            "deputes": 29,
+            "deputies": 29,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "KB",
-            "deputes": 18,
+            "deputies": 18,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "VVN",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "Autres",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "CDU",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "LDPD",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "NDPD",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
@@ -304,77 +304,77 @@
       },
       {
         "legislature": 1958,
-        "total_deputes": 466,
+        "total_deputies": 466,
         "duration": 5,
         "begin": "1958-11-16",
         "end": "1963-10-20",
         "parties": [
           {
             "name": "SED",
-            "deputes": 117,
+            "deputies": 117,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "FDGB",
-            "deputes": 53,
+            "deputies": 53,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "DBD",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "VdgB",
-            "deputes": 12,
+            "deputies": 12,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "FDJ",
-            "deputes": 29,
+            "deputies": 29,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "DFD",
-            "deputes": 29,
+            "deputies": 29,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "DKB",
-            "deputes": 18,
+            "deputies": 18,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "CDU",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "LDPD",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "NDPD",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
@@ -386,77 +386,77 @@
       },
       {
         "legislature": 1963,
-        "total_deputes": 500,
+        "total_deputies": 500,
         "duration": 4,
         "begin": "1963-10-20",
         "end": "1967-07-02",
         "parties": [
           {
             "name": "SED",
-            "deputes": 127,
+            "deputies": 127,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "FDGB",
-            "deputes": 68,
+            "deputies": 68,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "DBD",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "VdgB",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "FDJ",
-            "deputes": 40,
+            "deputies": 40,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "DFD",
-            "deputes": 35,
+            "deputies": 35,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "DKB",
-            "deputes": 22,
+            "deputies": 22,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "CDU",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "LDPD",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "NDPD",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
@@ -468,70 +468,70 @@
       },
       {
         "legislature": 1967,
-        "total_deputes": 500,
+        "total_deputies": 500,
         "duration": 4,
         "begin": "1967-07-02",
         "end": "1971-11-14",
         "parties": [
           {
             "name": "SED",
-            "deputes": 127,
+            "deputies": 127,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "FDGB",
-            "deputes": 68,
+            "deputies": 68,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "DBD",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "FDJ",
-            "deputes": 40,
+            "deputies": 40,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "DFD",
-            "deputes": 35,
+            "deputies": 35,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "DKB",
-            "deputes": 22,
+            "deputies": 22,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "CDU",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "LDPD",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "NDPD",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
@@ -543,70 +543,70 @@
       },
       {
         "legislature": 1971,
-        "total_deputes": 500,
+        "total_deputies": 500,
         "duration": 5,
         "begin": "1971-11-14",
         "end": "1976-10-17",
         "parties": [
           {
             "name": "SED",
-            "deputes": 127,
+            "deputies": 127,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "FDGB",
-            "deputes": 68,
+            "deputies": 68,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "DBD",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "FDJ",
-            "deputes": 40,
+            "deputies": 40,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "DFD",
-            "deputes": 35,
+            "deputies": 35,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "DKB",
-            "deputes": 22,
+            "deputies": 22,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "CDU",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "LDPD",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "NDPD",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
@@ -618,70 +618,70 @@
       },
       {
         "legislature": 1976,
-        "total_deputes": 500,
+        "total_deputies": 500,
         "duration": 5,
         "begin": "1976-10-17",
         "end": "1981-06-14",
         "parties": [
           {
             "name": "SED",
-            "deputes": 127,
+            "deputies": 127,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "FDGB",
-            "deputes": 68,
+            "deputies": 68,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "DBD",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "FDJ",
-            "deputes": 40,
+            "deputies": 40,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "DFD",
-            "deputes": 35,
+            "deputies": 35,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "DKB",
-            "deputes": 22,
+            "deputies": 22,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "CDU",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "LDPD",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "NDPD",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
@@ -693,77 +693,77 @@
       },
       {
         "legislature": 1981,
-        "total_deputes": 500,
+        "total_deputies": 500,
         "duration": 5,
         "begin": "1981-06-14",
         "end": "1986-06-08",
         "parties": [
           {
             "name": "SED",
-            "deputes": 127,
+            "deputies": 127,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "FDGB",
-            "deputes": 68,
+            "deputies": 68,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "DBD",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "VdgB",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "FDJ",
-            "deputes": 40,
+            "deputies": 40,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "DFD",
-            "deputes": 35,
+            "deputies": 35,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "KB ",
-            "deputes": 22,
+            "deputies": 22,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "CDU",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "LDPD",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "NDPD",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
@@ -775,112 +775,112 @@
       },
       {
         "legislature": 1986,
-        "total_deputes": 500,
+        "total_deputies": 500,
         "duration": 4,
         "begin": "1986-06-08",
         "end": "1990-03-18",
         "parties": [
           {
             "name": "VL",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "SED",
-            "deputes": 127,
+            "deputies": 127,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "FDGB",
-            "deputes": 61,
+            "deputies": 61,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "B90",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "Gr/UFV",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "DBD",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "VdgB",
-            "deputes": 14,
+            "deputies": 14,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "FDJ",
-            "deputes": 37,
+            "deputies": 37,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "DFD",
-            "deputes": 32,
+            "deputies": 32,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "KB ",
-            "deputes": 21,
+            "deputies": 21,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "DA",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "CDU",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "LDPD",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "DSU",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
           },
           {
             "name": "NDPD",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Front national",
             "coalition_en": "National Front",
             "coalition_de": "Nationale Front"
@@ -892,83 +892,83 @@
       },
       {
         "legislature": 1990,
-        "total_deputes": 400,
+        "total_deputies": 400,
         "duration": 1,
         "begin": "1990-03-18",
         "end": "now",
         "parties": [
           {
             "name": "VL",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "PDS",
-            "deputes": 66
+            "deputies": 66
           },
           {
             "name": "FDGB",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "SPD",
-            "deputes": 88
+            "deputies": 88
           },
           {
             "name": "B90",
-            "deputes": 12
+            "deputies": 12
           },
           {
             "name": "Gr/UFV",
-            "deputes": 8
+            "deputies": 8
           },
           {
             "name": "DBD",
-            "deputes": 9
+            "deputies": 9
           },
           {
             "name": "VdgB",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "FDJ",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "DFD",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "KB ",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "DA",
-            "deputes": 4,
+            "deputies": 4,
             "coalition": "Alliance pour l'Allemagne",
             "coalition_en": "Alliance for Germany",
             "coalition_de": "Allianz für Deutschland"
           },
           {
             "name": "CDU",
-            "deputes": 163,
+            "deputies": 163,
             "coalition": "Alliance pour l'Allemagne",
             "coalition_en": "Alliance for Germany",
             "coalition_de": "Allianz für Deutschland"
           },
           {
             "name": "BFD",
-            "deputes": 21
+            "deputies": 21
           },
           {
             "name": "DSU",
-            "deputes": 25,
+            "deputies": 25,
             "coalition": "Alliance pour l'Allemagne",
             "coalition_en": "Alliance for Germany",
             "coalition_de": "Allianz für Deutschland"
           },
           {
             "name": "NDPD",
-            "deputes": 2
+            "deputies": 2
           }
         ],
         "source": [

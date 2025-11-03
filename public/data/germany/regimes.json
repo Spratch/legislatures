@@ -7,58 +7,58 @@
     "legislatures": [
       {
         "legislature": 1949,
-        "total_deputes": 402,
+        "total_deputies": 402,
         "duration": 4,
         "begin": "1949-09-07",
         "end": "1953-09-07",
         "parties": [
           {
             "name": "KPD",
-            "deputes": 15
+            "deputies": 15
           },
           {
             "name": "SPD",
-            "deputes": 131
+            "deputies": 131
           },
           {
             "name": "Autres",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "SSW",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "DZP",
-            "deputes": 10
+            "deputies": 10
           },
           {
             "name": "FDP",
-            "deputes": 52
+            "deputies": 52
           },
           {
             "name": "DP",
-            "deputes": 17
+            "deputies": 17
           },
           {
             "name": "CDU/CSU",
-            "deputes": 139
+            "deputies": 139
           },
           {
             "name": "BP",
-            "deputes": 17
+            "deputies": 17
           },
           {
             "name": "WAV",
-            "deputes": 12
+            "deputies": 12
           },
           {
             "name": "DKP-DRP",
-            "deputes": 5
+            "deputies": 5
           },
           {
             "name": "GB/BHE",
-            "deputes": 0
+            "deputies": 0
           }
         ],
         "source": [
@@ -67,58 +67,58 @@
       },
       {
         "legislature": 1953,
-        "total_deputes": 487,
+        "total_deputies": 487,
         "duration": 4,
         "begin": "1953-10-06",
         "end": "1957-10-06",
         "parties": [
           {
             "name": "KPD",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "SPD",
-            "deputes": 151
+            "deputies": 151
           },
           {
             "name": "Autres",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "SSW",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "DZP",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "FDP",
-            "deputes": 48
+            "deputies": 48
           },
           {
             "name": "DP",
-            "deputes": 15
+            "deputies": 15
           },
           {
             "name": "CDU/CSU",
-            "deputes": 243
+            "deputies": 243
           },
           {
             "name": "BP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "WAV",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "DKP-DRP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "GB/BHE",
-            "deputes": 27
+            "deputies": 27
           }
         ],
         "source": [
@@ -128,34 +128,34 @@
       },
       {
         "legislature": 1957,
-        "total_deputes": 497,
+        "total_deputies": 497,
         "duration": 4,
         "begin": "1957-10-15",
         "end": "1961-10-15",
         "parties": [
           {
             "name": "SPD",
-            "deputes": 169
+            "deputies": 169
           },
           {
             "name": "DZP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "FDP",
-            "deputes": 41
+            "deputies": 41
           },
           {
             "name": "DP",
-            "deputes": 17
+            "deputies": 17
           },
           {
             "name": "CDU/CSU",
-            "deputes": 270
+            "deputies": 270
           },
           {
             "name": "GB/BHE",
-            "deputes": 0
+            "deputies": 0
           }
         ],
         "source": [
@@ -165,26 +165,26 @@
       },
       {
         "legislature": 1961,
-        "total_deputes": 499,
+        "total_deputies": 499,
         "duration": 4,
         "begin": "1961-10-17",
         "end": "1965-10-17",
         "parties": [
           {
             "name": "SPD",
-            "deputes": 190
+            "deputies": 190
           },
           {
             "name": "FDP",
-            "deputes": 67
+            "deputies": 67
           },
           {
             "name": "DP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "CDU/CSU",
-            "deputes": 242
+            "deputies": 242
           }
         ],
         "source": [
@@ -194,22 +194,22 @@
       },
       {
         "legislature": 1965,
-        "total_deputes": 496,
+        "total_deputies": 496,
         "duration": 4,
         "begin": "1965-10-19",
         "end": "1969-10-19",
         "parties": [
           {
             "name": "SPD",
-            "deputes": 202
+            "deputies": 202
           },
           {
             "name": "FDP",
-            "deputes": 49
+            "deputies": 49
           },
           {
             "name": "CDU/CSU",
-            "deputes": 245
+            "deputies": 245
           }
         ],
         "source": [
@@ -218,22 +218,22 @@
       },
       {
         "legislature": 1969,
-        "total_deputes": 496,
+        "total_deputies": 496,
         "duration": 3,
         "begin": "1969-10-20",
         "end": "1972-12-13",
         "parties": [
           {
             "name": "SPD",
-            "deputes": 224
+            "deputies": 224
           },
           {
             "name": "FDP",
-            "deputes": 30
+            "deputies": 30
           },
           {
             "name": "CDU/CSU",
-            "deputes": 242
+            "deputies": 242
           }
         ],
         "source": [
@@ -242,22 +242,22 @@
       },
       {
         "legislature": 1972,
-        "total_deputes": 496,
+        "total_deputies": 496,
         "duration": 4,
         "begin": "1972-12-13",
         "end": "1976-12-13",
         "parties": [
           {
             "name": "SPD",
-            "deputes": 230
+            "deputies": 230
           },
           {
             "name": "FDP",
-            "deputes": 41
+            "deputies": 41
           },
           {
             "name": "CDU/CSU",
-            "deputes": 225
+            "deputies": 225
           }
         ],
         "source": [
@@ -266,22 +266,22 @@
       },
       {
         "legislature": 1976,
-        "total_deputes": 496,
+        "total_deputies": 496,
         "duration": 4,
         "begin": "1976-12-14",
         "end": "1980-11-04",
         "parties": [
           {
             "name": "SPD",
-            "deputes": 214
+            "deputies": 214
           },
           {
             "name": "FDP",
-            "deputes": 39
+            "deputies": 39
           },
           {
             "name": "CDU/CSU",
-            "deputes": 243
+            "deputies": 243
           }
         ],
         "source": [
@@ -290,26 +290,26 @@
       },
       {
         "legislature": 1980,
-        "total_deputes": 497,
+        "total_deputies": 497,
         "duration": 2,
         "begin": "1980-11-04",
         "end": "1983-03-29",
         "parties": [
           {
             "name": "Gr",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "SPD",
-            "deputes": 218
+            "deputies": 218
           },
           {
             "name": "FDP",
-            "deputes": 53
+            "deputies": 53
           },
           {
             "name": "CDU/CSU",
-            "deputes": 226
+            "deputies": 226
           }
         ],
         "source": [
@@ -318,26 +318,26 @@
       },
       {
         "legislature": 1983,
-        "total_deputes": 498,
+        "total_deputies": 498,
         "duration": 4,
         "begin": "1983-03-29",
         "end": "1987-02-18",
         "parties": [
           {
             "name": "Gr",
-            "deputes": 27
+            "deputies": 27
           },
           {
             "name": "SPD",
-            "deputes": 193
+            "deputies": 193
           },
           {
             "name": "FDP",
-            "deputes": 34
+            "deputies": 34
           },
           {
             "name": "CDU/CSU",
-            "deputes": 244
+            "deputies": 244
           }
         ],
         "source": [
@@ -347,30 +347,30 @@
       },
       {
         "legislature": 1987,
-        "total_deputes": 497,
+        "total_deputies": 497,
         "duration": 4,
         "begin": "1987-02-18",
         "end": "1990-12-20",
         "parties": [
           {
             "name": "PDS",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Gr",
-            "deputes": 42
+            "deputies": 42
           },
           {
             "name": "SPD",
-            "deputes": 186
+            "deputies": 186
           },
           {
             "name": "FDP",
-            "deputes": 46
+            "deputies": 46
           },
           {
             "name": "CDU/CSU",
-            "deputes": 223
+            "deputies": 223
           }
         ],
         "source": [
@@ -379,30 +379,30 @@
       },
       {
         "legislature": 1990,
-        "total_deputes": 662,
+        "total_deputies": 662,
         "duration": 4,
         "begin": "1990-12-20",
         "end": "1994-11-10",
         "parties": [
           {
             "name": "PDS",
-            "deputes": 17
+            "deputies": 17
           },
           {
             "name": "Gr",
-            "deputes": 8
+            "deputies": 8
           },
           {
             "name": "SPD",
-            "deputes": 239
+            "deputies": 239
           },
           {
             "name": "FDP",
-            "deputes": 79
+            "deputies": 79
           },
           {
             "name": "CDU/CSU",
-            "deputes": 319
+            "deputies": 319
           }
         ],
         "source": [
@@ -412,30 +412,30 @@
       },
       {
         "legislature": 1994,
-        "total_deputes": 672,
+        "total_deputies": 672,
         "duration": 4,
         "begin": "1994-11-10",
         "end": "1998-10-26",
         "parties": [
           {
             "name": "PDS",
-            "deputes": 30
+            "deputies": 30
           },
           {
             "name": "Gr",
-            "deputes": 49
+            "deputies": 49
           },
           {
             "name": "SPD",
-            "deputes": 252
+            "deputies": 252
           },
           {
             "name": "FDP",
-            "deputes": 47
+            "deputies": 47
           },
           {
             "name": "CDU/CSU",
-            "deputes": 294
+            "deputies": 294
           }
         ],
         "source": [
@@ -444,30 +444,30 @@
       },
       {
         "legislature": 1998,
-        "total_deputes": 669,
+        "total_deputies": 669,
         "duration": 4,
         "begin": "1998-10-26",
         "end": "2002-10-17",
         "parties": [
           {
             "name": "PDS",
-            "deputes": 36
+            "deputies": 36
           },
           {
             "name": "Gr",
-            "deputes": 47
+            "deputies": 47
           },
           {
             "name": "SPD",
-            "deputes": 298
+            "deputies": 298
           },
           {
             "name": "FDP",
-            "deputes": 43
+            "deputies": 43
           },
           {
             "name": "CDU/CSU",
-            "deputes": 245
+            "deputies": 245
           }
         ],
         "source": [
@@ -476,30 +476,30 @@
       },
       {
         "legislature": 2002,
-        "total_deputes": 603,
+        "total_deputies": 603,
         "duration": 3,
         "begin": "2002-10-17",
         "end": "2005-10-18",
         "parties": [
           {
             "name": "PDS",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "Gr",
-            "deputes": 55
+            "deputies": 55
           },
           {
             "name": "SPD",
-            "deputes": 251
+            "deputies": 251
           },
           {
             "name": "FDP",
-            "deputes": 47
+            "deputies": 47
           },
           {
             "name": "CDU/CSU",
-            "deputes": 248
+            "deputies": 248
           }
         ],
         "source": [
@@ -508,30 +508,30 @@
       },
       {
         "legislature": 2005,
-        "total_deputes": 614,
+        "total_deputies": 614,
         "duration": 4,
         "begin": "2005-10-18",
         "end": "2009-10-27",
         "parties": [
           {
             "name": "DL.PDS",
-            "deputes": 54
+            "deputies": 54
           },
           {
             "name": "Gr",
-            "deputes": 51
+            "deputies": 51
           },
           {
             "name": "SPD",
-            "deputes": 222
+            "deputies": 222
           },
           {
             "name": "FDP",
-            "deputes": 61
+            "deputies": 61
           },
           {
             "name": "CDU/CSU",
-            "deputes": 226
+            "deputies": 226
           }
         ],
         "source": [
@@ -540,30 +540,30 @@
       },
       {
         "legislature": 2009,
-        "total_deputes": 622,
+        "total_deputies": 622,
         "duration": 4,
         "begin": "2009-10-27",
         "end": "2013-10-22",
         "parties": [
           {
             "name": "DL",
-            "deputes": 76
+            "deputies": 76
           },
           {
             "name": "Gr",
-            "deputes": 68
+            "deputies": 68
           },
           {
             "name": "SPD",
-            "deputes": 146
+            "deputies": 146
           },
           {
             "name": "FDP",
-            "deputes": 93
+            "deputies": 93
           },
           {
             "name": "CDU/CSU",
-            "deputes": 239
+            "deputies": 239
           }
         ],
         "source": [
@@ -572,34 +572,34 @@
       },
       {
         "legislature": 2013,
-        "total_deputes": 631,
+        "total_deputies": 631,
         "duration": 4,
         "begin": "2013-10-22",
         "end": "2017-10-24",
         "parties": [
           {
             "name": "DL",
-            "deputes": 64
+            "deputies": 64
           },
           {
             "name": "Gr",
-            "deputes": 63
+            "deputies": 63
           },
           {
             "name": "SPD",
-            "deputes": 193
+            "deputies": 193
           },
           {
             "name": "FDP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "CDU/CSU",
-            "deputes": 311
+            "deputies": 311
           },
           {
             "name": "AfD",
-            "deputes": 0
+            "deputies": 0
           }
         ],
         "source": [
@@ -608,38 +608,38 @@
       },
       {
         "legislature": 2017,
-        "total_deputes": 709,
+        "total_deputies": 709,
         "duration": 4,
         "begin": "2017-10-24",
         "end": "2021-10-26",
         "parties": [
           {
             "name": "DL",
-            "deputes": 69
+            "deputies": 69
           },
           {
             "name": "Gr",
-            "deputes": 67
+            "deputies": 67
           },
           {
             "name": "SPD",
-            "deputes": 153
+            "deputies": 153
           },
           {
             "name": "SSW",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "FDP",
-            "deputes": 80
+            "deputies": 80
           },
           {
             "name": "CDU/CSU",
-            "deputes": 246
+            "deputies": 246
           },
           {
             "name": "AfD",
-            "deputes": 94
+            "deputies": 94
           }
         ],
         "source": [
@@ -648,38 +648,38 @@
       },
       {
         "legislature": 2021,
-        "total_deputes": 736,
+        "total_deputies": 736,
         "duration": 4,
         "begin": "2021-10-26",
         "end": "2025-03-25",
         "parties": [
           {
             "name": "DL",
-            "deputes": 39
+            "deputies": 39
           },
           {
             "name": "Gr",
-            "deputes": 118
+            "deputies": 118
           },
           {
             "name": "SPD",
-            "deputes": 206
+            "deputies": 206
           },
           {
             "name": "SSW",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "FDP",
-            "deputes": 92
+            "deputies": 92
           },
           {
             "name": "CDU/CSU",
-            "deputes": 197
+            "deputies": 197
           },
           {
             "name": "AfD",
-            "deputes": 83
+            "deputies": 83
           }
         ],
         "source": [
@@ -688,38 +688,38 @@
       },
       {
         "legislature": 2025,
-        "total_deputes": 630,
+        "total_deputies": 630,
         "duration": 1,
         "begin": "2025-03-25",
         "end": "now",
         "parties": [
           {
             "name": "DL",
-            "deputes": 64
+            "deputies": 64
           },
           {
             "name": "Gr",
-            "deputes": 85
+            "deputies": 85
           },
           {
             "name": "SPD",
-            "deputes": 120
+            "deputies": 120
           },
           {
             "name": "SSW",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "FDP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "CDU/CSU",
-            "deputes": 208
+            "deputies": 208
           },
           {
             "name": "AfD",
-            "deputes": 152
+            "deputies": 152
           }
         ],
         "source": [

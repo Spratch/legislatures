@@ -37,7 +37,7 @@ export default function PartyBar({
   const coalitionStrokeWidth = 0.75;
   const strokeOffset = coalitionStrokeWidth / 2;
 
-  const srDescription = `${party.deputes} ${dict.seats}. ${dict.current}: ${
+  const srDescription = `${party.deputies} ${dict.seats}. ${dict.current}: ${
     party.current.name
   }. ${party.coalition ? dict.coalition + party.coalition : ""}`;
 
@@ -54,7 +54,7 @@ export default function PartyBar({
       animate={{ x: partyX }}
       transition={{ duration: transitionDuration }}
       aria-label={party.full_name}
-      aria-hidden={party.deputes === 0}
+      aria-hidden={party.deputies === 0}
       role="listitem"
     >
       <text className="sr-only">{srDescription}</text>
@@ -97,7 +97,7 @@ export default function PartyBar({
               fontSize={10}
               aria-hidden
             >
-              {party.deputes}
+              {party.deputies}
             </text>
           )}
         </>

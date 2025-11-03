@@ -55,7 +55,7 @@ export default function Legislature({
         current.parties.find((p) => p.name === party.name)
       )
     ) {
-      return accumulator + party.deputes;
+      return accumulator + party.deputies;
     } else {
       return accumulator;
     }
@@ -69,7 +69,7 @@ export default function Legislature({
             current.parties.find((p) => p.name === party.name)
           )
         ) {
-          return accumulator + party.deputes;
+          return accumulator + party.deputies;
         } else {
           return accumulator;
         }
@@ -84,7 +84,7 @@ export default function Legislature({
 
   // Screen readers
   const mostImportantParty = leg.parties.reduce((a, b) =>
-    a.deputes > b.deputes ? a : b
+    a.deputies > b.deputies ? a : b
   );
   // Find most important coalition by reducing deputies number of all parties having the same coalition
   const coalitionsParties = leg.parties.filter((p) => p.coalition);
@@ -92,32 +92,32 @@ export default function Legislature({
     (acc, party) => {
       if (party.coalition) {
         if (!acc[party.coalition]) {
-          acc[party.coalition] = { name: party.coalition, deputes: 0 };
+          acc[party.coalition] = { name: party.coalition, deputies: 0 };
         }
-        acc[party.coalition].deputes += party.deputes;
+        acc[party.coalition].deputies += party.deputies;
       }
       return acc;
     },
-    {} as { [key: string]: { name: string; deputes: number } }
+    {} as { [key: string]: { name: string; deputies: number } }
   );
 
   // Find the coalition with the most deputies
   const mostImportantCoalition = Object.values(coalitionsDeputies).reduce(
-    (a, b) => (a.deputes > b.deputes ? a : b),
-    { name: "", deputes: 0 }
+    (a, b) => (a.deputies > b.deputies ? a : b),
+    { name: "", deputies: 0 }
   );
   const isPartyMostImportantEntity =
-    mostImportantParty.deputes > mostImportantCoalition.deputes;
+    mostImportantParty.deputies > mostImportantCoalition.deputies;
 
   const srDescription = isPartyMostImportantEntity
     ? `${dict.majorityCurrent}: ${mostImportantParty.current.name} ${
         dict.with
       }: ${mostImportantParty.full_name}, (${(
-        (mostImportantParty.deputes / leg.total_deputes) *
+        (mostImportantParty.deputies / leg.total_deputies) *
         100
       ).toFixed(0)}%).`
     : `${dict.majorityCoalition}: ${mostImportantCoalition.name}, (${(
-        (mostImportantCoalition.deputes / leg.total_deputes) *
+        (mostImportantCoalition.deputies / leg.total_deputies) *
         100
       ).toFixed(0)}%)`;
 
@@ -149,7 +149,7 @@ export default function Legislature({
           );
           // Generate the width of the party with a percentage of the graph width
           const partyWidth = isVisible
-            ? graphWidth * (party.deputes / filteredTotalDeputies) || 0
+            ? graphWidth * (party.deputies / filteredTotalDeputies) || 0
             : 0;
           // Generate the x position of the party by summing the width of the previous parties
           const partyX =
@@ -163,7 +163,7 @@ export default function Legislature({
                   return isIteratedPartyVisible
                     ? accumulator +
                         graphWidth *
-                          (iteratedParty.deputes / filteredTotalDeputies) || 0
+                          (iteratedParty.deputies / filteredTotalDeputies) || 0
                     : accumulator;
                 }, 0);
           // Check if the party is in a coalition, and if it's the first or last party of the coalition, and what is its most important party color
@@ -202,15 +202,15 @@ export default function Legislature({
             const coalitionParties = leg.parties.filter(
               (p) => p.coalition === party.coalition
             );
-            // Calculate the total number of deputes in the coalition
+            // Calculate the total number of deputies in the coalition
             const coalitionTotalDeputies = coalitionParties.reduce(
-              (accumulator, party) => accumulator + party.deputes,
+              (accumulator, party) => accumulator + party.deputies,
               0
             );
             coalitionDatas.deputies = coalitionTotalDeputies;
             // Get the most important party in the coalition
             const coalitionMainParty = coalitionParties.reduce((a, b) =>
-              a.deputes > b.deputes ? a : b
+              a.deputies > b.deputies ? a : b
             );
             coalitionDatas.color = coalitionMainParty.current.color;
           }
@@ -238,8 +238,8 @@ export default function Legislature({
           // Generate the next party width
           const nextPartyWidth = nextLeg
             ? nextPartyIsVisible
-              ? graphWidth * (nextParty?.deputes / filteredNextTotalDeputies) ||
-                0
+              ? graphWidth *
+                  (nextParty?.deputies / filteredNextTotalDeputies) || 0
               : 0
             : null;
 
@@ -255,8 +255,8 @@ export default function Legislature({
                   return isIteratedPartyVisible
                     ? accumulator +
                         graphWidth *
-                          (iteratedParty.deputes / filteredNextTotalDeputies) ||
-                        0
+                          (iteratedParty.deputies /
+                            filteredNextTotalDeputies) || 0
                     : accumulator;
                 }, 0)
             : null;
@@ -286,7 +286,7 @@ export default function Legislature({
               key={party.name}
               className={`${leg.legislature}-${party.current?.name
                 .toLowerCase()
-                .replace(/[^a-z]+/g, "")} ${party.deputes} ${partyWidth}`}
+                .replace(/[^a-z]+/g, "")} ${party.deputies} ${partyWidth}`}
               onMouseEnter={() =>
                 partyWidth > 0 ? setTooltipContent(tooltipContent) : {}
               }

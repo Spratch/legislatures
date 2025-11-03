@@ -42,7 +42,7 @@
           "description": "A legislature",
           "required": [
             "legislature",
-            "total_deputes",
+            "total_deputies",
             "begin",
             "end",
             "parties"
@@ -53,7 +53,7 @@
               "type": "number",
               "description": "The year of the legislature, but also its identifier, so it must be unique within the regime (use 1910 and 1910.5 if there are two sessions in the same year)"
             },
-            "total_deputes": {
+            "total_deputies": {
               "type": "number",
               "description": "The total number of deputies in this legislature"
             },
@@ -101,14 +101,14 @@
               "items": {
                 "type": "object",
                 "description": "A party in this legislature",
-                "required": ["name", "deputes"],
+                "required": ["name", "deputies"],
                 "additionalProperties": false,
                 "properties": {
                   "name": {
                     "type": "string",
                     "description": "The identifier of the party, must match a party in families.json"
                   },
-                  "deputes": {
+                  "deputies": {
                     "type": "number",
                     "description": "The number of deputies for this party in this legislature"
                   },

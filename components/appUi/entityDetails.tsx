@@ -1,21 +1,21 @@
-import Image from "next/image";
-import EntityButton from "./entityButton";
-import Badge from "./badge";
-import WikiLink from "./wikiLink";
-import { Cross1Icon, EyeClosedIcon, EyeOpenIcon } from "@radix-ui/react-icons";
-import { Key, useCallback, useEffect, useRef, useState } from "react";
 import { CurrentType } from "@/types/current";
 import { EventType } from "@/types/event";
 import { PartyType } from "@/types/party";
 import { useVisibleCurrentsContext } from "@/utils/contexts/currentsContext";
-import truncateString from "@/utils/truncateString";
-import IconButton from "./iconButton";
-import useKeyPress from "@/utils/hooks/useKeyPress";
-import { useHorizontalScroll } from "@/utils/hooks/useHorizontalScroll";
 import { useDictionary } from "@/utils/contexts/dictionaryContext";
-import { getLangKey } from "../utils/getLangKey";
+import { useHorizontalScroll } from "@/utils/hooks/useHorizontalScroll";
+import useKeyPress from "@/utils/hooks/useKeyPress";
+import truncateString from "@/utils/truncateString";
+import { Cross1Icon, EyeClosedIcon, EyeOpenIcon } from "@radix-ui/react-icons";
 import { useAtom } from "jotai";
+import Image from "next/image";
+import { Key, useCallback, useEffect, useRef, useState } from "react";
 import { detailsContentAtom } from "../utils/contexts/atoms";
+import { getLangKey } from "../utils/getLangKey";
+import Badge from "./badge";
+import EntityButton from "./entityButton";
+import IconButton from "./iconButton";
+import WikiLink from "./wikiLink";
 
 export default function EntityDetails() {
   const dictionary = useDictionary();
@@ -90,7 +90,7 @@ export default function EntityDetails() {
   }, [entity, pageTitle, dict, lang]);
 
   // Get the sub entities
-  const subEntities = current?.parties || party?.persons || null;
+  const subEntities = current?.parties || null;
 
   // Determine if the displayed current is visible or not
   const { visibleCurrents, setVisibleCurrents } = useVisibleCurrentsContext();
@@ -182,56 +182,48 @@ export default function EntityDetails() {
         {/* Buttons bar */}
         <div className="flex w-full justify-between gap-2">
           {/* If current, add a button to display or hide it */}
-          {
-            current ? (
-              <IconButton
-                Icon={isVisible ? EyeOpenIcon : EyeClosedIcon}
-                label={isVisible ? dict.hideCurrent : dict.showCurrent}
-                onClick={() => handleVisibility()}
-              />
-            ) : // If party, display the parent badge
-            party ? (
-              <Badge
-                name={(parent as CurrentType)[getLangKey("name", lang)]}
-                hex={(parent as CurrentType).color}
-                label={`${dict.current}: ${
-                  (parent as CurrentType)[getLangKey("name", lang)]
-                }`}
-                onClick={() => onClick(parent)}
-              />
-            ) : // If event, display dates and type
-            event ? (
-              (() => {
-                const beginDate = new Date(event.begin).getFullYear();
-                const endDate = new Date(event.end).getFullYear();
-                return (
-                  <div className="flex items-stretch gap-2">
-                    <div className="flex h-9 items-center rounded-full border border-dashed border-black/20 px-2.5 text-sm leading-none text-black/50">
-                      {endDate !== beginDate
-                        ? `${beginDate} → ${endDate}`
-                        : beginDate}
-                    </div>
-                    {event.type && (
-                      <Badge
-                        name={eventTypeTitle}
-                        hex={eventTypeColor}
-                        label={eventTypeTitle}
-                        isClickable={false}
-                      />
-                    )}
+          {current ? (
+            <IconButton
+              Icon={isVisible ? EyeOpenIcon : EyeClosedIcon}
+              label={isVisible ? dict.hideCurrent : dict.showCurrent}
+              onClick={() => handleVisibility()}
+            />
+          ) : // If party, display the parent badge
+          party ? (
+            <Badge
+              name={(parent as CurrentType)[getLangKey("name", lang)]}
+              hex={(parent as CurrentType).color}
+              label={`${dict.current}: ${
+                (parent as CurrentType)[getLangKey("name", lang)]
+              }`}
+              onClick={() => onClick(parent)}
+            />
+          ) : // If event, display dates and type
+          event ? (
+            (() => {
+              const beginDate = new Date(event.begin).getFullYear();
+              const endDate = new Date(event.end).getFullYear();
+              return (
+                <div className="flex items-stretch gap-2">
+                  <div className="flex h-9 items-center rounded-full border border-dashed border-black/20 px-2.5 text-sm leading-none text-black/50">
+                    {endDate !== beginDate
+                      ? `${beginDate} → ${endDate}`
+                      : beginDate}
                   </div>
-                );
-              })()
-            ) : (
-              <div></div>
-            )
-            // // If person, display the parent button
-            // : <EntityButton
-            //     entity={parent}
-            //     onClick={() => {}}
-            //     isActive={true}
-            // />
-          }
+                  {event.type && (
+                    <Badge
+                      name={eventTypeTitle}
+                      hex={eventTypeColor}
+                      label={eventTypeTitle}
+                      isClickable={false}
+                    />
+                  )}
+                </div>
+              );
+            })()
+          ) : (
+            <div></div>
+          )}
           <IconButton
             Icon={Cross1Icon}
             label={dict.close}
@@ -288,9 +280,7 @@ export default function EntityDetails() {
               subEntities ? "block" : "hidden"
             }`}
           >
-            <h3 className="font-bold">
-              {current ? dict.parties : dict.persons}
-            </h3>
+            <h3 className="font-bold">{dict.parties}</h3>
             <ul
               ref={detailsScrollRef}
               className="no-scrollbar flex w-full justify-start gap-1.5 overflow-x-scroll"

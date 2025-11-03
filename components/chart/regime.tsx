@@ -9,8 +9,8 @@ import { motion } from "framer-motion";
 import { getLangKey } from "../utils/getLangKey";
 import Legislature from "./legislature";
 
-type RepublicProps = {
-  republic: RegimeType;
+type RegimeProps = {
+  regime: RegimeType;
   index: number;
   axisLeftPosition: number;
   minHeight: number;
@@ -20,29 +20,29 @@ type RepublicProps = {
   nextRepFirstLeg: LegislatureType | null;
 };
 
-export default function Republic({
-  republic,
+export default function Regime({
+  regime,
   axisLeftPosition,
   minHeight,
   firstLegislature,
   dimensions,
   currents,
   nextRepFirstLeg
-}: RepublicProps) {
+}: RegimeProps) {
   const dictionary = useDictionary();
   const lang = dictionary.locale.lang;
   const dict = dictionary.regime;
 
-  // Add the next rep first legislature to the current republic
-  const republicWithNextRepFirstLeg = nextRepFirstLeg
+  // Add the next rep first legislature to the current regime
+  const regimeWithNextRepFirstLeg = nextRepFirstLeg
     ? {
-        ...republic,
-        legislatures: [...republic.legislatures, nextRepFirstLeg]
+        ...regime,
+        legislatures: [...regime.legislatures, nextRepFirstLeg]
       }
-    : republic;
+    : regime;
 
   // Give an index to each legislature and currents to each party
-  const legislaturesWithIndexes = republicWithNextRepFirstLeg.legislatures.map(
+  const legislaturesWithIndexes = regimeWithNextRepFirstLeg.legislatures.map(
     (leg, i) => {
       // In legislature, find the corresponding current for each party
       const partiesWithCurrents = leg.parties
@@ -75,14 +75,14 @@ export default function Republic({
     }
   );
 
-  const firstLegOfRegime = republic.legislatures[0];
-  const regimeY = (getDate(republic.begin) - firstLegislature) * minHeight;
+  const firstLegOfRegime = regime.legislatures[0];
+  const regimeY = (getDate(regime.begin) - firstLegislature) * minHeight;
   const regimeWidth = dimensions.boundedWidth - axisLeftPosition;
 
-  const republicDescription = `(${dict.from} ${getYear(
-    getDate(republic.begin)
-  )} ${dict.to} ${getYear(getDate(republic.end)) || dict.today}). ${
-    republic.legislatures.length
+  const regimeDescription = `(${dict.from} ${getYear(
+    getDate(regime.begin)
+  )} ${dict.to} ${getYear(getDate(regime.end)) || dict.today}). ${
+    regime.legislatures.length
   } ${dict.legislatures}.`;
 
   // Calculate the width of the graph from the bounded width and the axis left position percentage
@@ -91,11 +91,11 @@ export default function Republic({
 
   return (
     <g
-      aria-labelledby={`regime-${republic.begin}-label`}
-      // aria-describedby={`regime-${republic.begin}-description`}
-      aria-details={`regime-${republic.begin}-description`}
-      key={republic.name}
-      className={`regime-${republic.name}`}
+      aria-labelledby={`regime-${regime.begin}-label`}
+      // aria-describedby={`regime-${regime.begin}-description`}
+      aria-details={`regime-${regime.begin}-description`}
+      key={regime.name}
+      className={`regime-${regime.name}`}
       transform={`translate(${axisLeftPosition}, 0)`}
       role="listitem"
     >
@@ -154,13 +154,13 @@ export default function Republic({
         <g className="pointer-events-none">
           <text
             aria-hidden
-            id={`regime-${republic.begin}-description`}
+            id={`regime-${regime.begin}-description`}
             className="sr-only"
           >
-            {republicDescription}
+            {regimeDescription}
           </text>
           <motion.text
-            id={`regime-${republic.begin}-label`}
+            id={`regime-${regime.begin}-label`}
             dy={-4}
             fontSize={12}
             textAnchor="middle"
@@ -174,7 +174,7 @@ export default function Republic({
             }}
             transition={{ duration: 0.5 }}
           >
-            {republic[getLangKey("name", lang)]}
+            {regime[getLangKey("name", lang)]}
           </motion.text>
           <motion.line
             x1={0}

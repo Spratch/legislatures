@@ -1,20 +1,20 @@
 import { CurrentType } from "@/types/current";
 import { EventType } from "@/types/event";
 import { RegimeType } from "@/types/regime";
-import Tooltip from "../appUi/tooltip";
 import {
-  tooltipContentAtom,
   detailsContentAtom,
+  tooltipContentAtom,
   transitionsVisibilityAtom
 } from "@/utils/contexts/atoms";
+import { useDictionary } from "@/utils/contexts/dictionaryContext";
+import getDate from "@/utils/getDate";
 import useChartDimensions from "@/utils/hooks/useChartDimensions";
+import { useAtomValue, useSetAtom } from "jotai";
+import Tooltip from "../appUi/tooltip";
 import Event from "./event";
-import Republic from "./republic";
+import Regime from "./regime";
 import XAxis from "./xAxis";
 import YAxis from "./yAxis";
-import getDate from "@/utils/getDate";
-import { useAtomValue, useSetAtom } from "jotai";
-import { useDictionary } from "@/utils/contexts/dictionaryContext";
 
 type Props = {
   regimes: RegimeType[];
@@ -188,10 +188,10 @@ export default function Chart({
           role="list"
           aria-label={dict.regimesList}
         >
-          {regimes.map((republic, index) => (
-            <Republic
-              key={republic.name}
-              republic={republic}
+          {regimes.map((regime, index) => (
+            <Regime
+              key={regime.name}
+              regime={regime}
               index={index + 1}
               axisLeftPosition={axisLeftPosition}
               minHeight={minHeight}
@@ -199,7 +199,7 @@ export default function Chart({
               dimensions={dimensions}
               currents={currents}
               nextRepFirstLeg={
-                regimes[regimes.indexOf(republic) + 1]?.legislatures[0]
+                regimes[regimes.indexOf(regime) + 1]?.legislatures[0]
               }
             />
           ))}
@@ -208,7 +208,7 @@ export default function Chart({
         <YAxis
           domain={[firstLegislature, lastLegislature]}
           range={[0, totalDuration * minHeight]}
-          legislatures={regimes.map((republic) => republic.legislatures).flat()}
+          legislatures={regimes.map((regime) => regime.legislatures).flat()}
           axisLeftPosition={axisLeftPosition}
         />
       </svg>

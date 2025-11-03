@@ -8,26 +8,26 @@
     "legislatures": [
       {
         "legislature": 1791,
-        "total_deputes": 745,
+        "total_deputies": 745,
         "duration": 1,
         "begin": "1791-10-01",
         "end": "1792-09-21",
         "parties": [
           {
             "name": "MON",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "GIR",
-            "deputes": 136
+            "deputies": 136
           },
           {
             "name": "MAR",
-            "deputes": 345
+            "deputies": 345
           },
           {
             "name": "FEU",
-            "deputes": 264
+            "deputies": 264
           }
         ]
       }
@@ -42,75 +42,75 @@
     "legislatures": [
       {
         "legislature": 1792,
-        "total_deputes": 749,
+        "total_deputies": 749,
         "duration": 3,
         "begin": "1792-09-21",
         "end": "1795-10-26",
         "parties": [
           {
             "name": "EXG",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "MON",
-            "deputes": 200
+            "deputies": 200
           },
           {
             "name": "GIR",
-            "deputes": 160
+            "deputies": 160
           },
           {
             "name": "MAR",
-            "deputes": 389
+            "deputies": 389
           },
           {
             "name": "Autres",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "CLY",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "ROY",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       },
       {
         "legislature": 1795,
-        "total_deputes": 477,
+        "total_deputies": 477,
         "duration": 4,
         "begin": "1795-10-27",
         "end": "1799-04-16",
         "parties": [
           {
             "name": "EXG",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "MON",
-            "deputes": 106
+            "deputies": 106
           },
           {
             "name": "GIR",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "THER",
-            "deputes": 135
+            "deputies": 135
           },
           {
             "name": "Indé",
-            "deputes": 44
+            "deputies": 44
           },
           {
             "name": "CLY",
-            "deputes": 159
+            "deputies": 159
           },
           {
             "name": "ROY",
-            "deputes": 33
+            "deputies": 33
           }
         ],
         "source": [
@@ -122,42 +122,42 @@
       },
       {
         "legislature": 1799,
-        "total_deputes": 500,
+        "total_deputies": 500,
         "duration": 1,
         "begin": "1799-04-16",
         "end": "1799-12-26",
         "parties": [
           {
             "name": "EXG",
-            "deputes": 30
+            "deputies": 30
           },
           {
             "name": "MON",
-            "deputes": 240
+            "deputies": 240
           },
           {
             "name": "GIR",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "MAR",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Autres",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "CLY",
-            "deputes": 150
+            "deputies": 150
           },
           {
             "name": "BNP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "ROY",
-            "deputes": 80
+            "deputies": 80
           }
         ],
         "source": [
@@ -175,34 +175,34 @@
     "legislatures": [
       {
         "legislature": 1800,
-        "total_deputes": 300,
+        "total_deputies": 300,
         "duration": 14,
         "begin": "1800-01-01",
         "end": "1814-06-04",
         "parties": [
           {
             "name": "EXG",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "MON",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "LIB",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "CLY",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "BNP",
-            "deputes": 300
+            "deputies": 300
           },
           {
             "name": "ROY",
-            "deputes": 0
+            "deputies": 0
           }
         ],
         "source": [
@@ -220,34 +220,34 @@
     "legislatures": [
       {
         "legislature": 1814,
-        "total_deputes": 300,
+        "total_deputies": 300,
         "duration": 1,
         "begin": "1814-06-04",
         "end": "1815-03-20",
         "parties": [
           {
             "name": "EXG",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "MON",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "LIB",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "CLY",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "BNP",
-            "deputes": 300
+            "deputies": 300
           },
           {
             "name": "ROY",
-            "deputes": 0
+            "deputies": 0
           }
         ],
         "source": [
@@ -266,30 +266,30 @@
     "legislatures": [
       {
         "legislature": 1815,
-        "total_deputes": 630,
+        "total_deputies": 630,
         "duration": 1,
         "begin": "1815-06-03",
         "end": "1815-07-13",
         "parties": [
           {
             "name": "REP ",
-            "deputes": 40
+            "deputies": 40
           },
           {
             "name": "LIB",
-            "deputes": 510
+            "deputies": 510
           },
           {
             "name": "DOC",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "BNP",
-            "deputes": 80
+            "deputies": 80
           },
           {
             "name": "UR  ",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       }
@@ -304,130 +304,130 @@
     "legislatures": [
       {
         "legislature": 1815,
-        "total_deputes": 400,
+        "total_deputies": 400,
         "duration": 1,
         "begin": "1815-10-07",
         "end": "1816-09-05",
         "parties": [
           {
             "name": "REP ",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "LIB",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "DOC",
-            "deputes": 50
+            "deputies": 50
           },
           {
             "name": "BNP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "UR  ",
-            "deputes": 350
+            "deputies": 350
           }
         ]
       },
       {
         "legislature": 1816,
-        "total_deputes": 258,
+        "total_deputies": 258,
         "duration": 4,
         "begin": "1816-11-04",
         "end": "1823-12-24",
         "parties": [
           {
             "name": "REP ",
-            "deputes": 20
+            "deputies": 20
           },
           {
             "name": "LIB",
-            "deputes": 10
+            "deputies": 10
           },
           {
             "name": "DOC",
-            "deputes": 136
+            "deputies": 136
           },
           {
             "name": "UR  ",
-            "deputes": 92
+            "deputies": 92
           }
         ]
       },
       {
         "legislature": 1824,
-        "total_deputes": 430,
+        "total_deputies": 430,
         "duration": 3,
         "begin": "1824-03-23",
         "end": "1827-11-05",
         "parties": [
           {
             "name": "REP ",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "LIB",
-            "deputes": 17
+            "deputies": 17
           },
           {
             "name": "CD ",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "UR  ",
-            "deputes": 413
+            "deputies": 413
           },
           {
             "name": "UCO",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       },
       {
         "legislature": 1827,
-        "total_deputes": 430,
+        "total_deputies": 430,
         "duration": 3,
         "begin": "1828-02-05",
         "end": "1830-05-16",
         "parties": [
           {
             "name": "LIB",
-            "deputes": 185
+            "deputies": 185
           },
           {
             "name": "UR  ",
-            "deputes": 170
+            "deputies": 170
           },
           {
             "name": "UCO",
-            "deputes": 75
+            "deputies": 75
           }
         ]
       },
       {
         "legislature": 1830,
-        "total_deputes": 556,
+        "total_deputies": 556,
         "duration": 1,
         "begin": "1830-06-23",
         "end": "1831-05-31",
         "parties": [
           {
             "name": "LIB",
-            "deputes": 274
+            "deputies": 274
           },
           {
             "name": "PdR",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "UR  ",
-            "deputes": 282
+            "deputies": 282
           },
           {
             "name": "UCO",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       }
@@ -442,167 +442,167 @@
     "legislatures": [
       {
         "legislature": 1831,
-        "total_deputes": 459,
+        "total_deputies": 459,
         "duration": 3,
         "begin": "1831-07-23",
         "end": "1834-05-25",
         "parties": [
           {
             "name": "PdM",
-            "deputes": 73
+            "deputies": 73
           },
           {
             "name": "TP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PdR",
-            "deputes": 282
+            "deputies": 282
           },
           {
             "name": "LEG",
-            "deputes": 104
+            "deputies": 104
           }
         ]
       },
       {
         "legislature": 1834,
-        "total_deputes": 460,
+        "total_deputies": 460,
         "duration": 3,
         "begin": "1834-07-31",
         "end": "1837-10-03",
         "parties": [
           {
             "name": "RC",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PdM",
-            "deputes": 75
+            "deputies": 75
           },
           {
             "name": "TP",
-            "deputes": 50
+            "deputies": 50
           },
           {
             "name": "PdR",
-            "deputes": 320
+            "deputies": 320
           },
           {
             "name": "ORL",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "LEG",
-            "deputes": 15
+            "deputies": 15
           }
         ]
       },
       {
         "legislature": 1837,
-        "total_deputes": 464,
+        "total_deputies": 464,
         "duration": 1,
         "begin": "1837-12-18",
         "end": "1839-02-02",
         "parties": [
           {
             "name": "RC",
-            "deputes": 19
+            "deputies": 19
           },
           {
             "name": "PdM",
-            "deputes": 142
+            "deputies": 142
           },
           {
             "name": "TP",
-            "deputes": 56
+            "deputies": 56
           },
           {
             "name": "PdR",
-            "deputes": 205
+            "deputies": 205
           },
           {
             "name": "ORL",
-            "deputes": 168
+            "deputies": 168
           },
           {
             "name": "LEG",
-            "deputes": 15
+            "deputies": 15
           }
         ]
       },
       {
         "legislature": 1839,
-        "total_deputes": 459,
+        "total_deputies": 459,
         "duration": 3,
         "begin": "1839-04-04",
         "end": "1842-06-12",
         "parties": [
           {
             "name": "RC",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PdM",
-            "deputes": 240
+            "deputies": 240
           },
           {
             "name": "TP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PdR",
-            "deputes": 199
+            "deputies": 199
           },
           {
             "name": "ORL",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "LEG",
-            "deputes": 20
+            "deputies": 20
           }
         ]
       },
       {
         "legislature": 1842,
-        "total_deputes": 459,
+        "total_deputies": 459,
         "duration": 4,
         "begin": "1842-07-26",
         "end": "1846-07-06",
         "parties": [
           {
             "name": "PdM",
-            "deputes": 193
+            "deputies": 193
           },
           {
             "name": "PdR",
-            "deputes": 266
+            "deputies": 266
           },
           {
             "name": "LEG",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       },
       {
         "legislature": 1846,
-        "total_deputes": 458,
+        "total_deputies": 458,
         "duration": 2,
         "begin": "1846-08-17",
         "end": "1848-02-24",
         "parties": [
           {
             "name": "MTG",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PdM",
-            "deputes": 168
+            "deputies": 168
           },
           {
             "name": "PdR",
-            "deputes": 290
+            "deputies": 290
           }
         ]
       }
@@ -617,55 +617,55 @@
     "legislatures": [
       {
         "legislature": 1848,
-        "total_deputes": 880,
+        "total_deputies": 880,
         "duration": 1,
         "begin": "1848-05-04",
         "end": "1849-05-26",
         "parties": [
           {
             "name": "MTG",
-            "deputes": 152
+            "deputies": 152
           },
           {
             "name": "RL",
-            "deputes": 436
+            "deputies": 436
           },
           {
             "name": "PdO",
-            "deputes": 292
+            "deputies": 292
           },
           {
             "name": "PdR",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       },
       {
         "legislature": 1849,
-        "total_deputes": 705,
+        "total_deputies": 705,
         "duration": 3,
         "begin": "1849-05-28",
         "end": "1851-12-02",
         "parties": [
           {
             "name": "MTG",
-            "deputes": 180
+            "deputies": 180
           },
           {
             "name": "RL",
-            "deputes": 75
+            "deputies": 75
           },
           {
             "name": "PdO",
-            "deputes": 450
+            "deputies": 450
           },
           {
             "name": "BNP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "ROY",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       }
@@ -680,129 +680,129 @@
     "legislatures": [
       {
         "legislature": 1852,
-        "total_deputes": 261,
+        "total_deputies": 261,
         "duration": 5,
         "begin": "1852-03-29",
         "end": "1857-11-28",
         "parties": [
           {
             "name": "MTG",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "REP",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "PdO",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "BNP",
-            "deputes": 253
+            "deputies": 253
           },
           {
             "name": "ROY",
-            "deputes": 5
+            "deputies": 5
           }
         ]
       },
       {
         "legislature": 1857,
-        "total_deputes": 283,
+        "total_deputies": 283,
         "duration": 6,
         "begin": "1857-11-28",
         "end": "1863-11-05",
         "parties": [
           {
             "name": "REP",
-            "deputes": 7
+            "deputies": 7
           },
           {
             "name": "BNP",
-            "deputes": 276
+            "deputies": 276
           },
           {
             "name": "ROY",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       },
       {
         "legislature": 1863,
-        "total_deputes": 283,
+        "total_deputies": 283,
         "duration": 6,
         "begin": "1863-11-05",
         "end": "1869-04-28",
         "parties": [
           {
             "name": "RI  ",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "REP",
-            "deputes": 17
+            "deputies": 17
           },
           {
             "name": "BL",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "BNP",
-            "deputes": 251
+            "deputies": 251
           },
           {
             "name": "ROY",
-            "deputes": 41
+            "deputies": 41
           }
         ]
       },
       {
         "legislature": 1869,
-        "total_deputes": 283,
+        "total_deputies": 283,
         "duration": 1,
         "begin": "1869-04-28",
         "end": "1870-09-04",
         "parties": [
           {
             "name": "OR",
-            "deputes": 8,
+            "deputies": 8,
             "coalition": "Républicains",
             "coalition_en": "Republicans",
             "coalition_de": "Republikaner"
           },
           {
             "name": "OD",
-            "deputes": 22,
+            "deputies": 22,
             "coalition": "Républicains",
             "coalition_en": "Republicans",
             "coalition_de": "Republikaner"
           },
           {
             "name": "CL",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "RO",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "BL",
-            "deputes": 120,
+            "deputies": 120,
             "coalition": "Bonapartistes",
             "coalition_en": "Bonapartists",
             "coalition_de": "Bonapartisten"
           },
           {
             "name": "BA",
-            "deputes": 92,
+            "deputies": 92,
             "coalition": "Bonapartistes",
             "coalition_en": "Bonapartists",
             "coalition_de": "Bonapartisten"
           },
           {
             "name": "ROY",
-            "deputes": 41
+            "deputies": 41
           }
         ]
       }
@@ -817,63 +817,63 @@
     "legislatures": [
       {
         "legislature": 1871,
-        "total_deputes": 638,
+        "total_deputies": 638,
         "duration": 5,
         "begin": "1871-02-12",
         "end": "1876-03-07",
         "parties": [
           {
             "name": "RI  ",
-            "deputes": 38,
+            "deputies": 38,
             "coalition": "Républicains",
             "coalition_en": "Republicans",
             "coalition_de": "Republikaner"
           },
           {
             "name": "RR",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Républicains",
             "coalition_en": "Republicans",
             "coalition_de": "Republikaner"
           },
           {
             "name": "RM",
-            "deputes": 112,
+            "deputies": 112,
             "coalition": "Républicains",
             "coalition_en": "Republicans",
             "coalition_de": "Republikaner"
           },
           {
             "name": "CL",
-            "deputes": 72,
+            "deputies": 72,
             "coalition": "Républicains",
             "coalition_en": "Republicans",
             "coalition_de": "Republikaner"
           },
           {
             "name": "RO",
-            "deputes": 214,
+            "deputies": 214,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "BI",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "BNP",
-            "deputes": 20,
+            "deputies": 20,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "RL&C",
-            "deputes": 182,
+            "deputies": 182,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -882,268 +882,268 @@
       },
       {
         "legislature": 1876,
-        "total_deputes": 523,
+        "total_deputies": 523,
         "duration": 1,
         "begin": "1876-03-09",
         "end": "1877-06-25",
         "parties": [
           {
             "name": "RI  ",
-            "deputes": 27
+            "deputies": 27
           },
           {
             "name": "RR",
-            "deputes": 76
+            "deputies": 76
           },
           {
             "name": "RM",
-            "deputes": 150
+            "deputies": 150
           },
           {
             "name": "CL",
-            "deputes": 97
+            "deputies": 97
           },
           {
             "name": "RO",
-            "deputes": 42
+            "deputies": 42
           },
           {
             "name": "BI",
-            "deputes": 15
+            "deputies": 15
           },
           {
             "name": "AAP",
-            "deputes": 82
+            "deputies": 82
           },
           {
             "name": "RL&C",
-            "deputes": 34
+            "deputies": 34
           }
         ]
       },
       {
         "legislature": 1877,
-        "total_deputes": 533,
+        "total_deputies": 533,
         "duration": 4,
         "begin": "1877-11-07",
         "end": "1881-10-21",
         "parties": [
           {
             "name": "FPTSF",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "RI  ",
-            "deputes": 27
+            "deputies": 27
           },
           {
             "name": "RR",
-            "deputes": 74
+            "deputies": 74
           },
           {
             "name": "RM",
-            "deputes": 159
+            "deputies": 159
           },
           {
             "name": "CL",
-            "deputes": 65
+            "deputies": 65
           },
           {
             "name": "RO",
-            "deputes": 41
+            "deputies": 41
           },
           {
             "name": "BI",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "AAP",
-            "deputes": 111
+            "deputies": 111
           },
           {
             "name": "RL&C",
-            "deputes": 56
+            "deputies": 56
           }
         ]
       },
       {
         "legislature": 1881,
-        "total_deputes": 545,
+        "total_deputies": 545,
         "duration": 4,
         "begin": "1881-10-28",
         "end": "1885-11-09",
         "parties": [
           {
             "name": "FPTSF",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "FTSF",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "SI",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "RS ",
-            "deputes": 44
+            "deputies": 44
           },
           {
             "name": "RR",
-            "deputes": 47
+            "deputies": 47
           },
           {
             "name": "UR",
-            "deputes": 157
+            "deputies": 157
           },
           {
             "name": "UD",
-            "deputes": 207
+            "deputies": 207
           },
           {
             "name": "RO",
-            "deputes": 7
+            "deputies": 7
           },
           {
             "name": "AAP",
-            "deputes": 46
+            "deputies": 46
           },
           {
             "name": "RL&C",
-            "deputes": 35
+            "deputies": 35
           }
         ]
       },
       {
         "legislature": 1885,
-        "total_deputes": 584,
+        "total_deputies": 584,
         "duration": 4,
         "begin": "1885-11-10",
         "end": "1889-11-11",
         "parties": [
           {
             "name": "CRC",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PO",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "FTSF",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "SI",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "RS ",
-            "deputes": 55
+            "deputies": 55
           },
           {
             "name": "RR",
-            "deputes": 40
+            "deputies": 40
           },
           {
             "name": "UR",
-            "deputes": 200
+            "deputies": 200
           },
           {
             "name": "UD",
-            "deputes": 83
+            "deputies": 83
           },
           {
             "name": "RO",
-            "deputes": 63
+            "deputies": 63
           },
           {
             "name": "BNP",
-            "deputes": 65
+            "deputies": 65
           },
           {
             "name": "RL&C",
-            "deputes": 73
+            "deputies": 73
           },
           {
             "name": "BOU",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       },
       {
         "legislature": 1889,
-        "total_deputes": 573,
+        "total_deputies": 573,
         "duration": 4,
         "begin": "1889-11-12",
         "end": "1893-10-14",
         "parties": [
           {
             "name": "CRC",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "POSR",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PO",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "FTSF",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "SI",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "RS ",
-            "deputes": 50
+            "deputies": 50
           },
           {
             "name": "RR",
-            "deputes": 68
+            "deputies": 68
           },
           {
             "name": "ULR",
-            "deputes": 49,
+            "deputies": 49,
             "coalition": "Union des gauches",
             "coalition_en": "Union of Lefts",
             "coalition_de": "Union der Linken"
           },
           {
             "name": "ANR",
-            "deputes": 179,
+            "deputies": 179,
             "coalition": "Union des gauches",
             "coalition_en": "Union of Lefts",
             "coalition_de": "Union der Linken"
           },
           {
             "name": "MR",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "RO",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "BNP",
-            "deputes": 52
+            "deputies": 52
           },
           {
             "name": "R&C",
-            "deputes": 110
+            "deputies": 110
           },
           {
             "name": "BOU",
-            "deputes": 55
+            "deputies": 55
           },
           {
             "name": "NAT",
-            "deputes": 0
+            "deputies": 0
           }
         ],
         "source": [
@@ -1153,79 +1153,79 @@
       },
       {
         "legislature": 1893,
-        "total_deputes": 581,
+        "total_deputies": 581,
         "duration": 4.5,
         "begin": "1893-10-15",
         "end": "1898-05-31",
         "parties": [
           {
             "name": "CRC",
-            "deputes": 5
+            "deputies": 5
           },
           {
             "name": "POSR",
-            "deputes": 5
+            "deputies": 5
           },
           {
             "name": "POF",
-            "deputes": 5
+            "deputies": 5
           },
           {
             "name": "FTSF",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "SI",
-            "deputes": 18
+            "deputies": 18
           },
           {
             "name": "RS ",
-            "deputes": 37
+            "deputies": 37
           },
           {
             "name": "RR",
-            "deputes": 92,
+            "deputies": 92,
             "coalition": "Républicains opportunistes",
             "coalition_en": "Opportunistic Republicans",
             "coalition_de": "Opportunistische Republikaner"
           },
           {
             "name": "ULR",
-            "deputes": 27,
+            "deputies": 27,
             "coalition": "Républicains opportunistes",
             "coalition_en": "Opportunistic Republicans",
             "coalition_de": "Opportunistische Republikaner"
           },
           {
             "name": "ANR",
-            "deputes": 284,
+            "deputies": 284,
             "coalition": "Républicains opportunistes",
             "coalition_en": "Opportunistic Republicans",
             "coalition_de": "Opportunistische Republikaner"
           },
           {
             "name": "MR",
-            "deputes": 35
+            "deputies": 35
           },
           {
             "name": "BNP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "M&C",
-            "deputes": 58
+            "deputies": 58
           },
           {
             "name": "BOU",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "NAT",
-            "deputes": 15
+            "deputies": 15
           },
           {
             "name": "NA",
-            "deputes": 0
+            "deputies": 0
           }
         ],
         "source": [
@@ -1236,89 +1236,89 @@
       },
       {
         "legislature": 1898,
-        "total_deputes": 620,
+        "total_deputies": 620,
         "duration": 4,
         "begin": "1898-06-01",
         "end": "1902-05-31",
         "parties": [
           {
             "name": "PSR",
-            "deputes": 12,
+            "deputies": 12,
             "coalition": "Union socialiste",
             "coalition_en": "Socialist Union",
             "coalition_de": "Sozialistische Union"
           },
           {
             "name": "POSR",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Union socialiste",
             "coalition_en": "Socialist Union",
             "coalition_de": "Sozialistische Union"
           },
           {
             "name": "POF",
-            "deputes": 12,
+            "deputies": 12,
             "coalition": "Union socialiste",
             "coalition_en": "Socialist Union",
             "coalition_de": "Sozialistische Union"
           },
           {
             "name": "SI",
-            "deputes": 13,
+            "deputies": 13,
             "coalition": "Union socialiste",
             "coalition_en": "Socialist Union",
             "coalition_de": "Sozialistische Union"
           },
           {
             "name": "RS ",
-            "deputes": 104,
+            "deputies": 104,
             "coalition": "Concentration républicaine",
             "coalition_en": "Republican concentration",
             "coalition_de": "Republikanische Konzentration"
           },
           {
             "name": "RR",
-            "deputes": 45,
+            "deputies": 45,
             "coalition": "Concentration républicaine",
             "coalition_en": "Republican concentration",
             "coalition_de": "Republikanische Konzentration"
           },
           {
             "name": "UP ",
-            "deputes": 95,
+            "deputies": 95,
             "coalition": "Concentration républicaine",
             "coalition_en": "Republican concentration",
             "coalition_de": "Republikanische Konzentration"
           },
           {
             "name": "RP",
-            "deputes": 238,
+            "deputies": 238,
             "coalition": "Droite républicaine",
             "coalition_en": "Republican right",
             "coalition_de": "Republikanisches Recht"
           },
           {
             "name": "MR",
-            "deputes": 58,
+            "deputies": 58,
             "coalition": "Droite républicaine",
             "coalition_en": "Republican right",
             "coalition_de": "Republikanisches Recht"
           },
           {
             "name": "M&C",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "BOU",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "DN",
-            "deputes": 20
+            "deputies": 20
           },
           {
             "name": "NA",
-            "deputes": 23
+            "deputies": 23
           }
         ],
         "source": [
@@ -1329,66 +1329,66 @@
       },
       {
         "legislature": 1902,
-        "total_deputes": 589,
+        "total_deputies": 589,
         "duration": 4,
         "begin": "1902-06-01",
         "end": "1906-05-31",
         "parties": [
           {
             "name": "PSR",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PSdF",
-            "deputes": 14
+            "deputies": 14
           },
           {
             "name": "PSF",
-            "deputes": 29,
+            "deputies": 29,
             "coalition": "Bloc des gauches",
             "coalition_en": "Left bloc",
             "coalition_de": "Linker Block"
           },
           {
             "name": "PRRS",
-            "deputes": 104,
+            "deputies": 104,
             "coalition": "Bloc des gauches",
             "coalition_en": "Left bloc",
             "coalition_de": "Linker Block"
           },
           {
             "name": "RI ",
-            "deputes": 129,
+            "deputies": 129,
             "coalition": "Bloc des gauches",
             "coalition_en": "Left bloc",
             "coalition_de": "Linker Block"
           },
           {
             "name": "ARD",
-            "deputes": 62,
+            "deputies": 62,
             "coalition": "Bloc des gauches",
             "coalition_en": "Left bloc",
             "coalition_de": "Linker Block"
           },
           {
             "name": "RP",
-            "deputes": 127
+            "deputies": 127
           },
           {
             "name": "ALP",
-            "deputes": 89
+            "deputies": 89
           },
           {
             "name": "M&C",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PN",
-            "deputes": 35
+            "deputies": 35
           },
           {
             "name": "NA",
-            "deputes": 0
+            "deputies": 0
           }
         ],
         "source": [
@@ -1398,162 +1398,162 @@
       },
       {
         "legislature": 1906,
-        "total_deputes": 592,
+        "total_deputies": 592,
         "duration": 4,
         "begin": "1906-06-01",
         "end": "1910-05-31",
         "parties": [
           {
             "name": "SFIO",
-            "deputes": 54
+            "deputies": 54
           },
           {
             "name": "SI",
-            "deputes": 20
+            "deputies": 20
           },
           {
             "name": "PRRS",
-            "deputes": 132
+            "deputies": 132
           },
           {
             "name": "RI ",
-            "deputes": 115
+            "deputies": 115
           },
           {
             "name": "ARD",
-            "deputes": 66
+            "deputies": 66
           },
           {
             "name": "FR",
-            "deputes": 95
+            "deputies": 95
           },
           {
             "name": "ALP",
-            "deputes": 80
+            "deputies": 80
           },
           {
             "name": "PN",
-            "deputes": 30
+            "deputies": 30
           },
           {
             "name": "NA",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       },
       {
         "legislature": 1910,
-        "total_deputes": 595,
+        "total_deputies": 595,
         "duration": 4,
         "begin": "1910-06-01",
         "end": "1914-05-31",
         "parties": [
           {
             "name": "SFIO",
-            "deputes": 75
+            "deputies": 75
           },
           {
             "name": "SI",
-            "deputes": 24
+            "deputies": 24
           },
           {
             "name": "PRRS",
-            "deputes": 150
+            "deputies": 150
           },
           {
             "name": "RI ",
-            "deputes": 112
+            "deputies": 112
           },
           {
             "name": "ARD",
-            "deputes": 66
+            "deputies": 66
           },
           {
             "name": "FR",
-            "deputes": 131
+            "deputies": 131
           },
           {
             "name": "ALP",
-            "deputes": 30
+            "deputies": 30
           },
           {
             "name": "PN",
-            "deputes": 7
+            "deputies": 7
           },
           {
             "name": "NA",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       },
       {
         "legislature": 1914,
-        "total_deputes": 602,
+        "total_deputies": 602,
         "duration": 5.5,
         "begin": "1914-06-01",
         "end": "1919-12-07",
         "parties": [
           {
             "name": "SFIO",
-            "deputes": 102
+            "deputies": 102
           },
           {
             "name": "PSF ",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PRS ",
-            "deputes": 27,
+            "deputies": 27,
             "coalition": "Fédération des gauches",
             "coalition_en": "Federation of Lefts",
             "coalition_de": "Bund der Linken"
           },
           {
             "name": "PRRS",
-            "deputes": 192,
+            "deputies": 192,
             "coalition": "Fédération des gauches",
             "coalition_en": "Federation of Lefts",
             "coalition_de": "Bund der Linken"
           },
           {
             "name": "Autres",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Fédération des gauches",
             "coalition_en": "Federation of Lefts",
             "coalition_de": "Bund der Linken"
           },
           {
             "name": "LJR",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Fédération des gauches",
             "coalition_en": "Federation of Lefts",
             "coalition_de": "Bund der Linken"
           },
           {
             "name": "RI ",
-            "deputes": 66,
+            "deputies": 66,
             "coalition": "Fédération des gauches",
             "coalition_en": "Federation of Lefts",
             "coalition_de": "Bund der Linken"
           },
           {
             "name": "PRD",
-            "deputes": 77,
+            "deputies": 77,
             "coalition": "Fédération des gauches",
             "coalition_en": "Federation of Lefts",
             "coalition_de": "Bund der Linken"
           },
           {
             "name": "FR",
-            "deputes": 88
+            "deputies": 88
           },
           {
             "name": "ALP",
-            "deputes": 50
+            "deputies": 50
           },
           {
             "name": "PN",
-            "deputes": 0
+            "deputies": 0
           }
         ],
         "source": [
@@ -1563,73 +1563,73 @@
       },
       {
         "legislature": 1919,
-        "total_deputes": 613,
+        "total_deputies": 613,
         "duration": 4,
         "begin": "1919-12-08",
         "end": "1924-05-31",
         "parties": [
           {
             "name": "PC-SFIC",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "SFIO",
-            "deputes": 68
+            "deputies": 68
           },
           {
             "name": "PSF ",
-            "deputes": 4
+            "deputies": 4
           },
           {
             "name": "PRS ",
-            "deputes": 26
+            "deputies": 26
           },
           {
             "name": "PRRS",
-            "deputes": 86
+            "deputies": 86
           },
           {
             "name": "Autres",
-            "deputes": 16
+            "deputies": 16
           },
           {
             "name": "LJR",
-            "deputes": 5,
+            "deputies": 5,
             "coalition": "Bloc National Républicain",
             "coalition_en": "National Republican Bloc",
             "coalition_de": "Nationaler republikanischer Block"
           },
           {
             "name": "DEM",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Bloc National Républicain",
             "coalition_en": "National Republican Bloc",
             "coalition_de": "Nationaler republikanischer Block"
           },
           {
             "name": "RI ",
-            "deputes": 93,
+            "deputies": 93,
             "coalition": "Bloc National Républicain",
             "coalition_en": "National Republican Bloc",
             "coalition_de": "Nationaler republikanischer Block"
           },
           {
             "name": "ARD",
-            "deputes": 104,
+            "deputies": 104,
             "coalition": "Bloc National Républicain",
             "coalition_en": "National Republican Bloc",
             "coalition_de": "Nationaler republikanischer Block"
           },
           {
             "name": "FR",
-            "deputes": 182,
+            "deputies": 182,
             "coalition": "Bloc National Républicain",
             "coalition_en": "National Republican Bloc",
             "coalition_de": "Nationaler republikanischer Block"
           },
           {
             "name": "ALP",
-            "deputes": 29,
+            "deputies": 29,
             "coalition": "Bloc National Républicain",
             "coalition_en": "National Republican Bloc",
             "coalition_de": "Nationaler republikanischer Block"
@@ -1638,309 +1638,309 @@
       },
       {
         "legislature": 1924,
-        "total_deputes": 581,
+        "total_deputies": 581,
         "duration": 4,
         "begin": "1924-06-01",
         "end": "1928-05-31",
         "parties": [
           {
             "name": "PC-SFIC",
-            "deputes": 26
+            "deputies": 26
           },
           {
             "name": "SFIO",
-            "deputes": 104,
+            "deputies": 104,
             "coalition": "Cartel des Gauches",
             "coalition_en": "Left Cartel",
             "coalition_de": "Kartell verlassen"
           },
           {
             "name": "PSF ",
-            "deputes": 10,
+            "deputies": 10,
             "coalition": "Cartel des Gauches",
             "coalition_en": "Left Cartel",
             "coalition_de": "Kartell verlassen"
           },
           {
             "name": "PRS ",
-            "deputes": 34,
+            "deputies": 34,
             "coalition": "Cartel des Gauches",
             "coalition_en": "Left Cartel",
             "coalition_de": "Kartell verlassen"
           },
           {
             "name": "PRRS",
-            "deputes": 139,
+            "deputies": 139,
             "coalition": "Cartel des Gauches",
             "coalition_en": "Left Cartel",
             "coalition_de": "Kartell verlassen"
           },
           {
             "name": "Autres",
-            "deputes": 16
+            "deputies": 16
           },
           {
             "name": "LJR",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "DEM",
-            "deputes": 14
+            "deputies": 14
           },
           {
             "name": "RI ",
-            "deputes": 40
+            "deputies": 40
           },
           {
             "name": "PRDS",
-            "deputes": 93
+            "deputies": 93
           },
           {
             "name": "FR",
-            "deputes": 104
+            "deputies": 104
           },
           {
             "name": "ALP",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       },
       {
         "legislature": 1928,
-        "total_deputes": 602,
+        "total_deputies": 602,
         "duration": 4,
         "begin": "1928-06-01",
         "end": "1932-05-31",
         "parties": [
           {
             "name": "PC-SFIC",
-            "deputes": 11
+            "deputies": 11
           },
           {
             "name": "PUP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "SFIO",
-            "deputes": 102
+            "deputies": 102
           },
           {
             "name": "PSF ",
-            "deputes": 13
+            "deputies": 13
           },
           {
             "name": "PRS ",
-            "deputes": 47
+            "deputies": 47
           },
           {
             "name": "PRRS",
-            "deputes": 125
+            "deputies": 125
           },
           {
             "name": "Autres",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "LJR",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "PDP",
-            "deputes": 23
+            "deputies": 23
           },
           {
             "name": "RI ",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "AD",
-            "deputes": 180
+            "deputies": 180
           },
           {
             "name": "FR",
-            "deputes": 100
+            "deputies": 100
           },
           {
             "name": "ALP",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       },
       {
         "legislature": 1932,
-        "total_deputes": 607,
+        "total_deputies": 607,
         "duration": 4,
         "begin": "1932-06-01",
         "end": "1936-05-31",
         "parties": [
           {
             "name": "PC-SFIC",
-            "deputes": 10
+            "deputies": 10
           },
           {
             "name": "PUP",
-            "deputes": 9
+            "deputies": 9
           },
           {
             "name": "SFIO",
-            "deputes": 132,
+            "deputies": 132,
             "coalition": "Cartel des Gauches",
             "coalition_en": "Left Cartel",
             "coalition_de": "Kartell verlassen"
           },
           {
             "name": "PSF ",
-            "deputes": 7,
+            "deputies": 7,
             "coalition": "Cartel des Gauches",
             "coalition_en": "Left Cartel",
             "coalition_de": "Kartell verlassen"
           },
           {
             "name": "PRS ",
-            "deputes": 36,
+            "deputies": 36,
             "coalition": "Cartel des Gauches",
             "coalition_en": "Left Cartel",
             "coalition_de": "Kartell verlassen"
           },
           {
             "name": "PRRS",
-            "deputes": 160,
+            "deputies": 160,
             "coalition": "Cartel des Gauches",
             "coalition_en": "Left Cartel",
             "coalition_de": "Kartell verlassen"
           },
           {
             "name": "LJR",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "PDP",
-            "deputes": 47
+            "deputies": 47
           },
           {
             "name": "AD",
-            "deputes": 121
+            "deputies": 121
           },
           {
             "name": "FR",
-            "deputes": 83
+            "deputies": 83
           },
           {
             "name": "ALP",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       },
       {
         "legislature": 1936,
-        "total_deputes": 610,
+        "total_deputies": 610,
         "duration": 4,
         "begin": "1936-06-01",
         "end": "1940-07-10",
         "parties": [
           {
             "name": "PC-SFIC",
-            "deputes": 72,
+            "deputies": 72,
             "coalition": "Front Populaire",
             "coalition_en": "Popular front",
             "coalition_de": "Volksfront"
           },
           {
             "name": "URP",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Front Populaire",
             "coalition_en": "Popular front",
             "coalition_de": "Volksfront"
           },
           {
             "name": "PUP",
-            "deputes": 6,
+            "deputies": 6,
             "coalition": "Front Populaire",
             "coalition_en": "Popular front",
             "coalition_de": "Volksfront"
           },
           {
             "name": "RDA",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Front Populaire",
             "coalition_en": "Popular front",
             "coalition_de": "Volksfront"
           },
           {
             "name": "SFIO",
-            "deputes": 149,
+            "deputies": 149,
             "coalition": "Front Populaire",
             "coalition_en": "Popular front",
             "coalition_de": "Volksfront"
           },
           {
             "name": "PSF ",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Front Populaire",
             "coalition_en": "Popular front",
             "coalition_de": "Volksfront"
           },
           {
             "name": "USR",
-            "deputes": 44,
+            "deputies": 44,
             "coalition": "Front Populaire",
             "coalition_en": "Popular front",
             "coalition_de": "Volksfront"
           },
           {
             "name": "PRRS",
-            "deputes": 114,
+            "deputies": 114,
             "coalition": "Front Populaire",
             "coalition_en": "Popular front",
             "coalition_de": "Volksfront"
           },
           {
             "name": "RGR",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Front Populaire",
             "coalition_en": "Popular front",
             "coalition_de": "Volksfront"
           },
           {
             "name": "Autres",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Front Populaire",
             "coalition_en": "Popular front",
             "coalition_de": "Volksfront"
           },
           {
             "name": "MIDFA",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Front Populaire",
             "coalition_en": "Popular front",
             "coalition_de": "Volksfront"
           },
           {
             "name": "PJR",
-            "deputes": 4,
+            "deputies": 4,
             "coalition": "Front Populaire",
             "coalition_en": "Popular front",
             "coalition_de": "Volksfront"
           },
           {
             "name": "PDP",
-            "deputes": 39
+            "deputies": 39
           },
           {
             "name": "AD",
-            "deputes": 82
+            "deputies": 82
           },
           {
             "name": "FR",
-            "deputes": 100
+            "deputies": 100
           },
           {
             "name": "PPUS",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PP",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       }
@@ -1955,78 +1955,78 @@
     "legislatures": [
       {
         "legislature": 1940,
-        "total_deputes": 1,
+        "total_deputies": 1,
         "duration": 4,
         "begin": "1940-07-10",
         "end": "1944-08-20",
         "parties": [
           {
             "name": "PC-SFIC",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "URP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PUP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "RDA",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "SFIO",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PSF ",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "USR",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PRRS",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "RGR",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Autres",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "MIDFA",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PJR",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PDP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "AD",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "FR",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PPUS",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PP",
-            "deputes": 1
+            "deputies": 1
           }
         ]
       }
@@ -2041,135 +2041,135 @@
     "legislatures": [
       {
         "legislature": 1945,
-        "total_deputes": 586,
+        "total_deputies": 586,
         "duration": 0.5,
         "begin": "1945-11-06",
         "end": "1946-06-10",
         "parties": [
           {
             "name": "PCF",
-            "deputes": 151
+            "deputies": 151
           },
           {
             "name": "URR",
-            "deputes": 8
+            "deputies": 8
           },
           {
             "name": "RDA",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "SFIO",
-            "deputes": 139
+            "deputies": 139
           },
           {
             "name": "UDSR",
-            "deputes": 31
+            "deputies": 31
           },
           {
             "name": "PRRS",
-            "deputes": 27
+            "deputies": 27
           },
           {
             "name": "RGR",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Autres",
-            "deputes": 9
+            "deputies": 9
           },
           {
             "name": "MA",
-            "deputes": 7
+            "deputies": 7
           },
           {
             "name": "MRP",
-            "deputes": 150
+            "deputies": 150
           },
           {
             "name": "RI",
-            "deputes": 14
+            "deputies": 14
           },
           {
             "name": "UR ",
-            "deputes": 39
+            "deputies": 39
           },
           {
             "name": "RPF",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PPUS",
-            "deputes": 8
+            "deputies": 8
           },
           {
             "name": "UNIR",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       },
       {
         "legislature": 1946,
-        "total_deputes": 586,
+        "total_deputies": 586,
         "duration": 0.3,
         "begin": "1946-06-11",
         "end": "1946-11-27",
         "parties": [
           {
             "name": "PCF",
-            "deputes": 146
+            "deputies": 146
           },
           {
             "name": "URR",
-            "deputes": 7
+            "deputies": 7
           },
           {
             "name": "RDA",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "SFIO",
-            "deputes": 128
+            "deputies": 128
           },
           {
             "name": "UDSR",
-            "deputes": 20
+            "deputies": 20
           },
           {
             "name": "PRRS",
-            "deputes": 32
+            "deputies": 32
           },
           {
             "name": "RGR",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Autres",
-            "deputes": 9
+            "deputies": 9
           },
           {
             "name": "UDMA",
-            "deputes": 11
+            "deputies": 11
           },
           {
             "name": "MRP",
-            "deputes": 166
+            "deputies": 166
           },
           {
             "name": "RI",
-            "deputes": 23
+            "deputies": 23
           },
           {
             "name": "PRL",
-            "deputes": 35
+            "deputies": 35
           },
           {
             "name": "RAPS",
-            "deputes": 9
+            "deputies": 9
           },
           {
             "name": "UNIR",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       }
@@ -2184,267 +2184,267 @@
     "legislatures": [
       {
         "legislature": 1946.5,
-        "total_deputes": 618,
+        "total_deputies": 618,
         "duration": 5,
         "begin": "1946-11-28",
         "end": "1951-07-04",
         "parties": [
           {
             "name": "PCF",
-            "deputes": 165,
+            "deputies": 165,
             "coalition": "Communistes et Républicains Progressistes",
             "coalition_en": "Communists and Progressive Republicans",
             "coalition_de": "Kommunisten und progressive Republikaner"
           },
           {
             "name": "URP",
-            "deputes": 11,
+            "deputies": 11,
             "coalition": "Communistes et Républicains Progressistes",
             "coalition_en": "Communists and Progressive Republicans",
             "coalition_de": "Kommunisten und progressive Republikaner"
           },
           {
             "name": "PUP",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Communistes et Républicains Progressistes",
             "coalition_en": "Communists and Progressive Republicans",
             "coalition_de": "Kommunisten und progressive Republikaner"
           },
           {
             "name": "RDA",
-            "deputes": 6,
+            "deputies": 6,
             "coalition": "Communistes et Républicains Progressistes",
             "coalition_en": "Communists and Progressive Republicans",
             "coalition_de": "Kommunisten und progressive Republikaner"
           },
           {
             "name": "SFIO",
-            "deputes": 102
+            "deputies": 102
           },
           {
             "name": "UDSR",
-            "deputes": 26,
+            "deputies": 26,
             "coalition": "Rassemblement des Gauches Républicaines",
             "coalition_en": "Rally of Republican Lefts",
             "coalition_de": "Kundgebung der republikanischen Linken"
           },
           {
             "name": "PRRS",
-            "deputes": 43,
+            "deputies": 43,
             "coalition": "Rassemblement des Gauches Républicaines",
             "coalition_en": "Rally of Republican Lefts",
             "coalition_de": "Kundgebung der republikanischen Linken"
           },
           {
             "name": "RGR",
-            "deputes": 1,
+            "deputies": 1,
             "coalition": "Rassemblement des Gauches Républicaines",
             "coalition_en": "Rally of Republican Lefts",
             "coalition_de": "Kundgebung der republikanischen Linken"
           },
           {
             "name": "Autres",
-            "deputes": 20
+            "deputies": 20
           },
           {
             "name": "MIDFA",
-            "deputes": 8
+            "deputies": 8
           },
           {
             "name": "PJR",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "MRP",
-            "deputes": 162
+            "deputies": 162
           },
           {
             "name": "RI",
-            "deputes": 28
+            "deputies": 28
           },
           {
             "name": "PRL",
-            "deputes": 38
+            "deputies": 38
           },
           {
             "name": "RPF",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PPUS",
-            "deputes": 8
+            "deputies": 8
           },
           {
             "name": "UNIR",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       },
       {
         "legislature": 1951,
-        "total_deputes": 625,
+        "total_deputies": 625,
         "duration": 4,
         "begin": "1951-07-05",
         "end": "1955-12-01",
         "parties": [
           {
             "name": "PCF",
-            "deputes": 99
+            "deputies": 99
           },
           {
             "name": "UP",
-            "deputes": 4
+            "deputies": 4
           },
           {
             "name": "RDA",
-            "deputes": 3,
+            "deputies": 3,
             "coalition": "Troisième Force",
             "coalition_en": "Third Force",
             "coalition_de": "Dritte Kraft"
           },
           {
             "name": "SFIO",
-            "deputes": 107,
+            "deputies": 107,
             "coalition": "Troisième Force",
             "coalition_en": "Third Force",
             "coalition_de": "Dritte Kraft"
           },
           {
             "name": "UDSR",
-            "deputes": 16,
+            "deputies": 16,
             "coalition": "Troisième Force",
             "coalition_en": "Third Force",
             "coalition_de": "Dritte Kraft"
           },
           {
             "name": "PRRS",
-            "deputes": 67,
+            "deputies": 67,
             "coalition": "Troisième Force",
             "coalition_en": "Third Force",
             "coalition_de": "Dritte Kraft"
           },
           {
             "name": "RGR",
-            "deputes": 4,
+            "deputies": 4,
             "coalition": "Troisième Force",
             "coalition_en": "Third Force",
             "coalition_de": "Dritte Kraft"
           },
           {
             "name": "Autres",
-            "deputes": 14
+            "deputies": 14
           },
           {
             "name": "MIDFA",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "MRP",
-            "deputes": 94,
+            "deputies": 94,
             "coalition": "Troisième Force",
             "coalition_en": "Third Force",
             "coalition_de": "Dritte Kraft"
           },
           {
             "name": "CNIP",
-            "deputes": 91
+            "deputies": 91
           },
           {
             "name": "PRL",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "RPF",
-            "deputes": 121
+            "deputies": 121
           },
           {
             "name": "PPUS",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "UFF",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "UNIR",
-            "deputes": 5
+            "deputies": 5
           }
         ]
       },
       {
         "legislature": 1956,
-        "total_deputes": 594,
+        "total_deputies": 594,
         "duration": 3,
         "begin": "1956-01-19",
         "end": "1958-12-08",
         "parties": [
           {
             "name": "PCF",
-            "deputes": 144
+            "deputies": 144
           },
           {
             "name": "UP",
-            "deputes": 6
+            "deputies": 6
           },
           {
             "name": "RDA",
-            "deputes": 9,
+            "deputies": 9,
             "coalition": "Front Républicain",
             "coalition_en": "Republican Front",
             "coalition_de": "Republikanische Front"
           },
           {
             "name": "SFIO",
-            "deputes": 94,
+            "deputies": 94,
             "coalition": "Front Républicain",
             "coalition_en": "Republican Front",
             "coalition_de": "Republikanische Front"
           },
           {
             "name": "UDSR",
-            "deputes": 10,
+            "deputies": 10,
             "coalition": "Front Républicain",
             "coalition_en": "Republican Front",
             "coalition_de": "Republikanische Front"
           },
           {
             "name": "PRRS",
-            "deputes": 58,
+            "deputies": 58,
             "coalition": "Front Républicain",
             "coalition_en": "Republican Front",
             "coalition_de": "Republikanische Front"
           },
           {
             "name": "RGR",
-            "deputes": 14
+            "deputies": 14
           },
           {
             "name": "Autres",
-            "deputes": 7
+            "deputies": 7
           },
           {
             "name": "FAEAS",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "MRP",
-            "deputes": 83
+            "deputies": 83
           },
           {
             "name": "CNIP",
-            "deputes": 95
+            "deputies": 95
           },
           {
             "name": "RS",
-            "deputes": 22
+            "deputies": 22
           },
           {
             "name": "UFF",
-            "deputes": 52
+            "deputies": 52
           },
           {
             "name": "UNIR",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       }
@@ -2458,1316 +2458,1316 @@
     "legislatures": [
       {
         "legislature": 1958,
-        "total_deputes": 576,
+        "total_deputies": 576,
         "duration": 4,
         "begin": "1958-12-09",
         "end": "1962-10-10",
         "parties": [
           {
             "name": "PCF",
-            "deputes": 10
+            "deputies": 10
           },
           {
             "name": "RDA",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PSU",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "SFIO",
-            "deputes": 47
+            "deputies": 47
           },
           {
             "name": "UDSR",
-            "deputes": 4
+            "deputies": 4
           },
           {
             "name": "PRS",
-            "deputes": 36
+            "deputies": 36
           },
           {
             "name": "CR",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Autres",
-            "deputes": 26
+            "deputies": 26
           },
           {
             "name": "FAEAS",
-            "deputes": 66
+            "deputies": 66
           },
           {
             "name": "MRP",
-            "deputes": 64
+            "deputies": 64
           },
           {
             "name": "CNIP",
-            "deputes": 117
+            "deputies": 117
           },
           {
             "name": "UNR",
-            "deputes": 206
+            "deputies": 206
           },
           {
             "name": "UFF",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "UNIR",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       },
       {
         "legislature": 1962,
-        "total_deputes": 482,
+        "total_deputies": 482,
         "duration": 4,
         "begin": "1962-12-06",
         "end": "1967-04-02",
         "parties": [
           {
             "name": "PCF",
-            "deputes": 41
+            "deputies": 41
           },
           {
             "name": "PSU",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "SFIO",
-            "deputes": 64
+            "deputies": 64
           },
           {
             "name": "UDSR",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "PRS",
-            "deputes": 30
+            "deputies": 30
           },
           {
             "name": "DVG",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "CR",
-            "deputes": 7
+            "deputies": 7
           },
           {
             "name": "Autres",
-            "deputes": 13
+            "deputies": 13
           },
           {
             "name": "FAEAS",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "MRP",
-            "deputes": 55
+            "deputies": 55
           },
           {
             "name": "RI",
-            "deputes": 35
+            "deputies": 35
           },
           {
             "name": "UNR-UDT",
-            "deputes": 233
+            "deputies": 233
           },
           {
             "name": "UFF",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "UNIR",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       },
       {
         "legislature": 1967,
-        "total_deputes": 486,
+        "total_deputies": 486,
         "duration": 1,
         "begin": "1967-04-03",
         "end": "1968-05-30",
         "parties": [
           {
             "name": "PCF",
-            "deputes": 73
+            "deputies": 73
           },
           {
             "name": "PSU",
-            "deputes": 4,
+            "deputies": 4,
             "coalition": "Fédération de la Gauche Démocrate et Socialiste",
             "coalition_en": "Federation of the Democratic and Socialist Left",
             "coalition_de": "Föderation der Demokratischen und Sozialistischen Linken"
           },
           {
             "name": "SFIO",
-            "deputes": 76,
+            "deputies": 76,
             "coalition": "Fédération de la Gauche Démocrate et Socialiste",
             "coalition_en": "Federation of the Democratic and Socialist Left",
             "coalition_de": "Föderation der Demokratischen und Sozialistischen Linken"
           },
           {
             "name": "CIR",
-            "deputes": 15,
+            "deputies": 15,
             "coalition": "Fédération de la Gauche Démocrate et Socialiste",
             "coalition_en": "Federation of the Democratic and Socialist Left",
             "coalition_de": "Föderation der Demokratischen und Sozialistischen Linken"
           },
           {
             "name": "PRS",
-            "deputes": 24,
+            "deputies": 24,
             "coalition": "Fédération de la Gauche Démocrate et Socialiste",
             "coalition_en": "Federation of the Democratic and Socialist Left",
             "coalition_de": "Föderation der Demokratischen und Sozialistischen Linken"
           },
           {
             "name": "DVG",
-            "deputes": 2,
+            "deputies": 2,
             "coalition": "Fédération de la Gauche Démocrate et Socialiste",
             "coalition_en": "Federation of the Democratic and Socialist Left",
             "coalition_de": "Föderation der Demokratischen und Sozialistischen Linken"
           },
           {
             "name": "CR",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Autres",
-            "deputes": 9
+            "deputies": 9
           },
           {
             "name": "CD",
-            "deputes": 41,
+            "deputies": 41,
             "coalition": "Union des Républicains de Progrès",
             "coalition_en": "Union of Progressive Republicans",
             "coalition_de": "Union progressiver Republikaner"
           },
           {
             "name": "RI",
-            "deputes": 42,
+            "deputies": 42,
             "coalition": "Union des Républicains de Progrès",
             "coalition_en": "Union of Progressive Republicans",
             "coalition_de": "Union progressiver Republikaner"
           },
           {
             "name": "UNR-UDT",
-            "deputes": 200,
+            "deputies": 200,
             "coalition": "Union des Républicains de Progrès",
             "coalition_en": "Union of Progressive Republicans",
             "coalition_de": "Union progressiver Republikaner"
           },
           {
             "name": "UFF",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "UNIR",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       },
       {
         "legislature": 1968,
-        "total_deputes": 487,
+        "total_deputies": 487,
         "duration": 5,
         "begin": "1968-07-11",
         "end": "1973-04-01",
         "parties": [
           {
             "name": "PCF",
-            "deputes": 34
+            "deputies": 34
           },
           {
             "name": "PSU",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "SFIO",
-            "deputes": 39,
+            "deputies": 39,
             "coalition": "Fédération de la Gauche Démocrate et Socialiste",
             "coalition_en": "Federation of the Democratic and Socialist Left",
             "coalition_de": "Föderation der Demokratischen und Sozialistischen Linken"
           },
           {
             "name": "CIR",
-            "deputes": 2,
+            "deputies": 2,
             "coalition": "Fédération de la Gauche Démocrate et Socialiste",
             "coalition_en": "Federation of the Democratic and Socialist Left",
             "coalition_de": "Föderation der Demokratischen und Sozialistischen Linken"
           },
           {
             "name": "PRS",
-            "deputes": 15,
+            "deputies": 15,
             "coalition": "Fédération de la Gauche Démocrate et Socialiste",
             "coalition_en": "Federation of the Democratic and Socialist Left",
             "coalition_de": "Föderation der Demokratischen und Sozialistischen Linken"
           },
           {
             "name": "DVG",
-            "deputes": 1,
+            "deputies": 1,
             "coalition": "Fédération de la Gauche Démocrate et Socialiste",
             "coalition_en": "Federation of the Democratic and Socialist Left",
             "coalition_de": "Föderation der Demokratischen und Sozialistischen Linken"
           },
           {
             "name": "Autres",
-            "deputes": 9
+            "deputies": 9
           },
           {
             "name": "CD",
-            "deputes": 33,
+            "deputies": 33,
             "coalition": "Union des Républicains de Progrès",
             "coalition_en": "Union of Progressive Republicans",
             "coalition_de": "Union progressiver Republikaner"
           },
           {
             "name": "RI",
-            "deputes": 61,
+            "deputies": 61,
             "coalition": "Union des Républicains de Progrès",
             "coalition_en": "Union of Progressive Republicans",
             "coalition_de": "Union progressiver Republikaner"
           },
           {
             "name": "UDR",
-            "deputes": 293,
+            "deputies": 293,
             "coalition": "Union des Républicains de Progrès",
             "coalition_en": "Union of Progressive Republicans",
             "coalition_de": "Union progressiver Republikaner"
           },
           {
             "name": "UFF",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "UNIR",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       },
       {
         "legislature": 1973,
-        "total_deputes": 490,
+        "total_deputies": 490,
         "duration": 5,
         "begin": "1973-04-02",
         "end": "1978-04-02",
         "parties": [
           {
             "name": "PCF",
-            "deputes": 73
+            "deputies": 73
           },
           {
             "name": "PSU",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "PS",
-            "deputes": 89
+            "deputies": 89
           },
           {
             "name": "CIR",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PRG",
-            "deputes": 13
+            "deputies": 13
           },
           {
             "name": "DVG",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Autres",
-            "deputes": 12
+            "deputies": 12
           },
           {
             "name": "CDP",
-            "deputes": 64,
+            "deputies": 64,
             "coalition": "Union des Républicains de Progrès",
             "coalition_en": "Union of Progressive Republicans",
             "coalition_de": "Union progressiver Republikaner"
           },
           {
             "name": "RI",
-            "deputes": 55,
+            "deputies": 55,
             "coalition": "Union des Républicains de Progrès",
             "coalition_en": "Union of Progressive Republicans",
             "coalition_de": "Union progressiver Republikaner"
           },
           {
             "name": "UDR",
-            "deputes": 183,
+            "deputies": 183,
             "coalition": "Union des Républicains de Progrès",
             "coalition_en": "Union of Progressive Republicans",
             "coalition_de": "Union progressiver Republikaner"
           },
           {
             "name": "UFF",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "UNIR",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       },
       {
         "legislature": 1978,
-        "total_deputes": 491,
+        "total_deputies": 491,
         "duration": 3,
         "begin": "1978-04-03",
         "end": "1981-05-22",
         "parties": [
           {
             "name": "PCF",
-            "deputes": 86
+            "deputies": 86
           },
           {
             "name": "PSU",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PS",
-            "deputes": 103
+            "deputies": 103
           },
           {
             "name": "MRG",
-            "deputes": 10
+            "deputies": 10
           },
           {
             "name": "DVG",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Autres",
-            "deputes": 15
+            "deputies": 15
           },
           {
             "name": "DVD",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "CDP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "UDF",
-            "deputes": 123
+            "deputies": 123
           },
           {
             "name": "RPR",
-            "deputes": 154
+            "deputies": 154
           },
           {
             "name": "FN",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       },
       {
         "legislature": 1981,
-        "total_deputes": 491,
+        "total_deputies": 491,
         "duration": 5,
         "begin": "1981-07-02",
         "end": "1986-04-01",
         "parties": [
           {
             "name": "PCF",
-            "deputes": 44
+            "deputies": 44
           },
           {
             "name": "PS",
-            "deputes": 266
+            "deputies": 266
           },
           {
             "name": "MRG",
-            "deputes": 14
+            "deputies": 14
           },
           {
             "name": "DVG",
-            "deputes": 9
+            "deputies": 9
           },
           {
             "name": "Autres",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "DVD",
-            "deputes": 10,
+            "deputies": 10,
             "coalition": "Union pour une Nouvelle Majorité",
             "coalition_en": "Union for a New Majority",
             "coalition_de": "Union für eine neue Mehrheit"
           },
           {
             "name": "UDF",
-            "deputes": 62,
+            "deputies": 62,
             "coalition": "Union pour une Nouvelle Majorité",
             "coalition_en": "Union for a New Majority",
             "coalition_de": "Union für eine neue Mehrheit"
           },
           {
             "name": "RPR",
-            "deputes": 85,
+            "deputies": 85,
             "coalition": "Union pour une Nouvelle Majorité",
             "coalition_en": "Union for a New Majority",
             "coalition_de": "Union für eine neue Mehrheit"
           },
           {
             "name": "FN",
-            "deputes": 1
+            "deputies": 1
           }
         ]
       },
       {
         "legislature": 1986,
-        "total_deputes": 577,
+        "total_deputies": 577,
         "duration": 2,
         "begin": "1986-04-02",
         "end": "1988-05-14",
         "parties": [
           {
             "name": "PCF",
-            "deputes": 35
+            "deputies": 35
           },
           {
             "name": "PS",
-            "deputes": 210
+            "deputies": 210
           },
           {
             "name": "MRG",
-            "deputes": 7
+            "deputies": 7
           },
           {
             "name": "DVG",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Autres",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "DVD",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "CDS",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "UDF",
-            "deputes": 132,
+            "deputies": 132,
             "coalition": "Union de l'Opposition pour le Renouveau",
             "coalition_en": "Opposition Union for Renewal",
             "coalition_de": "Oppositionsunion für Erneuerung"
           },
           {
             "name": "RPR",
-            "deputes": 157,
+            "deputies": 157,
             "coalition": "Union de l'Opposition pour le Renouveau",
             "coalition_en": "Opposition Union for Renewal",
             "coalition_de": "Oppositionsunion für Erneuerung"
           },
           {
             "name": "FN",
-            "deputes": 35
+            "deputies": 35
           }
         ]
       },
       {
         "legislature": 1988,
-        "total_deputes": 577,
+        "total_deputies": 577,
         "duration": 5,
         "begin": "1988-06-23",
         "end": "1993-04-01",
         "parties": [
           {
             "name": "PCF",
-            "deputes": 25
+            "deputies": 25
           },
           {
             "name": "PS",
-            "deputes": 266
+            "deputies": 266
           },
           {
             "name": "MDC",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "MRG",
-            "deputes": 9
+            "deputies": 9
           },
           {
             "name": "DVG",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "Autres",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "DVD",
-            "deputes": 8
+            "deputies": 8
           },
           {
             "name": "CDS",
-            "deputes": 41,
+            "deputies": 41,
             "coalition": "Union du Rassemblement et du Centre",
             "coalition_en": "Union of Rally and Center",
             "coalition_de": "Union der Rallye und des Zentrums"
           },
           {
             "name": "UDF",
-            "deputes": 92,
+            "deputies": 92,
             "coalition": "Union du Rassemblement et du Centre",
             "coalition_en": "Union of Rally and Center",
             "coalition_de": "Union der Rallye und des Zentrums"
           },
           {
             "name": "RPR",
-            "deputes": 132,
+            "deputies": 132,
             "coalition": "Union du Rassemblement et du Centre",
             "coalition_en": "Union of Rally and Center",
             "coalition_de": "Union der Rallye und des Zentrums"
           },
           {
             "name": "FN",
-            "deputes": 1
+            "deputies": 1
           }
         ]
       },
       {
         "legislature": 1993,
-        "total_deputes": 577,
+        "total_deputies": 577,
         "duration": 4,
         "begin": "1993-04-02",
         "end": "1997-04-21",
         "parties": [
           {
             "name": "PCF",
-            "deputes": 23
+            "deputies": 23
           },
           {
             "name": "LV",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PS",
-            "deputes": 52,
+            "deputies": 52,
             "coalition": "Alliance des Français pour le Progrès",
             "coalition_en": "Alliance of French people for Progress",
             "coalition_de": "Allianz der Franzosen für den Fortschritt"
           },
           {
             "name": "MDC",
-            "deputes": 3,
+            "deputies": 3,
             "coalition": "Alliance des Français pour le Progrès",
             "coalition_en": "Alliance of French people for Progress",
             "coalition_de": "Allianz der Franzosen für den Fortschritt"
           },
           {
             "name": "MRG",
-            "deputes": 6,
+            "deputies": 6,
             "coalition": "Alliance des Français pour le Progrès",
             "coalition_en": "Alliance of French people for Progress",
             "coalition_de": "Allianz der Franzosen für den Fortschritt"
           },
           {
             "name": "DVG",
-            "deputes": 8,
+            "deputies": 8,
             "coalition": "Alliance des Français pour le Progrès",
             "coalition_en": "Alliance of French people for Progress",
             "coalition_de": "Allianz der Franzosen für den Fortschritt"
           },
           {
             "name": "DVD",
-            "deputes": 12,
+            "deputies": 12,
             "coalition": "Union Pour la France",
             "coalition_en": "Union For France",
             "coalition_de": "Union für Frankreich"
           },
           {
             "name": "CDS",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Union Pour la France",
             "coalition_en": "Union For France",
             "coalition_de": "Union für Frankreich"
           },
           {
             "name": "UDF",
-            "deputes": 215,
+            "deputies": 215,
             "coalition": "Union Pour la France",
             "coalition_en": "Union For France",
             "coalition_de": "Union für Frankreich"
           },
           {
             "name": "RPR",
-            "deputes": 258,
+            "deputies": 258,
             "coalition": "Union Pour la France",
             "coalition_en": "Union For France",
             "coalition_de": "Union für Frankreich"
           },
           {
             "name": "MPF",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "FN",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       },
       {
         "legislature": 1997,
-        "total_deputes": 577,
+        "total_deputies": 577,
         "duration": 5,
         "begin": "1997-06-12",
         "end": "2002-06-18",
         "parties": [
           {
             "name": "PCF",
-            "deputes": 36,
+            "deputies": 36,
             "coalition": "Gauche plurielle",
             "coalition_en": "Plural left",
             "coalition_de": "Plural links"
           },
           {
             "name": "LV",
-            "deputes": 5,
+            "deputies": 5,
             "coalition": "Gauche plurielle",
             "coalition_en": "Plural left",
             "coalition_de": "Plural links"
           },
           {
             "name": "PS",
-            "deputes": 250,
+            "deputies": 250,
             "coalition": "Gauche plurielle",
             "coalition_en": "Plural left",
             "coalition_de": "Plural links"
           },
           {
             "name": "MDC",
-            "deputes": 7,
+            "deputies": 7,
             "coalition": "Gauche plurielle",
             "coalition_en": "Plural left",
             "coalition_de": "Plural links"
           },
           {
             "name": "PRS",
-            "deputes": 12,
+            "deputies": 12,
             "coalition": "Gauche plurielle",
             "coalition_en": "Plural left",
             "coalition_de": "Plural links"
           },
           {
             "name": "DVG",
-            "deputes": 9,
+            "deputies": 9,
             "coalition": "Gauche plurielle",
             "coalition_en": "Plural left",
             "coalition_de": "Plural links"
           },
           {
             "name": "DVD",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "UDF",
-            "deputes": 113,
+            "deputies": 113,
             "coalition": "Union RPR-UDF",
             "coalition_en": "RPR-UDF Union",
             "coalition_de": "RPR-UDF-Union"
           },
           {
             "name": "RPR",
-            "deputes": 140,
+            "deputies": 140,
             "coalition": "Union RPR-UDF",
             "coalition_en": "RPR-UDF Union",
             "coalition_de": "RPR-UDF-Union"
           },
           {
             "name": "MPF",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "FN",
-            "deputes": 1
+            "deputies": 1
           }
         ]
       },
       {
         "legislature": 2002,
-        "total_deputes": 577,
+        "total_deputies": 577,
         "duration": 5,
         "begin": "2002-06-19",
         "end": "2007-06-19",
         "parties": [
           {
             "name": "PCF",
-            "deputes": 21
+            "deputies": 21
           },
           {
             "name": "LV",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "PS",
-            "deputes": 141
+            "deputies": 141
           },
           {
             "name": "MDC",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PRG",
-            "deputes": 7
+            "deputies": 7
           },
           {
             "name": "DVG",
-            "deputes": 6
+            "deputies": 6
           },
           {
             "name": "Autres",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "DVD",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "MoDem",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "UDF",
-            "deputes": 29,
+            "deputies": 29,
             "coalition": "Union pour la Majorité Présidentielle",
             "coalition_en": "Union for the Presidential Majority",
             "coalition_de": "Union für die Präsidentenmehrheit"
           },
           {
             "name": "UMP",
-            "deputes": 365,
+            "deputies": 365,
             "coalition": "Union pour la Majorité Présidentielle",
             "coalition_en": "Union for the Presidential Majority",
             "coalition_de": "Union für die Präsidentenmehrheit"
           },
           {
             "name": "DLF",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "MPF",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "FN",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       },
       {
         "legislature": 2007,
-        "total_deputes": 577,
+        "total_deputies": 577,
         "duration": 5,
         "begin": "2007-06-20",
         "end": "2012-06-19",
         "parties": [
           {
             "name": "PCF",
-            "deputes": 16
+            "deputies": 16
           },
           {
             "name": "FASE - PG",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "LV",
-            "deputes": 4
+            "deputies": 4
           },
           {
             "name": "PS",
-            "deputes": 186
+            "deputies": 186
           },
           {
             "name": "MRC",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "PRG",
-            "deputes": 11
+            "deputies": 11
           },
           {
             "name": "DVG",
-            "deputes": 9
+            "deputies": 9
           },
           {
             "name": "Autres",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "DVD",
-            "deputes": 4
+            "deputies": 4
           },
           {
             "name": "MoDem",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "PR",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "NC",
-            "deputes": 24,
+            "deputies": 24,
             "coalition": "Majorité Présidentielle",
             "coalition_en": "Presidential Majority",
             "coalition_de": "Mehrheit des Präsidenten"
           },
           {
             "name": "UMP",
-            "deputes": 313,
+            "deputies": 313,
             "coalition": "Majorité Présidentielle",
             "coalition_en": "Presidential Majority",
             "coalition_de": "Mehrheit des Präsidenten"
           },
           {
             "name": "DLF",
-            "deputes": 2,
+            "deputies": 2,
             "coalition": "Majorité Présidentielle",
             "coalition_en": "Presidential Majority",
             "coalition_de": "Mehrheit des Präsidenten"
           },
           {
             "name": "MPF",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "FN",
-            "deputes": 0
+            "deputies": 0
           }
         ]
       },
       {
         "legislature": 2012,
-        "total_deputes": 577,
+        "total_deputies": 577,
         "duration": 5,
         "begin": "2012-06-20",
         "end": "2017-06-20",
         "parties": [
           {
             "name": "PCF",
-            "deputes": 7,
+            "deputies": 7,
             "coalition": "Front de Gauche",
             "coalition_en": "Left Front",
             "coalition_de": "Vorne links"
           },
           {
             "name": "FASE - PG",
-            "deputes": 3,
+            "deputies": 3,
             "coalition": "Front de Gauche",
             "coalition_en": "Left Front",
             "coalition_de": "Vorne links"
           },
           {
             "name": "EELV",
-            "deputes": 17
+            "deputies": 17
           },
           {
             "name": "PS",
-            "deputes": 280
+            "deputies": 280
           },
           {
             "name": "MRC",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "PRG",
-            "deputes": 12
+            "deputies": 12
           },
           {
             "name": "DVG",
-            "deputes": 21
+            "deputies": 21
           },
           {
             "name": "Autres",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "DVD",
-            "deputes": 15
+            "deputies": 15
           },
           {
             "name": "MoDem",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "LREM",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PR",
-            "deputes": 6
+            "deputies": 6
           },
           {
             "name": "NC",
-            "deputes": 12
+            "deputies": 12
           },
           {
             "name": "UMP",
-            "deputes": 194
+            "deputies": 194
           },
           {
             "name": "DLF",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "MPF",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "FN",
-            "deputes": 2
+            "deputies": 2
           }
         ]
       },
       {
         "legislature": 2017,
-        "total_deputes": 577,
+        "total_deputies": 577,
         "duration": 5,
         "begin": "2017-06-21",
         "end": "2022-06-21",
         "parties": [
           {
             "name": "PCF",
-            "deputes": 15
+            "deputies": 15
           },
           {
             "name": "LFI",
-            "deputes": 17
+            "deputies": 17
           },
           {
             "name": "EELV",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "PS",
-            "deputes": 29
+            "deputies": 29
           },
           {
             "name": "MRC",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "PRG",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "DVG",
-            "deputes": 12
+            "deputies": 12
           },
           {
             "name": "Autres",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "DVD",
-            "deputes": 6
+            "deputies": 6
           },
           {
             "name": "MoDem",
-            "deputes": 42,
+            "deputies": 42,
             "coalition": "Majorité Présidentielle",
             "coalition_en": "Presidential Majority",
             "coalition_de": "Mehrheit des Präsidenten"
           },
           {
             "name": "LREM",
-            "deputes": 308,
+            "deputies": 308,
             "coalition": "Majorité Présidentielle",
             "coalition_en": "Presidential Majority",
             "coalition_de": "Mehrheit des Präsidenten"
           },
           {
             "name": "PR",
-            "deputes": 3,
+            "deputies": 3,
             "coalition": "Union de la Droite et du Centre",
             "coalition_en": "Union of the Right and the Center",
             "coalition_de": "Union der Rechten und der Mitte"
           },
           {
             "name": "HOR",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Union de la Droite et du Centre",
             "coalition_en": "Union of the Right and the Center",
             "coalition_de": "Union der Rechten und der Mitte"
           },
           {
             "name": "UDI",
-            "deputes": 15,
+            "deputies": 15,
             "coalition": "Union de la Droite et du Centre",
             "coalition_en": "Union of the Right and the Center",
             "coalition_de": "Union der Rechten und der Mitte"
           },
           {
             "name": "LC",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Union de la Droite et du Centre",
             "coalition_en": "Union of the Right and the Center",
             "coalition_de": "Union der Rechten und der Mitte"
           },
           {
             "name": "LR",
-            "deputes": 112,
+            "deputies": 112,
             "coalition": "Union de la Droite et du Centre",
             "coalition_en": "Union of the Right and the Center",
             "coalition_de": "Union der Rechten und der Mitte"
           },
           {
             "name": "DLF",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "MPF",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "FN",
-            "deputes": 9
+            "deputies": 9
           }
         ]
       },
       {
         "legislature": 2022,
-        "total_deputes": 577,
+        "total_deputies": 577,
         "duration": 2,
         "begin": "2022-06-22",
         "end": "2024-06-09",
         "parties": [
           {
             "name": "PCF",
-            "deputes": 22,
+            "deputies": 22,
             "coalition": "Nouvelle Union Populaire Écologique et Sociale",
             "coalition_en": "New Ecological and Social Popular Union",
             "coalition_de": "Neue ökologische und soziale Volksunion"
           },
           {
             "name": "LFI",
-            "deputes": 75,
+            "deputies": 75,
             "coalition": "Nouvelle Union Populaire Écologique et Sociale",
             "coalition_en": "New Ecological and Social Popular Union",
             "coalition_de": "Neue ökologische und soziale Volksunion"
           },
           {
             "name": "EELV",
-            "deputes": 23,
+            "deputies": 23,
             "coalition": "Nouvelle Union Populaire Écologique et Sociale",
             "coalition_en": "New Ecological and Social Popular Union",
             "coalition_de": "Neue ökologische und soziale Volksunion"
           },
           {
             "name": "PS",
-            "deputes": 37,
+            "deputies": 37,
             "coalition": "Nouvelle Union Populaire Écologique et Sociale",
             "coalition_en": "New Ecological and Social Popular Union",
             "coalition_de": "Neue ökologische und soziale Volksunion"
           },
           {
             "name": "MRC",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PRG",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "DVG",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "Autres",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "DVD",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "MoDem",
-            "deputes": 48,
+            "deputies": 48,
             "coalition": "Ensemble",
             "coalition_en": "Together",
             "coalition_de": "Zusammen"
           },
           {
             "name": "RE",
-            "deputes": 168,
+            "deputies": 168,
             "coalition": "Ensemble",
             "coalition_en": "Together",
             "coalition_de": "Zusammen"
           },
           {
             "name": "PR",
-            "deputes": 5,
+            "deputies": 5,
             "coalition": "Ensemble",
             "coalition_en": "Together",
             "coalition_de": "Zusammen"
           },
           {
             "name": "HOR",
-            "deputes": 30,
+            "deputies": 30,
             "coalition": "Ensemble",
             "coalition_en": "Together",
             "coalition_de": "Zusammen"
           },
           {
             "name": "UDI",
-            "deputes": 5,
+            "deputies": 5,
             "coalition": "Union de la Droite et du Centre",
             "coalition_en": "Union of the Right and the Center",
             "coalition_de": "Union der Rechten und der Mitte"
           },
           {
             "name": "LC",
-            "deputes": 1,
+            "deputies": 1,
             "coalition": "Union de la Droite et du Centre",
             "coalition_en": "Union of the Right and the Center",
             "coalition_de": "Union der Rechten und der Mitte"
           },
           {
             "name": "LR",
-            "deputes": 63,
+            "deputies": 63,
             "coalition": "Union de la Droite et du Centre",
             "coalition_en": "Union of the Right and the Center",
             "coalition_de": "Union der Rechten und der Mitte"
           },
           {
             "name": "UDR ",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "DLF",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "RN",
-            "deputes": 90
+            "deputies": 90
           }
         ]
       },
       {
         "legislature": 2024,
-        "total_deputes": 577,
+        "total_deputies": 577,
         "duration": 1,
         "begin": "2024-07-18",
         "end": "now",
         "parties": [
           {
             "name": "PCF",
-            "deputes": 17,
+            "deputies": 17,
             "coalition": "Nouveau Front Populaire",
             "coalition_en": "New Popular Front",
             "coalition_de": "Neue Volksfront"
           },
           {
             "name": "LFI",
-            "deputes": 72,
+            "deputies": 72,
             "coalition": "Nouveau Front Populaire",
             "coalition_en": "New Popular Front",
             "coalition_de": "Neue Volksfront"
           },
           {
             "name": "LE",
-            "deputes": 38,
+            "deputies": 38,
             "coalition": "Nouveau Front Populaire",
             "coalition_en": "New Popular Front",
             "coalition_de": "Neue Volksfront"
           },
           {
             "name": "PS",
-            "deputes": 68,
+            "deputies": 68,
             "coalition": "Nouveau Front Populaire",
             "coalition_en": "New Popular Front",
             "coalition_de": "Neue Volksfront"
           },
           {
             "name": "PRG",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "DVG",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "Autres",
-            "deputes": 7
+            "deputies": 7
           },
           {
             "name": "DVD",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "MoDem",
-            "deputes": 36,
+            "deputies": 36,
             "coalition": "Ensemble Pour la République",
             "coalition_en": "Together For the Republic",
             "coalition_de": "Gemeinsam für die Republik"
           },
           {
             "name": "RE",
-            "deputes": 101,
+            "deputies": 101,
             "coalition": "Ensemble Pour la République",
             "coalition_en": "Together For the Republic",
             "coalition_de": "Gemeinsam für die Republik"
           },
           {
             "name": "PR",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Ensemble Pour la République",
             "coalition_en": "Together For the Republic",
             "coalition_de": "Gemeinsam für die Republik"
           },
           {
             "name": "HOR",
-            "deputes": 31,
+            "deputies": 31,
             "coalition": "Ensemble Pour la République",
             "coalition_en": "Together For the Republic",
             "coalition_de": "Gemeinsam für die Republik"
           },
           {
             "name": "UDI",
-            "deputes": 6,
+            "deputies": 6,
             "coalition": "Ensemble Pour la République",
             "coalition_en": "Together For the Republic",
             "coalition_de": "Gemeinsam für die Republik"
           },
           {
             "name": "LC",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "LR",
-            "deputes": 52
+            "deputies": 52
           },
           {
             "name": "UDR ",
-            "deputes": 16,
+            "deputies": 16,
             "coalition": "Rassemblement National et Alliés",
             "coalition_en": "National Rally and Allies",
             "coalition_de": "Nationale Kundgebung und Verbündete"
           },
           {
             "name": "DLF",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Rassemblement National et Alliés",
             "coalition_en": "National Rally and Allies",
             "coalition_de": "Nationale Kundgebung und Verbündete"
           },
           {
             "name": "RN",
-            "deputes": 127,
+            "deputies": 127,
             "coalition": "Rassemblement National et Alliés",
             "coalition_en": "National Rally and Allies",
             "coalition_de": "Nationale Kundgebung und Verbündete"

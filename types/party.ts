@@ -6,11 +6,10 @@ export type PartyType = {
   full_name_en?: string;
   full_name_de?: string;
   keyword?: string;
-  deputes?: number;
+  deputies?: number;
   current?: CurrentType;
   coalition?: string;
   coalition_en?: string;
   coalition_de?: string;
-  persons?: string[];
   source?: string[];
 };

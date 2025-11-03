@@ -8,30 +8,30 @@
     "legislatures": [
       {
         "legislature": 1796,
-        "total_deputes": 558,
+        "total_deputies": 558,
         "duration": 6,
         "begin": "1796-06-29",
         "end": "1802-08-28",
         "parties": [
           {
             "name": "W",
-            "deputes": 95
+            "deputies": 95
           },
           {
             "name": "NO",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Ind",
-            "deputes": 39
+            "deputies": 39
           },
           {
             "name": "T",
-            "deputes": 424
+            "deputies": 424
           },
           {
             "name": "Pit",
-            "deputes": 0
+            "deputies": 0
           }
         ],
         "source": [
@@ -49,30 +49,30 @@
     "legislatures": [
       {
         "legislature": 1802,
-        "total_deputes": 658,
+        "total_deputies": 658,
         "duration": 4,
         "begin": "1802-08-28",
         "end": "1806-12-17",
         "parties": [
           {
             "name": "W",
-            "deputes": 124
+            "deputies": 124
           },
           {
             "name": "NO",
-            "deputes": 25
+            "deputies": 25
           },
           {
             "name": "Ind",
-            "deputes": 36
+            "deputies": 36
           },
           {
             "name": "T",
-            "deputes": 416
+            "deputies": 416
           },
           {
             "name": "Pit",
-            "deputes": 57
+            "deputies": 57
           }
         ],
         "source": [
@@ -82,34 +82,34 @@
       },
       {
         "legislature": 1806,
-        "total_deputes": 658,
+        "total_deputies": 658,
         "duration": 1,
         "begin": "1806-12-17",
         "end": "1807-06-09",
         "parties": [
           {
             "name": "Rad",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "W",
-            "deputes": 431
+            "deputies": 431
           },
           {
             "name": "NO",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Ind",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "T",
-            "deputes": 227
+            "deputies": 227
           },
           {
             "name": "Pit",
-            "deputes": 0
+            "deputies": 0
           }
         ],
         "source": [
@@ -118,26 +118,26 @@
       },
       {
         "legislature": 1807,
-        "total_deputes": 658,
+        "total_deputies": 658,
         "duration": 5,
         "begin": "1807-06-09",
         "end": "1812-11-10",
         "parties": [
           {
             "name": "Rad",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "W",
-            "deputes": 213
+            "deputies": 213
           },
           {
             "name": "Ind",
-            "deputes": 228
+            "deputies": 228
           },
           {
             "name": "T",
-            "deputes": 216
+            "deputies": 216
           }
         ],
         "source": [
@@ -146,30 +146,30 @@
       },
       {
         "legislature": 1812,
-        "total_deputes": 658,
+        "total_deputies": 658,
         "duration": 6,
         "begin": "1812-11-10",
         "end": "1818-08-04",
         "parties": [
           {
             "name": "Rad",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "L ",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "W",
-            "deputes": 196
+            "deputies": 196
           },
           {
             "name": "Ind",
-            "deputes": 62
+            "deputies": 62
           },
           {
             "name": "T",
-            "deputes": 399
+            "deputies": 399
           }
         ],
         "source": [
@@ -178,30 +178,30 @@
       },
       {
         "legislature": 1818,
-        "total_deputes": 658,
+        "total_deputies": 658,
         "duration": 2,
         "begin": "1818-08-04",
         "end": "1820-04-14",
         "parties": [
           {
             "name": "Rad",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "L ",
-            "deputes": 4
+            "deputies": 4
           },
           {
             "name": "W",
-            "deputes": 175
+            "deputies": 175
           },
           {
             "name": "Ind",
-            "deputes": 98
+            "deputies": 98
           },
           {
             "name": "T",
-            "deputes": 280
+            "deputies": 280
           }
         ],
         "source": [
@@ -210,34 +210,34 @@
       },
       {
         "legislature": 1820,
-        "total_deputes": 658,
+        "total_deputies": 658,
         "duration": 6,
         "begin": "1820-04-14",
         "end": "1826-07-12",
         "parties": [
           {
             "name": "Rad",
-            "deputes": 4
+            "deputies": 4
           },
           {
             "name": "L ",
-            "deputes": 4
+            "deputies": 4
           },
           {
             "name": "W",
-            "deputes": 215
+            "deputies": 215
           },
           {
             "name": "Ind",
-            "deputes": 94
+            "deputies": 94
           },
           {
             "name": "T",
-            "deputes": 341
+            "deputies": 341
           },
           {
             "name": "UT",
-            "deputes": 0
+            "deputies": 0
           }
         ],
         "source": [
@@ -246,34 +246,34 @@
       },
       {
         "legislature": 1826,
-        "total_deputes": 658,
+        "total_deputies": 658,
         "duration": 4,
         "begin": "1826-07-12",
         "end": "1830-09-01",
         "parties": [
           {
             "name": "Rad",
-            "deputes": 5
+            "deputies": 5
           },
           {
             "name": "L ",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "W",
-            "deputes": 198
+            "deputies": 198
           },
           {
             "name": "Ind",
-            "deputes": 27
+            "deputies": 27
           },
           {
             "name": "T",
-            "deputes": 428
+            "deputies": 428
           },
           {
             "name": "UT",
-            "deputes": 0
+            "deputies": 0
           }
         ],
         "source": [
@@ -282,30 +282,30 @@
       },
       {
         "legislature": 1830,
-        "total_deputes": 658,
+        "total_deputies": 658,
         "duration": 1,
         "begin": "1830-09-01",
         "end": "1831-06-01",
         "parties": [
           {
             "name": "Rad",
-            "deputes": 4
+            "deputies": 4
           },
           {
             "name": "W",
-            "deputes": 196
+            "deputies": 196
           },
           {
             "name": "Ind",
-            "deputes": 148
+            "deputies": 148
           },
           {
             "name": "T",
-            "deputes": 250
+            "deputies": 250
           },
           {
             "name": "UT",
-            "deputes": 60
+            "deputies": 60
           }
         ],
         "source": [
@@ -314,38 +314,38 @@
       },
       {
         "legislature": 1831,
-        "total_deputes": 658,
+        "total_deputies": 658,
         "duration": 1,
         "begin": "1831-06-01",
         "end": "1832-01-08",
         "parties": [
           {
             "name": "Rad",
-            "deputes": 6
+            "deputies": 6
           },
           {
             "name": "Rep",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Ref",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "W",
-            "deputes": 370
+            "deputies": 370
           },
           {
             "name": "Ind",
-            "deputes": 47
+            "deputies": 47
           },
           {
             "name": "T",
-            "deputes": 235
+            "deputies": 235
           },
           {
             "name": "UT",
-            "deputes": 0
+            "deputies": 0
           }
         ],
         "source": [
@@ -354,47 +354,47 @@
       },
       {
         "legislature": 1832,
-        "total_deputes": 658,
+        "total_deputies": 658,
         "duration": 3,
         "begin": "1832-01-08",
         "end": "1835-02-06",
         "parties": [
           {
             "name": "Rad",
-            "deputes": 31,
+            "deputies": 31,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "Rep",
-            "deputes": 42
+            "deputies": 42
           },
           {
             "name": "Ref",
-            "deputes": 198,
+            "deputies": 198,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "W",
-            "deputes": 212,
+            "deputies": 212,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "Ind",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "T",
-            "deputes": 175
+            "deputies": 175
           },
           {
             "name": "ICP",
-            "deputes": 0
+            "deputies": 0
           }
         ],
         "source": [
@@ -405,63 +405,63 @@
       },
       {
         "legislature": 1835,
-        "total_deputes": 658,
+        "total_deputies": 658,
         "duration": 2,
         "begin": "1835-02-06",
         "end": "1837-08-18",
         "parties": [
           {
             "name": "Rad",
-            "deputes": 39,
+            "deputies": 39,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "Rep",
-            "deputes": 34,
+            "deputies": 34,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "Ref",
-            "deputes": 210,
+            "deputies": 210,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "L ",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "W",
-            "deputes": 102,
+            "deputies": 102,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "LibC",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "C ",
-            "deputes": 236,
+            "deputies": 236,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "ICP",
-            "deputes": 37,
+            "deputies": 37,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -476,63 +476,63 @@
       },
       {
         "legislature": 1837,
-        "total_deputes": 658,
+        "total_deputies": 658,
         "duration": 4,
         "begin": "1837-08-18",
         "end": "1841-07-22",
         "parties": [
           {
             "name": "Rad",
-            "deputes": 35,
+            "deputies": 35,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "Rep",
-            "deputes": 30,
+            "deputies": 30,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "Ref",
-            "deputes": 144,
+            "deputies": 144,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "L ",
-            "deputes": 19,
+            "deputies": 19,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "W",
-            "deputes": 116,
+            "deputies": 116,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "LibC",
-            "deputes": 5,
+            "deputies": 5,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "C ",
-            "deputes": 277,
+            "deputies": 277,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "ICP",
-            "deputes": 32,
+            "deputies": 32,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -547,68 +547,68 @@
       },
       {
         "legislature": 1841,
-        "total_deputes": 658,
+        "total_deputies": 658,
         "duration": 6,
         "begin": "1841-07-22",
         "end": "1847-08-26",
         "parties": [
           {
             "name": "Char",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Rad",
-            "deputes": 31,
+            "deputies": 31,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "IC ",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Rep",
-            "deputes": 20
+            "deputies": 20
           },
           {
             "name": "Ref",
-            "deputes": 88,
+            "deputies": 88,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "L ",
-            "deputes": 67,
+            "deputies": 67,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "W",
-            "deputes": 85,
+            "deputies": 85,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "LibC",
-            "deputes": 2,
+            "deputies": 2,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "C ",
-            "deputes": 322,
+            "deputies": 322,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "ICP",
-            "deputes": 43,
+            "deputies": 43,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -622,68 +622,68 @@
       },
       {
         "legislature": 1847,
-        "total_deputes": 656,
+        "total_deputies": 656,
         "duration": 5,
         "begin": "1847-08-26",
         "end": "1852-07-31",
         "parties": [
           {
             "name": "Char",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "Rad",
-            "deputes": 29,
+            "deputies": 29,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "IC ",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "Rep",
-            "deputes": 36
+            "deputies": 36
           },
           {
             "name": "Ref",
-            "deputes": 40,
+            "deputies": 40,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "L ",
-            "deputes": 167,
+            "deputies": 167,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "W",
-            "deputes": 56,
+            "deputies": 56,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "P",
-            "deputes": 94,
+            "deputies": 94,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "C ",
-            "deputes": 189,
+            "deputies": 189,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "ICP",
-            "deputes": 42,
+            "deputies": 42,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -698,77 +698,77 @@
       },
       {
         "legislature": 1852,
-        "total_deputes": 654,
+        "total_deputies": 654,
         "duration": 5,
         "begin": "1852-07-31",
         "end": "1857-04-24",
         "parties": [
           {
             "name": "Char",
-            "deputes": 1,
+            "deputies": 1,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "Rad",
-            "deputes": 14,
+            "deputies": 14,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "IC ",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "IIP",
-            "deputes": 48,
+            "deputies": 48,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "Ref",
-            "deputes": 27,
+            "deputies": 27,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "L ",
-            "deputes": 191,
+            "deputies": 191,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "W",
-            "deputes": 43,
+            "deputies": 43,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "P",
-            "deputes": 40,
+            "deputies": 40,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "C ",
-            "deputes": 248,
+            "deputies": 248,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "ICP",
-            "deputes": 42,
+            "deputies": 42,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -784,67 +784,67 @@
       },
       {
         "legislature": 1857,
-        "total_deputes": 654,
+        "total_deputies": 654,
         "duration": 6,
         "begin": "1857-04-24",
         "end": "1859-05-18",
         "parties": [
           {
             "name": "Char",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Rad",
-            "deputes": 8,
+            "deputies": 8,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "IIP",
-            "deputes": 13,
+            "deputies": 13,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "Ref",
-            "deputes": 8,
+            "deputies": 8,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "L ",
-            "deputes": 345,
+            "deputies": 345,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "W",
-            "deputes": 16,
+            "deputies": 16,
             "coalition": "Whigs",
             "coalition_en": "Whigs",
             "coalition_de": "Whigs"
           },
           {
             "name": "P",
-            "deputes": 20,
+            "deputies": 20,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "C ",
-            "deputes": 200,
+            "deputies": 200,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "ICP",
-            "deputes": 44,
+            "deputies": 44,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -860,45 +860,45 @@
       },
       {
         "legislature": 1859,
-        "total_deputes": 654,
+        "total_deputies": 654,
         "duration": 6,
         "begin": "1859-05-18",
         "end": "1865-07-24",
         "parties": [
           {
             "name": "Rad",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "IIP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Ref",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "L",
-            "deputes": 356
+            "deputies": 356
           },
           {
             "name": "W",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "P",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "C ",
-            "deputes": 243,
+            "deputies": 243,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "ICP",
-            "deputes": 55,
+            "deputies": 55,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -911,25 +911,25 @@
       },
       {
         "legislature": 1865,
-        "total_deputes": 658,
+        "total_deputies": 658,
         "duration": 3,
         "begin": "1865-07-24",
         "end": "1868-12-07",
         "parties": [
           {
             "name": "L",
-            "deputes": 369
+            "deputies": 369
           },
           {
             "name": "C ",
-            "deputes": 242,
+            "deputies": 242,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "ICP",
-            "deputes": 47,
+            "deputies": 47,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -942,33 +942,33 @@
       },
       {
         "legislature": 1868,
-        "total_deputes": 658,
+        "total_deputies": 658,
         "duration": 6,
         "begin": "1868-12-07",
         "end": "1874-02-17",
         "parties": [
           {
             "name": "HRL",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "LibLab",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "L",
-            "deputes": 387
+            "deputies": 387
           },
           {
             "name": "C ",
-            "deputes": 232,
+            "deputies": 232,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "ICP",
-            "deputes": 39,
+            "deputies": 39,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -981,39 +981,39 @@
       },
       {
         "legislature": 1874,
-        "total_deputes": 652,
+        "total_deputies": 652,
         "duration": 6,
         "begin": "1874-02-17",
         "end": "1880-04-27",
         "parties": [
           {
             "name": "HRL",
-            "deputes": 60
+            "deputies": 60
           },
           {
             "name": "LibLab",
-            "deputes": 2,
+            "deputies": 2,
             "coalition": "Libéraux",
             "coalition_en": "Liberals",
             "coalition_de": "Liberale"
           },
           {
             "name": "L",
-            "deputes": 240,
+            "deputies": 240,
             "coalition": "Libéraux",
             "coalition_en": "Liberals",
             "coalition_de": "Liberale"
           },
           {
             "name": "C ",
-            "deputes": 317,
+            "deputies": 317,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "ICP",
-            "deputes": 33,
+            "deputies": 33,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -1027,51 +1027,51 @@
       },
       {
         "legislature": 1880,
-        "total_deputes": 652,
+        "total_deputies": 652,
         "duration": 5,
         "begin": "1880-04-27",
         "end": "1885-12-18",
         "parties": [
           {
             "name": "HRL",
-            "deputes": 63
+            "deputies": 63
           },
           {
             "name": "Cro",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "LibLab",
-            "deputes": 3,
+            "deputies": 3,
             "coalition": "Libéraux",
             "coalition_en": "Liberals",
             "coalition_de": "Liberale"
           },
           {
             "name": "L",
-            "deputes": 349,
+            "deputies": 349,
             "coalition": "Libéraux",
             "coalition_en": "Liberals",
             "coalition_de": "Liberale"
           },
           {
             "name": "ILib",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "IC",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "C ",
-            "deputes": 214,
+            "deputies": 214,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "ICP",
-            "deputes": 23,
+            "deputies": 23,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -1085,55 +1085,55 @@
       },
       {
         "legislature": 1885,
-        "total_deputes": 670,
+        "total_deputies": 670,
         "duration": 1,
         "begin": "1885-12-18",
         "end": "1886-07-27",
         "parties": [
           {
             "name": "IPP",
-            "deputes": 86
+            "deputies": 86
           },
           {
             "name": "Cro",
-            "deputes": 4
+            "deputies": 4
           },
           {
             "name": "LibLab",
-            "deputes": 10,
+            "deputies": 10,
             "coalition": "Libéraux",
             "coalition_en": "Liberals",
             "coalition_de": "Liberale"
           },
           {
             "name": "L",
-            "deputes": 310,
+            "deputies": 310,
             "coalition": "Libéraux",
             "coalition_en": "Liberals",
             "coalition_de": "Liberale"
           },
           {
             "name": "ILib",
-            "deputes": 11
+            "deputies": 11
           },
           {
             "name": "LUP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "IC",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "C ",
-            "deputes": 231,
+            "deputies": 231,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "ICP",
-            "deputes": 16,
+            "deputies": 16,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -1147,66 +1147,66 @@
       },
       {
         "legislature": 1886,
-        "total_deputes": 670,
+        "total_deputies": 670,
         "duration": 6,
         "begin": "1886-07-27",
         "end": "1892-07-26",
         "parties": [
           {
             "name": "ILab",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "INL",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "IPP",
-            "deputes": 85
+            "deputies": 85
           },
           {
             "name": "INF",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Cro",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "LibLab",
-            "deputes": 9,
+            "deputies": 9,
             "coalition": "Libéraux",
             "coalition_en": "Liberals",
             "coalition_de": "Liberale"
           },
           {
             "name": "L",
-            "deputes": 183,
+            "deputies": 183,
             "coalition": "Libéraux",
             "coalition_en": "Liberals",
             "coalition_de": "Liberale"
           },
           {
             "name": "ILib",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "LUP",
-            "deputes": 77,
+            "deputies": 77,
             "coalition": "Conservateurs et libéraux unionistes",
             "coalition_en": "Conservatives and Unionist Liberals",
             "coalition_de": "Konservative und unionistische Liberale"
           },
           {
             "name": "C ",
-            "deputes": 316,
+            "deputies": 316,
             "coalition": "Conservateurs et libéraux unionistes",
             "coalition_en": "Conservatives and Unionist Liberals",
             "coalition_de": "Konservative und unionistische Liberale"
           },
           {
             "name": "ICP",
-            "deputes": 17,
+            "deputies": 17,
             "coalition": "Conservateurs et libéraux unionistes",
             "coalition_en": "Conservatives and Unionist Liberals",
             "coalition_de": "Konservative und unionistische Liberale"
@@ -1221,62 +1221,62 @@
       },
       {
         "legislature": 1892,
-        "total_deputes": 670,
+        "total_deputies": 670,
         "duration": 3,
         "begin": "1892-07-26",
         "end": "1895-08-07",
         "parties": [
           {
             "name": "ILab",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "INL",
-            "deputes": 9
+            "deputies": 9
           },
           {
             "name": "IPP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "INF",
-            "deputes": 72
+            "deputies": 72
           },
           {
             "name": "LibLab",
-            "deputes": 13,
+            "deputies": 13,
             "coalition": "Libéraux",
             "coalition_en": "Liberals",
             "coalition_de": "Liberale"
           },
           {
             "name": "L",
-            "deputes": 258,
+            "deputies": 258,
             "coalition": "Libéraux",
             "coalition_en": "Liberals",
             "coalition_de": "Liberale"
           },
           {
             "name": "ILib",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "LUP",
-            "deputes": 48,
+            "deputies": 48,
             "coalition": "Conservateurs et libéraux unionistes",
             "coalition_en": "Conservatives and Unionist Liberals",
             "coalition_de": "Konservative und unionistische Liberale"
           },
           {
             "name": "C ",
-            "deputes": 247,
+            "deputies": 247,
             "coalition": "Conservateurs et libéraux unionistes",
             "coalition_en": "Conservatives and Unionist Liberals",
             "coalition_de": "Konservative und unionistische Liberale"
           },
           {
             "name": "IUA",
-            "deputes": 19,
+            "deputies": 19,
             "coalition": "Conservateurs et libéraux unionistes",
             "coalition_en": "Conservatives and Unionist Liberals",
             "coalition_de": "Konservative und unionistische Liberale"
@@ -1291,74 +1291,74 @@
       },
       {
         "legislature": 1895,
-        "total_deputes": 670,
+        "total_deputies": 670,
         "duration": 5,
         "begin": "1895-08-07",
         "end": "1900-10-24",
         "parties": [
           {
             "name": "ILP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "LRC",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "ILab",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "INL",
-            "deputes": 12
+            "deputies": 12
           },
           {
             "name": "IPP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "INF",
-            "deputes": 70
+            "deputies": 70
           },
           {
             "name": "HN",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "LibLab",
-            "deputes": 9,
+            "deputies": 9,
             "coalition": "Libéraux",
             "coalition_en": "Liberals",
             "coalition_de": "Liberale"
           },
           {
             "name": "L",
-            "deputes": 168,
+            "deputies": 168,
             "coalition": "Libéraux",
             "coalition_en": "Liberals",
             "coalition_de": "Liberale"
           },
           {
             "name": "ILib",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "LUP",
-            "deputes": 71,
+            "deputies": 71,
             "coalition": "Conservateurs et libéraux unionistes",
             "coalition_en": "Conservatives and Unionist Liberals",
             "coalition_de": "Konservative und unionistische Liberale"
           },
           {
             "name": "C ",
-            "deputes": 323,
+            "deputies": 323,
             "coalition": "Conservateurs et libéraux unionistes",
             "coalition_en": "Conservatives and Unionist Liberals",
             "coalition_de": "Konservative und unionistische Liberale"
           },
           {
             "name": "IUA",
-            "deputes": 17,
+            "deputies": 17,
             "coalition": "Conservateurs et libéraux unionistes",
             "coalition_en": "Conservatives and Unionist Liberals",
             "coalition_de": "Konservative und unionistische Liberale"
@@ -1374,87 +1374,87 @@
       },
       {
         "legislature": 1900,
-        "total_deputes": 670,
+        "total_deputies": 670,
         "duration": 6,
         "begin": "1900-10-24",
         "end": "1906-02-08",
         "parties": [
           {
             "name": "ILP",
-            "deputes": 1,
+            "deputies": 1,
             "coalition": "Travaillistes",
             "coalition_en": "Labour",
             "coalition_de": "Arbeiter"
           },
           {
             "name": "LRC",
-            "deputes": 1,
+            "deputies": 1,
             "coalition": "Travaillistes",
             "coalition_en": "Labour",
             "coalition_de": "Arbeiter"
           },
           {
             "name": "IN ",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "INL",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "IPP",
-            "deputes": 76
+            "deputies": 76
           },
           {
             "name": "INF",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "HN",
-            "deputes": 6
+            "deputies": 6
           },
           {
             "name": "LibLab",
-            "deputes": 8,
+            "deputies": 8,
             "coalition": "Libéraux",
             "coalition_en": "Liberals",
             "coalition_de": "Liberale"
           },
           {
             "name": "L",
-            "deputes": 175,
+            "deputies": 175,
             "coalition": "Libéraux",
             "coalition_en": "Liberals",
             "coalition_de": "Liberale"
           },
           {
             "name": "ILib",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "LUP",
-            "deputes": 67,
+            "deputies": 67,
             "coalition": "Conservateurs et libéraux unionistes",
             "coalition_en": "Conservatives and Unionist Liberals",
             "coalition_de": "Konservative und unionistische Liberale"
           },
           {
             "name": "IC",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Conservateurs et libéraux unionistes",
             "coalition_en": "Conservatives and Unionist Liberals",
             "coalition_de": "Konservative und unionistische Liberale"
           },
           {
             "name": "C ",
-            "deputes": 318,
+            "deputies": 318,
             "coalition": "Conservateurs et libéraux unionistes",
             "coalition_en": "Conservatives and Unionist Liberals",
             "coalition_de": "Konservative und unionistische Liberale"
           },
           {
             "name": "IUA",
-            "deputes": 17,
+            "deputies": 17,
             "coalition": "Conservateurs et libéraux unionistes",
             "coalition_en": "Conservatives and Unionist Liberals",
             "coalition_de": "Konservative und unionistische Liberale"
@@ -1470,76 +1470,76 @@
       },
       {
         "legislature": 1906,
-        "total_deputes": 670,
+        "total_deputies": 670,
         "duration": 4,
         "begin": "1906-02-08",
         "end": "1910-02-10",
         "parties": [
           {
             "name": "ILP",
-            "deputes": 7,
+            "deputies": 7,
             "coalition": "Travaillistes",
             "coalition_en": "Labour",
             "coalition_de": "Arbeiter"
           },
           {
             "name": "LRC",
-            "deputes": 23,
+            "deputies": 23,
             "coalition": "Travaillistes",
             "coalition_en": "Labour",
             "coalition_de": "Arbeiter"
           },
           {
             "name": "IN ",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "IPP",
-            "deputes": 82
+            "deputies": 82
           },
           {
             "name": "HN",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "LibLab",
-            "deputes": 21,
+            "deputies": 21,
             "coalition": "Libéraux",
             "coalition_en": "Liberals",
             "coalition_de": "Liberale"
           },
           {
             "name": "L",
-            "deputes": 376,
+            "deputies": 376,
             "coalition": "Libéraux",
             "coalition_en": "Liberals",
             "coalition_de": "Liberale"
           },
           {
             "name": "ILib",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "LUP",
-            "deputes": 27,
+            "deputies": 27,
             "coalition": "Conservateurs et libéraux unionistes",
             "coalition_en": "Conservatives and Unionist Liberals",
             "coalition_de": "Konservative und unionistische Liberale"
           },
           {
             "name": "IC",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "C ",
-            "deputes": 113,
+            "deputies": 113,
             "coalition": "Conservateurs et libéraux unionistes",
             "coalition_en": "Conservatives and Unionist Liberals",
             "coalition_de": "Konservative und unionistische Liberale"
           },
           {
             "name": "IUA",
-            "deputes": 16,
+            "deputies": 16,
             "coalition": "Conservateurs et libéraux unionistes",
             "coalition_en": "Conservatives and Unionist Liberals",
             "coalition_de": "Konservative und unionistische Liberale"
@@ -1555,76 +1555,76 @@
       },
       {
         "legislature": 1910,
-        "total_deputes": 670,
+        "total_deputies": 670,
         "duration": 0.9,
         "begin": "1910-02-10",
         "end": "1910-12-19",
         "parties": [
           {
             "name": "ILP",
-            "deputes": 6,
+            "deputies": 6,
             "coalition": "Travaillistes",
             "coalition_en": "Labour",
             "coalition_de": "Arbeiter"
           },
           {
             "name": "Lab",
-            "deputes": 34,
+            "deputies": 34,
             "coalition": "Travaillistes",
             "coalition_en": "Labour",
             "coalition_de": "Arbeiter"
           },
           {
             "name": "IN ",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "IPP",
-            "deputes": 71
+            "deputies": 71
           },
           {
             "name": "AFIL",
-            "deputes": 8
+            "deputies": 8
           },
           {
             "name": "LibLab",
-            "deputes": 6,
+            "deputies": 6,
             "coalition": "Libéraux",
             "coalition_en": "Liberals",
             "coalition_de": "Liberale"
           },
           {
             "name": "L",
-            "deputes": 268,
+            "deputies": 268,
             "coalition": "Libéraux",
             "coalition_en": "Liberals",
             "coalition_de": "Liberale"
           },
           {
             "name": "ILib",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "LUP",
-            "deputes": 43,
+            "deputies": 43,
             "coalition": "Conservateurs et libéraux unionistes",
             "coalition_en": "Conservatives and Unionist Liberals",
             "coalition_de": "Konservative und unionistische Liberale"
           },
           {
             "name": "IC",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "C ",
-            "deputes": 211,
+            "deputies": 211,
             "coalition": "Conservateurs et libéraux unionistes",
             "coalition_en": "Conservatives and Unionist Liberals",
             "coalition_de": "Konservative und unionistische Liberale"
           },
           {
             "name": "IUA",
-            "deputes": 18,
+            "deputies": 18,
             "coalition": "Conservateurs et libéraux unionistes",
             "coalition_en": "Conservatives and Unionist Liberals",
             "coalition_de": "Konservative und unionistische Liberale"
@@ -1640,122 +1640,122 @@
       },
       {
         "legislature": 1910.5,
-        "total_deputes": 670,
+        "total_deputies": 670,
         "duration": 8,
         "begin": "1910-12-19",
         "end": "1918-12-14",
         "parties": [
           {
             "name": "SF",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "ILP",
-            "deputes": 8,
+            "deputies": 8,
             "coalition": "Travaillistes",
             "coalition_en": "Labour",
             "coalition_de": "Arbeiter"
           },
           {
             "name": "Coop",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Travaillistes",
             "coalition_en": "Labour",
             "coalition_de": "Arbeiter"
           },
           {
             "name": "Lab",
-            "deputes": 34,
+            "deputies": 34,
             "coalition": "Travaillistes",
             "coalition_en": "Labour",
             "coalition_de": "Arbeiter"
           },
           {
             "name": "NADSS",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Ind",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "IN ",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "IPP",
-            "deputes": 74
+            "deputies": 74
           },
           {
             "name": "AFIL",
-            "deputes": 8
+            "deputies": 8
           },
           {
             "name": "NSP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "CLab",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "LibLab",
-            "deputes": 4,
+            "deputies": 4,
             "coalition": "Libéraux",
             "coalition_en": "Liberals",
             "coalition_de": "Liberale"
           },
           {
             "name": "L",
-            "deputes": 268,
+            "deputies": 268,
             "coalition": "Libéraux",
             "coalition_en": "Liberals",
             "coalition_de": "Liberale"
           },
           {
             "name": "ILib",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "NDP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "UULA",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "LUP",
-            "deputes": 49,
+            "deputies": 49,
             "coalition": "Conservateurs et libéraux unionistes",
             "coalition_en": "Conservatives and Unionist Liberals",
             "coalition_de": "Konservative und unionistische Liberale"
           },
           {
             "name": "IC",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "C ",
-            "deputes": 206,
+            "deputies": 206,
             "coalition": "Conservateurs et libéraux unionistes",
             "coalition_en": "Conservatives and Unionist Liberals",
             "coalition_de": "Konservative und unionistische Liberale"
           },
           {
             "name": "IUA",
-            "deputes": 16,
+            "deputies": 16,
             "coalition": "Conservateurs et libéraux unionistes",
             "coalition_en": "Conservatives and Unionist Liberals",
             "coalition_de": "Konservative und unionistische Liberale"
           },
           {
             "name": "IU",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "NP ",
-            "deputes": 0
+            "deputies": 0
           }
         ],
         "source": [
@@ -1767,148 +1767,148 @@
       },
       {
         "legislature": 1918,
-        "total_deputes": 707,
+        "total_deputies": 707,
         "duration": 4,
         "begin": "1918-12-14",
         "end": "1922-11-15",
         "parties": [
           {
             "name": "CPGB",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "SF",
-            "deputes": 73
+            "deputies": 73
           },
           {
             "name": "ILP",
-            "deputes": 2,
+            "deputies": 2,
             "coalition": "Travaillistes",
             "coalition_en": "Labour",
             "coalition_de": "Arbeiter"
           },
           {
             "name": "Coop",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "Lab",
-            "deputes": 57,
+            "deputies": 57,
             "coalition": "Travaillistes",
             "coalition_en": "Labour",
             "coalition_de": "Arbeiter"
           },
           {
             "name": "ILab",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "NADSS",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "SPP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Ind",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "IN ",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "IPP",
-            "deputes": 7
+            "deputies": 7
           },
           {
             "name": "INP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "AFIL",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "NSP",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "CLab",
-            "deputes": 4,
+            "deputies": 4,
             "coalition": "Gouvernement de coalition",
             "coalition_en": "Coalition Government",
             "coalition_de": "Koalitionsregierung"
           },
           {
             "name": "LibLab",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "L",
-            "deputes": 35
+            "deputies": 35
           },
           {
             "name": "ILib",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "NDP",
-            "deputes": 9,
+            "deputies": 9,
             "coalition": "Gouvernement de coalition",
             "coalition_en": "Coalition Government",
             "coalition_de": "Koalitionsregierung"
           },
           {
             "name": "Cons",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Gouvernement de coalition",
             "coalition_en": "Coalition Government",
             "coalition_de": "Koalitionsregierung"
           },
           {
             "name": "UULA",
-            "deputes": 3,
+            "deputies": 3,
             "coalition": "Gouvernement de coalition",
             "coalition_en": "Coalition Government",
             "coalition_de": "Koalitionsregierung"
           },
           {
             "name": "CL",
-            "deputes": 128,
+            "deputies": 128,
             "coalition": "Gouvernement de coalition",
             "coalition_en": "Coalition Government",
             "coalition_de": "Koalitionsregierung"
           },
           {
             "name": "IC",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Gouvernement de coalition",
             "coalition_en": "Coalition Government",
             "coalition_de": "Koalitionsregierung"
           },
           {
             "name": "C",
-            "deputes": 358,
+            "deputies": 358,
             "coalition": "Gouvernement de coalition",
             "coalition_en": "Coalition Government",
             "coalition_de": "Koalitionsregierung"
           },
           {
             "name": "IUA",
-            "deputes": 22,
+            "deputies": 22,
             "coalition": "Gouvernement de coalition",
             "coalition_en": "Coalition Government",
             "coalition_de": "Koalitionsregierung"
           },
           {
             "name": "IU",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "NP ",
-            "deputes": 2
+            "deputies": 2
           }
         ],
         "source": [
@@ -1922,128 +1922,128 @@
       },
       {
         "legislature": 1922,
-        "total_deputes": 615,
+        "total_deputies": 615,
         "duration": 1,
         "begin": "1922-11-15",
         "end": "1923-12-06",
         "parties": [
           {
             "name": "CPGB",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "SF",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "ILP",
-            "deputes": 31,
+            "deputies": 31,
             "coalition": "Travaillistes",
             "coalition_en": "Labour",
             "coalition_de": "Arbeiter"
           },
           {
             "name": "Coop",
-            "deputes": 4
+            "deputies": 4
           },
           {
             "name": "Lab",
-            "deputes": 107,
+            "deputies": 107,
             "coalition": "Travaillistes",
             "coalition_en": "Labour",
             "coalition_de": "Arbeiter"
           },
           {
             "name": "ILab",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "NADSS",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "SPP",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "CP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Ind",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "NP",
-            "deputes": 2,
+            "deputies": 2,
             "coalition": "Nationalistes irlandais",
             "coalition_en": "Irish Nationalists",
             "coalition_de": "Irische Nationalisten"
           },
           {
             "name": "INP",
-            "deputes": 1,
+            "deputies": 1,
             "coalition": "Nationalistes irlandais",
             "coalition_en": "Irish Nationalists",
             "coalition_de": "Irische Nationalisten"
           },
           {
             "name": "NSP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "CLab",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "L",
-            "deputes": 62
+            "deputies": 62
           },
           {
             "name": "ILib",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "NDP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Cons",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "UULA",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "NLP",
-            "deputes": 53
+            "deputies": 53
           },
           {
             "name": "IC",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "C",
-            "deputes": 333,
+            "deputies": 333,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "UUP",
-            "deputes": 11,
+            "deputies": 11,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "IU",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "NP ",
-            "deputes": 0
+            "deputies": 0
           }
         ],
         "source": [
@@ -2064,93 +2064,93 @@
     "legislatures": [
       {
         "legislature": 1923,
-        "total_deputes": 615,
+        "total_deputies": 615,
         "duration": 1,
         "begin": "1923-12-06",
         "end": "1924-10-29",
         "parties": [
           {
             "name": "CPGB",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "ILP",
-            "deputes": 39,
+            "deputies": 39,
             "coalition": "Travaillistes",
             "coalition_en": "Labour",
             "coalition_de": "Arbeiter"
           },
           {
             "name": "Coop",
-            "deputes": 6
+            "deputies": 6
           },
           {
             "name": "Lab",
-            "deputes": 146,
+            "deputies": 146,
             "coalition": "Travaillistes",
             "coalition_en": "Labour",
             "coalition_de": "Arbeiter"
           },
           {
             "name": "ILab",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "SPP",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "CP",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "Ind",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "NP",
-            "deputes": 2,
+            "deputies": 2,
             "coalition": "Nationalistes irlandais",
             "coalition_en": "Irish Nationalists",
             "coalition_de": "Irische Nationalisten"
           },
           {
             "name": "INP",
-            "deputes": 1,
+            "deputies": 1,
             "coalition": "Nationalistes irlandais",
             "coalition_en": "Irish Nationalists",
             "coalition_de": "Irische Nationalisten"
           },
           {
             "name": "L",
-            "deputes": 158
+            "deputies": 158
           },
           {
             "name": "ILib",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "Cons",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "NLP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "IC",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "C",
-            "deputes": 247,
+            "deputies": 247,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "UUP",
-            "deputes": 11,
+            "deputies": 11,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -2165,85 +2165,85 @@
       },
       {
         "legislature": 1924,
-        "total_deputes": 615,
+        "total_deputies": 615,
         "duration": 5,
         "begin": "1924-10-29",
         "end": "1929-05-30",
         "parties": [
           {
             "name": "CPGB",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "ILP",
-            "deputes": 30,
+            "deputies": 30,
             "coalition": "Travaillistes",
             "coalition_en": "Labour",
             "coalition_de": "Arbeiter"
           },
           {
             "name": "Coop",
-            "deputes": 5
+            "deputies": 5
           },
           {
             "name": "Lab",
-            "deputes": 116,
+            "deputies": 116,
             "coalition": "Travaillistes",
             "coalition_en": "Labour",
             "coalition_de": "Arbeiter"
           },
           {
             "name": "ILab",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "SPP",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "CP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Ind",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "NP",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Nationalistes irlandais",
             "coalition_en": "Irish Nationalists",
             "coalition_de": "Irische Nationalisten"
           },
           {
             "name": "INP",
-            "deputes": 1,
+            "deputies": 1,
             "coalition": "Nationalistes irlandais",
             "coalition_en": "Irish Nationalists",
             "coalition_de": "Irische Nationalisten"
           },
           {
             "name": "L",
-            "deputes": 40
+            "deputies": 40
           },
           {
             "name": "ILib",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Cons",
-            "deputes": 7
+            "deputies": 7
           },
           {
             "name": "C",
-            "deputes": 399,
+            "deputies": 399,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "UUP",
-            "deputes": 13,
+            "deputies": 13,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -2259,100 +2259,100 @@
       },
       {
         "legislature": 1929,
-        "total_deputes": 615,
+        "total_deputies": 615,
         "duration": 2,
         "begin": "1929-05-30",
         "end": "1931-10-27",
         "parties": [
           {
             "name": "CPGB",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "ILP",
-            "deputes": 36,
+            "deputies": 36,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Coop",
-            "deputes": 9,
+            "deputies": 9,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 242,
+            "deputies": 242,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "ILab",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "SPP",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "Ind",
-            "deputes": 4
+            "deputies": 4
           },
           {
             "name": "NP",
-            "deputes": 2,
+            "deputies": 2,
             "coalition": "Nationalistes irlandais",
             "coalition_en": "Irish Nationalists",
             "coalition_de": "Irische Nationalisten"
           },
           {
             "name": "INP",
-            "deputes": 1,
+            "deputies": 1,
             "coalition": "Nationalistes irlandais",
             "coalition_en": "Irish Nationalists",
             "coalition_de": "Irische Nationalisten"
           },
           {
             "name": "NLO",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "L",
-            "deputes": 59
+            "deputies": 59
           },
           {
             "name": "ILib",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Cons",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "N",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "NLP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "IC",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "C",
-            "deputes": 249,
+            "deputies": 249,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "UUP",
-            "deputes": 11,
+            "deputies": 11,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -2368,7 +2368,7 @@
       },
       {
         "legislature": 1931,
-        "total_deputes": 615,
+        "total_deputies": 615,
         "duration": 4,
         "begin": "1931-10-27",
         "end": "1935-11-14",
@@ -2376,98 +2376,98 @@
         "parties": [
           {
             "name": "CPGB",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "ILP",
-            "deputes": 3,
+            "deputies": 3,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Coop",
-            "deputes": 1,
+            "deputies": 1,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 45,
+            "deputies": 45,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "ILab",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "SPP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Ind",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "NP",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "INP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "NLO",
-            "deputes": 13,
+            "deputies": 13,
             "coalition": "Gouvernement national",
             "coalition_en": "National Government",
             "coalition_de": "Nationalregierung"
           },
           {
             "name": "L",
-            "deputes": 33,
+            "deputies": 33,
             "coalition": "Gouvernement national",
             "coalition_en": "National Government",
             "coalition_de": "Nationalregierung"
           },
           {
             "name": "ILib",
-            "deputes": 4
+            "deputies": 4
           },
           {
             "name": "IN",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Gouvernement national",
             "coalition_en": "National Government",
             "coalition_de": "Nationalregierung"
           },
           {
             "name": "N",
-            "deputes": 4,
+            "deputies": 4,
             "coalition": "Gouvernement national",
             "coalition_en": "National Government",
             "coalition_de": "Nationalregierung"
           },
           {
             "name": "NLP ",
-            "deputes": 35,
+            "deputies": 35,
             "coalition": "Gouvernement national",
             "coalition_en": "National Government",
             "coalition_de": "Nationalregierung"
           },
           {
             "name": "C",
-            "deputes": 459,
+            "deputies": 459,
             "coalition": "Gouvernement national",
             "coalition_en": "National Government",
             "coalition_de": "Nationalregierung"
           },
           {
             "name": "UUP",
-            "deputes": 11,
+            "deputies": 11,
             "coalition": "Gouvernement national",
             "coalition_en": "National Government",
             "coalition_de": "Nationalregierung"
@@ -2480,106 +2480,106 @@
       },
       {
         "legislature": 1935,
-        "total_deputes": 615,
+        "total_deputies": 615,
         "duration": 10,
         "begin": "1935-11-14",
         "end": "1945-07-05",
         "parties": [
           {
             "name": "CPGB",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "ILP",
-            "deputes": 4
+            "deputies": 4
           },
           {
             "name": "CW",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Coop",
-            "deputes": 9,
+            "deputies": 9,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 145,
+            "deputies": 145,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "ILab",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "IP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Ind",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "NP",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "NLO",
-            "deputes": 8,
+            "deputies": 8,
             "coalition": "Gouvernement national",
             "coalition_en": "National Government",
             "coalition_de": "Nationalregierung"
           },
           {
             "name": "L",
-            "deputes": 17
+            "deputies": 17
           },
           {
             "name": "IL",
-            "deputes": 4
+            "deputies": 4
           },
           {
             "name": "IN",
-            "deputes": 2,
+            "deputies": 2,
             "coalition": "Gouvernement national",
             "coalition_en": "National Government",
             "coalition_de": "Nationalregierung"
           },
           {
             "name": "N",
-            "deputes": 1,
+            "deputies": 1,
             "coalition": "Gouvernement national",
             "coalition_en": "National Government",
             "coalition_de": "Nationalregierung"
           },
           {
             "name": "NLP ",
-            "deputes": 33,
+            "deputies": 33,
             "coalition": "Gouvernement national",
             "coalition_en": "National Government",
             "coalition_de": "Nationalregierung"
           },
           {
             "name": "IC",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Gouvernement national",
             "coalition_en": "National Government",
             "coalition_de": "Nationalregierung"
           },
           {
             "name": "C",
-            "deputes": 376,
+            "deputies": 376,
             "coalition": "Gouvernement national",
             "coalition_en": "National Government",
             "coalition_de": "Nationalregierung"
           },
           {
             "name": "UUP",
-            "deputes": 11,
+            "deputies": 11,
             "coalition": "Gouvernement national",
             "coalition_en": "National Government",
             "coalition_de": "Nationalregierung"
@@ -2592,7 +2592,7 @@
       },
       {
         "legislature": 1945,
-        "total_deputes": 640,
+        "total_deputies": 640,
         "duration": 5,
         "begin": "1945-07-05",
         "end": "1950-02-23",
@@ -2600,84 +2600,84 @@
         "parties": [
           {
             "name": "CPGB",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "ILP",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "CW",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "Coop",
-            "deputes": 23,
+            "deputies": 23,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 370,
+            "deputies": 370,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "ILab",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "IP",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "Ind",
-            "deputes": 8
+            "deputies": 8
           },
           {
             "name": "NP",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "NLO",
-            "deputes": 8
+            "deputies": 8
           },
           {
             "name": "L",
-            "deputes": 12
+            "deputies": 12
           },
           {
             "name": "ILib",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "IN",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "N",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "NLP ",
-            "deputes": 11
+            "deputies": 11
           },
           {
             "name": "IC",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "C",
-            "deputes": 188,
+            "deputies": 188,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "UUP",
-            "deputes": 9,
+            "deputies": 9,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -2690,105 +2690,105 @@
       },
       {
         "legislature": 1950,
-        "total_deputes": 625,
+        "total_deputies": 625,
         "duration": 1,
         "begin": "1950-02-23",
         "end": "1951-10-25",
         "parties": [
           {
             "name": "CPGB",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "ILP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "IrLab",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "CW",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Coop",
-            "deputes": 18,
+            "deputies": 18,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 297,
+            "deputies": 297,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "ILab",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "IP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Ind",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "IN ",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "NP",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "NLO",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "L",
-            "deputes": 9
+            "deputies": 9
           },
           {
             "name": "ILib",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "IN",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "N",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "NLP ",
-            "deputes": 16,
+            "deputies": 16,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "IC",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "C",
-            "deputes": 272,
+            "deputies": 272,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "UUP",
-            "deputes": 10,
+            "deputies": 10,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -2802,66 +2802,66 @@
       },
       {
         "legislature": 1951,
-        "total_deputes": 625,
+        "total_deputies": 625,
         "duration": 4,
         "begin": "1951-10-25",
         "end": "1955-05-26",
         "parties": [
           {
             "name": "SF",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "IrLab",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "Coop",
-            "deputes": 16,
+            "deputies": 16,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 279,
+            "deputies": 279,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "IN ",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "NP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "L",
-            "deputes": 6
+            "deputies": 6
           },
           {
             "name": "ILib",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "NLP ",
-            "deputes": 19,
+            "deputies": 19,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "C",
-            "deputes": 293,
+            "deputies": 293,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "UUP",
-            "deputes": 9,
+            "deputies": 9,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -2875,65 +2875,65 @@
       },
       {
         "legislature": 1955,
-        "total_deputes": 630,
+        "total_deputies": 630,
         "duration": 4,
         "begin": "1955-05-26",
         "end": "1959-10-08",
         "parties": [
           {
             "name": "SF",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "IrLab",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Coop",
-            "deputes": 19,
+            "deputies": 19,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 258,
+            "deputies": 258,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "IN ",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "L",
-            "deputes": 6
+            "deputies": 6
           },
           {
             "name": "NLP ",
-            "deputes": 21,
+            "deputies": 21,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "IC",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "C",
-            "deputes": 314,
+            "deputies": 314,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "UUP",
-            "deputes": 10,
+            "deputies": 10,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -2947,57 +2947,57 @@
       },
       {
         "legislature": 1959,
-        "total_deputes": 630,
+        "total_deputies": 630,
         "duration": 5,
         "begin": "1959-10-08",
         "end": "1964-10-15",
         "parties": [
           {
             "name": "SF",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Coop",
-            "deputes": 16,
+            "deputies": 16,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 242,
+            "deputies": 242,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "L",
-            "deputes": 6
+            "deputies": 6
           },
           {
             "name": "NLP ",
-            "deputes": 20,
+            "deputies": 20,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "IC",
-            "deputes": 1,
+            "deputies": 1,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "C",
-            "deputes": 333,
+            "deputies": 333,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "UUP",
-            "deputes": 12,
+            "deputies": 12,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -3011,57 +3011,57 @@
       },
       {
         "legislature": 1964,
-        "total_deputes": 630,
+        "total_deputies": 630,
         "duration": 2,
         "begin": "1964-10-15",
         "end": "1966-03-31",
         "parties": [
           {
             "name": "RLP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Coop",
-            "deputes": 19,
+            "deputies": 19,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 298,
+            "deputies": 298,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "L",
-            "deputes": 9
+            "deputies": 9
           },
           {
             "name": "NLP ",
-            "deputes": 6,
+            "deputies": 6,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "IC",
-            "deputes": 0,
+            "deputies": 0,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "C",
-            "deputes": 286,
+            "deputies": 286,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "UUP",
-            "deputes": 12,
+            "deputies": 12,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
@@ -3075,69 +3075,69 @@
       },
       {
         "legislature": 1966,
-        "total_deputes": 630,
+        "total_deputies": 630,
         "duration": 4,
         "begin": "1966-03-31",
         "end": "1970-06-18",
         "parties": [
           {
             "name": "RLP",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "Coop",
-            "deputes": 18,
+            "deputies": 18,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 346,
+            "deputies": 346,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "ILab",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "SNP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "U",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "L",
-            "deputes": 12
+            "deputies": 12
           },
           {
             "name": "NLP ",
-            "deputes": 3,
+            "deputies": 3,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "C",
-            "deputes": 239,
+            "deputies": 239,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "UUP",
-            "deputes": 11,
+            "deputies": 11,
             "coalition": "Conservateurs",
             "coalition_en": "Conservatives",
             "coalition_de": "Konservative"
           },
           {
             "name": "PUP",
-            "deputes": 0
+            "deputies": 0
           }
         ],
         "source": [
@@ -3148,78 +3148,78 @@
       },
       {
         "legislature": 1970,
-        "total_deputes": 630,
+        "total_deputies": 630,
         "duration": 4,
         "begin": "1970-06-18",
         "end": "1974-02-28",
         "parties": [
           {
             "name": "RLP",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "Coop",
-            "deputes": 15,
+            "deputies": 15,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 273,
+            "deputies": 273,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "ILab",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "DLP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PC",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "SNP",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "U",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "L",
-            "deputes": 6
+            "deputies": 6
           },
           {
             "name": "NLP ",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "C",
-            "deputes": 322,
+            "deputies": 322,
             "coalition": "Conservateurs et unionistes",
             "coalition_en": "Conservative and Unionist",
             "coalition_de": "Konservative und Unionisten"
           },
           {
             "name": "UUP",
-            "deputes": 8,
+            "deputies": 8,
             "coalition": "Conservateurs et unionistes",
             "coalition_en": "Conservative and Unionist",
             "coalition_de": "Konservative und Unionisten"
           },
           {
             "name": "VUPP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PUP",
-            "deputes": 1
+            "deputies": 1
           }
         ],
         "source": [
@@ -3229,72 +3229,72 @@
       },
       {
         "legislature": 1974,
-        "total_deputes": 635,
+        "total_deputies": 635,
         "duration": 0.5,
         "begin": "1974-02-28",
         "end": "1974-10-10",
         "parties": [
           {
             "name": "SDLP",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "Coop",
-            "deputes": 14,
+            "deputies": 14,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 287,
+            "deputies": 287,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "ILab",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "DLP",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "PC",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "SNP",
-            "deputes": 7
+            "deputies": 7
           },
           {
             "name": "IR",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "U",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "L",
-            "deputes": 14
+            "deputies": 14
           },
           {
             "name": "C",
-            "deputes": 297
+            "deputies": 297
           },
           {
             "name": "UUP",
-            "deputes": 7
+            "deputies": 7
           },
           {
             "name": "VUPP",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "DUP",
-            "deputes": 1
+            "deputies": 1
           }
         ],
         "source": [
@@ -3303,73 +3303,73 @@
       },
       {
         "legislature": 1974.5,
-        "total_deputes": 635,
+        "total_deputies": 635,
         "duration": 5,
         "begin": "1974-10-10",
         "end": "1979-05-03",
         "parties": [
           {
             "name": "SDLP",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "Coop",
-            "deputes": 14,
+            "deputies": 14,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 305,
+            "deputies": 305,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "ILab",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "DLP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "PC",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "SNP",
-            "deputes": 11
+            "deputies": 11
           },
           {
             "name": "IR",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "L",
-            "deputes": 13
+            "deputies": 13
           },
           {
             "name": "C",
-            "deputes": 277
+            "deputies": 277
           },
           {
             "name": "UUP",
-            "deputes": 6
+            "deputies": 6
           },
           {
             "name": "IU ",
-            "deputes": 0
+            "deputies": 0
           },
 
           {
             "name": "VUPP",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "DUP",
-            "deputes": 1
+            "deputies": 1
           }
         ],
         "source": [
@@ -3378,72 +3378,72 @@
       },
       {
         "legislature": 1979,
-        "total_deputes": 635,
+        "total_deputies": 635,
         "duration": 4,
         "begin": "1979-05-03",
         "end": "1983-06-09",
         "parties": [
           {
             "name": "SF",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "SDLP",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "Coop",
-            "deputes": 17,
+            "deputies": 17,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 252,
+            "deputies": 252,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "PC",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "SNP",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "IR",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "SDP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "L",
-            "deputes": 11
+            "deputies": 11
           },
           {
             "name": "C",
-            "deputes": 339
+            "deputies": 339
           },
           {
             "name": "UUP",
-            "deputes": 5
+            "deputies": 5
           },
           {
             "name": "IU ",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "UUUP",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "DUP",
-            "deputes": 3
+            "deputies": 3
           }
         ],
         "source": [
@@ -3452,78 +3452,78 @@
       },
       {
         "legislature": 1983,
-        "total_deputes": 650,
+        "total_deputies": 650,
         "duration": 4,
         "begin": "1983-06-09",
         "end": "1987-06-11",
         "parties": [
           {
             "name": "SF",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "SDLP",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "Coop",
-            "deputes": 7,
+            "deputies": 7,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 202,
+            "deputies": 202,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "PC",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "SNP",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "IR",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "SDP",
-            "deputes": 6,
+            "deputies": 6,
             "coalition": "Alliance SDP-Libérale",
             "coalition_en": "SDP-Liberal Alliance",
             "coalition_de": "SDP-Liberale Allianz"
           },
           {
             "name": "L",
-            "deputes": 17,
+            "deputies": 17,
             "coalition": "Alliance SDP-Libérale",
             "coalition_en": "SDP-Liberal Alliance",
             "coalition_de": "SDP-Liberale Allianz"
           },
           {
             "name": "C",
-            "deputes": 397
+            "deputies": 397
           },
           {
             "name": "UUP",
-            "deputes": 11
+            "deputies": 11
           },
           {
             "name": "UPUP",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "UUUP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "DUP",
-            "deputes": 3
+            "deputies": 3
           }
         ],
         "source": [
@@ -3532,70 +3532,70 @@
       },
       {
         "legislature": 1987,
-        "total_deputes": 650,
+        "total_deputies": 650,
         "duration": 5,
         "begin": "1987-06-11",
         "end": "1992-04-09",
         "parties": [
           {
             "name": "SF",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "SDLP",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "Coop",
-            "deputes": 9,
+            "deputies": 9,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 220,
+            "deputies": 220,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "PC",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "SNP",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "SDP",
-            "deputes": 5,
+            "deputies": 5,
             "coalition": "Alliance SDP-Libérale",
             "coalition_en": "SDP-Liberal Alliance",
             "coalition_de": "SDP-Liberale Allianz"
           },
           {
             "name": "L",
-            "deputes": 17,
+            "deputies": 17,
             "coalition": "Alliance SDP-Libérale",
             "coalition_en": "SDP-Liberal Alliance",
             "coalition_de": "SDP-Liberale Allianz"
           },
           {
             "name": "C",
-            "deputes": 376
+            "deputies": 376
           },
           {
             "name": "UUP",
-            "deputes": 9
+            "deputies": 9
           },
           {
             "name": "UPUP",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "DUP",
-            "deputes": 3
+            "deputies": 3
           }
         ],
         "source": [
@@ -3604,68 +3604,68 @@
       },
       {
         "legislature": 1992,
-        "total_deputes": 651,
+        "total_deputies": 651,
         "duration": 5,
         "begin": "1992-04-09",
         "end": "1997-05-01",
         "parties": [
           {
             "name": "SF",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "SDLP",
-            "deputes": 4
+            "deputies": 4
           },
           {
             "name": "Coop",
-            "deputes": 14,
+            "deputies": 14,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 257,
+            "deputies": 257,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "PC",
-            "deputes": 4
+            "deputies": 4
           },
           {
             "name": "SNP",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "SDP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Ind",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "LD",
-            "deputes": 20
+            "deputies": 20
           },
           {
             "name": "C",
-            "deputes": 336
+            "deputies": 336
           },
           {
             "name": "UUP",
-            "deputes": 9
+            "deputies": 9
           },
           {
             "name": "UPUP",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "DUP",
-            "deputes": 3
+            "deputies": 3
           }
         ],
         "source": [
@@ -3674,64 +3674,64 @@
       },
       {
         "legislature": 1997,
-        "total_deputes": 659,
+        "total_deputies": 659,
         "duration": 4,
         "begin": "1997-05-01",
         "end": "2001-06-07",
         "parties": [
           {
             "name": "SF",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "SDLP",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "Coop",
-            "deputes": 28,
+            "deputies": 28,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 390,
+            "deputies": 390,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "PC",
-            "deputes": 4
+            "deputies": 4
           },
           {
             "name": "SNP",
-            "deputes": 6
+            "deputies": 6
           },
           {
             "name": "Ind",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "LD",
-            "deputes": 46
+            "deputies": 46
           },
           {
             "name": "C",
-            "deputes": 165
+            "deputies": 165
           },
           {
             "name": "UUP",
-            "deputes": 10
+            "deputies": 10
           },
           {
             "name": "UKUP",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "DUP",
-            "deputes": 2
+            "deputies": 2
           }
         ],
         "source": [
@@ -3740,68 +3740,68 @@
       },
       {
         "legislature": 2001,
-        "total_deputes": 659,
+        "total_deputies": 659,
         "duration": 4,
         "begin": "2001-06-07",
         "end": "2005-05-05",
         "parties": [
           {
             "name": "R",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "SF",
-            "deputes": 4
+            "deputies": 4
           },
           {
             "name": "SDLP",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "Coop",
-            "deputes": 30,
+            "deputies": 30,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 382,
+            "deputies": 382,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "PC",
-            "deputes": 4
+            "deputies": 4
           },
           {
             "name": "SNP",
-            "deputes": 5
+            "deputies": 5
           },
           {
             "name": "Ind",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "LD",
-            "deputes": 52
+            "deputies": 52
           },
           {
             "name": "C",
-            "deputes": 166
+            "deputies": 166
           },
           {
             "name": "UUP",
-            "deputes": 6
+            "deputies": 6
           },
           {
             "name": "UKUP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "DUP",
-            "deputes": 5
+            "deputies": 5
           }
         ],
         "source": [
@@ -3810,68 +3810,68 @@
       },
       {
         "legislature": 2005,
-        "total_deputes": 646,
+        "total_deputies": 646,
         "duration": 5,
         "begin": "2005-05-05",
         "end": "2010-05-06",
         "parties": [
           {
             "name": "R",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "SF",
-            "deputes": 5
+            "deputies": 5
           },
           {
             "name": "SDLP",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "GP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "Coop",
-            "deputes": 29,
+            "deputies": 29,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 326,
+            "deputies": 326,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "PC",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "SNP",
-            "deputes": 6
+            "deputies": 6
           },
           {
             "name": "Ind",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "LD",
-            "deputes": 62
+            "deputies": 62
           },
           {
             "name": "C",
-            "deputes": 198
+            "deputies": 198
           },
           {
             "name": "UUP",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "DUP",
-            "deputes": 9
+            "deputies": 9
           }
         ],
         "source": [
@@ -3880,72 +3880,72 @@
       },
       {
         "legislature": 2010,
-        "total_deputes": 650,
+        "total_deputies": 650,
         "duration": 5,
         "begin": "2010-05-06",
         "end": "2015-05-07",
         "parties": [
           {
             "name": "R",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "SF",
-            "deputes": 5
+            "deputies": 5
           },
           {
             "name": "SDLP",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "GP",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "Coop",
-            "deputes": 28,
+            "deputies": 28,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 230,
+            "deputies": 230,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "PC",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "SNP",
-            "deputes": 6
+            "deputies": 6
           },
           {
             "name": "Ind",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "LD",
-            "deputes": 58
+            "deputies": 58
           },
           {
             "name": "C",
-            "deputes": 306
+            "deputies": 306
           },
           {
             "name": "UUP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "UKIP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "DUP",
-            "deputes": 9
+            "deputies": 9
           }
         ],
         "source": [
@@ -3954,68 +3954,68 @@
       },
       {
         "legislature": 2015,
-        "total_deputes": 650,
+        "total_deputies": 650,
         "duration": 2,
         "begin": "2015-05-07",
         "end": "2017-06-08",
         "parties": [
           {
             "name": "SF",
-            "deputes": 4
+            "deputies": 4
           },
           {
             "name": "SDLP",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "GP",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "Coop",
-            "deputes": 24,
+            "deputies": 24,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 208,
+            "deputies": 208,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "PC",
-            "deputes": 3
+            "deputies": 3
           },
           {
             "name": "SNP",
-            "deputes": 56
+            "deputies": 56
           },
           {
             "name": "Ind",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "LD",
-            "deputes": 8
+            "deputies": 8
           },
           {
             "name": "C",
-            "deputes": 330
+            "deputies": 330
           },
           {
             "name": "UUP",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "UKIP",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "DUP",
-            "deputes": 8
+            "deputies": 8
           }
         ],
         "source": [
@@ -4024,68 +4024,68 @@
       },
       {
         "legislature": 2017,
-        "total_deputes": 650,
+        "total_deputies": 650,
         "duration": 2,
         "begin": "2017-06-08",
         "end": "2019-12-12",
         "parties": [
           {
             "name": "SF",
-            "deputes": 7
+            "deputies": 7
           },
           {
             "name": "SDLP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "GP",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "Coop",
-            "deputes": 38,
+            "deputies": 38,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 224,
+            "deputies": 224,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "PC",
-            "deputes": 4
+            "deputies": 4
           },
           {
             "name": "SNP",
-            "deputes": 35
+            "deputies": 35
           },
           {
             "name": "Ind",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "LD",
-            "deputes": 12
+            "deputies": 12
           },
           {
             "name": "C",
-            "deputes": 317
+            "deputies": 317
           },
           {
             "name": "UUP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "UKIP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "DUP",
-            "deputes": 10
+            "deputies": 10
           }
         ],
         "source": [
@@ -4094,81 +4094,81 @@
       },
       {
         "legislature": 2019,
-        "total_deputes": 650,
+        "total_deputies": 650,
         "duration": 5,
         "begin": "2019-12-12",
         "end": "2024-07-04",
         "parties": [
           {
             "name": "SF",
-            "deputes": 7
+            "deputies": 7
           },
           {
             "name": "SDLP",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "GP",
-            "deputes": 1,
+            "deputies": 1,
             "coalition": "Unis pour rester",
             "coalition_en": "Unite to Remain",
             "coalition_de": "Vereinigung für bleiben"
           },
           {
             "name": "Coop",
-            "deputes": 26,
+            "deputies": 26,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 176,
+            "deputies": 176,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "PC",
-            "deputes": 4,
+            "deputies": 4,
             "coalition": "Unis pour rester",
             "coalition_en": "Unite to Remain",
             "coalition_de": "Vereinigung für bleiben"
           },
           {
             "name": "SNP",
-            "deputes": 48
+            "deputies": 48
           },
           {
             "name": "Ind",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "LD",
-            "deputes": 12,
+            "deputies": 12,
             "coalition": "Unis pour rester",
             "coalition_en": "Unite to Remain",
             "coalition_de": "Vereinigung für bleiben"
           },
           {
             "name": "C",
-            "deputes": 365
+            "deputies": 365
           },
           {
             "name": "UUP",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "DUP",
-            "deputes": 8
+            "deputies": 8
           },
           {
             "name": "RUK",
-            "deputes": 0
+            "deputies": 0
           },
           {
             "name": "TUV",
-            "deputes": 0
+            "deputies": 0
           }
         ],
         "source": [
@@ -4177,75 +4177,75 @@
       },
       {
         "legislature": 2024,
-        "total_deputes": 650,
+        "total_deputies": 650,
         "duration": 5,
         "begin": "2024-07-04",
         "end": "now",
         "parties": [
           {
             "name": "SF",
-            "deputes": 7
+            "deputies": 7
           },
           {
             "name": "SDLP",
-            "deputes": 2
+            "deputies": 2
           },
           {
             "name": "GP",
-            "deputes": 4
+            "deputies": 4
           },
           {
             "name": "Coop",
-            "deputes": 43,
+            "deputies": 43,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "Lab",
-            "deputes": 368,
+            "deputies": 368,
             "coalition": "Parti travailliste et coopératif",
             "coalition_en": "Labour and Co-operative Party",
             "coalition_de": "Arbeits- und Genossenschaftspartei"
           },
           {
             "name": "PC",
-            "deputes": 4
+            "deputies": 4
           },
           {
             "name": "SNP",
-            "deputes": 9
+            "deputies": 9
           },
           {
             "name": "Ind",
-            "deputes": 7
+            "deputies": 7
           },
           {
             "name": "LD",
-            "deputes": 73
+            "deputies": 73
           },
           {
             "name": "C",
-            "deputes": 121
+            "deputies": 121
           },
           {
             "name": "UUP",
-            "deputes": 1
+            "deputies": 1
           },
           {
             "name": "DUP",
-            "deputes": 5
+            "deputies": 5
           },
           {
             "name": "RUK",
-            "deputes": 5,
+            "deputies": 5,
             "coalition": "Alliance Reform UK-TUV",
             "coalition_en": "Reform UK-TUV Alliance",
             "coalition_de": "Reform UK-TUV Allianz"
           },
           {
             "name": "TUV",
-            "deputes": 1,
+            "deputies": 1,
             "coalition": "Alliance Reform UK-TUV",
             "coalition_en": "Reform UK-TUV Alliance",
             "coalition_de": "Reform UK-TUV Allianz"

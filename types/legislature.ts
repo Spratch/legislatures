@@ -2,7 +2,7 @@ import { PartyType } from "./party";
 
 export type LegislatureType = {
   legislature: number;
-  total_deputes: number;
+  total_deputies: number;
   duration?: number;
   begin: string;
   end: string;

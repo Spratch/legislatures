@@ -1,12 +1,12 @@
-import { useCallback, useEffect, useRef, useState } from "react";
 import { TooltipContentType } from "@/types/tooltipContent";
-import { tooltipContentAtom, detailsContentAtom } from "@/utils/contexts/atoms";
-import EntityButton from "./entityButton";
-import Badge from "./badge";
-import PercentageButton from "./percentageButton";
-import { useAtomValue, useSetAtom } from "jotai";
+import { detailsContentAtom, tooltipContentAtom } from "@/utils/contexts/atoms";
 import { useDictionary } from "@/utils/contexts/dictionaryContext";
+import { useAtomValue, useSetAtom } from "jotai";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { getLangKey } from "../utils/getLangKey";
+import Badge from "./badge";
+import EntityButton from "./entityButton";
+import PercentageButton from "./percentageButton";
 
 type Props = {
   chartWidth: number;
@@ -86,9 +86,9 @@ export function TooltipContent({
   ]);
 
   // Calculate the party percentage and the coalition percentage
-  const partyPercentage = (party.deputes / legislature.total_deputes) * 100;
+  const partyPercentage = (party.deputies / legislature.total_deputies) * 100;
   const coalitionPercentage = party.coalition
-    ? (coalitionDatas.deputies / legislature.total_deputes) * 100
+    ? (coalitionDatas.deputies / legislature.total_deputies) * 100
     : 0;
 
   // On percentage button click, display number of deputies
@@ -142,8 +142,8 @@ export function TooltipContent({
           />
           <PercentageButton
             percentage={partyPercentage}
-            deputies={party.deputes}
-            totalDeputies={legislature.total_deputes}
+            deputies={party.deputies}
+            totalDeputies={legislature.total_deputies}
             isPercentage={isPercentage}
             onHover={handlePercentageClick}
           />
@@ -167,7 +167,7 @@ export function TooltipContent({
             <PercentageButton
               percentage={coalitionPercentage}
               deputies={coalitionDatas.deputies}
-              totalDeputies={legislature.total_deputes}
+              totalDeputies={legislature.total_deputies}
               isPercentage={isPercentage}
               onHover={handlePercentageClick}
             />
