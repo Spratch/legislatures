@@ -1,6 +1,7 @@
 import { PartyType } from "@/types/party";
 import { useDictionary } from "@/utils/contexts/dictionaryContext";
 import { motion } from "framer-motion";
+import slugify from "../utils/slugify";
 
 type PartyBarProps = {
   party: PartyType;
@@ -44,11 +45,7 @@ export default function PartyBar({
   return (
     <motion.g
       key={party.name}
-      className={`party-bar party-${party.name
-        .toLowerCase()
-        .replace(/[^a-z]+/g, "")} current-${party.current?.name
-        .toLowerCase()
-        .replace(/[^a-z]+/g, "")}`}
+      className={`party-bar party-${slugify(party.name)} current-${slugify(party.current?.name)}`}
       x={partyX}
       y={0}
       animate={{ x: partyX }}

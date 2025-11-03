@@ -11,6 +11,7 @@ import getDate from "@/utils/getDate";
 import getYear from "@/utils/getYear";
 import { motion } from "framer-motion";
 import { useAtomValue, useSetAtom } from "jotai";
+import slugify from "../utils/slugify";
 import PartyBar from "./partyBar";
 
 type LegislatureProps = {
@@ -284,9 +285,7 @@ export default function Legislature({
           return (
             <g
               key={party.name}
-              className={`${leg.legislature}-${party.current?.name
-                .toLowerCase()
-                .replace(/[^a-z]+/g, "")} ${party.deputies} ${partyWidth}`}
+              className={`${leg.legislature}-${slugify(party.current?.name)} ${party.deputies} ${partyWidth}`}
               onMouseEnter={() =>
                 partyWidth > 0 ? setTooltipContent(tooltipContent) : {}
               }
