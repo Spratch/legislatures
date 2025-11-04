@@ -2,7 +2,7 @@ import { TooltipContentType } from "@/types/tooltipContent";
 import { detailsContentAtom, tooltipContentAtom } from "@/utils/contexts/atoms";
 import { useDictionary } from "@/utils/contexts/dictionaryContext";
 import { useAtomValue, useSetAtom } from "jotai";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { getLangKey } from "../utils/getLangKey";
 import Badge from "./badge";
 import EntityButton from "./entityButton";
@@ -94,15 +94,6 @@ export function TooltipContent({
   const [isPercentage, setIsPercentage] = useState(true);
   const handlePercentageClick = () => setIsPercentage(!isPercentage);
 
-  // Set the width of the coalition name using a callback ref
-  const [coalitionMaxWidth, setCoalitionMaxWidth] = useState(0);
-
-  const partyLineRef = useCallback((node: HTMLDivElement | null) => {
-    if (node) {
-      setCoalitionMaxWidth(node.offsetWidth);
-    }
-  }, []);
-
   return (
     <div
       ref={tooltipRef}
@@ -123,10 +114,7 @@ export function TooltipContent({
         </div>
 
         {/* Party name and percentage */}
-        <div
-          ref={partyLineRef}
-          className="flex w-min items-center justify-between gap-2 sm:w-auto"
-        >
+        <div className="flex items-center justify-between gap-2">
           <EntityButton
             entity={party}
             onClick={() =>
@@ -151,16 +139,13 @@ export function TooltipContent({
 
         {/* Coalition name and percentage */}
         {party.coalition && (
-          <div
-            className="flex items-center justify-between gap-2 sm:!max-w-none"
-            style={{ maxWidth: coalitionMaxWidth }}
-          >
+          <div className="flex items-center justify-between gap-2 sm:!max-w-none">
             <div className="flex items-center gap-1.5 pl-0.5">
               <span
                 className="mt-0.5 inline-block size-2 shrink-0 rounded-full"
                 style={{ backgroundColor: coalitionData.color }}
               ></span>
-              <span className="inline text-sm leading-none text-black/50 sm:text-nowrap sm:text-base">
+              <span className="inline overflow-hidden text-nowrap text-sm leading-none text-black/50 max-sm:max-w-[25ch] max-sm:text-ellipsis sm:text-base">
                 {coalitionName}
               </span>
             </div>
