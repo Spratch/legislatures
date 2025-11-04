@@ -9,10 +9,13 @@ export type TooltipContentType = {
   xEnd: number;
   legislature: LegislatureType;
   party: PartyType;
-  coalitionData: {
-    first: boolean;
-    last: boolean;
-    color: string;
-    deputies: number;
-  };
+  coalitionData: CoalitionDataType;
+};
+
+export type CoalitionDataType = {
+  first: boolean;
+  last: boolean;
+  color: string;
+  deputies: number;
+  isMostImportantEntity: boolean;
 };

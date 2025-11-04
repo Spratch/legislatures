@@ -1,4 +1,5 @@
 import { useDictionary } from "@/utils/contexts/dictionaryContext";
+import { StarIcon } from "@radix-ui/react-icons";
 
 type PercentageButtonProps = {
   percentage: number;
@@ -6,6 +7,7 @@ type PercentageButtonProps = {
   totalDeputies: number;
   isPercentage: boolean;
   onHover: () => void;
+  isMostImportant?: boolean;
 };
 
 export default function PercentageButton({
@@ -13,7 +15,8 @@ export default function PercentageButton({
   deputies,
   totalDeputies,
   isPercentage,
-  onHover
+  onHover,
+  isMostImportant = false
 }: PercentageButtonProps) {
   const dict = useDictionary().percentage;
 
@@ -21,12 +24,13 @@ export default function PercentageButton({
   const isFullPowers = percentage === 100;
   return (
     <div
-      className="flex items-center py-1 sm:py-0.5 px-1.5 rounded-full bg-black/5 text-xs cursor-default"
+      className={`flex cursor-default items-center rounded-full px-1.5 py-1 text-xs sm:py-0.5 ${isMostImportant ? "bg-blue-100 text-blue-500" : "bg-black/5 text-black/65"}`}
       onMouseEnter={onHover}
       onMouseLeave={onHover}
       aria-hidden
     >
-      <span className="text-black/65 text-nowrap">
+      {!isFullPowers && isMostImportant && <StarIcon className="mr-1 size-3" />}
+      <span className="text-nowrap">
         {isFullPowers
           ? dict.fullPowers
           : isPercentage
@@ -34,7 +38,7 @@ export default function PercentageButton({
             : deputies}
       </span>
       {!isFullPowers && (
-        <span className="text-black/45">
+        <span className="opacity-50">
           {isPercentage ? "\u202F%" : "/" + totalDeputies}
         </span>
       )}

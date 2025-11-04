@@ -145,6 +145,7 @@ export function TooltipContent({
             totalDeputies={legislature.total_deputies}
             isPercentage={isPercentage}
             onHover={handlePercentageClick}
+            isMostImportant={party.isMostImportantEntity}
           />
         </div>
 
@@ -169,6 +170,7 @@ export function TooltipContent({
               totalDeputies={legislature.total_deputies}
               isPercentage={isPercentage}
               onHover={handlePercentageClick}
+              isMostImportant={coalitionData.isMostImportantEntity}
             />
           </div>
         )}

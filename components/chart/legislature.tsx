@@ -151,7 +151,8 @@ export default function Legislature({
             first: false,
             last: false,
             color: "",
-            deputies: 0
+            deputies: 0,
+            isMostImportantEntity: false
           };
 
           if (party.coalition) {
@@ -179,10 +180,18 @@ export default function Legislature({
               0
             );
 
+            coalitionData.isMostImportantEntity =
+              !isPartyMostImportantEntity &&
+              party.coalition === mostImportantCoalition.name;
+
             coalitionData.color = coalitionParties.reduce((prev, curr) =>
               prev.deputies > curr.deputies ? prev : curr
             ).current.color;
           }
+
+          party.isMostImportantEntity =
+            isPartyMostImportantEntity &&
+            mostImportantParty.name === party.name;
 
           // Give the party a color based on the coalition visibility
           const partyColor =

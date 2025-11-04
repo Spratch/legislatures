@@ -12,4 +12,5 @@ export type PartyType = {
   coalition_en?: string;
   coalition_de?: string;
   source?: string[];
+  isMostImportantEntity?: boolean;
 };

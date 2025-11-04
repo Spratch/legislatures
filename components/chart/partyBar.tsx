@@ -1,5 +1,5 @@
 import { PartyType } from "@/types/party";
-import { TooltipContentType } from "@/types/tooltipContent";
+import { CoalitionDataType } from "@/types/tooltipContent";
 import { useDictionary } from "@/utils/contexts/dictionaryContext";
 import { motion } from "framer-motion";
 import slugify from "../utils/slugify";
@@ -9,7 +9,7 @@ type PartyBarProps = {
   height: number;
   partyWidth: number;
   partyX: number;
-  coalitionData: TooltipContentType["coalitionData"];
+  coalitionData: CoalitionDataType;
   transitionDuration: number;
   barColor: string;
 };
@@ -91,6 +91,10 @@ export default function PartyBar({
               aria-hidden
             >
               {party.deputies}
+              {(party.isMostImportantEntity ||
+                (coalitionData.isMostImportantEntity &&
+                  party.current.color === coalitionData.color)) &&
+                " ☆"}
             </text>
           )}
         </>
