@@ -33,8 +33,7 @@ export function TooltipContent({
 }: Props) {
   const setTooltipContent = useSetAtom(tooltipContentAtom);
   const setDetailsContent = useSetAtom(detailsContentAtom);
-  const { y, xStart, xEnd, legislature, party, coalitionDatas } =
-    tooltipContent;
+  const { y, xStart, xEnd, legislature, party, coalitionData } = tooltipContent;
 
   const lang = useDictionary().locale.lang;
 
@@ -88,7 +87,7 @@ export function TooltipContent({
   // Calculate the party percentage and the coalition percentage
   const partyPercentage = (party.deputies / legislature.total_deputies) * 100;
   const coalitionPercentage = party.coalition
-    ? (coalitionDatas.deputies / legislature.total_deputies) * 100
+    ? (coalitionData.deputies / legislature.total_deputies) * 100
     : 0;
 
   // On percentage button click, display number of deputies
@@ -158,7 +157,7 @@ export function TooltipContent({
             <div className="flex items-center gap-1.5 pl-0.5">
               <span
                 className="mt-0.5 inline-block size-2 shrink-0 rounded-full"
-                style={{ backgroundColor: coalitionDatas.color }}
+                style={{ backgroundColor: coalitionData.color }}
               ></span>
               <span className="inline text-sm leading-none text-black/50 sm:text-nowrap sm:text-base">
                 {coalitionName}
@@ -166,7 +165,7 @@ export function TooltipContent({
             </div>
             <PercentageButton
               percentage={coalitionPercentage}
-              deputies={coalitionDatas.deputies}
+              deputies={coalitionData.deputies}
               totalDeputies={legislature.total_deputies}
               isPercentage={isPercentage}
               onHover={handlePercentageClick}

@@ -1,4 +1,5 @@
 import { PartyType } from "@/types/party";
+import { TooltipContentType } from "@/types/tooltipContent";
 import { useDictionary } from "@/utils/contexts/dictionaryContext";
 import { motion } from "framer-motion";
 import slugify from "../utils/slugify";
@@ -8,12 +9,7 @@ type PartyBarProps = {
   height: number;
   partyWidth: number;
   partyX: number;
-  coalitionDatas: {
-    first: boolean;
-    last: boolean;
-    color: string;
-    deputies: number;
-  };
+  coalitionData: TooltipContentType["coalitionData"];
   transitionDuration: number;
   barColor: string;
 };
@@ -23,7 +19,7 @@ export default function PartyBar({
   height,
   partyWidth,
   partyX,
-  coalitionDatas,
+  coalitionData,
   transitionDuration,
   barColor
 }: PartyBarProps) {
@@ -136,7 +132,7 @@ export default function PartyBar({
             transition={{ duration: transitionDuration }}
           />
           {/* Left border, if first of coalition */}
-          {coalitionDatas.first && (
+          {coalitionData.first && (
             <motion.line
               x1={-strokeOffset}
               y1={-strokeOffset}
@@ -154,7 +150,7 @@ export default function PartyBar({
           )}
 
           {/* Right border, if last of coalition */}
-          {coalitionDatas.last && (
+          {coalitionData.last && (
             <motion.line
               y1={-strokeOffset}
               stroke="currentColor"

@@ -1,4 +1,3 @@
-import { CurrentType } from "@/types/current";
 import { LegislatureType } from "@/types/legislature";
 import {
   coalitionsVisibilityAtom,
@@ -11,6 +10,11 @@ import getDate from "@/utils/getDate";
 import getYear from "@/utils/getYear";
 import { motion } from "framer-motion";
 import { useAtomValue, useSetAtom } from "jotai";
+import {
+  getFilteredTotal,
+  getPartyWidth,
+  isPartyVisible
+} from "../utils/legislature";
 import slugify from "../utils/slugify";
 import PartyBar from "./partyBar";
 
@@ -32,15 +36,15 @@ export default function Legislature({
   isNextRep
 }: LegislatureProps) {
   const dict = useDictionary().legislature;
-
+  const { visibleCurrents } = useVisibleCurrentsContext();
   const coalitionsVisibility = useAtomValue(coalitionsVisibilityAtom);
-
-  // Toggle currents transition polygons visibility
   const transitionsVisibility = useAtomValue(transitionsVisibilityAtom);
-  const heightShare = transitionsVisibility ? 1.75 : 1;
 
   // Place the legislature on the y axis
   const y = (getDate(leg.begin) - firstLegislature) * minHeight;
+
+  // Toggle currents transition polygons visibility
+  const heightShare = transitionsVisibility ? 1.75 : 1;
 
   // Generate the height of the legislature from its duration and the minimum height
   const duration =
@@ -48,79 +52,57 @@ export default function Legislature({
   const height = (duration * minHeight) / heightShare;
 
   // Get the filtered total deputies
-  const { visibleCurrents }: { visibleCurrents: CurrentType[] } =
-    useVisibleCurrentsContext();
-  const filteredTotalDeputies = leg.parties.reduce((accumulator, party) => {
-    if (
-      visibleCurrents.find((current) =>
-        current.parties.find((p) => p.name === party.name)
-      )
-    ) {
-      return accumulator + party.deputies;
-    } else {
-      return accumulator;
-    }
-  }, 0);
-
-  // Same for the next legislature
-  const filteredNextTotalDeputies = nextLeg
-    ? nextLeg.parties.reduce((accumulator, party) => {
-        if (
-          visibleCurrents.find((current) =>
-            current.parties.find((p) => p.name === party.name)
-          )
-        ) {
-          return accumulator + party.deputies;
-        } else {
-          return accumulator;
-        }
-      }, 0)
+  const filteredTotalDeputies = getFilteredTotal(leg.parties, visibleCurrents);
+  const nextLegFilteredTotalDeputies = nextLeg
+    ? getFilteredTotal(nextLeg.parties, visibleCurrents)
     : null;
+
+  // Legislature balance of power
+  const mostImportantParty = leg.parties.reduce((a, b) =>
+    a.deputies > b.deputies ? a : b
+  );
+
+  // Calculate coalition totals and find most important
+  const mostImportantCoalition = leg.parties.reduce(
+    (acc, party) => {
+      if (party.coalition) {
+        if (!acc.totals[party.coalition]) {
+          acc.totals[party.coalition] = { name: party.coalition, deputies: 0 };
+        }
+        acc.totals[party.coalition].deputies += party.deputies;
+
+        if (acc.totals[party.coalition].deputies > acc.most.deputies) {
+          acc.most = acc.totals[party.coalition];
+        }
+      }
+      return acc;
+    },
+    {
+      totals: {} as { [key: string]: { name: string; deputies: number } },
+      most: { name: "", deputies: 0 }
+    }
+  ).most;
+  const isPartyMostImportantEntity =
+    mostImportantParty.deputies > mostImportantCoalition.deputies;
+
+  // Screen readers
+  const srDescription = isPartyMostImportantEntity
+    ? `${dict.majorityCurrent}: ${mostImportantParty.current.name} ${
+        dict.with
+      }: ${mostImportantParty.full_name}, ${(
+        (mostImportantParty.deputies / leg.total_deputies) *
+        100
+      ).toFixed(0)}%.`
+    : `${dict.majorityCoalition}: ${mostImportantCoalition.name}, ${(
+        (mostImportantCoalition.deputies / leg.total_deputies) *
+        100
+      ).toFixed(0)}%.`;
 
   // Set the hovered party
   const setTooltipContent = useSetAtom(tooltipContentAtom);
 
   // Set the motion transition duration
   const transitionDuration = 0.5;
-
-  // Screen readers
-  const mostImportantParty = leg.parties.reduce((a, b) =>
-    a.deputies > b.deputies ? a : b
-  );
-  // Find most important coalition by reducing deputies number of all parties having the same coalition
-  const coalitionsParties = leg.parties.filter((p) => p.coalition);
-  const coalitionsDeputies = coalitionsParties.reduce(
-    (acc, party) => {
-      if (party.coalition) {
-        if (!acc[party.coalition]) {
-          acc[party.coalition] = { name: party.coalition, deputies: 0 };
-        }
-        acc[party.coalition].deputies += party.deputies;
-      }
-      return acc;
-    },
-    {} as { [key: string]: { name: string; deputies: number } }
-  );
-
-  // Find the coalition with the most deputies
-  const mostImportantCoalition = Object.values(coalitionsDeputies).reduce(
-    (a, b) => (a.deputies > b.deputies ? a : b),
-    { name: "", deputies: 0 }
-  );
-  const isPartyMostImportantEntity =
-    mostImportantParty.deputies > mostImportantCoalition.deputies;
-
-  const srDescription = isPartyMostImportantEntity
-    ? `${dict.majorityCurrent}: ${mostImportantParty.current.name} ${
-        dict.with
-      }: ${mostImportantParty.full_name}, (${(
-        (mostImportantParty.deputies / leg.total_deputies) *
-        100
-      ).toFixed(0)}%).`
-    : `${dict.majorityCoalition}: ${mostImportantCoalition.name}, (${(
-        (mostImportantCoalition.deputies / leg.total_deputies) *
-        100
-      ).toFixed(0)}%)`;
 
   // Hide the next rep first leg, its only purpose is to calculate the transition polygons
   if (isNextRep) {
@@ -145,31 +127,32 @@ export default function Legislature({
       >
         {leg.parties.map((party, i) => {
           // Find if the party is visible
-          const isVisible = visibleCurrents.find((current) =>
-            current.parties.find((p) => p.name === party.name)
-          );
+          const isVisible = isPartyVisible(party.name, visibleCurrents);
           // Generate the width of the party with a percentage of the graph width
           const partyWidth = isVisible
-            ? graphWidth * (party.deputies / filteredTotalDeputies) || 0
+            ? getPartyWidth(graphWidth, party.deputies, filteredTotalDeputies)
             : 0;
           // Generate the x position of the party by summing the width of the previous parties
           const partyX =
             i === 0
               ? 0
               : leg.parties.slice(0, i).reduce((accumulator, iteratedParty) => {
-                  const isIteratedPartyVisible = visibleCurrents.find(
-                    (current) =>
-                      current.parties.find((p) => p.name === iteratedParty.name)
+                  const isIteratedPartyVisible = isPartyVisible(
+                    iteratedParty.name,
+                    visibleCurrents
                   );
                   return isIteratedPartyVisible
                     ? accumulator +
-                        graphWidth *
-                          (iteratedParty.deputies / filteredTotalDeputies) || 0
+                        getPartyWidth(
+                          graphWidth,
+                          iteratedParty.deputies,
+                          filteredTotalDeputies
+                        )
                     : accumulator;
                 }, 0);
           // Check if the party is in a coalition, and if it's the first or last party of the coalition, and what is its most important party color
           const isInCoalition = party.coalition?.length > 1;
-          let coalitionDatas = {
+          let coalitionData = {
             first: false,
             last: false,
             color: "",
@@ -180,23 +163,15 @@ export default function Legislature({
             const previousVisibleParty = leg.parties
               .slice(0, i)
               .reverse()
-              .find((p) =>
-                visibleCurrents.find((current) =>
-                  current.parties.find((cp) => cp.name === p.name)
-                )
-              );
-            coalitionDatas.first =
+              .find((p) => isPartyVisible(p.name, visibleCurrents));
+            coalitionData.first =
               !previousVisibleParty ||
               previousVisibleParty.coalition !== party.coalition;
             // Check if the next visible party is in the same coalition
             const nextVisibleParty = leg.parties
               .slice(i + 1)
-              .find((p) =>
-                visibleCurrents.find((current) =>
-                  current.parties.find((cp) => cp.name === p.name)
-                )
-              );
-            coalitionDatas.last =
+              .find((p) => isPartyVisible(p.name, visibleCurrents));
+            coalitionData.last =
               !nextVisibleParty ||
               nextVisibleParty.coalition !== party.coalition;
             // Find all the parties from the same coalition in the legislature
@@ -208,19 +183,19 @@ export default function Legislature({
               (accumulator, party) => accumulator + party.deputies,
               0
             );
-            coalitionDatas.deputies = coalitionTotalDeputies;
+            coalitionData.deputies = coalitionTotalDeputies;
             // Get the most important party in the coalition
             const coalitionMainParty = coalitionParties.reduce((a, b) =>
               a.deputies > b.deputies ? a : b
             );
-            coalitionDatas.color = coalitionMainParty.current.color;
+            coalitionData.color = coalitionMainParty.current.color;
           }
 
           // Give the party a color based on the coalition visibility
           const partyColor =
-            coalitionDatas.color && coalitionsVisibility
-              ? party.current.color !== coalitionDatas.color
-                ? coalitionDatas.color + "CC" // Add alpha channel (80% opacity)
+            coalitionData.color && coalitionsVisibility
+              ? party.current.color !== coalitionData.color
+                ? coalitionData.color + "CC" // Add alpha channel (80% opacity)
                 : party.current.color
               : party.current.color;
 
@@ -232,15 +207,19 @@ export default function Legislature({
             : null;
 
           // Find if the next party is visible
-          const nextPartyIsVisible = visibleCurrents.find((current) =>
-            current.parties.find((p) => p.name === nextParty?.name)
+          const nextPartyIsVisible = isPartyVisible(
+            nextParty?.name,
+            visibleCurrents
           );
 
           // Generate the next party width
           const nextPartyWidth = nextLeg
             ? nextPartyIsVisible
-              ? graphWidth *
-                  (nextParty?.deputies / filteredNextTotalDeputies) || 0
+              ? getPartyWidth(
+                  graphWidth,
+                  nextParty.deputies,
+                  nextLegFilteredTotalDeputies
+                )
               : 0
             : null;
 
@@ -249,15 +228,17 @@ export default function Legislature({
             ? nextLeg.parties
                 .slice(0, nextLeg.parties.indexOf(nextParty))
                 .reduce((accumulator, iteratedParty) => {
-                  const isIteratedPartyVisible = visibleCurrents.find(
-                    (current) =>
-                      current.parties.find((p) => p.name === iteratedParty.name)
+                  const isIteratedPartyVisible = isPartyVisible(
+                    iteratedParty.name,
+                    visibleCurrents
                   );
                   return isIteratedPartyVisible
                     ? accumulator +
-                        graphWidth *
-                          (iteratedParty.deputies /
-                            filteredNextTotalDeputies) || 0
+                        getPartyWidth(
+                          graphWidth,
+                          iteratedParty.deputies,
+                          nextLegFilteredTotalDeputies
+                        )
                     : accumulator;
                 }, 0)
             : null;
@@ -279,7 +260,7 @@ export default function Legislature({
             xEnd: partyX + partyWidth,
             legislature: leg,
             party,
-            coalitionDatas
+            coalitionData
           };
 
           return (
@@ -297,7 +278,7 @@ export default function Legislature({
                 height={height}
                 partyWidth={partyWidth}
                 partyX={partyX}
-                coalitionDatas={coalitionDatas}
+                coalitionData={coalitionData}
                 transitionDuration={transitionDuration}
                 barColor={partyColor}
               />
@@ -320,5 +301,3 @@ export default function Legislature({
     </motion.g>
   );
 }
-// 32.45995893223205
-// 32.45996

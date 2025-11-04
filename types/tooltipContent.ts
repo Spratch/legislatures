@@ -9,7 +9,7 @@ export type TooltipContentType = {
   xEnd: number;
   legislature: LegislatureType;
   party: PartyType;
-  coalitionDatas: {
+  coalitionData: {
     first: boolean;
     last: boolean;
     color: string;
