@@ -1,8 +1,12 @@
 import { TooltipContentType } from "@/types/tooltipContent";
-import { detailsContentAtom, tooltipContentAtom } from "@/utils/contexts/atoms";
+import {
+  detailsContentAtom,
+  isPercentageAtom,
+  tooltipContentAtom
+} from "@/utils/contexts/atoms";
 import { useDictionary } from "@/utils/contexts/dictionaryContext";
-import { useAtomValue, useSetAtom } from "jotai";
-import { useEffect, useRef, useState } from "react";
+import { useAtom, useAtomValue, useSetAtom } from "jotai";
+import { useEffect, useRef } from "react";
 import { getLangKey } from "../utils/getLangKey";
 import Badge from "./badge";
 import EntityButton from "./entityButton";
@@ -91,8 +95,8 @@ export function TooltipContent({
     : 0;
 
   // On percentage button click, display number of deputies
-  const [isPercentage, setIsPercentage] = useState(true);
-  const handlePercentageClick = () => setIsPercentage(!isPercentage);
+  const [isPercentage, setIsPercentage] = useAtom(isPercentageAtom);
+  const handlePercentageHover = () => setIsPercentage(!isPercentage);
 
   return (
     <div
@@ -132,7 +136,7 @@ export function TooltipContent({
             deputies={party.deputies}
             totalDeputies={legislature.total_deputies}
             isPercentage={isPercentage}
-            onHover={handlePercentageClick}
+            onHover={handlePercentageHover}
             isMostImportant={party.isMostImportantEntity}
           />
         </div>
@@ -154,7 +158,7 @@ export function TooltipContent({
               deputies={coalitionData.deputies}
               totalDeputies={legislature.total_deputies}
               isPercentage={isPercentage}
-              onHover={handlePercentageClick}
+              onHover={handlePercentageHover}
               isMostImportant={coalitionData.isMostImportantEntity}
             />
           </div>
