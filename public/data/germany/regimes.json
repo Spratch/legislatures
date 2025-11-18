@@ -1,5 +1,855 @@
 [
   {
+    "name": "République de Weimar",
+    "name_en": "Weimar Republic",
+    "name_de": "Weimarer Republik",
+    "begin": "1918-11-09",
+    "end": "1933-03-23",
+    "legislatures": [
+      {
+        "legislature": 1919,
+        "total_deputies": 421,
+        "begin": "1919-01-19",
+        "end": "1920-06-06",
+        "parties": [
+          {
+            "name": "KPD",
+            "deputies": 0
+          },
+          {
+            "name": "USPD",
+            "deputies": 22
+          },
+          {
+            "name": "SPD",
+            "deputies": 163
+          },
+          {
+            "name": "Autres",
+            "deputies": 0
+          },
+          {
+            "name": "DDP",
+            "deputies": 76
+          },
+          {
+            "name": "Z",
+            "deputies": 91
+          },
+          {
+            "name": "BVP",
+            "deputies": 0
+          },
+          {
+            "name": "DHP",
+            "deputies": 1
+          },
+          {
+            "name": "BBB",
+            "deputies": 4
+          },
+          {
+            "name": "DVP",
+            "deputies": 19
+          },
+          {
+            "name": "DNVP",
+            "deputies": 45
+          }
+        ],
+        "source": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_constituantes_allemandes_de_1919"
+        ]
+      },
+      {
+        "legislature": 1920,
+        "total_deputies": 459,
+        "begin": "1920-06-06",
+        "end": "1924-05-04",
+        "parties": [
+          {
+            "name": "KPD",
+            "deputies": 4
+          },
+          {
+            "name": "USPD",
+            "deputies": 83
+          },
+          {
+            "name": "SPD",
+            "deputies": 103
+          },
+          {
+            "name": "Autres",
+            "deputies": 1
+          },
+          {
+            "name": "DDP",
+            "deputies": 39
+          },
+          {
+            "name": "Z",
+            "deputies": 64
+          },
+          {
+            "name": "BVP",
+            "deputies": 20
+          },
+          {
+            "name": "DHP",
+            "deputies": 5
+          },
+          {
+            "name": "BBB",
+            "deputies": 4
+          },
+          {
+            "name": "DVP",
+            "deputies": 65
+          },
+          {
+            "name": "WP",
+            "deputies": 0
+          },
+          {
+            "name": "LB",
+            "deputies": 0
+          },
+          {
+            "name": "DNVP",
+            "deputies": 71
+          },
+          {
+            "name": "DtSP",
+            "deputies": 0
+          },
+          {
+            "name": "NSFP",
+            "deputies": 0
+          }
+        ],
+        "source": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_allemandes_de_1920"
+        ]
+      },
+      {
+        "legislature": 1924,
+        "total_deputies": 472,
+        "begin": "1924-05-04",
+        "end": "1924-12-07",
+        "parties": [
+          {
+            "name": "KPD",
+            "deputies": 62
+          },
+          {
+            "name": "USPD",
+            "deputies": 0
+          },
+          {
+            "name": "SPD",
+            "deputies": 100
+          },
+          {
+            "name": "Autres",
+            "deputies": 8
+          },
+          {
+            "name": "DDP",
+            "deputies": 28
+          },
+          {
+            "name": "Z",
+            "deputies": 65
+          },
+          {
+            "name": "BVP",
+            "deputies": 16
+          },
+          {
+            "name": "DHP",
+            "deputies": 0
+          },
+          {
+            "name": "BBB",
+            "deputies": 0
+          },
+          {
+            "name": "DVP",
+            "deputies": 45
+          },
+          {
+            "name": "WP",
+            "deputies": 7
+          },
+          {
+            "name": "LB",
+            "deputies": 10
+          },
+          {
+            "name": "DNVP",
+            "deputies": 95
+          },
+          {
+            "name": "DtSP",
+            "deputies": 4
+          },
+          {
+            "name": "NSFP",
+            "deputies": 32
+          }
+        ],
+        "source": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_allemandes_de_mai_1924"
+        ]
+      },
+      {
+        "legislature": 1924.5,
+        "total_deputies": 493,
+        "begin": "1924-12-07",
+        "end": "1928-05-20",
+        "parties": [
+          {
+            "name": "KPD",
+            "deputies": 45
+          },
+          {
+            "name": "SPD",
+            "deputies": 131
+          },
+          {
+            "name": "Autres",
+            "deputies": 9
+          },
+          {
+            "name": "DDP",
+            "deputies": 32
+          },
+          {
+            "name": "Z",
+            "deputies": 69
+          },
+          {
+            "name": "BVP",
+            "deputies": 19
+          },
+          {
+            "name": "DBP",
+            "deputies": 0
+          },
+          {
+            "name": "DVP",
+            "deputies": 51
+          },
+          {
+            "name": "VRP",
+            "deputies": 0
+          },
+          {
+            "name": "WP",
+            "deputies": 12
+          },
+          {
+            "name": "CNBL",
+            "deputies": 0
+          },
+          {
+            "name": "LB",
+            "deputies": 8
+          },
+          {
+            "name": "DNVP",
+            "deputies": 103
+          },
+          {
+            "name": "DtSP",
+            "deputies": 0
+          },
+          {
+            "name": "NSFP",
+            "deputies": 14
+          }
+        ],
+        "source": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_allemandes_de_d%C3%A9cembre_1924"
+        ]
+      },
+      {
+        "legislature": 1928,
+        "total_deputies": 491,
+        "begin": "1928-05-20",
+        "end": "1930-09-14",
+        "parties": [
+          {
+            "name": "KPD",
+            "deputies": 54
+          },
+          {
+            "name": "SPD",
+            "deputies": 153
+          },
+          {
+            "name": "Autres",
+            "deputies": 9
+          },
+          {
+            "name": "DDP",
+            "deputies": 25
+          },
+          {
+            "name": "Z",
+            "deputies": 61
+          },
+          {
+            "name": "BVP",
+            "deputies": 17
+          },
+          {
+            "name": "DHP",
+            "deputies": 0
+          },
+          {
+            "name": "DBP",
+            "deputies": 8
+          },
+          {
+            "name": "DVP",
+            "deputies": 45
+          },
+          {
+            "name": "CSVD",
+            "deputies": 0
+          },
+          {
+            "name": "VRP",
+            "deputies": 2
+          },
+          {
+            "name": "WP",
+            "deputies": 23
+          },
+          {
+            "name": "KVP",
+            "deputies": 0
+          },
+          {
+            "name": "CNBL",
+            "deputies": 9
+          },
+          {
+            "name": "LB",
+            "deputies": 0
+          },
+          {
+            "name": "DNVP",
+            "deputies": 73
+          },
+          {
+            "name": "NSDAP",
+            "deputies": 12
+          }
+        ],
+        "source": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_allemandes_de_1928"
+        ]
+      },
+      {
+        "legislature": 1930,
+        "total_deputies": 577,
+        "begin": "1930-09-14",
+        "end": "1932-07-31",
+        "parties": [
+          {
+            "name": "KPD",
+            "deputies": 77
+          },
+          {
+            "name": "SPD",
+            "deputies": 143
+          },
+          {
+            "name": "Autres",
+            "deputies": 0
+          },
+          {
+            "name": "DStP",
+            "deputies": 20
+          },
+          {
+            "name": "Z",
+            "deputies": 68
+          },
+          {
+            "name": "BVP",
+            "deputies": 19
+          },
+          {
+            "name": "DHP",
+            "deputies": 3
+          },
+          {
+            "name": "DBP",
+            "deputies": 6
+          },
+          {
+            "name": "DVP",
+            "deputies": 30
+          },
+          {
+            "name": "CSVD",
+            "deputies": 14
+          },
+          {
+            "name": "VRP",
+            "deputies": 0
+          },
+          {
+            "name": "WP",
+            "deputies": 23
+          },
+          {
+            "name": "KVP",
+            "deputies": 4
+          },
+          {
+            "name": "CNBL",
+            "deputies": 19
+          },
+          {
+            "name": "LB",
+            "deputies": 3
+          },
+          {
+            "name": "DNVP",
+            "deputies": 41
+          },
+          {
+            "name": "NSDAP",
+            "deputies": 107
+          }
+        ],
+        "source": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_allemandes_de_1930"
+        ]
+      },
+      {
+        "legislature": 1932,
+        "total_deputies": 608,
+        "begin": "1932-07-31",
+        "end": "1932-11-06",
+        "parties": [
+          {
+            "name": "KPD",
+            "deputies": 89
+          },
+          {
+            "name": "SPD",
+            "deputies": 133
+          },
+          {
+            "name": "Autres",
+            "deputies": 0
+          },
+          {
+            "name": "DStP",
+            "deputies": 4
+          },
+          {
+            "name": "Z",
+            "deputies": 75
+          },
+          {
+            "name": "BVP",
+            "deputies": 22
+          },
+          {
+            "name": "DHP",
+            "deputies": 0
+          },
+          {
+            "name": "DBP",
+            "deputies": 2
+          },
+          {
+            "name": "DVP",
+            "deputies": 7
+          },
+          {
+            "name": "CSVD",
+            "deputies": 3
+          },
+          {
+            "name": "VRP",
+            "deputies": 1
+          },
+          {
+            "name": "WP",
+            "deputies": 2
+          },
+          {
+            "name": "KVP",
+            "deputies": 0
+          },
+          {
+            "name": "CNBL",
+            "deputies": 1
+          },
+          {
+            "name": "LB",
+            "deputies": 2
+          },
+          {
+            "name": "DNVP",
+            "deputies": 37
+          },
+          {
+            "name": "NSDAP",
+            "deputies": 230
+          }
+        ],
+        "source": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_allemandes_de_juillet_1932"
+        ]
+      },
+      {
+        "legislature": 1932.5,
+        "duration": 0.5,
+        "total_deputies": 584,
+        "begin": "1932-11-06",
+        "end": "1933-03-05",
+        "parties": [
+          {
+            "name": "KPD",
+            "deputies": 100
+          },
+          {
+            "name": "SPD",
+            "deputies": 121
+          },
+          {
+            "name": "Autres",
+            "deputies": 1
+          },
+          {
+            "name": "DStP",
+            "deputies": 2
+          },
+          {
+            "name": "Z",
+            "deputies": 70
+          },
+          {
+            "name": "BVP",
+            "deputies": 20
+          },
+          {
+            "name": "DHP",
+            "deputies": 1
+          },
+          {
+            "name": "DBP",
+            "deputies": 3
+          },
+          {
+            "name": "DVP",
+            "deputies": 11
+          },
+          {
+            "name": "CSVD",
+            "deputies": 5
+          },
+          {
+            "name": "VRP",
+            "deputies": 0
+          },
+          {
+            "name": "WP",
+            "deputies": 1
+          },
+          {
+            "name": "CNBL",
+            "deputies": 0
+          },
+          {
+            "name": "LB",
+            "deputies": 2
+          },
+          {
+            "name": "DNVP",
+            "deputies": 51
+          },
+          {
+            "name": "DSBdF",
+            "deputies": 0
+          },
+          {
+            "name": "NSDAP",
+            "deputies": 196
+          }
+        ],
+        "source": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_allemandes_de_novembre_1932"
+        ]
+      },
+      {
+        "legislature": 1933,
+        "duration": 0.5,
+        "total_deputies": 647,
+        "begin": "1933-03-05",
+        "end": "1933-11-12",
+        "parties": [
+          {
+            "name": "KPD",
+            "deputies": 81
+          },
+          {
+            "name": "SPD",
+            "deputies": 120
+          },
+          {
+            "name": "Autres",
+            "deputies": 0
+          },
+          {
+            "name": "DStP",
+            "deputies": 5
+          },
+          {
+            "name": "Z",
+            "deputies": 73
+          },
+          {
+            "name": "BVP",
+            "deputies": 19
+          },
+          {
+            "name": "DHP",
+            "deputies": 0
+          },
+          {
+            "name": "DBP",
+            "deputies": 2,
+            "coalition": "Bloc chrétien-national",
+            "coalition_en": "Christian-National Bloc",
+            "coalition_de": "Christlich-Nationaler Block"
+          },
+          {
+            "name": "DVP",
+            "deputies": 2,
+            "coalition": "Bloc chrétien-national",
+            "coalition_en": "Christian-National Bloc",
+            "coalition_de": "Christlich-Nationaler Block"
+          },
+          {
+            "name": "CSVD",
+            "deputies": 4,
+            "coalition": "Bloc chrétien-national",
+            "coalition_en": "Christian-National Bloc",
+            "coalition_de": "Christlich-Nationaler Block"
+          },
+          {
+            "name": "WP",
+            "deputies": 0
+          },
+          {
+            "name": "LB",
+            "deputies": 1,
+            "coalition": "Front de lutte noir-blanc-rouge",
+            "coalition_en": "Black-White-Red Struggle Front",
+            "coalition_de": "Kampffront Schwarz-Weiß-Rot"
+          },
+          {
+            "name": "DNVP",
+            "deputies": 51,
+            "coalition": "Front de lutte noir-blanc-rouge",
+            "coalition_en": "Black-White-Red Struggle Front",
+            "coalition_de": "Kampffront Schwarz-Weiß-Rot"
+          },
+          {
+            "name": "DSBdF",
+            "deputies": 1,
+            "coalition": "Front de lutte noir-blanc-rouge",
+            "coalition_en": "Black-White-Red Struggle Front",
+            "coalition_de": "Kampffront Schwarz-Weiß-Rot"
+          },
+          {
+            "name": "NSDAP",
+            "deputies": 288
+          }
+        ],
+        "source": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_allemandes_de_mars_1933"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Allemagne nazie",
+    "name_en": "Nazi Germany",
+    "name_de": "NS-Staat",
+    "begin": "1933-03-23",
+    "end": "1945-05-23",
+    "legislatures": [
+      {
+        "legislature": 1933.5,
+        "total_deputies": 661,
+        "duration": 3,
+        "begin": "1933-11-12",
+        "end": "1936-03-29",
+        "parties": [
+          {
+            "name": "KPD",
+            "deputies": 0
+          },
+          {
+            "name": "SPD",
+            "deputies": 0
+          },
+          {
+            "name": "DStP",
+            "deputies": 0
+          },
+          {
+            "name": "Z",
+            "deputies": 0
+          },
+          {
+            "name": "BVP",
+            "deputies": 0
+          },
+          {
+            "name": "DBP",
+            "deputies": 0
+          },
+          {
+            "name": "DVP",
+            "deputies": 0
+          },
+          {
+            "name": "CSVD",
+            "deputies": 0
+          },
+          {
+            "name": "LB",
+            "deputies": 0
+          },
+          {
+            "name": "DNVP",
+            "deputies": 0
+          },
+          {
+            "name": "DSBdF",
+            "deputies": 0
+          },
+          {
+            "name": "NSDAP",
+            "deputies": 661
+          }
+        ]
+      },
+      {
+        "legislature": 1936,
+        "total_deputies": 741,
+        "duration": 2,
+        "begin": "1936-03-29",
+        "end": "1938-04-10",
+        "parties": [
+          {
+            "name": "NSDAP",
+            "deputies": 741
+          }
+        ]
+      },
+      {
+        "legislature": 1938,
+        "total_deputies": 814,
+        "duration": 7,
+        "begin": "1938-04-10",
+        "end": "1945-05-23",
+        "parties": [
+          {
+            "name": "AK",
+            "deputies": 0
+          },
+          {
+            "name": "NSDAP",
+            "deputies": 814
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Allemagne occupée",
+    "name_en": "Occupied Germany",
+    "name_de": "Besetzte Deutschland",
+    "begin": "1945-06-05",
+    "end": "1949-05-23",
+    "legislatures": [
+      {
+        "legislature": 1945,
+        "total_deputies": 1,
+        "duration": 4,
+        "begin": "1945-06-05",
+        "end": "1949-05-23",
+        "parties": [
+          {
+            "name": "KPD",
+            "deputies": 0
+          },
+          {
+            "name": "SPD",
+            "deputies": 0
+          },
+          {
+            "name": "Autres",
+            "deputies": 0
+          },
+          {
+            "name": "AK",
+            "deputies": 1
+          },
+          {
+            "name": "SSW",
+            "deputies": 0
+          },
+          {
+            "name": "DZP",
+            "deputies": 0
+          },
+          {
+            "name": "FDP",
+            "deputies": 0
+          },
+          {
+            "name": "DP",
+            "deputies": 0
+          },
+          {
+            "name": "CDU/CSU",
+            "deputies": 0
+          },
+          {
+            "name": "BP",
+            "deputies": 0
+          },
+          {
+            "name": "WAV",
+            "deputies": 0
+          },
+          {
+            "name": "DKP-DRP",
+            "deputies": 0
+          },
+          {
+            "name": "NSDAP",
+            "deputies": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "République féderale",
     "name_de": "Bundesrepublik",
     "name_en": "Federal Republic",
@@ -23,6 +873,10 @@
           {
             "name": "Autres",
             "deputies": 3
+          },
+          {
+            "name": "AK",
+            "deputies": 0
           },
           {
             "name": "SSW",
@@ -55,10 +909,6 @@
           {
             "name": "DKP-DRP",
             "deputies": 5
-          },
-          {
-            "name": "GB/BHE",
-            "deputies": 0
           }
         ],
         "source": [
@@ -110,10 +960,6 @@
           },
           {
             "name": "WAV",
-            "deputies": 0
-          },
-          {
-            "name": "DKP-DRP",
             "deputies": 0
           },
           {

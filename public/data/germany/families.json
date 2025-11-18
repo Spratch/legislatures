@@ -29,6 +29,14 @@
         "keyword": "Socialisme démocratique",
         "parties": [
           {
+            "name": "USPD",
+            "full_name": "Parti social-démocrate indépendant d'Allemagne",
+            "full_name_en": "Independent Social Democratic Party of Germany",
+            "full_name_de": "Unabhängige Sozialdemokratische Partei Deutschlands",
+            "keyword": "Parti social-démocrate indépendant d'Allemagne",
+            "period": "1917-1931"
+          },
+          {
             "name": "PDS",
             "full_name": "Parti du socialisme démocratique",
             "full_name_en": "Party of Democratic Socialism",
@@ -106,6 +114,22 @@
             "keyword": "Indépendant (politique)"
           }
         ]
+      },
+      {
+        "name": "Occupation",
+        "name_en": "Occupation",
+        "name_de": "Besetzung",
+        "color": "#CDCCCD",
+        "keyword": "Occupation de l'Allemagne après la Seconde Guerre mondiale",
+        "parties": [
+          {
+            "name": "AK",
+            "full_name": "Conseil de contrôle allié",
+            "full_name_en": "Allied Control Council",
+            "full_name_de": "Alliierter Kontrollrat",
+            "keyword": "Conseil de contrôle allié"
+          }
+        ]
       }
     ]
   },
@@ -115,6 +139,31 @@
     "name_de": "Mitte",
     "color": "#FFBC5D",
     "currents": [
+      {
+        "name": "Social-libéral",
+        "name_en": "Social-liberal",
+        "name_de": "Sozial-libéral",
+        "color": "#FEE098",
+        "keyword": "Social-libéralisme",
+        "parties": [
+          {
+            "name": "DDP",
+            "full_name": "Parti démocrate allemand",
+            "full_name_en": "German Democratic Party",
+            "full_name_de": "Deutsche Demokratische Partei",
+            "keyword": "Parti démocrate allemand",
+            "period": "1918-1930"
+          },
+          {
+            "name": "DStP",
+            "full_name": "Parti allemand d'État",
+            "full_name_en": "German State Party",
+            "full_name_de": "Deutsche Staatspartei",
+            "keyword": "Parti démocrate allemand",
+            "period": "1930-1933"
+          }
+        ]
+      },
       {
         "name": "Minorité danoise",
         "name_en": "Danish minority",
@@ -139,11 +188,77 @@
         "keyword": "Démocratie chrétienne",
         "parties": [
           {
+            "name": "Z",
+            "full_name": "Parti du centre allemand",
+            "full_name_en": "German Center Party",
+            "full_name_de": "Deutsche Zentrumspartei",
+            "keyword": "Zentrum"
+          },
+          {
             "name": "DZP",
             "full_name": "Parti du centre allemand",
             "full_name_en": "German Center Party",
             "full_name_de": "Deutsche Zentrumspartei",
             "keyword": "Zentrum"
+          }
+        ]
+      },
+      {
+        "name": "Démocratie chrétienne bavaroise",
+        "name_en": "Bavarian christian democracy",
+        "name_de": "Bayerische Christdemokratie",
+        "color": "#E6B650",
+        "keyword": "Démocratie chrétienne",
+        "parties": [
+          {
+            "name": "BVP",
+            "full_name": "Parti populaire bavarois",
+            "full_name_en": "Bavarian People's Party",
+            "full_name_de": "Bayerische Volkspartei",
+            "keyword": "Parti populaire bavarois",
+            "period": "1918-1933"
+          }
+        ]
+      },
+      {
+        "name": "Fédéraliste hanovrien",
+        "name_en": "Hanoverian Federalist",
+        "name_de": "Hannoveraner Föderalist",
+        "color": "#BF8D37",
+        "keyword": "Royaume de Hanovre",
+        "parties": [
+          {
+            "name": "DHP",
+            "full_name": "Parti allemand hanovrien",
+            "full_name_en": "German-Hanoverian Party",
+            "full_name_de": "Deutsch-Hannoversche Partei",
+            "keyword": "Parti allemand hanovrien",
+            "period": "1867-1933"
+          }
+        ]
+      },
+      {
+        "name": "Agrariste",
+        "name_en": "Agrarist",
+        "name_de": "Agrarish",
+        "color": "#55A696",
+        "keyword": "Agrarisme",
+        "parties": [
+          {
+            "name": "BBB",
+            "full_name": "Ligue des paysans bavarois",
+            "full_name_en": "Bavarian Peasants' League",
+            "full_name_de": "Bayerischer Bauernbund",
+            "keyword": "Bavarian Peasants' League",
+            "period": "1893-1928"
+          },
+          {
+            "name": "DBP",
+            "full_name": "Parti des fermiers allemands",
+            "full_name_en": "German Farmers' Party",
+            "full_name_de": "Deutsche Bauernpartei",
+            "keyword": "German Farmers' Party",
+            "period": "1928-1933"
           }
         ]
       }
@@ -179,6 +294,14 @@
         "keyword": "National-libéralisme",
         "parties": [
           {
+            "name": "DVP",
+            "full_name": "Parti populaire allemand",
+            "full_name_en": "German People's Party",
+            "full_name_de": "Deutsche Volkspartei",
+            "keyword": "Parti populaire allemand (République de Weimar)",
+            "period": "1918-1933"
+          },
+          {
             "name": "DP",
             "full_name": "Parti allemand",
             "full_name_en": "German Party",
@@ -195,11 +318,70 @@
         "keyword": "Conservatisme",
         "parties": [
           {
+            "name": "CSVD",
+            "full_name": "Service populaire chrétien-social",
+            "full_name_en": "Christian Social People's Service",
+            "full_name_de": "Christlich-Sozialer Volksdienst",
+            "keyword": "Service populaire chrétien-social",
+            "period": "1929-1933"
+          },
+          {
             "name": "CDU/CSU",
             "full_name": "Union chrétienne-démocrate d'Allemagne/Union chrétienne-sociale en Bavière",
             "full_name_en": "Christian Democratic Union of Germany/Christian Social Union in Bavaria",
             "full_name_de": "Christlich-Demokratische Union Deutschlands/Christlich-Soziale Union in Bayern",
             "keyword": "CDU/CSU"
+          }
+        ]
+      },
+      {
+        "name": "Conservateur populiste",
+        "name_en": "Populist Conservative",
+        "name_de": "Populistischer Konservativer",
+        "color": "#2D6FB5",
+        "keyword": "Populisme",
+        "parties": [
+          {
+            "name": "VRP",
+            "full_name": "Parti du Reich pour les droits civils et la déflation",
+            "full_name_en": "People's Justice Party",
+            "full_name_de": "Volksrechtpartei",
+            "keyword": "Parti du Reich pour les droits civils et la déflation",
+            "period": "1926-1933"
+          }
+        ]
+      },
+      {
+        "name": "Corporatiste",
+        "name_en": "Corporatist",
+        "name_de": "Korporatist",
+        "color": "#3883C9",
+        "keyword": "Corporatisme",
+        "parties": [
+          {
+            "name": "WP",
+            "full_name": "Parti économique",
+            "full_name_en": "Economic Party",
+            "full_name_de": "Wirtschaftspartei",
+            "keyword": "Parti du Reich des classes moyennes allemandes",
+            "period": "1920-1932"
+          }
+        ]
+      },
+      {
+        "name": "Chrétien populiste conservateur",
+        "name_en": "Christian populist conservative",
+        "name_de": "Christen-Populist-Konservatist",
+        "color": "#7CAADB",
+        "keyword": "Conservatisme",
+        "parties": [
+          {
+            "name": "KVP",
+            "full_name": "Parti populaire conservateur",
+            "full_name_en": "Conservative People's Party",
+            "full_name_de": "Konservative Volkspartei",
+            "keyword": "Parti populaire conservateur (république de Weimar)",
+            "period": "1929-1933"
           }
         ]
       },
@@ -251,34 +433,127 @@
         ]
       },
       {
-        "name": "National-conservatisme",
-        "name_en": "National-conservatism",
-        "name_de": "Nationalkonservatismus",
-        "color": "#49297A",
-        "keyword": "National-conservatisme",
+        "name": "Conservateur agraire",
+        "name_en": "Agrarian conservative",
+        "name_de": "Agrarconservativer",
+        "color": "#8AB6B8",
+        "keyword": "Agrarisme",
         "parties": [
           {
-            "name": "GB/BHE",
-            "full_name": "Bloc pan-allemand/Fédérations des réfugiés et des expulsés",
-            "full_name_en": "All-German Bloc/Federations of Refugees and Expellees",
-            "full_name_de": "Gesamtdeutscher Block/Bünde der Flüchtlinge und Vertriebenen",
-            "keyword": "Bloc des réfugiés"
+            "name": "CNBL",
+            "full_name": "Parti chrétien-national des paysans et des fermiers",
+            "full_name_en": "Christian-National Peasants' and Farmers' Party",
+            "full_name_de": "Christlich-Nationale Bauern- und Landvolkpartei",
+            "keyword": "Parti chrétien-national des paysans et des fermiers",
+            "period": "1928-1932"
           }
         ]
       },
       {
-        "name": "Nationalisme prussien",
-        "name_en": "Prussian nationalism",
-        "name_de": "Preußischer Nationalismus",
-        "color": "#B18C70",
-        "keyword": "Pangermanisme",
+        "name": "National-conservateur agraire",
+        "name_en": "Agrarian national-conservative",
+        "name_de": "Agrarnationaler Konservativer",
+        "color": "#62989A",
+        "keyword": "National-conservatisme",
         "parties": [
+          {
+            "name": "LB",
+            "full_name": "Ligue agricole",
+            "full_name_en": "Agricultural League",
+            "full_name_de": "Reichs-Landbund",
+            "keyword": "Fédération rurale du Reich",
+            "period": "1921-1933"
+          }
+        ]
+      },
+      {
+        "name": "National-conservateur",
+        "name_en": "National-conservative",
+        "name_de": "Nationalkonservativ",
+        "color": "#8572A5",
+        "keyword": "National-conservatisme",
+        "parties": [
+          {
+            "name": "DNVP",
+            "full_name": "Parti populaire national allemand",
+            "full_name_en": "German National People's Party",
+            "full_name_de": "Deutschnationale Volkspartei",
+            "keyword": "Parti populaire national allemand",
+            "period": "1918-1933"
+          },
           {
             "name": "DKP-DRP",
             "full_name": "Parti conservateur allemand - Parti allemand de droite",
             "full_name_en": "German Conservative Party - Right-wing German Party",
             "full_name_de": "Deutsche Konservative Partei – rechte deutsche Partei",
             "keyword": "Parti impérial allemand"
+          },
+          {
+            "name": "GB/BHE",
+            "full_name": "Bloc pan-allemand/Fédérations des réfugiés et des expulsés",
+            "full_name_en": "All-German Bloc/Federations of Refugees and Expellees",
+            "full_name_de": "Gesamtdeutscher Block/Bünde der Flüchtlinge und Vertriebenen",
+            "keyword": "Bloc des réfugiés",
+            "period": "1951-1961"
+          }
+        ]
+      },
+      {
+        "name": "Nationaliste paramilitaire",
+        "name_en": "Paramilitary nationalist",
+        "name_de": "Paramilitäres Nationalist",
+        "color": "#B18C70",
+        "keyword": "Paramilitaire",
+        "parties": [
+          {
+            "name": "DSBdF",
+            "full_name": "Le casque d'acier, Ligue des soldats du front",
+            "full_name_en": "The Steel Helmet, League of Front-Line Soldiers",
+            "full_name_de": "Der Stahlhelm, Bund der Frontsoldaten",
+            "keyword": "Stahlhelm",
+            "period": "1918-1933"
+          }
+        ]
+      },
+      {
+        "name": "Nationaliste völkisch",
+        "name_en": "Völkisch nationalist",
+        "name_de": "Völkisch Nationalist",
+        "color": "#B18C70",
+        "keyword": "Nationalisme du peuple",
+        "parties": [
+          {
+            "name": "DtSP",
+            "full_name": "Parti social allemand",
+            "full_name_en": "German Social Party",
+            "full_name_de": "Deutschsoziale Partei",
+            "keyword": "Deutschsoziale Partei",
+            "period": "1921-1929"
+          }
+        ]
+      },
+      {
+        "name": "Nazi",
+        "name_en": "Nazi",
+        "name_de": "Nazi",
+        "color": "#9E765A",
+        "keyword": "Nazisme",
+        "parties": [
+          {
+            "name": "NSFP",
+            "full_name": "Parti national-socialiste de la liberté",
+            "full_name_en": "National Socialist Freedom Movement",
+            "full_name_de": "Nationalsozialistische Freiheitspartei",
+            "keyword": "Parti national-socialiste de la liberté",
+            "period": "1924-1925"
+          },
+          {
+            "name": "NSDAP",
+            "full_name": "Parti national-socialiste des travailleurs allemands",
+            "full_name_en": "National Socialist German Workers' Party",
+            "full_name_de": "Nationalsozialistische Deutsche Arbeiterpartei",
+            "keyword": "Parti national-socialiste des travailleurs allemands",
+            "period": "1920-1945"
           }
         ]
       }
