@@ -1086,34 +1086,6 @@
             "keyword": "Voix unioniste traditionnelle"
           }
         ]
-      },
-      {
-        "name": "Nationaliste antisémite/pétainiste",
-        "name_en": "Anti-Semitic nationalist/Pétainist",
-        "name_de": "Antisemitischer Nationalist/Pétainist",
-        "color": "#91735C",
-        "keyword": "Antisémitisme #Antisémitisme politique",
-        "parties": [
-          {
-            "name": "NA",
-            "full_name": "Nationalistes Antijuifs",
-            "full_name_en": "Anti-Jewish Nationalists",
-            "full_name_de": "Antijüdische Nationalisten",
-            "keyword": "Groupe antijuif"
-          },
-          {
-            "name": "UNIR",
-            "full_name": "Union des nationaux indépendants et républicains",
-            "full_name_en": "Union of Independent and Republican Nationals",
-            "full_name_de": "Union unabhängiger und republikanischer Staatsangehöriger"
-          },
-          {
-            "name": "PP",
-            "full_name": "Philippe Pétain",
-            "full_name_en": "Philippe Petain",
-            "full_name_de": "Philippe Pétain"
-          }
-        ]
       }
     ]
   },
