@@ -1,5 +1,190 @@
 [
   {
+    "begin": "1914-07-28",
+    "end": "1918-11-11",
+    "title": "Première Guerre mondiale",
+    "title_en": "World War I",
+    "title_de": "Erster Weltkrieg",
+    "keyword": "Première Guerre mondiale",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1918-10-01",
+    "end": "1919-08-11",
+    "title": "Révolution allemande",
+    "title_en": "German revolution",
+    "title_de": "Novemberrevolution",
+    "keyword": "Révolution allemande de 1918-1919",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1919-01-05",
+    "end": "1919-01-12",
+    "title": "Révolte spartakiste de Berlin",
+    "title_en": "Spartacist uprising",
+    "title_de": "Spartakusaufstand",
+    "keyword": "Révolte spartakiste de Berlin",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1920-03-13",
+    "end": "1920-03-17",
+    "title": "Putsch de Kapp",
+    "title_en": "Kapp Putsch",
+    "title_de": "Kapp-Putsch",
+    "keyword": "Putsch de Kapp",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1921-06-01",
+    "end": "1924-01-01",
+    "title": "Hyperinflation",
+    "title_en": "Hyperinflation in the Weimar Republic",
+    "title_de": "Deutsche Inflation 1914 bis 1923",
+    "keyword": "Hyperinflation de la république de Weimar"
+  },
+  {
+    "begin": "1923-01-11",
+    "end": "1925-08-25",
+    "title": "Occupation de la Ruhr",
+    "title_en": "Occupation of the Ruhr",
+    "title_de": "Ruhrbesetzung",
+    "keyword": "Occupation de la Ruhr",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1923-11-08",
+    "end": "1923-11-09",
+    "title": "Putsch de la Brasserie",
+    "title_en": "Beer Hall Putsch",
+    "title_de": "Hitlerputsch",
+    "keyword": "Putsch de la Brasserie",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1925-10-16",
+    "end": "1925-10-16",
+    "title": "Accords de Locarno",
+    "title_en": "Locarno Treaties",
+    "title_de": "Verträge von Locarno",
+    "keyword": "Accords de Locarno"
+  },
+  {
+    "begin": "1929-10-01",
+    "end": "1933-03-23",
+    "title": "Grande Dépression",
+    "title_en": "Great Depression",
+    "title_de": "Weltwirtschaftskrise",
+    "keyword": "Grande Dépression"
+  },
+  {
+    "begin": "1931-07-13",
+    "end": "1931-07-13",
+    "title": "Crise bancaire",
+    "title_en": "Bank crisis",
+    "title_de": "Bankenkrise",
+    "keyword": "Darmstädter und Nationalbank"
+  },
+  {
+    "begin": "1933-03-23",
+    "end": "1933-03-23",
+    "title": "Loi sur les pleins pouvoirs.",
+    "title_en": "Enabling Act",
+    "title_de": "Ermächtigungsgesetz vom 24. März 1933",
+    "keyword": "Loi allemande des pleins pouvoirs de 1933",
+    "type": "Loi"
+  },
+  {
+    "begin": "1933-07-14",
+    "end": "1933-07-14",
+    "title": "Loi sur le parti unique",
+    "title_en": "Law Against the Formation of Parties",
+    "title_de": "Gesetz gegen die Neubildung von Parteien",
+    "keyword": "Loi allemande sur le parti unique de 1933",
+    "type": "Loi"
+  },
+  {
+    "begin": "1934-06-29",
+    "end": "1934-07-02",
+    "title": "Nuit des longs couteaux",
+    "title_en": "Night of the Long Knives",
+    "title_de": "Röhm-Putsch",
+    "keyword": "Nuit des longs couteaux",
+    "type": "Lutte"
+  },
+  {
+    "begin": "1935-09-15",
+    "end": "1935-09-15",
+    "title": "Lois de Nuremberg",
+    "title_en": "Nuremberg Laws",
+    "title_de": "Nürnberger Gesetze",
+    "keyword": "Lois de Nuremberg",
+    "type": "Loi"
+  },
+  {
+    "begin": "1936-08-16",
+    "end": "1936-08-16",
+    "title": "Jeux olympiques de Berlin",
+    "title_en": "1936 Summer Olympics",
+    "title_de": "Olympische Sommerspiele 1936",
+    "keyword": "Jeux olympiques d'été de 1936"
+  },
+  {
+    "begin": "1938-03-12",
+    "end": "1938-03-13",
+    "title": "Annexion de l'Autriche",
+    "title_en": "Anschluss",
+    "title_de": "Anschluss Österreichs",
+    "keyword": "Anschluss",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1938-09-30",
+    "end": "1938-09-30",
+    "title": "Accords de Munich : la région des Sudètes est annexée au détriment de la Tchécoslovaquie.",
+    "title_en": "Munich Agreement",
+    "title_de": "Münchner Abkommen",
+    "keyword": "Accords de Munich",
+    "type": "Guerre"
+  },
+  {
+    "begin": "1938-11-09",
+    "end": "1938-11-09",
+    "title": "Nuit de Cristal",
+    "title_en": "Kristallnacht",
+    "title_de": "Novemberpogrome 1938",
+    "keyword": "Nuit de Cristal",
+    "type": "Lutte"
+  },
+
+  {
+    "begin": "1939-09-01",
+    "end": "1945-05-08",
+    "title": "Seconde Guerre mondiale",
+    "title_en": "World War II",
+    "title_de": "Zweiter Weltkrieg",
+    "keyword": "Seconde Guerre mondiale",
+    "type": "Guerre"
+  },
+
+  {
+    "begin": "1942-01-20",
+    "end": "1942-01-20",
+    "title": "Conférence de Wannsee sur l'extermination des Juifs d'Europe.",
+    "title_en": "Wannsee Conference",
+    "title_de": "Wannseekonferenz",
+    "keyword": "Conférence de Wannsee"
+  },
+  {
+    "begin": "1945-04-16",
+    "end": "1945-05-02",
+    "title": "Bataille de Berlin.",
+    "title_en": "Battle of Berlin",
+    "title_de": "Schlacht um Berlin",
+    "keyword": "Bataille de Berlin",
+    "type": "Guerre"
+  },
+  {
     "begin": "1949-05-08",
     "end": "1949-05-24",
     "title": "Fondation de la République fédérale d'Allemagne",
@@ -9,7 +194,7 @@
     "type": "Loi"
   },
   {
-    "begin": "1952-03*10",
+    "begin": "1952-03-10",
     "end": "1952-03-10",
     "title": "Rétablissement de l'assurance chômage",
     "title_en": "Re-establishment of unemployment insurance",
@@ -174,8 +359,7 @@
     "title": "Adoption de l'euro comme monnaie officielle",
     "title_en": "Adoption of the euro as official currency",
     "title_de": "Einführung des Euro als offizielle Währung",
-    "keyword": "Euro",
-    "type": "Économie"
+    "keyword": "Euro"
   },
   {
     "begin": "2008-10-05",
