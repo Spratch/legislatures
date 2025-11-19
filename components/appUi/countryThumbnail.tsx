@@ -23,7 +23,7 @@ export default function CountryThumbnail({ countryInfos }: Props) {
         alt=""
         width={500}
         height={300}
-        className={`h-full w-full object-cover object-top p-px ${isPast ? "grayscale-[.75] transition duration-500 group-hover/thumbnail:grayscale-[.50] group-hover/thumbnail:duration-75 group-focus-visible/thumbnail:grayscale-[.50] group-focus-visible/thumbnail:duration-75" : ""}`}
+        className={`h-full w-full object-cover object-top p-px ${isPast ? "grayscale-[.35] transition duration-500 group-hover/thumbnail:grayscale-[.15] group-hover/thumbnail:duration-75 group-focus-visible/thumbnail:grayscale-[.15] group-focus-visible/thumbnail:duration-75" : ""}`}
       />
       <div
         className="absolute bottom-0 left-0 right-0 top-0"
