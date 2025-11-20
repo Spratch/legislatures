@@ -94,46 +94,6 @@
     ]
   },
   {
-    "name": "Autres",
-    "name_en": "Others",
-    "name_de": "Andere",
-    "color": "#CDCCCD",
-    "currents": [
-      {
-        "name": "Autres",
-        "name_en": "Others",
-        "name_de": "Andere",
-        "color": "#CDCCCD",
-        "keyword": "Indépendant (politique)",
-        "parties": [
-          {
-            "name": "Autres",
-            "full_name": "Autres",
-            "full_name_en": "Others",
-            "full_name_de": "Andere",
-            "keyword": "Indépendant (politique)"
-          }
-        ]
-      },
-      {
-        "name": "Occupation",
-        "name_en": "Occupation",
-        "name_de": "Besetzung",
-        "color": "#CDCCCD",
-        "keyword": "Occupation de l'Allemagne après la Seconde Guerre mondiale",
-        "parties": [
-          {
-            "name": "AK",
-            "full_name": "Conseil de contrôle allié",
-            "full_name_en": "Allied Control Council",
-            "full_name_de": "Alliierter Kontrollrat",
-            "keyword": "Conseil de contrôle allié"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "Centre",
     "name_en": "Centre",
     "name_de": "Mitte",
@@ -554,6 +514,46 @@
             "full_name_de": "Nationalsozialistische Deutsche Arbeiterpartei",
             "keyword": "Parti national-socialiste des travailleurs allemands",
             "period": "1920-1945"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Autres",
+    "name_en": "Others",
+    "name_de": "Andere",
+    "color": "#CDCCCD",
+    "currents": [
+      {
+        "name": "Autres",
+        "name_en": "Others",
+        "name_de": "Andere",
+        "color": "#CDCCCD",
+        "keyword": "Indépendant (politique)",
+        "parties": [
+          {
+            "name": "Autres",
+            "full_name": "Autres",
+            "full_name_en": "Others",
+            "full_name_de": "Andere",
+            "keyword": "Indépendant (politique)"
+          }
+        ]
+      },
+      {
+        "name": "Occupation",
+        "name_en": "Occupation",
+        "name_de": "Besetzung",
+        "color": "#CDCCCD",
+        "keyword": "Occupation de l'Allemagne après la Seconde Guerre mondiale",
+        "parties": [
+          {
+            "name": "AK",
+            "full_name": "Conseil de contrôle allié",
+            "full_name_en": "Allied Control Council",
+            "full_name_de": "Alliierter Kontrollrat",
+            "keyword": "Conseil de contrôle allié"
           }
         ]
       }

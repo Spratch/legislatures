@@ -228,30 +228,6 @@
     ]
   },
   {
-    "name": "Autres",
-    "name_en": "Others",
-    "name_de": "Andere",
-    "color": "#CDCCCD",
-    "currents": [
-      {
-        "name": "Autres",
-        "name_en": "Others",
-        "name_de": "Andere",
-        "color": "#CDCCCD",
-        "keyword": "Indépendant (politique)",
-        "parties": [
-          {
-            "name": "Autres",
-            "full_name": "Autres",
-            "full_name_en": "Others",
-            "full_name_de": "Andere",
-            "keyword": "Indépendant (politique)"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "Centre",
     "name_en": "Centre",
     "name_de": "Mitte",
@@ -359,6 +335,30 @@
             "full_name_en": "National Democratic Party of Germany",
             "full_name_de": "National-Demokratische Partei Deutschlands",
             "keyword": "Parti national-démocrate d'Allemagne (RDA)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Autres",
+    "name_en": "Others",
+    "name_de": "Andere",
+    "color": "#CDCCCD",
+    "currents": [
+      {
+        "name": "Autres",
+        "name_en": "Others",
+        "name_de": "Andere",
+        "color": "#CDCCCD",
+        "keyword": "Indépendant (politique)",
+        "parties": [
+          {
+            "name": "Autres",
+            "full_name": "Autres",
+            "full_name_en": "Others",
+            "full_name_de": "Andere",
+            "keyword": "Indépendant (politique)"
           }
         ]
       }
