@@ -29,6 +29,14 @@
         "keyword": "Socialisme démocratique",
         "parties": [
           {
+            "name": "ADAV",
+            "full_name": "Association générale des travailleurs allemands",
+            "full_name_en": "General Association of German Workers",
+            "full_name_de": "Allgemeiner Deutscher Arbeiterverein",
+            "keyword": "Association générale des travailleurs allemands",
+            "period": "1863-1875"
+          },
+          {
             "name": "USPD",
             "full_name": "Parti social-démocrate indépendant d'Allemagne",
             "full_name_en": "Independent Social Democratic Party of Germany",
@@ -83,6 +91,22 @@
         "keyword": "Social-démocratie",
         "parties": [
           {
+            "name": "SDAP",
+            "full_name": "Parti ouvrier social-démocrate",
+            "full_name_en": "Social Democratic Workers' Party of Germany",
+            "full_name_de": "Sozialdemokratische Arbeiterpartei",
+            "keyword": "Parti ouvrier social-démocrate (Allemagne)",
+            "period": "1869-1875"
+          },
+          {
+            "name": "SAP",
+            "full_name": "Parti socialiste ouvrier d'Allemagne",
+            "full_name_en": "Socialist Workers' Party of Germany",
+            "full_name_de": "Sozialistische Arbeiterpartei Deutschlands",
+            "keyword": "Parti socialiste ouvrier d'Allemagne (1875)",
+            "period": "1875-1890"
+          },
+          {
             "name": "SPD",
             "full_name": "Parti social-démocrate d'Allemagne",
             "full_name_en": "Social Democratic Party of Germany",
@@ -107,6 +131,14 @@
         "keyword": "Social-libéralisme",
         "parties": [
           {
+            "name": "DtVP",
+            "full_name": "Parti populaire allemand",
+            "full_name_en": "German People's Party",
+            "full_name_de": "Deutsche Volkspartei",
+            "keyword": "Parti populaire allemand (Empire allemand)",
+            "period": "1868-1910"
+          },
+          {
             "name": "DDP",
             "full_name": "Parti démocrate allemand",
             "full_name_en": "German Democratic Party",
@@ -125,12 +157,78 @@
         ]
       },
       {
+        "name": "Social-libéral protestant",
+        "name_en": "Protestant social-liberal",
+        "name_de": "Sozialliberaler Protestant",
+        "color": "#FEDA80",
+        "keyword": "Social-libéralisme",
+        "parties": [
+          {
+            "name": "NSV",
+            "full_name": "Association nationale-sociale",
+            "full_name_en": "National-Social Association",
+            "full_name_de": "Nationalsozialer Verein",
+            "keyword": "Association nationale-sociale",
+            "period": "1896-1903"
+          }
+        ]
+      },
+      {
+        "name": "Radical-libéral",
+        "name_en": "Radical-liberal",
+        "name_de": "Radikale-liberale",
+        "color": "#FED264",
+        "keyword": "Radical-libéral",
+        "parties": [
+          {
+            "name": "DFP",
+            "full_name": "Parti progressiste allemand",
+            "full_name_en": "German Progress Party",
+            "full_name_de": "Deutsche Fortschrittspartei",
+            "keyword": "Parti progressiste allemand",
+            "period": "1861-1884"
+          },
+          {
+            "name": "DFP ",
+            "full_name": "Parti radical allemand",
+            "full_name_en": "German Free-minded Party",
+            "full_name_de": "Deutsche Freisinnige Partei",
+            "keyword": "Parti radical allemand",
+            "period": "1884-1893"
+          },
+          {
+            "name": "FVp",
+            "full_name": "Parti populaire radical",
+            "full_name_en": "Free-minded People's Party",
+            "full_name_de": "Freisinnige Volkspartei",
+            "keyword": "Parti populaire radical",
+            "period": "1893-1910"
+          },
+          {
+            "name": "FVP",
+            "full_name": "Parti populaire progressiste",
+            "full_name_en": "Progressive People's Party",
+            "full_name_de": "Fortschrittliche Volkspartei",
+            "keyword": "Parti populaire progressiste (Empire allemand)",
+            "period": "1910-1918"
+          }
+        ]
+      },
+      {
         "name": "Minorité danoise",
         "name_en": "Danish minority",
         "name_de": "Dänische Minderheit",
         "color": "#FECD05",
         "keyword": "Danois d'Allemagne",
         "parties": [
+          {
+            "name": "DP ",
+            "full_name": "Parti danois",
+            "full_name_en": "Danish Party",
+            "full_name_de": "Dänische Partei",
+            "keyword": "Danish Party",
+            "period": "1871-1919"
+          },
           {
             "name": "SSW",
             "full_name": "Fédération des électeurs du Schleswig du Sud",
@@ -141,10 +239,174 @@
         ]
       },
       {
+        "name": "Indépendant polonais",
+        "name_en": "Polish independent",
+        "name_de": "Sonstige Polen",
+        "color": "#FFE698",
+        "keyword": "Parti polonais",
+        "parties": [
+          {
+            "name": "SP",
+            "full_name": "Indépendant polonais",
+            "full_name_en": "Polish independent",
+            "full_name_de": "Sonstige Polen",
+            "keyword": "Parti polonais"
+          }
+        ]
+      },
+      {
+        "name": "Minorité polonaise",
+        "name_en": "Polish minority",
+        "name_de": "Polnische Minderheit",
+        "color": "#FFDD72",
+        "keyword": "Parti polonais",
+        "parties": [
+          {
+            "name": "PF",
+            "full_name": "Parti polonais",
+            "full_name_en": "Polish Party",
+            "full_name_de": "Polnische Fraktion",
+            "keyword": "Parti polonais",
+            "period": "1848-1903"
+          },
+          {
+            "name": "PNDP",
+            "full_name": "Parti national-démocrate polonais",
+            "full_name_en": "National Democrat Polish Party",
+            "full_name_de": "Polnische Nationaldemokratische Partei",
+            "keyword": "Polnische Nationaldemokratische Partei",
+            "period": "1903-1924"
+          }
+        ]
+      },
+      {
+        "name": "Nationaliste polonais",
+        "name_en": "Polish Nationalist",
+        "name_de": "Polnischer Nationalist",
+        "color": "#FED85F",
+        "keyword": "Parti polonais",
+        "parties": [
+          {
+            "name": "PNP",
+            "full_name": "Parti national polonais",
+            "full_name_en": "Polish National Party",
+            "full_name_de": "Polnische Nationalpartei",
+            "keyword": "Parti polonais",
+            "period": "1903-1912"
+          }
+        ]
+      },
+      {
+        "name": "Catholique polonais",
+        "name_en": "Polish catholic",
+        "name_de": "Polnischer Katholik",
+        "color": "#FED44B",
+        "keyword": "Parti polonais",
+        "parties": [
+          {
+            "name": "PKP",
+            "full_name": "Parti catholique polonais",
+            "full_name_en": "Polish Catholic Party",
+            "full_name_de": "Polnische Katholische Partei",
+            "keyword": "Polnische Katholische Partei",
+            "period": "1907-1918"
+          }
+        ]
+      },
+      {
+        "name": "Cour polonaise",
+        "name_en": "Polish Court",
+        "name_de": "Polnische Hofpartei",
+        "color": "#FCCD2F",
+        "keyword": "Parti polonais",
+        "parties": [
+          {
+            "name": "PHP",
+            "full_name": "Parti de la cour polonaise",
+            "full_name_en": "Polish Court Party",
+            "full_name_de": "Polnische Hofpartei",
+            "keyword": "Hofpartei",
+            "period": "1890-1918"
+          }
+        ]
+      },
+      {
+        "name": "Libéral danois",
+        "name_en": "Danish liberal",
+        "name_de": "Dänische Liberalen",
+        "color": "#E6B650",
+        "keyword": "Libéral danois",
+        "parties": [
+          {
+            "name": "LSHP",
+            "full_name": "Particularistes libéraux du Schleswig-Holstein",
+            "full_name_en": "Schleswig-Holstein Particularist Liberals",
+            "full_name_de": "Liberale Schleswig-Holsteinische Partikularisten"
+          }
+        ]
+      },
+      {
+        "name": "Lituanien",
+        "name_en": "Lithuanian",
+        "name_de": "Litauer",
+        "color": "#FFCD01",
+        "keyword": "Klaipėda",
+        "parties": [
+          {
+            "name": "LP",
+            "full_name": "Parti lituanien",
+            "full_name_en": "Lithuanian Party",
+            "full_name_de": "Litauische Partei",
+            "keyword": "Klaipėda"
+          }
+        ]
+      },
+      {
+        "name": "Libéral indépendant",
+        "name_en": "Independent Liberal",
+        "name_de": "Sonstige Liberale",
+        "color": "#EEDC82",
+        "keyword": "Libéralisme",
+        "parties": [
+          {
+            "name": "SL",
+            "full_name": "Libéraux indépendants",
+            "full_name_en": "Independent Liberals",
+            "full_name_de": "Sonstige Liberale",
+            "keyword": "Libéralisme"
+          }
+        ]
+      },
+      {
+        "name": "Libéral",
+        "name_en": "Liberal",
+        "name_de": "Liberale",
+        "color": "#FFA500",
+        "keyword": "Libéralisme",
+        "parties": [
+          {
+            "name": "LV",
+            "full_name": "Union libérale",
+            "full_name_en": "Liberal Union",
+            "full_name_de": "Liberale Vereinigung",
+            "keyword": "Union libérale (Empire allemand)",
+            "period": "1880-1884"
+          },
+          {
+            "name": "FVg",
+            "full_name": "Union radicale",
+            "full_name_en": "Free-minded Union",
+            "full_name_de": "Freisinnige Vereinigung",
+            "keyword": "Union radicale",
+            "period": "1893-1910"
+          }
+        ]
+      },
+      {
         "name": "Démocratie chrétienne",
         "name_en": "Christian democracy",
         "name_de": "Christliche Demokratie",
-        "color": "#FED264",
+        "color": "#FBC408",
         "keyword": "Démocratie chrétienne",
         "parties": [
           {
@@ -198,10 +460,10 @@
         ]
       },
       {
-        "name": "Agrariste",
-        "name_en": "Agrarist",
-        "name_de": "Agrarish",
-        "color": "#55A696",
+        "name": "Agrariste bavarois",
+        "name_en": "Bavarian agrarist",
+        "name_de": "Bayerischer Agrarist",
+        "color": "#8DC2B8",
         "keyword": "Agrarisme",
         "parties": [
           {
@@ -211,6 +473,23 @@
             "full_name_de": "Bayerischer Bauernbund",
             "keyword": "Bavarian Peasants' League",
             "period": "1893-1928"
+          }
+        ]
+      },
+      {
+        "name": "Agrariste",
+        "name_en": "Agrarist",
+        "name_de": "Agrarish",
+        "color": "#55A696",
+        "keyword": "Agrarisme",
+        "parties": [
+          {
+            "name": "DBB",
+            "full_name": "Ligue des paysans allemands",
+            "full_name_en": "German Peasants' League",
+            "full_name_de": "Deutsche Bauernbund",
+            "keyword": "Deutscher Bauernbund (1909–1927)",
+            "period": "1909-1927"
           },
           {
             "name": "DBP",
@@ -231,18 +510,19 @@
     "color": "#33ADFF",
     "currents": [
       {
-        "name": "Libéral-conservateur",
-        "name_en": "Liberal-conservative",
-        "name_de": "Liberal-konservativ",
-        "color": "#70C2FF",
-        "keyword": "libéral-conservatisme",
+        "name": "National-libéral progressiste",
+        "name_en": "Progressive National-Liberal",
+        "name_de": "Progressiver Nationalliberaler",
+        "color": "#7BC7FF",
+        "keyword": "Wilhelm Loewe",
         "parties": [
           {
-            "name": "FDP",
-            "full_name": "Parti libéral-démocrate",
-            "full_name_en": "Free Democratic Party",
-            "full_name_de": "Freie Demokratische Partei",
-            "keyword": "Parti libéral-démocrate (Allemagne)"
+            "name": "LBG",
+            "full_name": "Groupe Loewe-Berger",
+            "full_name_en": "Loewe-Berger Group",
+            "full_name_de": "Gruppe Löwe–Berger",
+            "keyword": "Wilhelm Loewe",
+            "period": "1874-1881"
           }
         ]
       },
@@ -253,6 +533,14 @@
         "color": "#33ADFF",
         "keyword": "National-libéralisme",
         "parties": [
+          {
+            "name": "NLP",
+            "full_name": "Parti National-libéral",
+            "full_name_en": "National Liberal Party",
+            "full_name_de": "Nationalliberale Partei",
+            "keyword": "Parti national-libéral (Allemagne)",
+            "period": "1866-1918"
+          },
           {
             "name": "DVP",
             "full_name": "Parti populaire allemand",
@@ -271,6 +559,78 @@
         ]
       },
       {
+        "name": "Libéral-impérial",
+        "name_en": "Imperial Liberal",
+        "name_de": "Imperial Liberal",
+        "keyword": "National-libéralisme",
+        "color": "#C3C31A",
+        "parties": [
+          {
+            "name": "LRP",
+            "full_name": "Parti libéral impérial",
+            "full_name_en": "Imperial Liberal Party",
+            "full_name_de": "Liberale Reichspartei",
+            "keyword": "Parti libéral impérial",
+            "period": "1871-1874"
+          },
+          {
+            "name": "GSV",
+            "full_name": "Groupe Schauss-Völk",
+            "full_name_en": "Schauss-Völk group",
+            "full_name_de": "Gruppe Schauß-Völk",
+            "keyword": "Parti libéral impérial",
+            "period": "1881"
+          }
+        ]
+      },
+      {
+        "name": "Libéral-conservateur",
+        "name_en": "Liberal-conservative",
+        "name_de": "Liberal-konservativ",
+        "color": "#96D2FF",
+        "keyword": "libéral-conservatisme",
+        "parties": [
+          {
+            "name": "FKP",
+            "full_name": "Parti conservateur libre",
+            "full_name_en": "Free Conservative Party",
+            "full_name_de": "Freikonservative Partei",
+            "keyword": "Parti conservateur libre",
+            "period": "1866-1871"
+          },
+          {
+            "name": "DRP",
+            "full_name": "Parti du Reich allemand",
+            "full_name_en": "German Reich Party",
+            "full_name_de": "Deutsche Reichspartei",
+            "keyword": "Parti conservateur libre",
+            "period": "1871-1918"
+          },
+          {
+            "name": "FDP",
+            "full_name": "Parti libéral-démocrate",
+            "full_name_en": "Free Democratic Party",
+            "full_name_de": "Freie Demokratische Partei",
+            "keyword": "Parti libéral-démocrate (Allemagne)"
+          }
+        ]
+      },
+      {
+        "name": "Conservateur indépendant",
+        "name_en": "Independent Conservative",
+        "name_de": "Sonstige Konservative",
+        "color": "#70C2FF",
+        "keyword": "Divers droite",
+        "parties": [
+          {
+            "name": "SK",
+            "full_name": "Conservateurs indépendants",
+            "full_name_en": "Independent Conservatives",
+            "full_name_de": "Sonstige Konservative"
+          }
+        ]
+      },
+      {
         "name": "Conservateur",
         "name_en": "Conservative",
         "name_de": "Konservativ",
@@ -278,12 +638,20 @@
         "keyword": "Conservatisme",
         "parties": [
           {
-            "name": "CSVD",
-            "full_name": "Service populaire chrétien-social",
-            "full_name_en": "Christian Social People's Service",
-            "full_name_de": "Christlich-Sozialer Volksdienst",
-            "keyword": "Service populaire chrétien-social",
-            "period": "1929-1933"
+            "name": "KP",
+            "full_name": "Parti conservateur",
+            "full_name_en": "Conservative Party",
+            "full_name_de": "Konservative Partei",
+            "keyword": "Parti conservateur (royaume de Prusse)",
+            "period": "1848-1876"
+          },
+          {
+            "name": "DKP",
+            "full_name": "Parti conservateur allemand",
+            "full_name_en": "German Conservative Party",
+            "full_name_de": "Deutsche Konservative Partei",
+            "keyword": "Parti conservateur allemand",
+            "period": "1876-1918"
           },
           {
             "name": "CDU/CSU",
@@ -291,6 +659,31 @@
             "full_name_en": "Christian Democratic Union of Germany/Christian Social Union in Bavaria",
             "full_name_de": "Christlich-Demokratische Union Deutschlands/Christlich-Soziale Union in Bayern",
             "keyword": "CDU/CSU"
+          }
+        ]
+      },
+      {
+        "name": "Protestant-conservateur",
+        "name_en": "Protestant conservative",
+        "name_de": "protestantisch-konservative",
+        "color": "#3E8ED4",
+        "keyword": "Protestantisme",
+        "parties": [
+          {
+            "name": "CSP",
+            "full_name": "Parti chrétien-social",
+            "full_name_en": "Christian Social Party",
+            "full_name_de": "Christlich–soziale Partei",
+            "keyword": "Parti chrétien-social (Empire allemand)",
+            "period": "1878-1918"
+          },
+          {
+            "name": "CSVD",
+            "full_name": "Service populaire chrétien-social",
+            "full_name_en": "Christian Social People's Service",
+            "full_name_de": "Christlich-Sozialer Volksdienst",
+            "keyword": "Service populaire chrétien-social",
+            "period": "1929-1933"
           }
         ]
       },
@@ -319,6 +712,13 @@
         "keyword": "Corporatisme",
         "parties": [
           {
+            "name": "MittP",
+            "full_name": "Partis de la classe moyenne",
+            "full_name_en": "Middle Class parties",
+            "full_name_de": "Parteien der Mittelklasse",
+            "period": "1890-1912"
+          },
+          {
             "name": "WP",
             "full_name": "Parti économique",
             "full_name_en": "Economic Party",
@@ -342,6 +742,31 @@
             "full_name_de": "Konservative Volkspartei",
             "keyword": "Parti populaire conservateur (république de Weimar)",
             "period": "1929-1933"
+          }
+        ]
+      },
+      {
+        "name": "Conservateur agraire",
+        "name_en": "Agrarian conservative",
+        "name_de": "Agrarconservativer",
+        "color": "#8AB6B8",
+        "keyword": "Agrarisme",
+        "parties": [
+          {
+            "name": "BdL",
+            "full_name": "Fédération des agriculteurs",
+            "full_name_en": "Agrarian League",
+            "full_name_de": "Bund der Landwirte",
+            "keyword": "Fédération des agriculteurs",
+            "period": "1893-1921"
+          },
+          {
+            "name": "CNBL",
+            "full_name": "Parti chrétien-national des paysans et des fermiers",
+            "full_name_en": "Christian-National Peasants' and Farmers' Party",
+            "full_name_de": "Christlich-Nationale Bauern- und Landvolkpartei",
+            "keyword": "Parti chrétien-national des paysans et des fermiers",
+            "period": "1928-1932"
           }
         ]
       },
@@ -393,23 +818,6 @@
         ]
       },
       {
-        "name": "Conservateur agraire",
-        "name_en": "Agrarian conservative",
-        "name_de": "Agrarconservativer",
-        "color": "#8AB6B8",
-        "keyword": "Agrarisme",
-        "parties": [
-          {
-            "name": "CNBL",
-            "full_name": "Parti chrétien-national des paysans et des fermiers",
-            "full_name_en": "Christian-National Peasants' and Farmers' Party",
-            "full_name_de": "Christlich-Nationale Bauern- und Landvolkpartei",
-            "keyword": "Parti chrétien-national des paysans et des fermiers",
-            "period": "1928-1932"
-          }
-        ]
-      },
-      {
         "name": "National-conservateur agraire",
         "name_en": "Agrarian national-conservative",
         "name_de": "Agrarnationaler Konservativer",
@@ -417,8 +825,8 @@
         "keyword": "National-conservatisme",
         "parties": [
           {
-            "name": "LB",
-            "full_name": "Ligue agricole",
+            "name": "RLB",
+            "full_name": "Fédération agricole du Reich",
             "full_name_en": "Agricultural League",
             "full_name_de": "Reichs-Landbund",
             "keyword": "Fédération rurale du Reich",
@@ -472,6 +880,64 @@
             "full_name_de": "Der Stahlhelm, Bund der Frontsoldaten",
             "keyword": "Stahlhelm",
             "period": "1918-1933"
+          }
+        ]
+      },
+      {
+        "name": "Antisémite réformateur",
+        "name_en": "Anti-Semitic reformer",
+        "name_de": "Reformator-Antisemit",
+        "color": "#B4A092",
+        "keyword": "Antisémitisme #Antisémitisme politique",
+        "parties": [
+          {
+            "name": "AS",
+            "full_name": "Antisémite indédendant",
+            "full_name_en": "Independent anti-semitic",
+            "full_name_de": "Unabhängiger Antisemit",
+            "keyword": "Otto Böckel",
+            "period": "1887-1890"
+          },
+          {
+            "name": "AVP",
+            "full_name": "Parti populaire antisémite",
+            "full_name_en": "Antisemitic People's Party",
+            "full_name_de": "Antisemitische Volkspartei",
+            "keyword": "Parti allemand de la réforme",
+            "period": "1890-1893, 1895-1903"
+          },
+          {
+            "name": "DRefP",
+            "full_name": "Parti allemand de la réforme",
+            "full_name_en": "German Reform Party",
+            "full_name_de": "Deutsche Reformpartei",
+            "keyword": "Parti allemand de la réforme",
+            "period": "1893-1894, 1900-1914"
+          }
+        ]
+      },
+      {
+        "name": "Nationaliste antisémite",
+        "name_en": "Anti-Semitic nationalist",
+        "name_de": "Antisemitischer Nationalist",
+        "color": "#91735C",
+        "keyword": "Antisémitisme #Antisémitisme politique",
+        "parties": [
+          {
+            "name": "DSP",
+            "full_name": "Parti social allemand",
+            "full_name_en": "German Social Party",
+            "full_name_de": "Deutschsoziale Partei",
+            "keyword": "Parti social allemand (Empire allemand)",
+            "period": "1889-1894, 1900-1914"
+          },
+          {
+            "name": "DSRP",
+            "full_name": "Parti social allemand de la réforme",
+            "full_name_en": "German Social Reform Party",
+            "full_name_de": "Deutschsoziale Reformpartei",
+            "keyword": "Parti social allemand de la réforme",
+            "period": "1894-1900"
           }
         ]
       },

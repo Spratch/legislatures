@@ -1,5 +1,1169 @@
 [
   {
+    "name": "Empire allemand",
+    "name_en": "German Empire",
+    "name_de": "Deutsches Reich",
+    "begin": "1871-01-18",
+    "end": "1918-11-09",
+    "legislatures": [
+      {
+        "legislature": 1871.03,
+        "total_deputies": 382,
+        "begin": "1871-03-03",
+        "end": "1874-01-10",
+        "parties": [
+          {
+            "name": "ADAV",
+            "deputies": 0
+          },
+          {
+            "name": "SDAP",
+            "deputies": 1
+          },
+          {
+            "name": "DtVP",
+            "deputies": 1
+          },
+          {
+            "name": "DFP",
+            "deputies": 45
+          },
+          {
+            "name": "SL",
+            "deputies": 5
+          },
+          {
+            "name": "DP ",
+            "deputies": 1
+          },
+          {
+            "name": "PF",
+            "deputies": 13
+          },
+          {
+            "name": "LSHP",
+            "deputies": 2
+          },
+          {
+            "name": "Z",
+            "deputies": 61
+          },
+          {
+            "name": "DHP",
+            "deputies": 7
+          },
+          {
+            "name": "NLP",
+            "deputies": 117
+          },
+          {
+            "name": "LRP",
+            "deputies": 35
+          },
+          {
+            "name": "DRP",
+            "deputies": 37
+          },
+          {
+            "name": "SK",
+            "deputies": 1
+          },
+          {
+            "name": "KP",
+            "deputies": 56
+          }
+        ],
+        "source": ["https://en.wikipedia.org/wiki/1871_German_federal_election"]
+      },
+      {
+        "legislature": 1874.01,
+        "total_deputies": 397,
+        "begin": "1874-01-10",
+        "end": "1877-01-10",
+        "parties": [
+          {
+            "name": "ADAV",
+            "deputies": 3
+          },
+          {
+            "name": "SDAP",
+            "deputies": 7
+          },
+          {
+            "name": "DtVP",
+            "deputies": 1
+          },
+          {
+            "name": "DFP",
+            "deputies": 48
+          },
+          {
+            "name": "SL",
+            "deputies": 4
+          },
+          {
+            "name": "DP ",
+            "deputies": 1
+          },
+          {
+            "name": "PF",
+            "deputies": 14
+          },
+          {
+            "name": "LSHP",
+            "deputies": 0
+          },
+          {
+            "name": "Z",
+            "deputies": 91
+          },
+          {
+            "name": "DHP",
+            "deputies": 4
+          },
+          { "name": "LBG", "deputies": 0 },
+          {
+            "name": "NLP",
+            "deputies": 147
+          },
+          {
+            "name": "LRP",
+            "deputies": 8
+          },
+          {
+            "name": "DRP",
+            "deputies": 32
+          },
+          {
+            "name": "SK",
+            "deputies": 1
+          },
+          {
+            "name": "KP",
+            "deputies": 21
+          },
+          {
+            "name": "Alsace-Lorraine parties",
+            "deputies": 15
+          }
+        ],
+        "source": ["https://en.wikipedia.org/wiki/1874_German_federal_election"]
+      },
+      {
+        "legislature": 1877.01,
+        "total_deputies": 397,
+        "begin": "1877-01-10",
+        "end": "1878-07-30",
+        "parties": [
+          {
+            "name": "ADAV",
+            "deputies": 0
+          },
+          {
+            "name": "SAP",
+            "deputies": 13
+          },
+          {
+            "name": "DtVP",
+            "deputies": 4
+          },
+          {
+            "name": "DFP",
+            "deputies": 34
+          },
+          {
+            "name": "SL",
+            "deputies": 5
+          },
+          {
+            "name": "DP ",
+            "deputies": 1
+          },
+          {
+            "name": "PF",
+            "deputies": 14
+          },
+          {
+            "name": "Z",
+            "deputies": 93
+          },
+          {
+            "name": "DHP",
+            "deputies": 4
+          },
+          {
+            "name": "LBG",
+            "deputies": 9
+          },
+          {
+            "name": "NLP",
+            "deputies": 127
+          },
+          {
+            "name": "LRP",
+            "deputies": 0
+          },
+          {
+            "name": "DRP",
+            "deputies": 38
+          },
+          {
+            "name": "SK",
+            "deputies": 0
+          },
+          {
+            "name": "DKP",
+            "deputies": 40
+          },
+          {
+            "name": "Alsace-Lorraine Parties",
+            "deputies": 15
+          }
+        ],
+        "source": ["https://en.wikipedia.org/wiki/1877_German_federal_election"]
+      },
+      {
+        "legislature": 1878.07,
+        "total_deputies": 397,
+        "begin": "1878-07-30",
+        "end": "1881-10-27",
+        "parties": [
+          {
+            "name": "SAP",
+            "deputies": 9
+          },
+          {
+            "name": "DtVP",
+            "deputies": 3
+          },
+          {
+            "name": "DFP",
+            "deputies": 26
+          },
+          {
+            "name": "SL",
+            "deputies": 7
+          },
+          {
+            "name": "DP ",
+            "deputies": 1
+          },
+          {
+            "name": "PF",
+            "deputies": 14
+          },
+          {
+            "name": "Z",
+            "deputies": 94
+          },
+          {
+            "name": "DHP",
+            "deputies": 10
+          },
+          {
+            "name": "LV",
+            "deputies": 0
+          },
+          {
+            "name": "LBG",
+            "deputies": 5
+          },
+          {
+            "name": "NLP",
+            "deputies": 97
+          },
+          {
+            "name": "GSV",
+            "deputies": 0
+          },
+          {
+            "name": "DRP",
+            "deputies": 57
+          },
+          {
+            "name": "SK",
+            "deputies": 0
+          },
+          {
+            "name": "DKP",
+            "deputies": 59
+          },
+          {
+            "name": "Alsace-Lorraine parties",
+            "deputies": 15
+          }
+        ],
+        "source": ["https://en.wikipedia.org/wiki/1878_German_federal_election"]
+      },
+      {
+        "legislature": 1881.1,
+        "total_deputies": 397,
+        "begin": "1881-10-27",
+        "end": "1884-10-28",
+        "parties": [
+          {
+            "name": "SPD",
+            "deputies": 13
+          },
+          {
+            "name": "DtVP",
+            "deputies": 9
+          },
+          {
+            "name": "DFP",
+            "deputies": 58
+          },
+          {
+            "name": "SL",
+            "deputies": 1
+          },
+          {
+            "name": "DP ",
+            "deputies": 2
+          },
+          {
+            "name": "PF",
+            "deputies": 18
+          },
+          {
+            "name": "Z",
+            "deputies": 100
+          },
+          {
+            "name": "DHP",
+            "deputies": 10
+          },
+          {
+            "name": "LV",
+            "deputies": 48
+          },
+          { "name": "LBG", "deputies": 0 },
+          {
+            "name": "NLP",
+            "deputies": 45
+          },
+          {
+            "name": "GSV",
+            "deputies": 1
+          },
+          {
+            "name": "DRP",
+            "deputies": 27
+          },
+          {
+            "name": "DKP",
+            "deputies": 50
+          },
+          {
+            "name": "Alsace-Lorraine parties",
+            "deputies": 15
+          }
+        ],
+        "source": ["https://en.wikipedia.org/wiki/1881_German_federal_election"]
+      },
+      {
+        "legislature": 1884.1,
+        "total_deputies": 397,
+        "begin": "1884-10-28",
+        "end": "1887-02-21",
+        "parties": [
+          {
+            "name": "SPD",
+            "deputies": 24
+          },
+          {
+            "name": "DtVP",
+            "deputies": 7
+          },
+          {
+            "name": "DFP ",
+            "deputies": 66
+          },
+          {
+            "name": "SL",
+            "deputies": 2
+          },
+          {
+            "name": "DP ",
+            "deputies": 1
+          },
+          {
+            "name": "PF",
+            "deputies": 16
+          },
+          {
+            "name": "Z",
+            "deputies": 99
+          },
+          {
+            "name": "DHP",
+            "deputies": 11
+          },
+          {
+            "name": "LV",
+            "deputies": 0
+          },
+          {
+            "name": "NLP",
+            "deputies": 50
+          },
+          {
+            "name": "GSV",
+            "deputies": 0
+          },
+          {
+            "name": "DRP",
+            "deputies": 28
+          },
+          {
+            "name": "DKP",
+            "deputies": 78
+          },
+          { "name": "AS", "deputies": 0 },
+          {
+            "name": "Alsace-Lorraine parties",
+            "deputies": 15
+          }
+        ],
+        "source": ["https://en.wikipedia.org/wiki/1884_German_federal_election"]
+      },
+      {
+        "legislature": 1887.02,
+        "total_deputies": 397,
+        "begin": "1887-02-21",
+        "end": "1890-02-20",
+        "parties": [
+          {
+            "name": "SPD",
+            "deputies": 11
+          },
+          {
+            "name": "DtVP",
+            "deputies": 0
+          },
+          {
+            "name": "DFP ",
+            "deputies": 32
+          },
+          {
+            "name": "SL",
+            "deputies": 3
+          },
+          {
+            "name": "DP ",
+            "deputies": 1
+          },
+          {
+            "name": "PF",
+            "deputies": 13
+          },
+          {
+            "name": "PHP",
+            "deputies": 0
+          },
+          {
+            "name": "Z",
+            "deputies": 98
+          },
+          {
+            "name": "DHP",
+            "deputies": 4
+          },
+          {
+            "name": "NLP",
+            "deputies": 98,
+            "coalition": "Partis du cartel",
+            "coalition_en": "Cartel parties",
+            "coalition_de": "Kartellparteien"
+          },
+          {
+            "name": "DRP",
+            "deputies": 41,
+            "coalition": "Partis du cartel",
+            "coalition_en": "Cartel parties",
+            "coalition_de": "Kartellparteien"
+          },
+          {
+            "name": "DKP",
+            "deputies": 80,
+            "coalition": "Partis du cartel",
+            "coalition_en": "Cartel parties",
+            "coalition_de": "Kartellparteien"
+          },
+          {
+            "name": "AS",
+            "deputies": 1
+          },
+          {
+            "name": "DSP",
+            "deputies": 0
+          },
+          {
+            "name": "Alsace-Lorraine parties",
+            "deputies": 15
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1887_German_federal_election",
+          "https://wahlen-in-deutschland.de/krtw.htm",
+          "https://fr.wikipedia.org/wiki/Partis_du_cartel",
+          "https://de.wikipedia.org/wiki/Otto_B%C3%B6ckel"
+        ]
+      },
+      {
+        "legislature": 1890.02,
+        "total_deputies": 397,
+        "begin": "1890-02-20",
+        "end": "1893-06-15",
+        "parties": [
+          {
+            "name": "SPD",
+            "deputies": 35
+          },
+          {
+            "name": "DtVP",
+            "deputies": 10
+          },
+          {
+            "name": "DFP ",
+            "deputies": 67
+          },
+          {
+            "name": "SL",
+            "deputies": 4
+          },
+          {
+            "name": "DP ",
+            "deputies": 1
+          },
+          {
+            "name": "PF",
+            "deputies": 11
+          },
+          {
+            "name": "PHP",
+            "deputies": 5
+          },
+          {
+            "name": "Z",
+            "deputies": 107
+          },
+          {
+            "name": "DHP",
+            "deputies": 11
+          },
+          { "name": "FVg", "deputies": 0 },
+          { "name": "BBB", "deputies": 0 },
+          {
+            "name": "NLP",
+            "deputies": 38
+          },
+          {
+            "name": "DRP",
+            "deputies": 19
+          },
+          {
+            "name": "SK",
+            "deputies": 0
+          },
+          {
+            "name": "DKP",
+            "deputies": 71
+          },
+          {
+            "name": "AVP",
+            "deputies": 4
+          },
+          {
+            "name": "DSP",
+            "deputies": 1
+          },
+          {
+            "name": "Alsace-Lorraine parties",
+            "deputies": 14
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1890_German_federal_election",
+          "https://wahlen-in-deutschland.de/krtw.htm",
+          "https://de.wikipedia.org/wiki/Reichstagswahl_1890"
+        ]
+      },
+      {
+        "legislature": 1893.06,
+        "total_deputies": 397,
+        "begin": "1893-06-15",
+        "end": "1898-06-16",
+        "parties": [
+          {
+            "name": "SPD",
+            "deputies": 44
+          },
+          {
+            "name": "DtVP",
+            "deputies": 11
+          },
+          {
+            "name": "FVp",
+            "deputies": 24
+          },
+          {
+            "name": "SL",
+            "deputies": 2
+          },
+          {
+            "name": "DP ",
+            "deputies": 1
+          },
+          {
+            "name": "PF",
+            "deputies": 14
+          },
+          {
+            "name": "SP",
+            "deputies": 0
+          },
+          {
+            "name": "PHP",
+            "deputies": 5
+          },
+          {
+            "name": "LP",
+            "deputies": 0
+          },
+          {
+            "name": "Z",
+            "deputies": 96
+          },
+          {
+            "name": "DHP",
+            "deputies": 7
+          },
+          {
+            "name": "FVg",
+            "deputies": 13
+          },
+          {
+            "name": "BBB",
+            "deputies": 3
+          },
+          {
+            "name": "NLP",
+            "deputies": 51
+          },
+          {
+            "name": "DRP",
+            "deputies": 28
+          },
+          {
+            "name": "SK",
+            "deputies": 3
+          },
+          {
+            "name": "DKP",
+            "deputies": 69
+          },
+          {
+            "name": "CSP",
+            "deputies": 0
+          },
+          {
+            "name": "BdL",
+            "deputies": 0
+          },
+          {
+            "name": "DRefP",
+            "deputies": 14
+          },
+          {
+            "name": "DSP",
+            "deputies": 2
+          },
+          {
+            "name": "Alsace-Lorraine parties",
+            "deputies": 9
+          },
+          {
+            "name": "Alsatian Liberals",
+            "deputies": 1
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1893_German_federal_election",
+          "https://wahlen-in-deutschland.de/krtw.htm",
+          "https://de.wikipedia.org/wiki/Leonhard_Hilpert"
+        ]
+      },
+      {
+        "legislature": 1898.06,
+        "total_deputies": 397,
+        "begin": "1898-06-16",
+        "end": "1903-06-16",
+        "parties": [
+          {
+            "name": "SPD",
+            "deputies": 56
+          },
+          {
+            "name": "DtVP",
+            "deputies": 8
+          },
+          {
+            "name": "NSV",
+            "deputies": 0
+          },
+          {
+            "name": "FVp",
+            "deputies": 29
+          },
+          {
+            "name": "SL",
+            "deputies": 3
+          },
+          {
+            "name": "DP ",
+            "deputies": 1
+          },
+          {
+            "name": "PNDP",
+            "deputies": 0
+          },
+          {
+            "name": "SP",
+            "deputies": 8
+          },
+          {
+            "name": "PNP",
+            "deputies": 0
+          },
+          {
+            "name": "PHP",
+            "deputies": 4
+          },
+          {
+            "name": "LP",
+            "deputies": 1
+          },
+          {
+            "name": "Z",
+            "deputies": 102
+          },
+          {
+            "name": "DHP",
+            "deputies": 9
+          },
+          {
+            "name": "FVg",
+            "deputies": 12
+          },
+          {
+            "name": "BBB",
+            "deputies": 5
+          },
+          {
+            "name": "NLP",
+            "deputies": 48
+          },
+          {
+            "name": "DRP",
+            "deputies": 22
+          },
+          {
+            "name": "SK",
+            "deputies": 3
+          },
+          {
+            "name": "DKP",
+            "deputies": 53
+          },
+          {
+            "name": "CSP",
+            "deputies": 1
+          },
+          {
+            "name": "BdL",
+            "deputies": 6
+          },
+          {
+            "name": "AVP",
+            "deputies": 2
+          },
+          {
+            "name": "DSRP",
+            "deputies": 10
+          },
+          {
+            "name": "Alsace-Lorraine parties",
+            "deputies": 11
+          },
+          {
+            "name": "Alsatian liberals",
+            "deputies": 1
+          },
+          {
+            "name": "Alsace Liberal Group",
+            "deputies": 0
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1898_German_federal_election",
+          "https://wahlen-in-deutschland.de/krtw.htm",
+          "https://de.wikipedia.org/wiki/Leonhard_Hilpert"
+        ]
+      },
+      {
+        "legislature": 1903.06,
+        "total_deputies": 397,
+        "begin": "1903-06-16",
+        "end": "1907-01-25",
+        "parties": [
+          {
+            "name": "SPD",
+            "deputies": 81
+          },
+          {
+            "name": "DtVP",
+            "deputies": 5
+          },
+          {
+            "name": "NSV",
+            "deputies": 1
+          },
+          {
+            "name": "FVp",
+            "deputies": 21
+          },
+          {
+            "name": "SL",
+            "deputies": 0
+          },
+          {
+            "name": "DP ",
+            "deputies": 1
+          },
+          {
+            "name": "PNDP",
+            "deputies": 5
+          },
+          {
+            "name": "SP",
+            "deputies": 8
+          },
+          {
+            "name": "PNP",
+            "deputies": 1
+          },
+          { "name": "PKP", "deputies": 0 },
+          {
+            "name": "PHP",
+            "deputies": 2
+          },
+          {
+            "name": "LP",
+            "deputies": 0
+          },
+          {
+            "name": "Z",
+            "deputies": 100
+          },
+          {
+            "name": "DHP",
+            "deputies": 7
+          },
+          {
+            "name": "FVg",
+            "deputies": 8
+          },
+          {
+            "name": "BBB",
+            "deputies": 3
+          },
+          {
+            "name": "NLP",
+            "deputies": 50
+          },
+          {
+            "name": "DRP",
+            "deputies": 21
+          },
+          {
+            "name": "SK",
+            "deputies": 1
+          },
+          {
+            "name": "DKP",
+            "deputies": 52
+          },
+          {
+            "name": "CSP",
+            "deputies": 2
+          },
+          {
+            "name": "MittP",
+            "deputies": 0
+          },
+          {
+            "name": "BdL",
+            "deputies": 5
+          },
+          {
+            "name": "DRefP",
+            "deputies": 6
+          },
+          {
+            "name": "DSP",
+            "deputies": 3
+          },
+          {
+            "name": "Alsace-Lorraine parties",
+            "deputies": 11
+          },
+          {
+            "name": "Alsatian liberals",
+            "deputies": 2
+          },
+          {
+            "name": "Alsace Liberal Group",
+            "deputies": 1
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1903_German_federal_election",
+          "https://wahlen-in-deutschland.de/krtw.htm",
+          "https://de.wikipedia.org/wiki/Leonhard_Hilpert"
+        ]
+      },
+      {
+        "legislature": 1907.01,
+        "total_deputies": 397,
+        "begin": "1907-01-25",
+        "end": "1912-01-12",
+        "parties": [
+          {
+            "name": "SPD",
+            "deputies": 43
+          },
+          {
+            "name": "DtVP",
+            "deputies": 7
+          },
+          {
+            "name": "NSV",
+            "deputies": 0
+          },
+          {
+            "name": "FVp",
+            "deputies": 29
+          },
+          {
+            "name": "SL",
+            "deputies": 3
+          },
+          {
+            "name": "DP ",
+            "deputies": 1
+          },
+          {
+            "name": "PNDP",
+            "deputies": 4
+          },
+          {
+            "name": "SP",
+            "deputies": 10
+          },
+          {
+            "name": "PNP",
+            "deputies": 1
+          },
+          {
+            "name": "PKP",
+            "deputies": 3
+          },
+          {
+            "name": "PHP",
+            "deputies": 2
+          },
+          {
+            "name": "Z",
+            "deputies": 101
+          },
+          {
+            "name": "DHP",
+            "deputies": 2
+          },
+          {
+            "name": "FVg",
+            "deputies": 14
+          },
+          {
+            "name": "BBB",
+            "deputies": 1
+          },
+          { "name": "DBB", "deputies": 0 },
+          {
+            "name": "NLP",
+            "deputies": 56
+          },
+          {
+            "name": "DRP",
+            "deputies": 24
+          },
+          {
+            "name": "SK",
+            "deputies": 0
+          },
+          {
+            "name": "DKP",
+            "deputies": 59
+          },
+          {
+            "name": "CSP",
+            "deputies": 3
+          },
+          {
+            "name": "MittP",
+            "deputies": 2
+          },
+          {
+            "name": "BdL",
+            "deputies": 7
+          },
+          {
+            "name": "DRefP",
+            "deputies": 6
+          },
+          {
+            "name": "DSP",
+            "deputies": 8
+          },
+          {
+            "name": "Alsace-Lorraine parties",
+            "deputies": 11
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1907_German_federal_election",
+          "https://wahlen-in-deutschland.de/krtw.htm",
+          "https://de.wikipedia.org/wiki/Leonhard_Hilpert"
+        ]
+      },
+      {
+        "legislature": 1912.01,
+        "total_deputies": 397,
+        "begin": "1912-01-12",
+        "end": "1912-01-12",
+        "parties": [
+          { "name": "USPD", "deputies": 0 },
+          {
+            "name": "SPD",
+            "deputies": 110
+          },
+          { "name": "DtVP", "deputies": 0 },
+          {
+            "name": "FVP",
+            "deputies": 42
+          },
+          { "name": "SL", "deputies": 0 },
+          {
+            "name": "DP ",
+            "deputies": 1
+          },
+          {
+            "name": "PNDP",
+            "deputies": 3
+          },
+          {
+            "name": "SP",
+            "deputies": 10
+          },
+          { "name": "PNP", "deputies": 0 },
+          {
+            "name": "PKP",
+            "deputies": 4
+          },
+          {
+            "name": "PHP",
+            "deputies": 1
+          },
+          {
+            "name": "Z",
+            "deputies": 90
+          },
+          {
+            "name": "DHP",
+            "deputies": 5
+          },
+          { "name": "FVg", "deputies": 0 },
+          {
+            "name": "BBB",
+            "deputies": 2,
+            "coalition": "NLP/DBB/BBB",
+            "coalition_en": "NLP/DBB/BBB",
+            "coalition_de": "NLP/DBB/BBB"
+          },
+          {
+            "name": "DBB",
+            "deputies": 2,
+            "coalition": "NLP/DBB/BBB",
+            "coalition_en": "NLP/DBB/BBB",
+            "coalition_de": "NLP/DBB/BBB"
+          },
+          {
+            "name": "NLP",
+            "deputies": 45,
+            "coalition": "NLP/DBB/BBB",
+            "coalition_en": "NLP/DBB/BBB",
+            "coalition_de": "NLP/DBB/BBB"
+          },
+          {
+            "name": "DRP",
+            "deputies": 14
+          },
+          {
+            "name": "SK",
+            "deputies": 4
+          },
+          {
+            "name": "DKP",
+            "deputies": 41
+          },
+          {
+            "name": "CSP",
+            "deputies": 3
+          },
+          {
+            "name": "MittP",
+            "deputies": 0
+          },
+          {
+            "name": "BdL",
+            "deputies": 5
+          },
+          { "name": "DNVP", "deputies": 0 },
+          {
+            "name": "DRefP",
+            "deputies": 3
+          },
+          {
+            "name": "DSP",
+            "deputies": 3
+          },
+          {
+            "name": "Alsace-Lorraine parties",
+            "deputies": 9
+          }
+        ],
+        "source": [
+          "https://en.wikipedia.org/wiki/1912_German_federal_election",
+          "https://wahlen-in-deutschland.de/krtw.htm",
+          "https://de.wikipedia.org/wiki/Carl_Laux",
+          "https://de.wikipedia.org/wiki/Heinrich_Hestermann",
+          "https://de.wikipedia.org/wiki/Andreas_Kerschbaum"
+        ]
+      }
+    ]
+  },
+  {
     "name": "République de Weimar",
     "name_en": "Weimar Republic",
     "name_de": "Weimarer Republik",
@@ -33,6 +1197,15 @@
             "deputies": 76
           },
           {
+            "name": "FVP",
+            "deputies": 0
+          },
+          { "name": "DP ", "deputies": 0 },
+          { "name": "PNDP", "deputies": 0 },
+          { "name": "SP", "deputies": 0 },
+          { "name": "PKP", "deputies": 0 },
+          { "name": "PHP", "deputies": 0 },
+          {
             "name": "Z",
             "deputies": 91
           },
@@ -48,13 +1221,27 @@
             "name": "BBB",
             "deputies": 4
           },
+          { "name": "DBB", "deputies": 0 },
           {
             "name": "DVP",
             "deputies": 19
           },
+          { "name": "DRP", "deputies": 0 },
+          { "name": "SK", "deputies": 0 },
+          { "name": "DKP", "deputies": 0 },
+          { "name": "CSP", "deputies": 0 },
+          { "name": "BdL", "deputies": 0 },
           {
             "name": "DNVP",
             "deputies": 45
+          },
+          {
+            "name": "DRefP",
+            "deputies": 0
+          },
+          {
+            "name": "DSP",
+            "deputies": 0
           }
         ],
         "source": [
@@ -112,7 +1299,7 @@
             "deputies": 0
           },
           {
-            "name": "LB",
+            "name": "RLB",
             "deputies": 0
           },
           {
@@ -183,7 +1370,7 @@
             "deputies": 7
           },
           {
-            "name": "LB",
+            "name": "RLB",
             "deputies": 10
           },
           {
@@ -254,7 +1441,7 @@
             "deputies": 0
           },
           {
-            "name": "LB",
+            "name": "RLB",
             "deputies": 8
           },
           {
@@ -337,7 +1524,7 @@
             "deputies": 9
           },
           {
-            "name": "LB",
+            "name": "RLB",
             "deputies": 0
           },
           {
@@ -416,7 +1603,7 @@
             "deputies": 19
           },
           {
-            "name": "LB",
+            "name": "RLB",
             "deputies": 3
           },
           {
@@ -495,7 +1682,7 @@
             "deputies": 1
           },
           {
-            "name": "LB",
+            "name": "RLB",
             "deputies": 2
           },
           {
@@ -571,7 +1758,7 @@
             "deputies": 0
           },
           {
-            "name": "LB",
+            "name": "RLB",
             "deputies": 2
           },
           {
@@ -652,7 +1839,7 @@
             "deputies": 0
           },
           {
-            "name": "LB",
+            "name": "RLB",
             "deputies": 1,
             "coalition": "Front de lutte noir-blanc-rouge",
             "coalition_en": "Black-White-Red Struggle Front",
@@ -730,7 +1917,7 @@
             "deputies": 0
           },
           {
-            "name": "LB",
+            "name": "RLB",
             "deputies": 0
           },
           {
