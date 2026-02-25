@@ -297,6 +297,40 @@
         ]
       },
       {
+        "name": "Autonomiste alsacien",
+        "name_en": "Alsacian autonomist",
+        "name_de": "Elsässische Autonomist",
+        "color": "#E7BF1F",
+        "keyword": "Alsace-Lorraine",
+        "parties": [
+          {
+            "name": "ELA",
+            "full_name": "Autonomistes d'Alsace-Lorraine",
+            "full_name_en": "Alsace-Lorraine autonomists",
+            "full_name_de": "Elsässische Autonomisten",
+            "keyword": "Alsace-Lorraine",
+            "period": "1877-?"
+          }
+        ]
+      },
+      {
+        "name": "Alsacien protestataire",
+        "name_en": "Alsacian protester",
+        "name_de": "Elsässische Protestpartei",
+        "color": "#D7BB33",
+        "keyword": "Alsace-Lorraine",
+        "parties": [
+          {
+            "name": "ELP",
+            "full_name": "Parti d'Alsace-Lorraine",
+            "full_name_en": "Alsace-Lorraine Party",
+            "full_name_de": "Elsass-Lothringen Partei",
+            "keyword": "Parti d'Alsace-Lorraine",
+            "period": "1874-1918"
+          }
+        ]
+      },
+      {
         "name": "Catholique polonais",
         "name_en": "Polish catholic",
         "name_de": "Polnischer Katholik",
@@ -342,6 +376,31 @@
             "full_name": "Particularistes libéraux du Schleswig-Holstein",
             "full_name_en": "Schleswig-Holstein Particularist Liberals",
             "full_name_de": "Liberale Schleswig-Holsteinische Partikularisten"
+          }
+        ]
+      },
+      {
+        "name": "Lorrain",
+        "name_en": "Lorrain",
+        "name_de": "Lothringen",
+        "color": "#E0BD28",
+        "keyword": "Alsace-Lorraine",
+        "parties": [
+          {
+            "name": "BL",
+            "full_name": "Bloc Lorrain",
+            "full_name_en": "Lorrain Bloc",
+            "full_name_de": " Lothringische Bund",
+            "keyword": "Alsace-Lorraine",
+            "period": "?-1907"
+          },
+          {
+            "name": "PLI",
+            "full_name": "Parti Lorrain Indépendant",
+            "full_name_en": "Independent Lorrain Party",
+            "full_name_de": "Unabhängige Lothringische Partei",
+            "keyword": "Alsace-Lorraine",
+            "period": "1907-1918"
           }
         ]
       },
@@ -403,8 +462,40 @@
         ]
       },
       {
+        "name": "Démocratie chrétienne en Alsace-Lorraine",
+        "name_en": "Alsace-Lorraine Christian Democraty",
+        "name_de": "Elsaß-Lothringische Christliche Demokratie",
+        "color": "#EAC01C",
+        "keyword": "Démocratie chrétienne",
+        "parties": [
+          {
+            "name": "PCA",
+            "full_name": "Parti Catholique Alsacien",
+            "full_name_en": "Alsace-Lorraine Catholic Party",
+            "full_name_de": "Elsaß-Lothringische Katholische Partei",
+            "keyword": "Alsace-Lorraine"
+          },
+          {
+            "name": "ELL",
+            "full_name": "Parti régional d'Alsace-Lorraine",
+            "full_name_en": "Alsace-Lorraine Regional Party",
+            "full_name_de": "Elsaß-Lothringische Landespartei",
+            "keyword": "Alsace-Lorraine",
+            "period": "1898/1903-1906"
+          },
+          {
+            "name": "ELZ",
+            "full_name": "Parti du centre d'Alsace-Lorraine",
+            "full_name_en": "Alsace-Lorraine Center Party",
+            "full_name_de": "Elsaß-Lothringische Zentrumspartei",
+            "keyword": "Alsace-Lorraine",
+            "period": "1906-1918"
+          }
+        ]
+      },
+      {
         "name": "Démocratie chrétienne",
-        "name_en": "Christian democracy",
+        "name_en": "Christian Democracy",
         "name_de": "Christliche Demokratie",
         "color": "#FBC408",
         "keyword": "Démocratie chrétienne",
@@ -446,7 +537,7 @@
         "name": "Fédéraliste hanovrien",
         "name_en": "Hanoverian Federalist",
         "name_de": "Hannoveraner Föderalist",
-        "color": "#BF8D37",
+        "color": "#FFBC5D",
         "keyword": "Royaume de Hanovre",
         "parties": [
           {
@@ -456,6 +547,22 @@
             "full_name_de": "Deutsch-Hannoversche Partei",
             "keyword": "Parti allemand hanovrien",
             "period": "1867-1933"
+          }
+        ]
+      },
+      {
+        "name": "Libéral alsacien",
+        "name_en": "Alsacian liberal",
+        "name_de": "Elsässer Liberal",
+        "color": "#CEB93E",
+        "keyword": "Alsace-Lorraine",
+        "parties": [
+          {
+            "name": "EL",
+            "full_name": "Alsaciens libéraux",
+            "full_name_en": "Alsacian Liberals",
+            "full_name_de": "Elsässer Liberalen",
+            "keyword": "Alsace-Lorraine"
           }
         ]
       },

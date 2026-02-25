@@ -44,6 +44,8 @@
             "name": "LSHP",
             "deputies": 2
           },
+          { "name": "ELP", "deputies": 0 },
+          { "name": "PCA", "deputies": 0 },
           {
             "name": "Z",
             "deputies": 61
@@ -113,6 +115,15 @@
             "name": "LSHP",
             "deputies": 0
           },
+          { "name": "ELA", "deputies": 0 },
+          {
+            "name": "ELP",
+            "deputies": 6
+          },
+          {
+            "name": "PCA",
+            "deputies": 9
+          },
           {
             "name": "Z",
             "deputies": 91
@@ -141,10 +152,6 @@
           {
             "name": "KP",
             "deputies": 21
-          },
-          {
-            "name": "Alsace-Lorraine parties",
-            "deputies": 15
           }
         ],
         "source": ["https://en.wikipedia.org/wiki/1874_German_federal_election"]
@@ -184,6 +191,18 @@
             "deputies": 14
           },
           {
+            "name": "ELA",
+            "deputies": 5
+          },
+          {
+            "name": "ELP",
+            "deputies": 7
+          },
+          {
+            "name": "PCA",
+            "deputies": 3
+          },
+          {
             "name": "Z",
             "deputies": 93
           },
@@ -214,10 +233,6 @@
           {
             "name": "DKP",
             "deputies": 40
-          },
-          {
-            "name": "Alsace-Lorraine Parties",
-            "deputies": 15
           }
         ],
         "source": ["https://en.wikipedia.org/wiki/1877_German_federal_election"]
@@ -251,6 +266,18 @@
           {
             "name": "PF",
             "deputies": 14
+          },
+          {
+            "name": "ELA",
+            "deputies": 4
+          },
+          {
+            "name": "ELP",
+            "deputies": 6
+          },
+          {
+            "name": "PCA",
+            "deputies": 5
           },
           {
             "name": "Z",
@@ -287,10 +314,6 @@
           {
             "name": "DKP",
             "deputies": 59
-          },
-          {
-            "name": "Alsace-Lorraine parties",
-            "deputies": 15
           }
         ],
         "source": ["https://en.wikipedia.org/wiki/1878_German_federal_election"]
@@ -302,7 +325,7 @@
         "end": "1884-10-28",
         "parties": [
           {
-            "name": "SPD",
+            "name": "SAP",
             "deputies": 13
           },
           {
@@ -324,6 +347,18 @@
           {
             "name": "PF",
             "deputies": 18
+          },
+          {
+            "name": "ELA",
+            "deputies": 1
+          },
+          {
+            "name": "ELP",
+            "deputies": 10
+          },
+          {
+            "name": "PCA",
+            "deputies": 4
           },
           {
             "name": "Z",
@@ -353,10 +388,6 @@
           {
             "name": "DKP",
             "deputies": 50
-          },
-          {
-            "name": "Alsace-Lorraine parties",
-            "deputies": 15
           }
         ],
         "source": ["https://en.wikipedia.org/wiki/1881_German_federal_election"]
@@ -368,7 +399,7 @@
         "end": "1887-02-21",
         "parties": [
           {
-            "name": "SPD",
+            "name": "SAP",
             "deputies": 24
           },
           {
@@ -390,6 +421,18 @@
           {
             "name": "PF",
             "deputies": 16
+          },
+          {
+            "name": "ELA",
+            "deputies": 1
+          },
+          {
+            "name": "ELP",
+            "deputies": 9
+          },
+          {
+            "name": "PCA",
+            "deputies": 5
           },
           {
             "name": "Z",
@@ -419,11 +462,7 @@
             "name": "DKP",
             "deputies": 78
           },
-          { "name": "AS", "deputies": 0 },
-          {
-            "name": "Alsace-Lorraine parties",
-            "deputies": 15
-          }
+          { "name": "AS", "deputies": 0 }
         ],
         "source": ["https://en.wikipedia.org/wiki/1884_German_federal_election"]
       },
@@ -434,7 +473,7 @@
         "end": "1890-02-20",
         "parties": [
           {
-            "name": "SPD",
+            "name": "SAP",
             "deputies": 11
           },
           {
@@ -457,9 +496,18 @@
             "name": "PF",
             "deputies": 13
           },
+          { "name": "ELA", "deputies": 0 },
+          {
+            "name": "ELP",
+            "deputies": 10
+          },
           {
             "name": "PHP",
             "deputies": 0
+          },
+          {
+            "name": "PCA",
+            "deputies": 5
           },
           {
             "name": "Z",
@@ -497,10 +545,6 @@
           {
             "name": "DSP",
             "deputies": 0
-          },
-          {
-            "name": "Alsace-Lorraine parties",
-            "deputies": 15
           }
         ],
         "source": [
@@ -517,7 +561,7 @@
         "end": "1893-06-15",
         "parties": [
           {
-            "name": "SPD",
+            "name": "SAP",
             "deputies": 35
           },
           {
@@ -541,12 +585,24 @@
             "deputies": 11
           },
           {
+            "name": "ELA",
+            "deputies": 4
+          },
+          {
+            "name": "ELP",
+            "deputies": 1
+          },
+          {
             "name": "PHP",
             "deputies": 5
           },
           {
+            "name": "PCA",
+            "deputies": 9
+          },
+          {
             "name": "Z",
-            "deputies": 107
+            "deputies": 106
           },
           {
             "name": "DHP",
@@ -577,10 +633,6 @@
           {
             "name": "DSP",
             "deputies": 1
-          },
-          {
-            "name": "Alsace-Lorraine parties",
-            "deputies": 14
           }
         ],
         "source": [
@@ -608,6 +660,10 @@
             "deputies": 24
           },
           {
+            "name": "BL",
+            "deputies": 1
+          },
+          {
             "name": "SL",
             "deputies": 2
           },
@@ -618,6 +674,14 @@
           {
             "name": "PF",
             "deputies": 14
+          },
+          {
+            "name": "ELA",
+            "deputies": 1
+          },
+          {
+            "name": "ELP",
+            "deputies": 1
           },
           {
             "name": "SP",
@@ -632,12 +696,20 @@
             "deputies": 0
           },
           {
+            "name": "PCA",
+            "deputies": 6
+          },
+          {
             "name": "Z",
             "deputies": 96
           },
           {
             "name": "DHP",
             "deputies": 7
+          },
+          {
+            "name": "EL",
+            "deputies": 1
           },
           {
             "name": "FVg",
@@ -678,20 +750,13 @@
           {
             "name": "DSP",
             "deputies": 2
-          },
-          {
-            "name": "Alsace-Lorraine parties",
-            "deputies": 9
-          },
-          {
-            "name": "Alsatian Liberals",
-            "deputies": 1
           }
         ],
         "source": [
           "https://en.wikipedia.org/wiki/1893_German_federal_election",
           "https://wahlen-in-deutschland.de/krtw.htm",
-          "https://de.wikipedia.org/wiki/Leonhard_Hilpert"
+          "https://de.wikipedia.org/wiki/Leonhard_Hilpert",
+          "https://static.wixstatic.com/media/a45ec9_6dd00c8d821d4defbdd1da4573f0ade9~mv2.png/v1/crop/x_0,y_0,w_872,h_467/fill/w_872,h_457,al_c,q_90,enc_avif,quality_auto/partis%20alsaciens.png"
         ]
       },
       {
@@ -716,6 +781,7 @@
             "name": "FVp",
             "deputies": 29
           },
+          { "name": "BL", "deputies": 0 },
           {
             "name": "SL",
             "deputies": 3
@@ -728,6 +794,11 @@
             "name": "PNDP",
             "deputies": 0
           },
+          { "name": "ELA", "deputies": 0 },
+          {
+            "name": "ELP",
+            "deputies": 1
+          },
           {
             "name": "SP",
             "deputies": 8
@@ -738,11 +809,15 @@
           },
           {
             "name": "PHP",
-            "deputies": 4
+            "deputies": 6
           },
           {
             "name": "LP",
             "deputies": 1
+          },
+          {
+            "name": "ELL",
+            "deputies": 7
           },
           {
             "name": "Z",
@@ -751,6 +826,10 @@
           {
             "name": "DHP",
             "deputies": 9
+          },
+          {
+            "name": "EL",
+            "deputies": 1
           },
           {
             "name": "FVg",
@@ -770,7 +849,7 @@
           },
           {
             "name": "SK",
-            "deputies": 3
+            "deputies": 6
           },
           {
             "name": "DKP",
@@ -791,18 +870,6 @@
           {
             "name": "DSRP",
             "deputies": 10
-          },
-          {
-            "name": "Alsace-Lorraine parties",
-            "deputies": 11
-          },
-          {
-            "name": "Alsatian liberals",
-            "deputies": 1
-          },
-          {
-            "name": "Alsace Liberal Group",
-            "deputies": 0
           }
         ],
         "source": [
@@ -833,6 +900,7 @@
             "name": "FVp",
             "deputies": 21
           },
+          { "name": "PLI", "deputies": 0 },
           {
             "name": "SL",
             "deputies": 0
@@ -844,6 +912,10 @@
           {
             "name": "PNDP",
             "deputies": 5
+          },
+          {
+            "name": "ELP",
+            "deputies": 1
           },
           {
             "name": "SP",
@@ -863,12 +935,20 @@
             "deputies": 0
           },
           {
+            "name": "ELL",
+            "deputies": 6
+          },
+          {
             "name": "Z",
             "deputies": 100
           },
           {
             "name": "DHP",
             "deputies": 7
+          },
+          {
+            "name": "EL",
+            "deputies": 3
           },
           {
             "name": "FVg",
@@ -888,7 +968,7 @@
           },
           {
             "name": "SK",
-            "deputies": 1
+            "deputies": 5
           },
           {
             "name": "DKP",
@@ -913,18 +993,6 @@
           {
             "name": "DSP",
             "deputies": 3
-          },
-          {
-            "name": "Alsace-Lorraine parties",
-            "deputies": 11
-          },
-          {
-            "name": "Alsatian liberals",
-            "deputies": 2
-          },
-          {
-            "name": "Alsace Liberal Group",
-            "deputies": 1
           }
         ],
         "source": [
@@ -956,6 +1024,10 @@
             "deputies": 29
           },
           {
+            "name": "PLI",
+            "deputies": 3
+          },
+          {
             "name": "SL",
             "deputies": 3
           },
@@ -966,6 +1038,10 @@
           {
             "name": "PNDP",
             "deputies": 4
+          },
+          {
+            "name": "ELP",
+            "deputies": 1
           },
           {
             "name": "SP",
@@ -984,6 +1060,10 @@
             "deputies": 2
           },
           {
+            "name": "ELZ",
+            "deputies": 7
+          },
+          {
             "name": "Z",
             "deputies": 101
           },
@@ -991,6 +1071,7 @@
             "name": "DHP",
             "deputies": 2
           },
+          { "name": "EL", "deputies": 0 },
           {
             "name": "FVg",
             "deputies": 14
@@ -1035,10 +1116,6 @@
           {
             "name": "DSP",
             "deputies": 8
-          },
-          {
-            "name": "Alsace-Lorraine parties",
-            "deputies": 11
           }
         ],
         "source": [
@@ -1063,6 +1140,10 @@
             "name": "FVP",
             "deputies": 42
           },
+          {
+            "name": "PLI",
+            "deputies": 2
+          },
           { "name": "SL", "deputies": 0 },
           {
             "name": "DP ",
@@ -1072,6 +1153,7 @@
             "name": "PNDP",
             "deputies": 3
           },
+          { "name": "ELP", "deputies": 0 },
           {
             "name": "SP",
             "deputies": 10
@@ -1084,6 +1166,10 @@
           {
             "name": "PHP",
             "deputies": 1
+          },
+          {
+            "name": "ELZ",
+            "deputies": 7
           },
           {
             "name": "Z",
@@ -1147,10 +1233,6 @@
           {
             "name": "DSP",
             "deputies": 3
-          },
-          {
-            "name": "Alsace-Lorraine parties",
-            "deputies": 9
           }
         ],
         "source": [
@@ -1205,6 +1287,7 @@
           { "name": "SP", "deputies": 0 },
           { "name": "PKP", "deputies": 0 },
           { "name": "PHP", "deputies": 0 },
+          { "name": "ELZ", "deputies": 0 },
           {
             "name": "Z",
             "deputies": 91
