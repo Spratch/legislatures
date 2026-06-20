@@ -4,3 +4,5 @@ export enum CountryEnum {
   "ddr" = "DDR",
   "uk" = "United Kingdom"
 }
+
+export type Country = keyof typeof CountryEnum;

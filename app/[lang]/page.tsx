@@ -2,14 +2,14 @@ import CountryThumbnail from "@/components/appUi/countryThumbnail";
 import HomeSettingsLine from "@/components/appUi/settingsHome";
 import { CountryEnum } from "@/types/countriesEnum";
 import { getDictionary } from "./dictionaries";
-import { LocaleEnum } from "@/types/langsEnum";
+import { isLocale } from "./layout";
 
-export default async function Home({
-  params
-}: {
-  params: { lang: keyof typeof LocaleEnum };
-}) {
-  const dictionary = await getDictionary(params.lang);
+export default async function Home({ params }: PageProps<"/[lang]">) {
+  const { lang } = await params;
+  if (!isLocale(lang)) {
+    throw new Error(`Invalid locale: ${lang}`);
+  }
+  const dictionary = await getDictionary(lang);
   const dict = dictionary.home;
 
   const countries = Object.entries(CountryEnum).map(([key, value]) => ({

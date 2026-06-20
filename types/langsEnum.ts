@@ -3,3 +3,5 @@ export enum LocaleEnum {
   "en" = "English",
   "de" = "Deutsch"
 }
+
+export type Locale = keyof typeof LocaleEnum;
